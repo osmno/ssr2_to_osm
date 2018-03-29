@@ -442,7 +442,7 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
     csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % kommunenummer)
 
     file_util.create_dirname(log_filename)
-    add_file_handler(log_filename)
+    fh = add_file_handler(log_filename)
 
     # get xml:
     req = gentle_requests.GentleRequests()
@@ -481,6 +481,7 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
         w.writeheader()
         w.writerows(multi_names_list)
 
+    logger.removeHandler(fh)
     return osm_filename
 
 if __name__ == '__main__':

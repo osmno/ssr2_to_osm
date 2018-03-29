@@ -53,8 +53,8 @@ def tags_to_dict(table):
     output = defaultdict(dict)             # key is ssr:hovedgruppe + '-'  + ssr:type
     for row in table:
         key = ''
-        if row['ssr:hovedgruppe'] is not None:
-            key += row['ssr:hovedgruppe'].lower()
+        # if row['ssr:hovedgruppe'] is not None:
+        #     key += row['ssr:hovedgruppe'].lower()
         if row['ssr:type'] is not None:
             key += '-' + row['ssr:type'].lower()
 
@@ -62,7 +62,14 @@ def tags_to_dict(table):
         if row['tags'] is not None:
             sp = row['tags'].split(';')
             for item in sp:
-                ix_split = item.index('=')
+                item = item.strip()
+                if item == '': continue
+                
+                try:
+                    ix_split = item.index('=')
+                except ValueError:
+                    raise ValueError('equal sign not found in tag = "%s"' % item)
+                
                 tag_key, value = item[:ix_split].strip(), item[ix_split+1:].strip()
                 logger.debug('%s: "%s" = "%s"', key, tag_key, value)
                 if tag_key != '' and value != '':
@@ -84,9 +91,9 @@ def replace_tags(filename_in, conversion_dict, exclude_empty=True):
         key = ''
         ssr_hovedgruppe = None
         ssr_type = None
-        if 'ssr:hovedgruppe' in item.tags:
-            ssr_hovedgruppe = item.tags['ssr:hovedgruppe']
-            key += ssr_hovedgruppe.lower()
+        # if 'ssr:hovedgruppe' in item.tags:
+        #     ssr_hovedgruppe = item.tags['ssr:hovedgruppe']
+        #     key += ssr_hovedgruppe.lower()
         if 'ssr:type' in item.tags:
             ssr_type = item.tags['ssr:type']
             key += '-' + ssr_type.lower()
