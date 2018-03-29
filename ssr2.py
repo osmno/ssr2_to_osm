@@ -6,6 +6,7 @@ import json
 import codecs
 open = codecs.open
 import datetime
+from collections import defaultdict
 import logging
 logger = logging.getLogger('utility_to_osm.ssr2')
 
@@ -172,144 +173,87 @@ def ssr_language_to_osm_key(ssr_lang):
     else:
         return None
 
-def add_name_tags(multi_names, stedsnr, tags, language, language_priority,
-                  parsed_names, tag_key='name'):
-    # Starts by sorting out so that parsed_names only contain elements in 'language',
-    # depending on language != 'nor' or language_priority != 'nor' additional tag_key:lang keys will be added.
-    # Tag key == 'name' will be treated differently as only a single name is allowed, additional names are then added to alt_name.
-    ix = 0
-    parsed_names = list(parsed_names)
-    while ix < len(parsed_names):
-        if parsed_names[ix]['name:language'] != language:
-            del parsed_names[ix]
-        else:
-            ix += 1
+def update_lang_name_dct(dct, parsed_names, tag_key, language, lang_key):
+    """Updates the given dictionary dct with names in parsed_names that correspond to language, where
+    the dictionary keys are:
+        'name:lang1' = [list, of, names]
+        'name:lang2' = [list, of, names]
+    """
+    # fixme: class?
+    for name in parsed_names:
+        if name['name:language'] == language:
+            tag_key_lang = '%s:%s' % (tag_key, lang_key)
+            dct[tag_key_lang].append(name) # ['name']
 
-    tag_key_lang = ''
-    logger.debug('add_name_tags(tag_key=%s, language=%s, language_priority=%s',
-                 tag_key, language, language_priority)
-    if not(language == 'nor' and language_priority.startswith('nor')):
-        l = ssr_language_to_osm_key(language)
-        if l is None:
-            logger.error('unrecognized ssr language = "%s"', language)
-            return None
-        
-        tag_key_lang = '%s:%s' % (tag_key, l)
-        #print tag_key_lang
+            name['added_to_lang_dct'] = True # debug only
 
-    if tag_key != 'name' and tag_key_lang != '':
-        tag_key = '' # only use tag_key_lang
+def add_name_lang_tags(dct, tags):
+    """Using dictionary 'dct' from above function, 
+    add tags with comma seperated 'name' values to 'tags'"""
+    # fixme: class
+    for key in dct:
+        lst = list()
+        for item in dct[key]:
+            lst.append(item['name'])
+
+        assert key not in tags
+        tags[key] = ';'.join(lst)
+            
+def sorted_priority_spelling(dct, language_priority, tag_key='name'):
+    ''' Return, sorted by language_priority, a list of names where "name:priority_spelling" is True
+    '''
+    name_pri_spelling = list()
+    for lang in language_priority.split('-'):
+        lang_key = ssr_language_to_osm_key(lang)
+        tag_key_lang = '%s:%s' % (tag_key, lang_key)
+        parsed_names = dct[tag_key_lang]
+        for item in parsed_names:
+            if item['name:priority_spelling']:
+                name_pri_spelling.append(item)#['name'])
     
-    #exit(1)
+    return name_pri_spelling
 
-    def add_name_tag(tags, language, language_priority,
-                     tag_key, tag_key_lang,
-                     names):
-        logger.debug('add_name_tag(language=%s, language_priority=%s, tag_key=%s, tag_key_lang=%s,names=%s)',
-                     language, language_priority,
-                     tag_key, tag_key_lang,
-                     names)
-        if tag_key != '' and language_priority.startswith(language):
-            assert tag_key not in tags, 'Vops, tag already set tags["%s"] = "%s"' % (tag_key, tags[tag_key])
-            # simple case, language and language priority match
-            tags[tag_key] = names
-            logger.debug('add_name_tag tags[%s] = %s', tag_key, names)
-        if tag_key_lang != '':
-            # Add additional :lang key with possibly duplicate info
-            assert tag_key_lang not in tags, 'Vops, lang tag already set tags["%s"] = "%s"' % (tag_key_lang,
-                                                                                               tags[tag_key_lang].encode('utf-8'))
-            tags[tag_key_lang] = names
-            logger.debug('add_name_tag lang tags[%s] = %s', tag_key_lang, names)
+def sorted_remaining_spelling(dct, language_priority, tag_key='name'):
+    ''' Return, sorted by language_priority, a list of names without a True "added_to_name"'''
+    # fixme: shares a lot of code with above function
+    # make the nested if statement a callback
+    name_pri_spelling = list()
+    for lang in language_priority.split('-'):
+        lang_key = ssr_language_to_osm_key(lang)
+        tag_key_lang = '%s:%s' % (tag_key, lang_key)
+        parsed_names = dct[tag_key_lang]
+        for item in parsed_names:
+            if not('added_to_name' in item and item['added_to_name']):
+                name_pri_spelling.append(item)#['name'])
+    
+    return name_pri_spelling
 
-    # How many names did we get?
-    if len(parsed_names) == 0:
-        #logger.debug('no names found for language = %s and key = %s', language, tag_key)
-        pass
-    elif len(parsed_names) == 1:
-        add_name_tag(tags, language, language_priority,
-                     tag_key, tag_key_lang, parsed_names[0]['name'])
-            
-        tags['ssr:date'] = parsed_names[0]['ssr:date']
-    else:
-        multi_names[stedsnr] = parsed_names
+def handle_multiple_priority_spellings(names_pri):
+    # get a unique and sorted list of languages to look at
+    languages = list() 
+    for item in names_pri:
+        lang = item['name:language']
+        if lang not in languages:
+            languages.append(lang)
 
-        used_names = list()
+    names = []
+    for lang in languages:
+        lang_key = ssr_language_to_osm_key(lang)
+        current_lang = (lang_key, []) # fixme: named tuple
+        names.append(current_lang)
+        for item in names_pri:
+            # NOTE: not efficient, create a list in the previous loop instead
+            if lang == item['name:language']:
 
-        if tag_key == 'name':
-            # 1: find all priority spelling
-            name_pri_spelling = list()
-            for item in parsed_names:
-                if item['name:priority_spelling']:
-                    name_pri_spelling.append(item['name'])
+                item['added_to_name'] = True
+                current_lang[1].append(item)
 
-            # 1.1 How many did we get?
-            if len(name_pri_spelling) == 1: # Single item?
-                # Hurray!
-                names = name_pri_spelling[0]
-                used_names.append(name_pri_spelling[0])
-            elif len(name_pri_spelling) != 0:
-                # Vops: Multiple priority spellings
-                names = ";".join(name_pri_spelling)
-                used_names.extend(name_pri_spelling)
-                logger.error('ssr:stedsnr = %s, Adding multiple names to name tag, this is not OK! name = "%s"',
-                             tags['ssr:stedsnr'], names)
-                tags['fixme'] = 'multiple name tags, choose one and add the other to alt_name'
-            else:
-                # Vops: No priority spelling
-                #warning not error
-                names = None
-                logger.warning('ssr:stedsnr = %s: No priority spelling found, using first alt_name' % tags['ssr:stedsnr'])
+    return names
 
-            if names is not None:
-                add_name_tag(tags, language, language_priority,
-                             tag_key, tag_key_lang, names)
-
-            # 2: find all remaining names
-            alt_names = list()
-            for item in parsed_names:
-                if item['name'] not in used_names:
-                    alt_names.append(item['name'])
-
-            # 2.1 use first alt item as name if we are lacking a name
-            if language_priority.startswith(language): # 'main' language only
-                if len(alt_names) != 0 and ('name' not in tags):
-                    logger.debug('Lacking name, using alt_name. tag_key = %s, tag_key_lang = %s',
-                                 tag_key, tag_key_lang)
-                    #tags[tag_key] = alt_names[0]
-                    add_name_tag(tags, language, language_priority,
-                                 tag_key, tag_key_lang, alt_names[0])
-
-                    del alt_names[0]
-
-            # 2.1 add to alt_name
-            if len(alt_names) != 0:
-                names = ";".join(alt_names)
-                #tags['alt_' + tag_key] = names
-                tag_key_lang_alt = ''
-                if tag_key_lang != '':
-                    tag_key_lang_alt = 'alt_' + tag_key_lang
-                tag_key_alt = ''
-                if tag_key != '':
-                    tag_key_alt = 'alt_' + tag_key
-                
-                add_name_tag(tags, language, language_priority,
-                             tag_key_alt, tag_key_lang_alt, names)
-
-        else: # tag_key != 'name'
-            names = list()
-            for item in parsed_names:
-                names.append(item['name'])
-
-            names = ";".join(names)
-            #tags[tag_key] = names
-            add_name_tag(tags, language, language_priority,
-                         tag_key, tag_key_lang, names)
-    return True
-            
 def parse_geonorge(soup, create_multipoint_way=False):
     # create OSM object:
     osm = osmapis.OSM()
-    multi_names = dict()
+    #multi_names = dict()
     for entry in soup.find_all('app:sted'):
         #print 'STED', entry.prettify()
         tags = dict()
@@ -336,9 +280,9 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
         # fixme: parse ssr:navnetype and ssr:navnekategori into proper openstreetmap tag(s)
 
-        return_only = ('godkjent', 'internasjonal', 'vedtatt', 'vedtattNavneledd', 'privat', 'uvurdert')
+        return_only = (u'godkjent', u'internasjonal', u'vedtatt', u'vedtattNavneledd', u'privat', u'uvurdert')
         parsed_names = parse_stedsnavn(entry, return_only=return_only,
-                                       silently_ignore=['historisk', 'foreslått'])
+                                       silently_ignore=[u'historisk', u'foreslått'])
         if len(parsed_names) == 0:
             logger.warning('ssr:stedsnr = %s: No valid names found, skipping', stedsnr)
             continue
@@ -346,42 +290,149 @@ def parse_geonorge(soup, create_multipoint_way=False):
             language_priority = parsed_names[0]['name:language_priority'] # this is equal for all elements in parsed_names
 
         silently_ignore = list(return_only)
-        silently_ignore.append('foreslått')
-        parsed_names_historic = parse_stedsnavn(entry, return_only=['historisk'],
+        silently_ignore.append(u'foreslått')
+        parsed_names_historic = parse_stedsnavn(entry, return_only=[u'historisk'],
                                                  silently_ignore=silently_ignore)
         silently_ignore = list(return_only)
-        silently_ignore.append('historisk')
-        parsed_names_locale =    parse_stedsnavn(entry, return_only=['foreslått'],
+        silently_ignore.append(u'historisk')
+        parsed_names_locale =    parse_stedsnavn(entry, return_only=[u'foreslått'],
                                                  silently_ignore=silently_ignore)
 
         languages = find_all_languages(parsed_names, parsed_names_historic, parsed_names_locale)
+        languages = list(languages)
         if len(languages) != 1:
             logger.debug('ssr:stedsnr = %s, languages = %s', tags['ssr:stedsnr'], languages)
+        # Convert to osm keys:
+        lang_keys = map(ssr_language_to_osm_key, languages)
+
+        # Step 1) generate a dictionary, where keys are:
+        # name:lang1 = [list, of, names]
+        # name:lang2 = [list, of, names]
+        # ...
+        # Do the exact same operation on old_names and loc_names.
+        names_dct = defaultdict(list)
+        old_names_dct = defaultdict(list)
+        loc_names_dct = defaultdict(list)
+        for ix in range(len(languages)):
+            update_lang_name_dct(names_dct, parsed_names, tag_key='name',
+                                 language=languages[ix], lang_key=lang_keys[ix])
+            update_lang_name_dct(old_names_dct, parsed_names_historic, tag_key='old_name',
+                                 language=languages[ix], lang_key=lang_keys[ix])
+            update_lang_name_dct(loc_names_dct, parsed_names_locale, tag_key='loc_name',
+                                 language=languages[ix], lang_key=lang_keys[ix])
+
+        # DEBUG prints:
+        if len(names_dct) != 0:
+            logger.debug('names_dct.keys = %s', names_dct.keys())
+        if len(old_names_dct) != 0:
+            logger.debug('old_names_dct.keys = %s', old_names_dct.keys())
+        if len(loc_names_dct) != 0:
+            logger.debug('loc_names_dct.keys = %s', loc_names_dct.keys())
+        # END DEBUG
+        
+        # Step 2) Figure out name=*
+        names = list()
+        fixme = ''
+
+        # 2.1 start with priority spelling
+        names_pri = sorted_priority_spelling(names_dct, language_priority, tag_key='name')
+        names = handle_multiple_priority_spellings(names_pri)
+
+        # 2.2) Figure out alt_name
+        alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
+        
+        if len(names) == 0:        # use first alt_name if available
+            # fixme: multi language support for this case?
+            if len(alt_names_pri) != 0:
+                name = alt_names_pri[0]
+                name['added_to_name'] = True
+                del alt_names_pri[0]
+                
+                names = [(ssr_language_to_osm_key(name['name:language']), [name])]
+                logger.warning('ssr:stedsnr = %s: No priority spelling found, using first alt_name = %s',
+                               tags['ssr:stedsnr'], name['name'])
+            else:
+                logger.error('ssr:stedsnr = %s: No name found, skipping',
+                             tags['ssr:stedsnr'])
+                continue
+
+        # Create an alt_names_dct based on names_dct, fixme: merge with sorted_remaining_spelling?
+        alt_names_dct = defaultdict(list)
+        for key in names_dct:
+            alt_key = key.replace('name', 'alt_name')
+            for item in names_dct[key]:
+                if not('added_to_name' in item and item['added_to_name']):
+                    alt_names_dct[alt_key].append(item)
+            
+        # 2.3) Add tags['name']
+        # and tags['name:lang']
+        assert len(names) != 0
+        names_str = list()
+        for lang, lst in names:
+            names_str_lang = list() # one list for each language
+            for item in lst:
+                names_str_lang.append(item['name'])
+
+            s = ';'.join(names_str_lang)
+            names_str.append(s)
+            tags['name:%s' % lang] = s
+
+            if len(names_str_lang) >= 2:
+                logger.error('ssr:stedsnr = %s: Adding multiple names to name tag, this is not OK! name = "%s"',
+                             tags['ssr:stedsnr'], names)
+                fixme = 'multiple name tags, choose one and add the other to alt_name'
+
+        assert len(names_str) != 0
+        tags['name'] = ' - '.join(names_str)
+        if fixme != '':
+            tags['fixme'] = fixme
+        
+        if len(names_str) >= 2:
+            logger.info('ssr:stedsnr = %s: Multi-language name tag = %s',
+                        tags['ssr:stedsnr'], tags['name'])
+
+        # 3) Add tags loc_name:lang, old_name:lang, alt_name:lang
+        add_name_lang_tags(old_names_dct, tags)
+        add_name_lang_tags(loc_names_dct, tags)
+        add_name_lang_tags(alt_names_dct, tags)
+        
+        # 4) Remove redundant :lang keys for 'no' if priority language is 'no'
+        if language_priority.startswith('nor'):
+            for key in tags.keys():
+                if key.endswith(':no'):
+                    key_without_lang = key[:-len(':no')]
+                    if key_without_lang in tags: # do not overwrite
+                        # unless value is the same
+                        if tags[key] != tags[key_without_lang]:
+                            continue
+                    
+                    tags[key_without_lang] = tags[key]
+                    del tags[key]
+        
+        #print names
+        #exit(1)
+        
+        # if len(name_lang_lst) == 0:
+        #     name_lang_lst = 
+
+        #     name_str = ''
+        #     if len(name_lang_lst != 0): # prefer to use name_lang_lst
+        #         name_str = ' - '.join(name_lang_lst)
+        #         if len(name_lang_lst) >= 2:
+        #             logger.info('ssr:stedsnr = %s: multi-language name = "%s"',
+        #                         name_tags['ssr:stedsnr'], name_str)
+        #     else:               # simple case
+        #         name_str = name['name']
+
+        #     tags['name'] = name_str
+
+        # 2.4) Add tags['name:lang']
         
             
-        for lang in languages:
-            add_name_tags(multi_names, stedsnr, tags, language=lang, language_priority=language_priority,
-                          tag_key='name', parsed_names=parsed_names)
-            add_name_tags(multi_names, stedsnr, tags, language=lang, language_priority=language_priority,
-                          tag_key='old_name', parsed_names=parsed_names_historic)
-            add_name_tags(multi_names, stedsnr, tags, language=lang, language_priority=language_priority,
-                          tag_key='loc_name', parsed_names=parsed_names_locale)
-
-        if 'name' not in tags:
-            languages = list(languages)
-            # find first occurrence of name:xx, starting with priority language, then norwegian, then the rest
-            language_priority_sp = language_priority.split('-')
-            pri = language_priority_sp[0]
-            pri2 = 'no'
-            # we do not care if these are duplicated, as long as the priority language is first
-            languages.insert(0, pri2)
-            languages.insert(0, pri)
-
-            for lang in languages:
-                tag_key_lang = '%s:%s' % ('name', lang)
-                if tag_key_lang in tags:
-                    tags['name'] = tags[tag_key_lang]
-                    break
+        
+        # # 2.4) Add tags['alt_name:lang']
+        # if len(alt_names_pri) != 0:
+        #     tags['alt_name'] = 
         
         pos = entry.find('app:posisjon')
         positions = pos.find_all('gml:point')
@@ -415,7 +466,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
         
         osm.add(osm_element)
 
-    return osm, multi_names
+    return osm #, multi_names
 
 def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way=False):
     if not(isinstance(kommunenummer, str)):
@@ -438,8 +489,8 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
     xml_filename = os.path.join(folder, '%s-geonorge.xml' % kommunenummer)
     osm_filename = os.path.join(folder, '%s-all.osm' % kommunenummer)
     log_filename = os.path.join(folder, '%s.log' % kommunenummer)
-    json_names_filename = os.path.join(folder, '%s-multi-names.json' % kommunenummer)
-    csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % kommunenummer)
+    # json_names_filename = os.path.join(folder, '%s-multi-names.json' % kommunenummer)
+    # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % kommunenummer)
 
     file_util.create_dirname(log_filename)
     fh = add_file_handler(log_filename)
@@ -449,7 +500,7 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
     d = req.get_cached(url, xml_filename)
     # parse xml:
     soup = BeautifulSoup(d[:character_limit], 'lxml')
-    osm, multi_names = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
+    osm = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
 
     # Save result:
     # for item in osm:
@@ -459,27 +510,28 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
     #     print item
         
     osm.save(osm_filename)
-    with open(json_names_filename, 'w', 'utf-8') as f:
-        json.dump(multi_names, f)
 
-    # https://stackoverflow.com/a/10373268/1942837
-    multi_names_list = list()
-    header = set()
-    for key in multi_names.keys():
-        for row in multi_names[key]:
-            row = dict(row)
-            row['ssr:stedsnr'] = key
-            multi_names_list.append(row)
-            header = header.union(row.keys())
+    # with open(json_names_filename, 'w', 'utf-8') as f:
+    #     json.dump(multi_names, f)
 
-    header = sorted(header)
-    ix_sted = header.index('ssr:stedsnr')
-    header[0], header[ix_sted] = header[ix_sted], header[0] # swap
-    with open(csv_names_filename, 'w', 'utf-8') as f:
-        w = csv.DictWriter(f, header)
-        w.writer = UnicodeWriter(f, dialect='excel')
-        w.writeheader()
-        w.writerows(multi_names_list)
+    # # https://stackoverflow.com/a/10373268/1942837
+    # multi_names_list = list()
+    # header = set()
+    # for key in multi_names.keys():
+    #     for row in multi_names[key]:
+    #         row = dict(row)
+    #         row['ssr:stedsnr'] = key
+    #         multi_names_list.append(row)
+    #         header = header.union(row.keys())
+
+    # header = sorted(header)
+    # ix_sted = header.index('ssr:stedsnr')
+    # header[0], header[ix_sted] = header[ix_sted], header[0] # swap
+    # with open(csv_names_filename, 'w', 'utf-8') as f:
+    #     w = csv.DictWriter(f, header)
+    #     w.writer = UnicodeWriter(f, dialect='excel')
+    #     w.writeheader()
+    #     w.writerows(multi_names_list)
 
     logger.removeHandler(fh)
     return osm_filename

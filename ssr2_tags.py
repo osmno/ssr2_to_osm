@@ -56,7 +56,7 @@ def tags_to_dict(table):
         # if row['ssr:hovedgruppe'] is not None:
         #     key += row['ssr:hovedgruppe'].lower()
         if row['ssr:type'] is not None:
-            key += '-' + row['ssr:type'].lower()
+            key += row['ssr:type'].lower()
 
         tags = dict()
         if row['tags'] is not None:
@@ -96,7 +96,7 @@ def replace_tags(filename_in, conversion_dict, exclude_empty=True):
         #     key += ssr_hovedgruppe.lower()
         if 'ssr:type' in item.tags:
             ssr_type = item.tags['ssr:type']
-            key += '-' + ssr_type.lower()
+            key += ssr_type.lower()
 
         if key not in conversion_dict:
             logger.warning('ssr:hovedgruppe = %s;ssr:type = %s not found in conversion table',
