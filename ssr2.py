@@ -58,6 +58,21 @@ def parse_sortering(entry):
     sorting = viktighet1 + viktighet2
     return sorting
 
+name_status_conv = {'hovednavn': 1,
+                    'sidenavn':  2,
+                    'undernavn': 3,
+                    'feilført' : 4,
+                    'historisk': 5,
+                    'avslåttnavnevalg': 6}
+
+def name_status_to_num(name_status):
+    key = name_status.lower()
+    try:
+        return name_status_conv[key]
+    except KeyError:
+        logger.error('invalid name_status = "%s"', name_status)
+        return 10
+
 def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 'vedtattNavneledd'),
                     silently_ignore=('historisk', ), additional_tags=None):
     """
@@ -89,10 +104,14 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
 
         language = names.find('app:spr').text # FIXME: språk
         name_status = names.find('app:navnestatus').text
+        name_status_num = name_status_to_num(name_status)
         #name_case_status = names.find('app:navnesakstatus') # seems to only be 'ubehandlet'
         eksonym = names.find('app:eksonym').text
         stedsnavnnummer = names.find('app:stedsnavnnummer').text
-        
+        if name_status_num in (4, 6):
+            logger.error('Skipping name_status = "%s"', name_status)
+            continue
+            
         #print 'NAME', name.prettify()
         #FIXME: I would expect this to work, but it returns None: skrivem = names.find(u'app:skrivemåte')
         for skrivem in names.find_all('app:skrivem', recursive=False):
@@ -105,11 +124,23 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
                 tags = dict()
             else:
                 tags = dict(additional_tags) # start with the additional tags
-            
+
+            # Date
+            # Note: this date is potensially older than ssr:date, which covers the 'sted', this only covers the 'name'
+            date = skrivem.find('app:oppdateringsdato').text
+            try:
+                date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f') # to python object
+            except ValueError:
+                date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S') # to python object
+
+            date_str = date_python.strftime('%Y-%m-%d') # to string
+                
             tags['name'] = skrivem.find('app:langnavn').text
             #print skrivem.prettify()
+            tags['name:date'] = date_str
             tags['name:language'] = language
             tags['name:name_status'] = name_status
+            tags['name:name_status_num'] = name_status_num
             tags['name:eksonym'] = eksonym
             tags['name:stedsnavnnummer'] = stedsnavnnummer
             #tags['name:order'] = skrivem.find('app:rekkef').text
@@ -123,15 +154,6 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             
             tags['name:priority_spelling'] = priority_spelling
 
-            # Date:
-            date = skrivem.find('app:oppdateringsdato').text
-            try:
-                date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f') # to python object
-            except ValueError:
-                date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S') # to python object
-                
-            date_str = date_python.strftime('%Y-%m-%d') # to string
-            tags['ssr:date'] = date_str
             order_spelling = int(skrivem.find('app:skrivem').text)
             tags['name:order_spelling'] = order_spelling
 
@@ -141,15 +163,18 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             tags['name:spelling_status'] = status
             
             if status in return_only:
-                parsed_names.append((order_spelling, tags))
+                parsed_names.append((name_status_num, order_spelling, tags))
             else:
                 if not(status in silently_ignore):
                     logger.info('ignoring non approved status = "%s" name = "%s"',
                                 status, tags['name'])
             
     parsed_names_sort = sorted(parsed_names)
+    # if len(parsed_names_sort) >= 3:
+    #     print parsed_names_sort
+    #     exit(1)
     parsed_names_tags = list()
-    for order_spelling, tags in parsed_names_sort:
+    for _, _, tags in parsed_names_sort:
         parsed_names_tags.append(tags)
 
     return parsed_names_tags
@@ -200,15 +225,22 @@ def add_name_lang_tags(dct, tags):
         tags[key] = ';'.join(lst)
             
 def sorted_priority_spelling(dct, language_priority, tag_key='name'):
-    ''' Return, sorted by language_priority, a list of names where "name:priority_spelling" is True
+    ''' Return, sorted by language_priority, a list of names where "name:priority_spelling" is True,
+    where all elements have the same name_status
     '''
+    # 1) Get the lowest name_status_num
+    name_status_num_min = 6
+    for key in dct:
+        for item in dct[key]:
+            name_status_num_min = min(name_status_num_min, item['name:name_status_num'])
+    
     name_pri_spelling = list()
     for lang in language_priority.split('-'):
         lang_key = ssr_language_to_osm_key(lang)
         tag_key_lang = '%s:%s' % (tag_key, lang_key)
         parsed_names = dct[tag_key_lang]
         for item in parsed_names:
-            if item['name:priority_spelling']:
+            if item['name:priority_spelling'] and name_status_num_min == item['name:name_status_num']:
                 name_pri_spelling.append(item)#['name'])
     
     return name_pri_spelling
@@ -244,8 +276,7 @@ def handle_multiple_priority_spellings(names_pri):
         for item in names_pri:
             # NOTE: not efficient, create a list in the previous loop instead
             if lang == item['name:language']:
-
-                item['added_to_name'] = True
+                #item['added_to_name'] = True # Added later
                 current_lang[1].append(item)
 
     return names
@@ -266,12 +297,22 @@ def parse_geonorge(soup, create_multipoint_way=False):
         if active != 'aktiv':
             logger.info('ssr:stedsnr = %s not active = "%s". Skipping...', stedsnr, active)
             continue
+
+        # Date
+        date = entry.find('app:oppdateringsdato').text
+        try:
+            date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f') # to python object
+        except ValueError:
+            date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S') # to python object
+
+        date_str = date_python.strftime('%Y-%m-%d') # to string
         
         # tags['ssr:navnetype'] = entry.find('app:navneobjektgruppe').text
         # tags['ssr:navnekategori'] = entry.find('app:navneobjekthovedgruppe').text
         tags['ssr:hovedgruppe'] = entry.find('app:navneobjekthovedgruppe').text
         tags['ssr:gruppe'] = entry.find('app:navneobjektgruppe').text
         tags['ssr:type'] = entry.find('app:navneobjekttype').text
+        tags['ssr:date'] = date_str
 
         # # Sorting:
         # sortering = parse_sortering(entry)
@@ -341,28 +382,49 @@ def parse_geonorge(soup, create_multipoint_way=False):
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
         
-        if len(names) == 0:        # use first alt_name if available
-            # fixme: multi language support for this case?
+        if len(names) == 0:        # use alt_name instead if available
             if len(alt_names_pri) != 0:
-                name = alt_names_pri[0]
-                name['added_to_name'] = True
-                del alt_names_pri[0]
+                names = handle_multiple_priority_spellings(alt_names_pri)
+
+                # DEBUG:
+                names_str = list()
+                for lang, lst in names:
+                    for item in lst:
+                        names_str.append((lang, item['name']))
                 
-                names = [(ssr_language_to_osm_key(name['name:language']), [name])]
-                logger.warning('ssr:stedsnr = %s: No priority spelling found, using first alt_name = %s',
-                               tags['ssr:stedsnr'], name['name'])
+                logger.warning('ssr:stedsnr = %s: No priority spelling found, using alt_name to get "%s"',
+                               tags['ssr:stedsnr'], names_str)
+                # end DEBUG
+
+            # # fixme: multi language support for this case?
+            # if len(alt_names_pri) != 0:
+            #     name = alt_names_pri[0]
+            #     name['added_to_name'] = True
+                
+            #     names = [(ssr_language_to_osm_key(name['name:language']), [name])]
+
+            #     alt_names_pri_names = [item['name'] for item in alt_names_pri]
+            #     logger.warning('ssr:stedsnr = %s: No priority spelling found, using first alt_name = %d %s',
+            #                    tags['ssr:stedsnr'], len(alt_names_pri_names), alt_names_pri_names)
+            #     if len(alt_names_pri_names) >= 2:
+            #         for ix in range(len(alt_names_pri)):
+            #             logger.info('ssr:stedsnr = %s: alt_name[%d] = %s',
+            #                         tags['ssr:stedsnr'],
+            #                         ix, alt_names_pri[ix])
+                
+            #     del alt_names_pri[0]                
             else:
                 logger.error('ssr:stedsnr = %s: No name found, skipping',
                              tags['ssr:stedsnr'])
                 continue
 
-        # Create an alt_names_dct based on names_dct, fixme: merge with sorted_remaining_spelling?
-        alt_names_dct = defaultdict(list)
-        for key in names_dct:
-            alt_key = key.replace('name', 'alt_name')
-            for item in names_dct[key]:
-                if not('added_to_name' in item and item['added_to_name']):
-                    alt_names_dct[alt_key].append(item)
+        # # Create an alt_names_dct based on names_dct
+        # alt_names_dct = defaultdict(list)
+        # for key in names_dct:
+        #     alt_key = key.replace('name', 'alt_name')
+        #     for item in names_dct[key]:
+        #         if not('added_to_name' in item and item['added_to_name']):
+        #             alt_names_dct[alt_key].append(item)
             
         # 2.3) Add tags['name']
         # and tags['name:lang']
@@ -372,6 +434,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
             names_str_lang = list() # one list for each language
             for item in lst:
                 names_str_lang.append(item['name'])
+                item['added_to_name'] = True
 
             s = ';'.join(names_str_lang)
             names_str.append(s)
@@ -379,7 +442,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
             if len(names_str_lang) >= 2:
                 logger.error('ssr:stedsnr = %s: Adding multiple names to name tag, this is not OK! name = "%s"',
-                             tags['ssr:stedsnr'], names)
+                             tags['ssr:stedsnr'], s)
                 fixme = 'multiple name tags, choose one and add the other to alt_name'
 
         assert len(names_str) != 0
@@ -390,6 +453,15 @@ def parse_geonorge(soup, create_multipoint_way=False):
         if len(names_str) >= 2:
             logger.info('ssr:stedsnr = %s: Multi-language name tag = %s',
                         tags['ssr:stedsnr'], tags['name'])
+
+        # Create alt_name again, now that we know 'added_to_name'
+        # alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
+        alt_names_dct = defaultdict(list)
+        for key in names_dct:
+            alt_key = key.replace('name', 'alt_name')
+            for item in names_dct[key]:
+                if not('added_to_name' in item and item['added_to_name']):
+                    alt_names_dct[alt_key].append(item)
 
         # 3) Add tags loc_name:lang, old_name:lang, alt_name:lang
         add_name_lang_tags(old_names_dct, tags)
@@ -533,8 +605,8 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
     #     w.writeheader()
     #     w.writerows(multi_names_list)
 
-    logger.removeHandler(fh)
-    return osm_filename
+    #logger.removeHandler(fh)
+    return osm_filename, fh
 
 if __name__ == '__main__':
     import argparse
@@ -557,7 +629,8 @@ if __name__ == '__main__':
                         help='Do not remove special ssr: keys that we do not want to import.')
     parser.add_argument('--include_empty_tags', default=False, action='store_true',
                         help='Do not remove nodes where no corresponding osm tags are found')
-    
+
+    start_time = datetime.datetime.now()
     
     args = parser.parse_args()
     #logging.basicConfig(level=args.loglevel)
@@ -582,17 +655,21 @@ if __name__ == '__main__':
     conversion = dict()
     if not(args.not_convert_tags):
         conversion = ssr2_tags.get_conversion(excel_filename = 'data/Tagging tabell SSR2.xlsx') # fixme: as argument
-    
+
+
+    group_overview = defaultdict(list)
     for n in kommunenummer:
         print n
+        start_time_kommune = datetime.datetime.now()
         filenames_to_clean = list()
 
-        osm_filename = main(n, root=args.output, character_limit=args.character_limit,
-                            create_multipoint_way=args.create_multipoint_way)
+        osm_filename, logging_fh = main(n, root=args.output, character_limit=args.character_limit,
+                                        create_multipoint_way=args.create_multipoint_way)
         #filenames.append(osm_filename)
 
         if not(args.not_convert_tags):
-            osm_filename = ssr2_tags.replace_tags(osm_filename, conversion, exclude_empty=not(args.include_empty_tags))
+            osm_filename = ssr2_tags.replace_tags(osm_filename, conversion, include_empty=args.include_empty_tags,
+                                                  group_overview=group_overview)
             filenames_to_clean.append(osm_filename)
         else:
             filenames_to_clean.append(osm_filename)
@@ -603,7 +680,7 @@ if __name__ == '__main__':
 
         if not(args.not_remove_extra_tags):
             tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type',
-                              'ssr:sorting', 'ssr:date')
+                              'ssr:sorting') # , 'ssr:date'
             for f in filenames_to_clean:
                 print 'cleaning', f
                 content = file_util.read_file(f)
@@ -612,3 +689,30 @@ if __name__ == '__main__':
                     for key in tags_to_remove:
                         item.tags.pop(key, '')
                 osm.save(f)
+
+        end_time = datetime.datetime.now()                
+        logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
+        logger.removeHandler(logging_fh)
+        print('Elapsed time: {}'.format(end_time - start_time))
+
+    table = list()
+    for key in sorted(group_overview.keys()):
+        row = list()
+        row.extend(key.split(','))
+        for item in group_overview[key]:
+            row.append(str(item))
+        table.append(row)
+
+    header = ['hovedgruppe', 'gruppe', 'type', 'freq ' + ', '.join(args.kommune),
+              'tags']
+    for ix in range(len(header)):
+        header[ix] = 'SSR2 ' + header[ix]
+    
+    filename = os.path.join(args.output, 'group_overview.csv')
+    with open(filename, 'w', 'utf-8') as f:
+        w = UnicodeWriter(f, dialect='excel', delimiter=';')
+        w.writerow(header)
+        w.writerows(table)
+    
+    end_time = datetime.datetime.now()
+    print('Duration: {}'.format(end_time - start_time))
