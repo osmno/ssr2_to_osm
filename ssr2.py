@@ -617,6 +617,8 @@ if __name__ == '__main__':
                         help='Output root (working) directory. This tool will store files under <root>/<kommunenummer>/')
     parser.add_argument('--kommune', nargs='+', default=['ALL'], 
                         help='Specify one or more kommune (by kommune-number or kommune-name), or use the default "ALL" (slow!)')
+    parser.add_argument('--excel_tagging_conversion', default='data/Tagging tabell SSR2.xlsx',
+                        help='Specify excel conversion file, used to convert from ssr category to osm tags.')
     parser.add_argument('--character_limit', default=-1, type=int,
                         help='For quicker debugging, reduce the number of characters sent to the xml-parser, recommended --character_limit 100000 when playing around')
     parser.add_argument('--create_multipoint_way', default=False, action='store_true',
@@ -654,7 +656,7 @@ if __name__ == '__main__':
 
     conversion = dict()
     if not(args.not_convert_tags):
-        conversion = ssr2_tags.get_conversion(excel_filename = 'data/Tagging tabell SSR2.xlsx') # fixme: as argument
+        conversion = ssr2_tags.get_conversion(excel_filename = args.excel_tagging_conversion) # fixme: as argument
 
 
     group_overview = defaultdict(list)

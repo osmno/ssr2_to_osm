@@ -16,7 +16,7 @@ import openpyxl
 from ssr2_split import copy_osm_element
 
 def read_tags(filename):
-    wb = openpyxl.load_workbook(filename=filename,
+    wb = openpyxl.load_workbook(filename=filename, data_only=True,
                                 read_only=True)
     ws = wb.worksheets[0]
     rows = ws.rows
@@ -26,8 +26,8 @@ def read_tags(filename):
     #print header
     ix_hovedgruppe = header.index('SSR2 kategori')
     ix_type = header.index('SSR2 navnetype')
-    ix_tag = header.index('som tag')
-    ix_fixme = header.index('fixme')
+    ix_tag = header.index('tag')#.index('som tag')
+    #ix_fixme = header.index('fixme')
 
     output = list()
     for row in rows:
@@ -37,8 +37,8 @@ def read_tags(filename):
         tags['tags'] = row[ix_tag].value
         #tags['tags'] += row[ix_tillegg].value
         #if row[ix_fixme].value != '':
-        if row[ix_fixme].value is not None:
-            tags['tags'] += ';' + row[ix_fixme].value
+        # if row[ix_fixme].value is not None:
+        #     tags['tags'] += ';' + row[ix_fixme].value
         
         output.append(tags)
         #for item in row:
