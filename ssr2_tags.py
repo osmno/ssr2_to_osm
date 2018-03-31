@@ -79,14 +79,13 @@ def tags_to_dict(table):
         
     return dict(output)
 
-def replace_tags(filename_in, conversion_dict, include_empty=False, group_overview=None):
+def replace_tags(filename_in, 
+                 filename_out, filename_out_notTagged,
+                 conversion_dict,
+                 include_empty=False, group_overview=None):
     if group_overview is None:
         group_overview = defaultdict(list)
     
-    filename_base = filename_in.replace('.osm', '')
-    filename_out = '%s-%s.osm' % (filename_base, 'tagged')
-    filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
-
     content = file_util.read_file(filename_in)
     osm = osmapis.OSM.from_xml(content)
     osm_new = osmapis.OSM()

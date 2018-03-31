@@ -3,6 +3,8 @@
 import os
 import csv
 import json
+import glob
+import shutil
 import codecs
 open = codecs.open
 import datetime
@@ -540,32 +542,24 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
     return osm #, multi_names
 
-def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way=False):
+def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename,
+                              character_limit=-1, create_multipoint_way=False, url=None):
     if not(isinstance(kommunenummer, str)):
         raise ValueError('expected kommunenummer to be a string e.g. "0529"')
 
     # xml = file_util.read_file('ssr2_query_template.xml')
     # xml = xml.format(kommunenummer="0529")
     
-    # url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50'
+    # url = 'http://wfs.geonorgen.no/skwms1/wfs.stedsnavn50'
     # d = req.post(url, data=xml,
     #              headers={'contentType':'text/xml; charset=UTF-8',
     #                       'dataType': 'text'})
     # print d.text
     # soup = BeautifulSoup(d.text, 'lxml')
-    
-    url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml'
+
+    if url is None:
+        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml'
     url = url.format(kommunenummer=kommunenummer)
-
-    folder = os.path.join(root, kommunenummer)
-    xml_filename = os.path.join(folder, '%s-geonorge.xml' % kommunenummer)
-    osm_filename = os.path.join(folder, '%s-all.osm' % kommunenummer)
-    log_filename = os.path.join(folder, '%s.log' % kommunenummer)
-    # json_names_filename = os.path.join(folder, '%s-multi-names.json' % kommunenummer)
-    # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % kommunenummer)
-
-    file_util.create_dirname(log_filename)
-    fh = add_file_handler(log_filename)
 
     # get xml:
     req = gentle_requests.GentleRequests()
@@ -573,40 +567,10 @@ def main(kommunenummer, root='output', character_limit=-1, create_multipoint_way
     # parse xml:
     soup = BeautifulSoup(d[:character_limit], 'lxml')
     osm = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
-
     # Save result:
-    # for item in osm:
-    #     for key in item.tags:
-    #         print key,
-    #         print item.tags[key]
-    #     print item
-        
     osm.save(osm_filename)
 
-    # with open(json_names_filename, 'w', 'utf-8') as f:
-    #     json.dump(multi_names, f)
-
-    # # https://stackoverflow.com/a/10373268/1942837
-    # multi_names_list = list()
-    # header = set()
-    # for key in multi_names.keys():
-    #     for row in multi_names[key]:
-    #         row = dict(row)
-    #         row['ssr:stedsnr'] = key
-    #         multi_names_list.append(row)
-    #         header = header.union(row.keys())
-
-    # header = sorted(header)
-    # ix_sted = header.index('ssr:stedsnr')
-    # header[0], header[ix_sted] = header[ix_sted], header[0] # swap
-    # with open(csv_names_filename, 'w', 'utf-8') as f:
-    #     w = csv.DictWriter(f, header)
-    #     w.writer = UnicodeWriter(f, dialect='excel')
-    #     w.writeheader()
-    #     w.writerows(multi_names_list)
-
-    #logger.removeHandler(fh)
-    return osm_filename, fh
+    return osm
 
 if __name__ == '__main__':
     import argparse
@@ -627,8 +591,6 @@ if __name__ == '__main__':
                         help='Do not create additional osm file copies, one for each "hovedgruppe"')
     parser.add_argument('--not_convert_tags', default=False, action='store_true',
                         help='Do not create additional osm file copies where ssr:hovedgruppe and ssr:type is used to translate to osm related tags')
-    parser.add_argument('--not_remove_extra_tags', default=False, action='store_true',
-                        help='Do not remove special ssr: keys that we do not want to import.')
     parser.add_argument('--include_empty_tags', default=False, action='store_true',
                         help='Do not remove nodes where no corresponding osm tags are found')
 
@@ -660,37 +622,63 @@ if __name__ == '__main__':
 
 
     group_overview = defaultdict(list)
+    root = args.output
     for n in kommunenummer:
         print n
         start_time_kommune = datetime.datetime.now()
+
+        folder = os.path.join(root, n)
+        for f in glob.glob(os.path.join(folder, '*.osm')):
+            os.remove(f)
+
+        xml_filename = os.path.join(folder, '%s-geonorge.xml' % n)
+        osm_filename = os.path.join(folder, '%s-all.osm' % n)
+        log_filename = os.path.join(folder, '%s.log' % n)
+        # json_names_filename = os.path.join(folder, '%s-multi-names.json' % n)
+        # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
+
+        file_util.create_dirname(log_filename)
+        logging_fh = add_file_handler(log_filename)
+
+        # Go from %s-geonorge.xml to %s-all.osm
+        fetch_and_process_kommune(n, xml_filename=xml_filename,
+                                  osm_filename=osm_filename,
+                                  character_limit=args.character_limit,
+                                  create_multipoint_way=args.create_multipoint_way)
+
         filenames_to_clean = list()
-
-        osm_filename, logging_fh = main(n, root=args.output, character_limit=args.character_limit,
-                                        create_multipoint_way=args.create_multipoint_way)
-        #filenames.append(osm_filename)
-
+        # Go from %s-all.osm to %s-all-tagged.osm, removing %s-all.osm when done
         if not(args.not_convert_tags):
-            osm_filename = ssr2_tags.replace_tags(osm_filename, conversion, include_empty=args.include_empty_tags,
-                                                  group_overview=group_overview)
-            filenames_to_clean.append(osm_filename)
-        else:
-            filenames_to_clean.append(osm_filename)
-        
+            filename_base = osm_filename[:-len('.osm')]
+            filename_out = '%s-%s.osm' % (filename_base, 'tagged')
+            filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
+            filename_out_notTagged = filename_out_notTagged.replace('-all', '')
+
+            ssr2_tags.replace_tags(osm_filename,
+                                   filename_out, filename_out_notTagged,
+                                   conversion, include_empty=args.include_empty_tags,
+                                   group_overview=group_overview)
+            # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
+            # fixme: actually loop through and check this.
+            os.remove(osm_filename)
+
+            filename_out_cleaned = filename_out.replace('-all', '')
+            shutil.copy(filename_out, filename_out_cleaned)
+            filenames_to_clean.append(filename_out_cleaned)
+            
         if not(args.not_split_hovedgruppe):
-            split_filenames = ssr2_split.osm_split(osm_filename, split_key='ssr:hovedgruppe')
+            split_filenames = ssr2_split.osm_split(filename_out_cleaned, split_key='ssr:hovedgruppe')
             filenames_to_clean.extend(split_filenames)
 
-        if not(args.not_remove_extra_tags):
-            tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type',
-                              'ssr:sorting') # , 'ssr:date'
-            for f in filenames_to_clean:
-                print 'cleaning', f
-                content = file_util.read_file(f)
-                osm = osmapis.OSM.from_xml(content)
-                for item in osm:
-                    for key in tags_to_remove:
-                        item.tags.pop(key, '')
-                osm.save(f)
+        # FIXME: function
+        for filename in filenames_to_clean:
+            content = file_util.read_file(filename)
+            osm = osmapis.OSM.from_xml(content)
+            tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type')
+            for item in osm:
+                for key in tags_to_remove:
+                    item.tags.pop(key, '')
+            osm.save(filename)
 
         end_time = datetime.datetime.now()                
         logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
