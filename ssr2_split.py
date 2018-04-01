@@ -5,7 +5,7 @@ logger = logging.getLogger('utility_to_osm.ssr2_split')
 import utility_to_osm.argparse_util as argparse_util
 import utility_to_osm.file_util as file_util
 
-import osmapis
+from utility_to_osm import osmapis
 
 def copy_osm_element(osm, osm_new, item, recursion=0):
     if recursion > 100:

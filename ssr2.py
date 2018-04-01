@@ -13,7 +13,6 @@ import logging
 logger = logging.getLogger('utility_to_osm.ssr2')
 
 from bs4 import BeautifulSoup
-#import requests
 
 # Shared helper function import:
 import utility_to_osm
@@ -25,7 +24,7 @@ from utility_to_osm.kommunenummer import kommunenummer, to_kommunenr
 from utility_to_osm.csv_unicode import UnicodeWriter
 
 # third party:
-import osmapis
+from utility_to_osm import osmapis
 import pyproj
 
 # This project
@@ -565,10 +564,14 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename,
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
     # parse xml:
-    soup = BeautifulSoup(d[:character_limit], 'lxml')
+    soup = BeautifulSoup(d[:character_limit], 'lxml-xml')
     osm = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
     # Save result:
-    osm.save(osm_filename)
+    if len(osm) != 0:
+        osm.save(osm_filename)
+    else:
+        print(soup.prettify())
+        raise Exception('Empty osm result')
 
     return osm
 
@@ -660,7 +663,8 @@ if __name__ == '__main__':
                                    group_overview=group_overview)
             # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
             # fixme: actually loop through and check this.
-            os.remove(osm_filename)
+            if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
+                os.remove(osm_filename)
 
             filename_out_cleaned = filename_out.replace('-all', '')
             shutil.copy(filename_out, filename_out_cleaned)

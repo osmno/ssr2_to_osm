@@ -7,9 +7,9 @@ logger = logging.getLogger('utility_to_osm.ssr2')
 # Shared helper function import:
 import utility_to_osm.file_util as file_util
 import utility_to_osm.argparse_util as argparse_util
+from utility_to_osm import osmapis
 
 # third party
-import osmapis
 import openpyxl
 
 # this project
