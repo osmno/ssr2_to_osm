@@ -187,17 +187,20 @@ def find_all_languages(*args):
             languages.add(item['name:language'])
     return languages
 
+ssr_language_to_osm = {'nor': 'no',
+                       'smj': 'smj',
+                       'sme': 'se',
+                       'sma': 'sma',
+                       'fkv': 'fkv',
+                       'sms': 'sms',
+                       'eng': 'en',
+                       'rus': 'ru',
+                       'swe': 'sv'}
 def ssr_language_to_osm_key(ssr_lang):
-    # fixme: replace with a defaultDict with None as return.
-    ssr_language_to_osm = {'nor': 'no',
-                           'smj': 'smj',
-                           'sme': 'se',
-                           'sma': 'sma',
-                           'fkv': 'fkv'}
-    if ssr_lang in ssr_language_to_osm:
+    try:
         return ssr_language_to_osm[ssr_lang]
-    else:
-        return None
+    except KeyError:
+        raise KeyError('lang key "%s" not found in conversion dict, add appropriate iso code: http://www.loc.gov/standards/iso639-2/php/code_list.php to conversion dictionary' % ssr_lang)
 
 def update_lang_name_dct(dct, parsed_names, tag_key, language, lang_key):
     """Updates the given dictionary dct with names in parsed_names that correspond to language, where
@@ -470,7 +473,21 @@ def parse_geonorge(soup, create_multipoint_way=False):
         add_name_lang_tags(alt_names_dct, tags)
         
         # 4) Remove redundant :lang keys for 'no' if priority language is 'no'
+        # and no other :lang key is used for this place
+        lang_suffix = ssr_language_to_osm.values()
+        lang_suffic_without_no = list(lang_suffix)
+        ix = lang_suffic_without_no.index('no')
+        del lang_suffic_without_no[ix]
+        lang_suffic_without_no = tuple(lang_suffic_without_no)
+
+        multi_language = False
         if language_priority.startswith('nor'):
+            for key in tags.keys():
+                if key.endswith(lang_suffic_without_no):
+                    multi_language = True
+                    break
+
+        if language_priority.startswith('nor') and not(multi_language):
             for key in tags.keys():
                 if key.endswith(':no'):
                     key_without_lang = key[:-len(':no')]
