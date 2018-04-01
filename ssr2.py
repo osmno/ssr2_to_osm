@@ -40,10 +40,10 @@ def add_file_handler(filename='warnings.log'):
     return fh
 
 def parse_gml_point(point):
-    epsg = point['srsname']
+    epsg = point['srsName']
     projection = pyproj.Proj(init=epsg)#'epsg:%s' % srid)
     #print 'POINT', point
-    utm33 = point.find('gml:pos').text.split()
+    utm33 = point.find('pos').text.split()
     lon, lat = projection(utm33[0], utm33[1], inverse=True)
 
     gml_id = point['gml:id']
@@ -52,8 +52,8 @@ def parse_gml_point(point):
 
 def parse_sortering(entry):
     """Extract sorterings-kode from xml tags app:sortering1kode and app:sortering2kode"""
-    viktighet1 = entry.find('app:sortering1kode').text
-    viktighet2 = entry.find('app:sortering2kode').text
+    viktighet1 = entry.find('sortering1kode').text
+    viktighet2 = entry.find('sortering2kode').text
     viktighet1 = viktighet1.replace('viktighet', '')
     viktighet2 = viktighet2.replace('viktighet', '')
     sorting = viktighet1 + viktighet2
@@ -78,15 +78,15 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
                     silently_ignore=('historisk', ), additional_tags=None):
     """
      Structure seems to be
-    <app:sted>
-      <app:stedsnavn> 
-        <app:Stedsnavn> "NAME1" </app:stedsnavn>
-      </app:stedsnavn>
-      <app:stedsnavn> 
-        <app:Stedsnavn> "NAME2" </app:stedsnavn>
-      </app:stedsnavn>
-    <app:sted>
-    note the nested <app:stedsnavn><app:stedsnavn>...
+    <sted>
+      <stedsnavn> 
+        <Stedsnavn> "NAME1" </stedsnavn>
+      </stedsnavn>
+      <stedsnavn> 
+        <Stedsnavn> "NAME2" </stedsnavn>
+      </stedsnavn>
+    <sted>
+    note the nested <stedsnavn><stedsnavn>...
 
     Returns a list of dictionaries for each name, where skrivemåte is 
     in return_only, default:
@@ -95,31 +95,42 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
     """
     if additional_tags is None:
         additional_tags = dict()
-    additional_tags['name:language_priority'] = entry.find('app:spr').text # språkprioritering
+    language_priority = entry.find('språkprioritering')
+    
+    if language_priority is None:
+        language_priority = sorted(ssr_language_to_osm.keys())
+        ix_no = language_priority.index('nor')
+        # Put 'nor' first:
+        language_priority[ix_no], language_priority[0] = language_priority[0], language_priority[ix_no]
+        language_priority = '-'.join(language_priority)
+        logger.error('language priorty missing from file, inventing language_priority = %s',
+                     language_priority)
+    else:
+        language_priority = language_priority.text
+
+    additional_tags['name:language_priority'] = language_priority        
 
     parsed_names = list()
-    for names in entry.find_all('app:stedsnavn', recursive=False):
-        names_nested = names.find_all('app:stedsnavn', recursive=False)
+    for names in entry.find_all('stedsnavn', recursive=False):
+        names_nested = names.find_all('Stedsnavn', recursive=False)
         assert len(names_nested) == 1, 'Vops: expected this to only be 1 element %s' % names
         names = names_nested[0]
 
-        language = names.find('app:spr').text # FIXME: språk
-        name_status = names.find('app:navnestatus').text
+        language = names.find(u'språk').text
+        name_status = names.find('navnestatus').text
         name_status_num = name_status_to_num(name_status)
         #name_case_status = names.find('app:navnesakstatus') # seems to only be 'ubehandlet'
-        eksonym = names.find('app:eksonym').text
-        stedsnavnnummer = names.find('app:stedsnavnnummer').text
+        eksonym = names.find('eksonym').text
+        stedsnavnnummer = names.find('stedsnavnnummer').text
         if name_status_num in (4, 6):
             logger.error('Skipping name_status = "%s"', name_status)
             continue
-            
-        #print 'NAME', name.prettify()
-        #FIXME: I would expect this to work, but it returns None: skrivem = names.find(u'app:skrivemåte')
-        for skrivem in names.find_all('app:skrivem', recursive=False):
-            skrivem_nested = skrivem.find_all('app:skrivem', recursive=False)
+
+        for skrivem in names.find_all(u'skrivemåte', recursive=False):
+            skrivem_nested = skrivem.find_all(u'Skrivemåte', recursive=False)
             assert len(skrivem_nested) == 1, 'Vops: expected this to only be 1 element %s' % skrivem
             skrivem = skrivem_nested[0]
-
+            
             #print 'SKRIVEM', skrivem.prettify()
             if additional_tags is None:
                 tags = dict()
@@ -128,7 +139,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
 
             # Date
             # Note: this date is potensially older than ssr:date, which covers the 'sted', this only covers the 'name'
-            date = skrivem.find('app:oppdateringsdato').text
+            date = skrivem.find('oppdateringsdato').text
             try:
                 date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f') # to python object
             except ValueError:
@@ -136,7 +147,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
 
             date_str = date_python.strftime('%Y-%m-%d') # to string
                 
-            tags['name'] = skrivem.find('app:langnavn').text
+            tags['name'] = skrivem.find('langnavn').text
             #print skrivem.prettify()
             tags['name:date'] = date_str
             tags['name:language'] = language
@@ -145,7 +156,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             tags['name:eksonym'] = eksonym
             tags['name:stedsnavnnummer'] = stedsnavnnummer
             #tags['name:order'] = skrivem.find('app:rekkef').text
-            priority_spelling = skrivem.find('app:prioritertskrivem').text # app:prioritertSkrivemåte
+            priority_spelling = skrivem.find(u'prioritertSkrivemåte').text # app:prioritertSkrivemåte
             if priority_spelling == u'true':
                 priority_spelling = True
             elif priority_spelling == u'false':
@@ -155,12 +166,10 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             
             tags['name:priority_spelling'] = priority_spelling
 
-            order_spelling = int(skrivem.find('app:skrivem').text)
+            order_spelling = int(skrivem.find(u'skrivemåtenummer').text)
             tags['name:order_spelling'] = order_spelling
 
-            # FIXME: BUG:
-            #status = skrivem.find('app:skrivemåtestatus').text
-            status = skrivem.find_all('app:skrivem')[1].text
+            status = skrivem.find(u'skrivemåtestatus').text
             tags['name:spelling_status'] = status
             
             if status in return_only:
@@ -288,22 +297,24 @@ def handle_multiple_priority_spellings(names_pri):
 def parse_geonorge(soup, create_multipoint_way=False):
     # create OSM object:
     osm = osmapis.OSM()
+    osm_noName = osmapis.OSM()
     #multi_names = dict()
-    for entry in soup.find_all('app:sted'):
+    #print soup.prettify()
+    for entry in soup.find_all('Sted'):
         #print 'STED', entry.prettify()
         tags = dict()
         attribs = dict()
-        stedsnr = entry.find('app:stedsnummer').text
+        stedsnr = entry.find('stedsnummer').text
         tags['ssr:stedsnr'] = stedsnr
 
         # Active?
-        active = entry.find('app:stedstatus').text
+        active = entry.find('stedstatus').text
         if active != 'aktiv':
             logger.info('ssr:stedsnr = %s not active = "%s". Skipping...', stedsnr, active)
             continue
 
         # Date
-        date = entry.find('app:oppdateringsdato').text
+        date = entry.find('oppdateringsdato').text
         try:
             date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f') # to python object
         except ValueError:
@@ -311,11 +322,9 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
         date_str = date_python.strftime('%Y-%m-%d') # to string
         
-        # tags['ssr:navnetype'] = entry.find('app:navneobjektgruppe').text
-        # tags['ssr:navnekategori'] = entry.find('app:navneobjekthovedgruppe').text
-        tags['ssr:hovedgruppe'] = entry.find('app:navneobjekthovedgruppe').text
-        tags['ssr:gruppe'] = entry.find('app:navneobjektgruppe').text
-        tags['ssr:type'] = entry.find('app:navneobjekttype').text
+        tags['ssr:hovedgruppe'] = entry.find('navneobjekthovedgruppe').text
+        tags['ssr:gruppe'] = entry.find('navneobjektgruppe').text
+        tags['ssr:type'] = entry.find('navneobjekttype').text
         tags['ssr:date'] = date_str
 
         # # Sorting:
@@ -328,11 +337,6 @@ def parse_geonorge(soup, create_multipoint_way=False):
         return_only = (u'godkjent', u'internasjonal', u'vedtatt', u'vedtattNavneledd', u'privat', u'uvurdert')
         parsed_names = parse_stedsnavn(entry, return_only=return_only,
                                        silently_ignore=[u'historisk', u'foreslått'])
-        if len(parsed_names) == 0:
-            logger.warning('ssr:stedsnr = %s: No valid names found, skipping', stedsnr)
-            continue
-        else:
-            language_priority = parsed_names[0]['name:language_priority'] # this is equal for all elements in parsed_names
 
         silently_ignore = list(return_only)
         silently_ignore.append(u'foreslått')
@@ -343,6 +347,20 @@ def parse_geonorge(soup, create_multipoint_way=False):
         parsed_names_locale =    parse_stedsnavn(entry, return_only=[u'foreslått'],
                                                  silently_ignore=silently_ignore)
 
+        language_priority = None
+        if len(parsed_names) + len(parsed_names_historic) + len(parsed_names_locale) == 0:
+            logger.warning('ssr:stedsnr = %s: No valid names found, skipping', stedsnr)
+            continue
+        else:
+            # name:language_priority is equal for all elements in parsed_names
+            # but we needs to skip through and find the first non-empty list:
+            for lst in (parsed_names, parsed_names_historic, parsed_names_locale):
+                try:
+                    language_priority = lst[0]['name:language_priority'] # this is equal for all elements in parsed_names
+                    break
+                except:
+                    pass
+        
         languages = find_all_languages(parsed_names, parsed_names_historic, parsed_names_locale)
         languages = list(languages)
         if len(languages) != 1:
@@ -418,9 +436,9 @@ def parse_geonorge(soup, create_multipoint_way=False):
                 
             #     del alt_names_pri[0]                
             else:
-                logger.error('ssr:stedsnr = %s: No name found, skipping',
+                logger.error('ssr:stedsnr = %s: No name found',
                              tags['ssr:stedsnr'])
-                continue
+                #continue
 
         # # Create an alt_names_dct based on names_dct
         # alt_names_dct = defaultdict(list)
@@ -429,43 +447,46 @@ def parse_geonorge(soup, create_multipoint_way=False):
         #     for item in names_dct[key]:
         #         if not('added_to_name' in item and item['added_to_name']):
         #             alt_names_dct[alt_key].append(item)
-            
-        # 2.3) Add tags['name']
-        # and tags['name:lang']
-        assert len(names) != 0
-        names_str = list()
-        for lang, lst in names:
-            names_str_lang = list() # one list for each language
-            for item in lst:
-                names_str_lang.append(item['name'])
-                item['added_to_name'] = True
 
-            s = ';'.join(names_str_lang)
-            names_str.append(s)
-            tags['name:%s' % lang] = s
+        alt_names_dct = defaultdict(list)        
+        if len(names) == 0:
+            name_found = False
+        else:
+            name_found = True
+            # 2.3) Add tags['name']
+            # and tags['name:lang']
+            names_str = list()
+            for lang, lst in names:
+                names_str_lang = list() # one list for each language
+                for item in lst:
+                    names_str_lang.append(item['name'])
+                    item['added_to_name'] = True
 
-            if len(names_str_lang) >= 2:
-                logger.error('ssr:stedsnr = %s: Adding multiple names to name tag, this is not OK! name = "%s"',
-                             tags['ssr:stedsnr'], s)
-                fixme = 'multiple name tags, choose one and add the other to alt_name'
+                s = ';'.join(names_str_lang)
+                names_str.append(s)
+                tags['name:%s' % lang] = s
 
-        assert len(names_str) != 0
-        tags['name'] = ' - '.join(names_str)
-        if fixme != '':
-            tags['fixme'] = fixme
-        
-        if len(names_str) >= 2:
-            logger.info('ssr:stedsnr = %s: Multi-language name tag = %s',
-                        tags['ssr:stedsnr'], tags['name'])
+                if len(names_str_lang) >= 2:
+                    logger.error('ssr:stedsnr = %s: Adding multiple names to name tag, this is not OK! name = "%s"',
+                                 tags['ssr:stedsnr'], s)
+                    fixme = 'multiple name tags, choose one and add the other to alt_name'
 
-        # Create alt_name again, now that we know 'added_to_name'
-        # alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
-        alt_names_dct = defaultdict(list)
-        for key in names_dct:
-            alt_key = key.replace('name', 'alt_name')
-            for item in names_dct[key]:
-                if not('added_to_name' in item and item['added_to_name']):
-                    alt_names_dct[alt_key].append(item)
+            assert len(names_str) != 0
+            tags['name'] = ' - '.join(names_str)
+            if fixme != '':
+                tags['fixme'] = fixme
+
+            if len(names_str) >= 2:
+                logger.info('ssr:stedsnr = %s: Multi-language name tag = %s',
+                            tags['ssr:stedsnr'], tags['name'])
+
+            # Create alt_name again, now that we know 'added_to_name'
+            # alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
+            for key in names_dct:
+                alt_key = key.replace('name', 'alt_name')
+                for item in names_dct[key]:
+                    if not('added_to_name' in item and item['added_to_name']):
+                        alt_names_dct[alt_key].append(item)
 
         # 3) Add tags loc_name:lang, old_name:lang, alt_name:lang
         add_name_lang_tags(old_names_dct, tags)
@@ -499,33 +520,11 @@ def parse_geonorge(soup, create_multipoint_way=False):
                     tags[key_without_lang] = tags[key]
                     del tags[key]
         
-        #print names
-        #exit(1)
-        
-        # if len(name_lang_lst) == 0:
-        #     name_lang_lst = 
-
-        #     name_str = ''
-        #     if len(name_lang_lst != 0): # prefer to use name_lang_lst
-        #         name_str = ' - '.join(name_lang_lst)
-        #         if len(name_lang_lst) >= 2:
-        #             logger.info('ssr:stedsnr = %s: multi-language name = "%s"',
-        #                         name_tags['ssr:stedsnr'], name_str)
-        #     else:               # simple case
-        #         name_str = name['name']
-
-        #     tags['name'] = name_str
-
-        # 2.4) Add tags['name:lang']
-        
-            
-        
-        # # 2.4) Add tags['alt_name:lang']
-        # if len(alt_names_pri) != 0:
-        #     tags['alt_name'] = 
-        
-        pos = entry.find('app:posisjon')
-        positions = pos.find_all('gml:point')
+        pos = entry.find('posisjon')
+        positions = pos.find_all('Point')
+        # print pos.prettify()
+        # print positions
+        # exit(1)
         create_node = False
         if len(positions) == 0:
             logger.error('ssr:stedsnr = %s. No positions found, skipping',
@@ -553,12 +552,15 @@ def parse_geonorge(soup, create_multipoint_way=False):
             lon, lat, _ = parse_gml_point(positions[0])
             attribs['lat'], attribs['lon'] = lat, lon
             osm_element = osmapis.Node(attribs=attribs, tags=tags)
-        
-        osm.add(osm_element)
 
-    return osm #, multi_names
+        if name_found:
+            osm.add(osm_element)
+        else:
+            osm_noName.add(osm_element)
 
-def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename,
+    return osm, osm_noName
+
+def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_filename_noName,
                               character_limit=-1, create_multipoint_way=False, url=None):
     if not(isinstance(kommunenummer, str)):
         raise ValueError('expected kommunenummer to be a string e.g. "0529"')
@@ -582,14 +584,17 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename,
     d = req.get_cached(url, xml_filename)
     # parse xml:
     soup = BeautifulSoup(d[:character_limit], 'lxml-xml')
-    osm = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
+    osm, osm_noName = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
     # Save result:
     if len(osm) != 0:
         osm.save(osm_filename)
     else:
-        print(soup.prettify())
+        #print(soup.prettify())
         raise Exception('Empty osm result')
 
+    if len(osm_noName) != 0:
+        osm_noName.save(osm_filename_noName)
+    
     return osm
 
 if __name__ == '__main__':
@@ -653,6 +658,7 @@ if __name__ == '__main__':
 
         xml_filename = os.path.join(folder, '%s-geonorge.xml' % n)
         osm_filename = os.path.join(folder, '%s-all.osm' % n)
+        osm_filename_noName = os.path.join(folder, '%s-all-noName.osm' % n)
         log_filename = os.path.join(folder, '%s.log' % n)
         # json_names_filename = os.path.join(folder, '%s-multi-names.json' % n)
         # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
@@ -663,25 +669,28 @@ if __name__ == '__main__':
         # Go from %s-geonorge.xml to %s-all.osm
         fetch_and_process_kommune(n, xml_filename=xml_filename,
                                   osm_filename=osm_filename,
+                                  osm_filename_noName=osm_filename_noName,
                                   character_limit=args.character_limit,
                                   create_multipoint_way=args.create_multipoint_way)
 
         filenames_to_clean = list()
         # Go from %s-all.osm to %s-all-tagged.osm, removing %s-all.osm when done
         if not(args.not_convert_tags):
-            filename_base = osm_filename[:-len('.osm')]
-            filename_out = '%s-%s.osm' % (filename_base, 'tagged')
-            filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
-            filename_out_notTagged = filename_out_notTagged.replace('-all', '')
+            for convert_filename in (osm_filename_noName, osm_filename):
+                if os.path.exists(convert_filename):
+                    filename_base = convert_filename[:-len('.osm')]
+                    filename_out = '%s-%s.osm' % (filename_base, 'tagged')
+                    filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
+                    filename_out_notTagged = filename_out_notTagged.replace('-all', '')
 
-            ssr2_tags.replace_tags(osm_filename,
-                                   filename_out, filename_out_notTagged,
-                                   conversion, include_empty=args.include_empty_tags,
-                                   group_overview=group_overview)
-            # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
-            # fixme: actually loop through and check this.
-            if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
-                os.remove(osm_filename)
+                    ssr2_tags.replace_tags(convert_filename,
+                                           filename_out, filename_out_notTagged,
+                                           conversion, include_empty=args.include_empty_tags,
+                                           group_overview=group_overview)
+                    # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
+                    # fixme: actually loop through and check this.
+                    if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
+                        os.remove(convert_filename)
 
             filename_out_cleaned = filename_out.replace('-all', '')
             shutil.copy(filename_out, filename_out_cleaned)
