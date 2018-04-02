@@ -4,6 +4,7 @@ all: normal debug_way
 
 normal:
 	python ssr2.py --output output/ --kommune $(kommuner)
+	rsync -rt --delete output/ /Users/ob/Google\ Drive/ssr2_to_osm_data/output/
 
 debug_way:
 	python ssr2.py --output output_multi_point_as_way/ --create_multipoint_way --include_empty_tags --kommune $(kommuner)

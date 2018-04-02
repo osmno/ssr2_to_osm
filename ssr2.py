@@ -334,17 +334,19 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
         # fixme: parse ssr:navnetype and ssr:navnekategori into proper openstreetmap tag(s)
 
-        return_only = (u'godkjent', u'internasjonal', u'vedtatt', u'vedtattNavneledd', u'privat', u'uvurdert')
+        return_only = (u'godkjent', u'internasjonal', u'vedtatt', u'vedtattNavneledd', u'privat') # , u'uvurdert'
         parsed_names = parse_stedsnavn(entry, return_only=return_only,
-                                       silently_ignore=[u'historisk', u'foreslått'])
+                                       silently_ignore=[u'historisk', u'foreslått', 'uvurdert'])
 
         silently_ignore = list(return_only)
         silently_ignore.append(u'foreslått')
+        silently_ignore.append(u'uvurdert')
         parsed_names_historic = parse_stedsnavn(entry, return_only=[u'historisk'],
                                                  silently_ignore=silently_ignore)
         silently_ignore = list(return_only)
         silently_ignore.append(u'historisk')
-        parsed_names_locale =    parse_stedsnavn(entry, return_only=[u'foreslått'],
+        silently_ignore.append(u'uvurdert')
+        parsed_names_locale =    parse_stedsnavn(entry, return_only=[u'foreslått', 'uvurdert'],
                                                  silently_ignore=silently_ignore)
 
         language_priority = None
@@ -660,6 +662,11 @@ if __name__ == '__main__':
         osm_filename = os.path.join(folder, '%s-all.osm' % n)
         osm_filename_noName = os.path.join(folder, '%s-all-noName.osm' % n)
         log_filename = os.path.join(folder, '%s.log' % n)
+        output_clean_folder = os.path.join(folder, 'clean')
+        if os.path.exists(output_clean_folder):
+            shutil.rmtree(output_clean_folder)
+        os.mkdir(output_clean_folder)
+        
         # json_names_filename = os.path.join(folder, '%s-multi-names.json' % n)
         # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
 
@@ -709,6 +716,7 @@ if __name__ == '__main__':
                 for key in tags_to_remove:
                     item.tags.pop(key, '')
             osm.save(filename)
+            shutil.move(filename, output_clean_folder)
 
         end_time = datetime.datetime.now()                
         logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
