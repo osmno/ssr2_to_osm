@@ -2,7 +2,7 @@
 import json
 from collections import defaultdict
 import logging
-logger = logging.getLogger('utility_to_osm.ssr2')
+logger = logging.getLogger('utility_to_osm.ssr2_tags')
 
 # Shared helper function import:
 import utility_to_osm.file_util as file_util

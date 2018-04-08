@@ -101,7 +101,8 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
         language_priority = sorted(ssr_language_to_osm.keys())
         ix_no = language_priority.index('nor')
         # Put 'nor' first:
-        language_priority[ix_no], language_priority[0] = language_priority[0], language_priority[ix_no]
+        del language_priority[ix_no]
+        language_priority.insert(0, 'nor')
         language_priority = '-'.join(language_priority)
         logger.error('language priorty missing from file, inventing language_priority = %s',
                      language_priority)
@@ -204,7 +205,12 @@ ssr_language_to_osm = {'nor': 'no',
                        'sms': 'sms',
                        'eng': 'en',
                        'rus': 'ru',
-                       'swe': 'sv'}
+                       'swe': 'sv',
+                       'dan': 'da',
+                       'isl': 'is',
+                       'kal': 'kl',
+                       'fin': 'fi',
+                       'deu': 'de'}
 def ssr_language_to_osm_key(ssr_lang):
     try:
         return ssr_language_to_osm[ssr_lang]
@@ -581,6 +587,9 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
         url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml'
     url = url.format(kommunenummer=kommunenummer)
 
+    # url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3E{land}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml'
+    # url = url.format(land='ZZ')
+    
     # get xml:
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
@@ -662,6 +671,10 @@ if __name__ == '__main__':
         osm_filename = os.path.join(folder, '%s-all.osm' % n)
         osm_filename_noName = os.path.join(folder, '%s-all-noName.osm' % n)
         log_filename = os.path.join(folder, '%s.log' % n)
+
+        file_util.create_dirname(log_filename)
+        logging_fh = add_file_handler(log_filename)
+        
         output_clean_folder = os.path.join(folder, 'clean')
         if os.path.exists(output_clean_folder):
             shutil.rmtree(output_clean_folder)
@@ -669,9 +682,6 @@ if __name__ == '__main__':
         
         # json_names_filename = os.path.join(folder, '%s-multi-names.json' % n)
         # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
-
-        file_util.create_dirname(log_filename)
-        logging_fh = add_file_handler(log_filename)
 
         # Go from %s-geonorge.xml to %s-all.osm
         fetch_and_process_kommune(n, xml_filename=xml_filename,

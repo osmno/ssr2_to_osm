@@ -3,4 +3,5 @@ requests
 pyproj
 openpyxl
 lxml
-
+humanize
+s3cmd
