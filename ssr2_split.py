@@ -1,6 +1,6 @@
 # splits the given .osm file into seperate .osm files for each "SSR2 kategory" = ssr:hovedgruppe
 import logging
-logger = logging.getLogger('utility_to_osm.ssr2_split')
+logger = logging.getLogger('utility_to_osm.ssr2.ssr2_split')
 
 import utility_to_osm.argparse_util as argparse_util
 import utility_to_osm.file_util as file_util

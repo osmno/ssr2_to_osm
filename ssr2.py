@@ -721,7 +721,7 @@ if __name__ == '__main__':
         for filename in filenames_to_clean:
             content = file_util.read_file(filename)
             osm = osmapis.OSM.from_xml(content)
-            tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type')
+            tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type', 'ssr:date')
             for item in osm:
                 for key in tags_to_remove:
                     item.tags.pop(key, '')

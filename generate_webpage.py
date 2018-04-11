@@ -31,9 +31,9 @@ header = """
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
   <header class="inner">
-    <a id="forkme_banner" href="https://github.com/obtitus/ss2_to_osm">View on GitHub</a>
+    <a id="forkme_banner" href="https://github.com/obtitus/ssr2_to_osm">View on GitHub</a>
     <h1 id="project_title">SSR2 import to OpenStreetMap.org</h1>
-    <h2 id="project_tagline">Data files for importing norwegian placenames from Kartverket, ssr2, into openstreetmap</h2>
+    <h2 id="project_tagline">Data files for importing Norwegian placenames from Kartverket, ssr2, into OpenStreetMap</h2>
   </header>
 </div>
 """
@@ -45,6 +45,9 @@ def create_text(filename, f):
             f = f.replace('-', ' ')
             f = f.replace('tagged', '')
             f = f.replace(' .osm', '.osm')
+            f = f.strip()
+            if f == '.osm':
+                f = 'all.osm'
 
             content = file_util.read_file(filename)
             osm = osmapis.OSM.from_xml(content)
@@ -95,13 +98,11 @@ def create_main_table(data_dir='output', cache_dir='data'):
                 continue
 
             row = list()
-            row.append("%s" % fylke_name)
-            row.append("%s %s" % (kommune_nr, kommune_name))
-
             dataset_for_import = [] # expecting a single entry here
             excluded_from_import = []
             excerpts_for_import = []
             raw_data = []
+            log = []
             for root, dirs, files in os.walk(folder):
                 for f in files:
                     f = f.decode('utf8')
@@ -121,10 +122,13 @@ def create_main_table(data_dir='output', cache_dir='data'):
                         elif f.endswith('.xml'):
                             raw_data.append(url)
                         elif f.endswith('.log'):
-                            pass # FIXME: link the log
+                            log.append(url)
                         else:
                             pass # ignore
-            
+
+            row.append("%s" % fylke_name)
+            log.insert(0, "%s %s" % (kommune_nr, kommune_name))
+            row.append(log)
             row.append(dataset_for_import)
             row.append(excerpts_for_import)            
             row.append(excluded_from_import)
