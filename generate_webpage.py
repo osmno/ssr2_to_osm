@@ -89,6 +89,11 @@ def create_main_table(data_dir='output', cache_dir='data'):
                 logger.warning('Could not translate kommune_nr = %s to a name. Skipping', kommune_nr)
                 #kommune_name = 'ukjent'
                 continue
+            except ValueError as e:
+                if kommune_nr == 'ZZ':
+                    kommune_name = 'Outside mainland'
+                else:
+                    raise ValueError(e)
 
             try:
                 fylke_name = fylke_nr2name[int(kommune_nr)] + ' fylke'
@@ -96,6 +101,12 @@ def create_main_table(data_dir='output', cache_dir='data'):
                 logger.warning('Could not translate kommune_nr = %s to a fylke-name. Skipping', kommune_nr)
                 #fylke_name = 'ukjent'
                 continue
+            except ValueError:
+                if kommune_nr == 'ZZ':
+                    fylke_name = ''
+                else:
+                    raise ValueError(e)
+            
 
             row = list()
             dataset_for_import = [] # expecting a single entry here

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+import re
 import csv
 import json
 import glob
@@ -264,6 +265,31 @@ def sorted_priority_spelling(dct, language_priority, tag_key='name'):
     
     return name_pri_spelling
 
+def sort_by_priority_spelling(names, language_priority):
+    names = list(names)
+    new_lst = list()
+    for lang in language_priority.split('-'):
+        lang_key = ssr_language_to_osm_key(lang)
+        ix = 0
+        while ix < len(names):
+        #for l, item in names:
+            l, item = names[ix]
+            if l == lang_key:
+                new_lst.append((l, item))
+                del names[ix]
+            else:
+                ix += 1
+                
+    # Remaining:
+    for l, item in names:
+        logger.warning('language missing from language priority %s', l)
+        new_lst.append((l, item))
+    
+    # assert len(names) == len(new_lst), 'names = %s != new_lst = %s' % (names, new_lst)
+    # for item in names:
+    #     assert item in new_lst
+    return new_lst
+
 def sorted_remaining_spelling(dct, language_priority, tag_key='name'):
     ''' Return, sorted by language_priority, a list of names without a True "added_to_name"'''
     # fixme: shares a lot of code with above function
@@ -279,17 +305,25 @@ def sorted_remaining_spelling(dct, language_priority, tag_key='name'):
     
     return name_pri_spelling
 
-def handle_multiple_priority_spellings(names_pri):
+def handle_multiple_priority_spellings(names_pri, languages=None, names=None):
     # get a unique and sorted list of languages to look at
-    languages = list() 
-    for item in names_pri:
-        lang = item['name:language']
-        if lang not in languages:
-            languages.append(lang)
+    if languages is None:
+        languages = list()
+        for item in names_pri:
+            lang = item['name:language']
+            if lang not in languages:
+                languages.append(lang)
 
-    names = []
+    if names is None:
+        names = list()
+    
     for lang in languages:
         lang_key = ssr_language_to_osm_key(lang)
+        # for ix, (l, _) in enumerate(names):
+        #     if l == lang_key:
+        #         current_lang = names[ix]
+        #         break
+        # else:
         current_lang = (lang_key, []) # fixme: named tuple
         names.append(current_lang)
         for item in names_pri:
@@ -411,20 +445,38 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
-        
-        if len(names) == 0:        # use alt_name instead if available
-            if len(alt_names_pri) != 0:
-                names = handle_multiple_priority_spellings(alt_names_pri)
+
+        # if tags['ssr:stedsnr'] == '321599':
+        #     print 'languages', lang_keys
+        #     print 'names', names
+        #     print 'alt_names', alt_names_pri
+        #     exit(1)
+
+        for lang in languages:
+            lang_key = ssr_language_to_osm_key(lang)
+            lang_missing = True
+            for l, lst in names:
+                if l == lang_key:
+                    lang_missing = False
+                    break
+
+            #if len(names) == 0:        # use alt_name instead if available
+            if lang_missing and len(alt_names_pri) != 0:
+                lang_names = handle_multiple_priority_spellings(alt_names_pri,
+                                                                languages=[lang]) # only for lang
+                assert len(lang_names) == 1
+                names.append(lang_names[0])
+                names = sort_by_priority_spelling(names, language_priority)
 
                 # DEBUG:
                 names_str = list()
                 for lang, lst in names:
                     for item in lst:
                         names_str.append((lang, item['name']))
-                
-                logger.warning('ssr:stedsnr = %s: No priority spelling found, using alt_name to get "%s"',
-                               tags['ssr:stedsnr'], names_str)
-                # end DEBUG
+
+                logger.warning('ssr:stedsnr = %s: No priority spelling found for lang = %s, using alt_name to get "%s"',
+                               tags['ssr:stedsnr'], lang, names_str)
+                    # end DEBUG
 
             # # fixme: multi language support for this case?
             # if len(alt_names_pri) != 0:
@@ -465,6 +517,9 @@ def parse_geonorge(soup, create_multipoint_way=False):
             # and tags['name:lang']
             names_str = list()
             for lang, lst in names:
+                if len(lst) == 0:
+                    continue
+                
                 names_str_lang = list() # one list for each language
                 for item in lst:
                     names_str_lang.append(item['name'])
@@ -481,6 +536,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
             assert len(names_str) != 0
             tags['name'] = ' - '.join(names_str)
+            
             if fixme != '':
                 tags['fixme'] = fixme
 
@@ -527,7 +583,27 @@ def parse_geonorge(soup, create_multipoint_way=False):
                     
                     tags[key_without_lang] = tags[key]
                     del tags[key]
-        
+
+        # 5) Ensure we do not have alt_name:<lang> without a name:<lang>
+        for key in tags.keys():
+            reg = re.match('alt_name:(\w+)', key)
+            if reg:
+                lang = reg.group(1)
+                key_name = 'name:%s' % lang
+                if key_name not in tags:
+                    tags[key_name] = tags[key]
+                    del tags[key]
+                    if ';' in tags[key_name]:
+                        logger.warning('empty name:%s, moving from alt_name:%s, FIXME: handle multiple names = %s',
+                                       lang, lang, tags[key_name])
+                        old_fixme = tags.pop('fixme', '')
+                        fixme = 'multiple name:%s tags, choose one and add the other to alt_name:%s' % (lang, lang)
+                        if old_fixme != '':
+                            fixme = old_fixme + '; ' + fixme
+                        
+                        tags['fixme'] = fixme
+
+
         pos = entry.find('posisjon')
         positions = pos.find_all('Point')
         # print pos.prettify()
@@ -584,11 +660,8 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     # soup = BeautifulSoup(d.text, 'lxml')
 
     if url is None:
-        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml'
-    url = url.format(kommunenummer=kommunenummer)
-
-    # url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3E{land}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml'
-    # url = url.format(land='ZZ')
+        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml"'
+        url = url.format(kommunenummer=kommunenummer)
     
     # get xml:
     req = gentle_requests.GentleRequests()
@@ -607,6 +680,73 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
         osm_noName.save(osm_filename_noName)
     
     return osm
+
+def main(args, folder, n, conversion, group_overview, url=None):
+    for f in glob.glob(os.path.join(folder, '*.osm')):
+        os.remove(f)
+
+    xml_filename = os.path.join(folder, '%s-geonorge.xml' % n)
+    osm_filename = os.path.join(folder, '%s-all.osm' % n)
+    osm_filename_noName = os.path.join(folder, '%s-all-noName.osm' % n)
+    log_filename = os.path.join(folder, '%s.log' % n)
+
+    file_util.create_dirname(log_filename)
+    logging_fh = add_file_handler(log_filename)
+
+    output_clean_folder = os.path.join(folder, 'clean')
+    if os.path.exists(output_clean_folder):
+        shutil.rmtree(output_clean_folder)
+    os.mkdir(output_clean_folder)
+
+    # json_names_filename = os.path.join(folder, '%s-multi-names.json' % n)
+    # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
+
+    # Go from %s-geonorge.xml to %s-all.osm
+    fetch_and_process_kommune(n, xml_filename=xml_filename,
+                              osm_filename=osm_filename,
+                              osm_filename_noName=osm_filename_noName,
+                              character_limit=args.character_limit,
+                              create_multipoint_way=args.create_multipoint_way)
+
+    filenames_to_clean = list()
+    # Go from %s-all.osm to %s-all-tagged.osm, removing %s-all.osm when done
+    if not(args.not_convert_tags):
+        for convert_filename in (osm_filename_noName, osm_filename):
+            if os.path.exists(convert_filename):
+                filename_base = convert_filename[:-len('.osm')]
+                filename_out = '%s-%s.osm' % (filename_base, 'tagged')
+                filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
+                filename_out_notTagged = filename_out_notTagged.replace('-all', '')
+
+                ssr2_tags.replace_tags(convert_filename,
+                                       filename_out, filename_out_notTagged,
+                                       conversion, include_empty=args.include_empty_tags,
+                                       group_overview=group_overview)
+                # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
+                # fixme: actually loop through and check this.
+                if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
+                    os.remove(convert_filename)
+
+        filename_out_cleaned = filename_out.replace('-all', '')
+        shutil.copy(filename_out, filename_out_cleaned)
+        filenames_to_clean.append(filename_out_cleaned)
+
+    if not(args.not_split_hovedgruppe):
+        split_filenames = ssr2_split.osm_split(filename_out_cleaned, split_key='ssr:hovedgruppe')
+        filenames_to_clean.extend(split_filenames)
+
+    # FIXME: function
+    for filename in filenames_to_clean:
+        content = file_util.read_file(filename)
+        osm = osmapis.OSM.from_xml(content)
+        tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type', 'ssr:date')
+        for item in osm:
+            for key in tags_to_remove:
+                item.tags.pop(key, '')
+        osm.save(filename)
+        shutil.move(filename, output_clean_folder)
+
+    logger.removeHandler(logging_fh)
 
 if __name__ == '__main__':
     import argparse
@@ -629,18 +769,21 @@ if __name__ == '__main__':
                         help='Do not create additional osm file copies where ssr:hovedgruppe and ssr:type is used to translate to osm related tags')
     parser.add_argument('--include_empty_tags', default=False, action='store_true',
                         help='Do not remove nodes where no corresponding osm tags are found')
+    parser.add_argument('--exclude_zz', default=False, action='store_true',
+                        help='Do not download "land=zz", which contains nodes outside of mainland Norway')
 
     start_time = datetime.datetime.now()
     
     args = parser.parse_args()
     #logging.basicConfig(level=args.loglevel)
 
-    logger.setLevel(logging.DEBUG)
+    root_logger = logger = logging.getLogger('utility_to_osm')
+    root_logger.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
     ch = logging.StreamHandler()
     ch.setLevel(args.loglevel)
     ch.setFormatter(formatter)
-    logger.addHandler(ch)
+    root_logger.addHandler(ch)
 
     file_util.create_dirname(args.output)
     if not(os.path.exists(args.output)):
@@ -656,81 +799,28 @@ if __name__ == '__main__':
     if not(args.not_convert_tags):
         conversion = ssr2_tags.get_conversion(excel_filename = args.excel_tagging)
 
-
     group_overview = defaultdict(list)
     root = args.output
+
+
+    if not(args.exclude_zz):
+        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3E{land}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml"'
+        url = url.format(land='ZZ')
+
+        n = 'ZZ'
+        print(n)
+        folder = os.path.join(root, n)
+        main(args, folder, n, conversion, group_overview, url=url)
+        
     for n in kommunenummer:
-        print n
+        print(n)
         start_time_kommune = datetime.datetime.now()
 
         folder = os.path.join(root, n)
-        for f in glob.glob(os.path.join(folder, '*.osm')):
-            os.remove(f)
-
-        xml_filename = os.path.join(folder, '%s-geonorge.xml' % n)
-        osm_filename = os.path.join(folder, '%s-all.osm' % n)
-        osm_filename_noName = os.path.join(folder, '%s-all-noName.osm' % n)
-        log_filename = os.path.join(folder, '%s.log' % n)
-
-        file_util.create_dirname(log_filename)
-        logging_fh = add_file_handler(log_filename)
-        
-        output_clean_folder = os.path.join(folder, 'clean')
-        if os.path.exists(output_clean_folder):
-            shutil.rmtree(output_clean_folder)
-        os.mkdir(output_clean_folder)
-        
-        # json_names_filename = os.path.join(folder, '%s-multi-names.json' % n)
-        # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
-
-        # Go from %s-geonorge.xml to %s-all.osm
-        fetch_and_process_kommune(n, xml_filename=xml_filename,
-                                  osm_filename=osm_filename,
-                                  osm_filename_noName=osm_filename_noName,
-                                  character_limit=args.character_limit,
-                                  create_multipoint_way=args.create_multipoint_way)
-
-        filenames_to_clean = list()
-        # Go from %s-all.osm to %s-all-tagged.osm, removing %s-all.osm when done
-        if not(args.not_convert_tags):
-            for convert_filename in (osm_filename_noName, osm_filename):
-                if os.path.exists(convert_filename):
-                    filename_base = convert_filename[:-len('.osm')]
-                    filename_out = '%s-%s.osm' % (filename_base, 'tagged')
-                    filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
-                    filename_out_notTagged = filename_out_notTagged.replace('-all', '')
-
-                    ssr2_tags.replace_tags(convert_filename,
-                                           filename_out, filename_out_notTagged,
-                                           conversion, include_empty=args.include_empty_tags,
-                                           group_overview=group_overview)
-                    # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
-                    # fixme: actually loop through and check this.
-                    if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
-                        os.remove(convert_filename)
-
-            filename_out_cleaned = filename_out.replace('-all', '')
-            shutil.copy(filename_out, filename_out_cleaned)
-            filenames_to_clean.append(filename_out_cleaned)
-            
-        if not(args.not_split_hovedgruppe):
-            split_filenames = ssr2_split.osm_split(filename_out_cleaned, split_key='ssr:hovedgruppe')
-            filenames_to_clean.extend(split_filenames)
-
-        # FIXME: function
-        for filename in filenames_to_clean:
-            content = file_util.read_file(filename)
-            osm = osmapis.OSM.from_xml(content)
-            tags_to_remove = ('ssr:hovedgruppe', 'ssr:gruppe', 'ssr:type', 'ssr:date')
-            for item in osm:
-                for key in tags_to_remove:
-                    item.tags.pop(key, '')
-            osm.save(filename)
-            shutil.move(filename, output_clean_folder)
+        main(args, folder, n, conversion, group_overview)
 
         end_time = datetime.datetime.now()                
         logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
-        logger.removeHandler(logging_fh)
         print('Elapsed time: {}'.format(end_time - start_time))
 
     table = list()
