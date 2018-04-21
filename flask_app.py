@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from flask import Flask
 app = Flask('ssr2_to_osm_flask')
 
