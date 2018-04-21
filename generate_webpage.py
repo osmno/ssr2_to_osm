@@ -1,5 +1,6 @@
 import os
 import re
+from datetime import datetime
 import logging
 logger = logging.getLogger('utility_to_osm.ssr2.generate_webpage')
 
@@ -19,11 +20,19 @@ footer = """
 <!-- FOOTER  -->
 <div id="footer_wrap" class="outer">
   <footer class="inner">
-    <p class="copyright">This page is maintained by <a href="https://github.com/obtitus">obtitus</a></p>
-    <p class="copyright">Map data &copy;<a href="http://openstreetmap.org">OpenStreetMap</a> contributors,
-      <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></p>
-    <p class="copyright">&copy;<a href="https://data.norge.no/nlod/no/1.0">NLOD</a></p>
-  </footer>
+    <p class="copyright">
+      This page is maintained by <a href="https://github.com/obtitus">obtitus</a>
+    </p>
+    <p class="copyright">
+      OSM data &copy;<a href="http://openstreetmap.org">OpenStreetMap</a> contributors,
+      all osm data licensed under
+      <a href=https://opendatacommons.org/licenses/odbl/>ODbL</a>
+    </p>
+    <p class="copyright">
+      All place data extracted from SSR &copy;<a href="https://kartverket.no">kartverket.no</a> under 
+      <a href="https://creativecommons.org/licenses/by/3.0/no/">CC BY 3.0</a>
+    </p>
+</footer>
 </div>
 """
 
@@ -38,6 +47,25 @@ header = """
 </div>
 """
 
+info = """
+The table below contains: 
+<ol>
+<li> A "Dataset for import" file containing all of the data, including some additional
+raw SSR tags for filtering and debugging that should not be uploaded to OSM. </li>
+<li> A "Excerpts for import" containing subsets of the data, ready for import.</li>
+<li> A "Excluded from import" column with any data that is either missing a 
+<a href=https://wiki.openstreetmap.org/wiki/Key:name>name=*</a>
+tag (but typically contains either 
+<a href=https://wiki.openstreetmap.org/wiki/Key:old_name>old_name=*</a> or
+<a href=https://wiki.openstreetmap.org/wiki/Key:loc_name>loc_name=*</a>).
+The column also contain data that lacks a translation from SSR to OSM tags (see <a href=https://drive.google.com/open?id=1krf8NESSyyObpcV8TPUHInUCYiepZ6-m>tagging table</a>), typically excluded since these
+are coved by seperate imports. 
+Data from this column should in general not be imported.</li>
+<li> Raw data from Kartverket (SSR) in the rightmost column. </li>
+</ol>
+See the <a href=http://wiki.openstreetmap.org/wiki/No:Import_av_stedsnavn_fra_SSR2>import wiki</a> for further details.
+"""
+
 def create_text(filename, f):
     if f.endswith('.osm'):
         if re.match('\d\d\d\d-', f):
@@ -49,17 +77,17 @@ def create_text(filename, f):
             if f == '.osm':
                 f = 'all.osm'
 
-            content = file_util.read_file(filename)
-            osm = osmapis.OSM.from_xml(content)
-            N_nodes = len(osm)
-            N_nodes_str = '%s node' % N_nodes
-            if N_nodes > 1:
-                N_nodes_str += 's'
+        content = file_util.read_file(filename)
+        osm = osmapis.OSM.from_xml(content)
+        N_nodes = len(osm)
+        N_nodes_str = '%s node' % N_nodes
+        if N_nodes > 1:
+            N_nodes_str += 's'
 
-            # N_bytes = os.path.getsize(filename)
-            # N_bytes_str = humanize.naturalsize(N_bytes, format='%d')
-            
-            f = '%s (%s)' % (f, N_nodes_str)
+        # N_bytes = os.path.getsize(filename)
+        # N_bytes_str = humanize.naturalsize(N_bytes, format='%d')
+
+        f = '%s (%s)' % (f, N_nodes_str)
     else:
         pass
     return f
@@ -77,6 +105,7 @@ def write_template(template_input, template_output, **template_kwargs):
 
 def create_main_table(data_dir='output', cache_dir='data'):
     table = list()
+    last_update = ''
     kommune_nr2name, kommune_name2nr = kommunenummer(cache_dir=cache_dir)
     fylke_nr2name = kommune_fylke(cache_dir=cache_dir)
     
@@ -117,7 +146,7 @@ def create_main_table(data_dir='output', cache_dir='data'):
             for root, dirs, files in os.walk(folder):
                 for f in files:
                     f = f.decode('utf8')
-                    if f.endswith(('.osm', '.xml', '.log')):
+                    if f.endswith(('.osm', '.xml', '.log', '.gml')):
                         filename = os.path.join(root, f)
                         text = create_text(filename, f)
                         href = filename.replace('html/', '')
@@ -126,11 +155,11 @@ def create_main_table(data_dir='output', cache_dir='data'):
                                                    text=text)
                         if root.endswith('clean'):
                             excerpts_for_import.append(url)
-                        elif f.endswith('all-tagged.osm'):
+                        elif f.endswith('%s.osm' % kommune_nr):
                             dataset_for_import.append(url)
-                        elif 'noName' in f or 'notTagged' in f:
+                        elif 'NoName' in f or 'NoTags' in f:
                             excluded_from_import.append(url)
-                        elif f.endswith('.xml'):
+                        elif f.endswith(('.xml', '.gml')):
                             raw_data.append(url)
                         elif f.endswith('.log'):
                             log.append(url)
@@ -147,13 +176,17 @@ def create_main_table(data_dir='output', cache_dir='data'):
 
             table.append(row)
 
-    return table
+            last_update_stamp = os.path.getmtime(folder)
+            last_update_datetime = datetime.fromtimestamp(last_update_stamp)
+            last_update = last_update_datetime.strftime('%Y-%m-%d') # Note: date is now set by whatever row is 'last'
+
+    return table, last_update
 
 def main(data_dir='html/data/', root_output='html', template='html/template.html'):
     output_filename = os.path.join(root_output, 'index.html')
     
-    table = create_main_table(data_dir, cache_dir=data_dir)
-    write_template(template, output_filename, table=table, info='')
+    table, last_update = create_main_table(data_dir, cache_dir=data_dir)
+    write_template(template, output_filename, table=table, info=info, last_update=last_update)
 
 if __name__ == '__main__':
     import argparse

@@ -685,9 +685,9 @@ def main(args, folder, n, conversion, group_overview, url=None):
     for f in glob.glob(os.path.join(folder, '*.osm')):
         os.remove(f)
 
-    xml_filename = os.path.join(folder, '%s-geonorge.xml' % n)
-    osm_filename = os.path.join(folder, '%s-all.osm' % n)
-    osm_filename_noName = os.path.join(folder, '%s-all-noName.osm' % n)
+    xml_filename = os.path.join(folder, '%s-ssr.gml' % n)
+    osm_filename = os.path.join(folder, '%s-ssr.osm' % n)
+    osm_filename_noName = os.path.join(folder, '%s-ssr-NoName.osm' % n)
     log_filename = os.path.join(folder, '%s.log' % n)
 
     file_util.create_dirname(log_filename)
@@ -714,10 +714,10 @@ def main(args, folder, n, conversion, group_overview, url=None):
         for convert_filename in (osm_filename_noName, osm_filename):
             if os.path.exists(convert_filename):
                 filename_base = convert_filename[:-len('.osm')]
-                filename_out = '%s-%s.osm' % (filename_base, 'tagged')
-                filename_out_notTagged = '%s-%s.osm' % (filename_base, 'NotTagged')
-                filename_out_notTagged = filename_out_notTagged.replace('-all', '')
-
+                filename_out = "%s.osm" % filename_base.replace('-ssr', '') #'%s.osm' % (filename_base)
+                filename_out_notTagged = '%s-%s.osm' % (filename_base.replace('-ssr', ''), 'NoTags')
+                #filename_out_notTagged = filename_out_notTagged.replace('-all', '')
+                
                 ssr2_tags.replace_tags(convert_filename,
                                        filename_out, filename_out_notTagged,
                                        conversion, include_empty=args.include_empty_tags,
@@ -727,7 +727,8 @@ def main(args, folder, n, conversion, group_overview, url=None):
                 if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
                     os.remove(convert_filename)
 
-        filename_out_cleaned = filename_out.replace('-all', '')
+        head, tail = os.path.split(filename_out)
+        filename_out_cleaned = os.path.join(output_clean_folder, tail)
         shutil.copy(filename_out, filename_out_cleaned)
         filenames_to_clean.append(filename_out_cleaned)
 
@@ -744,7 +745,7 @@ def main(args, folder, n, conversion, group_overview, url=None):
             for key in tags_to_remove:
                 item.tags.pop(key, '')
         osm.save(filename)
-        shutil.move(filename, output_clean_folder)
+        #shutil.move(filename, output_clean_folder)
 
     logger.removeHandler(logging_fh)
 
