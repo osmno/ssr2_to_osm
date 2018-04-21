@@ -5,3 +5,4 @@ openpyxl
 lxml
 humanize
 s3cmd
+flask
