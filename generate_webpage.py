@@ -13,7 +13,7 @@ from utility_to_osm import osmapis
 from jinja2 import Template
 import humanize
 
-link_template = u'<a href="{href}"\ntitle="{title}">{text}</a>'
+link_template = u'<a href="{href}" title="{title}">{text}</a>'
 
 
 footer = """
@@ -81,7 +81,7 @@ def create_text(filename, f):
             f = 'clean-' + f
 
         content = file_util.read_file(filename)
-        osm = osmapis.OSM.from_xml(content)
+        osm = []#osmapis.OSM.from_xml(content)
         N_nodes = len(osm)
         N_nodes_str = '%s node' % N_nodes
         if N_nodes > 1:
@@ -110,7 +110,8 @@ def create_main_table(data_dir='output', cache_dir='data'):
     table = list()
     last_update = ''
     kommune_nr2name, kommune_name2nr = kommunenummer(cache_dir=cache_dir)
-    fylke_nr2name = kommune_fylke(cache_dir=cache_dir)
+    kommuneNr_2_fylke = kommune_fylke(cache_dir=cache_dir)
+    fylker = list()
     
     for kommune_nr in os.listdir(data_dir):
         folder = os.path.join(data_dir, kommune_nr)
@@ -128,7 +129,13 @@ def create_main_table(data_dir='output', cache_dir='data'):
                     raise ValueError(e)
 
             try:
-                fylke_name = fylke_nr2name[int(kommune_nr)] + ' fylke'
+                fylke_name, fylke_nr = kommuneNr_2_fylke[int(kommune_nr)]
+                t = (fylke_name, fylke_nr)
+                if t not in fylker:
+                    fylker.append(t)
+                
+                fylke_name += ' fylke'                    
+                
             except KeyError as e:
                 logger.warning('Could not translate kommune_nr = %s to a fylke-name. Skipping', kommune_nr)
                 #fylke_name = 'ukjent'
@@ -169,6 +176,7 @@ def create_main_table(data_dir='output', cache_dir='data'):
                         else:
                             pass # ignore
 
+            row.append(fylke_nr)
             row.append("%s" % fylke_name)
             log.insert(0, "%s %s" % (kommune_nr, kommune_name))
             row.append(log)
@@ -183,13 +191,15 @@ def create_main_table(data_dir='output', cache_dir='data'):
             last_update_datetime = datetime.fromtimestamp(last_update_stamp)
             last_update = last_update_datetime.strftime('%Y-%m-%d') # Note: date is now set by whatever row is 'last'
 
-    return table, last_update
+    return table, fylker, last_update
 
 def main(data_dir='html/data/', root_output='html', template='html/template.html'):
     output_filename = os.path.join(root_output, 'index.html')
     
-    table, last_update = create_main_table(data_dir, cache_dir=data_dir)
-    write_template(template, output_filename, table=table, info=info, last_update=last_update)
+    table, fylker, last_update = create_main_table(data_dir, cache_dir=data_dir)
+    write_template(template, output_filename, table=table, info=info,
+                   fylker=fylker,
+                   last_update=last_update)
 
 if __name__ == '__main__':
     import argparse

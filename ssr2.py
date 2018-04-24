@@ -26,6 +26,7 @@ import utility_to_osm.argparse_util as argparse_util
 from utility_to_osm.kommunenummer import kommunenummer, to_kommunenr
 from utility_to_osm.csv_unicode import UnicodeWriter
 
+
 # third party:
 from utility_to_osm import osmapis
 import pyproj
@@ -785,7 +786,6 @@ if __name__ == '__main__':
     start_time = datetime.datetime.now()
     
     args = parser.parse_args()
-    #logging.basicConfig(level=args.loglevel)
 
     root_logger = logger = logging.getLogger('utility_to_osm')
     root_logger.setLevel(logging.DEBUG)
