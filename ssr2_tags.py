@@ -82,10 +82,7 @@ def tags_to_dict(table):
 def replace_tags(filename_in, 
                  filename_out, filename_out_notTagged,
                  conversion_dict,
-                 include_empty=False, group_overview=None):
-    if group_overview is None:
-        group_overview = defaultdict(list)
-    
+                 include_empty=False):
     content = file_util.read_file(filename_in)
     osm = osmapis.OSM.from_xml(content)
     osm_new = osmapis.OSM()
@@ -103,14 +100,14 @@ def replace_tags(filename_in,
             ssr_type = item.tags['ssr:type']
             key += ssr_type.lower()
 
-        group_overview_key = ','.join([item.tags.get('ssr:hovedgruppe', ''),
-                                       item.tags.get('ssr:gruppe', ''),
-                                       item.tags.get('ssr:type', '')])
-        group_overview_row = group_overview[group_overview_key]
-        if len(group_overview_row) == 0: # first hit
-            # [item count, tags]
-            group_overview_row = [0, '']
-        group_overview_tags = list()
+        # group_overview_key = ','.join([item.tags.get('ssr:hovedgruppe', ''),
+        #                                item.tags.get('ssr:gruppe', ''),
+        #                                item.tags.get('ssr:type', '')])
+        # group_overview_row = group_overview[group_overview_key]
+        # if len(group_overview_row) == 0: # first hit
+        #     # [item count, tags]
+        #     group_overview_row = [0, '']
+        # group_overview_tags = list()
 
         if key != '' and key in conversion_dict:
             tags = conversion_dict[key]
@@ -136,11 +133,11 @@ def replace_tags(filename_in,
                             raise ValueError('Overwritting tag[%s] = %s not allowed' % (key, tags[key]))
                     else:
                         new_tags[key] = tags[key]
-                    # Add to overview table
-                    if ' ' in tags[key]:
-                        group_overview_tags.append('%s="%s"' % (key, tags[key]))
-                    else:
-                        group_overview_tags.append('%s=%s' % (key, tags[key]))
+                    # # Add to overview table
+                    # if ' ' in tags[key]:
+                    #     group_overview_tags.append('%s="%s"' % (key, tags[key]))
+                    # else:
+                    #     group_overview_tags.append('%s=%s' % (key, tags[key]))
                     
                 item.tags = new_tags # NOTE: inplace!
                 #osm_new.add(item)
@@ -155,12 +152,12 @@ def replace_tags(filename_in,
         if not(item.added_to_osm_new):
             copy_osm_element(osm, osm_new_notTagged, item)
 
-        group_overview_row[0] += 1
-        s = ' '.join(group_overview_tags)
-        if len(group_overview_row[1]) != 0 and group_overview_row[1] != s:
-            raise ValueError('Vops: different tags for the same group overview key: %s != %s' % (s, group_overview_row[1]))
-        group_overview_row[1] = s
-        group_overview[group_overview_key] = group_overview_row
+        # group_overview_row[0] += 1
+        # s = ' '.join(group_overview_tags)
+        # if len(group_overview_row[1]) != 0 and group_overview_row[1] != s:
+        #     raise ValueError('Vops: different tags for the same group overview key: %s != %s' % (s, group_overview_row[1]))
+        # group_overview_row[1] = s
+        # group_overview[group_overview_key] = group_overview_row
     
     if len(osm_new) != 0:
         osm_new.save(filename_out)

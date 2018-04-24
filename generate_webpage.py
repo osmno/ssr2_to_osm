@@ -77,6 +77,9 @@ def create_text(filename, f):
             if f == '.osm':
                 f = 'all.osm'
 
+        if 'clean' in filename:
+            f = 'clean-' + f
+
         content = file_util.read_file(filename)
         osm = osmapis.OSM.from_xml(content)
         N_nodes = len(osm)

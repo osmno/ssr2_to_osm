@@ -5,6 +5,8 @@ import re
 import csv
 import json
 import glob
+from multiprocessing import Pool
+import time
 import shutil
 import codecs
 open = codecs.open
@@ -681,11 +683,14 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     
     return osm
 
-def main(args, folder, n, conversion, group_overview, url=None):
+def main(args, folder, n, conversion, url=None):
+    print(n)
+    start_time_kommune = datetime.datetime.now()
+    
     for f in glob.glob(os.path.join(folder, '*.osm')):
         os.remove(f)
 
-    xml_filename = os.path.join(folder, '%s-ssr.gml' % n)
+    xml_filename = os.path.join(folder, '%s-ssr.xml' % n)
     osm_filename = os.path.join(folder, '%s-ssr.osm' % n)
     osm_filename_noName = os.path.join(folder, '%s-ssr-NoName.osm' % n)
     log_filename = os.path.join(folder, '%s.log' % n)
@@ -702,7 +707,7 @@ def main(args, folder, n, conversion, group_overview, url=None):
     # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
 
     # Go from %s-geonorge.xml to %s-all.osm
-    fetch_and_process_kommune(n, xml_filename=xml_filename,
+    fetch_and_process_kommune(n, xml_filename=xml_filename, url=url,
                               osm_filename=osm_filename,
                               osm_filename_noName=osm_filename_noName,
                               character_limit=args.character_limit,
@@ -720,8 +725,7 @@ def main(args, folder, n, conversion, group_overview, url=None):
                 
                 ssr2_tags.replace_tags(convert_filename,
                                        filename_out, filename_out_notTagged,
-                                       conversion, include_empty=args.include_empty_tags,
-                                       group_overview=group_overview)
+                                       conversion, include_empty=args.include_empty_tags)
                 # osm_filename should now be redundant, as all the information is in either filename_out or filename_out_notTagged
                 # fixme: actually loop through and check this.
                 if os.path.exists(filename_out) or os.path.exists(filename_out_notTagged):
@@ -747,6 +751,9 @@ def main(args, folder, n, conversion, group_overview, url=None):
         osm.save(filename)
         #shutil.move(filename, output_clean_folder)
 
+    end_time = datetime.datetime.now()
+    logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
+        
     logger.removeHandler(logging_fh)
 
 if __name__ == '__main__':
@@ -770,8 +777,10 @@ if __name__ == '__main__':
                         help='Do not create additional osm file copies where ssr:hovedgruppe and ssr:type is used to translate to osm related tags')
     parser.add_argument('--include_empty_tags', default=False, action='store_true',
                         help='Do not remove nodes where no corresponding osm tags are found')
-    parser.add_argument('--exclude_zz', default=False, action='store_true',
+    parser.add_argument('--include_zz', default=False, action='store_true',
                         help='Do not download "land=zz", which contains nodes outside of mainland Norway')
+    parser.add_argument('--parallel', default=0, type=int,
+                        help='Process kommune list in parrallel using specified number of processes')
 
     start_time = datetime.datetime.now()
     
@@ -793,6 +802,7 @@ if __name__ == '__main__':
     if args.kommune == ['ALL']:
         nr2name, _ = kommunenummer()
         kommunenummer = map(to_kommunenr, nr2name.keys())
+        kommunenummer.sort()
     else:
         kommunenummer = map(to_kommunenr, args.kommune)
 
@@ -800,48 +810,56 @@ if __name__ == '__main__':
     if not(args.not_convert_tags):
         conversion = ssr2_tags.get_conversion(excel_filename = args.excel_tagging)
 
-    group_overview = defaultdict(list)
+    #group_overview = defaultdict(list)
     root = args.output
 
 
-    if not(args.exclude_zz):
+    if args.include_zz:
         url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3E{land}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml"'
         url = url.format(land='ZZ')
 
         n = 'ZZ'
-        print(n)
         folder = os.path.join(root, n)
-        main(args, folder, n, conversion, group_overview, url=url)
-        
+        main(args, folder, n, conversion, url=url)
+
+    if args.parallel != 0:
+        p = Pool(args.parallel)
+    
+    p_results = list()
     for n in kommunenummer:
-        print(n)
-        start_time_kommune = datetime.datetime.now()
-
         folder = os.path.join(root, n)
-        main(args, folder, n, conversion, group_overview)
-
-        end_time = datetime.datetime.now()                
-        logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
+        if args.parallel != 0:
+            res = p.apply_async(main, (args, folder, n, conversion))
+            p_results.append(res)
+        else:
+            main(args, folder, n, conversion)
+            
+        time.sleep(10) # to to be sligtly gentle to geonorge.no
+        end_time = datetime.datetime.now()
         print('Elapsed time: {}'.format(end_time - start_time))
 
-    table = list()
-    for key in sorted(group_overview.keys()):
-        row = list()
-        row.extend(key.split(','))
-        for item in group_overview[key]:
-            row.append(str(item))
-        table.append(row)
-
-    header = ['hovedgruppe', 'gruppe', 'type', 'freq ' + ', '.join(args.kommune),
-              'tags']
-    for ix in range(len(header)):
-        header[ix] = 'SSR2 ' + header[ix]
+    # Wait for all pool results:
+    for res in p_results:
+        res.get()
     
-    filename = os.path.join(args.output, 'group_overview.csv')
-    with open(filename, 'w', 'utf-8') as f:
-        w = UnicodeWriter(f, dialect='excel', delimiter=';')
-        w.writerow(header)
-        w.writerows(table)
+    # table = list()
+    # for key in sorted(group_overview.keys()):
+    #     row = list()
+    #     row.extend(key.split(','))
+    #     for item in group_overview[key]:
+    #         row.append(str(item))
+    #     table.append(row)
+
+    # header = ['hovedgruppe', 'gruppe', 'type', 'freq ' + ', '.join(args.kommune),
+    #           'tags']
+    # for ix in range(len(header)):
+    #     header[ix] = 'SSR2 ' + header[ix]
+    
+    # filename = os.path.join(args.output, 'group_overview.csv')
+    # with open(filename, 'w', 'utf-8') as f:
+    #     w = UnicodeWriter(f, dialect='excel', delimiter=';')
+    #     w.writerow(header)
+    #     w.writerows(table)
     
     end_time = datetime.datetime.now()
     print('Duration: {}'.format(end_time - start_time))
