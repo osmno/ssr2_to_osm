@@ -69,6 +69,7 @@ def compare_tag(osm_item, ssr2_item, key):
     fixme = []
     missing = False
     if key not in osm_item:
+        #if key == 'water' and 
         fixme.append('osm: %s = "%s" missing from old import' % (key, ssr2_item[key]))
         missing = True
     if key not in ssr2_item:
@@ -81,14 +82,20 @@ def compare_tag(osm_item, ssr2_item, key):
     return fixme
 
 for ssrid in osm_g_dict:
+    item_g = osm_g_dict[ssrid]
     if ssrid in ssrid_2_stedsnummer:
         converted_stedsnummer = ssrid_2_stedsnummer[ssrid]
         if len(converted_stedsnummer) == 1:
             new_tag = converted_stedsnummer[0]
-            osm_g_dict[ssrid].tags['ssr:stedsnr'] = new_tag
+            item_g.tags['ssr:stedsnr'] = new_tag
+            item_g.attribs['action'] = 'modify'
             
             for rm_tag in tags_to_remove:
                 item_g.tags.pop(rm_tag, '')
+        else:
+            print('Multiple conversions found for ssrid = %s, %s' % (ssrid, converted_stedsnummer))
+    else:
+        print('No conversion found for ssrid = %s' % ssrid)
 
 for filename in filenames_new:
     with open(filename, 'r') as f:
@@ -115,6 +122,7 @@ for filename in filenames_new:
             if old_tag in osm_g_dict:
                 item_g = osm_g_dict[old_tag] # found it
                 item_g.tags['ssr:stedsnr'] = new_tag
+                item_g.attribs['action'] = 'modify'
 
                 for tag in item.tags:
                     if not(tag.startswith('ssr')) and (tag not in tags_to_ignore_in_comparision):
