@@ -13,8 +13,20 @@ from utility_to_osm import osmapis
 from jinja2 import Template
 import humanize
 
-link_template = u'<a href="{href}" title="{title}">{text}</a>'
+from ssr2_osm import overpass_stedsnr_in_kommunenr
+from osmapis_stedsnr import OSMstedsnr
 
+FAST_MODE = False                # For development, skip some slow parts, fixme: command-line argument
+
+link_template = u'<a href="{href}" title="{title}">{text}</a>'
+progress_template = '''
+<meter title="{per:.2f}% = {value}/{max} nodes with ssr:stedsnr in OSM, last checked {overpass_checked}" 
+style="width:100%" value="{value}" min="{min}" max="{max}" optimum="{max}">{per} %</meter>
+'''.strip()
+progress_template_circle = '''
+<span title="{per:.2f}% = {value}/{max} nodes with ssr:stedsnr in OSM, last checked {overpass_checked}" 
+class="dot" style="background-color: {color};"></span>
+'''.strip()
 
 footer = """
 <!-- FOOTER  -->
@@ -59,19 +71,49 @@ tag (but typically contains either
 <a href=https://wiki.openstreetmap.org/wiki/Key:old_name>old_name=*</a> or
 <a href=https://wiki.openstreetmap.org/wiki/Key:loc_name>loc_name=*</a>).
 The column also contain data that lacks a translation from SSR to OSM tags (see <a href=https://drive.google.com/open?id=1krf8NESSyyObpcV8TPUHInUCYiepZ6-m>tagging table</a>), typically excluded since these
-are coved by seperate imports. 
+are coved by separate imports. 
 Data from this column should in general not be imported.</li>
 <li> Raw data from Kartverket (SSR) in the rightmost column. </li>
 </ol>
 See the <a href=http://wiki.openstreetmap.org/wiki/No:Import_av_stedsnavn_fra_SSR2>import wiki</a> for further details.
 """
 
-def create_text(filename, f):
+def progress_to_color(per):
+    """My own wierd colormap going to the 'Greenery' color #92B558 as the maximum
+    """
+    assert 0 <= per <= 100, 'expected percentage between 0 and 100, got %s' % (per)
+
+    red_max = 0x92
+    red = min(red_max, 10*int(red_max*per/100.))
+    green_max = 0xb5
+    green = min(green_max, int(2+green_max*per/100.))
+    blue_max = 0x58
+    blue = min(blue_max, 10*int(blue_max*per/100.))
+    return '#%02x%02x%02x' % (red, green, blue)
+
+# Testing colormap:
+# for per in range(0, 100):
+#     color = progress_to_color(per)
+#     info += progress_template_circle.format(value=per, max=100, overpass_checked='', color=color)
+
+def create_text(filename, f, overpass=None, stedsnr_duplicates=None):
+    if overpass is None:
+        overpass = []
+        N_overpass = -1
+    else:
+        N_overpass = 0
+    
+    if stedsnr_duplicates is None:
+        stedsnr_duplicates = set()
+    
+    N_nodes = -1
+    
     if f.endswith('.osm'):
         if re.match('\d\d\d\d-', f):
             f = f[5:]
             f = f.replace('-', ' ')
             f = f.replace('tagged', '')
+            f = f.replace('offentligAdministrasjon', 'offentlig')
             f = f.replace(' .osm', '.osm')
             f = f.strip()
             if f == '.osm':
@@ -80,8 +122,25 @@ def create_text(filename, f):
         if 'clean' in filename:
             f = 'clean-' + f
 
-        content = file_util.read_file(filename)
-        osm = []#osmapis.OSM.from_xml(content)
+        if FAST_MODE:
+            osm = []
+        else:
+            content = file_util.read_file(filename)
+            osm = OSMstedsnr.from_xml(content)
+
+            # Add duplicates, if any:
+            for item in osm.stedsnr_duplicates:
+                stedsnr_duplicates.add(item)
+            
+            # Count objects in overpass that is also in osm file
+            for item in overpass:
+                if 'ssr:stedsnr' in item.tags:
+                    if item.tags['ssr:stedsnr'] in osm.stedsnr:
+                        N_overpass += 1
+                    #else:
+                    # fixme: Warning only when reading the 'full' file
+                    #    logger.warning('Found ssr:stedsnr = %s in OSM but not in kommune')
+        
         N_nodes = len(osm)
         N_nodes_str = '%s node' % N_nodes
         if N_nodes > 1:
@@ -93,7 +152,8 @@ def create_text(filename, f):
         f = '%s (%s)' % (f, N_nodes_str)
     else:
         pass
-    return f
+    
+    return f, N_nodes, N_overpass
 
 def write_template(template_input, template_output, **template_kwargs):
     with open_utf8(template_input) as f:
@@ -108,16 +168,22 @@ def write_template(template_input, template_output, **template_kwargs):
 
 def create_main_table(data_dir='output', cache_dir='data'):
     table = list()
+    stedsnr_duplicates = set()
     last_update = ''
     kommune_nr2name, kommune_name2nr = kommunenummer(cache_dir=cache_dir)
     kommuneNr_2_fylke = kommune_fylke(cache_dir=cache_dir)
     fylker = list()
     
     for kommune_nr in os.listdir(data_dir):
+        kommune_nr_int = None
         folder = os.path.join(data_dir, kommune_nr)
         if os.path.isdir(folder):
             try:
-                kommune_name = kommune_nr2name[int(kommune_nr)] + ' kommune'
+                kommune_nr_int = int(kommune_nr)                
+                kommune_name = kommune_nr2name[kommune_nr_int]
+                if not(kommune_name.startswith(u'Longyearbyen')):
+                    kommune_name += ' kommune'
+                
             except KeyError as e:
                 logger.warning('Could not translate kommune_nr = %s to a name. Skipping', kommune_nr)
                 #kommune_name = 'ukjent'
@@ -145,7 +211,22 @@ def create_main_table(data_dir='output', cache_dir='data'):
                     fylke_name = ''
                 else:
                     raise ValueError(e)
-            
+
+            overpass = None
+            N_overpass = -1
+            overpass_checked_date = ''
+            if not(FAST_MODE) and kommune_nr_int is not None:
+                cache_filename = os.path.join(folder, 'overpass', '%s-overpass-stedsnr.osm' % kommune_nr)
+                file_util.create_dirname(cache_filename)
+                #cache_filename = os.path.join(folder, '%s-osmStedsnr.osm' % kommune_nr)
+                overpass = overpass_stedsnr_in_kommunenr(kommune_nr_int,
+                                                         cache_filename=cache_filename,
+                                                         cache_dir=cache_dir)
+                
+                timestamp = os.path.getmtime(cache_filename)
+                overpass_checked_datetime = datetime.fromtimestamp(timestamp)
+                overpass_checked_date = overpass_checked_datetime.strftime('%Y-%m-%d %H:%M')
+                #N_overpass = len(overpass)
 
             row = list()
             dataset_for_import = [] # expecting a single entry here
@@ -158,17 +239,37 @@ def create_main_table(data_dir='output', cache_dir='data'):
                     f = f.decode('utf8')
                     if f.endswith(('.osm', '.xml', '.log', '.gml')):
                         filename = os.path.join(root, f)
-                        text = create_text(filename, f)
+                        text, N_ssr, N_overpass = create_text(filename, f, overpass=overpass,
+                                                              stedsnr_duplicates=stedsnr_duplicates)
+                        if N_ssr != 0:
+                            per = (100.*N_overpass)/N_ssr
+                        
                         href = filename.replace('html/', '')
                         url = link_template.format(href=href,
                                                    title=filename,
                                                    text=text)
                         if root.endswith('clean'):
-                            excerpts_for_import.append(url)
+                            if N_ssr != -1 and N_overpass != -1:
+                                color = progress_to_color(per)
+                                progress = progress_template_circle.format(value=N_overpass, max=N_ssr, per=per,
+                                                                           overpass_checked=overpass_checked_date,
+                                                                           color=color)
+                            
+                            excerpts_for_import.append('%s&thinsp;%s' % (url, progress))
                         elif f.endswith('%s.osm' % kommune_nr):
                             dataset_for_import.append(url)
+                            if N_ssr != -1 and N_overpass != -1:
+                                progress = progress_template.format(value=N_overpass, min=0, max=N_ssr, per=per,
+                                                                    overpass_checked=overpass_checked_date)
+                                dataset_for_import.append(progress)
                         elif 'NoName' in f or 'NoTags' in f:
-                            excluded_from_import.append(url)
+                            if N_ssr != -1 and N_overpass != -1:
+                                color = progress_to_color(per)
+                                progress = progress_template_circle.format(value=N_overpass, max=N_ssr, per=per,
+                                                                           overpass_checked=overpass_checked_date,
+                                                                           color=color)
+                            
+                            excluded_from_import.append('%s&thinsp;%s' % (url, progress))
                         elif f.endswith(('.xml', '.gml')):
                             raw_data.append(url)
                         elif f.endswith('.log'):
@@ -178,8 +279,10 @@ def create_main_table(data_dir='output', cache_dir='data'):
 
             row.append(fylke_nr)
             row.append("%s" % fylke_name)
-            log.insert(0, "%s %s" % (kommune_nr, kommune_name))
-            row.append(log)
+
+            kommune_cell = list(log)
+            kommune_cell.insert(0, "%s %s" % (kommune_nr, kommune_name))
+            row.append(kommune_cell)            
             row.append(dataset_for_import)
             row.append(excerpts_for_import)            
             row.append(excluded_from_import)
@@ -191,14 +294,33 @@ def create_main_table(data_dir='output', cache_dir='data'):
             last_update_datetime = datetime.fromtimestamp(last_update_stamp)
             last_update = last_update_datetime.strftime('%Y-%m-%d') # Note: date is now set by whatever row is 'last'
 
-    return table, fylker, last_update
+            # if len(table) > 10:
+            #     break
+            # if len(stedsnr_duplicates) > 2:
+            #     break
+
+    return table, fylker, last_update, stedsnr_duplicates
 
 def main(data_dir='html/data/', root_output='html', template='html/template.html'):
     output_filename = os.path.join(root_output, 'index.html')
     
-    table, fylker, last_update = create_main_table(data_dir, cache_dir=data_dir)
+    table, fylker, last_update, stedsnr_duplicates = create_main_table(data_dir, cache_dir=data_dir)
+    errors = ''
+    if len(stedsnr_duplicates) != 0:
+        xml = osmapis.OSM()
+        for item in stedsnr_duplicates:
+            xml.add(item)
+        filename_dup = 'duplicates.xml'
+        xml.save(os.path.join(root_output, filename_dup))
+
+        link = link_template.format(href=filename_dup,
+                                    title=filename_dup,
+                                    text=filename_dup)
+        errors = '''<div class="error">Duplicate elements found, %s nodes/ways/relations with duplicated 
+        ssr:nsrid found in osm, please see %s</div>''' % (len(stedsnr_duplicates), link)
+        
     write_template(template, output_filename, table=table, info=info,
-                   fylker=fylker,
+                   fylker=fylker, errors=errors,
                    last_update=last_update)
 
 if __name__ == '__main__':
