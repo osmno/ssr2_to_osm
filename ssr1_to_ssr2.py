@@ -1,4 +1,5 @@
 import re
+from collections import defaultdict
 
 import osmapis
 import openpyxl
@@ -25,8 +26,8 @@ tags_to_ignore_in_comparision.extend(tags_to_remove)
 
 with open(filename_gammel, 'r') as f:
     osm_g = osmapis.OSM.from_xml(f.read())
-# Create dictionary with 'no-kartverket-ssr:objid' as key
-osm_g_dict = dict()
+# Create dictionary with source_id as key and a list of elements with that key
+osm_g_dict = defaultdict(list)
 for item_g in osm_g:
     ref_from_url = None
     # if 'no-kartverket-ssr:objid' in item_g.tags:
@@ -37,7 +38,7 @@ for item_g in osm_g:
         reg = re.search('enhet=(\d+)', url)
         if reg:
             value = reg.group(1)
-            osm_g_dict[value] = item_g
+            osm_g_dict[value].append(item_g)
         else:
             print('error: unable to find enhet in url = %s', url)
     if 'source_ref' in item_g.tags:
@@ -45,7 +46,7 @@ for item_g in osm_g:
         url = item_g.tags['source_ref']
         reg = re.search('enhet=(\d+)', url)
         if reg:
-            ref_from_url = reg.group(1)
+            ref_from_url = reg.group(1) # Used below in assertion/sanity check
         else:
             print('error: unable to find enhet in url = %s', url)
         
@@ -56,7 +57,7 @@ for item_g in osm_g:
                 print('expected enhet from url and source_id to be identical "%s" != "%s", skipping' % (value, ref_from_url))
                 continue
         
-        osm_g_dict[value] = item_g
+        osm_g_dict[value].append(item_g)
 
 print('read osm file, len(elements) = %s, %s items with no-kartverket-ssr:objid' % (len(osm_g), len(osm_g_dict)))
 
@@ -121,20 +122,21 @@ def remove_names_already_present(list_of_names, dct):
     return list_of_names
 
 for ssrid in osm_g_dict:
-    item_g = osm_g_dict[ssrid]
-    if ssrid in ssrid_2_stedsnummer:
-        converted_stedsnummer = ssrid_2_stedsnummer[ssrid]
-        if len(converted_stedsnummer) == 1:
-            new_tag = converted_stedsnummer[0]
-            item_g.tags['ssr:stedsnr'] = new_tag
-            item_g.attribs['action'] = 'modify'
-            
-            for rm_tag in tags_to_remove:
-                item_g.tags.pop(rm_tag, '')
+    for item_g in osm_g_dict[ssrid]:
+    #item_g = osm_g_dict[ssrid]
+        if ssrid in ssrid_2_stedsnummer:
+            converted_stedsnummer = ssrid_2_stedsnummer[ssrid]
+            if len(converted_stedsnummer) == 1:
+                new_tag = converted_stedsnummer[0]
+                item_g.tags['ssr:stedsnr'] = new_tag
+                item_g.attribs['action'] = 'modify'
+
+                for rm_tag in tags_to_remove:
+                    item_g.tags.pop(rm_tag, '')
+            else:
+                print('Multiple conversions found for ssrid = %s, %s' % (ssrid, converted_stedsnummer))
         else:
-            print('Multiple conversions found for ssrid = %s, %s' % (ssrid, converted_stedsnummer))
-    else:
-        print('No conversion found for ssrid = %s' % ssrid)
+            print('No conversion found for ssrid = %s' % ssrid)
 
 for filename in filenames_new:
     with open(filename, 'r') as f:
@@ -164,8 +166,8 @@ for filename in filenames_new:
                 # Look for old_tag in osm_g
                 
                 if old_tag in osm_g_dict:
-                    item_g = osm_g_dict[old_tag] # found it
-                    item_g_lst.append(item_g)
+                    items_g = osm_g_dict[old_tag] # found it
+                    item_g_lst.extend(items_g)
                 
             if len(item_g_lst) == 0:
                 continue
