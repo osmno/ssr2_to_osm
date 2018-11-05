@@ -16,4 +16,4 @@ will start downloading and processing every kommune in Norway, which takes a whi
 ## Output
 The script output is currently here:
 
-https://drive.google.com/open?id=1d_m4gsw6ygok5o2DahwauLpnkSeFhEov
+https://s3.eu-central-1.amazonaws.com/ssr2-to-osm/index.html
