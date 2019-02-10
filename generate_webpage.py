@@ -1,7 +1,10 @@
 import os
 import re
+import openpyxl
 import time
+import json
 from datetime import datetime
+import collections
 import logging
 logger = logging.getLogger('utility_to_osm.ssr2.generate_webpage')
 
@@ -80,6 +83,15 @@ Data from this column should in general not be imported.</li>
 See the <a href=http://wiki.openstreetmap.org/wiki/No:Import_av_stedsnavn_fra_SSR2>import wiki</a> for further details.
 """
 
+# 
+# Statistics gathering
+# 
+global ssr_type_tags
+global ssr_type_freq
+ssr_type_tags = dict() # Key is the 'ssr:type' while the value is a defaultdict counter
+ssr_type_freq = collections.defaultdict(int) # Key is the 'ssr:type', value is the number of occurrences in ssr
+
+
 def progress_to_color(per):
     """My own wierd colormap going to the 'Greenery' color #92B558 as the maximum
     """
@@ -99,10 +111,9 @@ def progress_to_color(per):
 #     info += progress_template_circle.format(value=per, max=100, overpass_checked='', color=color)
 
 def create_text(filename, f, overpass=None, stedsnr_duplicates=None):
-    N_overpass_set = set()
+    overpass_osm_mapping = dict()
     if overpass is None:
         overpass = []
-        N_overpass_set = None
     
     if stedsnr_duplicates is None:
         stedsnr_duplicates = set()
@@ -123,12 +134,17 @@ def create_text(filename, f, overpass=None, stedsnr_duplicates=None):
         if 'clean' in filename:
             f = 'clean-' + f
 
-        if FAST_MODE:
-            osm = []
-        else:
+        osm = list()
+        if not(FAST_MODE):
             content = file_util.read_file(filename)
             osm = OSMstedsnr.from_xml(content)
 
+            # statistics
+            for ssr in osm:
+                ssr_type = ssr.tags.get('ssr:type')
+                if ssr_type is not None:
+                    ssr_type_freq[ssr_type] += 1
+            
             # Add duplicates, if any:
             for item in osm.stedsnr_duplicates:
                 #if isinstance(item, osmapis.Node)
@@ -136,11 +152,13 @@ def create_text(filename, f, overpass=None, stedsnr_duplicates=None):
                     stedsnr_duplicates.add(item)
             
             # Count objects in overpass that is also in osm file
-            if N_overpass_set is not None:
+            if overpass_osm_mapping is not None:
                 for item in overpass:
                     if 'ssr:stedsnr' in item.tags:
-                        if item.tags['ssr:stedsnr'] in osm.stedsnr:
-                            N_overpass_set.add(item.tags['ssr:stedsnr'])
+                        stedsnr = item.tags['ssr:stedsnr']
+                        if stedsnr in osm.stedsnr:
+                            #overpass_osm_mapping.add(item.tags['ssr:stedsnr'])
+                            overpass_osm_mapping[item.tags['ssr:stedsnr']] = (osm.stedsnr[stedsnr][0], item)
                         #N_overpass += 1
                     #else:
                     # fixme: Warning only when reading the 'full' file
@@ -158,11 +176,30 @@ def create_text(filename, f, overpass=None, stedsnr_duplicates=None):
     else:
         pass
 
-    if N_overpass_set is None:
-        N_overpass = -1
-    else:
-        N_overpass = len(N_overpass_set)
-    
+    N_overpass = -1
+    if overpass_osm_mapping is not None:
+        N_overpass = len(overpass_osm_mapping)
+
+
+    # Gather statistics from overpass_osm_mapping
+    global ssr_type_tags # 
+    #print(overpass_osm_mapping)
+    for stedsnr, (ssr, overpass) in overpass_osm_mapping.items():
+        #print('%s:\n%s\n%s' % (stedsnr, ssr.tags, overpass.tags))
+        if 'ssr:type' not in ssr.tags:
+            continue
+
+        ssr_type = ssr.tags['ssr:type']
+        if ssr_type not in ssr_type_tags:
+            ssr_type_tags[ssr_type] = collections.defaultdict(int)
+
+        for key, value in overpass.tags.items():
+            if key not in ('wikidata', 'population', 'ele', 'source', 'fixme', 'operator', 'website', 'ref', 'maxspeed', 'phone') \
+               and not(key.endswith(('name', 'date'))) and not(key.startswith(('name:', 'ssr:', 'seamark:light', 'wikipedia', 'addr'))):
+                ssr_type_tags[ssr_type]['%s = %s' % (key, value)] += 1
+
+        #print(ssr_type_tags)
+        
     return f, N_nodes, N_overpass
 
 def write_template(template_input, template_output, **template_kwargs):
@@ -192,7 +229,7 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
     except KeyError as e:
         logger.warning('Could not translate kommune_nr = %s to a name. Skipping', kommune_nr)
         #kommune_name = 'ukjent'
-        return None
+        kommune_nr_int = None
     except ValueError as e:
         if kommune_nr == 'ZZ':
             kommune_name = 'Outside mainland'
@@ -211,7 +248,8 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
     except KeyError as e:
         logger.warning('Could not translate kommune_nr = %s to a fylke-name. Skipping', kommune_nr)
         #fylke_name = 'ukjent'
-        return None
+        #return None, None, None
+        fylke_nr = None
     except ValueError:
         if kommune_nr == 'ZZ':
             fylke_name = ''
@@ -240,65 +278,68 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
     excerpts_for_import = []
     raw_data = []
     log = []
-    for root, dirs, files in os.walk(folder):
-        for f in files:
-            f = f.decode('utf8')
-            if f.endswith(('.osm', '.xml', '.log', '.gml')):
-                filename = os.path.join(root, f)
-                text, N_ssr, N_overpass = create_text(filename, f, overpass=overpass,
-                                                      stedsnr_duplicates=stedsnr_duplicates)
-                if N_ssr != 0:
-                    per = (100.*N_overpass)/N_ssr
+    if kommune_nr_int is not None:
+        for root, dirs, files in os.walk(folder):
+            for f in files:
+                f = f.decode('utf8')
+                if f.endswith(('.osm', '.xml', '.log', '.gml')):
+                    filename = os.path.join(root, f)
+                    text, N_ssr, N_overpass = create_text(filename, f, overpass=overpass,
+                                                          stedsnr_duplicates=stedsnr_duplicates)
 
-                href = filename.replace('html/', '')
-                url = link_template.format(href=href,
-                                           title=filename,
-                                           text=text)
-                if root.endswith('clean'):
-                    progress_str = ''
-                    if N_ssr != -1 and N_overpass != -1:
-                        color = progress_to_color(per)
-                        progress = progress_template_circle.format(value=N_overpass, max=N_ssr, per=per,
-                                                                   overpass_checked=overpass_checked_date,
-                                                                   color=color)
-                        progress_str = '&thinsp;%s' % progress
+                    if N_ssr != 0:
+                        per = (100.*N_overpass)/N_ssr
 
-                    excerpts_for_import.append(url + progress_str)
-                elif f.endswith('%s.osm' % kommune_nr):
-                    dataset_for_import.append(url)
-                    if N_ssr != -1 and N_overpass != -1:
-                        progress = progress_template.format(value=N_overpass, min=0, max=N_ssr, per=per,
-                                                            overpass_checked=overpass_checked_date)
-                        dataset_for_import.append(progress)
-                        N_ssr_total += N_ssr
-                        N_overpass_total += N_overpass
-                elif 'NoName' in f or 'NoTags' in f:
-                    progress_str = ''
-                    if N_ssr != -1 and N_overpass != -1:
-                        color = progress_to_color(per)
-                        progress = progress_template_circle.format(value=N_overpass, max=N_ssr, per=per,
-                                                                   overpass_checked=overpass_checked_date,
-                                                                   color=color)
-                        progress_str = '&thinsp;%s' % progress
+                    href = filename.replace('html/', '')
+                    url = link_template.format(href=href,
+                                               title=filename,
+                                               text=text)
+                    if root.endswith('clean'):
+                        progress_str = ''
+                        if N_ssr != -1 and N_overpass != -1:
+                            color = progress_to_color(per)
+                            progress = progress_template_circle.format(value=N_overpass, max=N_ssr, per=per,
+                                                                       overpass_checked=overpass_checked_date,
+                                                                       color=color)
+                            progress_str = '&thinsp;%s' % progress
 
-                    excluded_from_import.append(url + progress_str)
-                elif f.endswith(('.xml', '.gml')):
-                    raw_data.append(url)
-                elif f.endswith('.log'):
-                    log.append(url)
-                else:
-                    pass # ignore
+                        excerpts_for_import.append(url + progress_str)
+                    elif f.endswith('%s.osm' % kommune_nr):
+                        dataset_for_import.append(url)
+                        if N_ssr != -1 and N_overpass != -1:
+                            progress = progress_template.format(value=N_overpass, min=0, max=N_ssr, per=per,
+                                                                overpass_checked=overpass_checked_date)
+                            dataset_for_import.append(progress)
+                            N_ssr_total += N_ssr
+                            N_overpass_total += N_overpass
+                    elif 'NoName' in f or 'NoTags' in f:
+                        progress_str = ''
+                        if N_ssr != -1 and N_overpass != -1:
+                            color = progress_to_color(per)
+                            progress = progress_template_circle.format(value=N_overpass, max=N_ssr, per=per,
+                                                                       overpass_checked=overpass_checked_date,
+                                                                       color=color)
+                            progress_str = '&thinsp;%s' % progress
 
-    row.append(fylke_nr)
-    row.append("%s" % fylke_name)
+                        excluded_from_import.append(url + progress_str)
+                    elif f.endswith(('.xml', '.gml')):
+                        raw_data.append(url)
+                    elif f.endswith('.log'):
+                        log.append(url)
+                    else:
+                        pass # ignore
 
-    kommune_cell = list(log)
-    kommune_cell.insert(0, "%s %s" % (kommune_nr, kommune_name))
-    row.append(kommune_cell)            
-    row.append(dataset_for_import)
-    row.append(excerpts_for_import)            
-    row.append(excluded_from_import)
-    row.append(raw_data)
+        row.append(fylke_nr)
+        row.append("%s" % fylke_name)
+
+        kommune_cell = list(log)
+        kommune_cell.insert(0, "%s %s" % (kommune_nr, kommune_name))
+        row.append(kommune_cell)            
+        row.append(dataset_for_import)
+        row.append(excerpts_for_import)            
+        row.append(excluded_from_import)
+        row.append(raw_data)
+    
     return row, N_overpass_total, N_ssr_total
 
         
@@ -313,6 +354,9 @@ def create_main_table(data_dir='output', cache_dir='data'):
     fylker = list()
     
     for kommune_nr in os.listdir(data_dir):
+        # if kommune_nr == '0213':
+        #     break
+        
         kommune_nr_int = None
         folder = os.path.join(data_dir, kommune_nr)
         if os.path.isdir(folder):
@@ -349,6 +393,8 @@ def create_main_table(data_dir='output', cache_dir='data'):
 def main(data_dir='html/data/', root_output='html', template='html/template.html'):
     output_filename = os.path.join(root_output, 'index.html')
     output_filename_hist = os.path.join(root_output, 'hist.csv')
+    output_filename_stat_json = os.path.join(root_output, 'stat.json')
+    output_filename_stat_excel = os.path.join(root_output, 'stat.xlsx')
     
     table, fylker, last_update, stedsnr_duplicates, N_overpass_total, N_ssr_total = create_main_table(data_dir, cache_dir=data_dir)
     errors = ''
@@ -379,6 +425,62 @@ def main(data_dir='html/data/', root_output='html', template='html/template.html
     with open(output_filename_hist, 'a') as f:
         f.write('%s,%s,%s\n' % (td_s, N_ssr_total, N_overpass_total))
 
+    # Statistics
+    for key in ssr_type_tags.keys():
+        # max count
+        max_count = 0
+        for tag, count in ssr_type_tags[key].items():
+            max_count = max(max_count, count)
+        # remove tags with only 1 value and remove those with significant less than max count
+        for tag, count in ssr_type_tags[key].items():
+            if count == 1 or count < max_count//25:
+                del ssr_type_tags[key][tag]
+
+    with open(output_filename_stat_json, 'w') as f:
+        json.dump(ssr_type_tags, f)
+
+    from openpyxl.styles import Alignment
+    wb = openpyxl.load_workbook(os.path.join('data', 'Tagging tabell SSR2 with stats.xlsx'))
+    ws = wb['Taggetabell'] #wb.create_sheet()
+    ws.page_setup.fitToWidth = 1
+    header = next(ws.rows)
+    ix_navnetype = 0
+    ix_ssr2_count = 0
+    ix_tags = 0
+    for h in header:
+        if h.value == 'SSR2 navnetype':
+            ix_navnetype = h.col_idx
+        elif h.value == 'SSR2 count':
+            ix_ssr2_count = h.col_idx
+        elif h.value == 'Tags used in OSM, count':
+            ix_tags = h.col_idx
+
+    #ws.append(['SSR2 navnetype', 'SSR2 freq', 'Tag usage in OSM'])
+    for key in ssr_type_tags.keys():
+        tag_cell = []
+        for tag, count in ssr_type_tags[key].items():
+            tag_cell.append('"%s", %s' % (tag, count))
+        tag_cell_str = '\n'.join(tag_cell)
+
+        freq_in_ssr = ssr_type_freq.get(key, 0)
+
+        # Data ready, lets find correct row to insert into
+        for row_ix in range(ws.max_row):
+            if ws.cell(column=ix_navnetype, row=row_ix+1).value == key:
+                break
+        else:
+            raise ValueError('Could not find "%s" in column %s' % (key, ix_navnetype))
+
+        #ws.append([key, freq_in_ssr, cell])
+        ws.cell(column=ix_ssr2_count, row=row_ix+1).value = freq_in_ssr
+        
+        cell = ws.cell(column=ix_tags, row=row_ix+1)
+        cell.value = tag_cell_str
+        cell.alignment = Alignment(wrapText=True)
+        
+
+    wb.save(output_filename_stat_excel)
+    
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description='')
