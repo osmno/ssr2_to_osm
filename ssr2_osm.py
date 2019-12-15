@@ -10,7 +10,7 @@ global kommuneNr_2_relationId
 kommuneNr_2_relationId = dict()
 
 def overpass_stedsnr_in_relation(relation_id, cache_filename,
-                            old_age_days = 5,
+                            old_age_days = 14,
                             root_template = '',
                             query_template_filename = 'query_template.xml',):
     """Queries OSM for all ssr:stedsnr in the given relation-id (say a single Kommune, or the entire country)"""

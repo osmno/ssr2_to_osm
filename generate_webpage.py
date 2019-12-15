@@ -12,6 +12,7 @@ import utility_to_osm.argparse_util as argparse_util
 from utility_to_osm.kommunenummer import kommunenummer, kommune_fylke
 import utility_to_osm.file_util as file_util
 from utility_to_osm.file_util import open_utf8
+from utility_to_osm.generate_html_history_chart import render_history_chart
 from utility_to_osm import osmapis
 
 from jinja2 import Template
@@ -78,10 +79,12 @@ tag (but typically contains either
 The column also contain data that lacks a translation from SSR to OSM tags (see <a href=https://drive.google.com/open?id=1krf8NESSyyObpcV8TPUHInUCYiepZ6-m>tagging table</a>), typically excluded since these
 are coved by separate imports. 
 Data from this column should in general not be imported.</li>
-<li> Raw data from Kartverket (SSR) in the rightmost column. </li>
 </ol>
 See the <a href=http://wiki.openstreetmap.org/wiki/No:Import_av_stedsnavn_fra_SSR2>import wiki</a> for further details.
 """
+
+# <li> Raw data from Kartverket (SSR) in the rightmost column. </li>
+
 
 # 
 # Statistics gathering
@@ -208,6 +211,7 @@ def write_template(template_input, template_output, **template_kwargs):
 
     template_kwargs['header'] = template_kwargs.pop('header', header)
     template_kwargs['footer'] = template_kwargs.pop('footer', footer)
+    template_kwargs['chart'] = template_kwargs.pop('chart', footer)
     page = template.render(**template_kwargs)
 
     with open_utf8(template_output, 'w') as output:
@@ -263,14 +267,20 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
         cache_filename = os.path.join(folder, 'overpass', '%s-overpass-stedsnr.osm' % kommune_nr)
         file_util.create_dirname(cache_filename)
         #cache_filename = os.path.join(folder, '%s-osmStedsnr.osm' % kommune_nr)
-        overpass = overpass_stedsnr_in_kommunenr(kommune_nr_int,
-                                                 cache_filename=cache_filename,
-                                                 cache_dir=cache_dir)
+        try:
+            overpass = overpass_stedsnr_in_kommunenr(kommune_nr_int,
+                                                     cache_filename=cache_filename,
+                                                     cache_dir=cache_dir)
 
-        timestamp = os.path.getmtime(cache_filename)
-        overpass_checked_datetime = datetime.fromtimestamp(timestamp)
-        overpass_checked_date = overpass_checked_datetime.strftime('%Y-%m-%d %H:%M')
-        #N_overpass = len(overpass)
+            timestamp = os.path.getmtime(cache_filename)
+            overpass_checked_datetime = datetime.fromtimestamp(timestamp)
+            overpass_checked_date = overpass_checked_datetime.strftime('%Y-%m-%d %H:%M')
+
+        except KeyError as e:
+            logger.error('Could not translate kommune_nr = %s to a osm-relation-id. Skipping overpass call: %s' % (kommune_nr_int, e))
+            overpass_checked_date = 'Could not translate kommune_nr = %s to a osm-relation-id, overpass not called' % kommune_nr_int
+
+        N_overpass = len(overpass)
 
     row = list()
     dataset_for_import = [] # expecting a single entry here
@@ -338,7 +348,7 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
         row.append(dataset_for_import)
         row.append(excerpts_for_import)            
         row.append(excluded_from_import)
-        row.append(raw_data)
+        #row.append(raw_data) # skip raw data to reduce storage requirements
     
     return row, N_overpass_total, N_ssr_total
 
@@ -390,9 +400,9 @@ def create_main_table(data_dir='output', cache_dir='data'):
 
     return table, fylker, last_update, stedsnr_duplicates, N_overpass_total, N_ssr_total
 
-def main(data_dir='html/data/', root_output='html', template='html/template.html'):
+def main(data_dir='ssr2_to_osm_data/data/', root_output='ssr2_to_osm_data', template='ssr2_to_osm_data/templates/index_template.html'):
     output_filename = os.path.join(root_output, 'index.html')
-    output_filename_hist = os.path.join(root_output, 'hist.csv')
+    output_filename_hist = os.path.join(root_output, 'history.csv')
     output_filename_stat_json = os.path.join(root_output, 'stat.json')
     output_filename_stat_excel = os.path.join(root_output, 'stat.xlsx')
     
@@ -413,10 +423,7 @@ def main(data_dir='html/data/', root_output='html', template='html/template.html
             s = 's'
         errors = '''<div class="error">Duplicate element%s found, %s node%s with duplicated 
         ssr:nsrid found in osm, please see %s</div>''' % (s, len(stedsnr_duplicates), s, link)
-        
-    write_template(template, output_filename, table=table, info=info,
-                   fylker=fylker, errors=errors,
-                   last_update=last_update)
+
 
     # dump progress to csv
     today = datetime.utcnow()
@@ -424,6 +431,17 @@ def main(data_dir='html/data/', root_output='html', template='html/template.html
     td_s = td.total_seconds()
     with open(output_filename_hist, 'a') as f:
         f.write('%s,%s,%s\n' % (td_s, N_ssr_total, N_overpass_total))
+
+    # read progress from csv
+    chart = render_history_chart(root_output,
+                                 header=['Number of noder/ways with ssr:stedsnr in OSM', ''],
+                                 title='Total number of nodes',)
+
+    # Fill out the template
+    write_template(template, output_filename, table=table, info=info,
+                   fylker=fylker, errors=errors,
+                   last_update=last_update,
+                   chart=chart)
 
     # Statistics
     for key in ssr_type_tags.keys():
@@ -440,7 +458,7 @@ def main(data_dir='html/data/', root_output='html', template='html/template.html
         json.dump(ssr_type_tags, f)
 
     from openpyxl.styles import Alignment
-    wb = openpyxl.load_workbook(os.path.join('data', 'Tagging tabell SSR2 with stats.xlsx'))
+    wb = openpyxl.load_workbook(os.path.join('data', 'Tagging tabell SSR2.xlsx'))
     ws = wb['Taggetabell'] #wb.create_sheet()
     ws.page_setup.fitToWidth = 1
     header = next(ws.rows)
@@ -450,9 +468,9 @@ def main(data_dir='html/data/', root_output='html', template='html/template.html
     for h in header:
         if h.value == 'SSR2 navnetype':
             ix_navnetype = h.col_idx
-        elif h.value == 'SSR2 count':
+        elif h.value == 'SSR2 antall':
             ix_ssr2_count = h.col_idx
-        elif h.value == 'Tags used in OSM, count':
+        elif h.value == 'Tags brukt i OSM, antall':
             ix_tags = h.col_idx
 
     #ws.append(['SSR2 navnetype', 'SSR2 freq', 'Tag usage in OSM'])
