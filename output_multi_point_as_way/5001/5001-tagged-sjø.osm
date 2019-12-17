@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-28667" lat="63.3622249989" lon="10.0413833248">
+		<tag k="ssr:gml_id" v="GEOMETRY_316f3c81-cf05-4a0c-84ff-90455a05677d" />
+		<tag k="ssr:gml_nr" v="11" />
+	</node>
+	<node id="-28666" lat="63.3622249966" lon="10.0413861037">
+		<tag k="ssr:gml_id" v="GEOMETRY_e29aeb61-9329-4266-8cb8-cfe5a5ab2752" />
+		<tag k="ssr:gml_nr" v="10" />
+	</node>
+	<node id="-31225" lat="63.4536361136" lon="10.3019805603">
+		<tag k="ssr:gml_id" v="GEOMETRY_e382d60c-f216-40f7-8819-c827f6645ee0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-31224" lat="63.4536388889" lon="10.3019833339">
+		<tag k="ssr:gml_id" v="GEOMETRY_0cfc8850-a44b-44e5-a5b9-78da3ad95984" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28663" lat="63.3736194474" lon="10.049436118">
+		<tag k="ssr:gml_id" v="GEOMETRY_b159b040-198e-4016-98ae-7b663bcf0e43" />
+		<tag k="ssr:gml_nr" v="7" />
+	</node>
+	<node id="-28662" lat="63.3436000027" lon="10.1803444415">
+		<tag k="ssr:gml_id" v="GEOMETRY_7c0ebdae-75ba-4cc1-ac9e-511d7ff72cbe" />
+		<tag k="ssr:gml_nr" v="6" />
+	</node>
+	<node id="-28661" lat="63.3306444413" lon="10.2075472279">
+		<tag k="ssr:gml_id" v="GEOMETRY_ebe09f9a-7186-4bd4-a49d-702d8358ca79" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-33268" lat="63.3577555596" lon="10.1034583302">
+		<tag k="name" v="Prestvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="751857" />
+	</node>
+	<node id="-28659" lat="63.3346388931" lon="10.0740111026">
+		<tag k="ssr:gml_id" v="GEOMETRY_cc0bc145-16cb-4e70-8405-daf863320620" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-28658" lat="63.3544472226" lon="10.0003611079">
+		<tag k="ssr:gml_id" v="GEOMETRY_6b39f2fc-02a5-4647-a7bc-da56659ddfdd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-28657" lat="63.3552277822" lon="10.0462388973">
+		<tag k="ssr:gml_id" v="GEOMETRY_efec7224-edd1-4b1b-86a5-dda5fb9918e0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28656" lat="63.34205556" lon="10.0997416716">
+		<tag k="ssr:gml_id" v="GEOMETRY_0082fde4-620b-4869-93b3-7165a99836fe" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-30693" lat="63.3702638898" lon="10.082141657">
+		<tag k="ssr:gml_id" v="GEOMETRY_f79f840d-1b1f-4d00-8574-d810e842670c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-30692" lat="63.3702666692" lon="10.0821444413">
+		<tag k="ssr:gml_id" v="GEOMETRY_3701f6f1-4946-42f2-bdae-5ca63379786f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-27619" lat="63.4411333318" lon="10.1799805646">
+		<tag k="ssr:gml_id" v="GEOMETRY_8af2e5f9-37eb-44f6-a8e0-a1bf0c5f0130" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-27104" lat="63.463661114" lon="10.3931694482">
+		<tag k="name" v="Tuva" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="784022" />
+	</node>
+	<node id="-34773" lat="63.4627305535" lon="10.2312305483">
+		<tag k="ssr:gml_id" v="GEOMETRY_0b45183b-23c5-4c0d-825e-3fba605aa3ed" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-34772" lat="63.4586666661" lon="10.1722194428">
+		<tag k="ssr:gml_id" v="GEOMETRY_21b0b438-ba17-4cb1-a13b-1459af5f604e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-34771" lat="63.4558916671" lon="10.2960888806">
+		<tag k="ssr:gml_id" v="GEOMETRY_5aa49553-8baa-4b9f-b726-bc4cef96685b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-34770" lat="63.4457194424" lon="10.1528222209">
+		<tag k="ssr:gml_id" v="GEOMETRY_d5b9b51b-9292-406b-af67-4e8c9ac015b5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28664" lat="63.3658305544" lon="10.0825138865">
+		<tag k="ssr:gml_id" v="GEOMETRY_c5b200ef-371f-4aa6-b986-b4dc25ea93be" />
+		<tag k="ssr:gml_nr" v="8" />
+	</node>
+	<node id="-26957" lat="63.4529111109" lon="10.2498027856">
+		<tag k="name" v="Svartdalsbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="650140" />
+	</node>
+	<node id="-29132" lat="63.4532305546" lon="10.4633666659">
+		<tag k="name" v="Ringvebukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="810844" />
+	</node>
+	<node id="-32696" lat="63.4529888858" lon="10.5339722248">
+		<tag k="ssr:gml_id" v="GEOMETRY_fae0cff5-3392-4f16-bb64-a785afaabcef" />
+		<tag k="ssr:gml_nr" v="10" />
+	</node>
+	<node id="-32695" lat="63.4647750044" lon="10.4447500012">
+		<tag k="ssr:gml_id" v="GEOMETRY_821e953a-de8e-4558-9245-cafbde26f8e5" />
+		<tag k="ssr:gml_nr" v="9" />
+	</node>
+	<node id="-32694" lat="63.4899194401" lon="10.7464138821">
+		<tag k="ssr:gml_id" v="GEOMETRY_8cc2ad58-720e-42e9-9d41-79886e183dce" />
+		<tag k="ssr:gml_nr" v="8" />
+	</node>
+	<node id="-32693" lat="63.5264305562" lon="10.7402333346">
+		<tag k="ssr:gml_id" v="GEOMETRY_5a2330fc-9a4a-4fa1-b860-6e4d3d6149c3" />
+		<tag k="ssr:gml_nr" v="7" />
+	</node>
+	<node id="-32692" lat="63.5034583336" lon="10.7312833313">
+		<tag k="ssr:gml_id" v="GEOMETRY_78471127-8915-4bee-a550-b79013becca0" />
+		<tag k="ssr:gml_nr" v="6" />
+	</node>
+	<node id="-32691" lat="63.4759638889" lon="10.7886916743">
+		<tag k="ssr:gml_id" v="GEOMETRY_667d0dc6-0f5f-44c6-89aa-7097c5dbdcd1" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-32690" lat="63.46601111" lon="10.5178916612">
+		<tag k="ssr:gml_id" v="GEOMETRY_df73fd54-856b-4f06-aa4b-9a1a635b1f85" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-32689" lat="63.4913138851" lon="10.5760833417">
+		<tag k="ssr:gml_id" v="GEOMETRY_0008b341-b9bf-4625-90c1-f8c35ef2e76b" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-32688" lat="63.4437416685" lon="10.6836972204">
+		<tag k="ssr:gml_id" v="GEOMETRY_c508a57a-5c83-45a6-9a9c-e7c0abe50fe8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-32687" lat="63.4436777748" lon="10.6133138898">
+		<tag k="ssr:gml_id" v="GEOMETRY_ae823d49-55ca-46d0-aa03-6b2221b09206" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-32686" lat="63.4647805598" lon="10.4447527695">
+		<tag k="ssr:gml_id" v="GEOMETRY_6dbf4802-a641-4f99-8d6c-6782bdfb21a1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-30125" lat="63.5057166651" lon="10.4305777783">
+		<tag k="ssr:gml_id" v="GEOMETRY_622671ee-7359-475c-9c1c-b31fc62518f7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-30124" lat="63.5057222197" lon="10.4305833411">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8d5f915-e6e6-42e5-9f12-c4da5fe329ed" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28582" lat="63.3413249983" lon="10.246086115">
+		<tag k="ssr:gml_id" v="GEOMETRY_c1101b1d-cf7e-482d-999f-12662177c465" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-28581" lat="63.3420444418" lon="10.2460472173">
+		<tag k="ssr:gml_id" v="GEOMETRY_a8ec48d8-c3fc-4577-9d2e-67b081a47ef3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28580" lat="63.3413333299" lon="10.2460972241">
+		<tag k="ssr:gml_id" v="GEOMETRY_944ee558-1898-4339-8a31-55c911d839bc" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-30112" lat="63.4414527748" lon="10.4851222129">
+		<tag k="name" v="Rotvollneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="650740" />
+	</node>
+	<node id="-28059" lat="63.3863055523" lon="10.056575003">
+		<tag k="ssr:gml_id" v="GEOMETRY_af92c3eb-3018-457c-96fc-006cb1f8aeec" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28058" lat="63.3863083347" lon="10.0565750052">
+		<tag k="ssr:gml_id" v="GEOMETRY_57d57946-de75-47d6-89eb-b11a56760974" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-29591" lat="63.4380638874" lon="10.1616361209">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Klefstadskjæret" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="25024" />
+	</node>
+	<node id="-28561" lat="63.4280749967" lon="10.1068222144">
+		<tag k="ssr:gml_id" v="GEOMETRY_b7cea507-f668-4425-80a4-2f597cb78c85" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28560" lat="63.4280777755" lon="10.1068250068">
+		<tag k="ssr:gml_id" v="GEOMETRY_6f24b36b-f4af-4d55-b011-6fe82107f232" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-32647" lat="63.4360277787" lon="10.5713722323">
+		<tag k="ssr:gml_id" v="GEOMETRY_1129cce8-70cb-4c08-8813-d59556881430" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-32646" lat="63.4360416641" lon="10.5713805506">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f16bf7c-7412-4838-af45-29c44f9a7578" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-32645" lat="63.4360249995" lon="10.5714388945">
+		<tag k="ssr:gml_id" v="GEOMETRY_596479b3-8c8c-4747-8575-1d8c0e39b05e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-32642" lat="63.416208334" lon="10.0913250007">
+		<tag k="name" v="Oddan" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="134147" />
+	</node>
+	<node id="-32638" lat="63.4570527741" lon="10.4459277686">
+		<tag k="ssr:gml_id" v="GEOMETRY_f5f944dc-d1ec-45f3-9340-d251f933034a" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-32637" lat="63.4565749979" lon="10.4494499969">
+		<tag k="ssr:gml_id" v="GEOMETRY_a267653c-3776-4579-8445-375753beeecd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-32636" lat="63.4566833372" lon="10.4442249979">
+		<tag k="ssr:gml_id" v="GEOMETRY_2f6a1668-c9fa-400f-b1ba-a7339c233527" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-32635" lat="63.4565749966" lon="10.4494527852">
+		<tag k="ssr:gml_id" v="GEOMETRY_5bb614d7-e90c-4fdf-b94d-084bab3ecd78" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-29247" lat="63.4412777736" lon="10.4752083378">
+		<tag k="ssr:gml_id" v="GEOMETRY_bec8063f-3fdf-487e-a810-802aa2ec0904" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-34161" lat="63.4507027794" lon="10.3826527797">
+		<tag k="ssr:gml_id" v="GEOMETRY_b9e1ec81-3e73-49e9-8ead-ed4aa101c6b1" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-34160" lat="63.4514499965" lon="10.3825138978">
+		<tag k="ssr:gml_id" v="GEOMETRY_45214f73-79ec-425c-9101-ae414cd5460a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-34159" lat="63.4514111101" lon="10.3837777834">
+		<tag k="ssr:gml_id" v="GEOMETRY_ef26446f-96c7-4f20-8796-cfddd079d161" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-34158" lat="63.4514638922" lon="10.3825277851">
+		<tag k="ssr:gml_id" v="GEOMETRY_c314c35c-8eae-4641-ac9a-cb71a1c925ca" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-27709" lat="63.4387833336" lon="10.34964166">
+		<tag k="ssr:gml_id" v="GEOMETRY_2c4311cc-7a79-4c5a-b823-73e4ea94b9c8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-27708" lat="63.4388777805" lon="10.3495000013">
+		<tag k="ssr:gml_id" v="GEOMETRY_1e22cd89-7568-4fbc-944e-b8cb72be2abe" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-27707" lat="63.4388916683" lon="10.3495055464">
+		<tag k="ssr:gml_id" v="GEOMETRY_e7207a07-2fa7-42bc-bfd6-ec0e65f8e5fd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26974" lat="63.4569177518" lon="10.4527829457">
+		<tag k="name" v="Djupvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="82833" />
+	</node>
+	<node id="-29016" lat="63.3717111089" lon="10.0697361044">
+		<tag k="ssr:gml_id" v="GEOMETRY_671f1760-feac-4b08-a9a4-d91abb39f08f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-29015" lat="63.3717138885" lon="10.0697388877">
+		<tag k="ssr:gml_id" v="GEOMETRY_4f6ccece-5b30-473a-b02c-b11bd4cba3f5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-27620" lat="63.4411361095" lon="10.1799833253">
+		<tag k="ssr:gml_id" v="GEOMETRY_eaa98556-02a0-4640-8792-531b00041e9e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-34641" lat="63.3710833377" lon="10.0684555604">
+		<tag k="name" v="Tonnorvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="387973" />
+	</node>
+	<node id="-29005" lat="63.4528083359" lon="10.240933343">
+		<tag k="name" v="Salhaugbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="469165" />
+	</node>
+	<node id="-34634" lat="63.4325361128" lon="10.1525527806">
+		<tag k="ssr:gml_id" v="GEOMETRY_61c1d12e-b653-4dd0-9e47-a76a20b8785b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-34633" lat="63.4325333347" lon="10.1525500034">
+		<tag k="ssr:gml_id" v="GEOMETRY_086877da-7f89-4ea8-87dc-1e64978dfbe4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-34632" lat="63.4325305567" lon="10.1525472263">
+		<tag k="ssr:gml_id" v="GEOMETRY_87958220-790e-4b60-9046-96c87ad5f806" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28993" lat="63.4302833299" lon="10.5577972248">
+		<tag k="name" v="Væresbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="423125" />
+	</node>
+	<node id="-30526" lat="63.4357916639" lon="10.4112194498">
+		<tag k="name" v="Rosenborgbassenget" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="535742" />
+	</node>
+	<node id="-30521" lat="63.3529416625" lon="10.1152277756">
+		<tag k="name" v="Notberget" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="812861" />
+	</node>
+	<node id="-33077" lat="63.3879888876" lon="10.0591694378">
+		<tag k="name" v="Haugbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="691822" />
+	</node>
+	<node id="-26932" lat="63.4573777797" lon="10.3828944533">
+		<tag k="name" v="Taren" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="105673" />
+	</node>
+	<node id="-26926" lat="63.4310083373" lon="10.5273111041">
+		<tag k="name" v="Ranheimsfjæra" />
+		<tag k="natural" v="beach" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="899762" />
+	</node>
+	<node id="-33068" lat="63.3476611121" lon="10.1397583422">
+		<tag k="name" v="Muletangen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="691818" />
+	</node>
+	<node id="-27417" lat="63.4496249995" lon="10.4327999913">
+		<tag k="ssr:gml_id" v="GEOMETRY_5e4625a9-b66e-4cae-a53d-e4daa6b479fc" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-27416" lat="63.4507500038" lon="10.4338500023">
+		<tag k="ssr:gml_id" v="GEOMETRY_f4bc966a-207e-4d30-aff9-86db405b5452" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-27415" lat="63.4507527749" lon="10.4338583238">
+		<tag k="ssr:gml_id" v="GEOMETRY_6e522fbf-1206-4c17-8b8c-5cec20945569" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-33547" lat="63.4532166642" lon="10.2560138861">
+		<tag k="name" v="Storsteinan" />
+		<tag k="natural" v="beach" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="634981" />
+	</node>
+	<node id="-31498" lat="63.4443277773" lon="10.1809749953">
+		<tag k="ssr:gml_id" v="GEOMETRY_19b1fd19-ac1d-42c5-969f-955d2d8de725" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-31497" lat="63.4443305548" lon="10.1809777764">
+		<tag k="ssr:gml_id" v="GEOMETRY_48e9ca20-3e10-4b5e-ad55-cec43f9a832e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-31496" lat="63.4418972256" lon="10.1791333346">
+		<tag k="ssr:gml_id" v="GEOMETRY_675d6911-4aa5-4cb8-a3c1-ba41574de9a4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-34556" lat="63.3704916648" lon="10.0730722205">
+		<tag k="name" v="Vorpa" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="327902" />
+	</node>
+	<node id="-29939" lat="63.4385111153" lon="10.1681666636">
+		<tag k="ssr:gml_id" v="GEOMETRY_1815cf6e-e4d7-4c36-8146-c98aad077316" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-29938" lat="63.4385138931" lon="10.1681694429">
+		<tag k="ssr:gml_id" v="GEOMETRY_d25bb51f-6282-4656-8597-64854e65b900" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-30940" lat="63.4392611114" lon="10.4914222299">
+		<tag k="name" v="Fagernes" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="232707" />
+	</node>
+	<node id="-33499" lat="63.4447722209" lon="10.4688305505">
+		<tag k="name" v="Devlebukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="848199" />
+	</node>
+	<node id="-30938" lat="63.4283083354" lon="10.1469722248">
+		<tag k="name" v="Ryesberget" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="266918" />
+	</node>
+	<node id="-30928" lat="63.4269777785" lon="10.4021111135">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Skjælinghylla" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="595729" />
+	</node>
+	<node id="-33480" lat="63.453219445" lon="10.2618111184">
+		<tag k="name" v="Svartbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="817983" />
+	</node>
+	<node id="-30918" lat="63.3955944405" lon="10.0633194472">
+		<tag k="name" v="Håmmåren" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="812954" />
+	</node>
+	<node id="-30402" lat="63.4040472211" lon="10.0693194455">
+		<tag k="name" v="Rønningsberget" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="650831" />
+	</node>
+	<node id="-28353" lat="63.4462749971" lon="10.3381611182">
+		<tag k="ssr:gml_id" v="GEOMETRY_aea147f5-225f-45cd-9038-ff021f961219" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28352" lat="63.4462777807" lon="10.3381638951">
+		<tag k="ssr:gml_id" v="GEOMETRY_70a985a8-2149-41a5-b611-e26fee631186" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-27253" lat="63.4347500043" lon="10.5045388973">
+		<tag k="ssr:gml_id" v="GEOMETRY_00aafed5-791e-4fc3-8f1e-5c2092a1bc2d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-33977" lat="63.3975277755" lon="10.0642111193">
+		<tag k="alt_name" v="Buatangen" />
+		<tag k="name" v="Tangen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="508949" />
+	</node>
+	<node id="-27252" lat="63.4348916674" lon="10.5056277878">
+		<tag k="ssr:gml_id" v="GEOMETRY_a6cf7348-0316-4728-88f0-fcdb27eb11e2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28334" lat="63.4344750032" lon="10.3525305479">
+		<tag k="ssr:gml_id" v="GEOMETRY_c55f337c-a33b-4a65-9096-0d9029ccaa35" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28333" lat="63.4338222241" lon="10.3539194385">
+		<tag k="ssr:gml_id" v="GEOMETRY_956886a7-c155-4854-9975-074a395c1d13" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-30380" lat="63.352816665" lon="10.1164194448">
+		<tag k="name" v="Steinshylla" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="316564" />
+	</node>
+	<node id="-28665" lat="63.3487000003" lon="10.1127333385">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f586fde-91dc-46a7-adc5-02f77ca19d04" />
+		<tag k="ssr:gml_nr" v="9" />
+	</node>
+	<node id="-33478" lat="63.4525055598" lon="10.3083500058">
+		<tag k="name" v="Spikarbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="717743" />
+	</node>
+	<node id="-29853" lat="63.5040888895" lon="10.4250777823">
+		<tag k="name" v="Sørtåa" />
+		<tag k="place" v="locality" />
+		<tag k="seamark:type" v="rock" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="255221" />
+	</node>
+	<node id="-27279" lat="63.4302000013" lon="10.1492916732">
+		<tag k="ssr:gml_id" v="GEOMETRY_b7289d31-072f-426a-90b5-3c1df6ea207f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-27278" lat="63.4302027795" lon="10.1492944499">
+		<tag k="ssr:gml_id" v="GEOMETRY_3fa6cb2a-0cf1-4ea1-b1e7-7a1fbeaa71ea" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-29828" lat="63.4487138896" lon="10.1738749979">
+		<tag k="ssr:gml_id" v="GEOMETRY_572ce1ae-8ceb-44c3-933d-87577f413e74" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-29827" lat="63.4487111119" lon="10.173872217">
+		<tag k="ssr:gml_id" v="GEOMETRY_abc25617-67ee-4cf4-9009-1a47d6edf997" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-29826" lat="63.4487166672" lon="10.1738777787">
+		<tag k="ssr:gml_id" v="GEOMETRY_2c4165e4-73c5-410f-be78-b235f9e88d93" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28286" lat="63.3504972237" lon="10.1140555545">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Steinshyllskjæret" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="711865" />
+	</node>
+	<node id="-29813" lat="63.4481611109" lon="10.1811333392">
+		<tag k="ssr:gml_id" v="GEOMETRY_3093c757-6b42-4873-b379-909107775543" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-29812" lat="63.4486333356" lon="10.1805944351">
+		<tag k="ssr:gml_id" v="GEOMETRY_0dfc4fe6-386b-4727-88a9-38c26a4e5e78" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-29811" lat="63.4481638884" lon="10.1811361207">
+		<tag k="ssr:gml_id" v="GEOMETRY_68339552-f657-4e40-8f61-693785ec06f1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-28265" lat="63.3731638898" lon="10.0689111141">
+		<tag k="ssr:gml_id" v="GEOMETRY_f171831d-86b8-4b1a-9d2e-c7e40ee224fa" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28264" lat="63.3731611102" lon="10.0689083307">
+		<tag k="ssr:gml_id" v="GEOMETRY_41b7aad0-630a-48a3-8659-edd45c933234" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-34407" lat="63.4310138845" lon="10.1510694494">
+		<tag k="ssr:gml_id" v="GEOMETRY_2bfe1982-3a99-4e2e-b344-64d74e2ffb40" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-34406" lat="63.4309972261" lon="10.1505194437">
+		<tag k="ssr:gml_id" v="GEOMETRY_0b09a5e4-eed5-4621-a492-c8faf0435ff6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-30813" lat="63.4155722224" lon="10.0903888843">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Seibergskjæret" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="833879" />
+	</node>
+	<node id="-33367" lat="63.4518249961" lon="10.2045888819">
+		<tag k="ssr:gml_id" v="GEOMETRY_54fe59b8-0e8b-4003-9a08-6df0b27026e9" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-27222" lat="63.4617111136" lon="10.3895638875">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f052f8a-b24d-427a-9058-893c5d439434" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-33365" lat="63.4518277821" lon="10.2045916663">
+		<tag k="ssr:gml_id" v="GEOMETRY_2a3dd94e-87f9-4ecf-a690-faf2cd9abc0d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-27214" lat="63.4489361105" lon="10.1840527874">
+		<tag k="ssr:gml_id" v="GEOMETRY_25c6ccdf-2eb7-451a-95db-8290dcf9f5c4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-27213" lat="63.4489388881" lon="10.1840555492">
+		<tag k="ssr:gml_id" v="GEOMETRY_6f5609f7-8caf-48c6-9130-9f2a18192b32" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-33348" lat="63.4334749966" lon="10.3754888913">
+		<tag k="name" v="Skansenløpet" />
+		<tag k="natural" v="strait" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="40578" />
+	</node>
+	<node id="-33343" lat="63.3935666703" lon="10.0635444449">
+		<tag k="name" v="Rønningsbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="751866" />
+	</node>
+	<node id="-29246" lat="63.4425250021" lon="10.4742361079">
+		<tag k="ssr:gml_id" v="GEOMETRY_c6756def-9d9f-409d-b8a6-72581d8bc704" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-29245" lat="63.4390583333" lon="10.4736111087">
+		<tag k="ssr:gml_id" v="GEOMETRY_747f9501-160d-45e1-89ba-fd266951c591" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-29244" lat="63.4425250037" lon="10.474233341">
+		<tag k="ssr:gml_id" v="GEOMETRY_938204e5-3c2c-447c-92b1-c95eea9b433a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-29243" lat="63.4425250043" lon="10.4742472159">
+		<tag k="ssr:gml_id" v="GEOMETRY_409fe452-b5cb-4561-90a6-ecae61273cb2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-33839" lat="63.460780552" lon="10.1998305632">
+		<tag k="ssr:gml_id" v="GEOMETRY_ff6b5b22-3e7a-4d05-9445-75e61fc00dd0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-33838" lat="63.4583777757" lon="10.178969454">
+		<tag k="ssr:gml_id" v="GEOMETRY_a92538b1-7ceb-4f03-a66e-e48712278201" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-32300" lat="63.4531749978" lon="10.3869055545">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Munkholmskjera" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="116028" />
+	</node>
+	<node id="-32291" lat="63.4470361156" lon="10.1817916586">
+		<tag k="name" v="Vorpbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="271728" />
+	</node>
+	<node id="-33366" lat="63.4518500037" lon="10.2045472145">
+		<tag k="ssr:gml_id" v="GEOMETRY_e66997b6-ac89-46b2-a921-4d9a337231c4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-28660" lat="63.3252249995" lon="10.187066666">
+		<tag k="ssr:gml_id" v="GEOMETRY_7dd70a33-eba3-4606-9bcd-50af50a0e6b0" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-28688" lat="63.4327777752" lon="10.5129138889">
+		<tag k="name" v="Grillstadsanden" />
+		<tag k="natural" v="beach" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="224233" />
+	</node>
+	<node id="-27223" lat="63.4640555528" lon="10.3926222171">
+		<tag k="ssr:gml_id" v="GEOMETRY_8cd0790b-ba63-44c2-961b-f13952d8494e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-31235" lat="63.4478722266" lon="10.327891662">
+		<tag k="ssr:gml_id" v="GEOMETRY_6c93a941-c772-45e1-821c-a64f0371c8e3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-31234" lat="63.4476916634" lon="10.3309305483">
+		<tag k="ssr:gml_id" v="GEOMETRY_d501b996-ef78-44c2-a12d-11849dd58fbd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<way id="-6264">
+		<tag k="name" v="Fagervika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="923683" />
+		<nd ref="-27707" />
+		<nd ref="-27708" />
+		<nd ref="-27709" />
+	</way>
+	<way id="-6718">
+		<tag k="name" v="Vedvikbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="266869" />
+		<nd ref="-30692" />
+		<nd ref="-30693" />
+	</way>
+	<way id="-7272">
+		<tag k="name" v="Byabukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="569108" />
+		<nd ref="-34406" />
+		<nd ref="-34407" />
+	</way>
+	<way id="-6252">
+		<tag k="name" v="Krikja" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="559082" />
+		<nd ref="-27619" />
+		<nd ref="-27620" />
+	</way>
+	<way id="-6635">
+		<tag k="name" v="Storegrunnen" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="13246" />
+		<nd ref="-30124" />
+		<nd ref="-30125" />
+	</way>
+	<way id="-7016">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Strindfjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="256682" />
+		<nd ref="-32686" />
+		<nd ref="-32687" />
+		<nd ref="-32688" />
+		<nd ref="-32689" />
+		<nd ref="-32690" />
+		<nd ref="-32691" />
+		<nd ref="-32692" />
+		<nd ref="-32693" />
+		<nd ref="-32694" />
+		<nd ref="-32695" />
+		<nd ref="-32696" />
+	</way>
+	<way id="-6375">
+		<tag k="alt_name" v="Nordneset;Høvringsneset" />
+		<tag k="name" v="Høvringen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="681670" />
+		<nd ref="-28352" />
+		<nd ref="-28353" />
+	</way>
+	<way id="-6502">
+		<tag k="name" v="Leangbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="376671" />
+		<nd ref="-29243" />
+		<nd ref="-29244" />
+		<nd ref="-29245" />
+		<nd ref="-29246" />
+		<nd ref="-29247" />
+	</way>
+	<way id="-6371">
+		<tag k="name" v="Ilsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="376680" />
+		<nd ref="-28333" />
+		<nd ref="-28334" />
+	</way>
+	<way id="-7010">
+		<tag k="name" v="Væresholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="558700" />
+		<nd ref="-32645" />
+		<nd ref="-32646" />
+		<nd ref="-32647" />
+	</way>
+	<way id="-7009">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Østmarkneset;Østmarktangen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="256681" />
+		<nd ref="-32635" />
+		<nd ref="-32636" />
+		<nd ref="-32637" />
+		<nd ref="-32638" />
+	</way>
+	<way id="-6358">
+		<tag k="name" v="Vedvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="711864" />
+		<nd ref="-28264" />
+		<nd ref="-28265" />
+	</way>
+	<way id="-7116">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Flakkskjæret" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="863080" />
+		<nd ref="-33365" />
+		<nd ref="-33366" />
+		<nd ref="-33367" />
+	</way>
+	<way id="-6219">
+		<tag k="alt_name" v="Korsviken" />
+		<tag k="name" v="Korsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="741726" />
+		<nd ref="-27415" />
+		<nd ref="-27416" />
+		<nd ref="-27417" />
+	</way>
+	<way id="-6474">
+		<tag k="name" v="Vedvikneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="620443" />
+		<nd ref="-29015" />
+		<nd ref="-29016" />
+	</way>
+	<way id="-6601">
+		<tag k="name" v="Klefstadbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="438073" />
+		<nd ref="-29938" />
+		<nd ref="-29939" />
+	</way>
+	<way id="-6411">
+		<tag k="name" v="Leinøra" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="498971" />
+		<nd ref="-28580" />
+		<nd ref="-28581" />
+		<nd ref="-28582" />
+	</way>
+	<way id="-7230">
+		<tag k="name" v="Munkholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="195667" />
+		<nd ref="-34158" />
+		<nd ref="-34159" />
+		<nd ref="-34160" />
+		<nd ref="-34161" />
+	</way>
+	<way id="-6586">
+		<tag k="alt_name" v="Galten" />
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Flakkgalten" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="195080" />
+		<nd ref="-29826" />
+		<nd ref="-29827" />
+		<nd ref="-29828" />
+	</way>
+	<way id="-6584">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Flakkneset;Vorpneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="195081" />
+		<nd ref="-29811" />
+		<nd ref="-29812" />
+		<nd ref="-29813" />
+	</way>
+	<way id="-6196">
+		<tag k="alt_name" v="Byberget" />
+		<tag k="name" v="Byaberget" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="619110" />
+		<nd ref="-27278" />
+		<nd ref="-27279" />
+	</way>
+	<way id="-7305">
+		<tag k="name" v="Byafjæra" />
+		<tag k="natural" v="beach" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="73113" />
+		<nd ref="-34632" />
+		<nd ref="-34633" />
+		<nd ref="-34634" />
+	</way>
+	<way id="-6324">
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Hangerskjæret" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="74369" />
+		<nd ref="-28058" />
+		<nd ref="-28059" />
+	</way>
+	<way id="-6192">
+		<tag k="name" v="Grillstadfjæra" />
+		<tag k="natural" v="beach" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="510677" />
+		<nd ref="-27252" />
+		<nd ref="-27253" />
+	</way>
+	<way id="-6829">
+		<tag k="alt_name" v="Flakkvika" />
+		<tag k="name" v="Flakkbukta" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="934852" />
+		<nd ref="-31496" />
+		<nd ref="-31497" />
+		<nd ref="-31498" />
+	</way>
+	<way id="-6188">
+		<tag k="name" v="Holmgrunnan" />
+		<tag k="natural" v="shoal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="924694" />
+		<nd ref="-27222" />
+		<nd ref="-27223" />
+	</way>
+	<way id="-6186">
+		<tag k="name" v="Tjyvholet" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="144876" />
+		<nd ref="-27213" />
+		<nd ref="-27214" />
+	</way>
+	<way id="-7323">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Trondheimsfjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="709821" />
+		<nd ref="-34770" />
+		<nd ref="-34771" />
+		<nd ref="-34772" />
+		<nd ref="-34773" />
+	</way>
+	<way id="-6422">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Gaulosen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="863510" />
+		<nd ref="-28656" />
+		<nd ref="-28657" />
+		<nd ref="-28658" />
+		<nd ref="-28659" />
+		<nd ref="-28660" />
+		<nd ref="-28661" />
+		<nd ref="-28662" />
+		<nd ref="-28663" />
+		<nd ref="-28664" />
+		<nd ref="-28665" />
+		<nd ref="-28666" />
+		<nd ref="-28667" />
+	</way>
+	<way id="-7189">
+		<tag k="bay" v="fjord" />
+		<tag k="name" v="Flakkfjorden" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="74078" />
+		<nd ref="-33838" />
+		<nd ref="-33839" />
+	</way>
+	<way id="-6795">
+		<tag k="name" v="Brænnebukta" />
+		<tag k="natural" v="bay" />
+		<tag k="old_name" v="Brannebukta" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="226376" />
+		<nd ref="-31234" />
+		<nd ref="-31235" />
+	</way>
+	<way id="-6793">
+		<tag k="name" v="Digermulen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="620700" />
+		<nd ref="-31224" />
+		<nd ref="-31225" />
+	</way>
+	<way id="-6407">
+		<tag k="alt_name" v="Frøsetskjeret" />
+		<tag k="fixme" v="consider seamark:type=rock" />
+		<tag k="name" v="Frøsetskjæret" />
+		<tag k="natural" v="islet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="802130" />
+		<nd ref="-28560" />
+		<nd ref="-28561" />
+	</way>
+</osm>

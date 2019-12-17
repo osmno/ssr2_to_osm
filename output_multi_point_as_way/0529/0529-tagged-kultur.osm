@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-19541" lat="60.6690972239" lon="10.700536113">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Ås kommunelokale" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="966829" />
+	</node>
+	<node id="-18791" lat="60.7308416677" lon="10.6158305615">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Folkets hus" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="480831" />
+	</node>
+	<node id="-19494" lat="60.7050805516" lon="10.752566659">
+		<tag k="ssr:gml_id" v="GEOMETRY_e8303241-cd6b-42f6-860d-baa0e8046a03" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18649" lat="60.6695750011" lon="10.6994055584">
+		<tag k="ssr:gml_id" v="GEOMETRY_422e9580-85fc-45ed-a09f-749c52fd26b8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18648" lat="60.6695833302" lon="10.6993861199">
+		<tag k="ssr:gml_id" v="GEOMETRY_1a9fdfdf-fed4-41d5-8fe2-52b7b24f9483" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18647" lat="60.6695861149" lon="10.6993888841">
+		<tag k="ssr:gml_id" v="GEOMETRY_a42f5127-4ef9-4be4-abb2-0738f63cea32" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19285" lat="60.7294472198" lon="10.6176138906">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="fixme" v="specify religion=*, denomination=*, building=* etc" />
+		<tag k="name" v="Baptistkirken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="784842" />
+	</node>
+	<node id="-19260" lat="60.7039499957" lon="10.7531805591">
+		<tag k="name" v="Toten museum" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="753679" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-18491" lat="60.6944638886" lon="10.7148249913">
+		<tag k="ssr:gml_id" v="GEOMETRY_6537d8fd-e844-4292-9522-8d8434ff1e03" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18490" lat="60.691666669" lon="10.7083277811">
+		<tag k="ssr:gml_id" v="GEOMETRY_ba100d4b-6436-4e97-8251-40a1b5f510b0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18489" lat="60.6946944422" lon="10.714288886">
+		<tag k="ssr:gml_id" v="GEOMETRY_fdec6c92-70f0-4a1e-8a2d-3c2a2cfb2479" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18221" lat="60.6436000036" lon="10.7221805588">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Nerset" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="390705" />
+	</node>
+	<node id="-19497" lat="60.7050777769" lon="10.7525638876">
+		<tag k="ssr:gml_id" v="GEOMETRY_33d9549e-6f12-4f86-9a8a-d1ac4e38721e" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-19496" lat="60.7069416666" lon="10.7508361173">
+		<tag k="ssr:gml_id" v="GEOMETRY_d1664c36-f2fa-4f44-87c7-8601fd4aa60d" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-19495" lat="60.7069388921" lon="10.7508333276">
+		<tag k="ssr:gml_id" v="GEOMETRY_b428c25e-8117-455d-8111-b883116aa55b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18982" lat="60.7228999962" lon="10.6130861108">
+		<tag k="name" v="Fugleparken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="601806" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-19493" lat="60.7038083361" lon="10.753308326">
+		<tag k="ssr:gml_id" v="GEOMETRY_f417c36a-bec8-4cf2-a1a6-9730195a7d8f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18453" lat="60.5718638864" lon="10.6542277731">
+		<tag k="ssr:gml_id" v="GEOMETRY_7e5a72b2-8633-49ed-9a60-be740f67de9c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18452" lat="60.5718749979" lon="10.653925004">
+		<tag k="ssr:gml_id" v="GEOMETRY_1c43cb63-acae-4469-9bda-57e68897c7a6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18451" lat="60.5718749995" lon="10.6539277777">
+		<tag k="ssr:gml_id" v="GEOMETRY_570be659-153e-4dbc-a5b2-ea95a3b1d9e4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19086" lat="60.7234805579" lon="10.6179722179">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Raufosstun" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="662852" />
+	</node>
+	<node id="-18690" lat="60.724838889" lon="10.6110194503">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Raufoss kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="419804" />
+	</node>
+	<node id="-18433" lat="60.6632888857" lon="10.6694861056">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Håkonshallen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="116752" />
+	</node>
+	<way id="-5360">
+		<tag k="alt_name" v="Stenberg" />
+		<tag k="name" v="Steinberg" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="917937" />
+		<tag k="tourism" v="museum" />
+		<nd ref="-19493" />
+		<nd ref="-19494" />
+		<nd ref="-19495" />
+		<nd ref="-19496" />
+		<nd ref="-19497" />
+	</way>
+	<way id="-5039">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Granvang" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="128332" />
+		<nd ref="-18489" />
+		<nd ref="-18490" />
+		<nd ref="-18491" />
+	</way>
+	<way id="-5021">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Eina kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="128109" />
+		<nd ref="-18451" />
+		<nd ref="-18452" />
+		<nd ref="-18453" />
+	</way>
+	<way id="-5083">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ås kirke" />
+		<tag k="old_name" v="Vestre Toten" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249289" />
+		<nd ref="-18647" />
+		<nd ref="-18648" />
+		<nd ref="-18649" />
+	</way>
+</osm>

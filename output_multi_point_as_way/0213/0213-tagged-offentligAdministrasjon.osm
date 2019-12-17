@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-18014" lat="60.5908609473" lon="9.63819281559">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Austlandet;Østlandet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="974775" />
+	</node>
+	<node id="-18011" lat="59.6598416623" lon="10.6450305487">
+		<tag k="ssr:gml_id" v="GEOMETRY_99d53771-c018-4924-95cc-ed5cd444a3ac" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-18010" lat="59.6964611106" lon="10.7192555486">
+		<tag k="ssr:gml_id" v="GEOMETRY_3d57c833-523f-4c76-b5d1-ddfe902882dd" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-18009" lat="59.5997805585" lon="10.7436388809">
+		<tag k="ssr:gml_id" v="GEOMETRY_e06d41c2-eb98-4164-a8ce-eb26b53071c0" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-18008" lat="59.669605552" lon="10.7922583265">
+		<tag k="ssr:gml_id" v="GEOMETRY_e16bdfef-9915-427f-8c63-0e2628364dbb" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18007" lat="59.8034999964" lon="10.6819611101">
+		<tag k="ssr:gml_id" v="GEOMETRY_758a2749-7791-4d32-a8b8-e2b61a7eb158" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18006" lat="59.7019055571" lon="10.9233888861">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9e3678d-ce0f-4475-93bc-5977917b3266" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17684" lat="59.7279333368" lon="11.045683339">
+		<tag k="ssr:gml_id" v="GEOMETRY_12b6435b-4a2a-45b8-a134-467b6b0ef6b9" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-17683" lat="59.8019861132" lon="10.8127805629">
+		<tag k="ssr:gml_id" v="GEOMETRY_5f5a16c1-d756-4c35-a4e2-039ba9836ec1" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-17682" lat="59.7232861122" lon="10.8717805493">
+		<tag k="ssr:gml_id" v="GEOMETRY_e383400a-6fdb-4165-9c53-22a8b3e46c70" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17681" lat="59.7218972221" lon="10.8733750061">
+		<tag k="ssr:gml_id" v="GEOMETRY_ee8d7be7-cb2a-42eb-a64f-b24d7938ee4c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16261" lat="59.7218916656" lon="10.8269777863">
+		<tag k="ssr:gml_id" v="GEOMETRY_ee4c43f9-fac0-4cd7-8541-17fa95d45a44" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16260" lat="59.7204888927" lon="10.8388166614">
+		<tag k="ssr:gml_id" v="GEOMETRY_1482f095-3f2d-40c3-a5c7-212670754326" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16259" lat="59.7204861082" lon="10.8388166686">
+		<tag k="ssr:gml_id" v="GEOMETRY_1718137b-cdb1-40d4-84af-17874ec8e725" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<way id="-4471">
+		<tag k="name" v="Ski kommune" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387845" />
+		<nd ref="-16259" />
+		<nd ref="-16260" />
+		<nd ref="-16261" />
+	</way>
+	<way id="-4885">
+		<tag k="name" v="Søndre Follo prosti" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="967401" />
+		<nd ref="-18006" />
+		<nd ref="-18007" />
+		<nd ref="-18008" />
+		<nd ref="-18009" />
+		<nd ref="-18010" />
+		<nd ref="-18011" />
+	</way>
+	<way id="-4812">
+		<tag k="name" v="Nordre Follo prosti" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="785412" />
+		<nd ref="-17681" />
+		<nd ref="-17682" />
+		<nd ref="-17683" />
+		<nd ref="-17684" />
+	</way>
+</osm>

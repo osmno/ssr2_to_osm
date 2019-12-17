@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-19456" lat="60.5525500017" lon="10.5909472265">
+		<tag k="ssr:gml_id" v="GEOMETRY_53c9ea87-97dd-485b-9b1e-0243cc957afa" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18937" lat="60.6144499957" lon="10.5828666751">
+		<tag k="ssr:gml_id" v="GEOMETRY_0e361ba2-d1a4-4d03-9d52-cc5575fb4dfc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18936" lat="60.614458336" lon="10.5821055537">
+		<tag k="ssr:gml_id" v="GEOMETRY_0ef0ca5c-a543-4888-87ec-60a17d49846d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18935" lat="60.5984166681" lon="10.5993805489">
+		<tag k="ssr:gml_id" v="GEOMETRY_307bc973-d0be-4ed2-a7f4-1eefec885c3a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18934" lat="60.5984138903" lon="10.5993777817">
+		<tag k="ssr:gml_id" v="GEOMETRY_69275027-ee10-4b21-be18-bde08bb7bfd9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18421" lat="60.653930551" lon="10.5983111195">
+		<tag k="name" v="Vestbakkdammen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="102444" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18416" lat="60.7067222256" lon="10.511805551">
+		<tag k="name" v="Skjærsjøen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="101430" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-18412" lat="60.6182083347" lon="10.6256722285">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Thunetjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="101071" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-19430" lat="60.6815388868" lon="10.6558500027">
+		<tag k="ssr:gml_id" v="GEOMETRY_50316d3a-30a6-4a4a-9ba4-d2abf35fa0cc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19429" lat="60.6815416633" lon="10.655852782">
+		<tag k="ssr:gml_id" v="GEOMETRY_ea49c5be-12b9-44fd-9ef6-d4583f2fcbee" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19424" lat="60.6453916691" lon="10.5450666589">
+		<tag k="ssr:gml_id" v="GEOMETRY_f5d25b47-3de7-4c0f-9f7b-dd69ffdb457b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19423" lat="60.6453944478" lon="10.5450694438">
+		<tag k="ssr:gml_id" v="GEOMETRY_ae3768a0-72f8-4500-8b34-f0165796c6a8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19419" lat="60.6482944488" lon="10.4979222271">
+		<tag k="ssr:gml_id" v="GEOMETRY_614864f1-c9e5-4195-97be-fc58c27ad236" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19418" lat="60.6490999988" lon="10.4963500005">
+		<tag k="ssr:gml_id" v="GEOMETRY_693aec9c-b8fb-4119-a10d-54fec4736e11" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19414" lat="60.6041166663" lon="10.6008083349">
+		<tag k="ssr:gml_id" v="GEOMETRY_4c884a47-0b23-4c62-9bb5-1454faab4f8e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19413" lat="60.604119444" lon="10.6008111028">
+		<tag k="ssr:gml_id" v="GEOMETRY_22c2430f-06d8-4eff-ab5f-c064c4b62b0c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18582" lat="60.7017250042" lon="10.5472333398">
+		<tag k="ssr:gml_id" v="GEOMETRY_05fb80c8-ea47-4f3c-8b43-c647906a2ce0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18896" lat="60.5821805573" lon="10.6514055596">
+		<tag k="ssr:gml_id" v="GEOMETRY_edbc8dd2-b495-407c-9409-807e813d5a8b" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-18895" lat="60.576208329" lon="10.6753972139">
+		<tag k="ssr:gml_id" v="GEOMETRY_f438a590-cf20-407d-bd20-6126e5f89937" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-18894" lat="60.5603638852" lon="10.6955833385">
+		<tag k="ssr:gml_id" v="GEOMETRY_b512fa98-ca75-4724-a883-e435699c3962" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18893" lat="60.5809249978" lon="10.6669444397">
+		<tag k="ssr:gml_id" v="GEOMETRY_eaba9bb8-a4ee-438e-bd1b-4724a40a0358" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18892" lat="60.5809249965" lon="10.6669416652">
+		<tag k="ssr:gml_id" v="GEOMETRY_d1d4926e-fb03-4409-95a5-d26d93fa3596" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19390" lat="60.5841249973" lon="10.5447083298">
+		<tag k="ssr:gml_id" v="GEOMETRY_d7714ecd-2e4a-4042-9d5d-a18cf6e246bf" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19389" lat="60.5841250011" lon="10.5447111046">
+		<tag k="ssr:gml_id" v="GEOMETRY_9c325425-0af4-4c3d-bb04-dc8b60bf8ea4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19388" lat="60.5703111127" lon="10.5290527766">
+		<tag k="ssr:gml_id" v="GEOMETRY_082f29ee-a2d2-4adb-b0c9-4301b26cd802" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19387" lat="60.5703138917" lon="10.5290555536">
+		<tag k="ssr:gml_id" v="GEOMETRY_695bad55-9715-4fce-9dfa-4c8d3612590a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18359" lat="60.6663416629" lon="10.6572527687">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Bergsjøane" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67333" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-18581" lat="60.7017249992" lon="10.547236106">
+		<tag k="ssr:gml_id" v="GEOMETRY_a0c24b46-788c-47e8-81ef-809525703fc2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18866" lat="60.6193027734" lon="10.5679972189">
+		<tag k="name" v="Langvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="526621" />
+	</node>
+	<node id="-18163" lat="60.6085777757" lon="10.5529666672">
+		<tag k="ssr:gml_id" v="GEOMETRY_f56f4207-4252-452d-844e-e9f7f66d08ba" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18162" lat="60.616219444" lon="10.5544555476">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f6f0658-9a09-42b8-b839-7added6f6bd9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18854" lat="60.7180250026" lon="10.6392055639">
+		<tag k="ssr:gml_id" v="GEOMETRY_7976d496-5b74-45d2-9ef3-abeeceb5f272" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18853" lat="60.7121361071" lon="10.6483944497">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ead3b7c-d54b-4fa9-9c5a-39b9cc158a15" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18852" lat="60.7180027759" lon="10.639255556">
+		<tag k="ssr:gml_id" v="GEOMETRY_44cfcfda-ea2e-46ab-be4b-45d09fec83b8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19359" lat="60.6681944457" lon="10.4897555532">
+		<tag k="ssr:gml_id" v="GEOMETRY_d60e6d3e-20db-4c2a-9fd8-cbc17217b682" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19358" lat="60.6763388889" lon="10.489711109">
+		<tag k="ssr:gml_id" v="GEOMETRY_ff870a7b-f97c-40f6-bbc5-c32964d7c561" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19356" lat="60.6946694432" lon="10.5024472281">
+		<tag k="ssr:gml_id" v="GEOMETRY_1f029e71-3560-4a1a-bacd-97520e7da485" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19355" lat="60.6919944428" lon="10.5005999924">
+		<tag k="ssr:gml_id" v="GEOMETRY_abb03024-e30a-45f5-98d9-2157277cda03" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19354" lat="60.6751055521" lon="10.5929555624">
+		<tag k="name" v="Buertjernsbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="830365" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-18329" lat="60.6651444404" lon="10.4926333359">
+		<tag k="name" v="Larsvefløyta" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="40768" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-19350" lat="60.6813583318" lon="10.5950749992">
+		<tag k="name" v="Brennbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="830046" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-19353" lat="60.6429111112" lon="10.5983333398">
+		<tag k="name" v="Fiskevolldammen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="830363" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18324" lat="60.5989416636" lon="10.5985694519">
+		<tag k="name" v="Larsholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="39535" />
+	</node>
+	<node id="-18829" lat="60.6603111103" lon="10.6586555645">
+		<tag k="ssr:gml_id" v="GEOMETRY_5d1e03b1-20e8-4a3a-9d9c-23f87ef07c82" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18828" lat="60.6603166632" lon="10.6586611199">
+		<tag k="ssr:gml_id" v="GEOMETRY_5acfb2bd-baab-4d32-8444-da38248811af" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18827" lat="60.6602805582" lon="10.6587527843">
+		<tag k="ssr:gml_id" v="GEOMETRY_90093f9c-4ac4-453d-8b2e-bbd869bd8f77" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18826" lat="60.6775138854" lon="10.6058083274">
+		<tag k="ssr:gml_id" v="GEOMETRY_b97eab9b-042c-4a54-bf01-7a53c68b65c5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18825" lat="60.6775166629" lon="10.6058111021">
+		<tag k="ssr:gml_id" v="GEOMETRY_ee189b07-4670-4686-8c43-f45715e38685" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18822" lat="60.6756805513" lon="10.5718500087">
+		<tag k="ssr:gml_id" v="GEOMETRY_df0ec97e-b064-4f9a-9ff0-5476416c5232" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18821" lat="60.6756833296" lon="10.5718527803">
+		<tag k="ssr:gml_id" v="GEOMETRY_924907aa-5f69-43ba-be35-8b4734720c74" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19094" lat="60.5103750037" lon="10.6490777859">
+		<tag k="ssr:gml_id" v="GEOMETRY_e3e76506-4325-4f66-8fbd-319990a41151" />
+		<tag k="ssr:gml_nr" v="6" />
+	</node>
+	<node id="-19327" lat="60.6946388882" lon="10.6910000086">
+		<tag k="ssr:gml_id" v="GEOMETRY_59dd73eb-250a-4419-b238-90a9417f2456" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19326" lat="60.6946416642" lon="10.6910027738">
+		<tag k="ssr:gml_id" v="GEOMETRY_21f71c64-f9d3-4391-a91e-1c23d1138213" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19093" lat="60.4773583308" lon="10.6665444432">
+		<tag k="ssr:gml_id" v="GEOMETRY_3c6864a6-10c5-4d9b-ad3f-c8ff34dbef7c" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-18808" lat="60.5976249961" lon="10.5842888877">
+		<tag k="ssr:gml_id" v="GEOMETRY_9474eb63-d225-43b8-b892-e052f8a4a08f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19319" lat="60.6877138931" lon="10.7069750077">
+		<tag k="ssr:gml_id" v="GEOMETRY_4728df49-91b7-4a57-a3d0-da59d874a76f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19318" lat="60.687716668" lon="10.7069750083">
+		<tag k="ssr:gml_id" v="GEOMETRY_f22d8247-2928-4ee5-b083-2bcc38b83e0b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19262" lat="60.6661083291" lon="10.6573694516">
+		<tag k="ssr:gml_id" v="GEOMETRY_8e57b5df-672d-431d-b12b-03e060d75839" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19312" lat="60.5971500002" lon="10.5542083246">
+		<tag k="ssr:gml_id" v="GEOMETRY_b56f9076-955e-4e8e-8654-00e5f3c7f7b0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19311" lat="60.5970027757" lon="10.5542055575">
+		<tag k="ssr:gml_id" v="GEOMETRY_ed9ec1a9-1e90-47bd-a135-ab0417664cce" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18286" lat="60.645458332" lon="10.5851750064">
+		<tag k="ssr:gml_id" v="GEOMETRY_80a09812-4ca7-41d1-84ea-fd332c5221eb" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18285" lat="60.6454611099" lon="10.5851777765">
+		<tag k="ssr:gml_id" v="GEOMETRY_90830461-5c27-4a17-9af8-0207deed908b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19299" lat="60.5181500038" lon="10.6756333416">
+		<tag k="ssr:gml_id" v="GEOMETRY_4d2626c8-3cd8-4da7-b4ad-c12d0ce18f22" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19298" lat="60.5181472189" lon="10.6756305562">
+		<tag k="ssr:gml_id" v="GEOMETRY_36da45be-83a2-4ce8-bf5b-b46f0263ccc8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18254" lat="60.5123222263" lon="10.6378250066">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8ac6fc1-8ba9-4184-b3b1-644a72e42844" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18253" lat="60.5123250033" lon="10.6378277697">
+		<tag k="ssr:gml_id" v="GEOMETRY_01c1bd28-c373-48d8-be6b-6462a0aa78c2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19272" lat="60.6119222226" lon="10.6271833389">
+		<tag k="name" v="Thunebekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="769071" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-19263" lat="60.6666611154" lon="10.6560583325">
+		<tag k="ssr:gml_id" v="GEOMETRY_047e5d45-be8b-4645-8ce7-05841149c384" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18238" lat="60.5995694418" lon="10.5896888927">
+		<tag k="name" v="Mørkodden" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="888572" />
+	</node>
+	<node id="-18727" lat="60.6319166679" lon="10.5643888901">
+		<tag k="ssr:gml_id" v="GEOMETRY_b63322db-9954-4240-826a-5e09a92ce7dd" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-18726" lat="60.6278416702" lon="10.5640499917">
+		<tag k="ssr:gml_id" v="GEOMETRY_1576273a-77bb-4864-a965-9311313f2d37" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18725" lat="60.6278444484" lon="10.5640527768">
+		<tag k="ssr:gml_id" v="GEOMETRY_e65af0c3-cd28-460e-b99d-be4d8ae81370" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18724" lat="60.627033337" lon="10.5666500059">
+		<tag k="ssr:gml_id" v="GEOMETRY_36b73ef2-6db6-40e3-8c1c-2651529a853b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18721" lat="60.6029277793" lon="10.6199500019">
+		<tag k="ssr:gml_id" v="GEOMETRY_f11f8903-af6f-4681-b98e-2d69ea66613a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18720" lat="60.6001361121" lon="10.6216944447">
+		<tag k="ssr:gml_id" v="GEOMETRY_e2716155-fff9-471a-8aff-7a3ebdfc63a4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19229" lat="60.6793555588" lon="10.6926472313">
+		<tag k="ssr:gml_id" v="GEOMETRY_d9bf2c69-1759-4af9-9d77-3fb8cfa97dd5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19228" lat="60.6793583348" lon="10.6926499953">
+		<tag k="ssr:gml_id" v="GEOMETRY_d4fdbc25-4f8a-4122-aa26-20c168d4d419" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19205" lat="60.5891361081" lon="10.6297472133">
+		<tag k="ssr:gml_id" v="GEOMETRY_a2b6b708-1b3a-4516-9e01-a10adbc25e83" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-19204" lat="60.5891333331" lon="10.6297472195">
+		<tag k="ssr:gml_id" v="GEOMETRY_d3b2cab5-e2d7-4f2a-8d98-112a27327c3d" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-19203" lat="60.5205000036" lon="10.6380972287">
+		<tag k="ssr:gml_id" v="GEOMETRY_1c335dd0-830b-474d-9a41-55c3db608015" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-19202" lat="60.5335722196" lon="10.6424166664">
+		<tag k="ssr:gml_id" v="GEOMETRY_856e2d46-25e0-4714-93a2-e2b148faccaf" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19201" lat="60.5721027777" lon="10.6328416625">
+		<tag k="ssr:gml_id" v="GEOMETRY_0cc09e4c-47c5-4ae8-862c-dc52688fa8a4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19200" lat="60.5721000006" lon="10.6328388947">
+		<tag k="ssr:gml_id" v="GEOMETRY_28b5e815-30f3-4724-ae33-c2765bcc4aea" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18174" lat="60.6732416628" lon="10.5847500042">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8ab32b6-dcdf-4469-add9-c2cafccc6397" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18173" lat="60.6732388851" lon="10.5847472133">
+		<tag k="ssr:gml_id" v="GEOMETRY_09c02781-7b09-44fb-95e0-0e3d157a4669" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18675" lat="60.5455527792" lon="10.5806111193">
+		<tag k="ssr:gml_id" v="GEOMETRY_42f89a0c-4ece-4a91-a9c2-43072e7f31c0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18674" lat="60.5455416694" lon="10.5806916588">
+		<tag k="ssr:gml_id" v="GEOMETRY_ccc56e15-50ae-4bb8-aa6c-6ad48a0eeb88" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18161" lat="60.5819666631" lon="10.5493527796">
+		<tag k="ssr:gml_id" v="GEOMETRY_3d9051d0-bccc-4151-8a05-72a4e8d7114e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18160" lat="60.5819694416" lon="10.5493555594">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6592396-0586-43af-9429-93c02e967d11" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19181" lat="60.7094000028" lon="10.6539916693">
+		<tag k="name" v="Gårderputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="723895" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18150" lat="60.6787361087" lon="10.6227027765">
+		<tag k="name" v="Prestseterbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="359252" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-18148" lat="60.6453944478" lon="10.5450694438">
+		<tag k="name" v="Veitjernsbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="346254" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-19161" lat="60.6178444413" lon="10.5947527697">
+		<tag k="name" v="Brenna" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="708584" />
+	</node>
+	<node id="-18136" lat="60.5232166696" lon="10.6492166601">
+		<tag k="name" v="Odden" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="335633" />
+	</node>
+	<node id="-18382" lat="60.601488887" lon="10.6014138816">
+		<tag k="ssr:gml_id" v="GEOMETRY_4f6d2ae7-1333-4cb8-b99e-9b772913b7f0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18130" lat="60.7544027804" lon="10.6848555472">
+		<tag k="ssr:gml_id" v="GEOMETRY_80578a59-5749-40f2-8e87-6f07eac772c5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18129" lat="60.7544055562" lon="10.6848583355">
+		<tag k="ssr:gml_id" v="GEOMETRY_88976923-8001-4fca-a4cb-05501a9497d7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18381" lat="60.6014861093" lon="10.6014111139">
+		<tag k="ssr:gml_id" v="GEOMETRY_fe931ca1-7ccc-4e51-a1e5-5d49ba807876" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18124" lat="60.7047500022" lon="10.7246583401">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6ad01cc-3120-4fa1-9bfb-5cd85efe391f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18123" lat="60.7044305562" lon="10.7251999992">
+		<tag k="ssr:gml_id" v="GEOMETRY_a70f2413-dcfd-4fe4-8282-224277020176" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18633" lat="60.6981472203" lon="10.7266277804">
+		<tag k="alt_name" v="Sillongen" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sillungen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="236955" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-19139" lat="60.5929472187" lon="10.5574388925">
+		<tag k="ssr:gml_id" v="GEOMETRY_01086194-8eb0-4f42-92ed-71363d5dfd11" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19138" lat="60.5932222259" lon="10.5558694472">
+		<tag k="ssr:gml_id" v="GEOMETRY_857885b4-3ee5-4ff3-af10-2c77457a7afb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19137" lat="60.6955111149" lon="10.7446250052">
+		<tag k="ssr:gml_id" v="GEOMETRY_59165ce9-c699-4d48-a694-83d4d4fd6040" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19136" lat="60.6955138898" lon="10.744625009">
+		<tag k="ssr:gml_id" v="GEOMETRY_cb2e1308-de20-4bd0-b167-40b26f58197e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18086" lat="60.6080944434" lon="10.6262666688">
+		<tag k="ssr:gml_id" v="GEOMETRY_f83d279b-e105-4f24-bcc3-486e67e770ed" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18085" lat="60.6078944421" lon="10.626230554">
+		<tag k="ssr:gml_id" v="GEOMETRY_61d050af-8476-4bc8-9b05-9f46d2baff9d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19107" lat="60.6463999961" lon="10.5726555575">
+		<tag k="ssr:gml_id" v="GEOMETRY_21daf3a8-88a8-4f89-ae6f-66cb3f894239" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19106" lat="60.6463999993" lon="10.5726583377">
+		<tag k="ssr:gml_id" v="GEOMETRY_4a219cb4-9307-4200-a82f-2edeba1c8733" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19105" lat="60.6553000028" lon="10.6880916698">
+		<tag k="ssr:gml_id" v="GEOMETRY_e24fcdf2-7a88-40ec-a951-e178cb6f9560" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19104" lat="60.6484361106" lon="10.7017805606">
+		<tag k="ssr:gml_id" v="GEOMETRY_556a7332-7e48-45b8-971a-7461d1a0fb13" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19103" lat="60.6553027787" lon="10.6880944496">
+		<tag k="ssr:gml_id" v="GEOMETRY_b99f67bb-d6f7-437b-b6d1-075c4909fb9d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18590" lat="60.7032333369" lon="10.6983750003">
+		<tag k="ssr:gml_id" v="GEOMETRY_ef299ed1-bab7-4f90-a464-a1b47aa60b43" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18589" lat="60.7032361125" lon="10.6983777852">
+		<tag k="ssr:gml_id" v="GEOMETRY_5c5daefd-3b56-4a7a-b508-cbf10700bb94" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18075" lat="60.5903777822" lon="10.573241666">
+		<tag k="ssr:gml_id" v="GEOMETRY_608edd72-554b-43be-ae15-e9a6245e2f4e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18074" lat="60.5776083299" lon="10.5450361198">
+		<tag k="ssr:gml_id" v="GEOMETRY_e573e196-5df0-4de6-9ce9-0022ca01f75d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18073" lat="60.5811805573" lon="10.5664972254">
+		<tag k="ssr:gml_id" v="GEOMETRY_23457b07-a701-40e7-8dd2-f08b5052f6d6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18070" lat="60.562122223" lon="10.5575138884">
+		<tag k="ssr:gml_id" v="GEOMETRY_ad205fa5-f9b5-4a67-a633-a9007c078249" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18069" lat="60.5621250014" lon="10.5575166672">
+		<tag k="ssr:gml_id" v="GEOMETRY_143267c4-74e0-48c2-9cef-d26525203a4c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19092" lat="60.4688611082" lon="10.6796250039">
+		<tag k="ssr:gml_id" v="GEOMETRY_ca239dc2-f552-467a-a918-b5dbbe2fb15e" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-19091" lat="60.4837250015" lon="10.6608722154">
+		<tag k="ssr:gml_id" v="GEOMETRY_d86e7366-d0de-4a3c-a8c3-fb1f208c29b2" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-19090" lat="60.4968055523" lon="10.6512583341">
+		<tag k="ssr:gml_id" v="GEOMETRY_89b53209-77c6-4342-8a4c-ae4100374ad7" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19089" lat="60.4773555547" lon="10.6665416625">
+		<tag k="ssr:gml_id" v="GEOMETRY_c7e107ef-d989-4255-b2fd-978a53d8f7b2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19088" lat="60.5103749964" lon="10.649080554">
+		<tag k="ssr:gml_id" v="GEOMETRY_97cdaa8f-3d5e-42ca-98ce-91e3e1e453dd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19071" lat="60.6539333374" lon="10.5406305638">
+		<tag k="name" v="Gauplibekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="647764" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-18031" lat="60.6654999981" lon="10.5715611064">
+		<tag k="name" v="Seterputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="284377" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18026" lat="60.6655444435" lon="10.4914638898">
+		<tag k="name" v="Sollidammen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="283735" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18534" lat="60.5719333299" lon="10.6250999982">
+		<tag k="name" v="Sangnæsbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="177214" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-18019" lat="60.6665583353" lon="10.6661027766">
+		<tag k="alt_name" v="Bergsjøen vesle" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Vesle Bergsjøen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="269807" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-18526" lat="60.621083334" lon="10.562347218">
+		<tag k="name" v="Langvikodden" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="162639" />
+	</node>
+	<node id="-19539" lat="60.6696499976" lon="10.6513472295">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Rauputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="966809" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-18508" lat="60.6913638934" lon="10.7267194425">
+		<tag k="ssr:gml_id" v="GEOMETRY_e90f4150-764c-48ce-9bf8-b2ce550962f7" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18507" lat="60.6912388866" lon="10.7291194437">
+		<tag k="ssr:gml_id" v="GEOMETRY_98f2beb7-6a9a-475a-8bc2-bcf04da6191d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18506" lat="60.6912361115" lon="10.7291166755">
+		<tag k="ssr:gml_id" v="GEOMETRY_453cb9b0-2ce1-45f6-ad47-1078fa5a252f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19526" lat="60.621166663" lon="10.5805166686">
+		<tag k="name" v="Strømstadelva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="951620" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-19013" lat="60.6460000033" lon="10.6424111059">
+		<tag k="ssr:gml_id" v="GEOMETRY_13ca4252-72f9-4da8-851d-8d1542043269" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19012" lat="60.6467055554" lon="10.6432944453">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8635fad-8838-4303-ac40-e96d583be34b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19005" lat="60.6172750011" lon="10.5826749982">
+		<tag k="ssr:gml_id" v="GEOMETRY_08141734-03d4-415d-b8ae-c1e6baefc090" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19004" lat="60.6172750041" lon="10.5826777759">
+		<tag k="ssr:gml_id" v="GEOMETRY_62fb3aef-edd0-4e9f-bfad-843e706f1e6d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18807" lat="60.5976249992" lon="10.5842916637">
+		<tag k="ssr:gml_id" v="GEOMETRY_dc8b56f0-5fb7-4239-b002-6115fe713c82" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18125" lat="60.7047500021" lon="10.7246555549">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6fcb970-1453-4ebe-ad9d-bad7d632ef42" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18991" lat="60.6738666704" lon="10.6624777743">
+		<tag k="name" v="Rudsbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="605260" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-18984" lat="60.6800166647" lon="10.6783361026">
+		<tag k="name" v="Fredagsputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="602537" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18463" lat="60.587294445" lon="10.5486999967">
+		<tag k="ssr:gml_id" v="GEOMETRY_5b37b047-985a-4be5-b9e7-93f926b30ff6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18462" lat="60.5872916664" lon="10.5486972165">
+		<tag k="ssr:gml_id" v="GEOMETRY_7ab6da6b-29c6-4dee-98d8-4bb20fc0dbd7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18973" lat="60.6146888882" lon="10.5867222178">
+		<tag k="name" v="Korpnebben" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="587608" />
+	</node>
+	<node id="-18968" lat="60.6570083294" lon="10.4903361128">
+		<tag k="name" v="Furusetdammen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="586747" />
+		<tag k="water" v="pond" />
+	</node>
+	<node id="-18963" lat="60.6031833324" lon="10.6280027817">
+		<tag k="name" v="Næsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="586185" />
+	</node>
+	<node id="-19457" lat="60.5525499956" lon="10.5909499982">
+		<tag k="ssr:gml_id" v="GEOMETRY_9cd32444-3bf8-4e1f-8e8e-b41a53eb2871" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<way id="-5243">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Abbortjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="675198" />
+		<tag k="water" v="lake" />
+		<nd ref="-19138" />
+		<nd ref="-19139" />
+	</way>
+	<way id="-5242">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Slomma" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="674954" />
+		<tag k="water" v="lake" />
+		<nd ref="-19136" />
+		<nd ref="-19137" />
+	</way>
+	<way id="-5112">
+		<tag k="name" v="Skjelbreida" />
+		<tag k="natural" v="water" />
+		<tag k="old_name" v="Skjellbreia;Skjelbreia" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="432215" />
+		<tag k="water" v="lake" />
+		<nd ref="-18724" />
+		<nd ref="-18725" />
+		<nd ref="-18726" />
+		<nd ref="-18727" />
+	</way>
+	<way id="-5110">
+		<tag k="name" v="Skavangen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="432168" />
+		<nd ref="-18720" />
+		<nd ref="-18721" />
+	</way>
+	<way id="-5331">
+		<tag k="name" v="Vadbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="857293" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19418" />
+		<nd ref="-19419" />
+	</way>
+	<way id="-5229">
+		<tag k="alt_name" v="Kulltjernet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Koltjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="674269" />
+		<tag k="water" v="lake" />
+		<nd ref="-19106" />
+		<nd ref="-19107" />
+	</way>
+	<way id="-5228">
+		<tag k="name" v="Bøvra" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="674252" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19103" />
+		<nd ref="-19104" />
+		<nd ref="-19105" />
+	</way>
+	<way id="-5223">
+		<tag k="name" v="Helgedalselva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="674077" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19088" />
+		<nd ref="-19089" />
+		<nd ref="-19090" />
+		<nd ref="-19091" />
+		<nd ref="-19092" />
+		<nd ref="-19093" />
+		<nd ref="-19094" />
+	</way>
+	<way id="-5094">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Dotsettjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="250123" />
+		<tag k="water" v="lake" />
+		<nd ref="-18674" />
+		<nd ref="-18675" />
+	</way>
+	<way id="-4963">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Lortputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="7281" />
+		<tag k="water" v="lake" />
+		<nd ref="-18285" />
+		<nd ref="-18286" />
+	</way>
+	<way id="-5343">
+		<tag k="name" v="Sangnesbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="917094" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19456" />
+		<nd ref="-19457" />
+	</way>
+	<way id="-5071">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Helsettjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="189374" />
+		<tag k="water" v="lake" />
+		<nd ref="-18589" />
+		<nd ref="-18590" />
+	</way>
+	<way id="-5336">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Klopptjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="857356" />
+		<tag k="water" v="lake" />
+		<nd ref="-19429" />
+		<nd ref="-19430" />
+	</way>
+	<way id="-5333">
+		<tag k="alt_name" v="Vegtjernet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Veitjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="857301" />
+		<tag k="water" v="lake" />
+		<nd ref="-19423" />
+		<nd ref="-19424" />
+	</way>
+	<way id="-5203">
+		<tag k="alt_name" v="Sivesintjernet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sivesintjern" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="613276" />
+		<tag k="water" v="lake" />
+		<nd ref="-19012" />
+		<nd ref="-19013" />
+	</way>
+	<way id="-5329">
+		<tag k="name" v="Brurholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="857204" />
+		<nd ref="-19413" />
+		<nd ref="-19414" />
+	</way>
+	<way id="-5199">
+		<tag k="name" v="Gørvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="613205" />
+		<nd ref="-19004" />
+		<nd ref="-19005" />
+	</way>
+	<way id="-5067">
+		<tag k="alt_name" v="Veltmanntjern" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Veltmanntjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="189327" />
+		<tag k="water" v="lake" />
+		<nd ref="-18581" />
+		<nd ref="-18582" />
+	</way>
+	<way id="-5319">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Lomtjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="856176" />
+		<tag k="water" v="lake" />
+		<nd ref="-19389" />
+		<nd ref="-19390" />
+	</way>
+	<way id="-5318">
+		<tag k="alt_name" v="Søstebyelva" />
+		<tag k="name" v="Steinbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="856152" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19387" />
+		<nd ref="-19388" />
+	</way>
+	<way id="-5046">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kauserudtjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="128958" />
+		<tag k="water" v="lake" />
+		<nd ref="-18506" />
+		<nd ref="-18507" />
+		<nd ref="-18508" />
+	</way>
+	<way id="-5313">
+		<tag k="name" v="Skjerra" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="830479" />
+		<tag k="waterway" v="river" />
+		<nd ref="-19358" />
+		<nd ref="-19359" />
+	</way>
+	<way id="-5312">
+		<tag k="name" v="Korperudbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="830472" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19355" />
+		<nd ref="-19356" />
+	</way>
+	<way id="-4927">
+		<tag k="name" v="Tjernsbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370349" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-18173" />
+		<nd ref="-18174" />
+	</way>
+	<way id="-5181">
+		<tag k="name" v="Støvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="553194" />
+		<nd ref="-18936" />
+		<nd ref="-18937" />
+	</way>
+	<way id="-5180">
+		<tag k="name" v="Trangvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="553171" />
+		<nd ref="-18934" />
+		<nd ref="-18935" />
+	</way>
+	<way id="-4922">
+		<tag k="alt_name" v="Hågårbekken" />
+		<tag k="name" v="Hågårtjernbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370247" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-18162" />
+		<nd ref="-18163" />
+	</way>
+	<way id="-4921">
+		<tag k="alt_name" v="Totjernet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Totjerna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370199" />
+		<tag k="water" v="lake" />
+		<nd ref="-18160" />
+		<nd ref="-18161" />
+	</way>
+	<way id="-5302">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Finstadputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="796367" />
+		<tag k="water" v="lake" />
+		<nd ref="-19326" />
+		<nd ref="-19327" />
+	</way>
+	<way id="-4917">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Åstjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="312095" />
+		<tag k="water" v="lake" />
+		<nd ref="-18129" />
+		<nd ref="-18130" />
+	</way>
+	<way id="-4915">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name; consider water=pond" />
+		<tag k="name" v="Eriksrudtjernet;Nordtjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="310932" />
+		<tag k="water" v="lake" />
+		<nd ref="-18123" />
+		<nd ref="-18124" />
+		<nd ref="-18125" />
+	</way>
+	<way id="-5298">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Hørsrudputten" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="796322" />
+		<tag k="water" v="lake" />
+		<nd ref="-19318" />
+		<nd ref="-19319" />
+	</way>
+	<way id="-5295">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Frosketjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="796195" />
+		<tag k="water" v="lake" />
+		<nd ref="-19311" />
+		<nd ref="-19312" />
+	</way>
+	<way id="-5162">
+		<tag k="alt_name" v="Bjørnerudelva" />
+		<tag k="name" v="Vigga" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="552170" />
+		<tag k="waterway" v="river" />
+		<nd ref="-18892" />
+		<nd ref="-18893" />
+		<nd ref="-18894" />
+		<nd ref="-18895" />
+		<nd ref="-18896" />
+	</way>
+	<way id="-5289">
+		<tag k="name" v="Hågåbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="796062" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-19298" />
+		<nd ref="-19299" />
+	</way>
+	<way id="-5156">
+		<tag k="name" v="Korta" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="508757" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-18852" />
+		<nd ref="-18853" />
+		<nd ref="-18854" />
+	</way>
+	<way id="-4899">
+		<tag k="name" v="Blilisanden" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="310183" />
+		<nd ref="-18085" />
+		<nd ref="-18086" />
+	</way>
+	<way id="-5026">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Hardtjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="128147" />
+		<tag k="water" v="lake" />
+		<nd ref="-18462" />
+		<nd ref="-18463" />
+	</way>
+	<way id="-4894">
+		<tag k="alt_name" v="Skreppelva" />
+		<tag k="name" v="Skreppeelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="310138" />
+		<tag k="waterway" v="river" />
+		<nd ref="-18073" />
+		<nd ref="-18074" />
+		<nd ref="-18075" />
+	</way>
+	<way id="-4892">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Rognlitjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="310127" />
+		<tag k="water" v="lake" />
+		<nd ref="-18069" />
+		<nd ref="-18070" />
+	</way>
+	<way id="-5144">
+		<tag k="alt_name" v="Holtjernet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Holetjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="492282" />
+		<tag k="water" v="lake" />
+		<nd ref="-18827" />
+		<nd ref="-18828" />
+		<nd ref="-18829" />
+	</way>
+	<way id="-5143">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Reinsvolldammen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="492271" />
+		<tag k="water" v="lake" />
+		<nd ref="-18825" />
+		<nd ref="-18826" />
+	</way>
+	<way id="-5141">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Buertjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="492254" />
+		<tag k="water" v="lake" />
+		<nd ref="-18821" />
+		<nd ref="-18822" />
+	</way>
+	<way id="-5268">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Steffensrudtjernet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="735341" />
+		<tag k="water" v="lake" />
+		<nd ref="-19228" />
+		<nd ref="-19229" />
+	</way>
+	<way id="-5282">
+		<tag k="alt_name" v="Bergsjøen, store" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Store Bergsjøen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="755817" />
+		<tag k="water" v="lake" />
+		<nd ref="-19262" />
+		<nd ref="-19263" />
+	</way>
+	<way id="-4947">
+		<tag k="alt_name" v="Evjubekken" />
+		<tag k="name" v="Evjua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="6084" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-18253" />
+		<nd ref="-18254" />
+	</way>
+	<way id="-5134">
+		<tag k="name" v="Sætervika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="492155" />
+		<nd ref="-18807" />
+		<nd ref="-18808" />
+	</way>
+	<way id="-5257">
+		<tag k="alt_name" v="Einafjorden" />
+		<tag k="name" v="Einavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="old_name" v="Enevand;Eina-Vd;Eina Vd;Eina" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="735133" />
+		<tag k="water" v="lake" />
+		<nd ref="-19200" />
+		<nd ref="-19201" />
+		<nd ref="-19202" />
+		<nd ref="-19203" />
+		<nd ref="-19204" />
+		<nd ref="-19205" />
+	</way>
+	<way id="-5000">
+		<tag k="name" v="Lauvodden" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="68192" />
+		<nd ref="-18381" />
+		<nd ref="-18382" />
+	</way>
+</osm>

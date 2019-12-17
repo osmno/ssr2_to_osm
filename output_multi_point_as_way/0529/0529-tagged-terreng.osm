@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-19065" lat="60.6361333363" lon="10.5928972296">
+		<tag k="name" v="Amerikaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="647396" />
+	</node>
+	<node id="-19320" lat="60.6874166709" lon="10.5323972315">
+		<tag k="ssr:gml_id" v="GEOMETRY_2f895bcd-62ed-4283-a2d3-78e27d639315" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-19444" lat="60.6892361134" lon="10.7176777735">
+		<tag k="name" v="Ersruddalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="905656" />
+	</node>
+	<node id="-19058" lat="60.5209666637" lon="10.7021333289">
+		<tag k="name" v="Storberglia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="639570" />
+	</node>
+	<node id="-19185" lat="60.5137388909" lon="10.6931833391">
+		<tag k="ssr:gml_id" v="GEOMETRY_4664e30a-5775-48a8-a36f-c12dc838cc93" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19184" lat="60.5146194408" lon="10.6928722278">
+		<tag k="ssr:gml_id" v="GEOMETRY_25ff34ce-c03f-4d0a-b34e-492c0d435908" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19055" lat="60.6896666646" lon="10.7362722229">
+		<tag k="name" v="Valbakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="633055" />
+	</node>
+	<node id="-19054" lat="60.5638527789" lon="10.6788444511">
+		<tag k="name" v="Geitryggen" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="632732" />
+	</node>
+	<node id="-19003" lat="60.6045277767" lon="10.5660138922">
+		<tag k="ssr:gml_id" v="GEOMETRY_415c140b-c149-4cf9-8774-dbb34a225e05" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19168" lat="60.7176388872" lon="10.5370638979">
+		<tag k="name" v="Bradalslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="708945" />
+	</node>
+	<node id="-18527" lat="60.6716388885" lon="10.5268138911">
+		<tag k="name" v="Snuruberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="162776" />
+	</node>
+	<node id="-19002" lat="60.6045305549" lon="10.5660166754">
+		<tag k="ssr:gml_id" v="GEOMETRY_51422fb4-fb07-44c8-bf3f-13519e81a9a3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18138" lat="60.7178472204" lon="10.5803500081">
+		<tag k="name" v="Lønnberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="344925" />
+	</node>
+	<node id="-18777" lat="60.7381472217" lon="10.5657611073">
+		<tag k="name" v="Villåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="466889" />
+	</node>
+	<node id="-19160" lat="60.7478749963" lon="10.6205027811">
+		<tag k="name" v="Elvelia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="708524" />
+	</node>
+	<node id="-19031" lat="60.6899666677" lon="10.5023500022">
+		<tag k="ssr:gml_id" v="GEOMETRY_a55a0715-a53b-4630-91b7-b8db8f0758f2" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19030" lat="60.6965833357" lon="10.5040000023">
+		<tag k="ssr:gml_id" v="GEOMETRY_818e1486-a2e6-44c3-be6f-d36f85a9ea0c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19029" lat="60.6867249961" lon="10.4972972282">
+		<tag k="ssr:gml_id" v="GEOMETRY_d53f1a27-63eb-4b27-8be5-5258c5cf6d0d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18131" lat="60.5508777794" lon="10.620230563">
+		<tag k="name" v="Sveberg" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="326301" />
+	</node>
+	<node id="-19154" lat="60.7122055528" lon="10.5225638859">
+		<tag k="ssr:gml_id" v="GEOMETRY_a5b99e7a-9647-4d2f-9ea8-ca1ab069c89e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18522" lat="60.6542944461" lon="10.5963166588">
+		<tag k="name" v="Bakkeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="162254" />
+	</node>
+	<node id="-19142" lat="60.5956361145" lon="10.5314666742">
+		<tag k="ssr:gml_id" v="GEOMETRY_fcf7f5fb-8e41-4d37-b3d1-2d5d1d03addb" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19141" lat="60.5898166646" lon="10.5323305465">
+		<tag k="ssr:gml_id" v="GEOMETRY_5541a83a-0fb4-44b5-b6f7-c49a23672865" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19140" lat="60.5898138854" lon="10.5323277857">
+		<tag k="ssr:gml_id" v="GEOMETRY_4e3cc2cf-7d21-48ce-929f-11414c1c1221" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18243" lat="60.7046888894" lon="10.5467777763">
+		<tag k="name" v="Sjurshaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="890451" />
+	</node>
+	<node id="-18241" lat="60.7131638882" lon="10.5313333309">
+		<tag k="name" v="Kleggedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="890333" />
+	</node>
+	<node id="-18622" lat="60.709308334" lon="10.5346666644">
+		<tag k="name" v="Nordseterhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="223346" />
+	</node>
+	<node id="-19259" lat="60.7080305535" lon="10.6996416646">
+		<tag k="ssr:gml_id" v="GEOMETRY_729ccf24-79e8-489c-af4b-d335b8daed59" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-19258" lat="60.7080305541" lon="10.6996444501">
+		<tag k="ssr:gml_id" v="GEOMETRY_57bb6595-911d-478f-824e-6d6839a9320d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-19257" lat="60.6877083344" lon="10.750497216">
+		<tag k="ssr:gml_id" v="GEOMETRY_cfa9f100-9fe4-434f-8740-6f1913fca9ae" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18742" lat="60.700080557" lon="10.5633722171">
+		<tag k="ssr:gml_id" v="GEOMETRY_cb0a1b15-e56a-4ee6-847a-9477650d333b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18741" lat="60.6997472201" lon="10.5632111199">
+		<tag k="ssr:gml_id" v="GEOMETRY_84762ce3-0b87-4781-af91-371abee67498" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18865" lat="60.6735583359" lon="10.5380166742">
+		<tag k="name" v="Granumslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="526480" />
+	</node>
+	<node id="-18222" lat="60.5199944428" lon="10.6923750003">
+		<tag k="name" v="Storberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="396517" />
+	</node>
+	<node id="-18971" lat="60.6546388904" lon="10.5548250031">
+		<tag k="name" v="Stormyrbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="587401" />
+	</node>
+	<node id="-19183" lat="60.5146166652" lon="10.6928694417">
+		<tag k="ssr:gml_id" v="GEOMETRY_96b33dc9-5522-406e-a2e3-34bd6d73f5a9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18327" lat="60.6950972212" lon="10.5344305547">
+		<tag k="name" v="Driterbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="40329" />
+	</node>
+	<node id="-18964" lat="60.7040666709" lon="10.5368361157">
+		<tag k="name" v="Sjurshaugdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="586335" />
+	</node>
+	<node id="-19267" lat="60.7018833299" lon="10.5195472258">
+		<tag k="name" v="Rognlihaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="768295" />
+	</node>
+	<node id="-18960" lat="60.5175638866" lon="10.701097219">
+		<tag k="name" v="Lushattsletta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="578515" />
+	</node>
+	<node id="-19155" lat="60.7183166686" lon="10.5213944366">
+		<tag k="ssr:gml_id" v="GEOMETRY_5b9f63e3-ded4-4e2e-aea0-ae7a2a26ddc6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18442" lat="60.531944444" lon="10.6019472204">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ff06c06-ffff-468a-8a24-e3d8cd44d123" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-18441" lat="60.544175002" lon="10.6016972185">
+		<tag k="ssr:gml_id" v="GEOMETRY_3b324542-23f3-4385-8ee7-1003b18bbf5c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-18440" lat="60.5441722245" lon="10.6016944375">
+		<tag k="ssr:gml_id" v="GEOMETRY_7f8e234c-f07b-47d3-b42f-93c4fff11c10" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-18625" lat="60.7112694462" lon="10.5617194375">
+		<tag k="name" v="Rosettoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="223464" />
+	</node>
+	<node id="-19321" lat="60.6868972201" lon="10.5341416658">
+		<tag k="ssr:gml_id" v="GEOMETRY_b1e6ba47-3d07-463a-969f-358f91709cdc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<way id="-5247">
+		<tag k="name" v="Øytjernslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="708335" />
+		<nd ref="-19154" />
+		<nd ref="-19155" />
+	</way>
+	<way id="-5244">
+		<tag k="name" v="Granlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="675209" />
+		<nd ref="-19140" />
+		<nd ref="-19141" />
+		<nd ref="-19142" />
+	</way>
+	<way id="-5211">
+		<tag k="name" v="Korperuddalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="613360" />
+		<nd ref="-19029" />
+		<nd ref="-19030" />
+		<nd ref="-19031" />
+	</way>
+	<way id="-5119">
+		<tag k="name" v="Trettrota" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="432313" />
+		<nd ref="-18741" />
+		<nd ref="-18742" />
+	</way>
+	<way id="-5016">
+		<tag k="name" v="Strandhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="128090" />
+		<nd ref="-18440" />
+		<nd ref="-18441" />
+		<nd ref="-18442" />
+	</way>
+	<way id="-5299">
+		<tag k="name" v="Lauvhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="796334" />
+		<nd ref="-19320" />
+		<nd ref="-19321" />
+	</way>
+	<way id="-5198">
+		<tag k="name" v="Hågårkampen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="613185" />
+		<nd ref="-19002" />
+		<nd ref="-19003" />
+	</way>
+	<way id="-5250">
+		<tag k="name" v="Rundhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="735047" />
+		<nd ref="-19183" />
+		<nd ref="-19184" />
+		<nd ref="-19185" />
+	</way>
+	<way id="-5281">
+		<tag k="name" v="Toten" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="752392" />
+		<nd ref="-19257" />
+		<nd ref="-19258" />
+		<nd ref="-19259" />
+	</way>
+</osm>

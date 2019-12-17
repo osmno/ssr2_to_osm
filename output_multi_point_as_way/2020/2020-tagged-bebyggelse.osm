@@ -1,0 +1,4528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-47104" lat="70.5433833409" lon="25.1464581435">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6d4c37c-6d4b-4e56-80d5-4ab73cd16b02" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43003" lat="70.358769447" lon="25.0428803553">
+		<tag k="ssr:gml_id" v="GEOMETRY_ccd164d2-459a-4e50-b4c9-3d096eed903f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43002" lat="70.3587305594" lon="25.0461609161">
+		<tag k="ssr:gml_id" v="GEOMETRY_070330dd-367a-486e-915d-af2100bd8c17" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47094" lat="70.5250000047" lon="25.0808831601">
+		<tag k="ssr:gml_id" v="GEOMETRY_35c05091-2e52-4022-b1eb-bc17a7a8ca7e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47093" lat="70.5253250063" lon="25.0843970509">
+		<tag k="ssr:gml_id" v="GEOMETRY_810df04b-eff6-4590-a253-7c80d076606f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47092" lat="70.5253250102" lon="25.0843942532">
+		<tag k="ssr:gml_id" v="GEOMETRY_1b69fcfa-ed9c-42a6-a758-a48cf9feff52" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42995" lat="70.3621138924" lon="25.0630192412">
+		<tag k="name" v="Bakkejord" />
+		<tag k="name:no" v="Bakkejord" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20567" />
+	</node>
+	<node id="-47090" lat="70.2954750113" lon="25.5191191999">
+		<tag k="ssr:gml_id" v="GEOMETRY_2c34dc22-bdef-4935-8934-2f452323748c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45025" lat="70.054586118" lon="24.94087482">
+		<tag k="ssr:gml_id" v="GEOMETRY_af935d3b-56e3-455d-8dc6-49852020551f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45024" lat="70.0545833408" lon="24.9408720401">
+		<tag k="ssr:gml_id" v="GEOMETRY_2d94e277-0aaf-4f72-bea1-ba8004a3f525" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45023" lat="70.0542694502" lon="25.030560919">
+		<tag k="ssr:gml_id" v="GEOMETRY_1302c9e0-ffdd-4c95-9922-1d19d7d95550" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45022" lat="70.0542416756" lon="25.0304637006">
+		<tag k="ssr:gml_id" v="GEOMETRY_32f7113d-2dca-4b46-833f-ffa7338e2238" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45021" lat="70.0622250062" lon="24.9380470178">
+		<tag k="ssr:gml_id" v="GEOMETRY_df1bc421-41a2-4bf2-8d5f-9c381fbb4961" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45020" lat="70.0622250036" lon="24.9380525956">
+		<tag k="ssr:gml_id" v="GEOMETRY_4267ff62-7dc1-45cd-827d-70fea86ba404" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42970" lat="70.3585027842" lon="25.4649969989">
+		<tag k="ssr:gml_id" v="GEOMETRY_650fd382-aff3-485c-b660-bb110ae6f75f" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-42969" lat="70.3585027832" lon="25.46499978">
+		<tag k="ssr:gml_id" v="GEOMETRY_1c2b5725-09fa-4567-bffb-54265163ebd4" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42968" lat="70.358505565" lon="25.4649969863">
+		<tag k="ssr:gml_id" v="GEOMETRY_ec086b3f-ed4c-47a5-bc3f-5ffb54a96571" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42967" lat="70.3585000058" lon="25.464996986">
+		<tag k="ssr:gml_id" v="GEOMETRY_0cf6e17f-3d0a-460b-aeeb-a8fbf6dfd567" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42959" lat="70.3103972318" lon="25.465710893">
+		<tag k="ssr:gml_id" v="GEOMETRY_ebb0c082-a715-4cc9-9546-37e6ce069c85" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42958" lat="70.3103972309" lon="25.4657136675">
+		<tag k="ssr:gml_id" v="GEOMETRY_87f152d7-708f-4cc6-a4ac-23e955efd5ff" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42957" lat="70.3103944534" lon="25.4657108806">
+		<tag k="ssr:gml_id" v="GEOMETRY_344f6c92-658c-42b5-87ba-e7062c8bef5a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44997" lat="70.1837416755" lon="24.9103859259">
+		<tag k="ssr:gml_id" v="GEOMETRY_fc74aa66-6b36-4881-a93a-d2914d605fa2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44996" lat="70.1837388956" lon="24.9103831563">
+		<tag k="ssr:gml_id" v="GEOMETRY_dde8204a-4318-479a-a62c-556ab1d416ca" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47091" lat="70.2957138974" lon="25.5238219842">
+		<tag k="ssr:gml_id" v="GEOMETRY_7d7eb334-ff49-462d-97c8-cb1169bbac19" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42919" lat="70.4728944477" lon="25.1235275982">
+		<tag k="ssr:gml_id" v="GEOMETRY_f5517df7-95fc-4c61-b27f-d8b779896a76" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-42918" lat="70.4711472273" lon="25.132024822">
+		<tag k="ssr:gml_id" v="GEOMETRY_141fccd1-441c-403b-a6a2-fd09054dc624" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42917" lat="70.4730750027" lon="25.123930355">
+		<tag k="ssr:gml_id" v="GEOMETRY_6600ab2a-56e7-4448-9e64-a554f2dc5a59" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42916" lat="70.4730750068" lon="25.1239331524">
+		<tag k="ssr:gml_id" v="GEOMETRY_463f346c-d0ed-4b14-b654-a0df35510214" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42915" lat="70.4690000028" lon="25.0701581507">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Solset" />
+		<tag k="name:no" v="Solset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19734" />
+	</node>
+	<node id="-44950" lat="70.0215222312" lon="24.9325664693">
+		<tag k="ssr:gml_id" v="GEOMETRY_560bd406-a9e6-42d7-8373-3f9a0ebcb689" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44949" lat="70.0215194538" lon="24.9325636954">
+		<tag k="ssr:gml_id" v="GEOMETRY_30b4c457-d077-43cd-b545-a6c25dc8d819" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42899" lat="69.8338416701" lon="25.11979422">
+		<tag k="name" v="Soltun" />
+		<tag k="name:no" v="Soltun" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19571" />
+	</node>
+	<node id="-46991" lat="70.4737861179" lon="25.0712692653">
+		<tag k="ssr:gml_id" v="GEOMETRY_95525621-7c4b-41d3-932c-4b35ce8cb98c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46990" lat="70.4737972321" lon="25.0712970399">
+		<tag k="ssr:gml_id" v="GEOMETRY_b844a6f3-13ee-42cd-8570-f5936a1f9d3e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46989" lat="70.4741777807" lon="25.0583275924">
+		<tag k="ssr:gml_id" v="GEOMETRY_429e9e0d-4a52-4f4c-9637-935f74a2ea15" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46988" lat="70.4741750074" lon="25.0583248176">
+		<tag k="ssr:gml_id" v="GEOMETRY_62fece04-3584-4555-99c4-8e9b1bf510a9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44939" lat="70.308400006" lon="25.4679219974">
+		<tag k="ssr:gml_id" v="GEOMETRY_8a589a78-6500-45a8-9347-afd2cd6a6251" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42305" lat="70.0684055595" lon="25.1664164548">
+		<tag k="ssr:gml_id" v="GEOMETRY_7f822a5a-eeac-4502-88b4-8a8b0385b680" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-46976" lat="70.2897277819" lon="25.0713914694">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa07ca8e-af56-400d-a7db-6890f6cc1f26" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46975" lat="70.2897305647" lon="25.0713914856">
+		<tag k="ssr:gml_id" v="GEOMETRY_1189ddc4-d65f-487a-b0f8-f0fc74262be1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44926" lat="70.3625277866" lon="25.4714247614">
+		<tag k="ssr:gml_id" v="GEOMETRY_d790c664-293c-48af-b738-11f37738c72f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46058" lat="70.2755333363" lon="25.0477220255">
+		<tag k="ssr:gml_id" v="GEOMETRY_b3d178b7-e7fc-44cb-9f1a-c7d8494508df" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44915" lat="70.3152750075" lon="25.0877470173">
+		<tag k="ssr:gml_id" v="GEOMETRY_3c0960cf-0943-4ef9-b1e5-0f4c6ecb6a07" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44914" lat="70.3152750025" lon="25.0877442416">
+		<tag k="ssr:gml_id" v="GEOMETRY_00405765-f45b-47a2-b945-002d175265a9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44883" lat="70.3461833404" lon="25.0790387031">
+		<tag k="ssr:gml_id" v="GEOMETRY_1b1ac52a-b96a-40e7-9b47-51b17be866e2" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44882" lat="70.3461805661" lon="25.079038692">
+		<tag k="ssr:gml_id" v="GEOMETRY_534fdf38-5e21-4bcc-ac4b-52dd88120f52" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44881" lat="70.3463666752" lon="25.0817775965">
+		<tag k="ssr:gml_id" v="GEOMETRY_1d7ab1b9-ec20-41a2-aa9e-eb8b46cf46ec" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44874" lat="70.3909277827" lon="25.5680969696">
+		<tag k="ssr:gml_id" v="GEOMETRY_2d905777-505f-4804-8d11-899a87d69180" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44873" lat="70.3909250108" lon="25.5680942151">
+		<tag k="ssr:gml_id" v="GEOMETRY_53a36fa1-867c-49de-96f4-ad8613eeb66c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42821" lat="70.0483944472" lon="24.9914748078">
+		<tag k="ssr:gml_id" v="GEOMETRY_33c2bb5c-d2cc-4716-bd50-c49a679f154a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42820" lat="70.0483916709" lon="24.9914720221">
+		<tag k="ssr:gml_id" v="GEOMETRY_a8e30af8-6890-475c-896f-c3f7be786a40" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42819" lat="70.0543361206" lon="25.1025331211">
+		<tag k="ssr:gml_id" v="GEOMETRY_12f96f0f-eb93-444e-b633-0b9e900ac020" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42818" lat="70.0543333439" lon="25.1025303449">
+		<tag k="ssr:gml_id" v="GEOMETRY_ea267b11-385e-43fb-858c-1134c093946f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42817" lat="70.0544416771" lon="25.0865553485">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce02cfb2-0e63-4b23-a4bc-0a883ed772bc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42816" lat="70.0544472311" lon="25.0865608965">
+		<tag k="ssr:gml_id" v="GEOMETRY_717ed1dc-23bf-48bf-ad74-e16cd4385443" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42976" lat="70.3343166751" lon="25.6315747427">
+		<tag k="ssr:gml_id" v="GEOMETRY_0733b6a6-27bb-45ef-8518-30caefba6e76" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42811" lat="70.0321694493" lon="24.9232914825">
+		<tag k="ssr:gml_id" v="GEOMETRY_85d5efee-1d47-427a-8394-b34eb854372c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42810" lat="70.0321722268" lon="24.9232942567">
+		<tag k="ssr:gml_id" v="GEOMETRY_3fc76356-9293-40ff-ae38-0e92f38a0da7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42975" lat="70.334252786" lon="25.6315080848">
+		<tag k="ssr:gml_id" v="GEOMETRY_1048153b-5d4d-47a6-b8b6-b493c3d6e7a2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46899" lat="70.2549333365" lon="25.0239775856">
+		<tag k="ssr:gml_id" v="GEOMETRY_1dc33274-76b7-4a13-9e9e-36d8b928b0dd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46898" lat="70.2549361168" lon="25.0239803556">
+		<tag k="ssr:gml_id" v="GEOMETRY_d4ceea34-ab96-4e76-ba5c-526f091c76cd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44843" lat="70.5044055596" lon="25.0487831591">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f992db4-d10f-4124-8765-8ae1366b6bcf" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-44842" lat="70.5038888929" lon="25.0436581376">
+		<tag k="ssr:gml_id" v="GEOMETRY_fe28218a-deed-4471-ac34-0f35b9530aec" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44841" lat="70.5028916737" lon="25.0403831617">
+		<tag k="ssr:gml_id" v="GEOMETRY_61794e4d-2c55-463a-8ab8-1425d642940a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44840" lat="70.5044027851" lon="25.04878315">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa4596a2-24ee-45f2-b27e-c04ffb2b1ea9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48926" lat="70.3196305645" lon="25.5427969871">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Smibakken - Pajaruto" />
+		<tag k="name:fkv" v="Pajaruto" />
+		<tag k="name:no" v="Smibakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="942602" />
+	</node>
+	<node id="-42781" lat="70.1754277795" lon="24.9108275999">
+		<tag k="ssr:gml_id" v="GEOMETRY_70971762-77f1-4762-8262-b3d72e5cc6fa" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48916" lat="70.4073972307" lon="25.1669525821">
+		<tag k="name" v="Polmasjok" />
+		<tag k="name:no" v="Polmasjok" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="942342" />
+	</node>
+	<node id="-48915" lat="70.4661555605" lon="25.2414914616">
+		<tag k="name" v="Sjøstrand" />
+		<tag k="name:no" v="Sjøstrand" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="942340" />
+	</node>
+	<node id="-45357" lat="70.1786000083" lon="24.8766192529">
+		<tag k="ssr:gml_id" v="GEOMETRY_d382cb1b-836c-4eee-8506-ddb77bb66fd4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43569" lat="70.045077784" lon="24.9391859259">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Niittykurru" />
+		<tag k="name:fkv" v="Niittykurru" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="92413" />
+	</node>
+	<node id="-44807" lat="69.9865944495" lon="24.9409247961">
+		<tag k="name" v="Stuenes" />
+		<tag k="name:no" v="Stuenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262733" />
+	</node>
+	<node id="-48853" lat="70.3075083398" lon="25.0256081471">
+		<tag k="name" v="Dalstad" />
+		<tag k="name:no" v="Dalstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="931573" />
+	</node>
+	<node id="-44750" lat="70.3666555627" lon="25.0758720421">
+		<tag k="ssr:gml_id" v="GEOMETRY_e492d82a-8da5-4b87-8edd-b427472ec0ff" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44749" lat="70.3666583358" lon="25.0758748032">
+		<tag k="ssr:gml_id" v="GEOMETRY_3affb999-37bb-4d1a-927e-350d47f646d7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44706" lat="70.3264027827" lon="25.4099914385">
+		<tag k="ssr:gml_id" v="GEOMETRY_d1d7d67c-5340-4df1-8aab-f53f24b944b7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44705" lat="70.3264027834" lon="25.4099664474">
+		<tag k="ssr:gml_id" v="GEOMETRY_c3432b27-e54e-4c91-9b24-9cd8f69c42cd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48799" lat="70.4720250034" lon="25.1010859291">
+		<tag k="ssr:gml_id" v="GEOMETRY_c722e918-84bd-48a1-8f7f-8beef972b27f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48798" lat="70.4713583381" lon="25.0991025764">
+		<tag k="ssr:gml_id" v="GEOMETRY_c2fa9235-6cd3-418a-aeec-a8c4f2e0a1e7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48797" lat="70.437341673" lon="25.195580366">
+		<tag k="name" v="Slettbakken" />
+		<tag k="name:no" v="Slettbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="930756" />
+	</node>
+	<node id="-46703" lat="70.2454333426" lon="24.9949942545">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Jonsnes" />
+		<tag k="name:no" v="Jonsnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="638861" />
+	</node>
+	<node id="-42648" lat="70.3193361145" lon="25.0479748064">
+		<tag k="name" v="Bjørk" />
+		<tag k="name:no" v="Bjørk" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881983" />
+	</node>
+	<node id="-42643" lat="70.4516361129" lon="25.2198136898">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Myreng" />
+		<tag k="name:no" v="Myreng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="473748" />
+	</node>
+	<node id="-42642" lat="70.4716833423" lon="25.0602248123">
+		<tag k="name" v="Tofta" />
+		<tag k="name:no" v="Tofta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="473700" />
+	</node>
+	<node id="-42641" lat="69.9894027854" lon="24.9334025886">
+		<tag k="name" v="Heimdal" />
+		<tag k="name:no" v="Heimdal" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="410233" />
+	</node>
+	<node id="-42621" lat="70.3190916724" lon="25.5582691956">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Branneng - Palanheenkannonruto" />
+		<tag k="name:fkv" v="Palanheenkannonruto" />
+		<tag k="name:no" v="Branneng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="396586" />
+	</node>
+	<node id="-42615" lat="70.3108222276" lon="25.0604136961">
+		<tag k="landuse" v="residential" />
+		<tag k="name" v="Indre Billefjord Øst" />
+		<tag k="name:no" v="Indre Billefjord Øst" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395975" />
+	</node>
+	<node id="-42608" lat="70.3275944516" lon="25.1658108985">
+		<tag k="alt_name:fkv" v="Kalkasenlahti" />
+		<tag k="alt_name:no" v="Ytre Sandvik" />
+		<tag k="name" v="Gálggošluokta" />
+		<tag k="name:se" v="Gálggošluokta" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395604" />
+	</node>
+	<node id="-42607" lat="70.3783638931" lon="25.4893192092">
+		<tag k="name" v="Paki" />
+		<tag k="name:fkv" v="Paki" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395601" />
+	</node>
+	<node id="-46701" lat="70.20931112" lon="24.9352525963">
+		<tag k="name" v="Risvik" />
+		<tag k="name:no" v="Risvik" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="638843" />
+	</node>
+	<node id="-42601" lat="70.3302888986" lon="25.6027080897">
+		<tag k="name" v="Leppäruto" />
+		<tag k="name:fkv" v="Leppäruto" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395461" />
+	</node>
+	<node id="-42600" lat="70.3275805614" lon="25.6146414098">
+		<tag k="name" v="Leppäruto" />
+		<tag k="name:fkv" v="Leppäruto" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395451" />
+	</node>
+	<node id="-42594" lat="70.4373472301" lon="25.1996470243">
+		<tag k="name" v="Bondejorda" />
+		<tag k="name:no" v="Bondejorda" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395399" />
+	</node>
+	<node id="-44636" lat="70.0044194522" lon="24.936460915">
+		<tag k="ssr:gml_id" v="GEOMETRY_2420b20b-51b8-4bdd-8879-9be985d40546" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44635" lat="70.0044222295" lon="24.9364636869">
+		<tag k="ssr:gml_id" v="GEOMETRY_066812ff-5e28-465b-8972-1823445c9ce2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46679" lat="70.1885694471" lon="24.911222042">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Stabbursnes vestre" />
+		<tag k="name:no" v="Stabbursnes vestre" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="638145" />
+	</node>
+	<node id="-44628" lat="70.0600944477" lon="25.1204803377">
+		<tag k="ssr:gml_id" v="GEOMETRY_222cb482-7fbb-4fb4-8c8a-2f5ad22b51ba" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44627" lat="70.0601750072" lon="25.1167747978">
+		<tag k="ssr:gml_id" v="GEOMETRY_83eb52dc-66dc-4a17-93c9-ed0c0d01aeac" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44626" lat="70.0601722308" lon="25.1167720189">
+		<tag k="ssr:gml_id" v="GEOMETRY_593d08e3-8aea-41e6-8150-f9f5c3c1df8a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46673" lat="70.3283027835" lon="25.6174886342">
+		<tag k="name" v="Vuomaranta" />
+		<tag k="name:fkv" v="Vuomaranta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="637482" />
+	</node>
+	<node id="-46672" lat="70.3285000106" lon="25.6085275405">
+		<tag k="name" v="Aaponsammunkenttä" />
+		<tag k="name:fkv" v="Aaponsammunkenttä" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="637474" />
+	</node>
+	<node id="-44623" lat="70.0572083366" lon="25.1530608903">
+		<tag k="ssr:gml_id" v="GEOMETRY_410d9bfd-a17c-4d9a-8796-e4d261d6fe37" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46670" lat="70.4448666742" lon="25.2128553703">
+		<tag k="name" v="Alfheim" />
+		<tag k="name:no" v="Alfheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="637434" />
+	</node>
+	<node id="-48717" lat="70.3182638933" lon="25.5239469897">
+		<tag k="ssr:gml_id" v="GEOMETRY_6c6d757c-fdcf-458e-9417-2fd1ef3c8f58" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48716" lat="70.3185750032" lon="25.5231553258">
+		<tag k="ssr:gml_id" v="GEOMETRY_fcdd630a-4cc9-479a-b5b9-19b1e1dddcdb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44618" lat="70.0507277848" lon="24.9376998167">
+		<tag k="ssr:gml_id" v="GEOMETRY_69d4baf8-8465-4bd0-bad4-8ce6c3f57741" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44617" lat="70.0507250076" lon="24.9376970378">
+		<tag k="ssr:gml_id" v="GEOMETRY_92907124-59bc-438c-88fd-1f73b7d5cf33" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44616" lat="70.0372638919" lon="24.9376220353">
+		<tag k="ssr:gml_id" v="GEOMETRY_8461cd04-e47e-4f99-a72a-731ab6ccfb2e" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-44615" lat="70.0372638973" lon="24.937624799">
+		<tag k="ssr:gml_id" v="GEOMETRY_803c475c-4454-4b8f-9605-440ce2aa0698" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44614" lat="70.03726112" lon="24.9376220221">
+		<tag k="ssr:gml_id" v="GEOMETRY_f3d1f17c-a75d-4650-a1f3-0ec58e0656c1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44613" lat="70.0372666745" lon="24.9376275759">
+		<tag k="ssr:gml_id" v="GEOMETRY_1b4236f8-a7c5-4fff-b741-5caf564616a8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44612" lat="70.0409305604" lon="24.9380414806">
+		<tag k="ssr:gml_id" v="GEOMETRY_419a8c37-1eeb-4b5f-8c11-1d5bf074162f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44611" lat="70.0409361149" lon="24.9380470356">
+		<tag k="ssr:gml_id" v="GEOMETRY_b9b71c7e-d986-48fc-bd60-74015b1ebb35" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44610" lat="70.0622444521" lon="25.1562109104">
+		<tag k="ssr:gml_id" v="GEOMETRY_983f91a9-2ec9-4d06-9026-73c7b6bd8412" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44609" lat="70.0622416763" lon="25.156208126">
+		<tag k="ssr:gml_id" v="GEOMETRY_5e6edf57-1b3b-4041-a1eb-f3bc79dbef9f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44608" lat="70.0622389005" lon="25.1562053415">
+		<tag k="ssr:gml_id" v="GEOMETRY_f808483c-eec2-487f-8897-97ff4bd8a7d7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42559" lat="70.4363027857" lon="25.616799747">
+		<tag k="ssr:gml_id" v="GEOMETRY_d95efb24-696f-453a-85e0-c78a6c0a3145" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42558" lat="70.4361333386" lon="25.6166164149">
+		<tag k="ssr:gml_id" v="GEOMETRY_c74e8e68-5450-4316-a495-6b04d97b93fa" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42557" lat="70.4363027838" lon="25.6168247572">
+		<tag k="ssr:gml_id" v="GEOMETRY_689b4d2c-0cc4-4f3b-8ca8-e089ba9fddda" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48700" lat="70.3091166714" lon="25.5381164248">
+		<tag k="ssr:gml_id" v="GEOMETRY_d19290dd-2fe9-438b-8ef2-31cb23af3eac" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48699" lat="70.3049722293" lon="25.5281192059">
+		<tag k="ssr:gml_id" v="GEOMETRY_e4604fe1-1773-4d63-a1e5-51eec1a785cb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48693" lat="70.2648555648" lon="25.0277192637">
+		<tag k="ssr:gml_id" v="GEOMETRY_1c9b7d11-3499-49f1-9de5-00c2eb245744" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48692" lat="70.2644916728" lon="25.027408149">
+		<tag k="ssr:gml_id" v="GEOMETRY_bd9f289d-0703-45b7-b2c2-ba134e9a0d1e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42542" lat="70.3190166731" lon="25.0400220244">
+		<tag k="name" v="Høgli" />
+		<tag k="name:no" v="Høgli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384573" />
+	</node>
+	<node id="-46633" lat="70.2926916765" lon="25.1113525825">
+		<tag k="ssr:gml_id" v="GEOMETRY_731cb31b-26c4-4698-8d64-040073354ab9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46632" lat="70.2936111159" lon="25.1137664803">
+		<tag k="ssr:gml_id" v="GEOMETRY_ed25f386-dad4-4666-be2b-4ecd1cabb3b6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46629" lat="70.5298805599" lon="25.0894692667">
+		<tag k="ssr:gml_id" v="GEOMETRY_d622b11c-3db8-4ac7-9fd6-bccd81122aef" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46628" lat="70.5298777872" lon="25.0894664792">
+		<tag k="ssr:gml_id" v="GEOMETRY_e2f9b846-44c7-42c1-93ae-335e79bd1e7a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42531" lat="70.3574611174" lon="25.0425248083">
+		<tag k="ssr:gml_id" v="GEOMETRY_57126cd9-3c5c-4214-bbb8-c32591ce82de" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42524" lat="70.3477777834" lon="25.0339359232">
+		<tag k="ssr:gml_id" v="GEOMETRY_f490ecc0-a99f-4c88-8bda-ae769578c8d6" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42523" lat="70.3495666753" lon="25.0386164744">
+		<tag k="ssr:gml_id" v="GEOMETRY_05b02afd-7afc-475f-9ab9-091cb8f7a847" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42522" lat="70.3495638954" lon="25.0386136883">
+		<tag k="ssr:gml_id" v="GEOMETRY_bc50a531-112a-4864-9079-b64e36a84eb7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42521" lat="70.3589666734" lon="25.0484942536">
+		<tag k="ssr:gml_id" v="GEOMETRY_86f7547d-fb1a-40de-80e0-fb80502ab90f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42520" lat="70.3589694532" lon="25.0484970424">
+		<tag k="ssr:gml_id" v="GEOMETRY_c2a4722e-89f5-4534-b893-dfda47f139f9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44561" lat="70.213033335" lon="24.9140470343">
+		<tag k="ssr:gml_id" v="GEOMETRY_2e0cbd8e-cce5-4aab-b852-a59a07fbd5a3" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-44560" lat="70.2178055632" lon="24.9276942581">
+		<tag k="ssr:gml_id" v="GEOMETRY_40272bd0-2696-452e-9d48-d00846e17245" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44559" lat="70.2292388937" lon="24.9286164783">
+		<tag k="ssr:gml_id" v="GEOMETRY_0fdd03ef-fccf-4a8b-9bcb-4a20e4764f24" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44558" lat="70.230705561" lon="24.9353887026">
+		<tag k="ssr:gml_id" v="GEOMETRY_2c2a4ad6-64e5-471b-9206-ba06301a99ca" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48651" lat="70.0253111151" lon="24.9469887031">
+		<tag k="ssr:gml_id" v="GEOMETRY_70f710b3-fa35-47e6-9ee0-2d2459007f13" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48650" lat="70.0253138922" lon="24.9469914795">
+		<tag k="ssr:gml_id" v="GEOMETRY_a3cb88e3-2599-4c01-8901-7a243600496f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46596" lat="70.3945111139" lon="25.5555997696">
+		<tag k="ssr:gml_id" v="GEOMETRY_31866ec4-ed57-4a90-aa9d-3763a7df3133" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-46595" lat="70.3945111225" lon="25.5556025371">
+		<tag k="ssr:gml_id" v="GEOMETRY_b3078771-63f1-45a9-90b3-6c7c15bc84b0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46594" lat="70.3945083418" lon="25.5555997765">
+		<tag k="ssr:gml_id" v="GEOMETRY_0b1d80be-44e8-4244-a919-9d57058526ac" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42485" lat="70.5054722279" lon="25.057022051">
+		<tag k="ssr:gml_id" v="GEOMETRY_02e65624-278c-4879-af11-226f40c51901" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42484" lat="70.505469446" lon="25.0570192646">
+		<tag k="ssr:gml_id" v="GEOMETRY_501070f0-73a1-4841-a181-f822186cae27" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46569" lat="70.5463305658" lon="25.8152664191">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9fcda1f-6915-415e-a14b-c940b7596166" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46568" lat="70.5462555608" lon="25.8153664035">
+		<tag k="ssr:gml_id" v="GEOMETRY_9c08a1e8-cdda-485e-996c-3c19bb8d9201" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44625" lat="70.0572027826" lon="25.153055349">
+		<tag k="ssr:gml_id" v="GEOMETRY_cf8be12a-5cfb-4f40-8a65-bd27b1f1c9f0" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44514" lat="70.5246166708" lon="25.7764164236">
+		<tag k="name" v="Ytre Brenna" />
+		<tag k="name:no" v="Ytre Brenna" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="230387" />
+	</node>
+	<node id="-44624" lat="70.0582833422" lon="25.1558275776">
+		<tag k="ssr:gml_id" v="GEOMETRY_bfb9a08e-20dd-4637-95df-cc611dc19dc0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42461" lat="70.4385444542" lon="25.2012192459">
+		<tag k="ssr:gml_id" v="GEOMETRY_0ba7ba34-3d6f-401d-9929-4ed565088d2e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42460" lat="70.4385555644" lon="25.1996525858">
+		<tag k="ssr:gml_id" v="GEOMETRY_4cdf0620-3d58-4b5e-93d8-deba2a532161" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42455" lat="70.4928638915" lon="25.0478359189">
+		<tag k="ssr:gml_id" v="GEOMETRY_5ef042db-267f-4138-af88-8a2f43d7fbdf" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42454" lat="70.4928611181" lon="25.0478331427">
+		<tag k="ssr:gml_id" v="GEOMETRY_34687ecc-0792-4ff6-982d-ddd9e8d7b157" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48946" lat="70.4764805565" lon="25.0674387128">
+		<tag k="name" v="Nyland" />
+		<tag k="name:no" v="Nyland" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="958720" />
+	</node>
+	<node id="-44494" lat="70.3223527824" lon="25.0565525762">
+		<tag k="landuse" v="residential" />
+		<tag k="name" v="Indre Billefjord Vest" />
+		<tag k="name:no" v="Indre Billefjord Vest" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="213992" />
+	</node>
+	<node id="-44490" lat="70.303150008" lon="25.0653942646">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Nordvang" />
+		<tag k="name:no" v="Nordvang" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="213796" />
+	</node>
+	<node id="-46534" lat="70.4994277806" lon="25.0429137061">
+		<tag k="ssr:gml_id" v="GEOMETRY_e94f3008-8bd1-4a64-977d-d58a9c0069e2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46533" lat="70.4999583413" lon="25.0422137036">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa0ed0be-e001-4865-9b70-5ef3f405f8b7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46522" lat="70.326863898" lon="25.0644109301">
+		<tag k="name" v="Nyeng" />
+		<tag k="name:no" v="Nyeng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="626570" />
+	</node>
+	<node id="-42226" lat="70.4483222316" lon="25.2175609009">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Nygård" />
+		<tag k="name:no" v="Nygård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="351745" />
+	</node>
+	<node id="-48554" lat="70.0472361141" lon="25.0285497882">
+		<tag k="ssr:gml_id" v="GEOMETRY_19cb8b3d-33bf-4d78-bbeb-c186d5b80ef5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48553" lat="70.0472333361" lon="25.028547023">
+		<tag k="ssr:gml_id" v="GEOMETRY_98658ac0-6f44-4722-833e-038963ffd1e0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48552" lat="70.0469944558" lon="25.0479053461">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9f57798-8f21-4815-acf7-a93693644ad5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48551" lat="70.0469916695" lon="25.0479025715">
+		<tag k="ssr:gml_id" v="GEOMETRY_bfa9ffab-ea19-4467-87a3-cd53fff3a624" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44441" lat="70.2080638954" lon="24.9055609188">
+		<tag k="ssr:gml_id" v="GEOMETRY_8ce78b1f-ed66-4ae7-8f12-b51742281761" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44440" lat="70.2080694531" lon="24.9055664893">
+		<tag k="ssr:gml_id" v="GEOMETRY_a84fa713-17f4-437f-aeb7-7c8406b0a8fb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42366" lat="70.307844449" lon="25.5344580797">
+		<tag k="ssr:gml_id" v="GEOMETRY_9f3009f7-6ba0-4d82-a03e-35595ff4ca91" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-46461" lat="70.013311115" lon="24.9397470139">
+		<tag k="ssr:gml_id" v="GEOMETRY_8bc0251f-8d9b-4297-816d-d924bbca85d0" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-46460" lat="70.0133138986" lon="24.9397498195">
+		<tag k="ssr:gml_id" v="GEOMETRY_cd3dea08-38b7-44a9-a2b7-51149d2ecb86" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46459" lat="70.0133166728" lon="24.9397498075">
+		<tag k="ssr:gml_id" v="GEOMETRY_3328ca2d-832c-4c4d-8317-e95071f1784d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48490" lat="70.3159472283" lon="25.540716425">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Solflata - Laatas" />
+		<tag k="name:fkv" v="Laatas" />
+		<tag k="name:no" v="Solflata" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881525" />
+	</node>
+	<node id="-44604" lat="70.0663027837" lon="25.1627858872">
+		<tag k="ssr:gml_id" v="GEOMETRY_36033952-0257-4ab4-bfc7-834ff027235a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48486" lat="70.3242222338" lon="25.5907941955">
+		<tag k="name" v="Alaouta" />
+		<tag k="name:fkv" v="Alaouta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881430" />
+	</node>
+	<node id="-46437" lat="70.2091638913" lon="24.916233159">
+		<tag k="ssr:gml_id" v="GEOMETRY_c91fd20b-8e21-4b35-88cc-1c848809357c" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-48484" lat="70.0512166712" lon="24.9912581331">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Myrlund" />
+		<tag k="name:no" v="Myrlund" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881394" />
+	</node>
+	<node id="-46435" lat="70.2091694509" lon="24.9162387073">
+		<tag k="ssr:gml_id" v="GEOMETRY_0503e0cb-1a73-4b45-881b-04b2d69720c6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46434" lat="70.2091666711" lon="24.9162359331">
+		<tag k="ssr:gml_id" v="GEOMETRY_17c7e6e8-0024-4c88-ac68-6be678474c82" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44603" lat="70.0663000057" lon="25.1627831266">
+		<tag k="ssr:gml_id" v="GEOMETRY_d4c36da2-1374-4bed-8d58-318b1c875bca" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48479" lat="70.4422972306" lon="25.214016477">
+		<tag k="name" v="Russemark" />
+		<tag k="name:no" v="Russemark" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881370" />
+	</node>
+	<node id="-44375" lat="70.2816361198" lon="25.1128859254">
+		<tag k="ssr:gml_id" v="GEOMETRY_aa2b1906-51b9-4822-9704-9bfd6ac7dbb0" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44374" lat="70.281633337" lon="25.1128859036">
+		<tag k="ssr:gml_id" v="GEOMETRY_c8da639a-edb1-4570-9362-92bd3639d4bf" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44373" lat="70.2818166697" lon="25.1126997971">
+		<tag k="ssr:gml_id" v="GEOMETRY_5782b954-dbd6-4211-b03b-f96c069030f5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42324" lat="70.0535361225" lon="25.1227053425">
+		<tag k="ssr:gml_id" v="GEOMETRY_a432a018-9c54-4de6-9513-fe4a97b01e05" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-42323" lat="70.0535388928" lon="25.1227136709">
+		<tag k="ssr:gml_id" v="GEOMETRY_97b1ba12-7f43-4142-9d76-f80e2a4902e8" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-42322" lat="70.0535361164" lon="25.1227108922">
+		<tag k="ssr:gml_id" v="GEOMETRY_07a5ce39-0432-446e-816b-16cc98e25ccb" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42321" lat="70.0535333375" lon="25.122702557">
+		<tag k="ssr:gml_id" v="GEOMETRY_2dec4f02-2ae7-43b5-ab06-51a746ebc352" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42320" lat="70.05353334" lon="25.1227081135">
+		<tag k="ssr:gml_id" v="GEOMETRY_84ad86a7-81c0-468d-9e05-a113c9a82854" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44941" lat="70.3084000121" lon="25.467910875">
+		<tag k="ssr:gml_id" v="GEOMETRY_5da34b01-0dbe-4a86-b8e9-8302617460de" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44361" lat="70.3094583404" lon="25.0248525955">
+		<tag k="name" v="Elvedal" />
+		<tag k="name:no" v="Elvedal" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="202606" />
+	</node>
+	<node id="-44940" lat="70.308402781" lon="25.4679136548">
+		<tag k="ssr:gml_id" v="GEOMETRY_05e05d07-774e-439a-aa24-dad555ff8659" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44358" lat="70.3608250026" lon="25.0611664865">
+		<tag k="name" v="Solbakken" />
+		<tag k="name:no" v="Solbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="202592" />
+	</node>
+	<node id="-42307" lat="70.0513250085" lon="24.9643803702">
+		<tag k="ssr:gml_id" v="GEOMETRY_06e1dd3c-d1a9-46ad-8332-ecb8c89229ba" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42306" lat="70.0513250084" lon="24.971774797">
+		<tag k="ssr:gml_id" v="GEOMETRY_7fb4b91a-3143-4043-b5fe-f7c5e8704918" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42891" lat="69.7634416701" lon="25.1965803281">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Karisdat" />
+		<tag k="name:no" v="Karisdat" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19542" />
+	</node>
+	<node id="-42304" lat="70.0684055612" lon="25.1664192224">
+		<tag k="ssr:gml_id" v="GEOMETRY_d48d147f-01ee-49d9-9c7b-f9fb81f8e679" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42303" lat="70.0684027832" lon="25.1664164609">
+		<tag k="ssr:gml_id" v="GEOMETRY_6872926d-3dda-4a04-ac52-2d361f32f35f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42293" lat="70.0951388988" lon="25.0348720181">
+		<tag k="ssr:gml_id" v="GEOMETRY_7f4198af-663b-4c60-8b91-4b6f78533dfd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42292" lat="70.0951333359" lon="25.0348109088">
+		<tag k="ssr:gml_id" v="GEOMETRY_71d74d51-08ef-4409-81dc-1380bc742d75" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42291" lat="70.0951416766" lon="25.0348747912">
+		<tag k="ssr:gml_id" v="GEOMETRY_061c777e-7148-46b2-afdd-aa4a9d56590f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44333" lat="70.5039500081" lon="25.220922035">
+		<tag k="ssr:gml_id" v="GEOMETRY_f252bd6a-6f5c-498d-80f1-51f7116340dd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44332" lat="70.5039472266" lon="25.2209192521">
+		<tag k="ssr:gml_id" v="GEOMETRY_8ab9e0f1-fc9e-46d2-8afd-3bbc90460bac" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44327" lat="70.3294972309" lon="25.5664303101">
+		<tag k="ssr:gml_id" v="GEOMETRY_e36e16c4-4b4b-448f-88fe-6da9292ffeac" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44326" lat="70.3295000105" lon="25.566421973">
+		<tag k="ssr:gml_id" v="GEOMETRY_a212982e-104a-46c0-8adc-0f84cb4829a7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44325" lat="70.3295000044" lon="25.5664191889">
+		<tag k="ssr:gml_id" v="GEOMETRY_9c22c0f4-a6f0-451e-ae7d-4111070f77bf" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46371" lat="69.8341805667" lon="25.0821692321">
+		<tag k="ssr:gml_id" v="GEOMETRY_09f9e4be-1f77-4bcc-a9d6-48208f39fb6a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46370" lat="69.8341833416" lon="25.0821719984">
+		<tag k="ssr:gml_id" v="GEOMETRY_f4a06e3a-94d7-44a6-9ddd-eb7a90589e99" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42266" lat="70.2139277841" lon="24.912174826">
+		<tag k="ssr:gml_id" v="GEOMETRY_e2ef9428-1318-4ea3-878a-0468160687bd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42265" lat="70.2139250042" lon="24.9121720517">
+		<tag k="ssr:gml_id" v="GEOMETRY_b0764de5-2cc4-4ade-84df-81d6cdec4dbd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48397" lat="70.4076805589" lon="25.2332720154">
+		<tag k="ssr:gml_id" v="GEOMETRY_f3206d92-bda5-4747-ac52-7dc4a1debd14" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-48396" lat="70.4077916747" lon="25.2326748064">
+		<tag k="ssr:gml_id" v="GEOMETRY_f45087d3-016a-41b8-9de9-d312e5e18786" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48395" lat="70.4076777825" lon="25.2332720079">
+		<tag k="ssr:gml_id" v="GEOMETRY_c621954d-f464-4316-9ad5-97fc39583f4c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43223" lat="70.0412611186" lon="25.0437720247">
+		<tag k="ssr:gml_id" v="GEOMETRY_c46f73cc-d49d-49fe-a951-6de8894bcf02" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48000" lat="70.3261527854" lon="25.4058886544">
+		<tag k="ssr:gml_id" v="GEOMETRY_668de884-f833-4b58-8b07-75b86f5baa61" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44927" lat="70.3624833396" lon="25.4714914363">
+		<tag k="ssr:gml_id" v="GEOMETRY_0718f419-078e-46dc-bbc4-83164c87d9d7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48371" lat="70.5875944476" lon="25.2394470311">
+		<tag k="ssr:gml_id" v="GEOMETRY_2a3b7b40-8736-4853-bfd0-ef3976e3587c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48370" lat="70.5875916751" lon="25.2394442402">
+		<tag k="ssr:gml_id" v="GEOMETRY_6392c50a-a074-4117-a47a-fb91ae1e2ccf" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42224" lat="70.4134111198" lon="25.1967331378">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Indre Veines" />
+		<tag k="name:no" v="Indre Veines" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="351309" />
+	</node>
+	<node id="-42536" lat="70.3060833366" lon="25.0585470186">
+		<tag k="name" v="Skoger" />
+		<tag k="name:no" v="Skoger" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384552" />
+	</node>
+	<node id="-44259" lat="69.9836166766" lon="24.9494414625">
+		<tag k="name" v="Soldatnes" />
+		<tag k="name:no" v="Soldatnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201680" />
+	</node>
+	<node id="-42209" lat="70.3251083443" lon="25.5851303068">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Myrskog - Kaiskiruto" />
+		<tag k="name:fkv" v="Kaiskiruto" />
+		<tag k="name:no" v="Myrskog" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="335620" />
+	</node>
+	<node id="-48346" lat="70.4818055602" lon="25.0780192649">
+		<tag k="ssr:gml_id" v="GEOMETRY_b9af70fd-0e8f-485d-8df6-46767b548421" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-48345" lat="70.4817000026" lon="25.0689803649">
+		<tag k="ssr:gml_id" v="GEOMETRY_6ecfcb98-c4df-43fd-81bb-01d937f13044" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48344" lat="70.4818444517" lon="25.0780526068">
+		<tag k="ssr:gml_id" v="GEOMETRY_af0318d2-42c1-4dfb-83d8-348b5e9e5f6b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42532" lat="70.3574583375" lon="25.0425220205">
+		<tag k="ssr:gml_id" v="GEOMETRY_6bd2ca34-0cce-49c8-ad66-7cffd39a8df9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46283" lat="70.3558027852" lon="25.0405498015">
+		<tag k="name" v="Strandli" />
+		<tag k="name:no" v="Strandli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577949" />
+	</node>
+	<node id="-46281" lat="70.2999861184" lon="25.0756109117">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Breidablikk" />
+		<tag k="name:no" v="Breidablikk" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577786" />
+	</node>
+	<node id="-46280" lat="70.2996138952" lon="25.0642386922">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Friborg" />
+		<tag k="name:no" v="Friborg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577782" />
+	</node>
+	<node id="-42181" lat="70.5211666778" lon="25.7676497442">
+		<tag k="name" v="Brenna" />
+		<tag k="name:no" v="Brenna" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="333361" />
+	</node>
+	<node id="-48321" lat="70.2709333378" lon="25.0639414674">
+		<tag k="ssr:gml_id" v="GEOMETRY_2f20bf2c-530e-457c-85d8-319f9f7069d8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48320" lat="70.2709305582" lon="25.0639386896">
+		<tag k="ssr:gml_id" v="GEOMETRY_099f9a20-c7d5-4a6d-b70b-094123debc31" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48319" lat="70.2761083353" lon="24.9936720275">
+		<tag k="ssr:gml_id" v="GEOMETRY_53fa0bff-3292-4e3b-ac70-c866b354b0b1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42174" lat="70.6750000049" lon="25.4083331284">
+		<tag k="name" v="Ytre Sortvik" />
+		<tag k="name:no" v="Ytre Sortvik" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="329375" />
+	</node>
+	<node id="-48317" lat="69.8332333423" lon="25.1241386598">
+		<tag k="name" v="Trygstad" />
+		<tag k="name:no" v="Trygstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869636" />
+	</node>
+	<node id="-42169" lat="70.3545861154" lon="25.038322035">
+		<tag k="ssr:gml_id" v="GEOMETRY_b693dfc4-5adf-4172-84f8-08d5e4981eca" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42168" lat="70.3543500049" lon="25.0385081449">
+		<tag k="ssr:gml_id" v="GEOMETRY_e5319639-2514-4fcf-827f-c2505799ff6e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46263" lat="69.9987194484" lon="24.9909136862">
+		<tag k="ssr:gml_id" v="GEOMETRY_3d00ad23-a61f-4553-898a-593b1cb81c99" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46262" lat="69.9987222311" lon="24.9909136876">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8174065-7cc1-42e3-a398-93e4f057e6b4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46241" lat="70.06045001" lon="24.9355470365">
+		<tag k="ssr:gml_id" v="GEOMETRY_0df58df6-7631-462c-b9d1-ab8a9ec464ff" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46240" lat="70.0572888975" lon="24.9403553756">
+		<tag k="ssr:gml_id" v="GEOMETRY_11a7732d-7675-4769-ad42-23d1da1a9ea0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48280" lat="70.6069222293" lon="25.9912830615">
+		<tag k="ssr:gml_id" v="GEOMETRY_468b2845-0849-4b6b-a5df-e06007ed0a96" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-48279" lat="70.6069194528" lon="25.9912830569">
+		<tag k="ssr:gml_id" v="GEOMETRY_93ec32da-ef2e-4eb9-b2bd-9f9ecfa861d3" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-48278" lat="70.6086750047" lon="25.9915441569">
+		<tag k="ssr:gml_id" v="GEOMETRY_7448ac10-498b-4e18-9240-370e0f18ae9c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-48277" lat="70.6086750093" lon="25.9915413936">
+		<tag k="ssr:gml_id" v="GEOMETRY_08a367f8-1d1f-40aa-afff-49bcf65484f8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48276" lat="70.6069222333" lon="25.991285832">
+		<tag k="ssr:gml_id" v="GEOMETRY_da2bf834-d292-4dfa-9895-69e9ed1808fd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48275" lat="70.6130611152" lon="25.9842163941">
+		<tag k="ssr:gml_id" v="GEOMETRY_35d2c393-08bb-417e-ac93-3b27784ec08b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48274" lat="70.6130583431" lon="25.9842136264">
+		<tag k="ssr:gml_id" v="GEOMETRY_62cb032a-eebf-486d-970c-474ae8f35c50" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44177" lat="70.0506861164" lon="25.0675664485">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6c375b0-adb2-4ae3-9a84-029059dc0d57" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46218" lat="70.5349972239" lon="25.1025387065">
+		<tag k="ssr:gml_id" v="GEOMETRY_176323e1-c932-4ae8-908c-351ab49f2211" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-46217" lat="70.5350527875" lon="25.1079609194">
+		<tag k="ssr:gml_id" v="GEOMETRY_104a21a7-2b2e-464b-b506-07ece815dba5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46216" lat="70.5349055619" lon="25.1082998224">
+		<tag k="ssr:gml_id" v="GEOMETRY_360a98b3-5565-45cf-a39f-26fa375b3501" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44159" lat="70.0131611143" lon="24.9632664746">
+		<tag k="ssr:gml_id" v="GEOMETRY_cc5c3e20-a826-4661-bbb5-94560b9ef083" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-44158" lat="70.0131638911" lon="24.9632692514">
+		<tag k="ssr:gml_id" v="GEOMETRY_3a8b7eb7-b724-4786-ba14-c91e29431f7c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44157" lat="70.013161116" lon="24.9632747996">
+		<tag k="ssr:gml_id" v="GEOMETRY_593c95df-d6bd-46e5-a0fa-c238a8e19f99" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47366" lat="70.4972611201" lon="25.1985331348">
+		<tag k="ssr:gml_id" v="GEOMETRY_25961f35-8406-4242-9ce1-1768214b46f3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48318" lat="70.2761111137" lon="24.9936748221">
+		<tag k="ssr:gml_id" v="GEOMETRY_28bf4da6-4edc-4835-aad4-a0661379b123" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42098" lat="70.469783339" lon="25.0841359355">
+		<tag k="ssr:gml_id" v="GEOMETRY_46d90a6e-b125-4ff6-b45e-8e0413715075" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46190" lat="70.3155305646" lon="25.0412748115">
+		<tag k="name" v="Elvenes" />
+		<tag k="name:no" v="Elvenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="566588" />
+	</node>
+	<node id="-46189" lat="70.3198527848" lon="25.1005748132">
+		<tag k="ssr:gml_id" v="GEOMETRY_bb2a31eb-2297-4793-a3d0-53cfd6b542c3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46188" lat="70.320747232" lon="25.0995886883">
+		<tag k="ssr:gml_id" v="GEOMETRY_b8d72f21-bf81-486a-b648-0d426d8f5871" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46187" lat="70.5858722271" lon="25.9297608309">
+		<tag k="name" v="Styrnes" />
+		<tag k="name:no" v="Styrnes" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="566577" />
+	</node>
+	<node id="-44138" lat="70.0477138935" lon="25.0150025893">
+		<tag k="ssr:gml_id" v="GEOMETRY_43de77ff-d796-4701-9b03-858df5548a51" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44137" lat="70.1737500076" lon="24.8663553731">
+		<tag k="ssr:gml_id" v="GEOMETRY_583bfb9c-c6dd-42a8-8fd2-2c759b2d4235" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44136" lat="70.1737500053" lon="24.8663581485">
+		<tag k="ssr:gml_id" v="GEOMETRY_707d154e-5608-4849-bc1a-c9c492b52109" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42083" lat="70.2970250053" lon="25.0673025743">
+		<tag k="name" v="Løvhaug" />
+		<tag k="name:no" v="Løvhaug" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323624" />
+	</node>
+	<node id="-42082" lat="70.2754388932" lon="25.0677748111">
+		<tag k="name" v="Olsborg" />
+		<tag k="name:no" v="Olsborg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323619" />
+	</node>
+	<node id="-44125" lat="70.2138583432" lon="24.9163220397">
+		<tag k="ssr:gml_id" v="GEOMETRY_4efb5718-523a-46f8-b7cb-ac81b3fda525" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44124" lat="70.2139750097" lon="24.9159553686">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6c6b1ff-da92-4299-872d-79bde42fccbf" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46170" lat="70.3249888945" lon="25.0573414665">
+		<tag k="ssr:gml_id" v="GEOMETRY_c099e024-482d-4c3f-a3f7-7056df12bdde" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46169" lat="70.3245666728" lon="25.057319253">
+		<tag k="ssr:gml_id" v="GEOMETRY_271bdb3a-fe12-4f78-87f2-e65b6a863924" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42070" lat="70.3017472295" lon="25.0633970177">
+		<tag k="name" v="Bjørkås" />
+		<tag k="name:no" v="Bjørkås" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323585" />
+	</node>
+	<node id="-42062" lat="70.3293805665" lon="25.067233134">
+		<tag k="name" v="Solborg" />
+		<tag k="name:no" v="Solborg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323549" />
+	</node>
+	<node id="-46152" lat="70.3949416736" lon="25.5597136391">
+		<tag k="ssr:gml_id" v="GEOMETRY_dd464cbd-151b-45aa-a0f7-422e3b752a09" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46151" lat="70.394938893" lon="25.5597108779">
+		<tag k="ssr:gml_id" v="GEOMETRY_8375134a-6e0f-479b-8e72-7e4215339273" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48193" lat="70.059783336" lon="25.120013685">
+		<tag k="ssr:gml_id" v="GEOMETRY_5a79719f-fd8b-4146-a45f-d26730b38f2f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48192" lat="70.0597805595" lon="25.1200109058">
+		<tag k="ssr:gml_id" v="GEOMETRY_4af68cc8-8f76-43df-91ed-4bdc896de3d8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46602" lat="70.3132361162" lon="25.0731248151">
+		<tag k="name" v="Sørli" />
+		<tag k="name:no" v="Sørli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="627609" />
+	</node>
+	<node id="-47967" lat="70.2676861155" lon="25.0736275884">
+		<tag k="ssr:gml_id" v="GEOMETRY_0b249bd7-ec91-4ce0-8d98-8f32a33a677c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48184" lat="70.0400472262" lon="24.9532859182">
+		<tag k="ssr:gml_id" v="GEOMETRY_9472c4fd-06ec-415d-8486-c9fe924cf2e7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48183" lat="70.0400444492" lon="24.9532831388">
+		<tag k="ssr:gml_id" v="GEOMETRY_10826e2b-43fa-4a42-86e2-c731e9d701bc" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45918" lat="70.0338861172" lon="25.1044914465">
+		<tag k="ssr:gml_id" v="GEOMETRY_da0c122a-c11a-4d04-af0f-0a25b877de1f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-42030" lat="70.3205277871" lon="25.5459830971">
+		<tag k="ssr:gml_id" v="GEOMETRY_d84cfe3b-e9d2-4121-9105-4606cb1243f5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42029" lat="70.3205250087" lon="25.5459803233">
+		<tag k="ssr:gml_id" v="GEOMETRY_b045d2fb-51cd-4120-a583-94716967e954" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46124" lat="70.5923111177" lon="25.2669553623">
+		<tag k="ssr:gml_id" v="GEOMETRY_c0b2aa7f-ccda-4ed8-a264-b97536efa0e6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46123" lat="70.5923083347" lon="25.2669525856">
+		<tag k="ssr:gml_id" v="GEOMETRY_06d3af2d-8c09-4cd1-865e-8a548c5c8331" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44073" lat="70.4704638959" lon="25.0762692671">
+		<tag k="name" v="Øvrejord" />
+		<tag k="name:no" v="Øvrejord" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="169695" />
+	</node>
+	<node id="-44059" lat="70.2293694469" lon="24.9406109339">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Vedhuggnes" />
+		<tag k="name:no" v="Vedhuggnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="153867" />
+	</node>
+	<node id="-46102" lat="70.4783888905" lon="25.0682748227">
+		<tag k="ssr:gml_id" v="GEOMETRY_64ba9ed7-cec2-41e7-83e1-3ecf7187ebe2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46101" lat="70.4773527815" lon="25.0661303783">
+		<tag k="ssr:gml_id" v="GEOMETRY_99e9883f-fcb4-48ff-9f01-73ba58dc50e8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48147" lat="70.0804861135" lon="25.0484942525">
+		<tag k="ssr:gml_id" v="GEOMETRY_af45420d-51b8-4853-956e-84f98c221a8f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48146" lat="70.0804111141" lon="25.0486970131">
+		<tag k="ssr:gml_id" v="GEOMETRY_f481452b-040b-45a6-8534-8cc05118c26f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44047" lat="70.2432694501" lon="25.4351997564">
+		<tag k="barrier" v="fence" />
+		<tag k="name" v="Boazoáidi" />
+		<tag k="name:se" v="Boazoáidi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="153290" />
+	</node>
+	<node id="-46091" lat="70.4678500064" lon="25.075202594">
+		<tag k="ssr:gml_id" v="GEOMETRY_f42623c3-3c3b-45eb-90e3-c49af673c0ed" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-46090" lat="70.468211119" lon="25.0763248144">
+		<tag k="ssr:gml_id" v="GEOMETRY_4899d550-6f95-4201-8344-fb6b98176da8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-46089" lat="70.468213892" lon="25.0763275908">
+		<tag k="ssr:gml_id" v="GEOMETRY_3b943082-17fe-40c9-bbc0-f5ce82fed14b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44027" lat="70.4926750073" lon="25.1673636868">
+		<tag k="name" v="Stuorragoahti" />
+		<tag k="name:se" v="Stuorragoahti" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="152873" />
+	</node>
+	<node id="-41974" lat="70.0305888982" lon="24.929380371">
+		<tag k="ssr:gml_id" v="GEOMETRY_ccd86971-889e-49eb-b514-4e7a950fd36b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-41973" lat="70.0305861208" lon="24.9293775962">
+		<tag k="ssr:gml_id" v="GEOMETRY_ae07298a-008f-4517-aa86-78de73fcfa2e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41972" lat="70.0305916756" lon="24.9293831458">
+		<tag k="ssr:gml_id" v="GEOMETRY_4dd8061f-6be7-4284-b92a-d47d7e4d8243" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41969" lat="70.0208833398" lon="24.9330775782">
+		<tag k="ssr:gml_id" v="GEOMETRY_55056332-53fa-456d-bfa0-4ed435e9bfa7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41968" lat="70.0208805624" lon="24.9330748043">
+		<tag k="ssr:gml_id" v="GEOMETRY_78b902ff-1b21-4dd6-8161-556ba5d5d76d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46059" lat="70.2755361162" lon="25.0477248018">
+		<tag k="ssr:gml_id" v="GEOMETRY_2dff2a5d-5f27-488a-b859-56b043d7d065" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44010" lat="70.5260805578" lon="25.0902831432">
+		<tag k="name" v="Smørfjord" />
+		<tag k="name:no" v="Smørfjord" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="152386" />
+	</node>
+	<node id="-41960" lat="70.1049527839" lon="25.0068192539">
+		<tag k="ssr:gml_id" v="GEOMETRY_42956e2a-5ecc-45b2-a88f-822c881a47ed" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-41959" lat="70.1049500056" lon="25.006816483">
+		<tag k="ssr:gml_id" v="GEOMETRY_8b8e3411-6052-4780-a42e-2e881e96f176" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41958" lat="70.1049500037" lon="25.006813685">
+		<tag k="ssr:gml_id" v="GEOMETRY_8ab8750a-a86a-47a3-8711-f5d6192de0f8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47953" lat="70.3185611134" lon="25.0960192482">
+		<tag k="ssr:gml_id" v="GEOMETRY_997cacb5-833c-4f22-8af6-ff15a6530ae0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41808" lat="70.741261117" lon="25.6581247774">
+		<tag k="name" v="Innerbukta" />
+		<tag k="name:no" v="Innerbukta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="291054" />
+	</node>
+	<node id="-46042" lat="70.3067416754" lon="25.0828498164">
+		<tag k="name" v="Hansrud" />
+		<tag k="name:no" v="Hansrud" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565578" />
+	</node>
+	<node id="-46041" lat="70.3098305608" lon="25.0910498021">
+		<tag k="name" v="Breili" />
+		<tag k="name:no" v="Breili" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565577" />
+	</node>
+	<node id="-47268" lat="70.0536277859" lon="24.9879942541">
+		<tag k="ssr:gml_id" v="GEOMETRY_bdc98c81-d43a-47c9-95f6-f7576d34c7da" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47267" lat="70.060605566" lon="24.9263803584">
+		<tag k="ssr:gml_id" v="GEOMETRY_52cf4317-bb93-47ba-9151-f4883fb0bd97" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43977" lat="70.322550002" lon="25.1379359196">
+		<tag k="ssr:gml_id" v="GEOMETRY_b86fd5f9-2181-4310-86a5-b6300b9da89d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43976" lat="70.3225472323" lon="25.1379331311">
+		<tag k="ssr:gml_id" v="GEOMETRY_79d30eac-d9a6-4485-9361-2d93185cc90a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46023" lat="69.9728250065" lon="24.9481720144">
+		<tag k="alt_name:fkv" v="Repokoski" />
+		<tag k="name" v="Revfossnes" />
+		<tag k="name:no" v="Revfossnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565534" />
+	</node>
+	<node id="-46019" lat="69.8326694514" lon="25.0709914638">
+		<tag k="name" v="Veines" />
+		<tag k="name:no" v="Veines" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565523" />
+	</node>
+	<node id="-48063" lat="70.4300666739" lon="25.1811053522">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Bukta" />
+		<tag k="name:no" v="Bukta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="837754" />
+	</node>
+	<node id="-43955" lat="70.5248833411" lon="25.1997581431">
+		<tag k="ssr:gml_id" v="GEOMETRY_900d25e7-a0bc-4e38-8f1f-9ced2a1d1ba1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43954" lat="70.5248805592" lon="25.19975536">
+		<tag k="ssr:gml_id" v="GEOMETRY_7822a778-aa49-4292-8dd9-c4a777ce4320" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48044" lat="70.3204805647" lon="25.5637608654">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Brannengmyr - Palanheenkannonruđonjänkkä" />
+		<tag k="name:fkv" v="Palanheenkannonruđonjänkkä" />
+		<tag k="name:no" v="Brannengmyr" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="821605" />
+	</node>
+	<node id="-48042" lat="70.4932833405" lon="25.1355275755">
+		<tag k="name" v="Luhkka" />
+		<tag k="name:se" v="Luhkka" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="820850" />
+	</node>
+	<node id="-43941" lat="70.2693833411" lon="25.0562886873">
+		<tag k="ssr:gml_id" v="GEOMETRY_82c6bb9d-a8a0-496c-ae31-3656f2fa24f7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43940" lat="70.2721055579" lon="25.0602525942">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8b0c97b-78f8-4755-b76f-d896744866b2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43929" lat="70.314250006" lon="25.125066473">
+		<tag k="name" v="Nygren" />
+		<tag k="name:no" v="Nygren" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141599" />
+	</node>
+	<node id="-43928" lat="70.3145138927" lon="25.0608886837">
+		<tag k="name" v="Solhaug" />
+		<tag k="name:no" v="Solhaug" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141598" />
+	</node>
+	<node id="-43923" lat="70.3223361165" lon="25.1727303541">
+		<tag k="ssr:gml_id" v="GEOMETRY_c0215ffd-3a0e-4d64-9761-952a0b1d94ea" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43922" lat="70.3223361201" lon="25.1727331307">
+		<tag k="ssr:gml_id" v="GEOMETRY_38156c84-7421-4d45-8aac-d71cf353ab28" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41865" lat="70.0578944484" lon="25.1282942341">
+		<tag k="ssr:gml_id" v="GEOMETRY_716e50a0-4652-41cd-a23f-18baca4b1042" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41864" lat="70.0578916722" lon="25.128291454">
+		<tag k="ssr:gml_id" v="GEOMETRY_30bbe53b-efc7-4ca0-91e8-49d571f8b56d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43910" lat="70.3247250102" lon="25.0594886955">
+		<tag k="ssr:gml_id" v="GEOMETRY_155b5674-df06-40b5-953c-ca52c85bce5f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43909" lat="70.3267555605" lon="25.0614970295">
+		<tag k="ssr:gml_id" v="GEOMETRY_a411ca7a-1bcc-404c-a314-e64fa4b118b3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43908" lat="70.3263361185" lon="25.0614998025">
+		<tag k="ssr:gml_id" v="GEOMETRY_819a818f-c310-4fb1-a160-7ca1174d225f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42134" lat="70.5750833367" lon="25.2347386815">
+		<tag k="ssr:gml_id" v="GEOMETRY_e37e69fc-e53f-47c0-9a32-8eb4bf792c14" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43905" lat="70.3249027859" lon="25.5472497513">
+		<tag k="ssr:gml_id" v="GEOMETRY_4c41027e-9ae9-41fb-896f-572dd7272808" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43904" lat="70.3249000075" lon="25.5472469767">
+		<tag k="ssr:gml_id" v="GEOMETRY_6a24f79f-9cf0-4dc5-b445-5141c378f54e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47999" lat="70.3261250082" lon="25.4152136543">
+		<tag k="ssr:gml_id" v="GEOMETRY_e730338c-e352-43fa-a722-2feba0a751d8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42133" lat="70.5750805618" lon="25.234735919">
+		<tag k="ssr:gml_id" v="GEOMETRY_bdb3f91f-9603-4cf1-82eb-eba45a173675" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43470" lat="70.3182555603" lon="25.5791580981">
+		<tag k="ssr:gml_id" v="GEOMETRY_424f72c0-4167-4409-b344-58b31ec9ee05" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44178" lat="70.0507138921" lon="25.0670386938">
+		<tag k="ssr:gml_id" v="GEOMETRY_4075aa55-f589-4716-bbd2-8f61894c0f0b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43879" lat="70.32769723" lon="25.5155942152">
+		<tag k="ssr:gml_id" v="GEOMETRY_c441ea2d-b53c-4fea-ba79-14372802266d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43878" lat="70.3276972283" lon="25.515596992">
+		<tag k="ssr:gml_id" v="GEOMETRY_c8621e04-2778-4cd3-b8ec-375e1bedc728" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43877" lat="70.3276944517" lon="25.5155941957">
+		<tag k="ssr:gml_id" v="GEOMETRY_4119be80-7eb1-4b36-a615-cd27c7adca73" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45923" lat="70.0427555592" lon="25.0390275756">
+		<tag k="ssr:gml_id" v="GEOMETRY_ab0437cb-95a2-4c42-9e6e-aeced510a614" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45922" lat="70.0427527837" lon="25.0390247844">
+		<tag k="ssr:gml_id" v="GEOMETRY_8b2f72c9-6369-4743-a16f-1fbc2b450fc6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47968" lat="70.267688892" lon="25.0736275722">
+		<tag k="ssr:gml_id" v="GEOMETRY_a781441a-de80-41e3-b98f-653a0684ad8d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45919" lat="70.0366444489" lon="25.1086303395">
+		<tag k="ssr:gml_id" v="GEOMETRY_1fc741d4-eaec-43fd-972d-f068e00ba20d" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-47966" lat="70.2676888949" lon="25.073630367">
+		<tag k="ssr:gml_id" v="GEOMETRY_806d7027-e191-45c0-ab80-41354d45d039" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45917" lat="70.0366472256" lon="25.1086331138">
+		<tag k="ssr:gml_id" v="GEOMETRY_14247033-b1ad-4233-8816-edd045dedf42" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45916" lat="70.0366500108" lon="25.108635895">
+		<tag k="ssr:gml_id" v="GEOMETRY_d5c68900-2882-4947-915d-576fb4e85ff1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45911" lat="70.0349861179" lon="24.9163859261">
+		<tag k="ssr:gml_id" v="GEOMETRY_e759e9e5-ad6c-48db-8477-318dde8af844" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45910" lat="70.0349833403" lon="24.9163831524">
+		<tag k="ssr:gml_id" v="GEOMETRY_bfabab21-1966-413e-969a-19e3e7a3c609" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45909" lat="70.0349888955" lon="24.9163886999">
+		<tag k="ssr:gml_id" v="GEOMETRY_897ccd1b-5271-48e4-a209-b5f7429da801" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45908" lat="70.0381305653" lon="24.9774831477">
+		<tag k="ssr:gml_id" v="GEOMETRY_03b05076-a96b-47fe-ba4b-157a90d9bf62" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45907" lat="70.0381361207" lon="24.9774886872">
+		<tag k="ssr:gml_id" v="GEOMETRY_f097a798-4600-4f47-9e98-9f7019b63611" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47954" lat="70.318558343" lon="25.096016466">
+		<tag k="ssr:gml_id" v="GEOMETRY_d965aa64-9bd2-4ff0-9731-3a3dc810411c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45905" lat="70.0340916759" lon="24.9366497981">
+		<tag k="ssr:gml_id" v="GEOMETRY_a203760c-1067-4ccd-ae3f-0575778f7030" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45904" lat="70.0340944478" lon="24.9366498111">
+		<tag k="ssr:gml_id" v="GEOMETRY_81df7345-e573-42e2-ba30-8e5c0c437cf3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47949" lat="70.5815888991" lon="25.9240636253">
+		<tag k="name" v="Styrnes" />
+		<tag k="name:no" v="Styrnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="809603" />
+	</node>
+	<node id="-47925" lat="70.3267055665" lon="25.5578247607">
+		<tag k="ssr:gml_id" v="GEOMETRY_079ae551-4a2d-4553-ba7c-57be93009000" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47924" lat="70.3267027883" lon="25.5578219844">
+		<tag k="ssr:gml_id" v="GEOMETRY_87727d99-e1b3-45f5-9170-2ddc4911646d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44851" lat="70.5001027877" lon="25.0628664741">
+		<tag k="ssr:gml_id" v="GEOMETRY_39bc1584-cf83-40f3-bc32-e493c7a00145" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44850" lat="70.5001000024" lon="25.0628664819">
+		<tag k="ssr:gml_id" v="GEOMETRY_bba39943-065e-472a-9523-75358703f196" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41757" lat="70.0823333381" lon="25.0498220289">
+		<tag k="name" v="Myrdal" />
+		<tag k="name:no" v="Myrdal" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="273009" />
+	</node>
+	<node id="-43797" lat="70.496347231" lon="25.1095137034">
+		<tag k="ssr:gml_id" v="GEOMETRY_20abc55f-4643-4477-97d8-dccbf32966e8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43796" lat="70.4955055598" lon="25.1064942644">
+		<tag k="ssr:gml_id" v="GEOMETRY_463bb67d-7916-4269-8b88-69124a535bb4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43795" lat="70.4955027873" lon="25.1064914798">
+		<tag k="ssr:gml_id" v="GEOMETRY_35242fc3-a9c4-4db0-b24b-2d4908c32d5c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47883" lat="70.5051055646" lon="25.0439248132">
+		<tag k="ssr:gml_id" v="GEOMETRY_d1e3616c-aa87-448d-acd6-6f921f230ba2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47882" lat="70.5051027825" lon="25.0439220287">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b192030-40c8-47a2-8098-e76c216be5ae" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47881" lat="70.5039250039" lon="25.0234414749">
+		<tag k="ssr:gml_id" v="GEOMETRY_eb10231c-2b8a-4399-b18d-1972fd706cd2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47880" lat="70.5039222301" lon="25.0234387003">
+		<tag k="ssr:gml_id" v="GEOMETRY_e68dadeb-07d1-4fac-bfc0-8342d2a3cf25" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47879" lat="70.5071083405" lon="24.9319081541">
+		<tag k="ssr:gml_id" v="GEOMETRY_f095b248-8668-4da5-a169-a31d5423cf9e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47878" lat="70.507105558" lon="24.9319109237">
+		<tag k="ssr:gml_id" v="GEOMETRY_069b48f1-2d11-4c77-a771-5572ab53b52a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47877" lat="70.5074638957" lon="24.9311303873">
+		<tag k="ssr:gml_id" v="GEOMETRY_fb068ef9-43d0-4250-9e1b-9a4771b555d1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45812" lat="70.4090638972" lon="25.2233970132">
+		<tag k="building" v="cabin" />
+		<tag k="name" v="Ytre Veines" />
+		<tag k="name:no" v="Ytre Veines" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="533307" />
+	</node>
+	<node id="-45800" lat="70.2116388918" lon="24.9246137096">
+		<tag k="name" v="Bevkop" />
+		<tag k="name:no" v="Bevkop" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="517871" />
+	</node>
+	<node id="-47845" lat="70.4323500061" lon="25.1844053527">
+		<tag k="name" v="Bakketun" />
+		<tag k="name:no" v="Bakketun" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808724" />
+	</node>
+	<node id="-47844" lat="70.4431055571" lon="25.2054414731">
+		<tag k="ssr:gml_id" v="GEOMETRY_7193d6cd-3b66-45b1-b64b-e7063f00f2e9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47843" lat="70.4431083389" lon="25.2054442446">
+		<tag k="ssr:gml_id" v="GEOMETRY_d9c88654-c8d9-4a8b-91d3-179864eb8bf4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47835" lat="70.2928500052" lon="25.1066886841">
+		<tag k="name" v="Slåtten" />
+		<tag k="name:no" v="Slåtten" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808615" />
+	</node>
+	<node id="-43471" lat="70.3182583382" lon="25.579160876">
+		<tag k="ssr:gml_id" v="GEOMETRY_f21a876b-39a5-4deb-a339-f1ebd316048f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43731" lat="70.2954805667" lon="25.5191247581">
+		<tag k="ssr:gml_id" v="GEOMETRY_b24daaf3-ce7b-42b4-8ced-db9b456f0c54" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43730" lat="70.2954777878" lon="25.5191219918">
+		<tag k="ssr:gml_id" v="GEOMETRY_f36f36f6-7f62-4fa2-a722-6202e0377dad" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43469" lat="70.3163861196" lon="25.5950525462">
+		<tag k="ssr:gml_id" v="GEOMETRY_75908bf5-2e31-46e1-9c38-cb918bbb03d2" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45771" lat="70.0511194549" lon="25.0751331319">
+		<tag k="name" v="Storskogen" />
+		<tag k="name:no" v="Storskogen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="517360" />
+	</node>
+	<node id="-47814" lat="69.7607194573" lon="25.2060858737">
+		<tag k="ssr:gml_id" v="GEOMETRY_8f98fe7a-0bc5-40fe-ae94-363a4afaab2a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47813" lat="69.755558341" lon="25.2164275434">
+		<tag k="ssr:gml_id" v="GEOMETRY_13241292-8dbc-4017-8ad1-b9b7dba25281" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47812" lat="69.7607194541" lon="25.2060886502">
+		<tag k="ssr:gml_id" v="GEOMETRY_18df0b6a-6f43-45fa-aedf-4bce907396e3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47222" lat="70.0123500027" lon="24.9207553654">
+		<tag k="ssr:gml_id" v="GEOMETRY_acbb73d8-5378-4054-aa36-9db305dcb8c0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47809" lat="69.8398055592" lon="25.0782192249">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Skuvvanvárri - Skoganvarre" />
+		<tag k="name:no" v="Skoganvarre" />
+		<tag k="name:se" v="Skuvvanvárri" />
+		<tag k="old_name:no" v="Skoganvarri" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808517" />
+	</node>
+	<node id="-43709" lat="70.0540388982" lon="24.9384664872">
+		<tag k="ssr:gml_id" v="GEOMETRY_a512e9d9-bb01-4688-bbfc-f4fa956a568c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43708" lat="70.054036121" lon="24.9384637077">
+		<tag k="ssr:gml_id" v="GEOMETRY_73825089-10da-434d-93f8-ae637ebbbe2a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42782" lat="70.1754305594" lon="24.9108303683">
+		<tag k="ssr:gml_id" v="GEOMETRY_f93829e3-7f5a-4396-ab08-838e35d7ac62" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-42099" lat="70.469427787" lon="25.0832053748">
+		<tag k="ssr:gml_id" v="GEOMETRY_92ad0a93-1333-4b7c-af58-90d51ede25b4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45741" lat="70.3805027871" lon="25.4951664347">
+		<tag k="ssr:gml_id" v="GEOMETRY_5ce069ba-ce14-4b1e-b21f-b6763e73be11" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45740" lat="70.3811722293" lon="25.4955219878">
+		<tag k="ssr:gml_id" v="GEOMETRY_7cd9b887-aee3-4a17-a070-c4cb26554ad5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45723" lat="70.2945361146" lon="25.1099886951">
+		<tag k="ssr:gml_id" v="GEOMETRY_bcacb325-25f7-46c6-bb85-61d4113a03b3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45722" lat="70.2945388957" lon="25.1099914571">
+		<tag k="ssr:gml_id" v="GEOMETRY_90f8893f-47c5-417e-9bb8-9511fe0ecbbe" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44141" lat="70.0453833413" lon="25.001360903">
+		<tag k="ssr:gml_id" v="GEOMETRY_cb73dec8-e502-4eef-a753-1f1347be236e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45708" lat="70.5762416683" lon="25.2368636889">
+		<tag k="ssr:gml_id" v="GEOMETRY_f0f519ff-43f5-4143-8752-78e817086dc2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45707" lat="70.5770305621" lon="25.2366803716">
+		<tag k="ssr:gml_id" v="GEOMETRY_8e1dbb5a-bf3c-4342-9acb-e4efec7faf83" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45706" lat="70.5892666765" lon="25.2443914701">
+		<tag k="ssr:gml_id" v="GEOMETRY_67a9881e-13b3-4a75-8648-652b1e8d2b38" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45705" lat="70.5895500046" lon="25.243760928">
+		<tag k="ssr:gml_id" v="GEOMETRY_f7631653-e990-4309-a498-0fe4afc6e68b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44140" lat="70.0453888936" lon="25.0013664761">
+		<tag k="ssr:gml_id" v="GEOMETRY_cc9db4f3-727c-4c1f-a123-1501a497d070" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43654" lat="70.2281388947" lon="24.9424692643">
+		<tag k="ssr:gml_id" v="GEOMETRY_78f7f821-2552-4647-9cc1-4f371f2c8404" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-44139" lat="70.0477111176" lon="25.0149998006">
+		<tag k="ssr:gml_id" v="GEOMETRY_15965954-6461-4817-b230-baa0a9a9f176" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43621" lat="70.0921027833" lon="25.0387136748">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f9600fb-f95a-4579-8bf9-b2edf15062ce" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43620" lat="70.0921055588" lon="25.0387164733">
+		<tag k="ssr:gml_id" v="GEOMETRY_52b769e8-24ed-49f7-892d-f81aef501100" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45662" lat="70.4726083354" lon="25.1298803609">
+		<tag k="ssr:gml_id" v="GEOMETRY_e3c36012-d5f3-4d14-ae3f-e844087dfa9b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45661" lat="70.4726111161" lon="25.1298831523">
+		<tag k="ssr:gml_id" v="GEOMETRY_de247055-3fe1-48a8-905f-89493772c925" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47706" lat="70.0085000107" lon="24.9292748032">
+		<tag k="ssr:gml_id" v="GEOMETRY_23b72e25-a754-441a-b1d7-0966e06d860c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47705" lat="70.0085000075" lon="24.9292720181">
+		<tag k="ssr:gml_id" v="GEOMETRY_6b2086ff-9aec-4026-8b0f-15440ff97c62" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43601" lat="70.0585722244" lon="24.9307248065">
+		<tag k="building" v="farm_auxiliary" />
+		<tag k="name" v="Rauttiinaitat" />
+		<tag k="name:fkv" v="Rauttiinaitat" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="100881" />
+	</node>
+	<node id="-45641" lat="70.2993805612" lon="25.0818053742">
+		<tag k="ssr:gml_id" v="GEOMETRY_ca74b1aa-0923-4617-b8f3-e85912895b25" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45640" lat="70.299466671" lon="25.0823303571">
+		<tag k="ssr:gml_id" v="GEOMETRY_b98402aa-4b0d-40e1-9364-7d314be82ee4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45639" lat="70.2994666761" lon="25.0823331306">
+		<tag k="ssr:gml_id" v="GEOMETRY_5ccc4225-8c16-4400-bc36-8dbbe02bfc08" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45636" lat="70.3147833417" lon="25.0490442439">
+		<tag k="ssr:gml_id" v="GEOMETRY_5dc835d4-64d3-4421-9bfe-4f6456ab3357" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45635" lat="70.315263892" lon="25.0461331414">
+		<tag k="ssr:gml_id" v="GEOMETRY_1e884e80-581f-4ad4-8d46-6f6b2e1d4a7d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47678" lat="70.0527250096" lon="24.9961886965">
+		<tag k="ssr:gml_id" v="GEOMETRY_779d3bdb-1039-4f42-acce-356b4e63ca31" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47677" lat="70.0527250075" lon="24.9961859056">
+		<tag k="ssr:gml_id" v="GEOMETRY_5e9f8b52-1320-4dc1-aec6-45f7eed08505" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47676" lat="70.0527250054" lon="24.9961914554">
+		<tag k="ssr:gml_id" v="GEOMETRY_6ea2ed5c-f874-47f6-9f6c-ac788fbe14ce" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47673" lat="70.059455565" lon="24.9258553792">
+		<tag k="ssr:gml_id" v="GEOMETRY_a6efc109-2f87-4de7-acd7-246acd733864" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47672" lat="70.059452779" lon="24.9258525938">
+		<tag k="ssr:gml_id" v="GEOMETRY_eeb70e12-3bef-470d-b102-8b5c4e901f8f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47665" lat="70.0928722298" lon="25.0757608992">
+		<tag k="ssr:gml_id" v="GEOMETRY_dd821279-f659-48fe-bdf5-41ada9b5970d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47664" lat="70.092980565" lon="25.0758553485">
+		<tag k="ssr:gml_id" v="GEOMETRY_0fe8109a-a66b-46dd-bbf6-60387d1b7a6f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43544" lat="70.3749305627" lon="25.0944164669">
+		<tag k="alt_name:no" v="Sommersett" />
+		<tag k="name" v="Sommerset" />
+		<tag k="name:no" v="Sommerset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="85581" />
+	</node>
+	<node id="-43540" lat="70.6555555636" lon="25.3749997885">
+		<tag k="name" v="Indre Sortvik" />
+		<tag k="name:no" v="Indre Sortvik" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="85340" />
+	</node>
+	<node id="-43526" lat="70.5153777874" lon="24.9611859348">
+		<tag k="ssr:gml_id" v="GEOMETRY_debd56d7-4005-4c6a-9b6d-9eb5d698335f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43525" lat="70.5153777877" lon="24.9611887055">
+		<tag k="ssr:gml_id" v="GEOMETRY_e5437931-485a-4c83-a20a-fafabb63f72f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43524" lat="70.5153750042" lon="24.9611859307">
+		<tag k="ssr:gml_id" v="GEOMETRY_01f65c0e-50bd-4e37-8520-3b4b14e6705c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47610" lat="70.4121083401" lon="25.5661053113">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Midtre Leirpollen" />
+		<tag k="name:no" v="Midtre Leirpollen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="776403" />
+	</node>
+	<node id="-43488" lat="70.3596166742" lon="25.0519581497">
+		<tag k="ssr:gml_id" v="GEOMETRY_f17c2cab-d804-41ee-9709-530374da0898" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43487" lat="70.3596138912" lon="25.0519581351">
+		<tag k="ssr:gml_id" v="GEOMETRY_28373e47-79ed-4f46-83f2-3a7e9a7cefa7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43486" lat="70.359616671" lon="25.0519609245">
+		<tag k="ssr:gml_id" v="GEOMETRY_8f6bad88-6cec-47e6-ad55-f82677667d58" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43473" lat="70.3260472263" lon="25.5507580799">
+		<tag k="ssr:gml_id" v="GEOMETRY_e490ff9d-6b76-4769-bd7d-fccf3b1c2505" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43472" lat="70.3260444565" lon="25.5507553118">
+		<tag k="ssr:gml_id" v="GEOMETRY_8f94405d-907f-4326-9a68-cca248e5e8af" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45519" lat="70.0099638912" lon="24.9252581421">
+		<tag k="ssr:gml_id" v="GEOMETRY_0eeb73bc-f165-4731-a99c-221c182d4420" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45518" lat="70.0119444518" lon="24.9236497974">
+		<tag k="ssr:gml_id" v="GEOMETRY_e00673aa-71ee-46b3-84cd-b1f3bd38db65" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45517" lat="70.0099694548" lon="24.9252636914">
+		<tag k="ssr:gml_id" v="GEOMETRY_087f9082-b194-4685-ba4a-c84f690d04ac" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43468" lat="70.3175777886" lon="25.5928414138">
+		<tag k="ssr:gml_id" v="GEOMETRY_8613a2d8-49e4-47db-977b-61d1849096bd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43467" lat="70.317575011" lon="25.5928386342">
+		<tag k="ssr:gml_id" v="GEOMETRY_89eb40ea-b62f-4c01-8546-c70ae2fcdedb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43466" lat="70.3135638981" lon="25.4633497734">
+		<tag k="ssr:gml_id" v="GEOMETRY_497588b4-f416-4dcf-87b7-d0216af42515" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43465" lat="70.3135638972" lon="25.4633525484">
+		<tag k="ssr:gml_id" v="GEOMETRY_a98488aa-624a-48f3-b78d-80030afdd3c0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43464" lat="70.3135611197" lon="25.4633497614">
+		<tag k="ssr:gml_id" v="GEOMETRY_a1c5b5ae-50c3-4338-8393-3e36a969d370" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45131" lat="69.9844166719" lon="24.9598137008">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Soldatslett" />
+		<tag k="name:no" v="Soldatslett" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444700" />
+	</node>
+	<node id="-45130" lat="70.489925004" lon="25.0532025881">
+		<tag k="ssr:gml_id" v="GEOMETRY_7d82c852-670d-4c93-ad5f-9a7f8ef2b412" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45129" lat="70.4899222306" lon="25.0531998116">
+		<tag k="ssr:gml_id" v="GEOMETRY_66145108-69ed-4934-a147-00e9b533f857" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43444" lat="70.4021500058" lon="25.5486108645">
+		<tag k="ssr:gml_id" v="GEOMETRY_535fa7f3-c815-4e47-8eec-00644c3a000c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43443" lat="70.4023388922" lon="25.5583803164">
+		<tag k="ssr:gml_id" v="GEOMETRY_b40c9ccf-d412-4776-b113-9705eda10d14" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45489" lat="70.2131527835" lon="24.9207831532">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce1c1318-5ac2-4a43-91d7-807857b9ab28" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45488" lat="70.2131500038" lon="24.9207803779">
+		<tag k="ssr:gml_id" v="GEOMETRY_8f830915-8635-4545-90a7-a825f67a0ac6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47534" lat="69.9748972259" lon="24.947235923">
+		<tag k="name" v="Klemetstad" />
+		<tag k="name:no" v="Klemetstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869574" />
+	</node>
+	<node id="-45478" lat="70.2083638893" lon="24.9139803815">
+		<tag k="ssr:gml_id" v="GEOMETRY_1566b434-ca7c-4b7e-8a8a-692ff0f42ae1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45477" lat="70.2083222239" lon="24.9139831579">
+		<tag k="ssr:gml_id" v="GEOMETRY_3ed2bda0-98c1-40be-9038-1c2427b67a54" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43416" lat="70.6874472287" lon="25.7786442121">
+		<tag k="ssr:gml_id" v="GEOMETRY_403708da-6980-4a9a-840b-8bd8e508b6fe" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43415" lat="70.6874444514" lon="25.7786331043">
+		<tag k="ssr:gml_id" v="GEOMETRY_ae18f42f-aae4-4bce-b64f-63f3f3c50bce" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43414" lat="70.6874444471" lon="25.7786414281">
+		<tag k="ssr:gml_id" v="GEOMETRY_e97ba8f0-e7ef-4766-9693-a6d9320eae10" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45455" lat="69.9904333362" lon="24.9573136891">
+		<tag k="name" v="Aspelund" />
+		<tag k="name:no" v="Aspelund" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504712" />
+	</node>
+	<node id="-47500" lat="70.4739388955" lon="25.1275081572">
+		<tag k="ssr:gml_id" v="GEOMETRY_be4f5b39-db97-4791-a0e8-4af7adfc83c3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47499" lat="70.47394167" lon="25.1275109157">
+		<tag k="ssr:gml_id" v="GEOMETRY_bb4edc25-0864-4d44-8b0a-02cbf7dddd09" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47498" lat="70.2770305604" lon="25.0319720372">
+		<tag k="ssr:gml_id" v="GEOMETRY_05b42052-c9a5-4621-a72e-eb7cc2a329dc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47497" lat="70.2770277803" lon="25.0319692629">
+		<tag k="ssr:gml_id" v="GEOMETRY_8e17e9ba-e40e-4b24-a710-f6523f827e48" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47496" lat="70.2837611178" lon="25.079394252">
+		<tag k="ssr:gml_id" v="GEOMETRY_e64a498f-ee96-4238-966d-cde13dd1832e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47495" lat="70.2848361198" lon="25.0770470386">
+		<tag k="ssr:gml_id" v="GEOMETRY_cd3a5827-069e-46c4-9e28-8e9b640b1a2b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47494" lat="70.2852194509" lon="25.0772331414">
+		<tag k="ssr:gml_id" v="GEOMETRY_114d00a8-c792-438f-b37e-5aa8134ae9ba" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43375" lat="70.4968888949" lon="25.0950803566">
+		<tag k="ssr:gml_id" v="GEOMETRY_1b25ad82-93d9-4cc0-b779-f5d4405ba032" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43374" lat="70.4968916761" lon="25.0950831469">
+		<tag k="ssr:gml_id" v="GEOMETRY_10eeb53b-cc92-498d-8c5d-71ef4e932a2f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47465" lat="70.3315305576" lon="25.0743470333">
+		<tag k="ssr:gml_id" v="GEOMETRY_257ca2de-cb02-46d5-a012-0ddc3d06d011" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47464" lat="70.3315333393" lon="25.0743497959">
+		<tag k="ssr:gml_id" v="GEOMETRY_cf33996b-1678-4fb2-9035-0104ce827cdc" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47463" lat="70.6495194568" lon="26.0069636087">
+		<tag k="ssr:gml_id" v="GEOMETRY_97a8f2c2-1d71-4f78-9e0d-26f21c422170" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47462" lat="70.6495222284" lon="26.0069663851">
+		<tag k="ssr:gml_id" v="GEOMETRY_57ff0581-0d2e-450e-9cc2-3918df7d9c34" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47461" lat="70.6495166777" lon="26.0069636271">
+		<tag k="ssr:gml_id" v="GEOMETRY_49c0852e-8df4-4df7-85a9-394d529bb783" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45411" lat="70.0027027847" lon="24.9485331352">
+		<tag k="ssr:gml_id" v="GEOMETRY_e742837a-e4c2-46e5-9db6-6d3c9050896b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45410" lat="70.0027055617" lon="24.9485359084">
+		<tag k="ssr:gml_id" v="GEOMETRY_099bfd50-f109-43bc-873e-ee0a299d06f3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45409" lat="70.0027027822" lon="24.9485248143">
+		<tag k="ssr:gml_id" v="GEOMETRY_804cc93e-8522-494d-9deb-d1ebc2f20017" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45402" lat="70.0424166704" lon="24.9501470389">
+		<tag k="ssr:gml_id" v="GEOMETRY_17929c42-74ec-4128-bb02-b6ab51d3596d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45401" lat="70.0424194497" lon="24.950149793">
+		<tag k="ssr:gml_id" v="GEOMETRY_70c86185-ca2d-4042-954e-b5aca2d1631c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45400" lat="70.0424222302" lon="24.9501498148">
+		<tag k="ssr:gml_id" v="GEOMETRY_e2a12e5b-480d-4eb6-9abe-144f518a543c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47437" lat="70.4617305595" lon="25.2267442424">
+		<tag k="ssr:gml_id" v="GEOMETRY_4133da58-a56c-42f6-9418-d3af0ef3272a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47436" lat="70.4617277867" lon="25.2267414722">
+		<tag k="ssr:gml_id" v="GEOMETRY_0778a8f2-1c26-4d16-b853-c36162b83889" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45387" lat="70.0534555635" lon="24.9342164894">
+		<tag k="ssr:gml_id" v="GEOMETRY_bf13a5e8-90e6-41f0-8cb8-04463e29e12b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45386" lat="70.0534611204" lon="24.9342220219">
+		<tag k="ssr:gml_id" v="GEOMETRY_0f260185-8707-4000-8824-c9adc28d7f0e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45385" lat="70.0512027877" lon="25.0682192535">
+		<tag k="ssr:gml_id" v="GEOMETRY_d741c16f-f706-408c-8edd-0a7ef4d1428b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45384" lat="70.0512000041" lon="25.0682164503">
+		<tag k="ssr:gml_id" v="GEOMETRY_46fa7c16-0675-4a7c-8e0d-221a1b87b766" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45383" lat="70.0673500023" lon="24.9255081385">
+		<tag k="ssr:gml_id" v="GEOMETRY_b7048113-2c9e-46ae-b37d-3f04e549f597" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45382" lat="70.0673500055" lon="24.9255109316">
+		<tag k="ssr:gml_id" v="GEOMETRY_bcf1054d-8335-4fb3-b156-b3072ba6730b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45906" lat="70.0340888986" lon="24.9366470218">
+		<tag k="ssr:gml_id" v="GEOMETRY_50a34506-6528-42f7-95d5-a5e6e437b7fa" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45360" lat="70.1785916676" lon="24.8766220456">
+		<tag k="ssr:gml_id" v="GEOMETRY_49549c6a-e115-4ed9-a176-cb6e0adb7b8a" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-45359" lat="70.1775777836" lon="24.8819581387">
+		<tag k="ssr:gml_id" v="GEOMETRY_de551350-2d89-4579-9905-9137da374e08" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45358" lat="70.1785944481" lon="24.8766248099">
+		<tag k="ssr:gml_id" v="GEOMETRY_ac859195-1029-40e6-baef-99dbc09258b4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43309" lat="69.8258444507" lon="25.1474608737">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Øystad" />
+		<tag k="name:no" v="Øystad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="80608" />
+	</node>
+	<node id="-45356" lat="70.1765500087" lon="24.9104970437">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f30c9a5-92d0-4f22-bf2d-fdcbe79c86f5" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45355" lat="70.1764944512" lon="24.9114109369">
+		<tag k="ssr:gml_id" v="GEOMETRY_2312381c-f317-4c57-8dab-3f3c0cfd56e1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45354" lat="70.1764916736" lon="24.9114081428">
+		<tag k="ssr:gml_id" v="GEOMETRY_8a453f8d-5aa4-4348-9325-88880556e7dd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-42365" lat="70.3080083404" lon="25.5362553199">
+		<tag k="ssr:gml_id" v="GEOMETRY_702cdfd3-1b8d-4fe9-8f5b-0150d7d944b6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43655" lat="70.228133336" lon="24.9424637033">
+		<tag k="ssr:gml_id" v="GEOMETRY_6957acfd-e20f-49b8-9897-f43c5f5747d8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45327" lat="70.3141527806" lon="25.0340720182">
+		<tag k="name" v="Løvdal" />
+		<tag k="name:no" v="Løvdal" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="466565" />
+	</node>
+	<node id="-45320" lat="70.3269333368" lon="25.5963442035">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Leirbakken - Kouttankenttä" />
+		<tag k="name:fkv" v="Kouttankenttä" />
+		<tag k="name:no" v="Leirbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="457592" />
+	</node>
+	<node id="-45319" lat="70.3227805579" lon="25.5744053224">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Seljemark - Paivuruto" />
+		<tag k="name:fkv" v="Paivuruto" />
+		<tag k="name:no" v="Seljemark" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="457591" />
+	</node>
+	<node id="-45318" lat="70.3120000038" lon="25.5641941956">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Ulveskog - Hukkaruto" />
+		<tag k="name:fkv" v="Hukkaruto" />
+		<tag k="name:no" v="Ulveskog" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="457589" />
+	</node>
+	<node id="-47365" lat="70.4972583382" lon="25.198530356">
+		<tag k="ssr:gml_id" v="GEOMETRY_41942d61-e7c4-4e95-b68e-eb733a53d45d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45300" lat="70.3880222247" lon="25.118113684">
+		<tag k="name" v="Sommersete" />
+		<tag k="name:no" v="Sommersete" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="456482" />
+	</node>
+	<node id="-45293" lat="70.325194453" lon="25.5855580875">
+		<tag k="name" v="Ylinen Kaiskiruto" />
+		<tag k="name:fkv" v="Ylinen Kaiskiruto" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="456439" />
+	</node>
+	<node id="-42364" lat="70.3073555623" lon="25.5347553034">
+		<tag k="ssr:gml_id" v="GEOMETRY_70891e4c-8712-4772-978e-7645fe141d3e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43225" lat="70.0414583365" lon="25.0478136824">
+		<tag k="ssr:gml_id" v="GEOMETRY_21bee53b-7276-40ba-86f2-a88ddc087943" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-43224" lat="70.0412638964" lon="25.0437747911">
+		<tag k="ssr:gml_id" v="GEOMETRY_0284edda-4b38-4542-af74-7122d56847c9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47319" lat="70.284091678" lon="25.3128525606">
+		<tag k="ssr:gml_id" v="GEOMETRY_032f9841-dc62-43c7-af80-5573d92e5737" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47318" lat="70.2840888979" lon="25.3128497983">
+		<tag k="ssr:gml_id" v="GEOMETRY_b323d011-1650-46a7-80bd-a3205f62f3f5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45254" lat="70.5206944452" lon="25.0748470449">
+		<tag k="ssr:gml_id" v="GEOMETRY_96c6c114-2621-4e90-a1f9-ecda5c4d6856" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45253" lat="70.5208138942" lon="25.0761498202">
+		<tag k="ssr:gml_id" v="GEOMETRY_4359b73a-e3ef-4e3a-b4bb-496997ad04e0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45252" lat="70.5206944524" lon="25.0748498231">
+		<tag k="ssr:gml_id" v="GEOMETRY_cd2ab676-8908-475f-908d-02fe1cc6445f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45084" lat="70.5062111192" lon="25.7318803055">
+		<tag k="ssr:gml_id" v="GEOMETRY_4b257516-b55e-4ae6-91c3-926233c5c336" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45243" lat="70.284233344" lon="25.106538682">
+		<tag k="ssr:gml_id" v="GEOMETRY_5bf1a617-9b09-447f-b23c-18faeb11ad50" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45242" lat="70.2843527809" lon="25.1063025892">
+		<tag k="ssr:gml_id" v="GEOMETRY_02f1cb67-446a-4eff-9da1-459a44aece9f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45238" lat="70.3159027786" lon="25.0796637028">
+		<tag k="ssr:gml_id" v="GEOMETRY_d924c091-aa27-4c4a-906d-8a5ad8539345" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45237" lat="70.315900008" lon="25.0796609231">
+		<tag k="ssr:gml_id" v="GEOMETRY_5d8f3e3d-7fb4-43b8-9d3b-bc920f1d6981" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43038" lat="70.2690861161" lon="25.0764470148">
+		<tag k="ssr:gml_id" v="GEOMETRY_97b60a2a-b2f0-470f-89c6-2a83009fc6f7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-44942" lat="70.3084027819" lon="25.4679108805">
+		<tag k="ssr:gml_id" v="GEOMETRY_ccb2caf0-6d5d-498b-a54a-3624a2740530" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-43037" lat="70.2690833367" lon="25.0764442357">
+		<tag k="ssr:gml_id" v="GEOMETRY_a7cfdfd6-8c5b-4f58-b388-35340f7b286a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47275" lat="70.0844555594" lon="25.2028358934">
+		<tag k="ssr:gml_id" v="GEOMETRY_e197e227-f05a-4135-8b3e-e632abf936e0" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-47274" lat="70.0844583442" lon="25.2028358994">
+		<tag k="ssr:gml_id" v="GEOMETRY_55e09dd4-a065-46af-a69a-3d89359d39f5" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47273" lat="70.0844583367" lon="25.2028386621">
+		<tag k="ssr:gml_id" v="GEOMETRY_cb88948f-0158-4dd7-9622-cf34ddfe0b20" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47272" lat="70.0844611203" lon="25.202841463">
+		<tag k="ssr:gml_id" v="GEOMETRY_f099a64b-eb85-46c5-a407-9a920c78904c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45223" lat="70.5702527869" lon="25.8838664063">
+		<tag k="name" v="Sløkevika" />
+		<tag k="name:no" v="Sløkevika" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445579" />
+	</node>
+	<node id="-47269" lat="70.053625005" lon="24.9879887023">
+		<tag k="ssr:gml_id" v="GEOMETRY_98feeb94-1a08-4e59-abda-9e36a34f958d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45220" lat="70.3706333366" lon="25.0905859213">
+		<tag k="ssr:gml_id" v="GEOMETRY_9eef6ac1-bcf8-4a56-adb5-4ae6a4708800" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45219" lat="70.3706305662" lon="25.0905831319">
+		<tag k="ssr:gml_id" v="GEOMETRY_930a774d-e6cb-476e-a321-ae3c0d9719c8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47266" lat="70.0606138983" lon="24.9263942471">
+		<tag k="ssr:gml_id" v="GEOMETRY_6b3bc405-442c-4091-8390-82efff99fad3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47265" lat="70.0606111208" lon="24.9263859161">
+		<tag k="ssr:gml_id" v="GEOMETRY_18e6566d-fd38-459e-8b08-b2e9c10002f3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45202" lat="70.3177500045" lon="25.5656719665">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce0ae5a6-18cd-432e-82be-6d29317f0226" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45201" lat="70.3177583388" lon="25.5660858802">
+		<tag k="ssr:gml_id" v="GEOMETRY_1e024a55-e0f5-4870-bde2-a61c945491b3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45200" lat="70.317761118" lon="25.5660969895">
+		<tag k="ssr:gml_id" v="GEOMETRY_ff804ab2-4c58-46c1-8077-d5f5bef3529f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45199" lat="70.3110583383" lon="25.5736414274">
+		<tag k="name" v="Skierrečohkka - Risbakken" />
+		<tag k="name:no" v="Risbakken" />
+		<tag k="name:se" v="Skierrečohkka" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445470" />
+	</node>
+	<node id="-43143" lat="70.4123416727" lon="25.1982942533">
+		<tag k="name" v="Čnomielli" />
+		<tag k="name:se" v="Čnomielli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="55223" />
+	</node>
+	<node id="-43142" lat="70.4613277843" lon="25.224755362">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Skogro" />
+		<tag k="name:no" v="Skogro" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="48731" />
+	</node>
+	<node id="-43132" lat="70.3218277854" lon="25.5866608568">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Nedre Myrskog - Alainen Kaiskiruto" />
+		<tag k="name:fkv" v="Alainen Kaiskiruto" />
+		<tag k="name:no" v="Nedre Myrskog" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="32583" />
+	</node>
+	<node id="-45175" lat="70.6638916708" lon="25.8036747515">
+		<tag k="ssr:gml_id" v="GEOMETRY_e58a9d3b-581d-4dfa-869f-793498b7bb97" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45174" lat="70.6653805578" lon="25.8072108732">
+		<tag k="ssr:gml_id" v="GEOMETRY_fbeb8b6d-2664-4779-9f54-50098d6c0a89" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47221" lat="70.012350006" lon="24.920758151">
+		<tag k="ssr:gml_id" v="GEOMETRY_a3618fc6-cd80-474e-90ce-cd5bb91d96b8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47214" lat="70.0496500068" lon="25.0341664649">
+		<tag k="ssr:gml_id" v="GEOMETRY_37d9a551-ec2b-4d36-8020-728088db3fbc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47213" lat="70.0496500053" lon="25.0341636744">
+		<tag k="ssr:gml_id" v="GEOMETRY_ea1fb42b-e082-4793-b2c7-e2b36689caef" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-47212" lat="70.0339694515" lon="24.9951497966">
+		<tag k="ssr:gml_id" v="GEOMETRY_a89479cd-b96e-45da-a63d-5515d196c45a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47211" lat="70.0339722278" lon="24.9951525807">
+		<tag k="ssr:gml_id" v="GEOMETRY_28ef60b5-94e2-4bf1-8d19-6fd3243b2f5d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47210" lat="70.033969447" lon="24.9951470334">
+		<tag k="ssr:gml_id" v="GEOMETRY_5ebab648-dd99-4ab5-a520-3eaf2dfd950a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-46436" lat="70.2091722239" lon="24.9162303727">
+		<tag k="ssr:gml_id" v="GEOMETRY_0853349b-9caf-4278-b0ca-1cd4c4bcbf1c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47186" lat="69.9711055657" lon="24.9593081314">
+		<tag k="name" v="Revfossnes" />
+		<tag k="name:no" v="Revfossnes" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="713225" />
+	</node>
+	<node id="-47179" lat="70.3003472248" lon="25.1672636901">
+		<tag k="ssr:gml_id" v="GEOMETRY_a6862ab4-b9c4-47d0-8442-9f460fc05e1e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-47178" lat="70.3003444483" lon="25.1672636931">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa2a5151-19bd-4686-9b48-9d183aed3664" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-47177" lat="70.3003500098" lon="25.167263694">
+		<tag k="ssr:gml_id" v="GEOMETRY_3e1c33b8-bf47-4072-b5ff-4178a5c79efb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45122" lat="70.2876083426" lon="25.0884636938">
+		<tag k="name" v="Solstad" />
+		<tag k="name:no" v="Solstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444603" />
+	</node>
+	<node id="-47157" lat="70.3300194514" lon="25.6123052999">
+		<tag k="name" v="Aaponsammunlaatas" />
+		<tag k="name:fkv" v="Aaponsammunlaatas" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="699435" />
+	</node>
+	<node id="-42556" lat="70.5145555644" lon="24.9632109407">
+		<tag k="ssr:gml_id" v="GEOMETRY_ffd0b8ff-4f55-4795-a755-07292ae7ab39" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-45173" lat="70.6662583375" lon="25.7942747503">
+		<tag k="ssr:gml_id" v="GEOMETRY_8b88ebf3-415a-45da-9a44-ceeb32b4a2c2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-45087" lat="70.5062111164" lon="25.7318747475">
+		<tag k="ssr:gml_id" v="GEOMETRY_91d1e923-a156-4e98-a51e-5fccbbcf0772" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-45086" lat="70.5062083362" lon="25.7318803051">
+		<tag k="ssr:gml_id" v="GEOMETRY_8cd43c78-5892-460c-b77b-a8b31255b594" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-45085" lat="70.5062111221" lon="25.7318775302">
+		<tag k="ssr:gml_id" v="GEOMETRY_f2440929-605e-45de-a83c-48654c6a158b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-43036" lat="70.2744750028" lon="25.0608692365">
+		<tag k="name" v="Veiland" />
+		<tag k="name:no" v="Veiland" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20639" />
+	</node>
+	<node id="-45083" lat="69.9035472306" lon="24.9993636874">
+		<tag k="fixme" v="consider place=suburb, village or hamlet" />
+		<tag k="name" v="Porsangmoen" />
+		<tag k="name:no" v="Porsangmoen" />
+		<tag k="old_name:no" v="Porsangermoen" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444490" />
+	</node>
+	<node id="-42555" lat="70.5145527809" lon="24.9632081657">
+		<tag k="ssr:gml_id" v="GEOMETRY_4d8927ad-fc90-4bcd-a0a4-eb6f3ef579f5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-43029" lat="70.3167888987" lon="25.0967859173">
+		<tag k="name" v="Østli" />
+		<tag k="name:no" v="Østli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20625" />
+	</node>
+	<node id="-47120" lat="70.515850004" lon="25.7521747442">
+		<tag k="building" v="cabin" />
+		<tag k="name" v="Saltán" />
+		<tag k="name:se" v="Saltán" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="697346" />
+	</node>
+	<node id="-43021" lat="70.3246000058" lon="25.1489998138">
+		<tag k="name" v="Vindjord" />
+		<tag k="name:no" v="Vindjord" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20613" />
+	</node>
+	<node id="-43010" lat="70.3222305631" lon="25.1729581287">
+		<tag k="name" v="Cuoppogieddi - Indre Sandvik" />
+		<tag k="name:no" v="Indre Sandvik" />
+		<tag k="name:se" v="Cuoppogieddi" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20593" />
+	</node>
+	<node id="-47105" lat="70.543386115" lon="25.146460915">
+		<tag k="ssr:gml_id" v="GEOMETRY_3e6890a7-a085-48b9-974b-acc9191b1c5a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<way id="-9216">
+		<tag k="name" v="Sommerdalen" />
+		<tag k="name:no" v="Sommerdalen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141503" />
+		<nd ref="-43877" />
+		<nd ref="-43878" />
+		<nd ref="-43879" />
+	</way>
+	<way id="-9723">
+		<tag k="name" v="Gjøkenes - Köykiniemi" />
+		<tag k="name:fkv" v="Köykiniemi" />
+		<tag k="name:no" v="Gjøkenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505281" />
+		<nd ref="-45517" />
+		<nd ref="-45518" />
+		<nd ref="-45519" />
+	</way>
+	<way id="-10231">
+		<tag k="name" v="Časkilbekk" />
+		<tag k="name:no" v="Časkilbekk" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747202" />
+		<nd ref="-47272" />
+		<nd ref="-47273" />
+		<nd ref="-47274" />
+		<nd ref="-47275" />
+	</way>
+	<way id="-8694">
+		<tag k="name" v="Høybakken - Korkealuokka" />
+		<tag k="name:fkv" v="Korkealuokka" />
+		<tag k="name:no" v="Høybakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323468" />
+		<nd ref="-42029" />
+		<nd ref="-42030" />
+	</way>
+	<way id="-10229">
+		<tag k="name" v="Bergskog" />
+		<tag k="name:no" v="Bergskog" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747189" />
+		<nd ref="-47268" />
+		<nd ref="-47269" />
+	</way>
+	<way id="-10228">
+		<tag k="name" v="Sarppula" />
+		<tag k="name:fkv" v="Sarppula" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747185" />
+		<nd ref="-47265" />
+		<nd ref="-47266" />
+		<nd ref="-47267" />
+	</way>
+	<way id="-9713">
+		<tag k="name" v="Skogmyr" />
+		<tag k="name:no" v="Skogmyr" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505092" />
+		<nd ref="-45488" />
+		<nd ref="-45489" />
+	</way>
+	<way id="-9709">
+		<tag k="name" v="Beavgohppi - Bevkop" />
+		<tag k="name:no" v="Bevkop" />
+		<tag k="name:se" v="Beavgohppi" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505072" />
+		<nd ref="-45477" />
+		<nd ref="-45478" />
+	</way>
+	<way id="-9189">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Dálvesadji - Gamnes" />
+		<tag k="name:no" v="Gamnes" />
+		<tag k="name:se" v="Dálvesadji" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="140675" />
+		<nd ref="-43795" />
+		<nd ref="-43796" />
+		<nd ref="-43797" />
+	</way>
+	<way id="-10211">
+		<tag k="name" v="Sandslett" />
+		<tag k="name:no" v="Sandslett" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747261" />
+		<nd ref="-47221" />
+		<nd ref="-47222" />
+	</way>
+	<way id="-8673">
+		<tag k="name" v="Lunden" />
+		<tag k="name:no" v="Lunden" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323257" />
+		<nd ref="-41968" />
+		<nd ref="-41969" />
+	</way>
+	<way id="-10208">
+		<tag k="name" v="Bergeng" />
+		<tag k="name:no" v="Bergeng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747241" />
+		<nd ref="-47213" />
+		<nd ref="-47214" />
+	</way>
+	<way id="-10207">
+		<tag k="name" v="Bjørkås" />
+		<tag k="name:no" v="Bjørkås" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747226" />
+		<nd ref="-47210" />
+		<nd ref="-47211" />
+		<nd ref="-47212" />
+	</way>
+	<way id="-8670">
+		<tag k="name" v="Steinnes" />
+		<tag k="name:no" v="Steinnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323186" />
+		<nd ref="-41958" />
+		<nd ref="-41959" />
+		<nd ref="-41960" />
+	</way>
+	<way id="-10200">
+		<tag k="name" v="Činavuohppi - Trollholmsund" />
+		<tag k="name:no" v="Trollholmsund" />
+		<tag k="name:se" v="Činavuohppi" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="699747" />
+		<nd ref="-47177" />
+		<nd ref="-47178" />
+		<nd ref="-47179" />
+	</way>
+	<way id="-10711">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Melbakken" />
+		<tag k="name:no" v="Melbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="930769" />
+		<nd ref="-48798" />
+		<nd ref="-48799" />
+	</way>
+	<way id="-10197">
+		<tag k="name" v="Uhcagiettáš - Innerjorda" />
+		<tag k="name:no" v="Innerjorda" />
+		<tag k="name:se" v="Uhcagiettáš" />
+		<tag k="old_name:se" v="Uccagieddaš" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="688940" />
+		<nd ref="-47104" />
+		<nd ref="-47105" />
+	</way>
+	<way id="-9684">
+		<tag k="name" v="Hesjenes" />
+		<tag k="name:no" v="Hesjenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504205" />
+		<nd ref="-45400" />
+		<nd ref="-45401" />
+		<nd ref="-45402" />
+	</way>
+	<way id="-10193">
+		<tag k="name" v="Solberg" />
+		<tag k="name:no" v="Solberg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="688929" />
+		<nd ref="-47092" />
+		<nd ref="-47093" />
+		<nd ref="-47094" />
+	</way>
+	<way id="-10192">
+		<tag k="name" v="Veahkir - Vækker - Väkkärä" />
+		<tag k="name:fkv" v="Väkkärä" />
+		<tag k="name:no" v="Vækker" />
+		<tag k="name:se" v="Veahkir" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="688923" />
+		<nd ref="-47090" />
+		<nd ref="-47091" />
+	</way>
+	<way id="-9678">
+		<tag k="name" v="Grønnmo" />
+		<tag k="name:no" v="Grønnmo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504180" />
+		<nd ref="-45386" />
+		<nd ref="-45387" />
+	</way>
+	<way id="-9677">
+		<tag k="name" v="Slettvoll" />
+		<tag k="name:no" v="Slettvoll" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504173" />
+		<nd ref="-45384" />
+		<nd ref="-45385" />
+	</way>
+	<way id="-9676">
+		<tag k="name" v="Johannesøy" />
+		<tag k="name:no" v="Johannesøy" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504167" />
+		<nd ref="-45382" />
+		<nd ref="-45383" />
+	</way>
+	<way id="-9163">
+		<tag k="name" v="Veahkir - Vækker - Väkkärä" />
+		<tag k="name:fkv" v="Väkkärä" />
+		<tag k="name:no" v="Vækker" />
+		<tag k="name:se" v="Veahkir" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="140454" />
+		<nd ref="-43730" />
+		<nd ref="-43731" />
+	</way>
+	<way id="-9670">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Solbakken" />
+		<tag k="name:no" v="Solbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504082" />
+		<nd ref="-45357" />
+		<nd ref="-45358" />
+		<nd ref="-45359" />
+		<nd ref="-45360" />
+	</way>
+	<way id="-9669">
+		<tag k="name" v="Austmo" />
+		<tag k="name:no" v="Austmo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504080" />
+		<nd ref="-45354" />
+		<nd ref="-45355" />
+		<nd ref="-45356" />
+	</way>
+	<way id="-9454">
+		<tag k="name" v="Giksenjárga - Børselvnes - Kiksiniemi" />
+		<tag k="name:fkv" v="Kiksiniemi" />
+		<tag k="name:no" v="Børselvnes" />
+		<tag k="name:se" v="Giksenjárga" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262514" />
+		<nd ref="-44705" />
+		<nd ref="-44706" />
+	</way>
+	<way id="-9154">
+		<tag k="name" v="Sandmo" />
+		<tag k="name:no" v="Sandmo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="140193" />
+		<nd ref="-43708" />
+		<nd ref="-43709" />
+	</way>
+	<way id="-10685">
+		<tag k="name" v="Solbrått" />
+		<tag k="name:no" v="Solbrått" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="930514" />
+		<nd ref="-48716" />
+		<nd ref="-48717" />
+	</way>
+	<way id="-8635">
+		<tag k="name" v="Lauvstrand" />
+		<tag k="name:no" v="Lauvstrand" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="322217" />
+		<nd ref="-41864" />
+		<nd ref="-41865" />
+	</way>
+	<way id="-9657">
+		<tag k="name" v="Solbakken" />
+		<tag k="name:no" v="Solbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445925" />
+		<nd ref="-45252" />
+		<nd ref="-45253" />
+		<nd ref="-45254" />
+	</way>
+	<way id="-10678">
+		<tag k="name" v="Børselv - Etelänpuoli" />
+		<tag k="name:fkv" v="Etelänpuoli" />
+		<tag k="name:no" v="Børselv" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="930468" />
+		<nd ref="-48699" />
+		<nd ref="-48700" />
+	</way>
+	<way id="-9653">
+		<tag k="name" v="Stuorragieddi" />
+		<tag k="name:se" v="Stuorragieddi" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445621" />
+		<nd ref="-45242" />
+		<nd ref="-45243" />
+	</way>
+	<way id="-10675">
+		<tag k="name" v="Goarahat - Gåradak - Kuoratakka" />
+		<tag k="name:fkv" v="Kuoratakka" />
+		<tag k="name:no" v="Gåradak" />
+		<tag k="name:se" v="Goarahat" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="930441" />
+		<nd ref="-48692" />
+		<nd ref="-48693" />
+	</way>
+	<way id="-10160">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Leaibevuotna - Olderfjord - Leipovuono" />
+		<tag k="name:fkv" v="Leipovuono" />
+		<tag k="name:no" v="Olderfjord" />
+		<tag k="name:se" v="Leaibevuotna" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="687756" />
+		<nd ref="-46990" />
+		<nd ref="-46991" />
+	</way>
+	<way id="-10312">
+		<tag k="name" v="Vesterli" />
+		<tag k="name:no" v="Vesterli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="748621" />
+		<nd ref="-47497" />
+		<nd ref="-47498" />
+	</way>
+	<way id="-9645">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Sálletjohka" />
+		<tag k="name:se" v="Sálletjohka" />
+		<tag k="old_name:se" v="Salletjåkka" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445567" />
+		<nd ref="-45219" />
+		<nd ref="-45220" />
+	</way>
+	<way id="-10154">
+		<tag k="name" v="Vonheim" />
+		<tag k="name:no" v="Vonheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="687625" />
+		<nd ref="-46975" />
+		<nd ref="-46976" />
+	</way>
+	<way id="-9638">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Bissojohka - Børselv - Pyssyjoki" />
+		<tag k="name:fkv" v="Pyssyjoki" />
+		<tag k="name:no" v="Børselv" />
+		<tag k="name:se" v="Bissojohka" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445472" />
+		<nd ref="-45200" />
+		<nd ref="-45201" />
+		<nd ref="-45202" />
+	</way>
+	<way id="-10661">
+		<tag k="name" v="Stangnes - Patoniemi" />
+		<tag k="name:fkv" v="Patoniemi" />
+		<tag k="name:no" v="Stangnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="930273" />
+		<nd ref="-48650" />
+		<nd ref="-48651" />
+	</way>
+	<way id="-9123">
+		<tag k="name" v="Asphaug" />
+		<tag k="name:no" v="Asphaug" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="140144" />
+		<nd ref="-43620" />
+		<nd ref="-43621" />
+	</way>
+	<way id="-9627">
+		<tag k="building" v="cabin" />
+		<tag k="name" v="Klokkevika" />
+		<tag k="name:no" v="Klokkevika" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444999" />
+		<nd ref="-45173" />
+		<nd ref="-45174" />
+		<nd ref="-45175" />
+	</way>
+	<way id="-9114">
+		<tag k="name" v="Fjellheim" />
+		<tag k="name:no" v="Fjellheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81927" />
+		<nd ref="-43524" />
+		<nd ref="-43525" />
+		<nd ref="-43526" />
+	</way>
+	<way id="-9966">
+		<tag k="name" v="Bakkenes" />
+		<tag k="name:no" v="Bakkenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="625519" />
+		<nd ref="-46370" />
+		<nd ref="-46371" />
+	</way>
+	<way id="-9539">
+		<tag k="name" v="Heastanjárga - Hestnes - Hesteniemi" />
+		<tag k="name:fkv" v="Hesteniemi" />
+		<tag k="name:no" v="Hestnes" />
+		<tag k="name:se" v="Heastanjárga" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="264906" />
+		<nd ref="-44939" />
+		<nd ref="-44940" />
+		<nd ref="-44941" />
+		<nd ref="-44942" />
+	</way>
+	<way id="-10124">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Innerbukta" />
+		<tag k="name:no" v="Innerbukta" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="687406" />
+		<nd ref="-46898" />
+		<nd ref="-46899" />
+	</way>
+	<way id="-9099">
+		<tag k="name" v="Solrud" />
+		<tag k="name:no" v="Solrud" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81568" />
+		<nd ref="-43486" />
+		<nd ref="-43487" />
+		<nd ref="-43488" />
+	</way>
+	<way id="-9608">
+		<tag k="name" v="Øverland" />
+		<tag k="name:no" v="Øverland" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444680" />
+		<nd ref="-45129" />
+		<nd ref="-45130" />
+	</way>
+	<way id="-9093">
+		<tag k="name" v="Sommerset - Väliruto" />
+		<tag k="name:fkv" v="Väliruto" />
+		<tag k="name:no" v="Sommerset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81511" />
+		<nd ref="-43472" />
+		<nd ref="-43473" />
+	</way>
+	<way id="-9092">
+		<tag k="name" v="Leirvollen" />
+		<tag k="name:no" v="Leirvollen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81483" />
+		<nd ref="-43470" />
+		<nd ref="-43471" />
+	</way>
+	<way id="-10627">
+		<tag k="name" v="Asphaug" />
+		<tag k="name:no" v="Asphaug" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="929218" />
+		<nd ref="-48553" />
+		<nd ref="-48554" />
+	</way>
+	<way id="-10626">
+		<tag k="name" v="Myrvoll" />
+		<tag k="name:no" v="Myrvoll" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="929216" />
+		<nd ref="-48551" />
+		<nd ref="-48552" />
+	</way>
+	<way id="-8776">
+		<tag k="name" v="Myrbukt - Jänkänmukka" />
+		<tag k="name:fkv" v="Jänkänmukka" />
+		<tag k="name:no" v="Myrbukt" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383262" />
+		<nd ref="-42320" />
+		<nd ref="-42321" />
+		<nd ref="-42322" />
+		<nd ref="-42323" />
+		<nd ref="-42324" />
+	</way>
+	<way id="-9081">
+		<tag k="name" v="Movronnjárga - Mårnes - Mouruniemi" />
+		<tag k="name:fkv" v="Mouruniemi" />
+		<tag k="name:no" v="Mårnes" />
+		<tag k="name:se" v="Movronnjárga" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81406" />
+		<nd ref="-43443" />
+		<nd ref="-43444" />
+	</way>
+	<way id="-9590">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Breannjá - Brenna - Prännä" />
+		<tag k="name:fkv" v="Prännä" />
+		<tag k="name:no" v="Brenna" />
+		<tag k="name:se" v="Breannjá" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444492" />
+		<nd ref="-45084" />
+		<nd ref="-45085" />
+		<nd ref="-45086" />
+		<nd ref="-45087" />
+	</way>
+	<way id="-9070">
+		<tag k="name" v="Biđđánluokta - Peiby" />
+		<tag k="name:no" v="Peiby" />
+		<tag k="name:se" v="Biđđánluokta" />
+		<tag k="old_name:se" v="Biđđanluokta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="80989" />
+		<nd ref="-43414" />
+		<nd ref="-43415" />
+		<nd ref="-43416" />
+	</way>
+	<way id="-8765">
+		<tag k="name" v="Nordgård" />
+		<tag k="name:no" v="Nordgård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383172" />
+		<nd ref="-42291" />
+		<nd ref="-42292" />
+		<nd ref="-42293" />
+	</way>
+	<way id="-9057">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Risskjåen" />
+		<tag k="name:no" v="Risskjåen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="80691" />
+		<nd ref="-43374" />
+		<nd ref="-43375" />
+	</way>
+	<way id="-9568">
+		<tag k="name" v="Langmyr" />
+		<tag k="name:no" v="Langmyr" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444178" />
+		<nd ref="-45024" />
+		<nd ref="-45025" />
+	</way>
+	<way id="-9567">
+		<tag k="name" v="Brennelv - Palo" />
+		<tag k="name:fkv" v="Palo" />
+		<tag k="name:no" v="Brennelv" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444172" />
+		<nd ref="-45022" />
+		<nd ref="-45023" />
+	</way>
+	<way id="-9566">
+		<tag k="name" v="Nedre Smørstad" />
+		<tag k="name:no" v="Nedre Smørstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444169" />
+		<nd ref="-45020" />
+		<nd ref="-45021" />
+	</way>
+	<way id="-10584">
+		<tag k="name" v="Rinjárgohppi - Veinesjorda" />
+		<tag k="name:no" v="Veinesjorda" />
+		<tag k="name:se" v="Rinjárgohppi" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="870406" />
+		<nd ref="-48395" />
+		<nd ref="-48396" />
+		<nd ref="-48397" />
+	</way>
+	<way id="-9557">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Čohkavuolli" />
+		<tag k="name:se" v="Čohkavuolli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444112" />
+		<nd ref="-44996" />
+		<nd ref="-44997" />
+	</way>
+	<way id="-8675">
+		<tag k="name" v="Lakevann - Mađetjärvi" />
+		<tag k="name:fkv" v="Mađetjärvi" />
+		<tag k="name:no" v="Lakevann" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323264" />
+		<nd ref="-41972" />
+		<nd ref="-41973" />
+		<nd ref="-41974" />
+	</way>
+	<way id="-10574">
+		<tag k="name" v="Nordset" />
+		<tag k="name:no" v="Nordset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869977" />
+		<nd ref="-48370" />
+		<nd ref="-48371" />
+	</way>
+	<way id="-10061">
+		<tag k="name" v="Sarvvesvuotna - Kolvik - Sarvisvuono" />
+		<tag k="name:fkv" v="Sarvisvuono" />
+		<tag k="name:no" v="Kolvik" />
+		<tag k="name:se" v="Sarvvesvuotna" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="627961" />
+		<nd ref="-46632" />
+		<nd ref="-46633" />
+	</way>
+	<way id="-10059">
+		<tag k="name" v="Litleng" />
+		<tag k="name:no" v="Litleng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="627932" />
+		<nd ref="-46628" />
+		<nd ref="-46629" />
+	</way>
+	<way id="-9541">
+		<tag k="name" v="Vestervoll" />
+		<tag k="name:no" v="Vestervoll" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="444227" />
+		<nd ref="-44949" />
+		<nd ref="-44950" />
+	</way>
+	<way id="-10564">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Nesbakken" />
+		<tag k="name:no" v="Nesbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869773" />
+		<nd ref="-48344" />
+		<nd ref="-48345" />
+		<nd ref="-48346" />
+	</way>
+	<way id="-10038">
+		<tag k="name" v="Guhkesrohtu - Langskog" />
+		<tag k="name:no" v="Langskog" />
+		<tag k="name:se" v="Guhkesrohtu" />
+		<tag k="old_name:se" v="Gukkesråtto" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="626984" />
+		<nd ref="-46568" />
+		<nd ref="-46569" />
+	</way>
+	<way id="-10049">
+		<tag k="name" v="Olderelva" />
+		<tag k="name:no" v="Olderelva" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="627425" />
+		<nd ref="-46594" />
+		<nd ref="-46595" />
+		<nd ref="-46596" />
+	</way>
+	<way id="-9534">
+		<tag k="name" v="Čuolovuotna - Holmfjord - Suoluvuono" />
+		<tag k="name:fkv" v="Suoluvuono" />
+		<tag k="name:no" v="Holmfjord" />
+		<tag k="name:se" v="Čuolovuotna" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="263936" />
+		<nd ref="-44926" />
+		<nd ref="-44927" />
+	</way>
+	<way id="-10556">
+		<tag k="name" v="Sørdal" />
+		<tag k="name:no" v="Sørdal" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869649" />
+		<nd ref="-48320" />
+		<nd ref="-48321" />
+	</way>
+	<way id="-10555">
+		<tag k="name" v="Bajábealjávri - Oppgård" />
+		<tag k="name:no" v="Oppgård" />
+		<tag k="name:se" v="Bajábealjávri" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869637" />
+		<nd ref="-48318" />
+		<nd ref="-48319" />
+	</way>
+	<way id="-9530">
+		<tag k="name" v="Myrbakken" />
+		<tag k="name:no" v="Myrbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="263609" />
+		<nd ref="-44914" />
+		<nd ref="-44915" />
+	</way>
+	<way id="-9014">
+		<tag k="name" v="Øvergård" />
+		<tag k="name:no" v="Øvergård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="80248" />
+		<nd ref="-43223" />
+		<nd ref="-43224" />
+		<nd ref="-43225" />
+	</way>
+	<way id="-10546">
+		<tag k="alt_name" v="Kjæs" />
+		<tag k="alt_name:fkv" v="Keisi" />
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Dážagieddi" />
+		<tag k="name:se" v="Dážagieddi" />
+		<tag k="old_name:se" v="Dažagieddi" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2018-02-08" />
+		<tag k="ssr:stedsnr" v="869592" />
+		<nd ref="-48276" />
+		<nd ref="-48277" />
+		<nd ref="-48278" />
+		<nd ref="-48279" />
+		<nd ref="-48280" />
+	</way>
+	<way id="-10545">
+		<tag k="name" v="Báŋka" />
+		<tag k="name:se" v="Báŋka" />
+		<tag k="old_name:se" v="Baŋka" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869590" />
+		<nd ref="-48274" />
+		<nd ref="-48275" />
+	</way>
+	<way id="-9520">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Sommarset" />
+		<tag k="name:no" v="Sommarset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="263554" />
+		<nd ref="-44881" />
+		<nd ref="-44882" />
+		<nd ref="-44883" />
+	</way>
+	<way id="-9517">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Kroken - Skoppi" />
+		<tag k="name:fkv" v="Skoppi" />
+		<tag k="name:no" v="Kroken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="263423" />
+		<nd ref="-44873" />
+		<nd ref="-44874" />
+	</way>
+	<way id="-10023">
+		<tag k="name" v="Myrbakken" />
+		<tag k="name:no" v="Myrbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="626722" />
+		<nd ref="-46533" />
+		<nd ref="-46534" />
+	</way>
+	<way id="-9508">
+		<tag k="name" v="Bergstad" />
+		<tag k="name:no" v="Bergstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262974" />
+		<nd ref="-44850" />
+		<nd ref="-44851" />
+	</way>
+	<way id="-9505">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Smørfjord" />
+		<tag k="name:no" v="Smørfjord" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262972" />
+		<nd ref="-44840" />
+		<nd ref="-44841" />
+		<nd ref="-44842" />
+		<nd ref="-44843" />
+	</way>
+	<way id="-10516">
+		<tag k="name" v="Svingen" />
+		<tag k="name:no" v="Svingen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869267" />
+		<nd ref="-48192" />
+		<nd ref="-48193" />
+	</way>
+	<way id="-9091">
+		<tag k="name" v="Fagerli" />
+		<tag k="name:no" v="Fagerli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81482" />
+		<nd ref="-43467" />
+		<nd ref="-43468" />
+		<nd ref="-43469" />
+	</way>
+	<way id="-10512">
+		<tag k="name" v="Slåttebakken" />
+		<tag k="name:no" v="Slåttebakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869240" />
+		<nd ref="-48183" />
+		<nd ref="-48184" />
+	</way>
+	<way id="-8920">
+		<tag k="name" v="Nordli" />
+		<tag k="name:no" v="Nordli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19736" />
+		<nd ref="-42916" />
+		<nd ref="-42917" />
+		<nd ref="-42918" />
+		<nd ref="-42919" />
+	</way>
+	<way id="-9997">
+		<tag k="name" v="Bakkekroken" />
+		<tag k="name:no" v="Bakkekroken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="626301" />
+		<nd ref="-46459" />
+		<nd ref="-46460" />
+		<nd ref="-46461" />
+	</way>
+	<way id="-9090">
+		<tag k="name" v="Dalheim" />
+		<tag k="name:no" v="Dalheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="81478" />
+		<nd ref="-43464" />
+		<nd ref="-43465" />
+		<nd ref="-43466" />
+	</way>
+	<way id="-9687">
+		<tag k="name" v="Nyheim" />
+		<tag k="name:no" v="Nyheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504233" />
+		<nd ref="-45409" />
+		<nd ref="-45410" />
+		<nd ref="-45411" />
+	</way>
+	<way id="-10502">
+		<tag k="name" v="Skogende - Ruđonpää" />
+		<tag k="name:fkv" v="Ruđonpää" />
+		<tag k="name:no" v="Skogende" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869186" />
+		<nd ref="-48146" />
+		<nd ref="-48147" />
+	</way>
+	<way id="-9989">
+		<tag k="alt_name:se" v="Lánjas" />
+		<tag k="name" v="Baukophalsen" />
+		<tag k="name:no" v="Baukophalsen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="626104" />
+		<nd ref="-46434" />
+		<nd ref="-46435" />
+		<nd ref="-46436" />
+		<nd ref="-46437" />
+	</way>
+	<way id="-9471">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Daleng" />
+		<tag k="name:no" v="Daleng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262566" />
+		<nd ref="-44749" />
+		<nd ref="-44750" />
+	</way>
+	<way id="-9429">
+		<tag k="landuse" v="residential" />
+		<tag k="name" v="Smørstad" />
+		<tag k="name:no" v="Smørstad" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262230" />
+		<nd ref="-44617" />
+		<nd ref="-44618" />
+	</way>
+	<way id="-8953">
+		<tag k="name" v="Skogbakken" />
+		<tag k="name:no" v="Skogbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20582" />
+		<nd ref="-43002" />
+		<nd ref="-43003" />
+	</way>
+	<way id="-8942">
+		<tag k="name" v="Fredheim" />
+		<tag k="name:no" v="Fredheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20499" />
+		<nd ref="-42975" />
+		<nd ref="-42976" />
+	</way>
+	<way id="-8939">
+		<tag k="alt_name:no" v="Krokmyra" />
+		<tag k="name" v="Lammaskenttä" />
+		<tag k="name:fkv" v="Lammaskenttä" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20471" />
+		<nd ref="-42967" />
+		<nd ref="-42968" />
+		<nd ref="-42969" />
+		<nd ref="-42970" />
+	</way>
+	<way id="-10472">
+		<tag k="name" v="Giksenjárga - Børselvnes - Kiksiniemi" />
+		<tag k="name:fkv" v="Kiksiniemi" />
+		<tag k="name:no" v="Børselvnes" />
+		<tag k="name:se" v="Giksenjárga" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="810919" />
+		<nd ref="-47999" />
+		<nd ref="-48000" />
+	</way>
+	<way id="-8935">
+		<tag k="name" v="Jernbukt - Rautakoppa" />
+		<tag k="name:fkv" v="Rautakoppa" />
+		<tag k="name:no" v="Jernbukt" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20442" />
+		<nd ref="-42957" />
+		<nd ref="-42958" />
+		<nd ref="-42959" />
+	</way>
+	<way id="-10464">
+		<tag k="name" v="Anopset" />
+		<tag k="name:no" v="Anopset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="809642" />
+		<nd ref="-47966" />
+		<nd ref="-47967" />
+		<nd ref="-47968" />
+	</way>
+	<way id="-9765">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Billávuotna - Indre Billefjord - Pillavuono" />
+		<tag k="name:fkv" v="Pillavuono" />
+		<tag k="name:no" v="Indre Billefjord" />
+		<tag k="name:se" v="Billávuotna" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505600" />
+		<nd ref="-45635" />
+		<nd ref="-45636" />
+	</way>
+	<way id="-9436">
+		<tag k="name" v="Øvre Gjøkenes" />
+		<tag k="name:no" v="Øvre Gjøkenes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262263" />
+		<nd ref="-44635" />
+		<nd ref="-44636" />
+	</way>
+	<way id="-10459">
+		<tag k="name" v="Oppgård" />
+		<tag k="name:no" v="Oppgård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="809613" />
+		<nd ref="-47953" />
+		<nd ref="-47954" />
+	</way>
+	<way id="-9946">
+		<tag k="building" v="cabin" />
+		<tag k="name" v="Karalaks" />
+		<tag k="name:no" v="Karalaks" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577468" />
+		<nd ref="-46262" />
+		<nd ref="-46263" />
+	</way>
+	<way id="-9945">
+		<tag k="landuse" v="residential" />
+		<tag k="name" v="Saarila" />
+		<tag k="name:fkv" v="Saarila" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577015" />
+		<nd ref="-46240" />
+		<nd ref="-46241" />
+	</way>
+	<way id="-9432">
+		<tag k="name" v="Fredheim" />
+		<tag k="name:no" v="Fredheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262238" />
+		<nd ref="-44626" />
+		<nd ref="-44627" />
+		<nd ref="-44628" />
+	</way>
+	<way id="-9431">
+		<tag k="name" v="Myrvang" />
+		<tag k="name:no" v="Myrvang" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262236" />
+		<nd ref="-44623" />
+		<nd ref="-44624" />
+		<nd ref="-44625" />
+	</way>
+	<way id="-9941">
+		<tag k="name" v="Dollejohka - Brennelv" />
+		<tag k="name:no" v="Brennelv" />
+		<tag k="name:se" v="Dollejohka" />
+		<tag k="old_name:se" v="Dållejåkka" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="566922" />
+		<nd ref="-46216" />
+		<nd ref="-46217" />
+		<nd ref="-46218" />
+	</way>
+	<way id="-9428">
+		<tag k="name" v="Øvre Smørstad - Rautio" />
+		<tag k="name:fkv" v="Rautio" />
+		<tag k="name:no" v="Øvre Smørstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262221" />
+		<nd ref="-44613" />
+		<nd ref="-44614" />
+		<nd ref="-44615" />
+		<nd ref="-44616" />
+	</way>
+	<way id="-9427">
+		<tag k="name" v="Saarikenttä" />
+		<tag k="name:fkv" v="Saarikenttä" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262220" />
+		<nd ref="-44611" />
+		<nd ref="-44612" />
+	</way>
+	<way id="-9426">
+		<tag k="name" v="Langbuktbakken - Pitkäkopanluokka" />
+		<tag k="name:fkv" v="Pitkäkopanluokka" />
+		<tag k="name:no" v="Langbuktbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262202" />
+		<nd ref="-44608" />
+		<nd ref="-44609" />
+		<nd ref="-44610" />
+	</way>
+	<way id="-10449">
+		<tag k="alt_name:no" v="Kratteng" />
+		<tag k="name" v="Mätikkö" />
+		<tag k="name:fkv" v="Mätikkö" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="809514" />
+		<nd ref="-47924" />
+		<nd ref="-47925" />
+	</way>
+	<way id="-9424">
+		<tag k="name" v="Karenplass" />
+		<tag k="name:no" v="Karenplass" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262190" />
+		<nd ref="-44603" />
+		<nd ref="-44604" />
+	</way>
+	<way id="-9933">
+		<tag k="name" v="Suovdi" />
+		<tag k="name:se" v="Suovdi" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="566578" />
+		<nd ref="-46188" />
+		<nd ref="-46189" />
+	</way>
+	<way id="-8770">
+		<tag k="name" v="Fluberg" />
+		<tag k="name:no" v="Fluberg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383205" />
+		<nd ref="-42303" />
+		<nd ref="-42304" />
+		<nd ref="-42305" />
+	</way>
+	<way id="-9926">
+		<tag k="name" v="Boahkkogieddi - Koppeng" />
+		<tag k="name:no" v="Koppeng" />
+		<tag k="name:se" v="Boahkkogieddi" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="566540" />
+		<nd ref="-46169" />
+		<nd ref="-46170" />
+	</way>
+	<way id="-10432">
+		<tag k="name" v="Libakken" />
+		<tag k="name:no" v="Libakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808955" />
+		<nd ref="-47882" />
+		<nd ref="-47883" />
+	</way>
+	<way id="-10431">
+		<tag k="name" v="Eidsgard" />
+		<tag k="name:no" v="Eidsgard" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808953" />
+		<nd ref="-47880" />
+		<nd ref="-47881" />
+	</way>
+	<way id="-10430">
+		<tag k="alt_name:no" v="Leifset" />
+		<tag k="name" v="Leivset" />
+		<tag k="name:no" v="Leivset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808951" />
+		<nd ref="-47877" />
+		<nd ref="-47878" />
+		<nd ref="-47879" />
+	</way>
+	<way id="-9917">
+		<tag k="name" v="Krattskogen" />
+		<tag k="name:no" v="Krattskogen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="566408" />
+		<nd ref="-46151" />
+		<nd ref="-46152" />
+	</way>
+	<way id="-8889">
+		<tag k="name" v="Nymo" />
+		<tag k="name:no" v="Nymo" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19229" />
+		<nd ref="-42820" />
+		<nd ref="-42821" />
+	</way>
+	<way id="-8888">
+		<tag k="name" v="Bakkevoll" />
+		<tag k="name:no" v="Bakkevoll" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19224" />
+		<nd ref="-42818" />
+		<nd ref="-42819" />
+	</way>
+	<way id="-8887">
+		<tag k="name" v="Salomonsumpen" />
+		<tag k="name:no" v="Salomonsumpen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19223" />
+		<nd ref="-42816" />
+		<nd ref="-42817" />
+	</way>
+	<way id="-8884">
+		<tag k="name" v="Sløkeng" />
+		<tag k="name:no" v="Sløkeng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19206" />
+		<nd ref="-42810" />
+		<nd ref="-42811" />
+	</way>
+	<way id="-9905">
+		<tag k="name" v="Hønsa" />
+		<tag k="name:no" v="Hønsa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565977" />
+		<nd ref="-46123" />
+		<nd ref="-46124" />
+	</way>
+	<way id="-8818">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Čuđegieddi - Kistrand - Ryssämarkka" />
+		<tag k="name:fkv" v="Ryssämarkka" />
+		<tag k="name:no" v="Kistrand" />
+		<tag k="name:se" v="Čuđegieddi" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383721" />
+		<nd ref="-42460" />
+		<nd ref="-42461" />
+	</way>
+	<way id="-8874">
+		<tag k="name" v="Vestgård" />
+		<tag k="name:no" v="Vestgård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19100" />
+		<nd ref="-42781" />
+		<nd ref="-42782" />
+	</way>
+	<way id="-9897">
+		<tag k="name" v="Buktkroken" />
+		<tag k="name:no" v="Buktkroken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565765" />
+		<nd ref="-46101" />
+		<nd ref="-46102" />
+	</way>
+	<way id="-9384">
+		<tag k="name" v="Leaiberohtu" />
+		<tag k="name:se" v="Leaiberohtu" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="203093" />
+		<nd ref="-44440" />
+		<nd ref="-44441" />
+	</way>
+	<way id="-10404">
+		<tag k="name" v="Grøtterud" />
+		<tag k="name:no" v="Grøtterud" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808557" />
+		<nd ref="-47812" />
+		<nd ref="-47813" />
+		<nd ref="-47814" />
+	</way>
+	<way id="-9243">
+		<tag k="building" v="cabin" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Ankervik;Litlevik" />
+		<tag k="name:no" v="Ankervik;Litlevik" />
+		<tag k="place" v="isolated_dwelling" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141908" />
+		<nd ref="-43954" />
+		<nd ref="-43955" />
+	</way>
+	<way id="-9884">
+		<tag k="name" v="Dalen" />
+		<tag k="name:no" v="Dalen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565616" />
+		<nd ref="-46058" />
+		<nd ref="-46059" />
+	</way>
+	<way id="-9367">
+		<tag k="name" v="Tømmernes" />
+		<tag k="name:no" v="Tømmernes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="202625" />
+		<nd ref="-44373" />
+		<nd ref="-44374" />
+		<nd ref="-44375" />
+	</way>
+	<way id="-8850">
+		<tag k="name" v="Biesaidgohppi - Ytre Leirpollen - Piesankoppa" />
+		<tag k="name:fkv" v="Piesankoppa" />
+		<tag k="name:no" v="Ytre Leirpollen" />
+		<tag k="name:se" v="Biesaidgohppi" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384974" />
+		<nd ref="-42557" />
+		<nd ref="-42558" />
+		<nd ref="-42559" />
+	</way>
+	<way id="-8849">
+		<tag k="name" v="Myrstad" />
+		<tag k="name:no" v="Myrstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384936" />
+		<nd ref="-42555" />
+		<nd ref="-42556" />
+	</way>
+	<way id="-8843">
+		<tag k="name" v="Remmen" />
+		<tag k="name:no" v="Remmen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384542" />
+		<nd ref="-42531" />
+		<nd ref="-42532" />
+	</way>
+	<way id="-8840">
+		<tag k="name" v="Helmerjord" />
+		<tag k="name:no" v="Helmerjord" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384536" />
+		<nd ref="-42522" />
+		<nd ref="-42523" />
+		<nd ref="-42524" />
+	</way>
+	<way id="-8839">
+		<tag k="name" v="Mikkelsborg" />
+		<tag k="name:no" v="Mikkelsborg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="384532" />
+		<nd ref="-42520" />
+		<nd ref="-42521" />
+	</way>
+	<way id="-9350">
+		<tag k="building" v="farm_auxiliary" />
+		<tag k="name" v="Forland" />
+		<tag k="name:no" v="Forland" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="202524" />
+		<nd ref="-44332" />
+		<nd ref="-44333" />
+	</way>
+	<way id="-9347">
+		<tag k="name" v="Fosseng" />
+		<tag k="name:no" v="Fosseng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="202496" />
+		<nd ref="-44325" />
+		<nd ref="-44326" />
+		<nd ref="-44327" />
+	</way>
+	<way id="-9408">
+		<tag k="name" v="Ráigeája - Reikälähđet" />
+		<tag k="name:fkv" v="Reikälähđet" />
+		<tag k="name:se" v="Ráigeája" />
+		<tag k="old_name:no" v="Ytre Ikkaldas;Ytre Igeldas" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="262042" />
+		<nd ref="-44558" />
+		<nd ref="-44559" />
+		<nd ref="-44560" />
+		<nd ref="-44561" />
+	</way>
+	<way id="-10366">
+		<tag k="name" v="Gjøkstad" />
+		<tag k="name:no" v="Gjøkstad" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808254" />
+		<nd ref="-47705" />
+		<nd ref="-47706" />
+	</way>
+	<way id="-8827">
+		<tag k="name" v="Fagerfjell" />
+		<tag k="name:no" v="Fagerfjell" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383970" />
+		<nd ref="-42484" />
+		<nd ref="-42485" />
+	</way>
+	<way id="-10356">
+		<tag k="name" v="Bergbukt - Lahtipahta" />
+		<tag k="name:fkv" v="Lahtipahta" />
+		<tag k="name:no" v="Bergbukt" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808177" />
+		<nd ref="-47676" />
+		<nd ref="-47677" />
+		<nd ref="-47678" />
+	</way>
+	<way id="-10354">
+		<tag k="name" v="Grunnvik" />
+		<tag k="name:no" v="Grunnvik" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808170" />
+		<nd ref="-47672" />
+		<nd ref="-47673" />
+	</way>
+	<way id="-8816">
+		<tag k="name" v="Engmyr" />
+		<tag k="name:no" v="Engmyr" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383698" />
+		<nd ref="-42454" />
+		<nd ref="-42455" />
+	</way>
+	<way id="-10351">
+		<tag k="name" v="Hávdna - Hamnbukt - Hamina" />
+		<tag k="name:fkv" v="Hamina" />
+		<tag k="name:no" v="Hamnbukt" />
+		<tag k="name:se" v="Hávdna" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808143" />
+		<nd ref="-47664" />
+		<nd ref="-47665" />
+	</way>
+	<way id="-9838">
+		<tag k="name" v="Nyberg" />
+		<tag k="name:no" v="Nyberg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565238" />
+		<nd ref="-45922" />
+		<nd ref="-45923" />
+	</way>
+	<way id="-9836">
+		<tag k="name" v="Fossestrand - Kurkkionväli" />
+		<tag k="name:fkv" v="Kurkkionväli" />
+		<tag k="name:no" v="Fossestrand" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565218" />
+		<nd ref="-45916" />
+		<nd ref="-45917" />
+		<nd ref="-45918" />
+		<nd ref="-45919" />
+	</way>
+	<way id="-9834">
+		<tag k="name" v="Musvannsbakken - Hiirijärvenluokka" />
+		<tag k="name:fkv" v="Hiirijärvenluokka" />
+		<tag k="name:no" v="Musvannsbakken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565203" />
+		<nd ref="-45909" />
+		<nd ref="-45910" />
+		<nd ref="-45911" />
+	</way>
+	<way id="-9833">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Storfyllingen" />
+		<tag k="name:no" v="Storfyllingen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565200" />
+		<nd ref="-45907" />
+		<nd ref="-45908" />
+	</way>
+	<way id="-9832">
+		<tag k="name" v="Holmen" />
+		<tag k="name:no" v="Holmen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565199" />
+		<nd ref="-45904" />
+		<nd ref="-45905" />
+		<nd ref="-45906" />
+	</way>
+	<way id="-9279">
+		<tag k="name" v="Snihkkárnjárga - Snekkernes" />
+		<tag k="name:no" v="Snekkernes" />
+		<tag k="name:se" v="Snihkkárnjárga" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201099" />
+		<nd ref="-44136" />
+		<nd ref="-44137" />
+	</way>
+	<way id="-8721">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Myrland" />
+		<tag k="name:no" v="Myrland" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323738" />
+		<nd ref="-42098" />
+		<nd ref="-42099" />
+	</way>
+	<way id="-8791">
+		<tag k="name" v="Seljeenga - Juntintörmä" />
+		<tag k="name:fkv" v="Juntintörmä" />
+		<tag k="name:no" v="Seljeenga" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383460" />
+		<nd ref="-42364" />
+		<nd ref="-42365" />
+		<nd ref="-42366" />
+	</way>
+	<way id="-9295">
+		<tag k="name" v="Øvre Brennelv - Yli-Palo" />
+		<tag k="name:fkv" v="Yli-Palo" />
+		<tag k="name:no" v="Øvre Brennelv" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201201" />
+		<nd ref="-44177" />
+		<nd ref="-44178" />
+	</way>
+	<way id="-10313">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Nordmannshaugen" />
+		<tag k="name:no" v="Nordmannshaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="748625" />
+		<nd ref="-47499" />
+		<nd ref="-47500" />
+	</way>
+	<way id="-9288">
+		<tag k="name" v="Torbjørnsrud" />
+		<tag k="name:no" v="Torbjørnsrud" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201255" />
+		<nd ref="-44157" />
+		<nd ref="-44158" />
+		<nd ref="-44159" />
+	</way>
+	<way id="-10311">
+		<tag k="name" v="Heia" />
+		<tag k="name:no" v="Heia" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="748620" />
+		<nd ref="-47494" />
+		<nd ref="-47495" />
+		<nd ref="-47496" />
+	</way>
+	<way id="-9798">
+		<tag k="name" v="Gieddi - Leirpollen - Kenttä" />
+		<tag k="name:fkv" v="Kenttä" />
+		<tag k="name:no" v="Leirpollen" />
+		<tag k="name:se" v="Gieddi" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="506902" />
+		<nd ref="-45740" />
+		<nd ref="-45741" />
+	</way>
+	<way id="-8771">
+		<tag k="name" v="Leavdnja - Lakselv - Lemmijoki" />
+		<tag k="name:fkv" v="Lemmijoki" />
+		<tag k="name:no" v="Lakselv" />
+		<tag k="name:se" v="Leavdnja" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383209" />
+		<nd ref="-42306" />
+		<nd ref="-42307" />
+	</way>
+	<way id="-9794">
+		<tag k="name" v="Ellásmielli" />
+		<tag k="name:se" v="Ellásmielli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="506609" />
+		<nd ref="-45722" />
+		<nd ref="-45723" />
+	</way>
+	<way id="-9281">
+		<tag k="name" v="Lilleberg" />
+		<tag k="name:no" v="Lilleberg" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201221" />
+		<nd ref="-44140" />
+		<nd ref="-44141" />
+	</way>
+	<way id="-9280">
+		<tag k="name" v="Dulerohtu - Ildskog - Tyllyruto" />
+		<tag k="name:fkv" v="Tyllyruto" />
+		<tag k="name:no" v="Ildskog" />
+		<tag k="name:se" v="Dulerohtu" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201218" />
+		<nd ref="-44138" />
+		<nd ref="-44139" />
+	</way>
+	<way id="-10303">
+		<tag k="name" v="Tverrnes" />
+		<tag k="name:no" v="Tverrnes" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="748563" />
+		<nd ref="-47464" />
+		<nd ref="-47465" />
+	</way>
+	<way id="-10302">
+		<tag k="name" v="Valjesgieddi" />
+		<tag k="name:se" v="Valjesgieddi" />
+		<tag k="old_name:se" v="Valljesgieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="748561" />
+		<nd ref="-47461" />
+		<nd ref="-47462" />
+		<nd ref="-47463" />
+	</way>
+	<way id="-9789">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Indre Nordmannset" />
+		<tag k="name:no" v="Indre Nordmannset" />
+		<tag k="old_name:no" v="Nordmannset, indre" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505974" />
+		<nd ref="-45707" />
+		<nd ref="-45708" />
+	</way>
+	<way id="-9788">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name; consider place=hamlet" />
+		<tag k="name" v="Nordmannset;Ytre Nordmannset" />
+		<tag k="name:no" v="Nordmannset;Ytre Nordmannset" />
+		<tag k="old_name:no" v="Nordmannset, ytre" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505972" />
+		<nd ref="-45705" />
+		<nd ref="-45706" />
+	</way>
+	<way id="-9274">
+		<tag k="fixme" v="consider place=hamlet" />
+		<tag k="name" v="Ikkaldas - Igeldas" />
+		<tag k="name:no" v="Igeldas" />
+		<tag k="name:se" v="Ikkaldas" />
+		<tag k="place" v="village" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201073" />
+		<nd ref="-44124" />
+		<nd ref="-44125" />
+	</way>
+	<way id="-8760">
+		<tag k="name" v="Steinli" />
+		<tag k="name:no" v="Steinli" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383093" />
+		<nd ref="-42265" />
+		<nd ref="-42266" />
+	</way>
+	<way id="-10291">
+		<tag k="name" v="Saltmelen" />
+		<tag k="name:no" v="Saltmelen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="748444" />
+		<nd ref="-47436" />
+		<nd ref="-47437" />
+	</way>
+	<way id="-9651">
+		<tag k="name" v="Stabbureng" />
+		<tag k="name:no" v="Stabbureng" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="445604" />
+		<nd ref="-45237" />
+		<nd ref="-45238" />
+	</way>
+	<way id="-9774">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Øverset" />
+		<tag k="name:no" v="Øverset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505756" />
+		<nd ref="-45661" />
+		<nd ref="-45662" />
+	</way>
+	<way id="-8746">
+		<tag k="name" v="Gorbovuotna - Ytre Billefjord - Korpivuono" />
+		<tag k="name:fkv" v="Korpivuono" />
+		<tag k="name:no" v="Ytre Billefjord" />
+		<tag k="name:se" v="Gorbovuotna" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="324961" />
+		<nd ref="-42168" />
+		<nd ref="-42169" />
+	</way>
+	<way id="-9767">
+		<tag k="name" v="Nordskog" />
+		<tag k="name:no" v="Nordskog" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="505623" />
+		<nd ref="-45639" />
+		<nd ref="-45640" />
+		<nd ref="-45641" />
+	</way>
+	<way id="-10417">
+		<tag k="name" v="Bergkroken" />
+		<tag k="name:no" v="Bergkroken" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="808719" />
+		<nd ref="-47843" />
+		<nd ref="-47844" />
+	</way>
+	<way id="-9251">
+		<tag k="name" v="Njárga - Sandvik" />
+		<tag k="name:no" v="Sandvik" />
+		<tag k="name:se" v="Njárga" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="142627" />
+		<nd ref="-43976" />
+		<nd ref="-43977" />
+	</way>
+	<way id="-8735">
+		<tag k="name" v="Sørset" />
+		<tag k="name:no" v="Sørset" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="323984" />
+		<nd ref="-42133" />
+		<nd ref="-42134" />
+	</way>
+	<way id="-8965">
+		<tag k="name" v="Øvre Berghaugen" />
+		<tag k="name:no" v="Øvre Berghaugen" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="20645" />
+		<nd ref="-43037" />
+		<nd ref="-43038" />
+	</way>
+	<way id="-10267">
+		<tag k="name" v="Vuohpoš - Bringnesjorda" />
+		<tag k="name:no" v="Bringnesjorda" />
+		<tag k="name:se" v="Vuohpoš" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747686" />
+		<nd ref="-47365" />
+		<nd ref="-47366" />
+	</way>
+	<way id="-10159">
+		<tag k="name" v="Seljeslett" />
+		<tag k="name:no" v="Seljeslett" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="687753" />
+		<nd ref="-46988" />
+		<nd ref="-46989" />
+	</way>
+	<way id="-9237">
+		<tag k="name" v="Áigir" />
+		<tag k="name:se" v="Áigir" />
+		<tag k="place" v="hamlet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141614" />
+		<nd ref="-43940" />
+		<nd ref="-43941" />
+	</way>
+	<way id="-9892">
+		<tag k="name" v="Åsheim" />
+		<tag k="name:no" v="Åsheim" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565750" />
+		<nd ref="-46089" />
+		<nd ref="-46090" />
+		<nd ref="-46091" />
+	</way>
+	<way id="-9232">
+		<tag k="name" v="Indre Sandvik" />
+		<tag k="name:no" v="Indre Sandvik" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141595" />
+		<nd ref="-43922" />
+		<nd ref="-43923" />
+	</way>
+	<way id="-9227">
+		<tag k="name" v="Mikkeljord" />
+		<tag k="name:no" v="Mikkeljord" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141553" />
+		<nd ref="-43908" />
+		<nd ref="-43909" />
+		<nd ref="-43910" />
+	</way>
+	<way id="-9135">
+		<tag k="name" v="Činajohka" />
+		<tag k="name:se" v="Činajohka" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="140027" />
+		<nd ref="-43654" />
+		<nd ref="-43655" />
+	</way>
+	<way id="-9225">
+		<tag k="name" v="Nygård" />
+		<tag k="name:no" v="Nygård" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="141497" />
+		<nd ref="-43904" />
+		<nd ref="-43905" />
+	</way>
+	<way id="-10248">
+		<tag k="fixme" v="consider place=isolated_dwelling if not a farm" />
+		<tag k="name" v="Sommersetra - Luoviruto" />
+		<tag k="name:fkv" v="Luoviruto" />
+		<tag k="name:no" v="Sommersetra" />
+		<tag k="place" v="farm" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747448" />
+		<nd ref="-47318" />
+		<nd ref="-47319" />
+	</way>
+</osm>

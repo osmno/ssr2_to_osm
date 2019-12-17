@@ -1,0 +1,25 @@
+SSR2 hovedgruppe;SSR2 gruppe;SSR2 type;SSR2 freq 2111;SSR2 tags
+;;;9;
+bebyggelse;bebyggelsesområder;by;2;place=town
+bebyggelse;bebyggelsesområder;tettbebyggelse;3;"fixme=""consider place=suburb, village or hamlet"" place=neighbourhood"
+bebyggelse;institusjoner;forskningsstasjon;1;building=yes
+markslag;isOgPermafrost;isbre;5;natural=glacier
+sjø;farvann;fjord;2;bay=fjord natural=bay
+sjø;farvann;sjøstykke;1;place=locality
+sjø;grunnerISjø;grunneISjø;1;natural=shoal place=locality
+sjø;grunnerISjø;skjærISjø;1;"fixme=""consider seamark:type=rock"" natural=islet"
+sjø;kystkontur;holmeISjø;1;place=islet
+sjø;kystkontur;holmegruppeISjø;4;place=islet
+sjø;kystkontur;nesISjø;16;natural=cape place=locality
+sjø;kystkontur;strandISjø;2;natural=beach place=locality
+sjø;kystkontur;sundISjø;4;natural=strait place=locality
+sjø;kystkontur;vikISjø;4;natural=bay
+sjø;kystkontur;vågISjø;1;natural=bay
+sjø;kystkontur;øyISjø;9;place=island
+sjø;kystkontur;øygruppeISjø;4;place=island
+terreng;flater;slette;1;place=locality
+terreng;høyder;fjell;1;"fixme=""consider natural=peak for the most distinct mountains in the district"" natural=hill place=locality"
+terreng;høyder;rygg;3;natural=ridge place=locality
+terreng;skråninger;fjellside;1;natural=fell
+terreng;skråninger;li;1;natural=slope place=locality
+terreng;terrengdetaljer;geologiskStruktur;1;place=locality

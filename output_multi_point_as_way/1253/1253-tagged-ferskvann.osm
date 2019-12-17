@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-26624" lat="60.5076500034" lon="5.62384999209">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kyrkjeskartjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="795953" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26111" lat="60.4877833363" lon="5.47914721866">
+		<tag k="ssr:gml_id" v="GEOMETRY_c4e165d4-d6a1-4364-918d-752138b483a6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26620" lat="60.6611750038" lon="5.65197777226">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Surrebotntjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="795667" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25082" lat="60.5061000008" lon="5.61700277166">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Bjørketjørnane" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="348598" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26104" lat="60.5841638887" lon="5.53240833416">
+		<tag k="ssr:gml_id" v="GEOMETRY_7e13bf51-c3b0-4e39-8730-4381dd7400bf" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-26103" lat="60.5859083342" lon="5.53077500508">
+		<tag k="ssr:gml_id" v="GEOMETRY_710a6b81-0404-486c-8d75-7583791e2909" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26102" lat="60.5836611073" lon="5.53421667093">
+		<tag k="ssr:gml_id" v="GEOMETRY_52177ff5-5312-4535-b025-4159fd38b5c2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26101" lat="60.5826277784" lon="5.58219166291">
+		<tag k="name" v="Budalsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="551528" />
+	</node>
+	<node id="-25588" lat="60.4679694472" lon="5.61457778236">
+		<tag k="ssr:gml_id" v="GEOMETRY_bfb1eac3-e980-4e72-b665-1e7ffa16d331" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25075" lat="60.4948166655" lon="5.65730834062">
+		<tag k="name" v="Varmavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="348554" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25256" lat="60.5151527822" lon="5.55499999863">
+		<tag k="name" v="Vallfossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="895728" />
+	</node>
+	<node id="-25853" lat="60.6067611118" lon="5.65319167133">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Øvrebotnen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249720" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26599" lat="60.4868055522" lon="5.67224166155">
+		<tag k="name" v="Storelva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="794977" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25059" lat="60.6322888927" lon="5.61152778357">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Svartatjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="348390" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25569" lat="60.577544448" lon="5.59695277043">
+		<tag k="ssr:gml_id" v="GEOMETRY_b43d1f53-8f59-4ed5-be7e-25ba02b4d51e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25568" lat="60.5775472238" lon="5.59695554659">
+		<tag k="ssr:gml_id" v="GEOMETRY_a7ca7dc7-e5b1-4ffb-a915-5a120a644bbd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26076" lat="60.4972638868" lon="5.45078333585">
+		<tag k="name" v="Langanes" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530805" />
+	</node>
+	<node id="-25050" lat="60.5084083317" lon="5.5017388929">
+		<tag k="name" v="Risneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="347699" />
+	</node>
+	<node id="-26071" lat="60.4731250031" lon="5.62314165816">
+		<tag k="name" v="Buldrå" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530756" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26873" lat="60.628161107" lon="5.60979443995">
+		<tag k="ssr:gml_id" v="GEOMETRY_995f8c14-9d95-428a-b9d6-5a692ec7c86f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25041" lat="60.6959916698" lon="5.65130276977">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Heimvikvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="310372" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25038" lat="60.5014694453" lon="5.69321666711">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Grøntovatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="309995" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26060" lat="60.5169444433" lon="5.68229167422">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Svartetjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530634" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25299" lat="60.6367555552" lon="5.62430554834">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Svartatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="6701" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25034" lat="60.518599996" lon="5.58558888331">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Fagerstølsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="309959" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25033" lat="60.527083336" lon="5.63147222048">
+		<tag k="name" v="Storåna" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="309957" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26052" lat="60.4908888904" lon="5.58659444795">
+		<tag k="name" v="Håninganeset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530591" />
+	</node>
+	<node id="-25760" lat="60.5545444407" lon="5.56972221774">
+		<tag k="ssr:gml_id" v="GEOMETRY_bc0b786e-5b14-404e-8dab-cb283e4d5eaa" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-25589" lat="60.4679722225" lon="5.61458055098">
+		<tag k="ssr:gml_id" v="GEOMETRY_9984e1e9-252a-4fa3-a4b4-bf702bf3fbfe" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25529" lat="60.5481222191" lon="5.3736194394">
+		<tag k="name" v="Klubben" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="106873" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26552" lat="60.5208138853" lon="5.68106112042">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Raudskredtjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773599" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26039" lat="60.5429722239" lon="5.61843611358">
+		<tag k="name" v="Haukavik" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530455" />
+	</node>
+	<node id="-26038" lat="60.6126055538" lon="5.61976110981">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kupetjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530454" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26037" lat="60.6169166637" lon="5.58881943911">
+		<tag k="name" v="Tysseelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530451" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26036" lat="60.6366000042" lon="5.62364166932">
+		<tag k="name" v="Svartavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530430" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25521" lat="60.563800002" lon="5.57040556294">
+		<tag k="ssr:gml_id" v="GEOMETRY_6eb0513f-7067-47d4-a6f5-a6023f4e5ba2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25520" lat="60.5635833366" lon="5.57022499531">
+		<tag k="ssr:gml_id" v="GEOMETRY_69b9dc18-8daf-45e5-b7ee-9cf893c9adb5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25006" lat="60.5623611114" lon="5.58539167482">
+		<tag k="ssr:gml_id" v="GEOMETRY_5f2c9de6-3864-457b-9f2f-b52339dd2797" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26029" lat="60.5624361105" lon="5.58301111873">
+		<tag k="ssr:gml_id" v="GEOMETRY_39df1069-9fc6-4fd6-b67b-dec80f8c1b7d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-26028" lat="60.5647472213" lon="5.58161666052">
+		<tag k="ssr:gml_id" v="GEOMETRY_f18f1ba8-68bd-4262-9cd9-4aaaf57f56b0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26027" lat="60.5619138927" lon="5.58607777872">
+		<tag k="ssr:gml_id" v="GEOMETRY_96d5c444-2284-428b-8d88-09e41cbf4d9a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26534" lat="60.5768138923" lon="5.58255833419">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Gangstøtj." />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773394" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26532" lat="60.5154555544" lon="5.49544999494">
+		<tag k="name" v="Skitvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="772738" />
+	</node>
+	<node id="-26530" lat="60.5176555555" lon="5.48739721463">
+		<tag k="name" v="Sandvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="772732" />
+	</node>
+	<node id="-26528" lat="60.5070972184" lon="5.50831389026">
+		<tag k="name" v="Sundet" />
+		<tag k="natural" v="strait" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="772702" />
+	</node>
+	<node id="-24986" lat="60.5071833345" lon="5.52762499097">
+		<tag k="name" v="Fossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288727" />
+	</node>
+	<node id="-24984" lat="60.5196750037" lon="5.53169722745">
+		<tag k="name" v="Lostholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288713" />
+	</node>
+	<node id="-26003" lat="60.5184027791" lon="5.64249165762">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Vassdalstjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="491946" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25490" lat="60.5499722207" lon="5.54225278243">
+		<tag k="name" v="Mykingelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="106505" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26001" lat="60.5268527804" lon="5.56178332822">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kleppstjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="491933" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-24975" lat="60.5228250005" lon="5.69373055073">
+		<tag k="name" v="Klavarenen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288560" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-24972" lat="60.5899694425" lon="5.52517778263">
+		<tag k="name" v="Osavatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288497" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-24970" lat="60.5431249962" lon="5.54216110666">
+		<tag k="name" v="Midtvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288477" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-24969" lat="60.5447944429" lon="5.49107778269">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Nordåstjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288474" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-24965" lat="60.6696305537" lon="5.6273611084">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Gullbergtjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288391" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25475" lat="60.5407638887" lon="5.50645000669">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Grønåstjern" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="105670" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25983" lat="60.479175001" lon="5.49421111564">
+		<tag k="ssr:gml_id" v="GEOMETRY_a683b180-8bc3-479a-86a7-6ec551c51507" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25982" lat="60.4791722228" lon="5.49420833831">
+		<tag k="ssr:gml_id" v="GEOMETRY_7823e8af-7cca-48a9-9704-19a651803e05" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26346" lat="60.5779388878" lon="5.60133611157">
+		<tag k="ssr:gml_id" v="GEOMETRY_5ed55b36-548b-4bfb-a93c-a3175489b16b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26489" lat="60.6047777775" lon="5.60009999142">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sætertjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="734567" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26488" lat="60.6156861098" lon="5.67305833332">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Ljosavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="734556" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25462" lat="60.4919250009" lon="5.48188332621">
+		<tag k="name" v="Skeisedalsbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="104440" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25461" lat="60.5937000031" lon="5.52415000847">
+		<tag k="ssr:gml_id" v="GEOMETRY_cd3786f2-7470-4be4-aa46-d5047ee9d2b3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25460" lat="60.5942833368" lon="5.52622221428">
+		<tag k="ssr:gml_id" v="GEOMETRY_57b6d1e6-1b28-4ead-9f33-a46119b4ca98" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25971" lat="60.6256111068" lon="5.60059444323">
+		<tag k="ssr:gml_id" v="GEOMETRY_14d01df5-fad0-403c-8085-9be4267b83ce" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25970" lat="60.6281333338" lon="5.60928333924">
+		<tag k="ssr:gml_id" v="GEOMETRY_51d42b8b-b94c-4dba-a355-62361d46e350" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25968" lat="60.5368194424" lon="5.62770000621">
+		<tag k="name" v="Teinholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470595" />
+	</node>
+	<node id="-25967" lat="60.5340694432" lon="5.62910277377">
+		<tag k="name" v="Vassdalholmane" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470594" />
+	</node>
+	<node id="-26478" lat="60.4952694427" lon="5.69446389052">
+		<tag k="ssr:gml_id" v="GEOMETRY_be8284a3-4e97-4f82-aa3a-78057e15db90" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-24939" lat="60.5188750036" lon="5.50401943728">
+		<tag k="name" v="Giljafossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="286720" />
+	</node>
+	<node id="-25449" lat="60.5091250032" lon="5.61502222394">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Langtjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67953" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-24936" lat="60.5438999989" lon="5.61102777931">
+		<tag k="name" v="Hagenes" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="286313" />
+	</node>
+	<node id="-24935" lat="60.5079777798" lon="5.44415832734">
+		<tag k="name" v="Hestdalsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="286295" />
+	</node>
+	<node id="-25446" lat="60.5277388886" lon="5.61238055401">
+		<tag k="name" v="Sandane" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67924" />
+	</node>
+	<node id="-25956" lat="60.4934277775" lon="5.57013333439">
+		<tag k="name" v="Hovdaelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="469861" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-25953" lat="60.5676305539" lon="5.45072778375">
+		<tag k="name" v="Litlandselva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="469826" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-25440" lat="60.5586138875" lon="5.56900833739">
+		<tag k="name" v="Storavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67620" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25439" lat="60.5652388886" lon="5.59366388869">
+		<tag k="name" v="Kjeholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67598" />
+	</node>
+	<node id="-26462" lat="60.547769447" lon="5.50543889542">
+		<tag k="ssr:gml_id" v="GEOMETRY_966d72d6-feb0-49a8-be0d-57f9ee903c17" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26461" lat="60.5556805587" lon="5.49171389412">
+		<tag k="ssr:gml_id" v="GEOMETRY_604f0ec1-4fb9-46ae-b032-8c0b373b9b8a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25436" lat="60.5985999956" lon="5.56655832593">
+		<tag k="ssr:gml_id" v="GEOMETRY_ed43f90b-7a62-4f8f-952a-6a508221ee0b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25435" lat="60.5981750018" lon="5.56659999242">
+		<tag k="ssr:gml_id" v="GEOMETRY_d644117e-7c10-45dd-9ee8-e48c044844be" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25999" lat="60.5268250027" lon="5.52421388609">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Barsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="491931" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25939" lat="60.5998694455" lon="5.59536388481">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Trønsketjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="469454" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25424" lat="60.5434499986" lon="5.44360833596">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Dalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67414" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25934" lat="60.5739527764" lon="5.55892778128">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sætretjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="469410" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26164" lat="60.6613361123" lon="5.65075833117">
+		<tag k="name" v="N. Sørebotnvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591391" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26428" lat="60.5199611091" lon="5.63819165785">
+		<tag k="name" v="Holmefj." />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="712593" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26427" lat="60.5122305512" lon="5.63414167056">
+		<tag k="name" v="Fossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="712592" />
+	</node>
+	<node id="-25400" lat="60.4614166685" lon="5.50894167277">
+		<tag k="name" v="Randabekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45864" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25911" lat="60.5512583365" lon="5.55610555008">
+		<tag k="name" v="Bjørndalselva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="431916" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25910" lat="60.5445749977" lon="5.49209444927">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Nunnåstjørni" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="431913" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26421" lat="60.5978166657" lon="5.56104167499">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Ækretjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="712522" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26417" lat="60.542861108" lon="5.53906666963">
+		<tag k="name" v="Ramvikavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="712487" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25391" lat="60.4699583303" lon="5.45807499507">
+		<tag k="name" v="Steganeset" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45803" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25902" lat="60.5729444434" lon="5.57481111326">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Løtveitvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="431585" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26112" lat="60.4877861148" lon="5.4791499954">
+		<tag k="ssr:gml_id" v="GEOMETRY_7531b373-2d16-4d26-9a19-5827c311e3bc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26030" lat="60.5623611114" lon="5.58539167482">
+		<tag k="ssr:gml_id" v="GEOMETRY_bdc90193-974c-43f7-ab92-7a278b92ffb5" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-26407" lat="60.6493027774" lon="5.62824166066">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Krekjebærtjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="712401" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26402" lat="60.5152166622" lon="5.48406388188">
+		<tag k="name" v="Hansavika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="711736" />
+	</node>
+	<node id="-26399" lat="60.5083527802" lon="5.52602221394">
+		<tag k="name" v="Bruaneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="711711" />
+	</node>
+	<node id="-25370" lat="60.522169446" lon="5.68386944867">
+		<tag k="name" v="Rauskrevaren" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45581" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25005" lat="60.5619138927" lon="5.58607777872">
+		<tag k="ssr:gml_id" v="GEOMETRY_31f0f2dd-ec8d-4d13-9dce-facd703faf9f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25390" lat="60.495866665" lon="5.45155555054">
+		<tag k="name" v="Bønes" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45802" />
+	</node>
+	<node id="-25360" lat="60.5087100195" lon="5.43507441742">
+		<tag k="alt_name" v="Lille Osterøy" />
+		<tag k="name" v="Litle Osterøy" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2017-02-16" />
+		<tag k="ssr:stedsnr" v="45496" />
+	</node>
+	<node id="-25355" lat="60.5430083335" lon="5.58895555622">
+		<tag k="name" v="Bruraneset" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45434" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25354" lat="60.6188861074" lon="5.60853611165">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Storatjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45429" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25815" lat="60.4976583328" lon="5.55938333007">
+		<tag k="alt_name" v="Gjerståfossen" />
+		<tag k="name" v="Gjerstadfossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="227847" />
+	</node>
+	<node id="-26376" lat="60.4917083379" lon="5.58355278298">
+		<tag k="ssr:gml_id" v="GEOMETRY_2f4dab3a-0997-4eea-bb35-2ee08c304433" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25863" lat="60.5505194442" lon="5.58492499916">
+		<tag k="name" v="Rongveneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249887" />
+	</node>
+	<node id="-25349" lat="60.5720388913" lon="5.58007500636">
+		<tag k="name" v="Varestraumen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45392" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-25860" lat="60.6043111119" lon="5.52722777334">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Øvrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249725" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25856" lat="60.6100222234" lon="5.62658889101">
+		<tag k="ssr:gml_id" v="GEOMETRY_de659e3f-b093-481b-a7cd-8e33e7dee603" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-25855" lat="60.6100194465" lon="5.62658888864">
+		<tag k="ssr:gml_id" v="GEOMETRY_3877a8ff-f9c0-49e8-be48-fe7b26f13fe1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26366" lat="60.5234583369" lon="5.59948332877">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sagatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673963" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26365" lat="60.5237305594" lon="5.68307222402">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Brunatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673959" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25852" lat="60.6321527797" lon="5.62994445196">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Vaultjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249690" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25850" lat="60.5976444428" lon="5.59354167516">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Anortjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249520" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25337" lat="60.4939222203" lon="5.49110833942">
+		<tag k="name" v="Sjogotena" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="44454" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26872" lat="60.6287527792" lon="5.60938610793">
+		<tag k="ssr:gml_id" v="GEOMETRY_4c37bba5-dd74-49cd-bf71-4b5d4454f7aa" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25335" lat="60.506544447" lon="5.42956943665">
+		<tag k="name" v="Valestrandvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="44298" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25845" lat="60.5611972218" lon="5.45998888849">
+		<tag k="name" v="Litlandselvi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249444" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26355" lat="60.5550749983" lon="5.55713611086">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Mykingatjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673625" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26354" lat="60.5576249999" lon="5.56164999423">
+		<tag k="name" v="Settangen" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673619" />
+	</node>
+	<node id="-26353" lat="60.5664638906" lon="5.48798332709">
+		<tag k="alt_name" v="Holavatnet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Holevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673600" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25327" lat="60.5126305563" lon="5.49853611448">
+		<tag k="name" v="Neset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="43724" />
+	</node>
+	<node id="-26348" lat="60.5819361066" lon="5.60518888113">
+		<tag k="ssr:gml_id" v="GEOMETRY_682b2d48-5858-4e08-96a5-f5686078220d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-26347" lat="60.5779305571" lon="5.6013361107">
+		<tag k="ssr:gml_id" v="GEOMETRY_508db0dc-e1ed-4498-aea7-6cc4dd0e0c07" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25322" lat="60.5417805545" lon="5.61919999788">
+		<tag k="name" v="Haukavik" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="43308" />
+	</node>
+	<node id="-26345" lat="60.5964527768" lon="5.6495277746">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Dyrekuptjørni" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673544" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26236" lat="60.6150333316" lon="5.60216110841">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Osvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="612734" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25318" lat="60.5141611112" lon="5.51298332508">
+		<tag k="ssr:gml_id" v="GEOMETRY_b164d2ab-f99b-4303-a494-958a9ee09835" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25317" lat="60.5201916637" lon="5.5016472281">
+		<tag k="ssr:gml_id" v="GEOMETRY_27f67971-bf06-4e0b-894e-8005bd64a718" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26851" lat="60.5717416646" lon="5.4942750045">
+		<tag k="name" v="Fagerdalselva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955737" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-25314" lat="60.5230416699" lon="5.51659999255">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Husavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="6942" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25312" lat="60.5333527766" lon="5.63951943917">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sagatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="6932" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26842" lat="60.5079694433" lon="5.60443610859">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Svartatjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955632" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26327" lat="60.4909027798" lon="5.57496945029">
+		<tag k="name" v="Litlavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="651865" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26837" lat="60.5364416704" lon="5.63350000801">
+		<tag k="name" v="Breivika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955609" />
+	</node>
+	<node id="-26323" lat="60.5454555521" lon="5.36465554955">
+		<tag k="name" v="Jovikelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="651835" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26829" lat="60.483091669" lon="5.6773333257">
+		<tag k="name" v="Tverbekken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955582" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25207" lat="60.5477055563" lon="5.54081111098">
+		<tag k="name" v="Dalaelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409778" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26820" lat="60.5600583368" lon="5.48010833095">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Røslandstjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955512" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26814" lat="60.6515861142" lon="5.6362972303">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Grasdalstjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955420" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26811" lat="60.5775361148" lon="5.5761999988">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Varetj" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955389" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26808" lat="60.5093333298" lon="5.48510555787">
+		<tag k="name" v="Haugvik" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="954733" />
+	</node>
+	<node id="-26294" lat="60.5880638905" lon="5.48291388375">
+		<tag k="name" v="Sæterbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="651554" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26293" lat="60.5443250025" lon="5.54401665786">
+		<tag k="name" v="Fossdalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="651537" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25778" lat="60.5104666631" lon="5.64998055185">
+		<tag k="name" v="Rinnane" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="227441" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25203" lat="60.5134166678" lon="5.48510555322">
+		<tag k="name" v="Stuttåsvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409699" />
+	</node>
+	<node id="-25775" lat="60.6572499961" lon="5.62203056359">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Furnestjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="227425" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25773" lat="60.5661444444" lon="5.56841944299">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Oksatj" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="227381" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25768" lat="60.509769447" lon="5.48593611117">
+		<tag k="name" v="Kristneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="226768" />
+	</node>
+	<node id="-25063" lat="60.5451333324" lon="5.61771666261">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Røstjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="348422" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25763" lat="60.5552944445" lon="5.57377778563">
+		<tag k="ssr:gml_id" v="GEOMETRY_8b9df652-fdf2-4bce-bf46-faa5b6b05912" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-25762" lat="60.5554527809" lon="5.57261110594">
+		<tag k="ssr:gml_id" v="GEOMETRY_fbf83c4e-cb84-4ff1-b646-32d591508148" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-25761" lat="60.5364750015" lon="5.60251110674">
+		<tag k="ssr:gml_id" v="GEOMETRY_497d6205-9231-4ca1-8440-a6f90a9e8a5d" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-26784" lat="60.506416668" lon="5.52046111462">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Eltervatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="916956" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25759" lat="60.5451277752" lon="5.58927222851">
+		<tag k="ssr:gml_id" v="GEOMETRY_0f9da654-a9c1-4c65-a234-dc408d103eec" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25758" lat="60.5654833357" lon="5.55694166204">
+		<tag k="ssr:gml_id" v="GEOMETRY_251d4f33-db42-4ce8-8e96-64dbadde7413" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26779" lat="60.532519445" lon="5.61915555087">
+		<tag k="name" v="Drageidet" />
+		<tag k="natural" v="strait" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="916928" />
+	</node>
+	<node id="-26479" lat="60.4952722254" lon="5.69446666737">
+		<tag k="ssr:gml_id" v="GEOMETRY_3b422595-a465-4e1c-af38-8625480ac147" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25854" lat="60.610019441" lon="5.62658333146">
+		<tag k="ssr:gml_id" v="GEOMETRY_749e6f85-fca5-4ff8-a416-825e6373b843" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26774" lat="60.6269222226" lon="5.61494445311">
+		<tag k="ssr:gml_id" v="GEOMETRY_428a4294-a36c-4e6e-a1c6-71d7592f0b0d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26773" lat="60.6288138853" lon="5.61895000543">
+		<tag k="ssr:gml_id" v="GEOMETRY_f1365dae-e5f7-4c49-9a2a-2faf1c48277d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25235" lat="60.5673944445" lon="5.55425000812">
+		<tag k="name" v="Langaneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="894437" />
+	</node>
+	<node id="-26767" lat="60.508916663" lon="5.44318611901">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kringastemma" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="916484" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25230" lat="60.5095749992" lon="5.4994444439">
+		<tag k="name" v="Mjåsundet" />
+		<tag k="natural" v="strait" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="893684" />
+	</node>
+	<node id="-25741" lat="60.5021999963" lon="5.66259167361">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sluppatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="188997" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26379" lat="60.5033472221" lon="5.65542223075">
+		<tag k="ssr:gml_id" v="GEOMETRY_7acd2901-5f52-4c14-bf15-0fec0a538696" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26758" lat="60.4963055533" lon="5.65379166441">
+		<tag k="ssr:gml_id" v="GEOMETRY_91f1eb56-cc8a-4db6-9be9-168a1b6ea068" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26757" lat="60.4963027787" lon="5.65378889007">
+		<tag k="ssr:gml_id" v="GEOMETRY_73c514d9-62bb-4e5d-ad55-d0f801f485fd" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26243" lat="60.5168249984" lon="5.5604583368">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kupetjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="612962" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25451" lat="60.6188138909" lon="5.60787499133">
+		<tag k="name" v="Kleivelandselva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67725" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26237" lat="60.5165861079" lon="5.48980000749">
+		<tag k="alt_name" v="Borgovatnet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Borgavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="612926" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26748" lat="60.5285472259" lon="5.63538610956">
+		<tag k="name" v="Blautavika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="856935" />
+	</node>
+	<node id="-26745" lat="60.6140749974" lon="5.64733334182">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Vassbotnen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="856741" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25720" lat="60.615844448" lon="5.60986945295">
+		<tag k="name" v="Kupelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="188749" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-26231" lat="60.5619000035" lon="5.56564999808">
+		<tag k="name" v="Hellandsholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="612597" />
+	</node>
+	<node id="-26217" lat="60.544727777" lon="5.37916388903">
+		<tag k="ssr:gml_id" v="GEOMETRY_069d5b50-ce45-4839-8b72-eaa51b51ca7b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25715" lat="60.6025166704" lon="5.52259999636">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Nedrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="188569" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25202" lat="60.541044441" lon="5.51577500481">
+		<tag k="alt_name" v="Svendheimsjøen" />
+		<tag k="name" v="Svenheimssjøen" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409666" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26218" lat="60.5454444483" lon="5.37815833666">
+		<tag k="ssr:gml_id" v="GEOMETRY_0a9946ae-4fa5-4e7d-bd3d-5cf47e96dd80" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25193" lat="60.5370333363" lon="5.61603889097">
+		<tag k="name" v="Skarvika" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409588" />
+	</node>
+	<node id="-25701" lat="60.4913388847" lon="5.65155833297">
+		<tag k="ssr:gml_id" v="GEOMETRY_bcd494d4-44de-4884-bf83-b494fb352991" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25700" lat="60.4913361101" lon="5.65155555923">
+		<tag k="ssr:gml_id" v="GEOMETRY_0412065d-553e-4e5a-a994-e734b75cd8a3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26208" lat="60.4707944463" lon="5.47460278059">
+		<tag k="name" v="Urteigfossen" />
+		<tag k="natural" v="waterfall" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591849" />
+	</node>
+	<node id="-25616" lat="60.6635472191" lon="5.65460832852">
+		<tag k="name" v="Ø. Sørebotnvatn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166419" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26233" lat="60.5538583336" lon="5.47515278369">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Litlandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="612623" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26713" lat="60.4976194422" lon="5.45532500478">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Brakvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="855398" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26198" lat="60.5190166636" lon="5.53318333802">
+		<tag k="name" v="Loståvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591735" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25172" lat="60.6168138878" lon="5.60321388886">
+		<tag k="name" v="Munkeneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409415" />
+	</node>
+	<node id="-25681" lat="60.5517888904" lon="5.57464444494">
+		<tag k="ssr:gml_id" v="GEOMETRY_8216fdd6-7cca-401a-9508-725e413aa641" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25680" lat="60.5586277766" lon="5.6084916622">
+		<tag k="ssr:gml_id" v="GEOMETRY_4fa6c498-5075-4268-b96d-0905501833df" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25167" lat="60.5755583334" lon="5.56822222851">
+		<tag k="name" v="Sponvik" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409385" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25161" lat="60.5007277787" lon="5.52401111284">
+		<tag k="name" v="Skjeråa" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="408715" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25441" lat="60.5554777747" lon="5.50053056462">
+		<tag k="name" v="Kossdalsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67623" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26002" lat="60.5207916698" lon="5.5319750076">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Låstadvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="491935" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26177" lat="60.496922225" lon="5.6933277821">
+		<tag k="name" v="Langavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591547" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25184" lat="60.6019833303" lon="5.54014999655">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Nordretjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409524" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26549" lat="60.4888749976" lon="5.6086499953">
+		<tag k="name" v="Tverrelvane" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773545" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-25148" lat="60.5278277757" lon="5.67251667411">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Stemmetjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370969" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26378" lat="60.5002055559" lon="5.6552472169">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b207af4-bdb5-4c0b-b85c-c2ed47d06052" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25146" lat="60.5380833356" lon="5.59548054762">
+		<tag k="name" v="Peraneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370891" />
+	</node>
+	<node id="-26169" lat="60.6092638847" lon="5.56674722066">
+		<tag k="name" v="Kleppsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591509" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26167" lat="60.4542305519" lon="5.49885000081">
+		<tag k="name" v="Tuftaholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591476" />
+	</node>
+	<node id="-26377" lat="60.4917111139" lon="5.58355555089">
+		<tag k="ssr:gml_id" v="GEOMETRY_85c2ca6e-56fe-4f5e-b77f-c80543bf886c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25866" lat="60.510299997" lon="5.48962500165">
+		<tag k="name" v="Øyåsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249956" />
+	</node>
+	<node id="-25139" lat="60.5566166705" lon="5.59691388875">
+		<tag k="name" v="Symjinga" />
+		<tag k="natural" v="strait" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370629" />
+	</node>
+	<node id="-25138" lat="60.5632194449" lon="5.55738333066">
+		<tag k="name" v="Mykingaholmen" />
+		<tag k="place" v="islet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370602" />
+	</node>
+	<node id="-25137" lat="60.5600638887" lon="5.48112222651">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Røsslandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370603" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25135" lat="60.5880833319" lon="5.59106110782">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Gardstjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370572" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25131" lat="60.5032555585" lon="5.4545638911">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Svidatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="370515" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25641" lat="60.4850888866" lon="5.53729722063">
+		<tag k="name" v="Austadbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166613" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<node id="-25640" lat="60.509811107" lon="5.61624443839">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Litlatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166608" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25639" lat="60.5188055527" lon="5.60859999826">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Svartatjørn" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166607" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25636" lat="60.5420472266" lon="5.61252777677">
+		<tag k="name" v="Hagenes" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166583" />
+	</node>
+	<node id="-25628" lat="60.5852972188" lon="5.5349611075">
+		<tag k="name" v="Herlandsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166539" />
+	</node>
+	<node id="-25627" lat="60.544644441" lon="5.53185833465">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Haugstveitjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166519" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25796" lat="60.518741669" lon="5.64161111416">
+		<tag k="name" v="Vassdalsfj." />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="227607" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26136" lat="60.5147999956" lon="5.58113889098">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Bysheimvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="552983" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26134" lat="60.5128694489" lon="5.49468611388">
+		<tag k="alt_name" v="Revheimneset" />
+		<tag k="name" v="Revheimsneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="552973" />
+	</node>
+	<node id="-25107" lat="60.4903999977" lon="5.60167499719">
+		<tag k="ssr:gml_id" v="GEOMETRY_1226605d-86cf-4215-92ee-5c4a0a2dd0a9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25106" lat="60.4903972221" lon="5.60167222783">
+		<tag k="ssr:gml_id" v="GEOMETRY_73087890-b461-42d8-883e-9b0eb3147a71" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26640" lat="60.5799305513" lon="5.55170277139">
+		<tag k="name" v="Herlandselva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="834391" />
+		<tag k="waterway" v="river" />
+	</node>
+	<node id="-26638" lat="60.5082277803" lon="5.5191611034">
+		<tag k="name" v="Skistadneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="833709" />
+	</node>
+	<node id="-26125" lat="60.6548055523" lon="5.62755277359">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Nordravatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="552685" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-25612" lat="60.5666555543" lon="5.56326666707">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Holmatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="166400" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26632" lat="60.4905055558" lon="5.52810834044">
+		<tag k="ssr:gml_id" v="GEOMETRY_2ea75e5b-2230-4d33-8f09-4aef756e6de7" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-26631" lat="60.4905083329" lon="5.52811110346">
+		<tag k="ssr:gml_id" v="GEOMETRY_ecc823a2-b963-414c-b2a0-8e779b091321" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26630" lat="60.5025972254" lon="5.50786389014">
+		<tag k="ssr:gml_id" v="GEOMETRY_24182cd8-fe22-4292-9130-70a03a532b98" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-26629" lat="60.511549996" lon="5.48511667534">
+		<tag k="name" v="Storneset" />
+		<tag k="natural" v="cape" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="796014" />
+	</node>
+	<node id="-26628" lat="60.5051083291" lon="5.51305556015">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kråkevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="795999" />
+		<tag k="water" v="lake" />
+	</node>
+	<node id="-26115" lat="60.549816669" lon="5.43131944431">
+		<tag k="name" v="Lonane" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="552459" />
+		<tag k="waterway" v="stream" />
+	</node>
+	<way id="-6144">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Vikatjønna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="958997" />
+		<tag k="water" v="lake" />
+		<nd ref="-26872" />
+		<nd ref="-26873" />
+	</way>
+	<way id="-6135">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Kleivelandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="916744" />
+		<tag k="water" v="lake" />
+		<nd ref="-26773" />
+		<nd ref="-26774" />
+	</way>
+	<way id="-6131">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Botnavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="915984" />
+		<tag k="water" v="lake" />
+		<nd ref="-26757" />
+		<nd ref="-26758" />
+	</way>
+	<way id="-6001">
+		<tag k="alt_name" v="Botnavatnet, nedre" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Nedra Botnavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="249719" />
+		<tag k="water" v="lake" />
+		<nd ref="-25854" />
+		<nd ref="-25855" />
+		<nd ref="-25856" />
+	</way>
+	<way id="-6115">
+		<tag k="name" v="Vevleelva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="833290" />
+		<tag k="waterway" v="river" />
+		<nd ref="-26630" />
+		<nd ref="-26631" />
+		<nd ref="-26632" />
+	</way>
+	<way id="-5985">
+		<tag k="name" v="Vestrevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="226358" />
+		<tag k="water" v="lake" />
+		<nd ref="-25758" />
+		<nd ref="-25759" />
+		<nd ref="-25760" />
+		<nd ref="-25761" />
+		<nd ref="-25762" />
+		<nd ref="-25763" />
+	</way>
+	<way id="-5970">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Iglatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="187979" />
+		<tag k="water" v="lake" />
+		<nd ref="-25700" />
+		<nd ref="-25701" />
+	</way>
+	<way id="-5962">
+		<tag k="name" v="Austervatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="176823" />
+		<tag k="water" v="lake" />
+		<nd ref="-25680" />
+		<nd ref="-25681" />
+	</way>
+	<way id="-6071">
+		<tag k="alt_name" v="Grylså" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Grytså;Grøvelselva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673559" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-26346" />
+		<nd ref="-26347" />
+		<nd ref="-26348" />
+	</way>
+	<way id="-5958">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Stokkatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="127945" />
+		<tag k="water" v="lake" />
+		<nd ref="-25588" />
+		<nd ref="-25589" />
+	</way>
+	<way id="-6082">
+		<tag k="name" v="Kvernhuselva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="718617" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-26461" />
+		<nd ref="-26462" />
+	</way>
+	<way id="-5953">
+		<tag k="name" v="Grytsåvågen" />
+		<tag k="natural" v="bay" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="127617" />
+		<nd ref="-25568" />
+		<nd ref="-25569" />
+	</way>
+	<way id="-6079">
+		<tag k="name" v="Kupelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673995" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-26378" />
+		<nd ref="-26379" />
+	</way>
+	<way id="-6078">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Storavatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="673988" />
+		<tag k="water" v="lake" />
+		<nd ref="-26376" />
+		<nd ref="-26377" />
+	</way>
+	<way id="-6090">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Såtevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="733975" />
+		<tag k="water" v="lake" />
+		<nd ref="-26478" />
+		<nd ref="-26479" />
+	</way>
+	<way id="-5943">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Oksatjern" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="106795" />
+		<tag k="water" v="lake" />
+		<nd ref="-25520" />
+		<nd ref="-25521" />
+	</way>
+	<way id="-5941">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Hanstveittjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="104311" />
+		<tag k="water" v="lake" />
+		<nd ref="-25460" />
+		<nd ref="-25461" />
+	</way>
+	<way id="-5939">
+		<tag k="name" v="Kleppsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="67552" />
+		<tag k="water" v="lake" />
+		<nd ref="-25435" />
+		<nd ref="-25436" />
+	</way>
+	<way id="-6053">
+		<tag k="name" v="Klubbelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="597407" />
+		<tag k="waterway" v="river" />
+		<nd ref="-26217" />
+		<nd ref="-26218" />
+	</way>
+	<way id="-5924">
+		<tag k="name" v="Lonelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="6977" />
+		<tag k="waterway" v="river" />
+		<nd ref="-25317" />
+		<nd ref="-25318" />
+	</way>
+	<way id="-5894">
+		<tag k="name" v="Langetjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="303818" />
+		<tag k="water" v="lake" />
+		<nd ref="-25005" />
+		<nd ref="-25006" />
+	</way>
+	<way id="-6044">
+		<tag k="name" v="Daltveitelva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="551997" />
+		<tag k="waterway" v="stream" />
+		<nd ref="-26111" />
+		<nd ref="-26112" />
+	</way>
+	<way id="-6041">
+		<tag k="alt_name" v="Herlandsvatnet" />
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Hellandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="551533" />
+		<tag k="water" v="lake" />
+		<nd ref="-26102" />
+		<nd ref="-26103" />
+		<nd ref="-26104" />
+	</way>
+	<way id="-6033">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Langetjørna;Langevatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="529299" />
+		<tag k="water" v="lake" />
+		<nd ref="-26027" />
+		<nd ref="-26028" />
+		<nd ref="-26029" />
+		<nd ref="-26030" />
+	</way>
+	<way id="-5903">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Sildatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="369978" />
+		<tag k="water" v="lake" />
+		<nd ref="-25106" />
+		<nd ref="-25107" />
+	</way>
+	<way id="-6022">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Askelandsvatnet" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="490979" />
+		<tag k="water" v="lake" />
+		<nd ref="-25982" />
+		<nd ref="-25983" />
+	</way>
+	<way id="-6018">
+		<tag k="fixme" v="consider water=pond" />
+		<tag k="name" v="Vikatjørna" />
+		<tag k="natural" v="water" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470788" />
+		<tag k="water" v="lake" />
+		<nd ref="-25970" />
+		<nd ref="-25971" />
+	</way>
+</osm>

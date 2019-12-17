@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-17926" lat="59.6765055519" lon="10.8805138875">
+		<tag k="ssr:gml_id" v="GEOMETRY_44556487-c210-4b7d-8df7-a8914ff840e2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17125" lat="59.7831166659" lon="10.8596833388">
+		<tag k="ssr:gml_id" v="GEOMETRY_d45856ba-eb38-44d2-86f2-05407ea8f04c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16754" lat="59.7547055523" lon="10.8431694392">
+		<tag k="ssr:gml_id" v="GEOMETRY_75d71fa8-9f54-4cf7-93f1-0a61f961fa03" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16324" lat="59.8040722192" lon="10.8826499921">
+		<tag k="ssr:gml_id" v="GEOMETRY_fe81ea24-3b14-4bfa-8428-833b83a3f2f3" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16756" lat="59.7547027798" lon="10.8431666696">
+		<tag k="ssr:gml_id" v="GEOMETRY_96d9b415-70bc-40b0-99fc-5b614f222f2d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16755" lat="59.7547027767" lon="10.8431694464">
+		<tag k="ssr:gml_id" v="GEOMETRY_5c9b7ecc-98d7-4158-962f-cd956b9d8da2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16402" lat="59.748244444" lon="10.9712083316">
+		<tag k="ssr:gml_id" v="GEOMETRY_ba7eb047-df0b-456b-a460-8ce041d670a8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16401" lat="59.7482472195" lon="10.9712083349">
+		<tag k="ssr:gml_id" v="GEOMETRY_75a584e9-63b8-4a89-a6de-682c6aa5d25f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17072" lat="59.7224111095" lon="10.8614361194">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ski middelalderkirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="488569" />
+	</node>
+	<node id="-16323" lat="59.803905554" lon="10.8828166603">
+		<tag k="ssr:gml_id" v="GEOMETRY_97f760a6-a4e9-4519-8511-2c9541345847" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16978" lat="59.7918055536" lon="10.8874722197">
+		<tag k="ssr:gml_id" v="GEOMETRY_c4d13f20-e105-4acc-b9ff-eacf12451ae1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17927" lat="59.6766416695" lon="10.8807361096">
+		<tag k="ssr:gml_id" v="GEOMETRY_23e5f7ad-7d08-45d0-9c71-012e4b78d1bb" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-17126" lat="59.7828972224" lon="10.860222222">
+		<tag k="ssr:gml_id" v="GEOMETRY_27d61424-4b72-4cab-ae55-e6ba3d890ebe" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-17925" lat="59.6765027804" lon="10.8805111037">
+		<tag k="ssr:gml_id" v="GEOMETRY_666a9db9-26f9-4d05-ba5d-210e8f514f26" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17124" lat="59.783113885" lon="10.8596805472">
+		<tag k="ssr:gml_id" v="GEOMETRY_6921e375-9589-48f6-825e-f7fd14ab7a0e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16977" lat="59.791697221" lon="10.8871944495">
+		<tag k="ssr:gml_id" v="GEOMETRY_a7e7d34a-c940-4cac-8b76-0a87bcf3c294" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16322" lat="59.8039027735" lon="10.8828138828">
+		<tag k="ssr:gml_id" v="GEOMETRY_68c98ab6-b559-49bb-ba9f-888d8b665e0c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<way id="-4505">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Sørmarkskapellet" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="42350" />
+		<nd ref="-16401" />
+		<nd ref="-16402" />
+	</way>
+	<way id="-4596">
+		<tag k="alt_name" v="Langhus" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Langhus kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204420" />
+		<nd ref="-16754" />
+		<nd ref="-16755" />
+		<nd ref="-16756" />
+	</way>
+	<way id="-4648">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Siggerud kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="429332" />
+		<nd ref="-16977" />
+		<nd ref="-16978" />
+	</way>
+	<way id="-4686">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Speiderhytte" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="490305" />
+		<nd ref="-17124" />
+		<nd ref="-17125" />
+		<nd ref="-17126" />
+	</way>
+	<way id="-4491">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Sagatun" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="5254" />
+		<nd ref="-16322" />
+		<nd ref="-16323" />
+		<nd ref="-16324" />
+	</way>
+	<way id="-4872">
+		<tag k="alt_name" v="Kråkstad" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Kråkstad kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="914448" />
+		<nd ref="-17925" />
+		<nd ref="-17926" />
+		<nd ref="-17927" />
+	</way>
+</osm>

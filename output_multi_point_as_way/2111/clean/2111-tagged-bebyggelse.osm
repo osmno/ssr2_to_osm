@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-30" lat="78.6534888906" lon="16.3369361011">
+		<tag k="fixme" v="consider place=suburb, village or hamlet" />
+		<tag k="name" v="Pyramiden" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="466943" />
+	</node>
+	<node id="-21" lat="78.926980554" lon="11.9235889032">
+		<tag k="building" v="yes" />
+		<tag k="name" v="Ny-Ålesund" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="241712" />
+	</node>
+	<node id="-47" lat="77.9002944417" lon="16.7200638866">
+		<tag k="fixme" v="consider place=suburb, village or hamlet" />
+		<tag k="name" v="Sveagruva" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="647943" />
+	</node>
+	<node id="-43" lat="78.9258861137" lon="11.9314027662">
+		<tag k="fixme" v="consider place=suburb, village or hamlet" />
+		<tag k="name" v="Ny-Ålesund" />
+		<tag k="place" v="neighbourhood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="587933" />
+	</node>
+	<node id="-74" lat="78.2231416632" lon="15.6468555386">
+		<tag k="name" v="Longyearbyen" />
+		<tag k="place" v="town" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="966478" />
+	</node>
+	<node id="-65" lat="78.0651027745" lon="14.2097277829">
+		<tag k="name" v="Barentsburg" />
+		<tag k="place" v="town" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="830997" />
+	</node>
+</osm>

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-16383" lat="59.7050583305" lon="10.9539111195">
+		<tag k="name" v="Langetjernmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="22554" />
+	</node>
+	<node id="-16382" lat="59.7049194451" lon="10.966505561">
+		<tag k="name" v="Starrmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="22552" />
+	</node>
+	<node id="-17917" lat="59.7019527806" lon="10.9693777751">
+		<tag k="ssr:gml_id" v="GEOMETRY_d2b74c0f-3cd9-4a41-a401-bd589c2e856d" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-17916" lat="59.7083166682" lon="10.9695333296">
+		<tag k="ssr:gml_id" v="GEOMETRY_32f12c6a-5dd2-43e3-867c-f3f5580601d5" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-17915" lat="59.7071749968" lon="10.9697666646">
+		<tag k="ssr:gml_id" v="GEOMETRY_2afa465d-98cb-4d41-8cc2-a7e6a1a2821c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-17402" lat="59.7391833351" lon="10.8830555501">
+		<tag k="name" v="Midsjøskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628445" />
+	</node>
+	<node id="-17401" lat="59.7487111151" lon="10.9313027795">
+		<tag k="name" v="Bogermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628441" />
+	</node>
+	<node id="-17393" lat="59.7619583366" lon="10.8385722285">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Berghagan" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628374" />
+	</node>
+	<node id="-17390" lat="59.7945999977" lon="10.9604416631">
+		<tag k="name" v="Elgmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628357" />
+	</node>
+	<node id="-16877" lat="59.8250083297" lon="10.9246277859">
+		<tag k="name" v="Tømtmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="264365" />
+	</node>
+	<node id="-16874" lat="59.8029027759" lon="10.8781388848">
+		<tag k="alt_name" v="Sagamyr midtre" />
+		<tag k="name" v="Midtre Sagamyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="264297" />
+	</node>
+	<node id="-17382" lat="59.7774611123" lon="10.8653638806">
+		<tag k="name" v="Langmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628265" />
+	</node>
+	<node id="-16356" lat="59.8029888883" lon="10.9676277759">
+		<tag k="name" v="Store Fjellfugleleiken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="22346" />
+	</node>
+	<node id="-16355" lat="59.8166694427" lon="10.9470361156">
+		<tag k="name" v="Krokholmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="22320" />
+	</node>
+	<node id="-16866" lat="59.7867166637" lon="10.8641194447">
+		<tag k="name" v="Korsmyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="264275" />
+	</node>
+	<node id="-16353" lat="59.7971083357" lon="10.8571444394">
+		<tag k="name" v="Mastemyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="22282" />
+	</node>
+	<node id="-16293" lat="59.7803916664" lon="10.859000005">
+		<tag k="ssr:gml_id" v="GEOMETRY_9bb18466-d678-45a8-885b-259c8ce94cbe" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17914" lat="59.7071750001" lon="10.969769438">
+		<tag k="ssr:gml_id" v="GEOMETRY_5117a194-2232-4760-986f-61aa2cae878c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17880" lat="59.7667249968" lon="10.872241667">
+		<tag k="name" v="Store Lauvåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="871464" />
+	</node>
+	<node id="-17877" lat="59.7552250023" lon="10.8898750066">
+		<tag k="name" v="Mjølmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="871444" />
+	</node>
+	<node id="-17874" lat="59.7344972205" lon="10.8980027738">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Vasshagen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="871422" />
+	</node>
+	<node id="-17873" lat="59.7420555556" lon="10.8908944442">
+		<tag k="name" v="Lunnermåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="871417" />
+	</node>
+	<node id="-17144" lat="59.8094083338" lon="10.9214833416">
+		<tag k="name" v="Lusetjernmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507267" />
+	</node>
+	<node id="-16327" lat="59.8054305537" lon="10.8966416694">
+		<tag k="ssr:gml_id" v="GEOMETRY_7de49d83-5039-45b0-96d1-5c01e24acfd9" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16326" lat="59.8034416702" lon="10.8964111115">
+		<tag k="ssr:gml_id" v="GEOMETRY_9af25a20-5325-40c0-8aa6-0562172287c0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17861" lat="59.74391944" lon="10.8935000065">
+		<tag k="name" v="Eikjolmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="871289" />
+	</node>
+	<node id="-17343" lat="59.8224277769" lon="10.9214027801">
+		<tag k="ssr:gml_id" v="GEOMETRY_cbd3ffd4-2e5f-41b9-ae83-aa49518499f8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-17342" lat="59.8224249972" lon="10.9213999979">
+		<tag k="ssr:gml_id" v="GEOMETRY_4aaa8ba8-66c3-4147-aea3-060a4b9da187" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17341" lat="59.8224250019" lon="10.9213972155">
+		<tag k="ssr:gml_id" v="GEOMETRY_6b8dab05-ab10-4c42-9983-ff48dbfe4f0a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16296" lat="59.7972249993" lon="10.8694444504">
+		<tag k="ssr:gml_id" v="GEOMETRY_f4790ad6-57e1-471f-8165-88a17603b573" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-16295" lat="59.7972277747" lon="10.8694444454">
+		<tag k="ssr:gml_id" v="GEOMETRY_92864fe2-7159-483f-aa73-7791cd10e6d2" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16294" lat="59.7803944419" lon="10.858999999">
+		<tag k="ssr:gml_id" v="GEOMETRY_ff289f69-436d-4b96-b88d-9c5f36341041" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16625" lat="59.8153861148" lon="10.9620694491">
+		<tag k="name" v="Vesle Skjelbreimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="143311" />
+	</node>
+	<node id="-16624" lat="59.7898194425" lon="10.8733222136">
+		<tag k="name" v="Stormyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="143269" />
+	</node>
+	<node id="-16790" lat="59.6816999958" lon="10.8757527833">
+		<tag k="name" v="Sigtunmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204495" />
+	</node>
+	<node id="-16786" lat="59.7328222227" lon="10.872147221">
+		<tag k="name" v="Åråsmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204396" />
+	</node>
+	<node id="-17389" lat="59.8258305552" lon="10.9381666737">
+		<tag k="name" v="Benkemyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628351" />
+	</node>
+	<node id="-16774" lat="59.8197250017" lon="10.9502472177">
+		<tag k="name" v="Skjelbreimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204305" />
+	</node>
+	<node id="-16258" lat="59.7155111091" lon="10.9305111175">
+		<tag k="name" v="Kattemyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386616" />
+	</node>
+	<node id="-16256" lat="59.7297833334" lon="10.9468111055">
+		<tag k="name" v="Høymyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386610" />
+	</node>
+	<node id="-16767" lat="59.6882027778" lon="10.9260444491">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Steinum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204481" />
+	</node>
+	<node id="-16248" lat="59.7611083335" lon="10.8780361072">
+		<tag k="name" v="Lille Droplemyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386471" />
+	</node>
+	<node id="-16757" lat="59.7543750016" lon="10.8473000065">
+		<tag k="landuse" v="farmland" />
+		<tag k="name" v="Arnestadjordet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204421" />
+	</node>
+	<node id="-17778" lat="59.7313888922" lon="10.9571333401">
+		<tag k="historic" v="summer_mountain_farm" />
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Sagstua" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="811412" />
+	</node>
+	<node id="-17774" lat="59.7969833326" lon="10.948630563">
+		<tag k="name" v="Fjellslåmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="811354" />
+	</node>
+	<node id="-16237" lat="59.7370138845" lon="10.9012527862">
+		<tag k="name" v="Solbergmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386420" />
+	</node>
+	<node id="-17768" lat="59.7853944412" lon="10.8483749989">
+		<tag k="name" v="Rundmyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="811264" />
+	</node>
+	<node id="-17764" lat="59.6775583293" lon="10.8534777855">
+		<tag k="name" v="Prestegårdskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="810760" />
+	</node>
+	<node id="-17251" lat="59.8161638901" lon="10.9268388856">
+		<tag k="name" v="Vesle Hagamyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="567353" />
+	</node>
+	<node id="-16226" lat="59.762438887" lon="10.9512472155">
+		<tag k="name" v="Kavringen" />
+		<tag k="natural" v="stone" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386299" />
+	</node>
+	<node id="-17249" lat="59.8071527746" lon="10.9534750081">
+		<tag k="name" v="Gråbeinmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="567340" />
+	</node>
+	<node id="-16224" lat="59.8038361145" lon="10.8944333346">
+		<tag k="name" v="Torvet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386284" />
+	</node>
+	<node id="-16221" lat="59.7762222265" lon="10.8809888861">
+		<tag k="name" v="Bukkestimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="386269" />
+	</node>
+	<node id="-17242" lat="59.7701027749" lon="10.8793944446">
+		<tag k="name" v="Holmenmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="567270" />
+	</node>
+	<node id="-17913" lat="59.7071722181" lon="10.9697638881">
+		<tag k="ssr:gml_id" v="GEOMETRY_a1331d8b-8788-4d39-8cfa-1722d4fb50d0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17380" lat="59.7698833365" lon="10.8652777859">
+		<tag k="name" v="Marimyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628259" />
+	</node>
+	<node id="-17282" lat="59.6996555522" lon="10.9424361141">
+		<tag k="name" v="Høleløkka" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="567523" />
+	</node>
+	<node id="-16717" lat="59.7790805547" lon="10.9611333389">
+		<tag k="ssr:gml_id" v="GEOMETRY_1814b4ef-2523-4ed0-b22d-e8f4688d94d9" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-16716" lat="59.7794111091" lon="10.9615305584">
+		<tag k="ssr:gml_id" v="GEOMETRY_fad5a8a0-96ab-4f84-8a4d-51d4febee057" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16715" lat="59.7794166672" lon="10.9615361045">
+		<tag k="ssr:gml_id" v="GEOMETRY_48dbc403-1ba4-419f-ac4c-be370a5cf6d6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16714" lat="59.779413888" lon="10.9615333404">
+		<tag k="ssr:gml_id" v="GEOMETRY_38e79a85-6b63-4224-bd96-3ddc502d839c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17889" lat="59.7108333319" lon="10.967241662">
+		<tag k="name" v="Jensebu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="871526" />
+	</node>
+	<node id="-16195" lat="59.773502776" lon="10.845358326">
+		<tag k="ssr:gml_id" v="GEOMETRY_5dc49142-5c59-4440-8a54-53210883ea31" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16194" lat="59.7735416633" lon="10.8456138921">
+		<tag k="ssr:gml_id" v="GEOMETRY_3d62188e-fdd6-400d-afe0-9990a70793fa" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16166" lat="59.7338666685" lon="10.9239222188">
+		<tag k="ssr:gml_id" v="GEOMETRY_b678192c-f119-44e0-94f9-5de704c67db6" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16165" lat="59.7353999984" lon="10.9254000053">
+		<tag k="ssr:gml_id" v="GEOMETRY_9b8d5c46-bb2d-40a7-9250-5fa613f6b6f6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16164" lat="59.7354000031" lon="10.9253972301">
+		<tag k="ssr:gml_id" v="GEOMETRY_c8adb501-e4b5-4b82-a73a-51abb71290d1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17184" lat="59.6755138849" lon="10.8425722277">
+		<tag k="name" v="Grytelandskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507754" />
+	</node>
+	<node id="-17175" lat="59.7216833364" lon="10.9592333407">
+		<tag k="name" v="Gjetsjømåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507541" />
+	</node>
+	<node id="-17172" lat="59.6845749963" lon="10.9325916676">
+		<tag k="name" v="Ødemark" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507518" />
+	</node>
+	<node id="-17168" lat="59.674488891" lon="10.8854805522">
+		<tag k="name" v="Hanselund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507482" />
+	</node>
+	<node id="-17794" lat="59.6272888894" lon="10.8819027715">
+		<tag k="name" v="Grønstvetskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="811713" />
+	</node>
+	<node id="-16639" lat="59.6400777743" lon="10.898594442">
+		<tag k="name" v="Bjerkemåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="143512" />
+	</node>
+	<node id="-17149" lat="59.8045555568" lon="10.8757583317">
+		<tag k="alt_name" v="Sagamyr nedre" />
+		<tag k="name" v="Nedre Sagamyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507284" />
+	</node>
+	<node id="-16123" lat="59.7249111139" lon="10.8909333351">
+		<tag k="name" v="Midsjømåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="325438" />
+	</node>
+	<node id="-17656" lat="59.6837249987" lon="10.871377782">
+		<tag k="name" v="Vangsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="750530" />
+	</node>
+	<node id="-16627" lat="59.7849583308" lon="10.9363000013">
+		<tag k="name" v="Fugleleiken" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="143225" />
+	</node>
+	<node id="-16113" lat="59.7726527805" lon="10.8713416696">
+		<tag k="name" v="Nordre Lauvåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="325289" />
+	</node>
+	<node id="-16112" lat="59.7687916696" lon="10.8940694377">
+		<tag k="name" v="Breimåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="325283" />
+	</node>
+	<node id="-16623" lat="59.7942472241" lon="10.8798611175">
+		<tag k="name" v="Nordgardsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="143265" />
+	</node>
+	<node id="-17639" lat="59.8214777808" lon="10.9319166604">
+		<tag k="name" v="Starrmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="750335" />
+	</node>
+	<node id="-16099" lat="59.7502055521" lon="10.965233341">
+		<tag k="name" v="Bekkenstein" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="325320" />
+	</node>
+	<node id="-17633" lat="59.8121555587" lon="10.952208338">
+		<tag k="name" v="Tømmeråsmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="750312" />
+	</node>
+	<node id="-16096" lat="59.7922555552" lon="10.8635194453">
+		<tag k="name" v="Korsmyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="325310" />
+	</node>
+	<node id="-16095" lat="59.8040722214" lon="10.904788897">
+		<tag k="name" v="Kransagmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="325304" />
+	</node>
+	<node id="-17628" lat="59.7769861148" lon="10.8872388833">
+		<tag k="name" v="Bjønnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="750245" />
+	</node>
+	<node id="-17627" lat="59.7736444419" lon="10.8587277806">
+		<tag k="name" v="Øvre Fugleåsmyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="750238" />
+	</node>
+	<node id="-16086" lat="59.7607944434" lon="10.8710583327">
+		<tag k="ssr:gml_id" v="GEOMETRY_27c33139-7514-45e2-88a6-125b348f643b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16085" lat="59.7607388922" lon="10.8702555481">
+		<tag k="ssr:gml_id" v="GEOMETRY_ba40c2d4-bba5-4f0e-869c-31d8fc75f6ea" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16084" lat="59.7607361113" lon="10.8702527753">
+		<tag k="ssr:gml_id" v="GEOMETRY_50896d56-ee3d-4a7c-935d-c6c95ab5f107" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17617" lat="59.8205972199" lon="10.9277027793">
+		<tag k="ssr:gml_id" v="GEOMETRY_55f03374-0309-4238-8def-5c9c02e3d4f9" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-17616" lat="59.8203833309" lon="10.927063888">
+		<tag k="ssr:gml_id" v="GEOMETRY_e7966f2b-b261-42c7-ab39-594b36223d06" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-17615" lat="59.8203805513" lon="10.9270611054">
+		<tag k="ssr:gml_id" v="GEOMETRY_414bd0b6-c55f-47bb-866a-dc7f11ac8d6a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16588" lat="59.7996722246" lon="10.8744499956">
+		<tag k="ssr:gml_id" v="GEOMETRY_d9c2bb07-8da6-42dc-be2e-2fee802667ea" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-16587" lat="59.7997222206" lon="10.8730111176">
+		<tag k="ssr:gml_id" v="GEOMETRY_54e2562f-61d4-4b47-95fe-89b4d5bb818b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16586" lat="59.7996749998" lon="10.8744500088">
+		<tag k="ssr:gml_id" v="GEOMETRY_0d980d05-d893-4a6a-a42c-578d0212d30a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16585" lat="59.7996750016" lon="10.8744555526">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ec36482-3aa2-45d2-83b6-73748797aaa7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16053" lat="59.7230138888" lon="10.9473527794">
+		<tag k="ssr:gml_id" v="GEOMETRY_9d42a5d0-ba3d-441f-b059-e690073f9ec6" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-16052" lat="59.7184194427" lon="10.9346138915">
+		<tag k="ssr:gml_id" v="GEOMETRY_9919c682-0c40-4542-9672-2a77dd53ac15" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-16051" lat="59.7160111137" lon="10.9422944411">
+		<tag k="ssr:gml_id" v="GEOMETRY_5fc80786-9cae-44a4-a3b5-bd23dae9f867" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-16325" lat="59.8034388899" lon="10.896408333">
+		<tag k="ssr:gml_id" v="GEOMETRY_d456d917-f035-4b7c-be04-af2c7c3fca92" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-17558" lat="59.6819138882" lon="10.9109888871">
+		<tag k="name" v="Sandaker" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="689493" />
+	</node>
+	<node id="-17554" lat="59.6603416682" lon="10.84666945">
+		<tag k="name" v="Vålskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="689472" />
+	</node>
+	<node id="-17041" lat="59.7177527815" lon="10.893438885">
+		<tag k="name" v="Skisengmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="447604" />
+	</node>
+	<node id="-16528" lat="59.7308055559" lon="10.8120500071">
+		<tag k="name" v="Hebekkmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="83590" />
+	</node>
+	<node id="-16517" lat="59.7189611107" lon="10.9163694434">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Grøstadhagen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="83606" />
+	</node>
+	<node id="-16515" lat="59.6777583339" lon="10.8682805553">
+		<tag k="landuse" v="farmland" />
+		<tag k="name" v="Gunnarsrud" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="82734" />
+	</node>
+	<node id="-17025" lat="59.7498333331" lon="10.9004500083">
+		<tag k="name" v="Snippemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="447440" />
+	</node>
+	<node id="-17536" lat="59.775394441" lon="10.9743888809">
+		<tag k="name" v="Skrivermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="689346" />
+	</node>
+	<node id="-17020" lat="59.7360305556" lon="10.9760833273">
+		<tag k="name" v="Flaket" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="447395" />
+	</node>
+	<node id="-17014" lat="59.7615333325" lon="10.8450222275">
+		<tag k="landuse" v="farmland" />
+		<tag k="name" v="Haugjordet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="447356" />
+	</node>
+	<node id="-17010" lat="59.800613886" lon="10.8968833302">
+		<tag k="name" v="Øvre Starrmyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="447252" />
+	</node>
+	<node id="-16495" lat="59.6717527776" lon="10.8685388962">
+		<tag k="name" v="Bjastadskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="82504" />
+	</node>
+	<node id="-17006" lat="59.6782305536" lon="10.8722944516">
+		<tag k="name" v="Smedsrud" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="446760" />
+	</node>
+	<node id="-16482" lat="59.814241665" lon="10.896761111">
+		<tag k="name" v="Hestemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="82353" />
+	</node>
+	<node id="-16480" lat="59.7947777794" lon="10.8556583271">
+		<tag k="name" v="Gudebildet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="82285" />
+	</node>
+	<node id="-16770" lat="59.7712833317" lon="10.8573833269">
+		<tag k="name" v="Nedre Fugleåsmyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="204234" />
+	</node>
+	<node id="-17998" lat="59.7574694418" lon="10.8588416685">
+		<tag k="name" v="Jonsrudmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="932467" />
+	</node>
+	<node id="-17996" lat="59.7479000005" lon="10.9097416743">
+		<tag k="name" v="Stokstadmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="932459" />
+	</node>
+	<node id="-17993" lat="59.7279138853" lon="10.87855833">
+		<tag k="name" v="Herustimåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="932440" />
+	</node>
+	<node id="-17163" lat="59.7653861074" lon="10.8900833283">
+		<tag k="name" v="Ormemåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="507440" />
+	</node>
+	<node id="-17248" lat="59.7794083314" lon="10.954138892">
+		<tag k="name" v="Muskedalsmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="567339" />
+	</node>
+	<node id="-17970" lat="59.7642166673" lon="10.8516944369">
+		<tag k="name" v="Bregnefaret" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="932367" />
+	</node>
+	<node id="-17964" lat="59.7724416683" lon="10.9638638825">
+		<tag k="name" v="Grubemåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="932335" />
+	</node>
+	<node id="-17960" lat="59.7877194423" lon="10.894699992">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Tangenhagen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="932262" />
+	</node>
+	<node id="-17948" lat="59.7997253694" lon="10.9661370071">
+		<tag k="name" v="Fjellfugleleiken" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2018-03-20" />
+		<tag k="ssr:stedsnr" v="915353" />
+	</node>
+	<node id="-17424" lat="59.6369999996" lon="10.874911115">
+		<tag k="name" v="Jaerskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628713" />
+	</node>
+	<node id="-17423" lat="59.7100277734" lon="10.9038277796">
+		<tag k="name" v="Myrerhagan" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628601" />
+	</node>
+	<node id="-17422" lat="59.7183583375" lon="10.934438887">
+		<tag k="name" v="Breimåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628593" />
+	</node>
+	<node id="-16394" lat="59.6341361079" lon="10.9157916613">
+		<tag k="name" v="Ambjørnrudmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="22719" />
+	</node>
+	<node id="-17412" lat="59.6721555593" lon="10.9249722154">
+		<tag k="landuse" v="farmland" />
+		<tag k="name" v="Langli" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="628488" />
+	</node>
+	<way id="-4736">
+		<tag k="name" v="Fugleleiken" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="611283" />
+		<nd ref="-17341" />
+		<nd ref="-17342" />
+		<nd ref="-17343" />
+	</way>
+	<way id="-4436">
+		<tag k="alt_name" v="Store Droplemyra" />
+		<tag k="name" v="Droplemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="308365" />
+		<nd ref="-16084" />
+		<nd ref="-16085" />
+		<nd ref="-16086" />
+	</way>
+	<way id="-4464">
+		<tag k="alt_name" v="Breimåsan" />
+		<tag k="name" v="Breidmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name" v="Breidmosan" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="368460" />
+		<nd ref="-16194" />
+		<nd ref="-16195" />
+	</way>
+	<way id="-4492">
+		<tag k="alt_name" v="Nedre Starrmyr" />
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="5255" />
+		<nd ref="-16325" />
+		<nd ref="-16326" />
+		<nd ref="-16327" />
+	</way>
+	<way id="-4455">
+		<tag k="alt_name" v="Solbotmåsan" />
+		<tag k="name" v="Solbatmosan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="367544" />
+		<nd ref="-16164" />
+		<nd ref="-16165" />
+		<nd ref="-16166" />
+	</way>
+	<way id="-4424">
+		<tag k="name" v="Dammyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="306551" />
+		<nd ref="-16051" />
+		<nd ref="-16052" />
+		<nd ref="-16053" />
+	</way>
+	<way id="-4583">
+		<tag k="alt_name" v="Slåmyr" />
+		<tag k="name" v="Slåmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="186474" />
+		<nd ref="-16714" />
+		<nd ref="-16715" />
+		<nd ref="-16716" />
+		<nd ref="-16717" />
+	</way>
+	<way id="-4549">
+		<tag k="name" v="Sauemåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="125377" />
+		<nd ref="-16585" />
+		<nd ref="-16586" />
+		<nd ref="-16587" />
+		<nd ref="-16588" />
+	</way>
+	<way id="-4868">
+		<tag k="name" v="Orremåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="914384" />
+		<nd ref="-17913" />
+		<nd ref="-17914" />
+		<nd ref="-17915" />
+		<nd ref="-17916" />
+		<nd ref="-17917" />
+	</way>
+	<way id="-4482">
+		<tag k="name" v="Sørmarka" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="4327" />
+		<nd ref="-16293" />
+		<nd ref="-16294" />
+		<nd ref="-16295" />
+		<nd ref="-16296" />
+	</way>
+	<way id="-4801">
+		<tag k="alt_name" v="Store Hagamyr" />
+		<tag k="name" v="Stormyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="733271" />
+		<nd ref="-17615" />
+		<nd ref="-17616" />
+		<nd ref="-17617" />
+	</way>
+</osm>

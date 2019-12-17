@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-53060" lat="58.0300055521" lon="7.45960000726">
+		<tag k="ssr:gml_id" v="GEOMETRY_c996d8ef-e0d0-4aaf-ada5-77889b253ef2" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-53059" lat="58.0263305575" lon="7.45015556226">
+		<tag k="ssr:gml_id" v="GEOMETRY_8e07a7f7-bd18-419f-a56b-25d127d15f9e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-53058" lat="58.0263277817" lon="7.45015556382">
+		<tag k="ssr:gml_id" v="GEOMETRY_8fd35f88-2b8f-4499-85e9-6a431fb18870" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<way id="-11332">
+		<tag k="name" v="Mandal kommune" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934142" />
+		<nd ref="-53058" />
+		<nd ref="-53059" />
+		<nd ref="-53060" />
+	</way>
+</osm>

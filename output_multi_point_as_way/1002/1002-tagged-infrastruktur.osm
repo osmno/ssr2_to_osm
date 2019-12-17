@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-53237" lat="58.0337999966" lon="7.47314445228">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Buøy" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955165" />
+	</node>
+	<node id="-50676" lat="58.0078055594" lon="7.52683610346">
+		<tag k="leisure" v="marina" />
+		<tag k="name" v="Kigestranda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="267369" />
+	</node>
+	<node id="-53235" lat="58.0057583312" lon="7.49815834089">
+		<tag k="ssr:gml_id" v="GEOMETRY_6bf50967-c60c-46b2-aba5-ed9a8dfe1119" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-53234" lat="58.0229138865" lon="7.4608666584">
+		<tag k="ssr:gml_id" v="GEOMETRY_180f1de5-d02d-4c75-a497-e42f7fcb67b3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-53233" lat="58.0230111105" lon="7.46091388559">
+		<tag k="ssr:gml_id" v="GEOMETRY_9aa40f91-9b05-45ae-9257-573703756591" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51184" lat="58.0202722261" lon="7.44834999628">
+		<tag k="name" v="Sjøsanden" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="510202" />
+	</node>
+	<node id="-51692" lat="58.010750004" lon="7.38823055184">
+		<tag k="ssr:gml_id" v="GEOMETRY_7aca1549-0ec7-44f8-a233-f3cdc53a8093" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51691" lat="58.010838887" lon="7.38833334069">
+		<tag k="ssr:gml_id" v="GEOMETRY_813c3dac-cde1-49fa-9fdc-8a5c2e823e24" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-49640" lat="58.0081638929" lon="7.53630000605">
+		<tag k="leisure" v="marina" />
+		<tag k="name" v="Åmlandsstranda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24391" />
+	</node>
+	<node id="-51024" lat="57.9895000043" lon="7.59501945253">
+		<tag k="ssr:gml_id" v="GEOMETRY_217fd6f0-b00a-4a0e-adf0-4ec0181481d6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-52180" lat="58.0018694458" lon="7.56834167341">
+		<tag k="name" v="Saltbåene" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="723158" />
+	</node>
+	<node id="-52178" lat="58.0035750029" lon="7.51493333226">
+		<tag k="name" v="Skjernøysundodden" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="723067" />
+	</node>
+	<node id="-52177" lat="58.0776972239" lon="7.51555834068">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Langeland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="713155" />
+	</node>
+	<node id="-52176" lat="58.0606027748" lon="7.50654999945">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Sodeland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="713146" />
+	</node>
+	<node id="-51148" lat="58.0694416682" lon="7.54368888427">
+		<tag k="name" v="Manneveien" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="508614" />
+	</node>
+	<node id="-52683" lat="58.026783332" lon="7.35110833028">
+		<tag k="name" v="Gjallaråsen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="845241" />
+	</node>
+	<node id="-52682" lat="58.097861107" lon="7.52997499379">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Nødbekk" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="834182" />
+	</node>
+	<node id="-52681" lat="58.0524138894" lon="7.49951666409">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Leirkjær" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="834177" />
+	</node>
+	<node id="-52680" lat="58.1270750043" lon="7.53139444239">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Bjørkenes" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="834153" />
+	</node>
+	<node id="-52156" lat="57.9986527742" lon="7.53343056016">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Bergstøbrygga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="693943" />
+	</node>
+	<node id="-53236" lat="58.0057666629" lon="7.49797222697">
+		<tag k="ssr:gml_id" v="GEOMETRY_4b283816-8380-4ce0-a281-2695adf95e8f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-52659" lat="58.0255527771" lon="7.65557221745">
+		<tag k="fixme" v="verify maritime location" />
+		<tag k="mooring" v="yes" />
+		<tag k="name" v="Tømmerstø" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="815628" />
+	</node>
+	<node id="-51621" lat="58.0039999964" lon="7.45470832532">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f066dbc-645c-4bef-8d25-71e1592f60e0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51620" lat="58.0039999975" lon="7.45463889258">
+		<tag k="ssr:gml_id" v="GEOMETRY_4556bcf6-9d8f-43ec-bdb3-39a550d1b502" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51618" lat="58.0522277764" lon="7.57977499579">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Glubekilen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591133" />
+	</node>
+	<node id="-50589" lat="58.0362444476" lon="7.51973333291">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Storbekken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="227160" />
+	</node>
+	<node id="-50588" lat="57.9925333356" lon="7.50399445086">
+		<tag k="name" v="Dyrstadvågen østre molo" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="226814" />
+	</node>
+	<node id="-52121" lat="58.0437861071" lon="7.4318444431">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="name" v="Stavvollveien" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="693214" />
+	</node>
+	<node id="-50070" lat="58.0614499974" lon="7.39461666388">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Rossehagen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="106147" />
+	</node>
+	<node id="-50069" lat="57.974527781" lon="7.53385554726">
+		<tag k="name" v="Ellingsholmen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="105256" />
+	</node>
+	<node id="-50068" lat="57.9917861138" lon="7.49713611333">
+		<tag k="name" v="Madodden" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="89064" />
+	</node>
+	<node id="-52114" lat="58.0203083362" lon="7.429263888">
+		<tag k="ssr:gml_id" v="GEOMETRY_b1f927eb-e6c1-4a1d-9d11-50c16ec7fdfe" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-52113" lat="58.0202638881" lon="7.43019166385">
+		<tag k="ssr:gml_id" v="GEOMETRY_898694b8-c2fe-4157-a38d-1d4c431d8103" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-52112" lat="58.0202638872" lon="7.42971389394">
+		<tag k="ssr:gml_id" v="GEOMETRY_7d878b9e-65e5-4218-842c-462e988d0a23" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-49550" lat="58.003449996" lon="7.44941667312">
+		<tag k="ssr:gml_id" v="GEOMETRY_b193b7e7-1bdf-44ec-a5a2-0521173dbf3d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49549" lat="58.0034583291" lon="7.44943333647">
+		<tag k="ssr:gml_id" v="GEOMETRY_82a83ecf-efce-4f5e-9fbe-17edb201523a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51587" lat="58.0222500026" lon="7.42395833991">
+		<tag k="leisure" v="marina" />
+		<tag k="name" v="Nordstranda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="572184" />
+	</node>
+	<node id="-51074" lat="58.0283083369" lon="7.4587361065">
+		<tag k="ssr:gml_id" v="GEOMETRY_10a5f923-1e2d-4556-9f71-b4f16ddde825" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51073" lat="58.0272333342" lon="7.45961111109">
+		<tag k="ssr:gml_id" v="GEOMETRY_c650b161-161c-4537-933b-a362464d80db" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51072" lat="58.024719445" lon="7.46556388177">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Fiskåbekk kulvert" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470136" />
+	</node>
+	<node id="-51071" lat="58.0184499997" lon="7.47688054734">
+		<tag k="ssr:gml_id" v="GEOMETRY_723708c3-992a-4bb2-9c3d-d4116b9e4958" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51070" lat="58.0191972177" lon="7.47609444216">
+		<tag k="ssr:gml_id" v="GEOMETRY_14552c88-9488-4f00-a598-01b6f2ee0127" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51069" lat="58.030125003" lon="7.47305555366">
+		<tag k="ssr:gml_id" v="GEOMETRY_f170207b-bf20-463c-98f8-5823eec0b8fd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51068" lat="58.029827776" lon="7.47595554853">
+		<tag k="ssr:gml_id" v="GEOMETRY_003ea5b6-cbee-4655-8fb6-2b559939ba53" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51067" lat="57.960177774" lon="7.56756944357">
+		<tag k="name" v="Odknuppen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="469239" />
+	</node>
+	<node id="-51347" lat="58.1307305526" lon="7.48354721683">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Solås" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="530186" />
+	</node>
+	<node id="-51346" lat="57.9954944453" lon="7.56774999333">
+		<tag k="ssr:gml_id" v="GEOMETRY_57aae0d1-e695-4c5b-8885-ae4ace36febc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49510" lat="58.0620499987" lon="7.50663611545">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Sodeland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="895144" />
+	</node>
+	<node id="-49506" lat="58.122222219" lon="7.51730000265">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Fodnebø" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409185" />
+	</node>
+	<node id="-49505" lat="58.0301222221" lon="7.46785554847">
+		<tag k="ssr:gml_id" v="GEOMETRY_8a9a616b-2a30-4b75-9b04-045ea1c8b247" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49504" lat="58.0298500024" lon="7.46933889243">
+		<tag k="ssr:gml_id" v="GEOMETRY_7d937ba7-4a40-4d63-9b67-fc42588d7a31" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-49503" lat="58.036263893" lon="7.50908889245">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Berge" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409172" />
+	</node>
+	<node id="-49502" lat="58.0341277756" lon="7.45519166348">
+		<tag k="ssr:gml_id" v="GEOMETRY_b85aeb64-6787-46ab-83df-a36493c6195e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49501" lat="58.030799999" lon="7.46788056241">
+		<tag k="ssr:gml_id" v="GEOMETRY_256f8927-7d29-4f9f-97fe-8a73fb1c5efc" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-49500" lat="58.022724996" lon="7.46031666793">
+		<tag k="ssr:gml_id" v="GEOMETRY_e7a9be12-a596-443d-ab5f-10190babf228" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49499" lat="58.022569444" lon="7.46005277523">
+		<tag k="ssr:gml_id" v="GEOMETRY_15537708-79d6-4c99-8458-edb8eaa72f4b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-48980" lat="58.0105611101" lon="7.56706111571">
+		<tag k="name" v="Tregde, Øvre" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="298084" />
+	</node>
+	<node id="-51025" lat="57.989588888" lon="7.59508889304">
+		<tag k="ssr:gml_id" v="GEOMETRY_08bbe102-d13a-40bf-9b9c-1f55f0162222" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-48976" lat="58.0567083354" lon="7.36528332989">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Fasselandsvannet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288155" />
+	</node>
+	<node id="-48975" lat="58.1296500012" lon="7.53011943851">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Smeland Armcorør" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="288151" />
+	</node>
+	<node id="-49988" lat="58.0277222237" lon="7.45706945244">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Fiskebrygga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="86141" />
+	</node>
+	<node id="-49967" lat="58.1469888858" lon="7.54188333887">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Aksteveien" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="85877" />
+	</node>
+	<node id="-49413" lat="58.1212361111" lon="7.52968332516">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Stoveland bru" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="388911" />
+	</node>
+	<node id="-52984" lat="58.0089722204" lon="7.56560278324">
+		<tag k="name" v="Tregde, Nedre" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="905075" />
+	</node>
+	<node id="-52983" lat="58.0043777763" lon="7.50750555064">
+		<tag k="name" v="Skotholmen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="905073" />
+	</node>
+	<node id="-50930" lat="58.0997666654" lon="7.55181389306">
+		<tag k="ssr:gml_id" v="GEOMETRY_89547d04-fa5c-4ecf-be88-4b01c20a8746" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-50929" lat="58.0998611118" lon="7.55185555411">
+		<tag k="ssr:gml_id" v="GEOMETRY_68bdabba-a6d1-4abb-bcb0-b9fa96c1990c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-49903" lat="58.093611114" lon="7.62944166291">
+		<tag k="ssr:gml_id" v="GEOMETRY_da20147a-5700-432a-ab64-3cfef22ea1dc" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-49902" lat="58.0936138927" lon="7.62944444025">
+		<tag k="ssr:gml_id" v="GEOMETRY_903d67b6-3a8c-408f-b778-f0850a126d74" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-49901" lat="58.0929805512" lon="7.62906110487">
+		<tag k="ssr:gml_id" v="GEOMETRY_2a13a853-4e72-4342-8aed-4a3cf77df705" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49900" lat="58.0930472254" lon="7.62499166374">
+		<tag k="ssr:gml_id" v="GEOMETRY_7ff239d9-aa74-47df-82b0-fac1b9dd95ef" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-50923" lat="58.1084083299" lon="7.49087500319">
+		<tag k="name" v="Slåttebrotet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="449456" />
+	</node>
+	<node id="-51946" lat="58.013041665" lon="7.6684833349">
+		<tag k="ssr:gml_id" v="GEOMETRY_2df8b462-2b59-444b-9720-d1175d003f5b" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-51945" lat="58.0130388872" lon="7.66848056067">
+		<tag k="ssr:gml_id" v="GEOMETRY_1845da08-a831-4159-b8b1-ff1eb96ef08a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-51944" lat="58.0130444429" lon="7.66848610913">
+		<tag k="ssr:gml_id" v="GEOMETRY_fd3ce2f0-1c90-4a44-8e89-f27a349a9c43" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51943" lat="58.0129916633" lon="7.66828055727">
+		<tag k="ssr:gml_id" v="GEOMETRY_f52626eb-f1c0-466a-9db8-5cdddfd3e8f2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-52453" lat="58.0259777818" lon="7.33900277941">
+		<tag k="ssr:gml_id" v="GEOMETRY_b22c5e5b-c8ac-4c98-80f7-7bd135e43837" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-52452" lat="58.0259805576" lon="7.33900276924">
+		<tag k="ssr:gml_id" v="GEOMETRY_6d63f99c-b3f4-47ea-8646-ca08d22e48ba" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-49373" lat="58.1003277752" lon="7.49596389416">
+		<tag k="name" v="Storkleiva" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="388500" />
+	</node>
+	<node id="-52430" lat="58.0274055572" lon="7.40353611313">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Rennes" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773183" />
+	</node>
+	<node id="-52429" lat="58.0651166708" lon="7.48487778266">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Haddeland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773181" />
+	</node>
+	<node id="-52428" lat="58.116255552" lon="7.53827221826">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Bringsdal" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773177" />
+	</node>
+	<node id="-52427" lat="58.0727416622" lon="7.51347221466">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Unndalsvassbekk" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773173" />
+	</node>
+	<node id="-51914" lat="57.9894916671" lon="7.56754999385">
+		<tag k="name" v="Kattholmbåen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="662063" />
+	</node>
+	<node id="-52425" lat="58.0305138854" lon="7.46960556243">
+		<tag k="ssr:gml_id" v="GEOMETRY_cff15995-f695-4332-bba1-fdfd4250fdf5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51912" lat="58.0933361152" lon="7.62453333831">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Døle" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="652124" />
+	</node>
+	<node id="-50375" lat="58.0001888867" lon="7.58091111391">
+		<tag k="name" v="Langøy" />
+		<tag k="old_name" v="Langøya" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="182074" />
+	</node>
+	<node id="-51910" lat="58.0973222263" lon="7.53153611662">
+		<tag k="ssr:gml_id" v="GEOMETRY_0570d37a-b7f2-46d4-8f5c-0b40bbcf5bd9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51909" lat="58.0974888879" lon="7.53118888587">
+		<tag k="ssr:gml_id" v="GEOMETRY_b0d43b12-5349-4133-a8de-8f7caa76f975" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-52416" lat="58.1505250031" lon="7.52298332931">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Ronebru" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="754906" />
+	</node>
+	<node id="-49339" lat="57.9990138862" lon="7.41954166454">
+		<tag k="name" v="Indre Mannevær" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="388183" />
+	</node>
+	<node id="-51913" lat="58.037072219" lon="7.48239722481">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Ormestad Armcorør" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="652128" />
+	</node>
+	<node id="-50343" lat="58.0142944467" lon="7.48987777572">
+		<tag k="name" v="Ellingstønnan" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="177064" />
+	</node>
+	<node id="-50342" lat="57.9912750005" lon="7.55206666411">
+		<tag k="name" v="Rennespynten" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="177056" />
+	</node>
+	<node id="-50340" lat="57.9829916657" lon="7.56143332751">
+		<tag k="ssr:gml_id" v="GEOMETRY_6ae7982a-b60e-4ca8-aff6-50c4b46fa7bc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-50339" lat="57.9833472265" lon="7.56131666997">
+		<tag k="ssr:gml_id" v="GEOMETRY_a1051538-8236-4aa6-8098-1a68cbd88db9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51359" lat="57.9981166688" lon="7.54373332824">
+		<tag k="ssr:gml_id" v="GEOMETRY_d284cf72-a2b2-4df7-8193-acf14dde79fe" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-51358" lat="57.9986222248" lon="7.5433944414">
+		<tag k="ssr:gml_id" v="GEOMETRY_1f7470c4-a43f-4cb6-aa44-79953c5fa2b7" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-51357" lat="57.9981194447" lon="7.54373333396">
+		<tag k="ssr:gml_id" v="GEOMETRY_6e174b9e-7b32-4af6-845d-84251f1df3c5" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-51356" lat="57.9981222254" lon="7.54373611426">
+		<tag k="ssr:gml_id" v="GEOMETRY_fac46329-c03b-4f51-9c18-5567fe0f94c3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51355" lat="57.9981500041" lon="7.54382499732">
+		<tag k="ssr:gml_id" v="GEOMETRY_b75e3d97-c21b-49e9-bf5b-a2c360c7b411" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51350" lat="57.9945722256" lon="7.56885277697">
+		<tag k="name" v="Landøyholmen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="541067" />
+	</node>
+	<node id="-49812" lat="58.0483861148" lon="7.40050555103">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Skogsfjord" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="45147" />
+	</node>
+	<node id="-49811" lat="58.0004916675" lon="7.53416666286">
+		<tag k="name" v="Torsteinholmboen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="44246" />
+	</node>
+	<node id="-49810" lat="58.0029333296" lon="7.49088055901">
+		<tag k="name" v="Kalkskjer" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="44237" />
+	</node>
+	<node id="-51345" lat="57.9953250004" lon="7.5678583346">
+		<tag k="ssr:gml_id" v="GEOMETRY_e7a02d40-bf35-4230-a6de-8d38c3224fb8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-52361" lat="58.0010361127" lon="7.60167221978">
+		<tag k="name" v="Skogsøybåen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="753175" />
+	</node>
+	<node id="-50311" lat="57.9934666677" lon="7.58958611268">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Nordstranda" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="147630" />
+	</node>
+	<node id="-49284" lat="57.9680861108" lon="7.49158610543">
+		<tag k="name" v="Ryvingen" />
+		<tag k="old_name" v="Ryvingen Fyr" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="364053" />
+	</node>
+	<node id="-50307" lat="58.0547666628" lon="7.56124166382">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="name" v="Tjønndalsveien" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="147478" />
+	</node>
+	<node id="-51842" lat="58.0249527819" lon="7.45177500508">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Nybrygga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="632172" />
+	</node>
+	<node id="-49256" lat="58.048786108" lon="7.39921111426">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Ålegard" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="349166" />
+	</node>
+	<node id="-49255" lat="58.1011111115" lon="7.53542222435">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Nøding" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="348168" />
+	</node>
+	<node id="-49254" lat="58.0027361136" lon="7.5292861127">
+		<tag k="ssr:gml_id" v="GEOMETRY_01e281c2-cef3-41d2-8c08-f247c7fa5331" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-49253" lat="58.0027416656" lon="7.52906389086">
+		<tag k="ssr:gml_id" v="GEOMETRY_0bbe8c50-5014-476d-bdd2-e2c9418151f1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-52323" lat="58.0968166708" lon="7.60385000151">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Smalekleiva" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="752786" />
+	</node>
+	<node id="-52834" lat="58.0554333334" lon="7.58246666232">
+		<tag k="ssr:gml_id" v="GEOMETRY_c958e9fa-e4cd-49ea-a117-3fe1c96343a6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51802" lat="58.0943166707" lon="7.58893332755">
+		<tag k="name" v="Grønndalsveien" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="631801" />
+	</node>
+	<node id="-50262" lat="57.9749749993" lon="7.68174999524">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8710a30-e5c2-4f64-94ed-2c5639db7803" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-50261" lat="57.9749777751" lon="7.68174999476">
+		<tag k="ssr:gml_id" v="GEOMETRY_7f41bd5a-84cf-4472-b793-a51ad0b85a60" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-51794" lat="58.015211109" lon="7.43126944664">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Verksbrygga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="631742" />
+	</node>
+	<node id="-52835" lat="58.0553972194" lon="7.57970833728">
+		<tag k="ssr:gml_id" v="GEOMETRY_54f51280-7518-48d4-9494-127d123ac736" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51269" lat="58.0235833322" lon="7.45606110704">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Ballastbrygga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="511133" />
+	</node>
+	<node id="-50756" lat="58.0182277809" lon="7.48011944691">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Brygga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="268216" />
+	</node>
+	<node id="-51753" lat="58.0536305548" lon="7.39416111907">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b7d5756-5625-41b3-87dc-b46462c53914" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51752" lat="58.0536083296" lon="7.39413334193">
+		<tag k="ssr:gml_id" v="GEOMETRY_8aacaa6e-b3ed-4ce8-a436-c77b61439cf4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-50215" lat="58.1084249989" lon="7.58508888261">
+		<tag k="fixme" v="consider highway=path" />
+		<tag k="highway" v="track" />
+		<tag k="name" v="Kleivan" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="145734" />
+	</node>
+	<node id="-49678" lat="58.1016305591" lon="7.43650277694">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Ronebrua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24705" />
+	</node>
+	<node id="-52426" lat="58.030799999" lon="7.46788056241">
+		<tag k="ssr:gml_id" v="GEOMETRY_b1eaeea7-97dc-45df-9eff-535b1519f3f8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-51203" lat="58.1252722266" lon="7.50672778247">
+		<tag k="name" v="Stredebrokka" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="510511" />
+	</node>
+	<way id="-11136">
+		<tag k="name" v="Kvistholmen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="606936" />
+		<nd ref="-51691" />
+		<nd ref="-51692" />
+	</way>
+	<way id="-10879">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Døle bru" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="85086" />
+		<nd ref="-49900" />
+		<nd ref="-49901" />
+		<nd ref="-49902" />
+		<nd ref="-49903" />
+	</way>
+	<way id="-11119">
+		<tag k="name" v="Bjørneskjær" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="601140" />
+		<nd ref="-51620" />
+		<nd ref="-51621" />
+	</way>
+	<way id="-11244">
+		<tag k="alt_name" v="Gjallaråsholmen" />
+		<tag k="name" v="Vestre Gjallaråsholmen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="788653" />
+		<nd ref="-52452" />
+		<nd ref="-52453" />
+	</way>
+	<way id="-11237">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Skarvøy" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773166" />
+		<nd ref="-52425" />
+		<nd ref="-52426" />
+	</way>
+	<way id="-11348">
+		<tag k="name" v="Nordre Havneholmen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="954217" />
+		<nd ref="-53235" />
+		<nd ref="-53236" />
+	</way>
+	<way id="-11347">
+		<tag k="name" v="Malmøy, øvre" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="954209" />
+		<nd ref="-53233" />
+		<nd ref="-53234" />
+	</way>
+	<way id="-11082">
+		<tag k="name" v="Spegelaksen" />
+		<tag k="old_name" v="Spekelaksen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="546043" />
+		<nd ref="-51355" />
+		<nd ref="-51356" />
+		<nd ref="-51357" />
+		<nd ref="-51358" />
+		<nd ref="-51359" />
+	</way>
+	<way id="-11081">
+		<tag k="name" v="Horsøy" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="529222" />
+		<nd ref="-51345" />
+		<nd ref="-51346" />
+	</way>
+	<way id="-10823">
+		<tag k="alt_name" v="Hattholmen" />
+		<tag k="name" v="Hatholmen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="62" />
+		<nd ref="-49549" />
+		<nd ref="-49550" />
+	</way>
+	<way id="-10784">
+		<tag k="name" v="Brattholmgrunnen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="347232" />
+		<nd ref="-49253" />
+		<nd ref="-49254" />
+	</way>
+	<way id="-10817">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Skåran" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="409180" />
+		<nd ref="-49504" />
+		<nd ref="-49505" />
+	</way>
+	<way id="-10816">
+		<tag k="layer" v="-1" />
+		<tag k="name" v="Kirkeheitunnelen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="408279" />
+		<tag k="tunnel" v="yes" />
+		<nd ref="-49501" />
+		<nd ref="-49502" />
+	</way>
+	<way id="-10815">
+		<tag k="name" v="Malmøy, nedre" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="408234" />
+		<nd ref="-49499" />
+		<nd ref="-49500" />
+	</way>
+	<way id="-11193">
+		<tag k="alt_name" v="Banke bru" />
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Bankebroa" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="693176" />
+		<nd ref="-52112" />
+		<nd ref="-52113" />
+		<nd ref="-52114" />
+	</way>
+	<way id="-10932">
+		<tag k="name" v="Vedeskjer" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="165224" />
+		<nd ref="-50339" />
+		<nd ref="-50340" />
+	</way>
+	<way id="-10922">
+		<tag k="name" v="Ballastskjeran" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="146203" />
+		<nd ref="-50261" />
+		<nd ref="-50262" />
+	</way>
+	<way id="-11302">
+		<tag k="alt_name" v="Røyrsund" />
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Rørsundbrua" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="874309" />
+		<nd ref="-52834" />
+		<nd ref="-52835" />
+	</way>
+	<way id="-11041">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Mandal" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470138" />
+		<nd ref="-51073" />
+		<nd ref="-51074" />
+	</way>
+	<way id="-11040">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Gismerøy" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470134" />
+		<nd ref="-51070" />
+		<nd ref="-51071" />
+	</way>
+	<way id="-11039">
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Skinsnes" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="470125" />
+		<nd ref="-51068" />
+		<nd ref="-51069" />
+	</way>
+	<way id="-11166">
+		<tag k="name" v="Tåneskjær" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="667095" />
+		<nd ref="-51943" />
+		<nd ref="-51944" />
+		<nd ref="-51945" />
+		<nd ref="-51946" />
+	</way>
+	<way id="-11033">
+		<tag k="man_made" v="quay" />
+		<tag k="name" v="Sørstranda" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="450604" />
+		<nd ref="-51024" />
+		<nd ref="-51025" />
+	</way>
+	<way id="-11031">
+		<tag k="alt_name" v="Røyseland" />
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Kvernebrua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="449518" />
+		<nd ref="-50929" />
+		<nd ref="-50930" />
+	</way>
+	<way id="-11157">
+		<tag k="alt_name" v="Møll" />
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Møll bru" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="633936" />
+		<nd ref="-51909" />
+		<nd ref="-51910" />
+	</way>
+	<way id="-11147">
+		<tag k="alt_name" v="Frostestad" />
+		<tag k="bridge" v="yes" />
+		<tag k="layer" v="1" />
+		<tag k="name" v="Grautebrua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630783" />
+		<nd ref="-51752" />
+		<nd ref="-51753" />
+	</way>
+</osm>

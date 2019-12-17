@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-11392" lat="69.6069000079" lon="24.0881304141">
+		<tag k="ssr:gml_id" v="GEOMETRY_e9be16eb-e925-4d22-9838-35fc7079b6ae" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-11391" lat="69.6069027844" lon="24.0881331919">
+		<tag k="ssr:gml_id" v="GEOMETRY_a25b409f-4941-4317-919d-45f0ead04232" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11390" lat="69.6069000039" lon="24.0881276378">
+		<tag k="ssr:gml_id" v="GEOMETRY_d12eec1f-eb1c-428c-925d-05498b4e9367" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<way id="-3335">
+		<tag k="historic" v="heritage" />
+		<tag k="name" v="Geađgesieidi" />
+		<tag k="name:se" v="Geađgesieidi" />
+		<tag k="old_name:se" v="Gæđgesieidi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="868232" />
+		<nd ref="-11390" />
+		<nd ref="-11391" />
+		<nd ref="-11392" />
+	</way>
+</osm>

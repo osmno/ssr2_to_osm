@@ -831,10 +831,13 @@ if __name__ == '__main__':
         if args.parallel != 0:
             res = p.apply_async(main, (args, folder, n, conversion))
             p_results.append(res)
+            time.sleep(10) # to to be sligtly gentle to geonorge.no
         else:
-            main(args, folder, n, conversion)
-            
-        time.sleep(10) # to to be sligtly gentle to geonorge.no
+            try:
+                main(args, folder, n, conversion)
+            except Exception as e:
+                print('ERROR: Komune %s failed with: %s' % (n, e))
+        
         end_time = datetime.datetime.now()
         print('Elapsed time: {}'.format(end_time - start_time))
 

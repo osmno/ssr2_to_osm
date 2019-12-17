@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-25600" lat="60.5515972183" lon="5.58926388844">
+		<tag k="ssr:gml_id" v="GEOMETRY_eed92118-c6fa-4b03-901f-c0d172bd966f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-25599" lat="60.56918889" lon="5.5689944515">
+		<tag k="ssr:gml_id" v="GEOMETRY_1e463e26-3fb3-45e7-9d05-04d4b12ffefb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25918" lat="60.5238888885" lon="5.50553610997">
+		<tag k="ssr:gml_id" v="GEOMETRY_4aa27505-9687-4c11-8c01-4dbb21bfd5ea" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-25919" lat="60.5238333296" lon="5.50553610349">
+		<tag k="ssr:gml_id" v="GEOMETRY_68c8946d-8ad4-49b3-b929-f7a31230ed1f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-26188" lat="60.5018361126" lon="5.63702499972">
+		<tag k="name" v="Lundekleiv fjellallmenning" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="591601" />
+	</node>
+	<node id="-26892" lat="60.8816104596" lon="6.30047518531">
+		<tag k="name" v="Vestlandet" />
+		<tag k="ssr:date" v="2017-03-09" />
+		<tag k="ssr:stedsnr" v="974777" />
+	</node>
+	<node id="-25601" lat="60.5609555548" lon="5.57551667085">
+		<tag k="ssr:gml_id" v="GEOMETRY_dab583e4-b359-42b8-956e-dfdc55d8d486" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<way id="-5960">
+		<tag k="fixme" v="consider boundary=protected_area and relevant protect_class if not nature reserve" />
+		<tag k="leisure" v="nature_reserve" />
+		<tag k="name" v="Herlandsnesjane naturreservat" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="165318" />
+		<nd ref="-25599" />
+		<nd ref="-25600" />
+		<nd ref="-25601" />
+	</way>
+	<way id="-6017">
+		<tag k="name" v="Osterøy kommune" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="449943" />
+		<nd ref="-25918" />
+		<nd ref="-25919" />
+	</way>
+</osm>

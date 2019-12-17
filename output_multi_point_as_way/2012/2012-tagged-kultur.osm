@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-83327" lat="69.9065527778" lon="23.0426138244">
+		<tag k="ssr:gml_id" v="GEOMETRY_738dce86-3c82-4061-afe3-82a2956c5fb8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-83326" lat="69.9065555571" lon="23.0426165775">
+		<tag k="ssr:gml_id" v="GEOMETRY_141a7485-5503-4168-9b2b-918cfe1b5486" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-80376" lat="69.8235083391" lon="23.8868637592">
+		<tag k="ssr:gml_id" v="GEOMETRY_8c3b9aee-e364-4f45-b43b-357d18e368c9" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-80375" lat="69.8235111194" lon="23.886869316">
+		<tag k="ssr:gml_id" v="GEOMETRY_42568801-7be3-496c-bed3-c6ddef87adee" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-80374" lat="69.8235083374" lon="23.8868665583">
+		<tag k="ssr:gml_id" v="GEOMETRY_54bb750d-7c2c-4c47-b047-c7180ff97e25" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-80373" lat="69.8235055576" lon="23.8868637754">
+		<tag k="ssr:gml_id" v="GEOMETRY_954e30d2-6fee-4d51-94ba-bd8aaa0544fe" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-77936" lat="70.215366667" lon="23.1820832677">
+		<tag k="name" v="Batteriet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="28317" />
+	</node>
+	<node id="-81056" lat="70.1194333352" lon="23.3958554668">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Leirbotn" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="565770" />
+	</node>
+	<node id="-77031" lat="69.9645861166" lon="23.2517832566">
+		<tag k="ssr:gml_id" v="GEOMETRY_6ed7079c-e0ba-46ff-b54c-5b6aad28ddaa" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-77030" lat="69.964588891" lon="23.2517721399">
+		<tag k="ssr:gml_id" v="GEOMETRY_2163f835-9d26-4f7a-b1e0-7f8d30d6bea4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-81374" lat="69.9793777796" lon="23.4676137809">
+		<tag k="ssr:gml_id" v="GEOMETRY_d5194c3e-196c-41c1-973e-92a869da422f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-81373" lat="69.9793805623" lon="23.4676165815">
+		<tag k="ssr:gml_id" v="GEOMETRY_fcfb0d2b-d1e7-49f9-ab93-2b8325701f1f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-79195" lat="69.9155000031" lon="23.0041221516">
+		<tag k="ssr:gml_id" v="GEOMETRY_f4f941c9-c459-46d1-ac20-290434432232" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-79194" lat="69.9145305576" lon="23.0041193607">
+		<tag k="ssr:gml_id" v="GEOMETRY_86f774f8-a46c-4014-9fe5-29d40c0e08d4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-79193" lat="69.915502781" lon="23.0041249262">
+		<tag k="ssr:gml_id" v="GEOMETRY_0417b564-a98a-48f6-afa9-25a9f8c1b833" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-82128" lat="69.9695527813" lon="23.2477082535">
+		<tag k="loc_name:fkv" v="Kajalahti" />
+		<tag k="name" v="Skajaluft" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2017-04-28" />
+		<tag k="ssr:stedsnr" v="692939" />
+	</node>
+	<node id="-76792" lat="69.9682916713" lon="23.3660026863">
+		<tag k="name" v="Sandfallet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="327924" />
+	</node>
+	<node id="-81228" lat="69.9274138873" lon="22.9891138126">
+		<tag k="name" v="Grytbotn" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="574494" />
+	</node>
+	<node id="-78280" lat="69.9578916708" lon="23.4095554575">
+		<tag k="name" v="Sagafossen Laksetrapp" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="268084" />
+	</node>
+	<node id="-81740" lat="69.9318583373" lon="23.0122638171">
+		<tag k="name" v="Hestehagen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="634484" />
+	</node>
+	<node id="-76870" lat="70.312602784" lon="23.0411943756">
+		<tag k="name" v="Skjærstøtta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="330623" />
+	</node>
+	<node id="-77375" lat="69.9141694432" lon="23.0274388232">
+		<tag k="ssr:gml_id" v="GEOMETRY_b0eb9c64-a342-49d6-8a45-ab154dd8c9a0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-77374" lat="69.9141722207" lon="23.0274416007">
+		<tag k="ssr:gml_id" v="GEOMETRY_88fd595b-acf5-4aa6-8e34-5637a10d0d91" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-81717" lat="70.2871277834" lon="23.5446388055">
+		<tag k="ssr:gml_id" v="GEOMETRY_c2a284f1-35bc-489f-80a0-74179dfb86af" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-81718" lat="70.2871250045" lon="23.544636032">
+		<tag k="ssr:gml_id" v="GEOMETRY_eb12a9cf-3125-4c19-939a-8992abba7abc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-82101" lat="70.2590750027" lon="23.4159499098">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Komagfjord" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="687944" />
+	</node>
+	<node id="-82375" lat="70.055850005" lon="22.3626444089">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Langfjord" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747491" />
+	</node>
+	<node id="-82680" lat="70.0418305572" lon="22.9491443823">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Talvik" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="761882" />
+	</node>
+	<node id="-80801" lat="69.8090583416" lon="23.6338332175">
+		<tag k="ssr:gml_id" v="GEOMETRY_8c33d079-a51c-48a2-8c7b-0be9cc91b84c" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-80800" lat="69.8090611129" lon="23.6338360091">
+		<tag k="ssr:gml_id" v="GEOMETRY_570a1baf-4dd9-463b-acb4-b93f1c5ce587" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-80799" lat="69.8101000013" lon="23.6338832205">
+		<tag k="ssr:gml_id" v="GEOMETRY_9430e2b3-5e58-4f8d-9ffe-76212bee35fa" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-80798" lat="69.8090583352" lon="23.6338360088">
+		<tag k="ssr:gml_id" v="GEOMETRY_dcf89d51-17df-416a-80d3-ef059fbd7ed8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-84125" lat="69.9897277847" lon="23.263299914">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="historic" v="heritage" />
+		<tag k="name" v="Kjerringa;Áhkku" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="936212" />
+	</node>
+	<node id="-82580" lat="70.0656111138" lon="22.4074777295">
+		<tag k="name" v="Kobbesteinøra" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="752998" />
+	</node>
+	<node id="-82578" lat="69.9525555564" lon="23.1999526853">
+		<tag k="name" v="Skogly" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="752944" />
+	</node>
+	<node id="-76817" lat="69.8911583315" lon="23.0015693682">
+		<tag k="name" v="Paulsen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="329233" />
+	</node>
+	<node id="-81549" lat="69.8672277801" lon="23.4858221236">
+		<tag k="ssr:gml_id" v="GEOMETRY_335450dd-7cea-4587-9e6f-e4e30e552d74" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-81548" lat="69.8672305626" lon="23.4858249103">
+		<tag k="ssr:gml_id" v="GEOMETRY_db4446a7-273c-42b2-a66e-28131793f55e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-81547" lat="69.8669222245" lon="23.4867304659">
+		<tag k="ssr:gml_id" v="GEOMETRY_01c9ba27-94da-4f74-acf0-535616010f14" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-77903" lat="69.9211111139" lon="23.0289110415">
+		<tag k="name" v="Saga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="26262" />
+	</node>
+	<way id="-17565">
+		<tag k="name" v="Sandia - Santia" />
+		<tag k="name:fkv" v="Santia" />
+		<tag k="name:no" v="Sandia" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564711" />
+		<nd ref="-80798" />
+		<nd ref="-80799" />
+		<nd ref="-80800" />
+		<nd ref="-80801" />
+	</way>
+	<way id="-17820">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Uren" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="633199" />
+		<nd ref="-81717" />
+		<nd ref="-81718" />
+	</way>
+	<way id="-17466">
+		<tag k="alt_name" v="Falkesteinen" />
+		<tag k="alt_name:fkv" v="Haukkakivi" />
+		<tag k="historic" v="heritage" />
+		<tag k="name" v="Fállegeađgi" />
+		<tag k="name:se" v="Fállegeađgi" />
+		<tag k="old_name:se" v="Fallegæđgi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="504730" />
+		<nd ref="-80373" />
+		<nd ref="-80374" />
+		<nd ref="-80375" />
+		<nd ref="-80376" />
+	</way>
+	<way id="-17720">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Solvang" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="625665" />
+		<nd ref="-81373" />
+		<nd ref="-81374" />
+	</way>
+	<way id="-16725">
+		<tag k="name" v="Bello" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="392497" />
+		<nd ref="-77374" />
+		<nd ref="-77375" />
+	</way>
+	<way id="-17169">
+		<tag k="name" v="Borani" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="202320" />
+		<nd ref="-79193" />
+		<nd ref="-79194" />
+		<nd ref="-79195" />
+	</way>
+	<way id="-18193">
+		<tag k="name" v="Sløyfa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="869363" />
+		<nd ref="-83326" />
+		<nd ref="-83327" />
+	</way>
+	<way id="-17777">
+		<tag k="name" v="Bollosetra" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="626673" />
+		<nd ref="-81547" />
+		<nd ref="-81548" />
+		<nd ref="-81549" />
+	</way>
+	<way id="-16643">
+		<tag k="alt_name" v="Alta kirke" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Alta" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="383425" />
+		<nd ref="-77030" />
+		<nd ref="-77031" />
+	</way>
+</osm>

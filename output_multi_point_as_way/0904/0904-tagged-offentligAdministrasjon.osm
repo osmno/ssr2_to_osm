@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-20069" lat="58.4461499968" lon="8.3762888975">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Hella" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="363499" />
+	</node>
+	<node id="-24059" lat="58.4461222212" lon="8.37630278612">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Hella" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="841128" />
+	</node>
+	<node id="-21274" lat="58.4898916703" lon="8.49970278292">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Høgsteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="181101" />
+	</node>
+	<node id="-23736" lat="58.4851472208" lon="8.44655277833">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Blaudekjerrsteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="787418" />
+	</node>
+	<node id="-20407" lat="58.485161109" lon="8.44638888997">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Blautekjerrsteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2018-02-28" />
+		<tag k="ssr:stedsnr" v="717707" />
+	</node>
+	<node id="-24818" lat="58.4516722249" lon="8.44826110289">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Bjortjennåsrøysa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="970218" />
+	</node>
+	<node id="-20176" lat="58.3462694409" lon="8.59709444631">
+		<tag k="ssr:gml_id" v="GEOMETRY_5448756d-2d6b-4c93-b918-f419f3436166" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-20175" lat="58.3462666658" lon="8.59709165917">
+		<tag k="ssr:gml_id" v="GEOMETRY_db14a474-9ac8-47d1-8ead-4d5fed3fd068" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-20718" lat="58.4332916667" lon="8.42296110398">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Bjønnbakksteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="60797" />
+	</node>
+	<node id="-22637" lat="58.394661109" lon="8.30865556208">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce8cd53b-8303-46ac-a1f6-1d8eecd3e769" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-22636" lat="58.3946638933" lon="8.3086555589">
+		<tag k="ssr:gml_id" v="GEOMETRY_78a39530-66c3-4803-9afb-ba1b251bd7da" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-24170" lat="58.4090138845" lon="8.41509444152">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Grasmyrsteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="849565" />
+	</node>
+	<node id="-24713" lat="58.4796694465" lon="8.47629165825">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Steinkleivsteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="963060" />
+	</node>
+	<node id="-24072" lat="58.4719249994" lon="8.43284723058">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Storrheisteinen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="842182" />
+	</node>
+	<node id="-21445" lat="58.3780611147" lon="8.60593333654">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Tusta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="212714" />
+	</node>
+	<way id="-5679">
+		<tag k="historic" v="boundary_stone" />
+		<tag k="man_made" v="cairn" />
+		<tag k="name" v="Flårøysa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="598952" />
+		<nd ref="-22636" />
+		<nd ref="-22637" />
+	</way>
+	<way id="-5426">
+		<tag k="alt_name" v="Grimstad" />
+		<tag k="name" v="Grimstad kommune" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="388397" />
+		<nd ref="-20175" />
+		<nd ref="-20176" />
+	</way>
+</osm>

@@ -1,0 +1,3459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-4096" lat="69.4712583416" lon="23.6618721086">
+		<tag k="ssr:gml_id" v="GEOMETRY_655485fb-a078-47d7-bd9d-8715fb337c8f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6132" lat="69.0636611139" lon="23.0352721265">
+		<tag k="name" v="Sunnajeaggi" />
+		<tag k="name:se" v="Sunnajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="167200" />
+	</node>
+	<node id="-7848" lat="68.7172194479" lon="23.4421026482">
+		<tag k="ssr:gml_id" v="GEOMETRY_89f76c8f-7be7-4813-bc73-e680255007f1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-12268" lat="68.7878583379" lon="23.3062415677">
+		<tag k="name" v="Njuikunjeaggi" />
+		<tag k="name:se" v="Njuikunjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="957454" />
+	</node>
+	<node id="-6119" lat="69.0188916688" lon="23.1314499136">
+		<tag k="name" v="Stáhkkájeaggi" />
+		<tag k="name:se" v="Stáhkkájeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="152596" />
+	</node>
+	<node id="-8159" lat="68.8717055594" lon="22.8854554799">
+		<tag k="ssr:gml_id" v="GEOMETRY_0f00752f-b8dc-4405-b7ab-796ba3d1b4fb" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8158" lat="68.8717083368" lon="22.8854582462">
+		<tag k="ssr:gml_id" v="GEOMETRY_7ce974ac-f313-4b87-91fb-ab94c853d731" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8157" lat="68.8942500014" lon="23.0822693573">
+		<tag k="ssr:gml_id" v="GEOMETRY_a658d4b0-1380-4d67-80c7-ee804f908e73" />
+		<tag k="ssr:gml_nr" v="6" />
+	</node>
+	<node id="-8156" lat="68.8619222304" lon="23.1047360101">
+		<tag k="ssr:gml_id" v="GEOMETRY_4768a0f5-839d-4b94-a174-cdecf7c43401" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-8155" lat="68.8464722267" lon="23.087172116">
+		<tag k="ssr:gml_id" v="GEOMETRY_911430cd-c0fe-49c1-b2c5-38577addaf3e" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-8154" lat="68.8734277807" lon="23.1081193381">
+		<tag k="ssr:gml_id" v="GEOMETRY_a227eaa5-fb42-4366-9747-d2c76601bae0" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-8153" lat="68.8491833407" lon="23.074502692">
+		<tag k="ssr:gml_id" v="GEOMETRY_5ffa6fa3-66de-4f4a-b259-3046bd51df68" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8152" lat="68.8491861168" lon="23.0745054547">
+		<tag k="ssr:gml_id" v="GEOMETRY_2da8f013-b695-4f39-a789-a7d83ecc86f5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6103" lat="69.0353500024" lon="23.2076637793">
+		<tag k="name" v="Gáhkkorjeaggi" />
+		<tag k="name:se" v="Gáhkkorjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="152014" />
+	</node>
+	<node id="-12246" lat="69.1770944449" lon="23.4332026775">
+		<tag k="name" v="Suotjnu" />
+		<tag k="name:se" v="Suotjnu" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="957610" />
+	</node>
+	<node id="-12243" lat="69.062591671" lon="23.1608360156">
+		<tag k="name" v="Riggenjoaskejeaggi" />
+		<tag k="name:se" v="Riggenjoaskejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="956449" />
+	</node>
+	<node id="-12242" lat="69.0727611138" lon="23.2097304534">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Báhpaniitu" />
+		<tag k="name:se" v="Báhpaniitu" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="956437" />
+	</node>
+	<node id="-6097" lat="69.1567333333" lon="23.4980359987">
+		<tag k="name" v="Balsajeaggi" />
+		<tag k="name:se" v="Balsajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="146146" />
+	</node>
+	<node id="-8144" lat="68.8197277835" lon="22.8575915949">
+		<tag k="ssr:gml_id" v="GEOMETRY_22fe0f72-4507-4aa8-af4a-2ce711549f4f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8143" lat="68.8152694503" lon="22.8541777068">
+		<tag k="ssr:gml_id" v="GEOMETRY_18fb955e-6e21-49ec-9b6c-29558272e885" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12238" lat="68.9027472208" lon="22.8355415875">
+		<tag k="name" v="Jalgesdievájeaggi" />
+		<tag k="name:se" v="Jalgesdievájeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="955078" />
+	</node>
+	<node id="-12235" lat="69.0453888898" lon="23.0243471373">
+		<tag k="ssr:gml_id" v="GEOMETRY_215234ff-b278-4814-a17a-07cf7fd0d8ed" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12234" lat="69.0356166702" lon="23.0172387948">
+		<tag k="ssr:gml_id" v="GEOMETRY_af276d64-0180-4549-b9f1-83139b4be647" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-12230" lat="69.0584333351" lon="23.0955165753">
+		<tag k="name" v="Fanasjarinjeaggi" />
+		<tag k="name:se" v="Fanasjarinjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941890" />
+	</node>
+	<node id="-6085" lat="69.1858111158" lon="22.5377332646">
+		<tag k="ssr:gml_id" v="GEOMETRY_15e8df34-a8d3-4712-9d3a-677c3fda5b19" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6084" lat="69.1858055599" lon="22.5377277138">
+		<tag k="ssr:gml_id" v="GEOMETRY_c79003d6-798f-4157-952e-f74821b2e8c0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-12214" lat="69.0101555624" lon="23.2246221177">
+		<tag k="name" v="Oivvošjeaggi" />
+		<tag k="name:se" v="Oivvošjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941400" />
+	</node>
+	<node id="-12212" lat="69.4105083416" lon="23.7007693181">
+		<tag k="name" v="Binneráhppát" />
+		<tag k="name:se" v="Binneráhppát" />
+		<tag k="natural" v="scree" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941337" />
+	</node>
+	<node id="-12199" lat="69.0285666687" lon="23.2350443381">
+		<tag k="name" v="Vuolledállu" />
+		<tag k="name:se" v="Vuolledállu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941022" />
+	</node>
+	<node id="-3998" lat="68.8589361179" lon="24.2056998344">
+		<tag k="ssr:gml_id" v="GEOMETRY_c3dad164-829c-4f4c-9bfa-000eec3f6b6a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3997" lat="68.8589305637" lon="24.2056998376">
+		<tag k="ssr:gml_id" v="GEOMETRY_228684ff-3c33-41b8-94cb-aed240a11ea0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8080" lat="68.873447225" lon="23.4318054484">
+		<tag k="ssr:gml_id" v="GEOMETRY_1881895f-b318-43d7-a280-39a294d9d210" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8079" lat="68.8734416709" lon="23.4317998936">
+		<tag k="ssr:gml_id" v="GEOMETRY_83def895-e376-47f3-acb1-a2da55ae778a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10120" lat="68.9281777774" lon="23.0799054563">
+		<tag k="name" v="Juhánašgieddi" />
+		<tag k="name:se" v="Juhánašgieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="715151" />
+	</node>
+	<node id="-12167" lat="69.2786944443" lon="22.4914388362">
+		<tag k="ssr:gml_id" v="GEOMETRY_eed3e883-a086-429a-b94b-51a252f1019c" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-12166" lat="69.2790611166" lon="22.4904582832">
+		<tag k="ssr:gml_id" v="GEOMETRY_7dcff0c6-b889-4a24-89e7-152d460776c5" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-12165" lat="69.2790611165" lon="22.4904610508">
+		<tag k="ssr:gml_id" v="GEOMETRY_e3e7babd-24e2-4176-8aca-e7dc42fa02ee" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-12164" lat="69.2790611164" lon="22.4904638184">
+		<tag k="ssr:gml_id" v="GEOMETRY_e0f439ec-ac75-40d2-be6b-9094e852e9d7" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-12163" lat="69.2790638897" lon="22.4904666104">
+		<tag k="ssr:gml_id" v="GEOMETRY_37177641-ba6d-477a-88dc-324d5c2bdac8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12162" lat="69.2790583324" lon="22.4904610455">
+		<tag k="ssr:gml_id" v="GEOMETRY_46e20fa2-ab24-4b21-b9f5-d4ab891a153c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10113" lat="69.1882194497" lon="23.5005415494">
+		<tag k="name" v="Buollánjeaggi" />
+		<tag k="name:se" v="Buollánjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="714594" />
+	</node>
+	<node id="-10109" lat="69.1391916731" lon="23.3212637897">
+		<tag k="ssr:gml_id" v="GEOMETRY_5cbe0cca-d482-4878-bbad-cd65f6a8c537" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10108" lat="69.1508055622" lon="23.3442499028">
+		<tag k="ssr:gml_id" v="GEOMETRY_197c796d-ad28-4578-bd43-c452615233be" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10107" lat="69.1508138933" lon="23.3443165747">
+		<tag k="ssr:gml_id" v="GEOMETRY_0571f165-77db-4fef-b3dd-f8daa9dc4a2a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3960" lat="69.0287388927" lon="23.1145554655">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b418c74-f8e0-48d4-bbaf-c7030bed5546" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-3959" lat="69.0364111145" lon="23.1223332316">
+		<tag k="ssr:gml_id" v="GEOMETRY_b07aba7f-5ee4-4255-b469-8e60fb82b3ff" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3958" lat="69.0287416699" lon="23.1145582338">
+		<tag k="ssr:gml_id" v="GEOMETRY_6a6752c0-33af-440d-a03b-d4139327642f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3957" lat="69.0287416704" lon="23.1145637934">
+		<tag k="ssr:gml_id" v="GEOMETRY_3348fac1-5a67-4415-8d72-16df841ffa56" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10082" lat="69.4735722218" lon="23.7098998894">
+		<tag k="ssr:gml_id" v="GEOMETRY_008dde9c-e45a-48c4-aeda-f2be50a96ece" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10081" lat="69.4713861167" lon="23.7077971075">
+		<tag k="ssr:gml_id" v="GEOMETRY_9d9be910-45e8-4192-89bd-d00cc57bb179" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3936" lat="69.0128222293" lon="23.1812748933">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9a29265-b938-48f2-9582-9b72c3341303" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10077" lat="69.0162388967" lon="22.9994221327">
+		<tag k="name" v="Guotku" />
+		<tag k="name:se" v="Guotku" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="698885" />
+	</node>
+	<node id="-8028" lat="69.683083335" lon="23.4840943413">
+		<tag k="ssr:gml_id" v="GEOMETRY_a3640600-de43-4204-a590-43ccc873a735" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8022" lat="69.0377027825" lon="23.0673582536">
+		<tag k="ssr:gml_id" v="GEOMETRY_fc6d22ef-f571-4fa5-8cbb-c661ea2d2cd4" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8021" lat="69.0345138953" lon="23.0647637999">
+		<tag k="ssr:gml_id" v="GEOMETRY_9ca7ba5e-75b0-46d6-aac0-94ffa23330c3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8020" lat="69.040027785" lon="23.0678637874">
+		<tag k="ssr:gml_id" v="GEOMETRY_dc0d69d8-5170-42b0-bfd6-a75ecdca19bf" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10053" lat="69.0178777833" lon="23.2073221337">
+		<tag k="name" v="Skearasjeaggi" />
+		<tag k="name:se" v="Skearasjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="698029" />
+	</node>
+	<node id="-5946" lat="69.6740749999" lon="23.06252492">
+		<tag k="ssr:gml_id" v="GEOMETRY_49ea4515-77d6-45a2-a5cb-8e0528dbf283" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5945" lat="69.6740805587" lon="23.0625304713">
+		<tag k="ssr:gml_id" v="GEOMETRY_8f06c775-be1f-455a-9290-bd045f1396e4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-12088" lat="69.1901194468" lon="23.7443332167">
+		<tag k="ssr:gml_id" v="GEOMETRY_5557db2b-7d3e-494b-8693-3e39d141e99c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-12087" lat="69.1901222297" lon="23.7443359957">
+		<tag k="ssr:gml_id" v="GEOMETRY_73881264-aa03-4e5f-9fe1-9d75ba97de1a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12086" lat="69.1901166747" lon="23.7443304193">
+		<tag k="ssr:gml_id" v="GEOMETRY_ff70e3b4-9db2-4af7-b00d-8b04b3458e06" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3879" lat="68.749400007" lon="23.3165582181">
+		<tag k="name" v="Jarinjeaggi" />
+		<tag k="name:se" v="Jarinjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="350396" />
+	</node>
+	<node id="-3870" lat="69.0249527835" lon="22.9489443517">
+		<tag k="name" v="Guohcaáhpi" />
+		<tag k="name:se" v="Guohcaáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="350163" />
+	</node>
+	<node id="-3856" lat="68.9542166735" lon="22.95439992">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Liiganiitu" />
+		<tag k="name:se" v="Liiganiitu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="349099" />
+	</node>
+	<node id="-5898" lat="69.5695833391" lon="23.81022487">
+		<tag k="ssr:gml_id" v="GEOMETRY_bcbe9dd2-7971-4265-9964-7aadafb9aea9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12247" lat="69.1842861152" lon="23.4895665532">
+		<tag k="name" v="Čohkajeaggi" />
+		<tag k="name:se" v="Čohkajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="957628" />
+	</node>
+	<node id="-3844" lat="69.0567444438" lon="23.0612610184">
+		<tag k="name" v="Vuoskkojaringieddi" />
+		<tag k="name:se" v="Vuoskkojaringieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334903" />
+	</node>
+	<node id="-3841" lat="69.0454555596" lon="23.1126360073">
+		<tag k="name" v="Issáhadállu" />
+		<tag k="name:se" v="Issáhadállu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334880" />
+	</node>
+	<node id="-3838" lat="69.0245472283" lon="23.083088799">
+		<tag k="name" v="Marggedállu" />
+		<tag k="name:se" v="Marggedállu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334855" />
+	</node>
+	<node id="-3834" lat="69.0337583367" lon="23.1890054495">
+		<tag k="name" v="Oivvošjeaggi" />
+		<tag k="name:se" v="Oivvošjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334541" />
+	</node>
+	<node id="-3828" lat="69.0104805607" lon="23.0926971339">
+		<tag k="name" v="Guhkesjeaggi" />
+		<tag k="name:se" v="Guhkesjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334496" />
+	</node>
+	<node id="-3827" lat="69.447375003" lon="23.6533859862">
+		<tag k="name" v="Hirsajeaggi" />
+		<tag k="name:se" v="Hirsajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334494" />
+	</node>
+	<node id="-5874" lat="69.6662638931" lon="23.5416887764">
+		<tag k="ssr:gml_id" v="GEOMETRY_afabeb26-3beb-40bc-9ea6-66404405e61b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5873" lat="69.6662611114" lon="23.5416860114">
+		<tag k="ssr:gml_id" v="GEOMETRY_05a694d9-5276-4786-b767-c0c987613f0d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8146" lat="68.8544777845" lon="22.8682777004">
+		<tag k="ssr:gml_id" v="GEOMETRY_8838cd30-af08-44c1-93ca-e492fbcae06d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3815" lat="69.3201833401" lon="23.9207082059">
+		<tag k="name" v="Heavvojeaggi" />
+		<tag k="name:se" v="Heavvojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334060" />
+	</node>
+	<node id="-8145" lat="68.8557666678" lon="22.8726360205">
+		<tag k="ssr:gml_id" v="GEOMETRY_8d0dea9a-e23d-42e5-af23-cfb33b68ae01" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5856" lat="69.5328611168" lon="23.4812248856">
+		<tag k="ssr:gml_id" v="GEOMETRY_8f2cb7d1-db80-4864-a901-83528eac5a77" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5855" lat="69.5328583391" lon="23.4812249086">
+		<tag k="ssr:gml_id" v="GEOMETRY_01f247b3-1255-4a4b-952b-dfcfdc50d364" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11557" lat="68.790677785" lon="25.0112497374">
+		<tag k="ssr:gml_id" v="GEOMETRY_5864dbb7-86e6-439f-a0e4-4e993466ea5d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8142" lat="68.8197305614" lon="22.8575943506">
+		<tag k="ssr:gml_id" v="GEOMETRY_bf617559-daff-4933-87c3-e93dd2df9d68" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7890" lat="68.7104833482" lon="24.8001164239">
+		<tag k="ssr:gml_id" v="GEOMETRY_5c6da572-de42-453f-8064-1e46b24bd2ef" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7889" lat="68.7104805687" lon="24.8001136453">
+		<tag k="ssr:gml_id" v="GEOMETRY_f81836bf-3864-4b64-84b1-7c5a4a53a53c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5834" lat="69.3858444493" lon="23.5823943238">
+		<tag k="ssr:gml_id" v="GEOMETRY_01db6be2-3230-4a24-844f-7d9e7144ffd8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5833" lat="69.3858472262" lon="23.5823971037">
+		<tag k="ssr:gml_id" v="GEOMETRY_f0b0e5c8-09ed-49be-aee6-63ac46ef7611" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5832" lat="69.3858416723" lon="23.5823915438">
+		<tag k="ssr:gml_id" v="GEOMETRY_e393f50b-5b3e-4924-a490-34cbcb514b7c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3778" lat="69.3180055634" lon="23.3822999028">
+		<tag k="ssr:gml_id" v="GEOMETRY_de630159-89ae-4f04-970f-76874ba97c61" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3777" lat="69.3180083418" lon="23.3823026721">
+		<tag k="ssr:gml_id" v="GEOMETRY_19c8a47e-e5f6-43b0-a5f7-491cc0e67753" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3776" lat="69.3180027812" lon="23.3822998858">
+		<tag k="ssr:gml_id" v="GEOMETRY_365787dc-3604-4be0-815f-d6f082ef0b9a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7849" lat="68.7172222261" lon="23.4421054441">
+		<tag k="ssr:gml_id" v="GEOMETRY_e18bb4e0-39a0-41ae-bb19-7558ff6dc00b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11944" lat="68.7619777857" lon="23.4323637795">
+		<tag k="ssr:gml_id" v="GEOMETRY_16ac3676-298d-4274-a4d2-68ca38c27ba0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11943" lat="68.7619750086" lon="23.432358218">
+		<tag k="ssr:gml_id" v="GEOMETRY_9a341914-3ffb-4cfa-b674-7e1bb621be31" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6086" lat="69.1858083325" lon="22.5377304987">
+		<tag k="ssr:gml_id" v="GEOMETRY_1692afab-d30e-4da2-8da5-a8b983a26bc4" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7826" lat="69.3491277837" lon="24.1789609611">
+		<tag k="name" v="Stuorabohttu" />
+		<tag k="name:se" v="Stuorabohttu" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="472297" />
+	</node>
+	<node id="-3352" lat="69.1834222247" lon="23.4521248906">
+		<tag k="name" v="Ruovttojeaggi" />
+		<tag k="name:se" v="Ruovttojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="289708" />
+	</node>
+	<node id="-3721" lat="69.5053000053" lon="23.2846610105">
+		<tag k="ssr:gml_id" v="GEOMETRY_9649e4a7-77fd-491c-816e-f6eff7065177" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3720" lat="69.5053027828" lon="23.2846665706">
+		<tag k="ssr:gml_id" v="GEOMETRY_a195e00f-8e4b-4981-a6c0-5c89f72af14c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7794" lat="68.8506666679" lon="23.1509304554">
+		<tag k="name" v="Stuorajeaggi" />
+		<tag k="name:se" v="Stuorajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="471341" />
+	</node>
+	<node id="-3696" lat="69.3212250035" lon="23.9205859711">
+		<tag k="ssr:gml_id" v="GEOMETRY_dcee794b-becf-46ee-9f5d-718d67b8e9e5" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3695" lat="69.3212277853" lon="23.9205887667">
+		<tag k="ssr:gml_id" v="GEOMETRY_4b2e0eed-5d89-4be2-984d-6f0c9dbad196" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3694" lat="69.3212222282" lon="23.9205832061">
+		<tag k="ssr:gml_id" v="GEOMETRY_c23c9c42-275c-408d-88db-af5b579f4fd7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7775" lat="69.0197638945" lon="23.0280971248">
+		<tag k="name" v="Darfejeaggi" />
+		<tag k="name:se" v="Darfejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="456880" />
+	</node>
+	<node id="-7772" lat="69.4394416686" lon="23.6840693183">
+		<tag k="name" v="Darfejeaggi" />
+		<tag k="name:se" v="Darfejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="456692" />
+	</node>
+	<node id="-7771" lat="69.4377555615" lon="23.7358387784">
+		<tag k="name" v="Várreduogejeaggi" />
+		<tag k="name:se" v="Várreduogejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="456678" />
+	</node>
+	<node id="-11865" lat="69.665441671" lon="23.4971026686">
+		<tag k="ssr:gml_id" v="GEOMETRY_79420695-1bf7-4a72-920f-2b71657f5b78" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11864" lat="69.6654388907" lon="23.4970998845">
+		<tag k="ssr:gml_id" v="GEOMETRY_3c74f4db-8469-4f79-9f2e-c2aed3931e06" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11858" lat="69.0294944473" lon="22.9486971306">
+		<tag k="ssr:gml_id" v="GEOMETRY_825e354a-841e-4bff-b05e-5b405b1afe3a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11857" lat="69.0294916691" lon="22.9486943587">
+		<tag k="ssr:gml_id" v="GEOMETRY_8fbab59c-f085-4db4-99d2-0759033fac18" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9807" lat="68.9808638924" lon="23.7550804273">
+		<tag k="ssr:gml_id" v="GEOMETRY_8587687b-9be8-4230-a817-0939d470f35a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9806" lat="68.980872226" lon="23.7550887475">
+		<tag k="ssr:gml_id" v="GEOMETRY_a0b0874f-e977-4650-8120-7574e008e0bc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9805" lat="68.9808666732" lon="23.7550832027">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f30b86a-9b17-4b1a-ae5c-28629da3e09a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9804" lat="68.9593333427" lon="23.7635137512">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f2f4771-a407-49be-9a8f-3be975925dff" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9803" lat="68.9593277814" lon="23.7635082043">
+		<tag k="ssr:gml_id" v="GEOMETRY_6c130b98-9a49-45ef-9a78-e790d728986a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11842" lat="69.0891861154" lon="23.2205554583">
+		<tag k="name" v="Juntejeaggi" />
+		<tag k="name:se" v="Juntejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Juntejæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="928552" />
+	</node>
+	<node id="-3649" lat="68.9477111158" lon="23.6094387521">
+		<tag k="ssr:gml_id" v="GEOMETRY_d804427c-8361-46d1-90b9-7514d669a3ef" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3635" lat="68.8880027854" lon="23.5202998875">
+		<tag k="ssr:gml_id" v="GEOMETRY_ed314266-b643-44ee-9580-9238c7187ab8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3634" lat="68.8880000017" lon="23.5202998825">
+		<tag k="ssr:gml_id" v="GEOMETRY_632e3b94-ab5a-4c98-bfb9-de8ed3fdbe9f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3627" lat="68.7854888944" lon="23.3093110139">
+		<tag k="ssr:gml_id" v="GEOMETRY_390c0378-f951-49e4-a02e-03a8ec61dee9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3626" lat="68.7854916683" lon="23.3093137731">
+		<tag k="ssr:gml_id" v="GEOMETRY_1339219e-f6fc-481c-a56d-ab92d9c1b9f6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3619" lat="69.121100007" lon="23.7096609942">
+		<tag k="ssr:gml_id" v="GEOMETRY_2c84f6f5-65d7-4acb-b305-7074b53ee06d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3618" lat="69.1211000049" lon="23.7096637513">
+		<tag k="ssr:gml_id" v="GEOMETRY_bdf16ccc-73a1-4492-9877-477e701a854c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3617" lat="69.1210972255" lon="23.709658205">
+		<tag k="ssr:gml_id" v="GEOMETRY_91463fbd-e2b4-4ced-b7d5-dae404723359" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7709" lat="68.7683666684" lon="23.3125165615">
+		<tag k="ssr:gml_id" v="GEOMETRY_8563e39b-8f65-4934-adca-a1a2a94b00d7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7708" lat="68.768369451" lon="23.3125193244">
+		<tag k="ssr:gml_id" v="GEOMETRY_26c67d2b-3b27-4db2-8d2b-8c98e842c390" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7769" lat="69.0320305592" lon="23.1742415583">
+		<tag k="name" v="Searvejeaggi" />
+		<tag k="name:se" v="Searvejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="456551" />
+	</node>
+	<node id="-3601" lat="69.0635500095" lon="23.9217443017">
+		<tag k="ssr:gml_id" v="GEOMETRY_946935db-077a-40b2-a960-61e7fe40352f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3600" lat="69.0635527807" lon="23.9217470794">
+		<tag k="ssr:gml_id" v="GEOMETRY_861ca420-2899-4704-9312-53b93513d419" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3599" lat="69.0635500085" lon="23.921741522">
+		<tag k="ssr:gml_id" v="GEOMETRY_c68fcfc7-8938-4d9e-92b3-2193d7c24b3d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9739" lat="68.8277194516" lon="23.5420359934">
+		<tag k="ssr:gml_id" v="GEOMETRY_e4be2f66-0c12-4b02-8fe8-88af3dbe27d5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9738" lat="68.8277138906" lon="23.542030442">
+		<tag k="ssr:gml_id" v="GEOMETRY_43f31a02-0b5e-4347-ad02-2dd666f0bb6c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3591" lat="68.8333500057" lon="23.266063785">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b1e4b7d-8203-412e-bafb-2d44b8e4aa4c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3590" lat="68.8333500071" lon="23.2660665548">
+		<tag k="ssr:gml_id" v="GEOMETRY_3aed5282-28bb-463d-a430-d2ecbefa4ac3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10497" lat="69.0110277825" lon="23.7718970823">
+		<tag k="ssr:gml_id" v="GEOMETRY_406672a4-772e-4f19-8fc4-d1f3927fd357" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7677" lat="69.2947527816" lon="22.8630026888">
+		<tag k="ssr:gml_id" v="GEOMETRY_8e5853fc-ec78-4b22-a643-a3274d81f402" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7676" lat="69.294755561" lon="22.8630054868">
+		<tag k="ssr:gml_id" v="GEOMETRY_2ce6599b-082d-465e-849b-8523faf297cf" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7675" lat="69.2947500002" lon="22.8629999153">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b86d874-ff16-4e18-b506-82b74f162978" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7674" lat="69.1128444475" lon="24.3217137181">
+		<tag k="ssr:gml_id" v="GEOMETRY_ec977f72-09b5-46fe-ab8d-468d559f673a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7673" lat="69.1128416705" lon="24.3217109254">
+		<tag k="ssr:gml_id" v="GEOMETRY_e6dc81e2-443b-4206-897c-ba48c44e500b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3562" lat="68.7513888989" lon="24.5033525852">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9a78c2f-ebae-4349-b1a1-1d7a61fbf9a7" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-3561" lat="68.7513888941" lon="24.5033497858">
+		<tag k="ssr:gml_id" v="GEOMETRY_53734b01-27c2-465a-9531-33d9c51e9ce8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3560" lat="68.7587111195" lon="24.4797636872">
+		<tag k="ssr:gml_id" v="GEOMETRY_9e22a5f0-1f60-4686-a4ea-5433b2b6b9e9" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3559" lat="68.7587055642" lon="24.479758131">
+		<tag k="ssr:gml_id" v="GEOMETRY_ffb561f0-265e-4494-ac71-5985b4effd4d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9700" lat="69.0343694499" lon="22.3227749502">
+		<tag k="ssr:gml_id" v="GEOMETRY_201741d1-a1a6-4f9e-ae2a-0f62cf500aa1" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9699" lat="69.0343722234" lon="22.3227749503">
+		<tag k="ssr:gml_id" v="GEOMETRY_47323ca2-d2c4-453a-a4fe-c1b3d9bbec41" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9698" lat="69.0343666677" lon="22.3227749447">
+		<tag k="ssr:gml_id" v="GEOMETRY_a2690f44-a3bb-497a-8c16-5cce994b4c64" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11734" lat="69.4290138947" lon="23.6532693187">
+		<tag k="name" v="Heaikkaščievra" />
+		<tag k="name:se" v="Heaikkaščievra" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881650" />
+	</node>
+	<node id="-7756" lat="69.4155333365" lon="23.6315693311">
+		<tag k="name" v="Bissogoarvi" />
+		<tag k="name:se" v="Bissogoarvi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="455663" />
+	</node>
+	<node id="-11732" lat="69.0228222277" lon="23.1511082451">
+		<tag k="name" v="Čuvččajeaggi" />
+		<tag k="name:se" v="Čuvččajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881542" />
+	</node>
+	<node id="-5586" lat="68.916505558" lon="23.1160915777">
+		<tag k="name" v="Suohpatjeaggi" />
+		<tag k="name:se" v="Suohpatjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="108134" />
+	</node>
+	<node id="-3536" lat="69.0920583354" lon="22.6347971392">
+		<tag k="ssr:gml_id" v="GEOMETRY_7596f1a9-ee82-4806-895c-ea34f5dc93ad" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3535" lat="69.0920611151" lon="22.6347999288">
+		<tag k="ssr:gml_id" v="GEOMETRY_42414a4d-3983-44b5-aaee-2ee8f4ed5093" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3534" lat="69.0920555538" lon="22.634794374">
+		<tag k="ssr:gml_id" v="GEOMETRY_2e004be1-9324-4fbc-bc53-ac0b905775ed" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5575" lat="69.1233222248" lon="23.1960471315">
+		<tag k="ssr:gml_id" v="GEOMETRY_dfd2a22e-5528-4f03-a8f6-46a16805c8b1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5574" lat="69.1186277775" lon="23.188483241">
+		<tag k="ssr:gml_id" v="GEOMETRY_74327768-c131-41e4-90e2-1d793e14d3d4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5563" lat="68.9016666708" lon="22.8548776904">
+		<tag k="name" v="Uhcajeakkáš" />
+		<tag k="name:se" v="Uhcajeakkáš" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="105067" />
+	</node>
+	<node id="-11167" lat="69.3709083434" lon="24.1226665131">
+		<tag k="name" v="Hohtebalssat" />
+		<tag k="name:se" v="Hohtebalssat" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="836273" />
+	</node>
+	<node id="-11675" lat="68.8702833346" lon="22.9150943537">
+		<tag k="ssr:gml_id" v="GEOMETRY_30852e94-917f-410f-8fc6-9126614478b1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11674" lat="68.8702861114" lon="22.9150971235">
+		<tag k="ssr:gml_id" v="GEOMETRY_9d64dfa7-8a86-4d21-92e3-7f5130786063" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3481" lat="68.7774972289" lon="24.6519664587">
+		<tag k="ssr:gml_id" v="GEOMETRY_af752414-27e4-4ca6-a0db-320a5b35a085" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-3480" lat="68.7685805686" lon="24.6754164383">
+		<tag k="ssr:gml_id" v="GEOMETRY_a8163875-36e2-4f39-a56a-bf87f975061b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3479" lat="68.7685777869" lon="24.6754136672">
+		<tag k="ssr:gml_id" v="GEOMETRY_71f03efc-0fe4-4293-8d69-daa41cc91aee" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3650" lat="68.9477166675" lon="23.6094443236">
+		<tag k="ssr:gml_id" v="GEOMETRY_5dcaeb3c-5372-4ba2-980b-fb5feefd2d16" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5509" lat="69.1497083359" lon="23.8390304186">
+		<tag k="ssr:gml_id" v="GEOMETRY_3209d7e9-97a0-4c6c-a2bd-d54a22ed2bdb" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5508" lat="69.1497111172" lon="23.839033204">
+		<tag k="ssr:gml_id" v="GEOMETRY_6b9b733a-603d-4c50-affb-81e958b27edd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5507" lat="69.1497055633" lon="23.8390276393">
+		<tag k="ssr:gml_id" v="GEOMETRY_2a3b4f0d-c72e-4fbc-9ffa-f88d489bdee9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6720" lat="68.8772361105" lon="23.1459221214">
+		<tag k="name" v="Bahájeaggi" />
+		<tag k="name:se" v="Bahájeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="228281" />
+	</node>
+	<node id="-7525" lat="69.3114388925" lon="23.7812776491">
+		<tag k="ssr:gml_id" v="GEOMETRY_3181dfd4-2798-4212-9ed3-ccff9225e0e6" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7524" lat="69.3114416682" lon="23.7812804194">
+		<tag k="ssr:gml_id" v="GEOMETRY_d024a559-f184-4852-885a-fdcf204c9343" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7523" lat="69.3114361169" lon="23.7812748788">
+		<tag k="ssr:gml_id" v="GEOMETRY_83bcb5ef-4195-4693-8d98-f2345d093b4a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9560" lat="69.1146527771" lon="23.3408665635">
+		<tag k="name" v="Hávgajárjeaggi" />
+		<tag k="name:se" v="Hávgajárjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="653619" />
+	</node>
+	<node id="-5459" lat="68.9522194503" lon="24.5138998115">
+		<tag k="ssr:gml_id" v="GEOMETRY_a35850ff-d83e-4b9b-a769-55270e5f7c3c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5458" lat="68.9546416782" lon="24.5057081408">
+		<tag k="ssr:gml_id" v="GEOMETRY_aa0c88df-6a44-4ae0-9ece-6db8dc5cd2d2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5457" lat="68.9546361197" lon="24.5057025714">
+		<tag k="ssr:gml_id" v="GEOMETRY_50c987ea-7b84-44b4-af76-9f9acf1eed4c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8755" lat="69.6019250061" lon="23.5657749013">
+		<tag k="ssr:gml_id" v="GEOMETRY_27b4d5bd-41b1-4323-a46a-e1caf25b1194" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9518" lat="69.0276638946" lon="23.1573582438">
+		<tag k="name" v="Njukčajeaggi" />
+		<tag k="name:se" v="Njukčajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="637594" />
+	</node>
+	<node id="-3370" lat="68.6674694472" lon="23.2624304346">
+		<tag k="ssr:gml_id" v="GEOMETRY_3667dec9-ce02-483e-af76-621ca9511ef6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-3369" lat="68.6674666744" lon="23.2624276734">
+		<tag k="ssr:gml_id" v="GEOMETRY_a84fdde2-f04d-4fa6-9b27-6f2a55dd263a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3365" lat="69.3015388975" lon="23.8537359801">
+		<tag k="name" v="Suotnju" />
+		<tag k="name:se" v="Suotnju" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="47428" />
+	</node>
+	<node id="-11556" lat="68.7906750143" lon="25.0112497313">
+		<tag k="ssr:gml_id" v="GEOMETRY_c80d9ee3-4653-48a0-b6ce-194a5f35dab9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9507" lat="69.4288083408" lon="23.719441549">
+		<tag k="name" v="Jeagelráhppát" />
+		<tag k="name:se" v="Jeagelráhppát" />
+		<tag k="natural" v="scree" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="637356" />
+	</node>
+	<node id="-3353" lat="69.1633138889" lon="23.3450026805">
+		<tag k="name" v="Luossajohniittut" />
+		<tag k="name:se" v="Luossajohniittut" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="289714" />
+	</node>
+	<node id="-9496" lat="69.0532527815" lon="23.8916165355">
+		<tag k="ssr:gml_id" v="GEOMETRY_8390a3fe-a3a1-4863-99b6-219add34e5ae" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9495" lat="69.0532555619" lon="23.891619314">
+		<tag k="ssr:gml_id" v="GEOMETRY_c8c8f2c8-904d-46be-abbf-9c6348202e93" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9494" lat="69.0532500011" lon="23.891613757">
+		<tag k="ssr:gml_id" v="GEOMETRY_4a957302-ac1a-46fd-8a62-dfc5431b50f1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7444" lat="68.9797944545" lon="24.7478386788">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce9f9420-a342-4bf0-84b1-f69a3433ffc4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7443" lat="68.979791672" lon="24.747835893">
+		<tag k="ssr:gml_id" v="GEOMETRY_fe6dff22-215b-4db1-a32a-a16837ebee6a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5390" lat="68.7858166771" lon="24.7951497735">
+		<tag k="ssr:gml_id" v="GEOMETRY_bfde358c-57f9-47ab-afcf-a3003296a6f5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5389" lat="68.7858166773" lon="24.795160885">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa310c85-6b74-4310-9e42-ac757efc7d9e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3311" lat="69.0323527795" lon="23.1517054467">
+		<tag k="name" v="Biretbalssat" />
+		<tag k="name:se" v="Biretbalssat" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="274531" />
+	</node>
+	<node id="-3309" lat="69.0088750059" lon="23.0063526994">
+		<tag k="name" v="Doaresjeaggi" />
+		<tag k="name:se" v="Doaresjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="274517" />
+	</node>
+	<node id="-11481" lat="69.4387833341" lon="23.51652489">
+		<tag k="ssr:gml_id" v="GEOMETRY_585b8a00-a697-4c1f-923e-4fb320d480e1" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-11480" lat="69.4387861122" lon="23.516527669">
+		<tag k="ssr:gml_id" v="GEOMETRY_9a6a5dc7-6bb2-431c-83c4-60e490f4c33c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11479" lat="69.4387805561" lon="23.516522111">
+		<tag k="ssr:gml_id" v="GEOMETRY_058d3630-7301-41eb-8eb4-cb1e7db5e93d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7372" lat="69.0922527843" lon="23.1702443487">
+		<tag k="ssr:gml_id" v="GEOMETRY_f251dd70-342b-4235-9d4d-a1024aada888" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-7371" lat="69.0978722265" lon="23.1575610266">
+		<tag k="ssr:gml_id" v="GEOMETRY_3e2a2b88-c4e7-4245-b92a-d5245ad1fcaf" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7370" lat="69.097875005" lon="23.1575637856">
+		<tag k="ssr:gml_id" v="GEOMETRY_ddc083b2-b05c-4f24-ba9b-6fe162849ba0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7369" lat="69.0978777805" lon="23.1575610162">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce18e7d5-9381-4df2-8a31-a23b0d21adc7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9416" lat="69.1767444468" lon="22.8104138108">
+		<tag k="ssr:gml_id" v="GEOMETRY_32d6f614-ec6b-402d-90b8-2a3576cf996e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9415" lat="69.1767472273" lon="22.8104165856">
+		<tag k="ssr:gml_id" v="GEOMETRY_ac641f53-2ad0-4514-9a07-1ff74c28c1a2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9414" lat="69.1767416664" lon="22.810411036">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f0ef0f9-12da-452c-87a1-0d80895a6263" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9404" lat="69.5612277786" lon="23.3831137949">
+		<tag k="ssr:gml_id" v="GEOMETRY_97dd87e4-99d3-46cf-a2b6-3a0a30e8f39a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9403" lat="69.5612333392" lon="23.3831193533">
+		<tag k="ssr:gml_id" v="GEOMETRY_fbbfbc3c-706e-483b-9257-16d5309574e8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7347" lat="68.9409138931" lon="22.227477728">
+		<tag k="ssr:gml_id" v="GEOMETRY_e14335b3-b4be-4ef1-a514-d9ed5f1880b9" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-7346" lat="68.9409138923" lon="22.2274749542">
+		<tag k="ssr:gml_id" v="GEOMETRY_9c0eb178-ce53-4700-8f61-ce652ac9cad0" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7345" lat="68.9409222207" lon="22.2274777186">
+		<tag k="ssr:gml_id" v="GEOMETRY_35716e1a-e66d-49ae-aaac-a404c29c2704" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7344" lat="68.9409194482" lon="22.2274749336">
+		<tag k="ssr:gml_id" v="GEOMETRY_af8b89a5-213c-44f8-8688-a36bc5ba165e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5289" lat="69.4047861189" lon="23.7840832212">
+		<tag k="ssr:gml_id" v="GEOMETRY_c4878718-afae-459f-8177-de9ab212a65f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9384" lat="69.6157388913" lon="23.5322332212">
+		<tag k="ssr:gml_id" v="GEOMETRY_16496b78-680b-4863-9a09-4f3c2a712787" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5287" lat="69.4047833347" lon="23.7840804312">
+		<tag k="ssr:gml_id" v="GEOMETRY_ce4a2cd0-0e8e-47c4-9c42-42fd235bacb2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7330" lat="68.8394500019" lon="22.3738221626">
+		<tag k="ssr:gml_id" v="GEOMETRY_7abbdd79-d7a3-4b08-b2b9-28440ce4222e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7329" lat="68.8394500053" lon="22.3738193777">
+		<tag k="ssr:gml_id" v="GEOMETRY_3e430835-a7f6-45c3-9cae-b4dc66f2f408" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5277" lat="69.4590138969" lon="23.5326915546">
+		<tag k="ssr:gml_id" v="GEOMETRY_720f47f8-bc53-421f-b99d-cd896526c68c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5276" lat="69.4590166747" lon="23.5326943386">
+		<tag k="ssr:gml_id" v="GEOMETRY_16e4a50c-67d0-4636-9a92-577db33c3a1a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5275" lat="69.4590111191" lon="23.5326887707">
+		<tag k="ssr:gml_id" v="GEOMETRY_3edf0899-19ad-4ad5-83aa-629ffd14fd91" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5271" lat="69.467750001" lon="23.8344387618">
+		<tag k="ssr:gml_id" v="GEOMETRY_50ed8c39-2f3b-4b05-b565-7d39d0dc20b8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5270" lat="69.4677500071" lon="23.834441545">
+		<tag k="ssr:gml_id" v="GEOMETRY_1bc9962e-4e5c-4e3c-a518-0a84b30ad0fe" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5269" lat="69.4677500035" lon="23.8344359848">
+		<tag k="ssr:gml_id" v="GEOMETRY_daff05de-1ccc-4503-80a5-06df6aeb8380" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5239" lat="69.2697666684" lon="23.7482998707">
+		<tag k="ssr:gml_id" v="GEOMETRY_8abaacee-b788-46fe-8bff-f4b7e38759ba" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5238" lat="69.2697694512" lon="23.7483026615">
+		<tag k="ssr:gml_id" v="GEOMETRY_65a5b9a6-5bfb-4055-a710-a7fcba09988a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5237" lat="69.2697638943" lon="23.748297086">
+		<tag k="ssr:gml_id" v="GEOMETRY_48be9583-10ff-4a36-a98d-6daffa66a0fb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7270" lat="69.2122222297" lon="24.3778109481">
+		<tag k="ssr:gml_id" v="GEOMETRY_e98c5122-00a4-4c4c-8fc2-92dff6b8c63f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7269" lat="69.2206750074" lon="24.3761498336">
+		<tag k="ssr:gml_id" v="GEOMETRY_a23c090c-442b-4dd8-8a99-feda45ffa7ee" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5215" lat="68.8892083352" lon="22.4802527218">
+		<tag k="ssr:gml_id" v="GEOMETRY_d832837c-58f4-4390-8a63-3adbc56aa634" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5214" lat="68.8892055565" lon="22.4802499311">
+		<tag k="ssr:gml_id" v="GEOMETRY_b337994a-9723-4159-8051-c23f07a5dc4d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7255" lat="69.1547638942" lon="23.4940054528">
+		<tag k="ssr:gml_id" v="GEOMETRY_ca6b634c-871b-4556-8b85-e3f67a196e21" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7254" lat="69.1547666708" lon="23.4940082135">
+		<tag k="ssr:gml_id" v="GEOMETRY_8b6aef70-ce26-478f-8ce8-a8554161401a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7253" lat="69.1547611111" lon="23.4940026618">
+		<tag k="ssr:gml_id" v="GEOMETRY_68457bc2-c86a-4dad-8dd3-6447b69b317c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11347" lat="68.9251666681" lon="23.1369637853">
+		<tag k="ssr:gml_id" v="GEOMETRY_2e9a465b-0e1f-45ff-a7ff-c7f0786954fd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11346" lat="68.9251694517" lon="23.136966572">
+		<tag k="ssr:gml_id" v="GEOMETRY_4243e39d-9e5a-46aa-9643-ea566ce02b5e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7246" lat="69.1206444522" lon="23.7863137563">
+		<tag k="ssr:gml_id" v="GEOMETRY_7dff132d-4df3-48f2-9bd5-d7d159f3be3a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7245" lat="69.1206472257" lon="23.7863165249">
+		<tag k="ssr:gml_id" v="GEOMETRY_8188fa38-c9c1-4dc6-868b-d33d938962dc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7244" lat="69.12064167" lon="23.7863109817">
+		<tag k="ssr:gml_id" v="GEOMETRY_a186fb40-36e0-4f9d-bcb7-10382bafb328" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7240" lat="69.1018638965" lon="23.9724359607">
+		<tag k="ssr:gml_id" v="GEOMETRY_31252c76-f6bf-4b09-b16d-2bc97e01a436" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7239" lat="69.1018666754" lon="23.9724387562">
+		<tag k="ssr:gml_id" v="GEOMETRY_49f0700f-9825-4a72-80b1-1f75a67132e3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7238" lat="69.1018611154" lon="23.9724331895">
+		<tag k="ssr:gml_id" v="GEOMETRY_0dfa7a60-38c1-4900-a959-dcdf19ce227a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3937" lat="69.0128250008" lon="23.1812748994">
+		<tag k="ssr:gml_id" v="GEOMETRY_0611ec49-17a2-4492-9a85-f153eeebe888" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7231" lat="69.487636112" lon="23.7533748829">
+		<tag k="ssr:gml_id" v="GEOMETRY_622bfdd3-62b6-4447-be66-f1cf917b0615" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7230" lat="69.4876388914" lon="23.7533748702">
+		<tag k="ssr:gml_id" v="GEOMETRY_d536986e-94a9-4de4-a74f-8e3899b4e5f5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7229" lat="69.4876333348" lon="23.7533748709">
+		<tag k="ssr:gml_id" v="GEOMETRY_25e07eb0-53e2-4c43-af8c-c4b01c51df37" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9263" lat="68.9922194511" lon="23.8991915317">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b4c702a-a0d5-49ae-9a8f-3a9d53bc0871" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-9262" lat="68.9915750049" lon="23.905399847">
+		<tag k="ssr:gml_id" v="GEOMETRY_cf5ea1dd-c02b-46bc-a021-0c3e8c950284" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-8029" lat="69.6830861156" lon="23.4840971262">
+		<tag k="ssr:gml_id" v="GEOMETRY_80f93733-4f48-4d12-a4e2-32a3ed54b90c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9260" lat="69.0077805576" lon="23.9286998436">
+		<tag k="ssr:gml_id" v="GEOMETRY_dffa5971-33ae-4652-952d-2da8b73af5db" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8151" lat="68.849183341" lon="23.0745082304">
+		<tag k="ssr:gml_id" v="GEOMETRY_5b82fb9d-864c-484f-927f-48c907bdc85c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9252" lat="68.9661638903" lon="23.9887359598">
+		<tag k="ssr:gml_id" v="GEOMETRY_e083d2bd-a8ac-4f3c-9f6e-1db74f2c58d2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9251" lat="68.9661583415" lon="23.9887304088">
+		<tag k="ssr:gml_id" v="GEOMETRY_93733cdf-a642-4f81-91dd-388de169bc27" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7200" lat="69.0516472319" lon="24.4582331506">
+		<tag k="ssr:gml_id" v="GEOMETRY_a73a7108-7148-47ce-b1ec-3b270fade603" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7199" lat="69.0516444551" lon="24.4582303735">
+		<tag k="ssr:gml_id" v="GEOMETRY_fcf9c2b6-c73a-47ff-856a-9ff0be6e74ff" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11279" lat="69.0277388949" lon="23.1789998942">
+		<tag k="ssr:gml_id" v="GEOMETRY_c4f9c4b9-216a-4ce2-866d-273c29e22aa1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11278" lat="69.0185944483" lon="23.1836721137">
+		<tag k="ssr:gml_id" v="GEOMETRY_1fb77312-36e2-4df5-bfdf-d6a71c2b7a6f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-11275" lat="69.0904361149" lon="23.131611018">
+		<tag k="ssr:gml_id" v="GEOMETRY_b5190496-6601-4d4f-babf-65a3c83e6962" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11274" lat="69.092186112" lon="23.1182110117">
+		<tag k="ssr:gml_id" v="GEOMETRY_532b5b1b-9b87-47f2-804b-a059d870e6b8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9201" lat="68.8585138931" lon="24.3906775831">
+		<tag k="ssr:gml_id" v="GEOMETRY_83240818-473f-4792-99f4-7781148ec509" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9200" lat="68.8585083435" lon="24.3906748105">
+		<tag k="ssr:gml_id" v="GEOMETRY_cc25ff0d-5cdc-4620-bd28-b04386eb255f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5288" lat="69.4047888965" lon="23.7840859805">
+		<tag k="ssr:gml_id" v="GEOMETRY_c725a7b3-93a1-4c0f-bcb4-a3213ab3ce6e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9383" lat="69.6157361116" lon="23.5322304397">
+		<tag k="ssr:gml_id" v="GEOMETRY_4d53e4be-3bff-47b6-84c3-312003ac7ec1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9185" lat="68.9286388938" lon="24.1028915069">
+		<tag k="ssr:gml_id" v="GEOMETRY_8319fdea-4c8d-4cda-a15a-2f8ac4537682" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9184" lat="68.9286333382" lon="24.1028859557">
+		<tag k="ssr:gml_id" v="GEOMETRY_2f8bc89e-e777-4b0a-a1a8-b9e4f932c19c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5082" lat="68.7309694513" lon="24.9765553025">
+		<tag k="ssr:gml_id" v="GEOMETRY_6f2904d7-5c8a-433c-8b78-c0f9dd92239f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5081" lat="68.7309666727" lon="24.976552523">
+		<tag k="ssr:gml_id" v="GEOMETRY_ee428585-548f-4e5d-915e-f1514701fdbb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7124" lat="69.5168138914" lon="23.3356248909">
+		<tag k="ssr:gml_id" v="GEOMETRY_0340a21a-53bf-4377-9f6c-14907d657f29" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7123" lat="69.5168194517" lon="23.3356304492">
+		<tag k="ssr:gml_id" v="GEOMETRY_c0eea984-7bf7-44ff-b8be-77369d7838e1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4258" lat="68.9595222352" lon="24.6119442296">
+		<tag k="ssr:gml_id" v="GEOMETRY_49320cf0-b6fa-4255-aa85-ff3a42f45eae" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5040" lat="68.8734222285" lon="23.0623526739">
+		<tag k="name" v="Gurkejeaggi" />
+		<tag k="name:se" v="Gurkejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="47169" />
+	</node>
+	<node id="-9132" lat="69.0585777801" lon="22.552819379">
+		<tag k="ssr:gml_id" v="GEOMETRY_0b6b09b3-6583-4687-8c9a-7f1bae1c905e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9131" lat="69.0585805612" lon="22.5528221537">
+		<tag k="ssr:gml_id" v="GEOMETRY_345a1f83-1a02-4d31-83dc-9b7b059a8cd1" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9130" lat="69.0585749989" lon="22.5528166044">
+		<tag k="ssr:gml_id" v="GEOMETRY_f7f89273-655c-4afc-a6f6-7b2f40262360" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5030" lat="69.0942805573" lon="23.2366248883">
+		<tag k="name" v="Vuojahatjeaggi" />
+		<tag k="name:se" v="Vuojahatjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="46332" />
+	</node>
+	<node id="-11170" lat="68.8401000034" lon="23.3556359965">
+		<tag k="name" v="Rasttávuovdi" />
+		<tag k="name:se" v="Rasttávuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="836401" />
+	</node>
+	<node id="-9120" lat="69.0159944496" lon="22.6129276976">
+		<tag k="ssr:gml_id" v="GEOMETRY_60df4726-1ee1-4b68-8944-1c6478d90c05" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9119" lat="69.0159972277" lon="22.6129304983">
+		<tag k="ssr:gml_id" v="GEOMETRY_0463b9d5-159f-4380-90c6-aa84ea14cf9b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9118" lat="69.0159916695" lon="22.6129249213">
+		<tag k="ssr:gml_id" v="GEOMETRY_ba6befb1-229a-4df2-b17b-1c8bcb8c715d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9107" lat="69.1286500043" lon="23.4145221036">
+		<tag k="ssr:gml_id" v="GEOMETRY_ff827d87-6d38-416a-b50d-dfaa42fa9748" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9106" lat="69.1286527781" lon="23.4145248994">
+		<tag k="ssr:gml_id" v="GEOMETRY_3a8a224f-1dc2-462a-a548-54255abcd859" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9105" lat="69.1275555617" lon="23.3976887709">
+		<tag k="ssr:gml_id" v="GEOMETRY_5bf64b8f-e253-424f-97f8-6df9ef803bd4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-5008" lat="69.0035666701" lon="23.0085193607">
+		<tag k="name" v="Geađgejeaggi" />
+		<tag k="name:se" v="Geađgejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="31541" />
+	</node>
+	<node id="-5004" lat="69.0244861167" lon="23.1863193444">
+		<tag k="name" v="Ruhkkujeaggi" />
+		<tag k="name:se" v="Ruhkkujeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="31505" />
+	</node>
+	<node id="-7042" lat="69.4563361165" lon="23.8146693148">
+		<tag k="ssr:gml_id" v="GEOMETRY_4b339722-0ea3-40eb-8ddf-6992ce070b0d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-7041" lat="69.4563388936" lon="23.8146720853">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ba1133e-1ab9-41ac-ae1b-c7392a2fa03e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7040" lat="69.4563333394" lon="23.8146665443">
+		<tag k="ssr:gml_id" v="GEOMETRY_c435fe90-22c9-4133-ae11-d8081a3b96b3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9083" lat="69.4436750032" lon="23.9290415222">
+		<tag k="ssr:gml_id" v="GEOMETRY_db651d2b-6fcb-4a95-a1e9-b4c60f830120" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9082" lat="69.4436777869" lon="23.9290443118">
+		<tag k="ssr:gml_id" v="GEOMETRY_5c7eed1b-4d35-423f-bb2f-c7daf8177062" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9081" lat="69.4436750072" lon="23.9290387485">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa85993e-0518-49be-a42d-0b16aa343bff" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9080" lat="69.4339250047" lon="23.9776804214">
+		<tag k="ssr:gml_id" v="GEOMETRY_6236ffeb-62a6-4b8c-ada9-ce676d5161f5" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9079" lat="69.4339250086" lon="23.9776831999">
+		<tag k="ssr:gml_id" v="GEOMETRY_89af212e-952f-4db9-9779-e550ea874b49" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9078" lat="69.4339250009" lon="23.9776776428">
+		<tag k="ssr:gml_id" v="GEOMETRY_2abff7c5-a18b-4d54-8f80-32f98886fcd3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7007" lat="69.0821500028" lon="23.7212498656">
+		<tag k="ssr:gml_id" v="GEOMETRY_32e57a1c-a14a-4e6f-910d-9b64398987ca" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-7006" lat="69.0821472258" lon="23.7212498627">
+		<tag k="ssr:gml_id" v="GEOMETRY_1c0cfa6d-d661-42e9-bbc5-37f3ed27a293" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9038" lat="68.8247861162" lon="22.7665415817">
+		<tag k="ssr:gml_id" v="GEOMETRY_384bcd93-de79-4de9-a1ff-469a527525c4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9037" lat="68.8247833387" lon="22.7665388124">
+		<tag k="ssr:gml_id" v="GEOMETRY_4048e279-4f7d-420d-81ae-9a8a1a56dcc7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4933" lat="69.3235638986" lon="23.9583359639">
+		<tag k="ssr:gml_id" v="GEOMETRY_970fdb8c-69a9-4f4c-8128-d811808c0670" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-4932" lat="69.3235666711" lon="23.9583387585">
+		<tag k="ssr:gml_id" v="GEOMETRY_25db5fff-cdcb-42fa-bddb-83727785f9c2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4931" lat="69.3235611175" lon="23.9583359764">
+		<tag k="ssr:gml_id" v="GEOMETRY_d622bc4e-6383-4186-93ec-82c140a4c4e1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-9005" lat="69.0418222247" lon="22.9066332573">
+		<tag k="name" v="Johkamohkejeaggi" />
+		<tag k="name:se" v="Johkamohkejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="593172" />
+	</node>
+	<node id="-8984" lat="68.875225004" lon="23.1558276828">
+		<tag k="name" v="Lánjas" />
+		<tag k="name:se" v="Lánjas" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="592291" />
+	</node>
+	<node id="-8983" lat="69.0682694494" lon="22.9639110369">
+		<tag k="name" v="Heitosuoidni" />
+		<tag k="name:se" v="Heitosuoidni" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="592204" />
+	</node>
+	<node id="-8982" lat="68.9534805583" lon="22.947494355">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Vehaniitu" />
+		<tag k="name:se" v="Vehaniitu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="592078" />
+	</node>
+	<node id="-6925" lat="68.8355166676" lon="23.3055248883">
+		<tag k="ssr:gml_id" v="GEOMETRY_b81febf0-760a-4a16-a748-723c1045e4cf" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6924" lat="68.8355194495" lon="23.3055248896">
+		<tag k="ssr:gml_id" v="GEOMETRY_eb3a001f-b126-417e-bc51-58d9acd2c1ff" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8970" lat="69.0564694497" lon="23.0731915824">
+		<tag k="name" v="Uhcavuovddáš" />
+		<tag k="name:se" v="Uhcavuovddáš" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577922" />
+	</node>
+	<node id="-8962" lat="69.422041673" lon="23.642427674">
+		<tag k="name" v="Mázegoarvi" />
+		<tag k="name:se" v="Mázegoarvi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577673" />
+	</node>
+	<node id="-8955" lat="69.0047555583" lon="23.0323999">
+		<tag k="name" v="Ciebat-Ristenagieddi" />
+		<tag k="name:se" v="Ciebat-Ristenagieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577546" />
+	</node>
+	<node id="-8950" lat="69.0155583375" lon="23.207574912">
+		<tag k="name" v="Luoktagáddi" />
+		<tag k="name:se" v="Luoktagáddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="577427" />
+	</node>
+	<node id="-4804" lat="69.4716027823" lon="22.467952706">
+		<tag k="ssr:gml_id" v="GEOMETRY_9cd02d6f-c69b-48dc-b84f-9e43298b09a7" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-4803" lat="69.4716055579" lon="22.4679554976">
+		<tag k="ssr:gml_id" v="GEOMETRY_a6081834-b737-4c34-a5ca-82d1ba78f6b3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4802" lat="69.4716000049" lon="22.4679499393">
+		<tag k="ssr:gml_id" v="GEOMETRY_1253ddee-a2e9-45f8-accb-c6ab879384f7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4798" lat="69.6848416727" lon="23.127688808">
+		<tag k="ssr:gml_id" v="GEOMETRY_e75bc1f7-4e38-4817-a178-f2d13caedb07" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4797" lat="69.6848472226" lon="23.1276943484">
+		<tag k="ssr:gml_id" v="GEOMETRY_930f7941-db07-4b68-8321-944f361340e3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10918" lat="69.6160333351" lon="23.5603165666">
+		<tag k="ssr:gml_id" v="GEOMETRY_d35646a8-58ad-497a-bd31-67b6049da8b3" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10917" lat="69.6133361167" lon="23.5491887965">
+		<tag k="ssr:gml_id" v="GEOMETRY_58ffa7ab-9201-46ec-a4c7-89b5a03077f7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10916" lat="69.6160305558" lon="23.5603137814">
+		<tag k="ssr:gml_id" v="GEOMETRY_3bef8a21-26e2-434f-ba25-cef45a1cb2a8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4765" lat="68.8251583438" lon="24.6377886647">
+		<tag k="ssr:gml_id" v="GEOMETRY_8c6ae661-14aa-408c-9db6-769659e43593" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4764" lat="68.8251555614" lon="24.6377858904">
+		<tag k="ssr:gml_id" v="GEOMETRY_53ad8bd3-59e0-4da0-ad36-37a263cae86b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4754" lat="69.0418027846" lon="22.8844999142">
+		<tag k="ssr:gml_id" v="GEOMETRY_7075af6b-6f42-49e2-b302-c2ea23f68b06" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4753" lat="69.0418055618" lon="22.884502704">
+		<tag k="ssr:gml_id" v="GEOMETRY_9790e168-b396-4381-86ae-5dc375ddb590" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4752" lat="69.0467833403" lon="22.9688943666">
+		<tag k="ssr:gml_id" v="GEOMETRY_a3c30a08-b73f-447d-a4a6-b48b79e69b51" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4751" lat="69.046786118" lon="22.9688971434">
+		<tag k="ssr:gml_id" v="GEOMETRY_7c49b037-a38f-4845-9e65-243fcc06dfd4" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4748" lat="69.6218888927" lon="23.7148804471">
+		<tag k="ssr:gml_id" v="GEOMETRY_b6db46b1-3a9e-4728-8178-b9cb4435ace2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4747" lat="69.621886114" lon="23.7148776658">
+		<tag k="ssr:gml_id" v="GEOMETRY_b88767d8-b87e-436f-b5c5-1bcb94a032c1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4722" lat="69.5094027801" lon="23.420827676">
+		<tag k="ssr:gml_id" v="GEOMETRY_c1018503-6386-45a5-9a19-5e429173c8bb" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4721" lat="69.5094000004" lon="23.4208248993">
+		<tag k="ssr:gml_id" v="GEOMETRY_5b21f53a-06e0-4f97-b5ca-9fd35d179954" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10850" lat="69.3835611111" lon="23.7461832195">
+		<tag k="ssr:gml_id" v="GEOMETRY_fb74a806-a7d5-4ef4-b2a4-67fd127020ad" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10849" lat="69.383563896" lon="23.7461860016">
+		<tag k="ssr:gml_id" v="GEOMETRY_78280ec2-a5f1-43a5-8b71-6266c863686d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10848" lat="69.3835583349" lon="23.7461804435">
+		<tag k="ssr:gml_id" v="GEOMETRY_1168bcb2-f7f8-4375-891b-7d4a8102ce6d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8768" lat="69.6647638947" lon="23.657238778">
+		<tag k="ssr:gml_id" v="GEOMETRY_7a28073f-26cc-45b4-9dcb-c0e55ec3b7d6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8767" lat="69.664761115" lon="23.6572359981">
+		<tag k="ssr:gml_id" v="GEOMETRY_bb72d398-68bb-4a97-a956-9d8adec16c91" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6715" lat="69.0813638895" lon="22.8380443633">
+		<tag k="name" v="Ráigeluovttajeaggi" />
+		<tag k="name:se" v="Ráigeluovttajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="228095" />
+	</node>
+	<node id="-5897" lat="69.5695805598" lon="23.8102248743">
+		<tag k="ssr:gml_id" v="GEOMETRY_b87d21ff-0125-4b46-986c-f59e948dbfd7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8756" lat="69.6037611177" lon="23.5887332389">
+		<tag k="ssr:gml_id" v="GEOMETRY_9dea6fc1-72a5-42a5-9193-0ad9a16a6549" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10803" lat="68.6441416744" lon="25.0806691641">
+		<tag k="name" v="Guossavuovdi" />
+		<tag k="name:se" v="Guossavuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Guossavuov'di" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="807217" />
+	</node>
+	<node id="-8754" lat="69.5502777846" lon="23.5702887884">
+		<tag k="ssr:gml_id" v="GEOMETRY_df05b4f5-1bf7-4637-a032-ce386fe4ea7e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8753" lat="69.5587138953" lon="23.5667165489">
+		<tag k="ssr:gml_id" v="GEOMETRY_b050449e-cf83-4c3d-b4bb-fc4c18dd8bcc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8752" lat="69.5587111161" lon="23.5667137711">
+		<tag k="ssr:gml_id" v="GEOMETRY_962e9a49-ce18-4188-ace1-b011c5e629de" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8745" lat="69.5546083341" lon="23.6179054366">
+		<tag k="ssr:gml_id" v="GEOMETRY_df5e1e61-a8f7-494b-b37f-6e1f82ebaa0a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8744" lat="69.5546055645" lon="23.6179026588">
+		<tag k="ssr:gml_id" v="GEOMETRY_c2a0b727-c939-4ca3-92f6-a26de55b23d7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6650" lat="69.0265777883" lon="24.495535925">
+		<tag k="ssr:gml_id" v="GEOMETRY_92dc8748-f275-4d35-8d35-e3a8163ac903" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-6649" lat="69.0323611185" lon="24.4899748114">
+		<tag k="ssr:gml_id" v="GEOMETRY_6902bbc7-bfb3-4f0f-8c33-a66c455053b5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6648" lat="69.0323583427" lon="24.4899748139">
+		<tag k="ssr:gml_id" v="GEOMETRY_65b381a8-3c9f-462e-8162-2f20c9c77f8f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8683" lat="69.3708083364" lon="24.155019279">
+		<tag k="ssr:gml_id" v="GEOMETRY_e2ec1177-181a-4ce7-ab02-af27b4a3907b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8682" lat="69.3708055609" lon="24.1550165261">
+		<tag k="ssr:gml_id" v="GEOMETRY_4885f0c8-9bb2-4f46-b024-ef5d48e2deb0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6619" lat="69.31430556" lon="24.1816609544">
+		<tag k="ssr:gml_id" v="GEOMETRY_39405357-999d-4542-873a-56fad0f2a4eb" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-6618" lat="69.3143083402" lon="24.1816665207">
+		<tag k="ssr:gml_id" v="GEOMETRY_35517bbd-1fbe-4786-ba5b-8949654ad938" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6617" lat="69.3143055586" lon="24.1816637416">
+		<tag k="ssr:gml_id" v="GEOMETRY_425c85bf-12ee-4621-b0ba-6b065e219265" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8644" lat="68.8333250058" lon="22.8859332526">
+		<tag k="ssr:gml_id" v="GEOMETRY_f2e4e140-147e-4199-8e7b-3fbdeb7e5502" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8643" lat="68.8333250046" lon="22.8859360173">
+		<tag k="ssr:gml_id" v="GEOMETRY_f36d09f4-fa39-4481-b340-c38008a0dcff" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8640" lat="68.8220527859" lon="23.3936054327">
+		<tag k="ssr:gml_id" v="GEOMETRY_54ece701-4b9c-44fc-b9c6-09ad27a85c15" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8639" lat="68.8220555583" lon="23.3936082074">
+		<tag k="ssr:gml_id" v="GEOMETRY_a8b3156c-3d39-4625-af22-aeb444113c37" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4521" lat="69.379352784" lon="23.4342582233">
+		<tag k="ssr:gml_id" v="GEOMETRY_88429029-9ace-4b06-9da4-2fd1ac6289be" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-4520" lat="69.3793555615" lon="23.434261008">
+		<tag k="ssr:gml_id" v="GEOMETRY_3a1f9140-dab4-4940-aacc-daa0f1ee37f0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4519" lat="69.3793500045" lon="23.4342554633">
+		<tag k="ssr:gml_id" v="GEOMETRY_6dc3fe70-12bd-452f-b5a9-85145172bf7e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8613" lat="68.8653666732" lon="24.1309276088">
+		<tag k="ssr:gml_id" v="GEOMETRY_fa7bf59c-c6d8-462a-b52b-1a55b9238094" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8612" lat="68.8653611164" lon="24.1309248224">
+		<tag k="ssr:gml_id" v="GEOMETRY_4bd26700-1f42-4bf4-b150-1c406729b453" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10647" lat="69.1300055557" lon="23.3396165729">
+		<tag k="name" v="Vuolgamašgieddi" />
+		<tag k="name:se" v="Vuolgamašgieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="775547" />
+	</node>
+	<node id="-4501" lat="69.1858777797" lon="23.5165471126">
+		<tag k="name" v="Gumpejeaggi" />
+		<tag k="name:se" v="Gumpejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="896766" />
+	</node>
+	<node id="-8594" lat="68.8959083364" lon="24.1592581654">
+		<tag k="ssr:gml_id" v="GEOMETRY_25235d74-9ea6-4606-aca6-a8699b4e0e8b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8593" lat="68.8959027828" lon="24.1592526092">
+		<tag k="ssr:gml_id" v="GEOMETRY_bc3f0b45-7712-411c-a635-77660a9d9876" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4493" lat="69.1878277814" lon="23.4860609906">
+		<tag k="name" v="Stuorageađggit" />
+		<tag k="name:se" v="Stuorageađggit" />
+		<tag k="natural" v="stone" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="896698" />
+	</node>
+	<node id="-8585" lat="69.0740083365" lon="22.4244666058">
+		<tag k="ssr:gml_id" v="GEOMETRY_e3a662a0-a0b4-4f87-a969-42b515ce5b5f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8584" lat="69.0740111092" lon="22.4244693853">
+		<tag k="ssr:gml_id" v="GEOMETRY_906ccaf9-2381-48a2-b223-13d9c6422b48" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8583" lat="69.074005555" lon="22.4244638209">
+		<tag k="ssr:gml_id" v="GEOMETRY_99f53e50-8927-4fd6-abb4-170883ed13b7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10627" lat="68.7539166691" lon="23.2734332284">
+		<tag k="ssr:gml_id" v="GEOMETRY_c31830df-afc7-498a-94c6-6a8ece402f34" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10626" lat="68.7768361118" lon="23.2898665532">
+		<tag k="ssr:gml_id" v="GEOMETRY_254e2ec8-a9f3-45e4-9eb1-049c95cedb54" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10623" lat="68.8918916665" lon="22.799397131">
+		<tag k="name" v="Ođđaniitojeaggi" />
+		<tag k="name:se" v="Ođđaniitojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="773042" />
+	</node>
+	<node id="-4468" lat="68.9439833394" lon="22.9330082601">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Gohkkegieddi" />
+		<tag k="name:se" v="Gohkkegieddi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="896055" />
+	</node>
+	<node id="-10608" lat="69.040016667" lon="23.1234221337">
+		<tag k="name" v="Sivddadállu" />
+		<tag k="name:se" v="Sivddadállu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="759591" />
+	</node>
+	<node id="-8559" lat="68.7929611209" lon="24.718230342">
+		<tag k="ssr:gml_id" v="GEOMETRY_fcdd435b-83f2-493b-949d-cd878fac97cd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8558" lat="68.7929638967" lon="24.7182358961">
+		<tag k="ssr:gml_id" v="GEOMETRY_4fc015f2-dd8b-4656-852b-1fe74b60fc5f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6509" lat="69.1274750017" lon="23.5884054457">
+		<tag k="ssr:gml_id" v="GEOMETRY_1f1dc98c-27ec-44dd-8a97-b4c5f48726db" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-6508" lat="69.1274777853" lon="23.5884082205">
+		<tag k="ssr:gml_id" v="GEOMETRY_69be5288-8b01-42fe-b24e-3fe270e7a213" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6507" lat="69.127475004" lon="23.5884026632">
+		<tag k="ssr:gml_id" v="GEOMETRY_06eb89fc-f175-4871-9faa-8449d3e98c71" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4457" lat="68.9015861129" lon="22.8482971361">
+		<tag k="name" v="Badjevuovdi" />
+		<tag k="name:se" v="Badjevuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="894045" />
+	</node>
+	<node id="-8547" lat="69.0325749997" lon="22.9445860131">
+		<tag k="ssr:gml_id" v="GEOMETRY_ca74f54c-3a33-49b1-97cb-dd853c25b97a" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-8546" lat="69.0373277783" lon="22.9257388032">
+		<tag k="ssr:gml_id" v="GEOMETRY_9ee50c9a-99cf-4020-a6cc-ed8b85217da4" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-8545" lat="69.0315166735" lon="22.9165610214">
+		<tag k="ssr:gml_id" v="GEOMETRY_10eaad32-9ecf-434d-9d1d-030792f8f81f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8544" lat="69.0315194501" lon="22.9165638137">
+		<tag k="ssr:gml_id" v="GEOMETRY_f1988b00-d4ec-4257-9174-42817737bb0d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8543" lat="69.031519452" lon="22.916561024">
+		<tag k="ssr:gml_id" v="GEOMETRY_6541f697-f10a-4ed5-b4a9-86de598fa0e6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8537" lat="69.064930561" lon="23.0742471267">
+		<tag k="ssr:gml_id" v="GEOMETRY_3cbde76a-5db5-4a33-9bd6-93b2d1b2b631" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8536" lat="69.0649277831" lon="23.0742443585">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9dc3b26-8ea4-46a2-9e56-16f040bc2293" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4433" lat="69.1439027797" lon="23.3406276808">
+		<tag k="name" v="Heallogieddi" />
+		<tag k="name:se" v="Heallogieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411536" />
+	</node>
+	<node id="-8523" lat="69.2081250081" lon="23.9700831801">
+		<tag k="ssr:gml_id" v="GEOMETRY_71eca20c-7a54-427e-aec1-e5cc4cab740c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8522" lat="69.2081250081" lon="23.9700859784">
+		<tag k="ssr:gml_id" v="GEOMETRY_7f07b613-dbee-48f8-a392-4153c5dac552" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-8521" lat="69.2081250059" lon="23.9700804063">
+		<tag k="ssr:gml_id" v="GEOMETRY_78c90953-d9ef-4634-8018-9bfb30737172" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4423" lat="69.3855194504" lon="24.0786693072">
+		<tag k="name" v="Jovssehagieddi" />
+		<tag k="name:se" v="Jovssehagieddi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411312" />
+	</node>
+	<node id="-4422" lat="69.3810694534" lon="24.1007553982">
+		<tag k="name" v="Ásllat-Niillasbalssat" />
+		<tag k="name:se" v="Ásllat-Niillasbalssat" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411309" />
+	</node>
+	<node id="-4488" lat="69.1568055597" lon="23.2904804489">
+		<tag k="ssr:gml_id" v="GEOMETRY_697cc290-6147-4f0c-9cd3-e4c90a074f7b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4487" lat="69.1568083332" lon="23.2904804463">
+		<tag k="ssr:gml_id" v="GEOMETRY_4eb8e672-b5b6-499b-be46-4117969217d2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4388" lat="69.005511112" lon="23.1711304654">
+		<tag k="name" v="Ođđaniittoáhpi" />
+		<tag k="name:se" v="Ođđaniittoáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395891" />
+	</node>
+	<node id="-4377" lat="69.0079111128" lon="23.0602165816">
+		<tag k="name" v="Jámetmielli" />
+		<tag k="name:se" v="Jámetmielli" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395521" />
+	</node>
+	<node id="-4369" lat="69.4830833361" lon="23.7139526584">
+		<tag k="name" v="Ládjoniitu" />
+		<tag k="name:se" v="Ládjoniitu" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="394363" />
+	</node>
+	<node id="-4366" lat="69.3510527854" lon="24.267577623">
+		<tag k="ssr:gml_id" v="GEOMETRY_76b61f48-36de-4f32-afb1-a539602b1326" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-9261" lat="68.9922194517" lon="23.8991887369">
+		<tag k="ssr:gml_id" v="GEOMETRY_81594c99-1dbb-497f-8a4e-71f96ca52916" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10499" lat="69.0110222303" lon="23.7718915248">
+		<tag k="ssr:gml_id" v="GEOMETRY_0dccda83-f1dc-48a6-b357-47402a92b2e5" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-10498" lat="68.9997166743" lon="23.7758554201">
+		<tag k="ssr:gml_id" v="GEOMETRY_2a291c05-e96f-4fc2-8693-368c70ff3b0b" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-9259" lat="68.9915750042" lon="23.9054026417">
+		<tag k="ssr:gml_id" v="GEOMETRY_f66fe7e1-562e-4da2-817c-a5f3d9c17ffe" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10496" lat="68.9977361128" lon="23.7838776329">
+		<tag k="ssr:gml_id" v="GEOMETRY_2ab0f6f2-ae33-4dae-bfc2-5a1fe889563b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4345" lat="69.1813833347" lon="24.3566859439">
+		<tag k="ssr:gml_id" v="GEOMETRY_0d9acb1e-0156-499c-8737-031b8dbb79ab" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-4344" lat="69.1849361211" lon="24.2763581636">
+		<tag k="ssr:gml_id" v="GEOMETRY_b435b900-4bbb-4955-ae94-5743a345aa4a" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-4343" lat="69.181383341" lon="24.3566831498">
+		<tag k="ssr:gml_id" v="GEOMETRY_357f0d36-ec4b-44b0-af7c-151c712e4886" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-4342" lat="69.1849388961" lon="24.2763637312">
+		<tag k="ssr:gml_id" v="GEOMETRY_de56ef1f-0877-423e-8589-27f22d33b048" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4341" lat="69.1849361183" lon="24.276360934">
+		<tag k="ssr:gml_id" v="GEOMETRY_45f85c1f-0cbf-4465-b1c3-a4989efea631" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8436" lat="69.1347527777" lon="23.3474498971">
+		<tag k="name" v="Vuolgamašvuovdi" />
+		<tag k="name:se" v="Vuolgamašvuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="532566" />
+	</node>
+	<node id="-8421" lat="68.9526833411" lon="22.9519915794">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Isoniitu" />
+		<tag k="name:se" v="Isoniitu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="532080" />
+	</node>
+	<node id="-8416" lat="68.9184944463" lon="22.8766999177">
+		<tag k="name" v="Lottášrohtu" />
+		<tag k="name:se" v="Lottášrohtu" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="532018" />
+	</node>
+	<node id="-8408" lat="69.1204055623" lon="23.1634804499">
+		<tag k="name" v="Nieiddašjeaggi" />
+		<tag k="name:se" v="Nieiddašjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="531378" />
+	</node>
+	<node id="-10443" lat="68.759252785" lon="24.4227748156">
+		<tag k="ssr:gml_id" v="GEOMETRY_5e4aa0b3-5029-47bc-94e4-5f355127a288" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10442" lat="68.7457833451" lon="24.4250414718">
+		<tag k="ssr:gml_id" v="GEOMETRY_50bd50ef-016f-4f7e-b699-107787666d1b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10441" lat="68.7592583426" lon="24.4227775873">
+		<tag k="ssr:gml_id" v="GEOMETRY_9437f60e-ae62-4c6e-b3ec-7d541a31474e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6341" lat="69.6206916707" lon="23.6752637807">
+		<tag k="ssr:gml_id" v="GEOMETRY_39713d0b-9275-4fab-96a9-9231cc3fec0d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6340" lat="69.6206888913" lon="23.6752610048">
+		<tag k="ssr:gml_id" v="GEOMETRY_a5a17731-4379-4aa1-bbb0-e1af2fb4757e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8387" lat="69.0048361152" lon="23.0127137964">
+		<tag k="name" v="Suovasrohtu" />
+		<tag k="name:se" v="Suovasrohtu" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="516531" />
+	</node>
+	<node id="-8384" lat="69.0064166725" lon="23.0471610222">
+		<tag k="name" v="Rántegieddi" />
+		<tag k="name:se" v="Rántegieddi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="516506" />
+	</node>
+	<node id="-10427" lat="68.9785305577" lon="24.0692915048">
+		<tag k="ssr:gml_id" v="GEOMETRY_c1532c9b-4296-4df1-890e-7e992fca166b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10426" lat="68.9785250097" lon="24.0692859542">
+		<tag k="ssr:gml_id" v="GEOMETRY_eb421c67-2747-4c16-a155-126562d00395" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4266" lat="68.8778111168" lon="22.954752691">
+		<tag k="ssr:gml_id" v="GEOMETRY_d8b69daa-5794-4703-9eda-ab43404e9c3b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4265" lat="68.877813893" lon="22.9547554668">
+		<tag k="ssr:gml_id" v="GEOMETRY_3dc8a495-df39-4c52-9d81-13d3db8cc097" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10404" lat="69.5701916708" lon="22.8562360448">
+		<tag k="ssr:gml_id" v="GEOMETRY_e2716926-5636-48cb-aed4-9b6cd2f56899" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10403" lat="69.5701888874" lon="22.856233258">
+		<tag k="ssr:gml_id" v="GEOMETRY_ebab2090-e73e-486f-9d61-9f27f525cc1d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10402" lat="69.5701944454" lon="22.8562388258">
+		<tag k="ssr:gml_id" v="GEOMETRY_241802fc-50cd-40fa-8443-c5557b2bb750" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4257" lat="68.9595166761" lon="24.6119386803">
+		<tag k="ssr:gml_id" v="GEOMETRY_27562946-23db-483f-808d-e5a11ae46a79" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10395" lat="69.5317472254" lon="23.1706249161">
+		<tag k="ssr:gml_id" v="GEOMETRY_a9ac52eb-feb4-4ac7-b876-389490199acc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10394" lat="69.5317500073" lon="23.1706276885">
+		<tag k="ssr:gml_id" v="GEOMETRY_11076d24-8bab-40c5-81f3-0204b9a05292" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8557" lat="68.7929611157" lon="24.7182331162">
+		<tag k="ssr:gml_id" v="GEOMETRY_58aae136-9543-4265-ac21-eb4661303d35" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10367" lat="69.0716027786" lon="23.0892415617">
+		<tag k="ssr:gml_id" v="GEOMETRY_32857476-dd77-4127-b10a-4ecdf73206f3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10366" lat="69.0716000009" lon="23.0892387906">
+		<tag k="ssr:gml_id" v="GEOMETRY_b2589a5f-60e3-4e2a-899e-dd8c493891b3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10362" lat="69.6080583369" lon="23.9730637534">
+		<tag k="ssr:gml_id" v="GEOMETRY_544d91a0-911e-4353-b52b-64db67900040" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10361" lat="69.6080555584" lon="23.9730609903">
+		<tag k="ssr:gml_id" v="GEOMETRY_2df0d76b-a2aa-4c5e-8116-812907e72335" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10601" lat="69.4528388948" lon="23.6947276531">
+		<tag k="name" v="Geassesadji" />
+		<tag k="name:se" v="Geassesadji" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="759252" />
+	</node>
+	<node id="-6255" lat="68.9284083313" lon="22.3532999438">
+		<tag k="ssr:gml_id" v="GEOMETRY_2d95e6d7-0d2a-430d-8810-62f75a960c59" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-6254" lat="68.9284055579" lon="22.353299941">
+		<tag k="ssr:gml_id" v="GEOMETRY_74cd54af-6142-4a45-82b0-3b1b707aaae7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-10299" lat="69.3400666702" lon="23.8203637603">
+		<tag k="ssr:gml_id" v="GEOMETRY_c92aaceb-054a-4825-bd34-21c9cf118eb7" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-10298" lat="69.3144055633" lon="23.8077554363">
+		<tag k="ssr:gml_id" v="GEOMETRY_c04dc11d-deac-4f46-9016-3408afc46fc6" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-10297" lat="69.3400722287" lon="23.8203693251">
+		<tag k="ssr:gml_id" v="GEOMETRY_7f153d38-4bf2-40a9-84ea-dbfef7b16f85" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-10296" lat="69.3144111136" lon="23.8077609845">
+		<tag k="ssr:gml_id" v="GEOMETRY_0b88a4b3-4e76-4aec-b5cd-4dff93cf0fb3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-6159" lat="68.9051166715" lon="23.053202687">
+		<tag k="name" v="Ođđajeaggi" />
+		<tag k="name:se" v="Ođđajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="169126" />
+	</node>
+	<node id="-4365" lat="69.3555277821" lon="24.2755026135">
+		<tag k="ssr:gml_id" v="GEOMETRY_cce6582b-b27a-487f-93c9-0c7f540fc7eb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4100" lat="69.4712500011" lon="23.6618748805">
+		<tag k="ssr:gml_id" v="GEOMETRY_92d058bb-3c82-45c0-a890-56a4daa76233" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-4099" lat="69.4712527787" lon="23.6618776582">
+		<tag k="ssr:gml_id" v="GEOMETRY_80cb2d66-2d2f-4b1f-9d39-9c02934740df" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-4098" lat="69.4712555563" lon="23.6618804358">
+		<tag k="ssr:gml_id" v="GEOMETRY_1a99bc00-b36a-43f2-b651-43619ea6c4f3" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-4097" lat="69.4642527794" lon="23.6611998698">
+		<tag k="ssr:gml_id" v="GEOMETRY_282a12d9-c8cc-428c-9528-32f41e6d4c9e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<way id="-2039">
+		<tag k="name" v="Čiekkasuohkadas" />
+		<tag k="name:se" v="Čiekkasuohkadas" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Čieggasuokkadas" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261988" />
+		<nd ref="-7269" />
+		<nd ref="-7270" />
+	</way>
+	<way id="-1526">
+		<tag k="name" v="Niilleanojeaggi" />
+		<tag k="name:se" v="Niilleanojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Niilænujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79967" />
+		<nd ref="-5507" />
+		<nd ref="-5508" />
+		<nd ref="-5509" />
+	</way>
+	<way id="-3061">
+		<tag k="name" v="Goddejeaggi" />
+		<tag k="name:se" v="Goddejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gåddejæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746938" />
+		<nd ref="-10496" />
+		<nd ref="-10497" />
+		<nd ref="-10498" />
+		<nd ref="-10499" />
+	</way>
+	<way id="-3570">
+		<tag k="name" v="Buollánjeaggi" />
+		<tag k="name:se" v="Buollánjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Buollanjæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="929532" />
+		<nd ref="-12086" />
+		<nd ref="-12087" />
+		<nd ref="-12088" />
+	</way>
+	<way id="-2033">
+		<tag k="name" v="Nuortajeaggi" />
+		<tag k="name:se" v="Nuortajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Nuortajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261965" />
+		<nd ref="-7253" />
+		<nd ref="-7254" />
+		<nd ref="-7255" />
+	</way>
+	<way id="-2030">
+		<tag k="name" v="Suovvejeaggi" />
+		<tag k="name:se" v="Suovvejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Suovvejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261953" />
+		<nd ref="-7244" />
+		<nd ref="-7245" />
+		<nd ref="-7246" />
+	</way>
+	<way id="-1005">
+		<tag k="name" v="Dátkoleakši" />
+		<tag k="name:se" v="Dátkoleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Datkulækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="322915" />
+		<nd ref="-3776" />
+		<nd ref="-3777" />
+		<nd ref="-3778" />
+	</way>
+	<way id="-2028">
+		<tag k="name" v="Borggahatjeaggi" />
+		<tag k="name:se" v="Borggahatjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Bårgahatjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261929" />
+		<nd ref="-7238" />
+		<nd ref="-7239" />
+		<nd ref="-7240" />
+	</way>
+	<way id="-2025">
+		<tag k="name" v="Máhtošjeaggi" />
+		<tag k="name:se" v="Máhtošjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Mattušjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261905" />
+		<nd ref="-7229" />
+		<nd ref="-7230" />
+		<nd ref="-7231" />
+	</way>
+	<way id="-1510">
+		<tag k="name" v="Čivttasmarleakši" />
+		<tag k="name:se" v="Čivttasmarleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Čivtasmarlækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79780" />
+		<nd ref="-5457" />
+		<nd ref="-5458" />
+		<nd ref="-5459" />
+	</way>
+	<way id="-3041">
+		<tag k="name" v="Guhkesjeaggi" />
+		<tag k="name:se" v="Guhkesjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gukkesjæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746774" />
+		<nd ref="-10441" />
+		<nd ref="-10442" />
+		<nd ref="-10443" />
+	</way>
+	<way id="-2016">
+		<tag k="name" v="Várssájeaggi" />
+		<tag k="name:se" v="Várssájeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Varsajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261860" />
+		<nd ref="-7199" />
+		<nd ref="-7200" />
+	</way>
+	<way id="-3035">
+		<tag k="name" v="Vuomajeaggi" />
+		<tag k="name:se" v="Vuomajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Vuomajæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746752" />
+		<nd ref="-10426" />
+		<nd ref="-10427" />
+	</way>
+	<way id="-2522">
+		<tag k="name" v="Bahásjeaggi" />
+		<tag k="name:se" v="Bahásjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Bahasjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564621" />
+		<nd ref="-8767" />
+		<nd ref="-8768" />
+	</way>
+	<way id="-985">
+		<tag k="name" v="Ruođđoleakši" />
+		<tag k="name:se" v="Ruođđoleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ruođđulæksi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="322669" />
+		<nd ref="-3720" />
+		<nd ref="-3721" />
+	</way>
+	<way id="-2516">
+		<tag k="name" v="Ráissotorda" />
+		<tag k="name:se" v="Ráissotorda" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Raisutårda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564583" />
+		<nd ref="-8755" />
+		<nd ref="-8756" />
+	</way>
+	<way id="-2515">
+		<tag k="name" v="Gearpmašvuovdi" />
+		<tag k="name:se" v="Gearpmašvuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Gærbmašvuovdi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564564" />
+		<nd ref="-8752" />
+		<nd ref="-8753" />
+		<nd ref="-8754" />
+	</way>
+	<way id="-2512">
+		<tag k="name" v="Guhkesjeaggi" />
+		<tag k="name:se" v="Guhkesjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gukkesjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564559" />
+		<nd ref="-8744" />
+		<nd ref="-8745" />
+	</way>
+	<way id="-975">
+		<tag k="name" v="Stuoráhpi" />
+		<tag k="name:se" v="Stuoráhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Stuorappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="322472" />
+		<nd ref="-3694" />
+		<nd ref="-3695" />
+		<nd ref="-3696" />
+	</way>
+	<way id="-1484">
+		<tag k="name" v="Bassevuovdi" />
+		<tag k="name:se" v="Bassevuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79597" />
+		<nd ref="-5389" />
+		<nd ref="-5390" />
+	</way>
+	<way id="-1990">
+		<tag k="name" v="Sálganleakši" />
+		<tag k="name:se" v="Sálganleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Salganlækki" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261659" />
+		<nd ref="-7123" />
+		<nd ref="-7124" />
+	</way>
+	<way id="-3011">
+		<tag k="name" v="Uhcavuovddáš" />
+		<tag k="name:se" v="Uhcavuovddáš" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Uccavuovdaš" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746589" />
+		<nd ref="-10366" />
+		<nd ref="-10367" />
+	</way>
+	<way id="-3009">
+		<tag k="name" v="Bákteleakši" />
+		<tag k="name:se" v="Bákteleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Baktelækši" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746577" />
+		<nd ref="-10361" />
+		<nd ref="-10362" />
+	</way>
+	<way id="-959">
+		<tag k="name" v="Lávvorohtu" />
+		<tag k="name:se" v="Lávvorohtu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Lavvuråtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321995" />
+		<nd ref="-3649" />
+		<nd ref="-3650" />
+	</way>
+	<way id="-2453">
+		<tag k="name" v="Nolláhpi" />
+		<tag k="name:se" v="Nolláhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Nållappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563771" />
+		<nd ref="-8583" />
+		<nd ref="-8584" />
+		<nd ref="-8585" />
+	</way>
+	<way id="-2490">
+		<tag k="name" v="Hohtejeaggi" />
+		<tag k="name:se" v="Hohtejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Håttejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564310" />
+		<nd ref="-8682" />
+		<nd ref="-8683" />
+	</way>
+	<way id="-952">
+		<tag k="name" v="Opmojeaggi" />
+		<tag k="name:se" v="Opmojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Åbmujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321964" />
+		<nd ref="-3634" />
+		<nd ref="-3635" />
+	</way>
+	<way id="-948">
+		<tag k="name" v="Boazojeaggi" />
+		<tag k="name:se" v="Boazojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Boazujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321953" />
+		<nd ref="-3626" />
+		<nd ref="-3627" />
+	</way>
+	<way id="-945">
+		<tag k="name" v="Gállojeaggi" />
+		<tag k="name:se" v="Gállojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gallujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321940" />
+		<nd ref="-3617" />
+		<nd ref="-3618" />
+		<nd ref="-3619" />
+	</way>
+	<way id="-2987">
+		<tag k="name" v="Suotnjojeaggi" />
+		<tag k="name:se" v="Suotnjojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Suodnjujæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746490" />
+		<nd ref="-10296" />
+		<nd ref="-10297" />
+		<nd ref="-10298" />
+		<nd ref="-10299" />
+	</way>
+	<way id="-1962">
+		<tag k="name" v="Rávdoleakši" />
+		<tag k="name:se" v="Rávdoleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ravdulæksi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261411" />
+		<nd ref="-7040" />
+		<nd ref="-7041" />
+		<nd ref="-7042" />
+	</way>
+	<way id="-1449">
+		<tag k="name" v="Suotnjogiera" />
+		<tag k="name:se" v="Suotnjogiera" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Suodnjugiera" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79411" />
+		<nd ref="-5287" />
+		<nd ref="-5288" />
+		<nd ref="-5289" />
+	</way>
+	<way id="-935">
+		<tag k="name" v="Eallajeaggi" />
+		<tag k="name:se" v="Eallajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ællajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321901" />
+		<nd ref="-3590" />
+		<nd ref="-3591" />
+	</way>
+	<way id="-1445">
+		<tag k="name" v="Váksaleakši" />
+		<tag k="name:se" v="Váksaleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Vaksalæksi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79377" />
+		<nd ref="-5275" />
+		<nd ref="-5276" />
+		<nd ref="-5277" />
+	</way>
+	<way id="-3492">
+		<tag k="name" v="Sieidegeađgi" />
+		<tag k="name:se" v="Sieidegeađgi" />
+		<tag k="natural" v="stone" />
+		<tag k="old_name:se" v="Sieidegæđgi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="928590" />
+		<nd ref="-11864" />
+		<nd ref="-11865" />
+	</way>
+	<way id="-1443">
+		<tag k="name" v="Gistteleakši" />
+		<tag k="name:se" v="Gistteleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gistelækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79374" />
+		<nd ref="-5269" />
+		<nd ref="-5270" />
+		<nd ref="-5271" />
+	</way>
+	<way id="-3489">
+		<tag k="name" v="Guohcajeaggi" />
+		<tag k="name:se" v="Guohcajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Guoccajæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="928584" />
+		<nd ref="-11857" />
+		<nd ref="-11858" />
+	</way>
+	<way id="-2463">
+		<tag k="name" v="Opmojeaggi" />
+		<tag k="name:se" v="Opmojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Åbmujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563854" />
+		<nd ref="-8612" />
+		<nd ref="-8613" />
+	</way>
+	<way id="-1950">
+		<tag k="name" v="Gállojeaggi" />
+		<tag k="name:se" v="Gállojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gallujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="261174" />
+		<nd ref="-7006" />
+		<nd ref="-7007" />
+	</way>
+	<way id="-924">
+		<tag k="name" v="Náđđunjeaggi" />
+		<tag k="name:se" v="Náđđunjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Nađđonjæggi;Naddojeaggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321808" />
+		<nd ref="-3559" />
+		<nd ref="-3560" />
+		<nd ref="-3561" />
+		<nd ref="-3562" />
+	</way>
+	<way id="-1433">
+		<tag k="name" v="Sirebohttu" />
+		<tag k="name:se" v="Sirebohttu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Sirebåtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79236" />
+		<nd ref="-5237" />
+		<nd ref="-5238" />
+		<nd ref="-5239" />
+	</way>
+	<way id="-2456">
+		<tag k="name" v="Árbejeaggi" />
+		<tag k="name:se" v="Árbejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Arbejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563817" />
+		<nd ref="-8593" />
+		<nd ref="-8594" />
+	</way>
+	<way id="-1941">
+		<tag k="name" v="Vahttájeaggi" />
+		<tag k="name:se" v="Vahttájeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Vattajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="260948" />
+		<nd ref="-6924" />
+		<nd ref="-6925" />
+	</way>
+	<way id="-914">
+		<tag k="name" v="Idjalodjeaggi" />
+		<tag k="name:se" v="Idjalodjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Iddjalådjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321701" />
+		<nd ref="-3534" />
+		<nd ref="-3535" />
+		<nd ref="-3536" />
+	</way>
+	<way id="-1425">
+		<tag k="name" v="Moskolatjeaggi" />
+		<tag k="name:se" v="Moskolatjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Måskulatjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79098" />
+		<nd ref="-5214" />
+		<nd ref="-5215" />
+	</way>
+	<way id="-2443">
+		<tag k="name" v="Bosmmiidvuovddejeakkit" />
+		<tag k="name:se" v="Bosmmiidvuovddejeakkit" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Båsmiidvuovdegæggit" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563641" />
+		<nd ref="-8557" />
+		<nd ref="-8558" />
+		<nd ref="-8559" />
+	</way>
+	<way id="-2439">
+		<tag k="name" v="Soahtejeaggi" />
+		<tag k="name:se" v="Soahtejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Soattejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563609" />
+		<nd ref="-8543" />
+		<nd ref="-8544" />
+		<nd ref="-8545" />
+		<nd ref="-8546" />
+		<nd ref="-8547" />
+	</way>
+	<way id="-2436">
+		<tag k="name" v="Elejasjeaggi" />
+		<tag k="name:se" v="Elejasjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Elejasjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563585" />
+		<nd ref="-8536" />
+		<nd ref="-8537" />
+	</way>
+	<way id="-893">
+		<tag k="name" v="Bosmmiidvuovdi" />
+		<tag k="name:se" v="Bosmmiidvuovdi" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Båsmiisvuovdi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321593" />
+		<nd ref="-3479" />
+		<nd ref="-3480" />
+		<nd ref="-3481" />
+	</way>
+	<way id="-2926">
+		<tag k="name" v="Heallojeaggi" />
+		<tag k="name:se" v="Heallojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="714516" />
+		<nd ref="-10107" />
+		<nd ref="-10108" />
+		<nd ref="-10109" />
+	</way>
+	<way id="-2924">
+		<tag k="name" v="Sáttosuolu" />
+		<tag k="name:se" v="Sáttosuolu" />
+		<tag k="natural" v="beach" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="699350" />
+		<tag k="surface" v="sand" />
+		<nd ref="-10081" />
+		<nd ref="-10082" />
+	</way>
+	<way id="-3434">
+		<tag k="name" v="Eapperáhpi" />
+		<tag k="name:se" v="Eapperáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Æbberrappi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="868913" />
+		<nd ref="-11674" />
+		<nd ref="-11675" />
+	</way>
+	<way id="-1376">
+		<tag k="name" v="Suttesjeaggi" />
+		<tag k="name:se" v="Suttesjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Suddesjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="78274" />
+		<nd ref="-5081" />
+		<nd ref="-5082" />
+	</way>
+	<way id="-851">
+		<tag k="name" v="Muotkejeaggi" />
+		<tag k="name:se" v="Muotkejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Muotkejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321013" />
+		<nd ref="-3369" />
+		<nd ref="-3370" />
+	</way>
+	<way id="-1864">
+		<tag k="name" v="Vuollošjeaggi" />
+		<tag k="name:se" v="Vuollošjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Vuollušjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201878" />
+		<nd ref="-6648" />
+		<nd ref="-6649" />
+		<nd ref="-6650" />
+	</way>
+	<way id="-3391">
+		<tag k="name" v="Mohkkejeaggi" />
+		<tag k="name:se" v="Mohkkejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Måkkejæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="868591" />
+		<nd ref="-11556" />
+		<nd ref="-11557" />
+	</way>
+	<way id="-1853">
+		<tag k="name" v="Liebetleakši" />
+		<tag k="name:se" v="Liebetleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Liebetlækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201326" />
+		<nd ref="-6617" />
+		<nd ref="-6618" />
+		<nd ref="-6619" />
+	</way>
+	<way id="-1337">
+		<tag k="name" v="Geatkášjeaggi" />
+		<tag k="name:se" v="Geatkášjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gætkašjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="19467" />
+		<nd ref="-4931" />
+		<nd ref="-4932" />
+		<nd ref="-4933" />
+	</way>
+	<way id="-1828">
+		<tag k="name" v="Gollejeaggi" />
+		<tag k="name:se" v="Gollejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gållejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="200955" />
+		<nd ref="-6507" />
+		<nd ref="-6508" />
+		<nd ref="-6509" />
+	</way>
+	<way id="-3362">
+		<tag k="name" v="Njáhkáleakši" />
+		<tag k="name:se" v="Njáhkáleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Njakkalæksi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="868420" />
+		<nd ref="-11479" />
+		<nd ref="-11480" />
+		<nd ref="-11481" />
+	</way>
+	<way id="-2841">
+		<tag k="name" v="Njukčaleamši" />
+		<tag k="name:se" v="Njukčaleamši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Njukčolæmši" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="685938" />
+		<nd ref="-9805" />
+		<nd ref="-9806" />
+		<nd ref="-9807" />
+	</way>
+	<way id="-2840">
+		<tag k="name" v="Njukčarohtu" />
+		<tag k="name:se" v="Njukčarohtu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Njukčaråtto" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="685936" />
+		<nd ref="-9803" />
+		<nd ref="-9804" />
+	</way>
+	<way id="-2325">
+		<tag k="name" v="Ruktajeaggi" />
+		<tag k="name:se" v="Ruktajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ruktajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503902" />
+		<nd ref="-8158" />
+		<nd ref="-8159" />
+	</way>
+	<way id="-2324">
+		<tag k="name" v="Opmoáhpi" />
+		<tag k="name:se" v="Opmoáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Åbmuappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503898" />
+		<nd ref="-8151" />
+		<nd ref="-8152" />
+		<nd ref="-8153" />
+		<nd ref="-8154" />
+		<nd ref="-8155" />
+		<nd ref="-8156" />
+		<nd ref="-8157" />
+	</way>
+	<way id="-2321">
+		<tag k="name" v="Háisojeaggi" />
+		<tag k="name:se" v="Háisojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Haisujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503891" />
+		<nd ref="-8145" />
+		<nd ref="-8146" />
+	</way>
+	<way id="-2320">
+		<tag k="name" v="Goagiláhpi" />
+		<tag k="name:se" v="Goagiláhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Goagilappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503870" />
+		<nd ref="-8142" />
+		<nd ref="-8143" />
+		<nd ref="-8144" />
+	</way>
+	<way id="-1295">
+		<tag k="name" v="Rákkasleakši" />
+		<tag k="name:se" v="Rákkasleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Raggaslækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18695" />
+		<nd ref="-4797" />
+		<nd ref="-4798" />
+	</way>
+	<way id="-3521">
+		<tag k="name" v="Ruostajeaggi" />
+		<tag k="name:se" v="Ruostajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ruostajæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="928783" />
+		<nd ref="-11943" />
+		<nd ref="-11944" />
+	</way>
+	<way id="-1282">
+		<tag k="name" v="Čuoikasuohkadas" />
+		<tag k="name:se" v="Čuoikasuohkadas" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Čuoikasuokkadas" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18589" />
+		<nd ref="-4764" />
+		<nd ref="-4765" />
+	</way>
+	<way id="-2816">
+		<tag k="name" v="Johkamohkki" />
+		<tag k="name:se" v="Johkamohkki" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Jåkkamåkki" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="685725" />
+		<nd ref="-9738" />
+		<nd ref="-9739" />
+	</way>
+	<way id="-1278">
+		<tag k="name" v="Goaskinjeaggi" />
+		<tag k="name:se" v="Goaskinjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Goaskinjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18576" />
+		<nd ref="-4753" />
+		<nd ref="-4754" />
+	</way>
+	<way id="-1277">
+		<tag k="name" v="Ginaljeaggi" />
+		<tag k="name:se" v="Ginaljeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ginaljæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18574" />
+		<nd ref="-4751" />
+		<nd ref="-4752" />
+	</way>
+	<way id="-1275">
+		<tag k="name" v="Jiehtanasjeaggi" />
+		<tag k="name:se" v="Jiehtanasjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Jiettanasjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18569" />
+		<nd ref="-4747" />
+		<nd ref="-4748" />
+	</way>
+	<way id="-2298">
+		<tag k="name" v="Gihcebohttu" />
+		<tag k="name:se" v="Gihcebohttu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Giccebåtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503731" />
+		<nd ref="-8079" />
+		<nd ref="-8080" />
+	</way>
+	<way id="-3028">
+		<tag k="name" v="Mielli" />
+		<tag k="name:se" v="Mielli" />
+		<tag k="old_name:se" v="Miel'li" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746674" />
+		<nd ref="-10402" />
+		<nd ref="-10403" />
+		<nd ref="-10404" />
+	</way>
+	<way id="-3318">
+		<tag k="name" v="Roviidjeaggi" />
+		<tag k="name:se" v="Roviidjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Råviidjæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="867913" />
+		<nd ref="-11346" />
+		<nd ref="-11347" />
+	</way>
+	<way id="-1267">
+		<tag k="name" v="Guorbaleakši" />
+		<tag k="name:se" v="Guorbaleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Guorbalækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18485" />
+		<nd ref="-4721" />
+		<nd ref="-4722" />
+	</way>
+	<way id="-2800">
+		<tag k="name" v="Geađgemateanan" />
+		<tag k="name:se" v="Geađgemateanan" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gæđgematænan" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="685618" />
+		<nd ref="-9698" />
+		<nd ref="-9699" />
+		<nd ref="-9700" />
+	</way>
+	<way id="-2429">
+		<tag k="name" v="Ánttáleakši" />
+		<tag k="name:se" v="Ánttáleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Antalækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563504" />
+		<nd ref="-8521" />
+		<nd ref="-8522" />
+		<nd ref="-8523" />
+	</way>
+	<way id="-1769">
+		<tag k="name" v="Learkkajeaggi" />
+		<tag k="name:se" v="Learkkajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Lærkajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="200616" />
+		<nd ref="-6340" />
+		<nd ref="-6341" />
+	</way>
+	<way id="-2278">
+		<tag k="name" v="Sálleleakši" />
+		<tag k="name:se" v="Sálleleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Sallelækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503590" />
+		<nd ref="-8028" />
+		<nd ref="-8029" />
+	</way>
+	<way id="-2275">
+		<tag k="name" v="Nuortamanjeaggi" />
+		<tag k="name:se" v="Nuortamanjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Nuortamanjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503578" />
+		<nd ref="-8020" />
+		<nd ref="-8021" />
+		<nd ref="-8022" />
+	</way>
+	<way id="-3024">
+		<tag k="name" v="Náššarohtu" />
+		<tag k="name:se" v="Náššarohtu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Naššaråtto" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="746663" />
+		<nd ref="-10394" />
+		<nd ref="-10395" />
+	</way>
+	<way id="-3294">
+		<tag k="name" v="Máhtejeaggi" />
+		<tag k="name:se" v="Máhtejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Mattejæggi" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="867631" />
+		<nd ref="-11278" />
+		<nd ref="-11279" />
+	</way>
+	<way id="-3292">
+		<tag k="name" v="Suoidnemárkan" />
+		<tag k="name:se" v="Suoidnemárkan" />
+		<tag k="old_name:se" v="Suoindemarkan" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="867601" />
+		<nd ref="-11274" />
+		<nd ref="-11275" />
+	</way>
+	<way id="-3162">
+		<tag k="name" v="Bissoleakši" />
+		<tag k="name:se" v="Bissoleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Bissulækši" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="807443" />
+		<nd ref="-10848" />
+		<nd ref="-10849" />
+		<nd ref="-10850" />
+	</way>
+	<way id="-1741">
+		<tag k="name" v="Muvrrešáhpi" />
+		<tag k="name:se" v="Muvrrešáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Muvrešappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="200067" />
+		<nd ref="-6254" />
+		<nd ref="-6255" />
+	</way>
+	<way id="-2752">
+		<tag k="name" v="Sarvvagasjeaggi" />
+		<tag k="name:se" v="Sarvvagasjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Sarvagasjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="625998" />
+		<nd ref="-9494" />
+		<nd ref="-9495" />
+		<nd ref="-9496" />
+	</way>
+	<way id="-2230">
+		<tag k="name" v="Opmojeaggi" />
+		<tag k="name:se" v="Opmojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Åbmujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503214" />
+		<nd ref="-7889" />
+		<nd ref="-7890" />
+	</way>
+	<way id="-1200">
+		<tag k="name" v="Fallehatjeaggi" />
+		<tag k="name:se" v="Fallehatjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Fallehatjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18411" />
+		<nd ref="-4519" />
+		<nd ref="-4520" />
+		<nd ref="-4521" />
+	</way>
+	<way id="-1710">
+		<tag k="name" v="Rivkkošjeaggi" />
+		<tag k="name:se" v="Rivkkošjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Rivkusjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="140678" />
+		<nd ref="-6084" />
+		<nd ref="-6085" />
+		<nd ref="-6086" />
+	</way>
+	<way id="-939">
+		<tag k="name" v="Buollánáhpi" />
+		<tag k="name:se" v="Buollánáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Buollanappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="321928" />
+		<nd ref="-3599" />
+		<nd ref="-3600" />
+		<nd ref="-3601" />
+	</way>
+	<way id="-2729">
+		<tag k="name" v="Jalskotjeaggi" />
+		<tag k="name:se" v="Jalskotjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Jalskutjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="625734" />
+		<nd ref="-9414" />
+		<nd ref="-9415" />
+		<nd ref="-9416" />
+	</way>
+	<way id="-2214">
+		<tag k="name" v="Čahkobohttu" />
+		<tag k="name:se" v="Čahkobohttu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Čakkubåtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="503028" />
+		<nd ref="-7848" />
+		<nd ref="-7849" />
+	</way>
+	<way id="-2725">
+		<tag k="name" v="Gođđojeaggi" />
+		<tag k="name:se" v="Gođđojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gåđđujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="625720" />
+		<nd ref="-9403" />
+		<nd ref="-9404" />
+	</way>
+	<way id="-1187">
+		<tag k="name" v="Gaskabeaijeakkit" />
+		<tag k="name:se" v="Gaskabeaijeakkit" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="392701" />
+		<nd ref="-4365" />
+		<nd ref="-4366" />
+	</way>
+	<way id="-1181">
+		<tag k="name" v="Rávdnječoalesuohkadas" />
+		<tag k="name:se" v="Rávdnječoalesuohkadas" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Ravdnječoalesuokkadas;Rávdnječoalesuohkdas" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="382983" />
+		<nd ref="-4341" />
+		<nd ref="-4342" />
+		<nd ref="-4343" />
+		<nd ref="-4344" />
+		<nd ref="-4345" />
+	</way>
+	<way id="-2716">
+		<tag k="name" v="Girjásorda" />
+		<tag k="name:se" v="Girjásorda" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Girjasårda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="625596" />
+		<nd ref="-9383" />
+		<nd ref="-9384" />
+	</way>
+	<way id="-1198">
+		<tag k="name" v="Dorskajeaggi" />
+		<tag k="name:se" v="Dorskajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="896663" />
+		<nd ref="-4487" />
+		<nd ref="-4488" />
+	</way>
+	<way id="-2192">
+		<tag k="name" v="Njuikunjeaggi" />
+		<tag k="name:se" v="Njuikunjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Njuikonjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="443958" />
+		<nd ref="-7708" />
+		<nd ref="-7709" />
+	</way>
+	<way id="-1158">
+		<tag k="name" v="Rohtoáhpi" />
+		<tag k="name:se" v="Rohtoáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Råttuappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="382876" />
+		<nd ref="-4265" />
+		<nd ref="-4266" />
+	</way>
+	<way id="-2181">
+		<tag k="name" v="Gárjelorda" />
+		<tag k="name:se" v="Gárjelorda" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Garjelårda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="443898" />
+		<nd ref="-7675" />
+		<nd ref="-7676" />
+		<nd ref="-7677" />
+	</way>
+	<way id="-2180">
+		<tag k="name" v="Juovvajeaggi" />
+		<tag k="name:se" v="Juovvajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Juovvajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="443893" />
+		<nd ref="-7673" />
+		<nd ref="-7674" />
+	</way>
+	<way id="-1155">
+		<tag k="name" v="Gietnjoleakši" />
+		<tag k="name:se" v="Gietnjoleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Giednjulækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="382792" />
+		<nd ref="-4257" />
+		<nd ref="-4258" />
+	</way>
+	<way id="-1663">
+		<tag k="name" v="Lulit Rákkasleakši" />
+		<tag k="name:se" v="Lulit Rákkasleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Raggaslæksi, lulit" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="139737" />
+		<nd ref="-5945" />
+		<nd ref="-5946" />
+	</way>
+	<way id="-2678">
+		<tag k="name" v="Áldoáhpi" />
+		<tag k="name:se" v="Áldoáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Alduappi;Áldoappi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624947" />
+		<nd ref="-9259" />
+		<nd ref="-9260" />
+		<nd ref="-9261" />
+		<nd ref="-9262" />
+		<nd ref="-9263" />
+	</way>
+	<way id="-3189">
+		<tag k="name" v="Ruvvaleakši" />
+		<tag k="name:se" v="Ruvvaleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Buvvalækši" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="807595" />
+		<nd ref="-10916" />
+		<nd ref="-10917" />
+		<nd ref="-10918" />
+	</way>
+	<way id="-2675">
+		<tag k="name" v="Opmojeaggi" />
+		<tag k="name:se" v="Opmojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Åbmujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624933" />
+		<nd ref="-9251" />
+		<nd ref="-9252" />
+	</way>
+	<way id="-1643">
+		<tag k="name" v="Jievjageađgi" />
+		<tag k="name:se" v="Jievjageađgi" />
+		<tag k="natural" v="stone" />
+		<tag k="old_name:se" v="Jievjagæđgi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="139580" />
+		<nd ref="-5897" />
+		<nd ref="-5898" />
+	</way>
+	<way id="-1297">
+		<tag k="name" v="Gálggosuotnju" />
+		<tag k="name:se" v="Gálggosuotnju" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Galgusvodnjo" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18710" />
+		<nd ref="-4802" />
+		<nd ref="-4803" />
+		<nd ref="-4804" />
+	</way>
+	<way id="-1634">
+		<tag k="name" v="Stálljarohtu" />
+		<tag k="name:se" v="Stálljarohtu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Stalljaråtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="139619" />
+		<nd ref="-5873" />
+		<nd ref="-5874" />
+	</way>
+	<way id="-2656">
+		<tag k="name" v="Guhkesjeaggi" />
+		<tag k="name:se" v="Guhkesjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gukkesjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624820" />
+		<nd ref="-9200" />
+		<nd ref="-9201" />
+	</way>
+	<way id="-2650">
+		<tag k="name" v="Vassejeaggi" />
+		<tag k="name:se" v="Vassejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Vassejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624785" />
+		<nd ref="-9184" />
+		<nd ref="-9185" />
+	</way>
+	<way id="-1617">
+		<tag k="name" v="Gumppejeaggi" />
+		<tag k="name:se" v="Gumppejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gumpejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="139478" />
+		<nd ref="-5832" />
+		<nd ref="-5833" />
+		<nd ref="-5834" />
+	</way>
+	<way id="-2126">
+		<tag k="name" v="Suovvejeaggi" />
+		<tag k="name:se" v="Suovvejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Suovvejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="443495" />
+		<nd ref="-7523" />
+		<nd ref="-7524" />
+		<nd ref="-7525" />
+	</way>
+	<way id="-1096">
+		<tag k="alt_name:se" v="Juŋkorjeaggi" />
+		<tag k="name" v="Juŋkorajeaggi" />
+		<tag k="name:se" v="Juŋkorajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Junkurajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="382378" />
+		<nd ref="-4096" />
+		<nd ref="-4097" />
+		<nd ref="-4098" />
+		<nd ref="-4099" />
+		<nd ref="-4100" />
+	</way>
+	<way id="-1036">
+		<tag k="name" v="Ođđaniittojeaggi" />
+		<tag k="name:se" v="Ođđaniittojeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Åddaniitujæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="381510" />
+		<nd ref="-3936" />
+		<nd ref="-3937" />
+	</way>
+	<way id="-2629">
+		<tag k="name" v="Dealljadasleamši" />
+		<tag k="name:se" v="Dealljadasleamši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Dælljadaslæmši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624637" />
+		<nd ref="-9130" />
+		<nd ref="-9131" />
+		<nd ref="-9132" />
+	</way>
+	<way id="-2625">
+		<tag k="name" v="Rávdoleamši" />
+		<tag k="name:se" v="Rávdoleamši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ravdulæmši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624619" />
+		<nd ref="-9118" />
+		<nd ref="-9119" />
+		<nd ref="-9120" />
+	</way>
+	<way id="-2620">
+		<tag k="name" v="Náránašjeaggi" />
+		<tag k="name:se" v="Náránašjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Naranašjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624558" />
+		<nd ref="-9105" />
+		<nd ref="-9106" />
+		<nd ref="-9107" />
+	</way>
+	<way id="-2613">
+		<tag k="name" v="Ellešleakši" />
+		<tag k="name:se" v="Ellešleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Ellešlækši" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624433" />
+		<nd ref="-9081" />
+		<nd ref="-9082" />
+		<nd ref="-9083" />
+	</way>
+	<way id="-2612">
+		<tag k="name" v="Johkagieraleakši" />
+		<tag k="name:se" v="Johkagieraleakši" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Jåkkagieralæksi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624430" />
+		<nd ref="-9078" />
+		<nd ref="-9079" />
+		<nd ref="-9080" />
+	</way>
+	<way id="-2095">
+		<tag k="name" v="Aškkasjeaggi" />
+		<tag k="name:se" v="Aškkasjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Aškasjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="442885" />
+		<nd ref="-7443" />
+		<nd ref="-7444" />
+	</way>
+	<way id="-2597">
+		<tag k="name" v="Bieggajeaggi" />
+		<tag k="name:se" v="Bieggajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Bieggajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="624071" />
+		<nd ref="-9037" />
+		<nd ref="-9038" />
+	</way>
+	<way id="-1058">
+		<tag k="name" v="Čoarvebohttu" />
+		<tag k="name:se" v="Čoarvebohttu" />
+		<tag k="natural" v="wood" />
+		<tag k="old_name:se" v="Čoarvebåtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="381855" />
+		<nd ref="-3997" />
+		<nd ref="-3998" />
+	</way>
+	<way id="-1626">
+		<tag k="name" v="Gožžabohttu" />
+		<tag k="name:se" v="Gožžabohttu" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gåžžabåtto" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="139551" />
+		<nd ref="-5855" />
+		<nd ref="-5856" />
+	</way>
+	<way id="-3608">
+		<tag k="name" v="Goavgiljeaggi" />
+		<tag k="name:se" v="Goavgiljeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941935" />
+		<nd ref="-12234" />
+		<nd ref="-12235" />
+	</way>
+	<way id="-2473">
+		<tag k="name" v="Stuorahanjeaggi" />
+		<tag k="name:se" v="Stuorahanjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Stuorahanjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563930" />
+		<nd ref="-8639" />
+		<nd ref="-8640" />
+	</way>
+	<way id="-1045">
+		<tag k="name" v="Láppesjeaggi" />
+		<tag k="name:se" v="Láppesjeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Labbesjæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="381640" />
+		<nd ref="-3957" />
+		<nd ref="-3958" />
+		<nd ref="-3959" />
+		<nd ref="-3960" />
+	</way>
+	<way id="-3092">
+		<tag k="name" v="Áideáhpi" />
+		<tag k="name:se" v="Áideáhpi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="774265" />
+		<nd ref="-10626" />
+		<nd ref="-10627" />
+	</way>
+	<way id="-2067">
+		<tag k="name" v="Mohkkejeaggi" />
+		<tag k="name:se" v="Mohkkejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Måkkejæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="442571" />
+		<nd ref="-7369" />
+		<nd ref="-7370" />
+		<nd ref="-7371" />
+		<nd ref="-7372" />
+	</way>
+	<way id="-3597">
+		<tag k="landuse" v="quarry" />
+		<tag k="name" v="Biedjovággi gruver" />
+		<tag k="name:no" v="Biedjovággi gruver" />
+		<tag k="old_name:no" v="Bieddjuvaggi gruver;Bidjovagge gruber" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="929965" />
+		<nd ref="-12162" />
+		<nd ref="-12163" />
+		<nd ref="-12164" />
+		<nd ref="-12165" />
+		<nd ref="-12166" />
+		<nd ref="-12167" />
+	</way>
+	<way id="-2060">
+		<tag k="name" v="Sunnajeaggi" />
+		<tag k="name:se" v="Sunnajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Sunnajæggi;Sunnájeaggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="442094" />
+		<nd ref="-7344" />
+		<nd ref="-7345" />
+		<nd ref="-7346" />
+		<nd ref="-7347" />
+	</way>
+	<way id="-2055">
+		<tag k="name" v="Gámasvuomuš" />
+		<tag k="name:se" v="Gámasvuomuš" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Gamasvuomoš" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="442043" />
+		<nd ref="-7329" />
+		<nd ref="-7330" />
+	</way>
+	<way id="-1538">
+		<tag k="name" v="Skierrejeaggi" />
+		<tag k="name:se" v="Skierrejeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="107408" />
+		<nd ref="-5574" />
+		<nd ref="-5575" />
+	</way>
+	<way id="-2475">
+		<tag k="name" v="Riigajeaggi" />
+		<tag k="name:se" v="Riigajeaggi" />
+		<tag k="natural" v="wetland" />
+		<tag k="old_name:se" v="Riigajæggi" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="563943" />
+		<nd ref="-8643" />
+		<nd ref="-8644" />
+	</way>
+</osm>

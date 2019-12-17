@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-67861" lat="69.7588472252" lon="19.6592611101">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Oldervik kirkegård" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="781534" />
+	</node>
+	<node id="-63736" lat="69.6366500029" lon="18.9062527859">
+		<tag k="name" v="Troms folkemuseum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="449486" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-67575" lat="69.6805611087" lon="18.7443916507">
+		<tag k="ssr:gml_id" v="GEOMETRY_41cbde71-8c6d-4720-8e8f-3f06c2438478" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-67574" lat="69.6801472265" lon="18.7428027796">
+		<tag k="ssr:gml_id" v="GEOMETRY_55bf5d1f-8e18-4b45-9270-20e8ee9adf02" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-67573" lat="69.6806111127" lon="18.7442249876">
+		<tag k="ssr:gml_id" v="GEOMETRY_404ef7fd-45a8-48ec-89d4-3ea6ffe654a8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-59252" lat="69.7102433322" lon="18.9249013034">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Sállirsalen" />
+		<tag k="ssr:date" v="2018-03-15" />
+		<tag k="ssr:stedsnr" v="982981" />
+	</node>
+	<node id="-59251" lat="69.7103068351" lon="18.925063515">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Tromsø krematorium" />
+		<tag k="ssr:date" v="2018-03-15" />
+		<tag k="ssr:stedsnr" v="982980" />
+	</node>
+	<node id="-59250" lat="69.7102093163" lon="18.9250884149">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Sállir seremonihus" />
+		<tag k="ssr:date" v="2018-03-15" />
+		<tag k="ssr:stedsnr" v="982978" />
+	</node>
+	<node id="-62059" lat="70.0273166643" lon="18.5439805561">
+		<tag k="alt_name" v="Kirkevær" />
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Kjerkevær" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="201276" />
+	</node>
+	<node id="-57828" lat="69.4174972182" lon="19.661391654">
+		<tag k="ssr:gml_id" v="GEOMETRY_9756a3e7-d4d6-4263-b8c8-71bc171ea629" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-57827" lat="69.4120416691" lon="19.6500638809">
+		<tag k="ssr:gml_id" v="GEOMETRY_d1935fc8-7d25-4e3c-8413-95823c1dc476" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-61794" lat="69.5322805527" lon="19.641472215">
+		<tag k="ssr:gml_id" v="GEOMETRY_9b893f4e-0d3a-42b3-bf1e-5f526d994468" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-69857" lat="69.6510222186" lon="19.0116694389">
+		<tag k="ssr:gml_id" v="GEOMETRY_ab0367b6-19a3-4f16-b311-bdb015668cb3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-67680" lat="69.6487555531" lon="18.9565916713">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Tromsø domkirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="770174" />
+	</node>
+	<node id="-61791" lat="69.5322805541" lon="19.6414749939">
+		<tag k="ssr:gml_id" v="GEOMETRY_4477810a-0b73-457c-8dae-37293f11d85c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-69839" lat="69.6346805598" lon="18.9121611027">
+		<tag k="ssr:gml_id" v="GEOMETRY_f2918cda-8f83-4f02-838e-5f49dcc094a4" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-68694" lat="69.6047527782" lon="18.8098833158">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Bakketun" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="843329" />
+	</node>
+	<node id="-67023" lat="69.562699999" lon="18.6758305562">
+		<tag k="name" v="Bentsjordtun" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="721152" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-69838" lat="69.6348416643" lon="18.9118916676">
+		<tag k="ssr:gml_id" v="GEOMETRY_3333ae87-22d6-4528-92a9-81a63039e8f0" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-59339" lat="69.648466669" lon="18.9214722272">
+		<tag k="ssr:gml_id" v="GEOMETRY_69c8295d-933d-4bb7-b0b2-7e8e3c5eb020" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-59338" lat="69.6486111117" lon="18.9213999946">
+		<tag k="ssr:gml_id" v="GEOMETRY_f9f85572-3744-46a6-87c5-0d61b23506a6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-59337" lat="69.648458338" lon="18.9213305411">
+		<tag k="ssr:gml_id" v="GEOMETRY_4ddc877c-5d3a-4b46-a687-5c0d0acaee02" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-60231" lat="69.5981888926" lon="18.030949999">
+		<tag k="ssr:gml_id" v="GEOMETRY_9e6b9a22-21fc-4e91-8404-c1fdcb943c0c" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-60230" lat="69.5981861125" lon="18.0309472291">
+		<tag k="ssr:gml_id" v="GEOMETRY_5bacac91-7ca4-4199-be7d-c54791ea362e" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-61793" lat="69.5294388894" lon="19.6322083227">
+		<tag k="ssr:gml_id" v="GEOMETRY_7ee85e90-bdc4-4cdb-9629-a54e355d6939" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-60228" lat="69.5981194409" lon="18.0317138895">
+		<tag k="ssr:gml_id" v="GEOMETRY_cf648fc3-a56f-4471-9186-a31b41633e18" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-69856" lat="69.6510194458" lon="19.0116722131">
+		<tag k="ssr:gml_id" v="GEOMETRY_36f1c07d-5d2d-46aa-a669-33d459897bd7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-63035" lat="69.6502888883" lon="18.9250694321">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Elverhøy gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="417043" />
+	</node>
+	<node id="-65073" lat="69.6438638902" lon="18.9486861153">
+		<tag k="name" v="Polaria" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="570467" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-57826" lat="69.412041671" lon="19.649936107">
+		<tag k="ssr:gml_id" v="GEOMETRY_559b7902-de0a-460f-bae5-e3811dfb2bf3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-59807" lat="69.8927388916" lon="18.6730833285">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Gåsvær kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="49027" />
+	</node>
+	<node id="-60229" lat="69.5980527818" lon="18.029716673">
+		<tag k="ssr:gml_id" v="GEOMETRY_327c041d-9bb0-40eb-8cd9-ff4d78054975" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-63387" lat="69.6480833318" lon="18.9867499877">
+		<tag k="ssr:gml_id" v="GEOMETRY_315fc2cf-d936-4f89-a702-8b6d929918a9" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-63386" lat="69.6482083366" lon="18.9870555439">
+		<tag k="ssr:gml_id" v="GEOMETRY_aff17ad5-cc6f-40a7-9719-1958e511066a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-63385" lat="69.6482055568" lon="18.9870527657">
+		<tag k="ssr:gml_id" v="GEOMETRY_9b029895-dc5a-4ca4-8e73-7c1ab52d579f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-61792" lat="69.532641667" lon="19.641099985">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ebc83e8-97a8-4484-9da0-d8c5abd82698" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-63250" lat="69.4924083329" lon="18.8361860993">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Fredlund Kobbevåg" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="424919" />
+	</node>
+	<node id="-70155" lat="69.7089432978" lon="18.9238877947">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Sandnessundet gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2017-10-30" />
+		<tag k="ssr:stedsnr" v="979598" />
+	</node>
+	<node id="-62983" lat="69.6793277816" lon="18.960605545">
+		<tag k="ssr:gml_id" v="GEOMETRY_fef9d941-879b-47e1-9440-a1f55930befd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-62982" lat="69.6793249959" lon="18.9606055562">
+		<tag k="ssr:gml_id" v="GEOMETRY_2bc57810-0866-47b4-8d74-2436fa07c4c3" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-62981" lat="69.6793250007" lon="18.9606083253">
+		<tag k="ssr:gml_id" v="GEOMETRY_dfd4701d-2cf8-45ab-8355-1268ea8e0e2a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-59012" lat="69.6512611102" lon="18.9979583179">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Tromsdalen kirkegård" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="477046" />
+	</node>
+	<node id="-64386" lat="69.6537444414" lon="18.9404861071">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Tromsø gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="538054" />
+	</node>
+	<node id="-59115" lat="69.6471722248" lon="18.8075250071">
+		<tag k="name" v="Prama" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="478488" />
+	</node>
+	<way id="-12286">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Lakselvbukt" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="322207" />
+		<nd ref="-57826" />
+		<nd ref="-57827" />
+		<nd ref="-57828" />
+	</way>
+	<way id="-15035">
+		<tag k="name" v="Krøkebærsletta" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="942741" />
+		<tag k="tourism" v="attraction" />
+		<nd ref="-69856" />
+		<nd ref="-69857" />
+	</way>
+	<way id="-15034">
+		<tag k="name" v="Tromsø museum" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934495" />
+		<tag k="tourism" v="museum" />
+		<nd ref="-69838" />
+		<nd ref="-69839" />
+	</way>
+	<way id="-14515">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="loc_name" v="Kvaløya" />
+		<tag k="name" v="Kvaløy" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="747396" />
+		<nd ref="-67573" />
+		<nd ref="-67574" />
+		<nd ref="-67575" />
+	</way>
+	<way id="-13131">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Sjursnes;Ullsfjord" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="200072" />
+		<nd ref="-61791" />
+		<nd ref="-61792" />
+		<nd ref="-61793" />
+		<nd ref="-61794" />
+	</way>
+	<way id="-12583">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Elverhøy" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="18295" />
+		<nd ref="-59337" />
+		<nd ref="-59338" />
+		<nd ref="-59339" />
+	</way>
+	<way id="-13511">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="loc_name" v="Ishavskatedralen" />
+		<tag k="name" v="Tromsdalen;Tromsøysund" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="443345" />
+		<nd ref="-63385" />
+		<nd ref="-63386" />
+		<nd ref="-63387" />
+	</way>
+	<way id="-12803">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Hillesøy" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79490" />
+		<nd ref="-60228" />
+		<nd ref="-60229" />
+		<nd ref="-60230" />
+		<nd ref="-60231" />
+	</way>
+	<way id="-13442">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Grønnåsen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266528" />
+		<nd ref="-62981" />
+		<nd ref="-62982" />
+		<nd ref="-62983" />
+	</way>
+</osm>

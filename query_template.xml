@@ -1,0 +1,27 @@
+<!-- The following was generated in http://overpass-turbo.eu/# -->
+<!-- It was then exported by "Export -> Query -> convert to Overpass-XML" and modified-->
+
+<osm-script output="xml" timeout="60">
+  {variables_query}
+  <union>
+    <query into="_" type="node">
+      <has-kv k="ssr:stedsnr"/>
+      {area_query}
+    </query>
+    <query into="_" type="way">
+      <has-kv k="ssr:stedsnr"/>
+      {area_query}
+    </query>
+    <query into="_" type="relation">
+      <has-kv k="ssr:stedsnr"/>
+      {area_query}
+    </query>    
+  </union>
+  <print e="" from="_" geometry="skeleton" limit="" mode="meta" n="" order="id" s="" w=""/>
+  <recurse from="_" into="_" type="down"/>
+  <print e="" from="_" geometry="skeleton" limit="" mode="meta" n="" order="quadtile" s="" w=""/>
+  
+  <!-- <print e="" from="_" geometry="skeleton" limit="" mode="body" n="" order="id" s="" w=""/> -->
+  <!-- <recurse from="_" into="_" type="down"/> -->
+  <!-- <print e="" from="_" geometry="skeleton" limit="" mode="skeleton" n="" order="quadtile" s="" w=""/> -->
+</osm-script>

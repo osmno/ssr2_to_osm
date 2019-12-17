@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-12928" lat="65.0456638846" lon="13.7748833296">
+		<tag k="ssr:gml_id" v="GEOMETRY_4ae79845-8f5d-4fad-ac76-342ea94d2295" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-12927" lat="65.0454527734" lon="13.7763916654">
+		<tag k="ssr:gml_id" v="GEOMETRY_d6e55e46-17aa-47be-9fda-31ba3ffe152d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-12926" lat="65.0456944471" lon="13.7744527713">
+		<tag k="ssr:gml_id" v="GEOMETRY_c6899e3e-4f7a-45fd-8923-b7660178162e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12925" lat="65.0456916671" lon="13.7744499949">
+		<tag k="ssr:gml_id" v="GEOMETRY_550beb07-10cc-4c40-bcda-ea6d86cc9374" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-15265" lat="64.7364694476" lon="13.3104999997">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Gudøyvangen" />
+		<tag k="name:no" v="Gudøyvangen" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="560257" />
+	</node>
+	<way id="-3756">
+		<tag k="amenity" v="community_centre" />
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Kristi Krybbe;Reiret" />
+		<tag k="name:no" v="Kristi Krybbe;Reiret" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:stedsnr" v="803811" />
+		<nd ref="-12925" />
+		<nd ref="-12926" />
+		<nd ref="-12927" />
+		<nd ref="-12928" />
+	</way>
+</osm>

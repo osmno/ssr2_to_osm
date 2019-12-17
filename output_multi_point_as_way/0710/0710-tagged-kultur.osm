@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-54390" lat="59.1064055558" lon="10.2105333315">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Sole lokale" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="88554" />
+	</node>
+	<node id="-53438" lat="59.3668444432" lon="10.122158331">
+		<tag k="ssr:gml_id" v="GEOMETRY_01542d6c-1297-4512-b1d1-7b617686c1de" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-54056" lat="59.2530972256" lon="10.0462750011">
+		<tag k="ssr:gml_id" v="GEOMETRY_b127b22a-ced8-4b59-942c-394d766dd6fb" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-53437" lat="59.3668444463" lon="10.122161111">
+		<tag k="ssr:gml_id" v="GEOMETRY_dadd4f59-904c-49cc-8a85-9e9f29672a18" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-55658" lat="59.2084444445" lon="10.1158111183">
+		<tag k="ssr:gml_id" v="GEOMETRY_7e156463-0db5-41d9-af68-d494d1a4a94b" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-55657" lat="59.2086694477" lon="10.1158333283">
+		<tag k="ssr:gml_id" v="GEOMETRY_27ffc682-5d25-4a75-a76b-3b98a4d5b27a" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-55656" lat="59.2086666693" lon="10.1158305581">
+		<tag k="ssr:gml_id" v="GEOMETRY_368dd635-240b-46bf-b184-0de2ceaa6075" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-55655" lat="59.2086638911" lon="10.1158277703">
+		<tag k="ssr:gml_id" v="GEOMETRY_d0c5288f-0916-4d41-8423-29ae1f5293af" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-53478" lat="59.2368027789" lon="10.278874995">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ace4f97-d3bc-4628-bab0-1fad1e70e97d" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-53477" lat="59.236811113" lon="10.278880548">
+		<tag k="ssr:gml_id" v="GEOMETRY_c7612e6c-c982-41a0-9a66-d390b9a14a12" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-53476" lat="59.236530555" lon="10.2810777706">
+		<tag k="ssr:gml_id" v="GEOMETRY_beb012df-cf6c-4c7f-9fa5-9c859fb6e929" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-55011" lat="59.0591027735" lon="10.3079861187">
+		<tag k="ssr:gml_id" v="GEOMETRY_5182883f-3949-4cfe-9323-34b69fbec343" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-55010" lat="59.059097224" lon="10.307983327">
+		<tag k="ssr:gml_id" v="GEOMETRY_393a7c59-c586-435e-9212-aed179941659" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-55009" lat="59.0582527759" lon="10.308791666">
+		<tag k="ssr:gml_id" v="GEOMETRY_e4f71aa6-8b17-4f61-bb0e-6bf5c64c1f7d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-55008" lat="59.0582500016" lon="10.3087888926">
+		<tag k="ssr:gml_id" v="GEOMETRY_eefab35c-6498-4c37-ba23-c48dce8828d2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-55007" lat="59.0582500028" lon="10.3087861027">
+		<tag k="ssr:gml_id" v="GEOMETRY_57748df6-e49f-4e88-8992-125d22f50b74" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-53519" lat="59.2897222186" lon="10.2511055603">
+		<tag k="ssr:gml_id" v="GEOMETRY_21919e9b-e9e4-40fd-84bc-607e40bb48f8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-53518" lat="59.2897222189" lon="10.2511083341">
+		<tag k="ssr:gml_id" v="GEOMETRY_5aa78325-5cc8-4ed5-a4fd-d4dcab10d89b" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-53475" lat="59.2367861079" lon="10.2813444422">
+		<tag k="ssr:gml_id" v="GEOMETRY_986d0437-504a-4bf2-b75b-f3093ce235dd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-53474" lat="59.2365388864" lon="10.2810999932">
+		<tag k="ssr:gml_id" v="GEOMETRY_aff48c4e-f6ec-461a-a9b1-231067aebc4d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-53473" lat="59.2365361112" lon="10.2810999943">
+		<tag k="ssr:gml_id" v="GEOMETRY_667a5a71-82d2-45c0-b184-f5908019a40c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-56768" lat="59.3030638844" lon="10.1736277824">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Klokkergården" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="816427" />
+	</node>
+	<node id="-53439" lat="59.3668444433" lon="10.1221666709">
+		<tag k="ssr:gml_id" v="GEOMETRY_ad4ad9d6-201e-4f01-bdc3-9b1d90ed5229" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-54974" lat="59.2329527772" lon="10.1787444467">
+		<tag k="ssr:gml_id" v="GEOMETRY_49671d53-f4bc-4c48-bd96-2740f4f5635d" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-54973" lat="59.2329249975" lon="10.1788555496">
+		<tag k="ssr:gml_id" v="GEOMETRY_ccc200ac-bc0c-45a7-8efd-566e9748db4e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-54972" lat="59.2329249956" lon="10.1788527804">
+		<tag k="ssr:gml_id" v="GEOMETRY_1f8095b9-a073-4e14-b3fb-1077d286c026" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-55980" lat="59.2313527779" lon="10.1264138901">
+		<tag k="ssr:gml_id" v="GEOMETRY_7913a64a-dcda-4b1f-b4d4-aca66c854181" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-55979" lat="59.2316666679" lon="10.1258277852">
+		<tag k="ssr:gml_id" v="GEOMETRY_0aed048c-cbfb-4d51-befa-5ff0c6f77570" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-55978" lat="59.231355556" lon="10.1264166631">
+		<tag k="ssr:gml_id" v="GEOMETRY_3f516d91-7905-46f7-9558-fae30f6cd9c9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-54057" lat="59.2530972258" lon="10.04628056">
+		<tag k="ssr:gml_id" v="GEOMETRY_18d461a8-fb72-4e30-a1df-8ae1dc9e7877" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-55080" lat="59.2265555516" lon="10.2884972189">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Myrvang" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="268426" />
+	</node>
+	<node id="-56615" lat="59.1407378768" lon="10.2529760118">
+		<tag k="alt_name" v="Kongshaug" />
+		<tag k="name" v="Gokstadhaugen" />
+		<tag k="ssr:date" v="2018-03-14" />
+		<tag k="ssr:stedsnr" v="790012" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-54055" lat="59.2534444487" lon="10.045416673">
+		<tag k="ssr:gml_id" v="GEOMETRY_8aff4913-cf2d-464c-bee8-0557199c75d7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-53520" lat="59.2900722205" lon="10.2509361089">
+		<tag k="ssr:gml_id" v="GEOMETRY_5a183db6-9fd0-4df4-845f-2ab8bdf2e9ee" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-57245" lat="59.2925694446" lon="10.1313722266">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Solhaug ungdomslokale" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="937285" />
+	</node>
+	<node id="-53904" lat="59.1197194421" lon="10.2400000066">
+		<tag k="ssr:gml_id" v="GEOMETRY_f8741fe0-c794-4b0a-b84c-79a8b9985d75" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-53903" lat="59.1197222264" lon="10.2400000024">
+		<tag k="ssr:gml_id" v="GEOMETRY_07007257-cadb-4272-b0d3-0b7a099c9a9d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-55694" lat="59.2205750011" lon="10.306325007">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Stokke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="547386" />
+	</node>
+	<node id="-53517" lat="59.2898749959" lon="10.2511694519">
+		<tag k="ssr:gml_id" v="GEOMETRY_51a59997-80ed-416a-b48e-b3796ca6a435" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-53436" lat="59.3671027764" lon="10.1219416628">
+		<tag k="ssr:gml_id" v="GEOMETRY_6f39c1ed-335b-4e9e-ace0-1d3688d99b9f" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-56236" lat="59.3088555563" lon="10.1770249931">
+		<tag k="alt_name" v="Andebu kirke" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Andebu" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="670813" />
+	</node>
+	<way id="-11370">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Høyjord" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="305214" />
+		<nd ref="-53436" />
+		<nd ref="-53437" />
+		<nd ref="-53438" />
+		<nd ref="-53439" />
+	</way>
+	<way id="-11379">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Skjee" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="305352" />
+		<nd ref="-53473" />
+		<nd ref="-53474" />
+		<nd ref="-53475" />
+		<nd ref="-53476" />
+		<nd ref="-53477" />
+		<nd ref="-53478" />
+	</way>
+	<way id="-11506">
+		<tag k="name" v="Snappen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="2927" />
+		<nd ref="-54055" />
+		<nd ref="-54056" />
+		<nd ref="-54057" />
+	</way>
+	<way id="-11919">
+		<tag k="alt_name" v="Kodal kirke" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Kodal" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="608322" />
+		<nd ref="-55978" />
+		<nd ref="-55979" />
+		<nd ref="-55980" />
+	</way>
+	<way id="-11698">
+		<tag k="name" v="Tønsberg tønne" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="245168" />
+		<tag k="tourism" v="viewpoint" />
+		<nd ref="-55007" />
+		<nd ref="-55008" />
+		<nd ref="-55009" />
+		<nd ref="-55010" />
+		<nd ref="-55011" />
+	</way>
+	<way id="-11466">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Vesterøya" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="406773" />
+		<nd ref="-53903" />
+		<nd ref="-53904" />
+	</way>
+	<way id="-11688">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Fjellvang" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="244311" />
+		<nd ref="-54972" />
+		<nd ref="-54973" />
+		<nd ref="-54974" />
+	</way>
+	<way id="-11843">
+		<tag k="alt_name" v="Vonheim ungdomslokale" />
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Vonheim" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="547148" />
+		<nd ref="-55655" />
+		<nd ref="-55656" />
+		<nd ref="-55657" />
+		<nd ref="-55658" />
+	</way>
+	<way id="-11393">
+		<tag k="alt_name" v="Arnadal Kirke" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Arnadal" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2017-01-19" />
+		<tag k="ssr:stedsnr" v="307861" />
+		<nd ref="-53517" />
+		<nd ref="-53518" />
+		<nd ref="-53519" />
+		<nd ref="-53520" />
+	</way>
+</osm>

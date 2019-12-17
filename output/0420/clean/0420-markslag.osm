@@ -1,0 +1,2811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-2028" lat="60.0078888927" lon="11.9887055524">
+		<tag k="name" v="Hansåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="612854" />
+	</node>
+	<node id="-2023" lat="60.0761027759" lon="11.9344749976">
+		<tag k="name" v="Hesteskomyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="612701" />
+	</node>
+	<node id="-2019" lat="60.0450749972" lon="11.9227555565">
+		<tag k="name" v="Saumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="612666" />
+	</node>
+	<node id="-2007" lat="59.9204749998" lon="12.0684500073">
+		<tag k="alt_name" v="Orremyrene" />
+		<tag k="name" v="Orremyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="612355" />
+	</node>
+	<node id="-1995" lat="59.938561111" lon="11.8846527807">
+		<tag k="name" v="Halsemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="612277" />
+	</node>
+	<node id="-1971" lat="60.124172219" lon="12.1686305558">
+		<tag k="name" v="Knartmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="611499" />
+	</node>
+	<node id="-327" lat="59.9150027734" lon="11.9212777805">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369304" />
+	</node>
+	<node id="-1947" lat="60.0143583374" lon="11.8837083323">
+		<tag k="name" v="Delemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="594818" />
+	</node>
+	<node id="-1946" lat="59.9434138861" lon="11.8881888932">
+		<tag k="name" v="Rundmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="594648" />
+	</node>
+	<node id="-1945" lat="60.0588555552" lon="11.9531416689">
+		<tag k="name" v="Nordfjell" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="594637" />
+	</node>
+	<node id="-1940" lat="60.1185361108" lon="12.2229555589">
+		<tag k="name" v="Hestemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="594478" />
+	</node>
+	<node id="-1924" lat="60.0284916696" lon="11.9966222272">
+		<tag k="name" v="Nedre Stakmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593900" />
+	</node>
+	<node id="-1922" lat="60.0717111104" lon="12.1966027759">
+		<tag k="name" v="Gusterudstormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593895" />
+	</node>
+	<node id="-1919" lat="60.0258416677" lon="12.1547027843">
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593867" />
+	</node>
+	<node id="-1914" lat="60.0472722202" lon="11.850997223">
+		<tag k="name" v="Kvehaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593836" />
+	</node>
+	<node id="-1909" lat="60.06359722" lon="11.9273361143">
+		<tag k="name" v="Tjæregravmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593793" />
+	</node>
+	<node id="-1908" lat="60.0215888913" lon="12.2405972258">
+		<tag k="name" v="Sveltaren" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593760" />
+	</node>
+	<node id="-1906" lat="59.9629472219" lon="12.2390305559">
+		<tag k="name" v="Nevjenmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593749" />
+	</node>
+	<node id="-1901" lat="60.0199361132" lon="12.0023194515">
+		<tag k="name" v="Elgmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593659" />
+	</node>
+	<node id="-1900" lat="60.0317861088" lon="11.8416611094">
+		<tag k="name" v="Rudbergsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593647" />
+	</node>
+	<node id="-1897" lat="60.0247722227" lon="12.329794449">
+		<tag k="name" v="Karelskeneset" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="593940" />
+	</node>
+	<node id="-1894" lat="59.9721666706" lon="11.879958334">
+		<tag k="name" v="Tørrhalmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593588" />
+	</node>
+	<node id="-1889" lat="59.9815083321" lon="12.0558000024">
+		<tag k="name" v="Hagamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593495" />
+	</node>
+	<node id="-1887" lat="60.0203416669" lon="12.1070472233">
+		<tag k="name" v="Tjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593471" />
+	</node>
+	<node id="-1884" lat="60.092002775" lon="12.0924694446">
+		<tag k="name" v="Saumyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593454" />
+	</node>
+	<node id="-1879" lat="59.9232972265" lon="11.8128277703">
+		<tag k="name" v="Slengtjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593427" />
+	</node>
+	<node id="-1878" lat="60.087502781" lon="12.0193861111">
+		<tag k="name" v="Ottjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593422" />
+	</node>
+	<node id="-1877" lat="59.9906361154" lon="12.1983027805">
+		<tag k="name" v="Geitmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593403" />
+	</node>
+	<node id="-1876" lat="60.0198694476" lon="12.2272222307">
+		<tag k="name" v="Persmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593404" />
+	</node>
+	<node id="-1873" lat="60.014497219" lon="12.1753361135">
+		<tag k="name" v="Kulpen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593397" />
+	</node>
+	<node id="-1869" lat="59.9098722255" lon="12.0195694531">
+		<tag k="name" v="Sætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593299" />
+	</node>
+	<node id="-1867" lat="60.0299361087" lon="11.8955583395">
+		<tag k="name" v="Øvre Hullmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593292" />
+	</node>
+	<node id="-1866" lat="60.0452333324" lon="11.9352972303">
+		<tag k="name" v="Skjølungsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593290" />
+	</node>
+	<node id="-1862" lat="60.0034861094" lon="12.2702305567">
+		<tag k="name" v="Heimdalen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="593224" />
+	</node>
+	<node id="-1855" lat="59.9721777757" lon="12.2793472283">
+		<tag k="name" v="Svartdulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593144" />
+	</node>
+	<node id="-1853" lat="60.005283329" lon="12.2533861131">
+		<tag k="name" v="Oksebakka" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="593133" />
+	</node>
+	<node id="-1850" lat="60.081652775" lon="11.9939305493">
+		<tag k="name" v="Blantjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593115" />
+	</node>
+	<node id="-1849" lat="60.0833472224" lon="11.9966527823">
+		<tag k="name" v="Bruksmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593106" />
+	</node>
+	<node id="-1843" lat="59.9131666704" lon="12.0969416682">
+		<tag k="name" v="Tilbrumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593327" />
+	</node>
+	<node id="-1840" lat="59.9691416632" lon="12.2751750019">
+		<tag k="name" v="Kampemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="593004" />
+	</node>
+	<node id="-648" lat="60.0120305545" lon="12.0886888934">
+		<tag k="name" v="Rødbergsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="5835" />
+	</node>
+	<node id="-1831" lat="60.0052527814" lon="11.9713833378">
+		<tag k="name" v="Tørkåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551866" />
+	</node>
+	<node id="-1824" lat="60.0387750036" lon="11.9289055585">
+		<tag k="name" v="Langhalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551681" />
+	</node>
+	<node id="-1820" lat="60.0502555516" lon="11.9987750028">
+		<tag k="alt_name" v="Lealdmyra" />
+		<tag k="name" v="Nedre Lealmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551655" />
+	</node>
+	<node id="-1798" lat="59.9321194445" lon="11.8909750033">
+		<tag k="name" v="Villmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551347" />
+	</node>
+	<node id="-1797" lat="59.9178999983" lon="11.948588886">
+		<tag k="name" v="Rundmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551330" />
+	</node>
+	<node id="-1794" lat="59.9100611138" lon="11.9529583358">
+		<tag k="name" v="Stutaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551321" />
+	</node>
+	<node id="-1789" lat="59.9442055585" lon="11.9356305628">
+		<tag k="name" v="Myrmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="551295" />
+	</node>
+	<node id="-1761" lat="60.0552583312" lon="11.9934944471">
+		<tag k="name" v="Øvre Lealmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533941" />
+	</node>
+	<node id="-1760" lat="60.0289999975" lon="11.9895166587">
+		<tag k="name" v="Øvre Stakmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533928" />
+	</node>
+	<node id="-1759" lat="60.0081583363" lon="12.288274999">
+		<tag k="name" v="Margretemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533870" />
+	</node>
+	<node id="-1756" lat="60.0368638846" lon="11.9237583381">
+		<tag k="name" v="Katthullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533849" />
+	</node>
+	<node id="-1755" lat="59.9552000008" lon="11.9857388873">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533815" />
+	</node>
+	<node id="-1753" lat="59.9877472189" lon="12.3114083391">
+		<tag k="name" v="Haugedulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533799" />
+	</node>
+	<node id="-1748" lat="59.8946861119" lon="11.9195861122">
+		<tag k="name" v="Store Måsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533651" />
+	</node>
+	<node id="-1747" lat="59.9119694464" lon="11.8275611119">
+		<tag k="name" v="Kalvåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533635" />
+	</node>
+	<node id="-1739" lat="60.0528111113" lon="12.1238999919">
+		<tag k="name" v="Skråmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533514" />
+	</node>
+	<node id="-1736" lat="59.9139861085" lon="11.8217111198">
+		<tag k="name" v="Løvhøgdmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533470" />
+	</node>
+	<node id="-1733" lat="60.016166664" lon="12.3052833355">
+		<tag k="name" v="Hundeholtmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533442" />
+	</node>
+	<node id="-1732" lat="59.9819138847" lon="12.308213881">
+		<tag k="name" v="Veslemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533439" />
+	</node>
+	<node id="-1730" lat="59.9383472215" lon="12.1024472205">
+		<tag k="name" v="Bestemormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533430" />
+	</node>
+	<node id="-1729" lat="59.938416666" lon="12.0241944415">
+		<tag k="name" v="Okseaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533416" />
+	</node>
+	<node id="-1728" lat="59.9217250022" lon="12.1231694389">
+		<tag k="name" v="Grua" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="533391" />
+	</node>
+	<node id="-1721" lat="60.0229222268" lon="12.0058666624">
+		<tag k="name" v="Skogsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533352" />
+	</node>
+	<node id="-1716" lat="59.9893444432" lon="11.8915777838">
+		<tag k="name" v="Brendlimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533311" />
+	</node>
+	<node id="-1715" lat="60.0114083349" lon="11.9613277779">
+		<tag k="name" v="Gruvemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533303" />
+	</node>
+	<node id="-1714" lat="59.9687666672" lon="11.8829000058">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533297" />
+	</node>
+	<node id="-1713" lat="59.9712694471" lon="11.891172224">
+		<tag k="name" v="Støtjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533284" />
+	</node>
+	<node id="-1709" lat="59.9845472202" lon="11.8484305588">
+		<tag k="name" v="Marimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533259" />
+	</node>
+	<node id="-1697" lat="59.8987138904" lon="12.1585916612">
+		<tag k="name" v="Åtjennbråten" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="533065" />
+	</node>
+	<node id="-1695" lat="59.9388444443" lon="12.1150749916">
+		<tag k="name" v="Høymyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="533035" />
+	</node>
+	<node id="-1692" lat="59.9831333329" lon="12.0178944428">
+		<tag k="loc_name" v="Djupdalsmyra" />
+		<tag k="name" v="Jupdalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="532969" />
+	</node>
+	<node id="-1688" lat="60.1368527803" lon="12.1760749999">
+		<tag k="name" v="Gåsvikmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="532874" />
+	</node>
+	<node id="-1686" lat="59.9510972216" lon="11.8457583335">
+		<tag k="name" v="Lunnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="532704" />
+	</node>
+	<node id="-1649" lat="60.1117361151" lon="12.2480777847">
+		<tag k="name" v="Mellommyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="490919" />
+	</node>
+	<node id="-1642" lat="60.0798777796" lon="11.9551527728">
+		<tag k="alt_name" v="Bruråsmyra, nordre" />
+		<tag k="name" v="Nordre Bruråsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="490758" />
+	</node>
+	<node id="-1612" lat="59.9691444402" lon="12.0218055632">
+		<tag k="name" v="Dolpene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="490425" />
+	</node>
+	<node id="-1607" lat="59.9947250039" lon="12.1294444397">
+		<tag k="name" v="Skotterudmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472978" />
+	</node>
+	<node id="-1604" lat="59.8786888914" lon="11.8390277788">
+		<tag k="name" v="Vestre Leamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472946" />
+	</node>
+	<node id="-1601" lat="60.0655888928" lon="11.9816333248">
+		<tag k="name" v="Grautdalen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472919" />
+	</node>
+	<node id="-1600" lat="60.0098777735" lon="12.2062083287">
+		<tag k="name" v="Gunhildsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472881" />
+	</node>
+	<node id="-2996" lat="59.8666055514" lon="11.8640055555">
+		<tag k="name" v="Vesle Torkildsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958654" />
+	</node>
+	<node id="-1582" lat="60.0581138918" lon="11.9265249919">
+		<tag k="name" v="Hestmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472645" />
+	</node>
+	<node id="-1575" lat="60.1060916654" lon="12.1671166629">
+		<tag k="name" v="Vesle Fjellmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472487" />
+	</node>
+	<node id="-1570" lat="60.0773527752" lon="11.9525944423">
+		<tag k="name" v="Bruråsholtet" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="472434" />
+	</node>
+	<node id="-1567" lat="60.0072694461" lon="12.1507500089">
+		<tag k="loc_name" v="Tjennsmyra" />
+		<tag k="name" v="Kjensmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472405" />
+	</node>
+	<node id="-1566" lat="60.0532000029" lon="12.0764916668">
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472403" />
+	</node>
+	<node id="-1559" lat="59.9937888862" lon="11.8770027826">
+		<tag k="name" v="Knallrisdølpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472292" />
+	</node>
+	<node id="-1548" lat="60.0474138904" lon="12.1979638812">
+		<tag k="name" v="Kvitmosemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472203" />
+	</node>
+	<node id="-1545" lat="59.9795055536" lon="12.2701861032">
+		<tag k="name" v="Opptjenndulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472182" />
+	</node>
+	<node id="-1538" lat="59.9001138885" lon="12.1730027836">
+		<tag k="name" v="Morastsætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472088" />
+	</node>
+	<node id="-1537" lat="59.9527611094" lon="12.2479555563">
+		<tag k="name" v="Toppermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472080" />
+	</node>
+	<node id="-1535" lat="59.9430888876" lon="12.2523555622">
+		<tag k="name" v="Lindalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472071" />
+	</node>
+	<node id="-1532" lat="59.9574972192" lon="12.0973000018">
+		<tag k="name" v="Høgåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472048" />
+	</node>
+	<node id="-1517" lat="60.065763891" lon="11.9518861086">
+		<tag k="name" v="Søndre Nysætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="461170" />
+	</node>
+	<node id="-1512" lat="59.9040416693" lon="12.1576861031">
+		<tag k="name" v="Mastmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="431201" />
+	</node>
+	<node id="-1511" lat="59.8942333355" lon="11.9160972208">
+		<tag k="name" v="Storemåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="431195" />
+	</node>
+	<node id="-1510" lat="60.1107611112" lon="12.269383331">
+		<tag k="name" v="Slåttmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430918" />
+	</node>
+	<node id="-1509" lat="60.1004499979" lon="12.2265249924">
+		<tag k="name" v="Kafallmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430916" />
+	</node>
+	<node id="-1505" lat="60.0552388879" lon="11.9118777726">
+		<tag k="name" v="Blekktjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430711" />
+	</node>
+	<node id="-1504" lat="60.0704499977" lon="12.0850249911">
+		<tag k="name" v="Kloppmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430703" />
+	</node>
+	<node id="-1490" lat="59.9968305584" lon="11.8651527786">
+		<tag k="name" v="Sapperansmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430386" />
+	</node>
+	<node id="-1470" lat="59.9590055513" lon="12.3173388849">
+		<tag k="name" v="Moltemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430212" />
+	</node>
+	<node id="-1469" lat="59.9623666645" lon="12.237863887">
+		<tag k="name" v="Nevjenmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430206" />
+	</node>
+	<node id="-1462" lat="59.9570555554" lon="12.2769416721">
+		<tag k="name" v="Kroktjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="430040" />
+	</node>
+	<node id="-582" lat="60.0708833342" lon="11.8701111105">
+		<tag k="name" v="Grågåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="898608" />
+	</node>
+	<node id="-1435" lat="60.065075004" lon="11.9084499998">
+		<tag k="name" v="Tømmermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248722" />
+	</node>
+	<node id="-1434" lat="60.0684805524" lon="11.8907722252">
+		<tag k="name" v="Nygardsmyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248718" />
+	</node>
+	<node id="-1429" lat="60.0165250028" lon="11.9045833364">
+		<tag k="name" v="Haredalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248661" />
+	</node>
+	<node id="-1411" lat="59.9642138855" lon="11.8529666685">
+		<tag k="name" v="Akrilmyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248420" />
+	</node>
+	<node id="-1401" lat="59.9085916657" lon="12.1349111059">
+		<tag k="name" v="Strutmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248306" />
+	</node>
+	<node id="-1387" lat="59.9795805535" lon="12.285236108">
+		<tag k="name" v="Leirbrumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248184" />
+	</node>
+	<node id="-1385" lat="59.8759249972" lon="11.8633166721">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="248137" />
+	</node>
+	<node id="-230" lat="60.0426222246" lon="12.2108916599">
+		<tag k="name" v="Merramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351190" />
+	</node>
+	<node id="-1374" lat="59.8813722192" lon="11.8557250017">
+		<tag k="name" v="Merramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230992" />
+	</node>
+	<node id="-1373" lat="59.9187027774" lon="12.1369222173">
+		<tag k="name" v="Øvre Kumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230967" />
+	</node>
+	<node id="-1372" lat="59.9805138927" lon="12.3463611062">
+		<tag k="name" v="Klemsrud" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="230951" />
+	</node>
+	<node id="-1371" lat="60.0644944486" lon="11.8300722237">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230861" />
+	</node>
+	<node id="-1366" lat="59.9472944462" lon="12.003602786">
+		<tag k="name" v="Massmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230771" />
+	</node>
+	<node id="-1363" lat="60.0145083375" lon="11.966016664">
+		<tag k="name" v="Havmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230732" />
+	</node>
+	<node id="-1358" lat="59.9727416624" lon="11.8477611091">
+		<tag k="name" v="Langhalsemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230692" />
+	</node>
+	<node id="-909" lat="60.0152194414" lon="11.8867694356">
+		<tag k="name" v="Stenmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108306" />
+	</node>
+	<node id="-1356" lat="60.0535833306" lon="11.9329666737">
+		<tag k="name" v="Fjellskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="230630" />
+	</node>
+	<node id="-1354" lat="59.8981805582" lon="11.9252861189">
+		<tag k="name" v="Merramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230615" />
+	</node>
+	<node id="-1591" lat="59.9844972236" lon="12.2394888801">
+		<tag k="name" v="Klanderudmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="472788" />
+	</node>
+	<node id="-907" lat="59.9121472258" lon="11.8626750039">
+		<tag k="name" v="Tolvmilskogen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108277" />
+	</node>
+	<node id="-1338" lat="59.9256222232" lon="11.9310888871">
+		<tag k="name" v="Merastmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230268" />
+	</node>
+	<node id="-1337" lat="60.0098250016" lon="11.8379250051">
+		<tag k="name" v="Skålvangen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230248" />
+	</node>
+	<node id="-1334" lat="60.0615472218" lon="12.2149444502">
+		<tag k="name" v="Høkkelhølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230198" />
+	</node>
+	<node id="-1322" lat="59.9959388904" lon="12.0313194466">
+		<tag k="name" v="Skogsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229992" />
+	</node>
+	<node id="-1316" lat="59.8940916661" lon="12.1355500015">
+		<tag k="name" v="Fløytmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229907" />
+	</node>
+	<node id="-1312" lat="59.9557749968" lon="12.0882861191">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="230728" />
+	</node>
+	<node id="-1309" lat="60.0274166626" lon="11.8328138834">
+		<tag k="name" v="Sivmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229700" />
+	</node>
+	<node id="-1302" lat="59.9097611075" lon="11.850333329">
+		<tag k="name" v="Torkilsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229469" />
+	</node>
+	<node id="-1300" lat="59.9187000017" lon="11.8374027826">
+		<tag k="name" v="Bukketjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229450" />
+	</node>
+	<node id="-1299" lat="60.1079638865" lon="12.2547944427">
+		<tag k="name" v="Gammelsætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229447" />
+	</node>
+	<node id="-1297" lat="60.0110027805" lon="12.3223222294">
+		<tag k="name" v="Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229424" />
+	</node>
+	<node id="-1289" lat="60.0501333375" lon="11.8904222217">
+		<tag k="name" v="Hvitmosemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229310" />
+	</node>
+	<node id="-1286" lat="59.8637805592" lon="11.8605722145">
+		<tag k="name" v="Langsmalemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229263" />
+	</node>
+	<node id="-1285" lat="59.9573305514" lon="12.2666333297">
+		<tag k="name" v="Fjørhanemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229248" />
+	</node>
+	<node id="-1279" lat="60.0536111123" lon="12.2507666686">
+		<tag k="loc_name" v="Fjellsmyrdølpa" />
+		<tag k="name" v="Fjelsmyrdølpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229178" />
+	</node>
+	<node id="-1278" lat="59.9833638921" lon="12.2545444513">
+		<tag k="name" v="Rogneråsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="229122" />
+	</node>
+	<node id="-1246" lat="59.9716499961" lon="11.9141749918">
+		<tag k="name" v="Dolpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="188530" />
+	</node>
+	<node id="-1245" lat="59.9849250027" lon="12.1860027743">
+		<tag k="name" v="Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="188525" />
+	</node>
+	<node id="-1232" lat="60.06644167" lon="12.1985055621">
+		<tag k="name" v="Røsslyngdulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187686" />
+	</node>
+	<node id="-1229" lat="60.0884249955" lon="12.2601000079">
+		<tag k="name" v="Smalmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187873" />
+	</node>
+	<node id="-1220" lat="60.0583000016" lon="11.9678000017">
+		<tag k="name" v="Høgmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187623" />
+	</node>
+	<node id="-1214" lat="60.0769249972" lon="12.0413750013">
+		<tag k="alt_name" v="Nordre Grasmomyra;Søndre Grasmomyra" />
+		<tag k="name" v="Grasmomyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187668" />
+	</node>
+	<node id="-200" lat="59.9679444484" lon="11.8543861054">
+		<tag k="name" v="Tyrimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350680" />
+	</node>
+	<node id="-1198" lat="59.9594055512" lon="12.1195166661">
+		<tag k="name" v="Gråmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187283" />
+	</node>
+	<node id="-1196" lat="59.9444694411" lon="12.0311416746">
+		<tag k="name" v="Krabbemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187266" />
+	</node>
+	<node id="-1186" lat="59.8891499982" lon="11.8916666639">
+		<tag k="alt_name" v="Svarvestolmyra" />
+		<tag k="name" v="Svervestolmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187130" />
+	</node>
+	<node id="-1179" lat="59.9472750013" lon="11.821936104">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="187126" />
+	</node>
+	<node id="-1162" lat="59.9873833306" lon="12.0191055597">
+		<tag k="name" v="Blautholta" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169997" />
+	</node>
+	<node id="-1152" lat="59.918063891" lon="12.1432555551">
+		<tag k="name" v="Nedre Kumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169760" />
+	</node>
+	<node id="-1143" lat="60.0231611144" lon="11.9427583325">
+		<tag k="name" v="Sløkerudmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169645" />
+	</node>
+	<node id="-1142" lat="59.8971972204" lon="11.9352249916">
+		<tag k="name" v="Åsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169626" />
+	</node>
+	<node id="-1141" lat="59.8651555531" lon="11.8604944437">
+		<tag k="name" v="Store Torkildsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169621" />
+	</node>
+	<node id="-1134" lat="59.8842888933" lon="11.8652194367">
+		<tag k="name" v="Slåttemyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169552" />
+	</node>
+	<node id="-1130" lat="59.9191833314" lon="11.8153222155">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169509" />
+	</node>
+	<node id="-1124" lat="59.8653500042" lon="11.8506277847">
+		<tag k="name" v="Fånøttemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169473" />
+	</node>
+	<node id="-1123" lat="59.8573749988" lon="11.8550361097">
+		<tag k="name" v="Bukkeblekmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169461" />
+	</node>
+	<node id="-1122" lat="60.1332611112" lon="12.1502749945">
+		<tag k="name" v="Vesle Grønkjølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169457" />
+	</node>
+	<node id="-1121" lat="59.9170305597" lon="12.2080666648">
+		<tag k="name" v="Fattiglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169439" />
+	</node>
+	<node id="-1120" lat="60.0159333376" lon="12.1512027753">
+		<tag k="name" v="Gørrmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169427" />
+	</node>
+	<node id="-1114" lat="60.0352166626" lon="11.9467722229">
+		<tag k="name" v="Pisenga" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169322" />
+	</node>
+	<node id="-1108" lat="60.0035277819" lon="11.9436611123">
+		<tag k="name" v="Vesleteigen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169296" />
+	</node>
+	<node id="-1100" lat="60.0452444464" lon="11.8424027782">
+		<tag k="name" v="Sleppemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169235" />
+	</node>
+	<node id="-1096" lat="60.0744500043" lon="12.1458805498">
+		<tag k="name" v="Øvre Kvernmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169211" />
+	</node>
+	<node id="-524" lat="59.9064861069" lon="11.815761113">
+		<tag k="name" v="Søndre Bolskog" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="897447" />
+	</node>
+	<node id="-1094" lat="60.0331111087" lon="12.2020138835">
+		<tag k="name" v="Myrkjølen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169196" />
+	</node>
+	<node id="-1093" lat="60.0759222258" lon="12.2037805638">
+		<tag k="name" v="Langmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169193" />
+	</node>
+	<node id="-1091" lat="60.0030194444" lon="12.2801388818">
+		<tag k="name" v="Eriksmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169184" />
+	</node>
+	<node id="-1090" lat="59.9824555565" lon="12.2666083408">
+		<tag k="name" v="Geithøla" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169181" />
+	</node>
+	<node id="-1089" lat="60.0278055533" lon="12.2196472133">
+		<tag k="name" v="Kontrahullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169157" />
+	</node>
+	<node id="-1086" lat="59.9033583312" lon="12.1282444411">
+		<tag k="name" v="Lassefallmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169139" />
+	</node>
+	<node id="-1083" lat="59.9696666666" lon="12.295949995">
+		<tag k="name" v="Vestre Raspemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169117" />
+	</node>
+	<node id="-1081" lat="59.9496833375" lon="12.2816361057">
+		<tag k="name" v="Breitjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="169110" />
+	</node>
+	<node id="-1067" lat="60.06703611" lon="11.9830888825">
+		<tag k="name" v="Hestemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="168929" />
+	</node>
+	<node id="-1065" lat="60.1362944476" lon="12.1649500074">
+		<tag k="name" v="Sætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="168882" />
+	</node>
+	<node id="-1064" lat="59.9924583293" lon="12.2043416726">
+		<tag k="name" v="Arnenga" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="168879" />
+	</node>
+	<node id="-1062" lat="59.9378722233" lon="11.9302833348">
+		<tag k="name" v="Åsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="168822" />
+	</node>
+	<node id="-1061" lat="60.1017888862" lon="12.0815500052">
+		<tag k="name" v="Nautmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="168519" />
+	</node>
+	<node id="-1060" lat="60.0648305522" lon="12.1706861055">
+		<tag k="name" v="Lademyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="168495" />
+	</node>
+	<node id="-518" lat="60.0713694447" lon="12.000133336">
+		<tag k="name" v="Vinvølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897345" />
+	</node>
+	<node id="-517" lat="60.0535111084" lon="12.0132166712">
+		<tag k="name" v="Løvskog" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="897336" />
+	</node>
+	<node id="-1047" lat="59.9116805513" lon="11.9125638968">
+		<tag k="alt_name" v="Langerekka" />
+		<tag k="name" v="Langerekke" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="157649" />
+	</node>
+	<node id="-1046" lat="60.0707694483" lon="11.9538805631">
+		<tag k="name" v="Nordre Nysætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="157140" />
+	</node>
+	<node id="-1040" lat="59.9758111153" lon="11.8481944456">
+		<tag k="name" v="Saumyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="127524" />
+	</node>
+	<node id="-1038" lat="60.130269445" lon="12.1452694472">
+		<tag k="name" v="Skaubymyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="127598" />
+	</node>
+	<node id="-1034" lat="59.9004250005" lon="12.1580027808">
+		<tag k="name" v="Leirsjøskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="127194" />
+	</node>
+	<node id="-854" lat="60.0404138885" lon="11.8706805602">
+		<tag k="alt_name" v="Storemyra" />
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66672" />
+	</node>
+	<node id="-511" lat="59.9655194429" lon="11.8864944363">
+		<tag k="name" v="Snøplogmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897285" />
+	</node>
+	<node id="-996" lat="60.027616669" lon="12.2287527854">
+		<tag k="name" v="Sætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="126039" />
+	</node>
+	<node id="-981" lat="59.9240388861" lon="12.1366222295">
+		<tag k="name" v="Kirkebergmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="109963" />
+	</node>
+	<node id="-975" lat="59.9409138924" lon="11.8641611172">
+		<tag k="name" v="Måsavika" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="109627" />
+	</node>
+	<node id="-974" lat="60.0267194404" lon="11.8733444443">
+		<tag k="name" v="Olafsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="109618" />
+	</node>
+	<node id="-3017" lat="59.9924888865" lon="12.1843444402">
+		<tag k="name" v="Døråsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958985" />
+	</node>
+	<node id="-3012" lat="60.020413891" lon="11.9359833396">
+		<tag k="name" v="Gruvemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958848" />
+	</node>
+	<node id="-958" lat="59.9037972241" lon="11.8207305512">
+		<tag k="name" v="Langbrumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="109461" />
+	</node>
+	<node id="-3005" lat="60.0291749962" lon="11.8521555509">
+		<tag k="name" v="Lille Ershaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958733" />
+	</node>
+	<node id="-956" lat="59.8508555537" lon="11.8397194518">
+		<tag k="name" v="Kutjennmosen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108955" />
+	</node>
+	<node id="-3003" lat="60.0323555567" lon="11.8930777692">
+		<tag k="name" v="Nedre Hullmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958707" />
+	</node>
+	<node id="-953" lat="59.8593500044" lon="11.8372027779">
+		<tag k="name" v="Søndre Sjelåsætermosen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108948" />
+	</node>
+	<node id="-3000" lat="60.0310583344" lon="11.938294444">
+		<tag k="name" v="Trettmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958678" />
+	</node>
+	<node id="-2998" lat="59.9064277766" lon="11.925369436">
+		<tag k="name" v="Østre Emtjennmosen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958660" />
+	</node>
+	<node id="-948" lat="59.96242222" lon="11.8955861143">
+		<tag k="name" v="Syltemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108850" />
+	</node>
+	<node id="-2995" lat="60.0668277773" lon="11.8772777738">
+		<tag k="name" v="Krokfurudøsset" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958618" />
+	</node>
+	<node id="-946" lat="60.0138499961" lon="11.9489055497">
+		<tag k="name" v="Busjømyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108770" />
+	</node>
+	<node id="-945" lat="59.9110638928" lon="11.8623333351">
+		<tag k="name" v="Engmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108753" />
+	</node>
+	<node id="-943" lat="59.9896055575" lon="11.8596388831">
+		<tag k="name" v="Haramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108712" />
+	</node>
+	<node id="-942" lat="60.0174805519" lon="11.9911833273">
+		<tag k="name" v="Brennemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108704" />
+	</node>
+	<node id="-941" lat="59.8882277774" lon="11.8685527717">
+		<tag k="landuse" v="farmland" />
+		<tag k="name" v="Nyjordet" />
+		<tag k="ssr:stedsnr" v="108690" />
+	</node>
+	<node id="-940" lat="59.8884666665" lon="11.8628083342">
+		<tag k="name" v="Linnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108689" />
+	</node>
+	<node id="-939" lat="59.8718444465" lon="11.8757916746">
+		<tag k="name" v="Hyttemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108564" />
+	</node>
+	<node id="-937" lat="60.1262833353" lon="12.1502916752">
+		<tag k="name" v="Rundmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108555" />
+	</node>
+	<node id="-936" lat="60.1040194459" lon="12.1470555547">
+		<tag k="name" v="Pramhusmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108554" />
+	</node>
+	<node id="-2981" lat="60.0408666647" lon="12.0157388811">
+		<tag k="name" v="Nedre Tørkesmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958515" />
+	</node>
+	<node id="-2979" lat="60.018441667" lon="12.1017805642">
+		<tag k="name" v="Rundhullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958507" />
+	</node>
+	<node id="-2977" lat="59.8677361088" lon="11.8455500017">
+		<tag k="name" v="Mortensfloe" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958495" />
+	</node>
+	<node id="-2974" lat="60.0294472193" lon="12.3215583364">
+		<tag k="name" v="Langmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958469" />
+	</node>
+	<node id="-925" lat="59.9694138928" lon="12.0218611195">
+		<tag k="name" v="Dulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108420" />
+	</node>
+	<node id="-2972" lat="59.9630250041" lon="12.1805416727">
+		<tag k="name" v="Vassmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958442" />
+	</node>
+	<node id="-495" lat="60.0306472208" lon="12.2601222253">
+		<tag k="name" v="Gravliberget" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="897072" />
+	</node>
+	<node id="-919" lat="60.0661416657" lon="12.0503222209">
+		<tag k="name" v="Søndre Svarvemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108361" />
+	</node>
+	<node id="-917" lat="60.0328944477" lon="11.9903777774">
+		<tag k="name" v="Høgåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108351" />
+	</node>
+	<node id="-915" lat="59.9965305537" lon="11.991244453">
+		<tag k="name" v="Knattmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108343" />
+	</node>
+	<node id="-2962" lat="60.0321999997" lon="11.9556666665">
+		<tag k="name" v="Vestfjell" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="958332" />
+	</node>
+	<node id="-913" lat="59.9070916641" lon="12.0032083302">
+		<tag k="name" v="Lemmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108338" />
+	</node>
+	<node id="-911" lat="59.9799861105" lon="11.9162333331">
+		<tag k="name" v="Småmyrdala" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108313" />
+	</node>
+	<node id="-2957" lat="60.0395972213" lon="11.8307111121">
+		<tag k="name" v="Torkildsrudmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958270" />
+	</node>
+	<node id="-908" lat="59.8972083326" lon="11.9037750015">
+		<tag k="name" v="Østre Almenning" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="108283" />
+	</node>
+	<node id="-2955" lat="59.9003027815" lon="12.1333638886">
+		<tag k="name" v="Rundemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958263" />
+	</node>
+	<node id="-904" lat="59.9724583358" lon="12.2544694369">
+		<tag k="name" v="Måsamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108252" />
+	</node>
+	<node id="-903" lat="59.9537749981" lon="12.2664694396">
+		<tag k="name" v="Meittjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108247" />
+	</node>
+	<node id="-901" lat="60.0530055575" lon="12.274622227">
+		<tag k="name" v="Steinurslimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108246" />
+	</node>
+	<node id="-899" lat="60.0715555548" lon="12.0493944504">
+		<tag k="name" v="Nordre Svarvemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108231" />
+	</node>
+	<node id="-896" lat="60.042080559" lon="12.2025083338">
+		<tag k="name" v="Keisarmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108198" />
+	</node>
+	<node id="-895" lat="60.0037750031" lon="12.2751527794">
+		<tag k="name" v="Nesbråten" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="108191" />
+	</node>
+	<node id="-894" lat="60.0448305599" lon="12.234647228">
+		<tag k="name" v="Svarttjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108178" />
+	</node>
+	<node id="-891" lat="60.0279027812" lon="12.2915916609">
+		<tag k="name" v="Delemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108162" />
+	</node>
+	<node id="-2938" lat="59.9576194427" lon="12.2454083364">
+		<tag k="name" v="Nessætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="958075" />
+	</node>
+	<node id="-889" lat="59.8879916708" lon="12.0462055585">
+		<tag k="name" v="Gråmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108152" />
+	</node>
+	<node id="-886" lat="60.0715416637" lon="12.032763895">
+		<tag k="name" v="Fjøsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108093" />
+	</node>
+	<node id="-885" lat="60.0499472242" lon="12.0129111188">
+		<tag k="name" v="Totjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108087" />
+	</node>
+	<node id="-884" lat="59.9017555541" lon="12.1221666595">
+		<tag k="name" v="Hagmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108065" />
+	</node>
+	<node id="-2930" lat="60.0096472244" lon="12.0194166643">
+		<tag k="name" v="Raufjellmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="957944" />
+	</node>
+	<node id="-2927" lat="59.9573916635" lon="11.8779222188">
+		<tag k="name" v="Vesle Gravlimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="957842" />
+	</node>
+	<node id="-2925" lat="59.9933611082" lon="11.9210694365">
+		<tag k="name" v="Kampetjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="957825" />
+	</node>
+	<node id="-2923" lat="60.0856583345" lon="11.9692472251">
+		<tag k="name" v="Abbortjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="957521" />
+	</node>
+	<node id="-487" lat="60.0244555596" lon="11.8285611118">
+		<tag k="name" v="Høgåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="893527" />
+	</node>
+	<node id="-868" lat="60.0170972217" lon="12.2831638872">
+		<tag k="name" v="Bølldalen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="108123" />
+	</node>
+	<node id="-867" lat="59.9942472255" lon="12.2800861077">
+		<tag k="name" v="Storlimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="108121" />
+	</node>
+	<node id="-860" lat="60.0928250004" lon="12.2454999999">
+		<tag k="name" v="Merrahola" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="66885" />
+	</node>
+	<node id="-2902" lat="60.0527611129" lon="12.1944555632">
+		<tag k="name" v="Heimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="916720" />
+	</node>
+	<node id="-849" lat="60.0173805512" lon="11.971474995">
+		<tag k="alt_name" v="Blokktjennmyrene" />
+		<tag k="name" v="Høghavmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66635" />
+	</node>
+	<node id="-2895" lat="59.9843388892" lon="11.9030972253">
+		<tag k="alt_name" v="Orremosen" />
+		<tag k="loc_name" v="Orremåsan" />
+		<tag k="name" v="Orremosan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="916507" />
+	</node>
+	<node id="-841" lat="59.9707555573" lon="11.9045611185">
+		<tag k="name" v="Bjørnstadmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66411" />
+	</node>
+	<node id="-2881" lat="59.9146000038" lon="12.2001749935">
+		<tag k="name" v="Lassemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="916164" />
+	</node>
+	<node id="-826" lat="59.9543527805" lon="12.0183555627">
+		<tag k="name" v="Høgåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66303" />
+	</node>
+	<node id="-2871" lat="60.0228861118" lon="12.2042500042">
+		<tag k="name" v="Kattlimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="915870" />
+	</node>
+	<node id="-2870" lat="60.0217750043" lon="12.1420361141">
+		<tag k="name" v="Lunderbymyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="915865" />
+	</node>
+	<node id="-2868" lat="60.0050805521" lon="12.1556416711">
+		<tag k="name" v="Veamyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="915844" />
+	</node>
+	<node id="-812" lat="59.9005500033" lon="11.9084888871">
+		<tag k="name" v="Bekketjennmåsaa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66145" />
+	</node>
+	<node id="-2859" lat="60.023330557" lon="11.9757638829">
+		<tag k="name" v="Havmyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="915634" />
+	</node>
+	<node id="-2852" lat="59.9622750017" lon="11.920941665">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="915419" />
+	</node>
+	<node id="-801" lat="60.011419445" lon="12.1423277829">
+		<tag k="name" v="Grønmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66839" />
+	</node>
+	<node id="-786" lat="60.1394777782" lon="12.1395805473">
+		<tag k="name" v="Oksaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48912" />
+	</node>
+	<node id="-783" lat="60.0192833353" lon="11.8871999994">
+		<tag k="name" v="Slåttemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48819" />
+	</node>
+	<node id="-782" lat="60.0617472182" lon="11.9393694383">
+		<tag k="name" v="Jakobmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48818" />
+	</node>
+	<node id="-780" lat="60.0347861088" lon="12.3132361042">
+		<tag k="name" v="Åstjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48777" />
+	</node>
+	<node id="-778" lat="59.9563861093" lon="12.0971805628">
+		<tag k="name" v="Høgåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48755" />
+	</node>
+	<node id="-774" lat="59.8993694437" lon="11.8358805563">
+		<tag k="name" v="Rundemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48732" />
+	</node>
+	<node id="-773" lat="59.8985861125" lon="11.8210583285">
+		<tag k="name" v="Linnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48728" />
+	</node>
+	<node id="-811" lat="59.8604999989" lon="11.8750000028">
+		<tag k="name" v="Arnebråtemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="66129" />
+	</node>
+	<node id="-2803" lat="60.0446750029" lon="12.0176750031">
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855699" />
+	</node>
+	<node id="-753" lat="59.954358332" lon="11.8807138799">
+		<tag k="name" v="Nyfjellmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48279" />
+	</node>
+	<node id="-751" lat="60.0584499993" lon="11.8379138834">
+		<tag k="name" v="Fjørhanamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48226" />
+	</node>
+	<node id="-2792" lat="60.0636055529" lon="11.8562777799">
+		<tag k="name" v="Høgmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855620" />
+	</node>
+	<node id="-2790" lat="60.1136944417" lon="12.204333334">
+		<tag k="name" v="Sætermyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855510" />
+	</node>
+	<node id="-740" lat="60.0352444424" lon="12.255466665">
+		<tag k="name" v="Løvåsberget" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="48096" />
+	</node>
+	<node id="-735" lat="60.0428861106" lon="11.9769388943">
+		<tag k="name" v="Tverrmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48064" />
+	</node>
+	<node id="-2778" lat="59.9651361084" lon="11.8788361034">
+		<tag k="name" v="Gravlimyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855421" />
+	</node>
+	<node id="-727" lat="59.8747499979" lon="11.8354138815">
+		<tag k="historic" v="shieling" />
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Vestre Almenning" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47946" />
+	</node>
+	<node id="-724" lat="59.9591749977" lon="11.8874888858">
+		<tag k="name" v="Merrabekkmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47821" />
+	</node>
+	<node id="-723" lat="60.0615361087" lon="11.9211916592">
+		<tag k="name" v="Mosestakkmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47817" />
+	</node>
+	<node id="-722" lat="59.9526777739" lon="11.91734444">
+		<tag k="name" v="Tokornhullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47808" />
+	</node>
+	<node id="-2768" lat="59.934522221" lon="11.8537277848">
+		<tag k="name" v="Arnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855351" />
+	</node>
+	<node id="-717" lat="60.0545416646" lon="12.1670000027">
+		<tag k="name" v="Skjørbergmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47497" />
+	</node>
+	<node id="-2762" lat="59.9272611142" lon="11.9171638832">
+		<tag k="name" v="Jussimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855324" />
+	</node>
+	<node id="-706" lat="60.023544444" lon="11.8855916602">
+		<tag k="name" v="Bertebrennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47327" />
+	</node>
+	<node id="-698" lat="60.0679277755" lon="12.1421416627">
+		<tag k="name" v="Kvitmåsamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47228" />
+	</node>
+	<node id="-2744" lat="59.9008249994" lon="11.9343249973">
+		<tag k="name" v="Åsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="855154" />
+	</node>
+	<node id="-695" lat="60.0561055534" lon="12.1993472266">
+		<tag k="name" v="Svensteinmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47191" />
+	</node>
+	<node id="-684" lat="60.0103611151" lon="12.2850388899">
+		<tag k="name" v="Høgåsparken" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="47130" />
+	</node>
+	<node id="-680" lat="59.8949166635" lon="12.1699166685">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Enga" />
+		<tag k="ssr:stedsnr" v="47082" />
+	</node>
+	<node id="-2726" lat="60.0610916647" lon="11.9971722298">
+		<tag k="name" v="Åkrokmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837925" />
+	</node>
+	<node id="-677" lat="59.9214527775" lon="11.9518944462">
+		<tag k="name" v="Langmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="47053" />
+	</node>
+	<node id="-2723" lat="59.978261114" lon="11.8806750016">
+		<tag k="name" v="Torkilsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837875" />
+	</node>
+	<node id="-2721" lat="59.9655499972" lon="12.2925194503">
+		<tag k="name" v="Kirkebergmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837863" />
+	</node>
+	<node id="-2716" lat="60.0043972222" lon="11.9157333288">
+		<tag k="name" v="Rampamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837841" />
+	</node>
+	<node id="-660" lat="59.9416749965" lon="12.0973999926">
+		<tag k="name" v="Delmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="6399" />
+	</node>
+	<node id="-2706" lat="60.0875777792" lon="12.0007416667">
+		<tag k="name" v="Bruksmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837771" />
+	</node>
+	<node id="-2702" lat="59.9360500027" lon="11.8395916695">
+		<tag k="name" v="Torkelsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837704" />
+	</node>
+	<node id="-2696" lat="59.9080305589" lon="11.8124888824">
+		<tag k="name" v="Kallemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837623" />
+	</node>
+	<node id="-2695" lat="60.076197222" lon="11.9514361174">
+		<tag k="name" v="Langsmalemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837612" />
+	</node>
+	<node id="-449" lat="60.0327416652" lon="12.1560555606">
+		<tag k="name" v="Øksemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412460" />
+	</node>
+	<node id="-2679" lat="59.901391671" lon="11.8206166713">
+		<tag k="name" v="Mellemmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837489" />
+	</node>
+	<node id="-2678" lat="60.0701833295" lon="11.9648083363">
+		<tag k="name" v="Reisbråtamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837485" />
+	</node>
+	<node id="-628" lat="59.9746388848" lon="12.045549993">
+		<tag k="name" v="Tobølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="5441" />
+	</node>
+	<node id="-2675" lat="60.0099222193" lon="12.1644027826">
+		<tag k="name" v="Lørdagsbakkmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837432" />
+	</node>
+	<node id="-2672" lat="59.91559722" lon="12.1323361051">
+		<tag k="name" v="Langgren" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837406" />
+	</node>
+	<node id="-2663" lat="60.0713777771" lon="11.9768722152">
+		<tag k="name" v="Hesteskallmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837359" />
+	</node>
+	<node id="-2660" lat="60.047197219" lon="12.008025006">
+		<tag k="name" v="Øvre Tørkesmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837354" />
+	</node>
+	<node id="-2657" lat="60.0379583373" lon="11.9118666659">
+		<tag k="name" v="Skørvmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837328" />
+	</node>
+	<node id="-2655" lat="60.0132333364" lon="11.9307055604">
+		<tag k="name" v="Tjæregravmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837304" />
+	</node>
+	<node id="-2653" lat="59.9493305533" lon="11.9070972252">
+		<tag k="name" v="Geithalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837302" />
+	</node>
+	<node id="-2650" lat="59.9314805583" lon="11.9255083334">
+		<tag k="name" v="Fjælabrumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837282" />
+	</node>
+	<node id="-595" lat="59.9526111086" lon="11.8304333413">
+		<tag k="alt_name" v="Halvorsrudmyra" />
+		<tag k="name" v="Halvorsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="5116" />
+	</node>
+	<node id="-2642" lat="60.0200750026" lon="12.2651999935">
+		<tag k="name" v="Ristjennhøgda" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="837182" />
+	</node>
+	<node id="-591" lat="59.9482305583" lon="12.2875888924">
+		<tag k="name" v="Linnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="5030" />
+	</node>
+	<node id="-2637" lat="59.8962277741" lon="12.1192416695">
+		<tag k="name" v="Braserudmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837137" />
+	</node>
+	<node id="-2634" lat="60.0707805548" lon="12.1460527842">
+		<tag k="name" v="Nedre Kvernmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837122" />
+	</node>
+	<node id="-2630" lat="60.054883332" lon="12.0112166707">
+		<tag k="name" v="Løvskogmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837099" />
+	</node>
+	<node id="-2627" lat="60.0787888923" lon="11.9775277799">
+		<tag k="name" v="Brattfallmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837084" />
+	</node>
+	<node id="-577" lat="60.0078277821" lon="11.8604611081">
+		<tag k="name" v="Inderåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="898465" />
+	</node>
+	<node id="-2620" lat="59.9106416695" lon="12.2003527735">
+		<tag k="name" v="Linnemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="837061" />
+	</node>
+	<node id="-436" lat="60.0852972266" lon="12.0221861134">
+		<tag k="name" v="Øyetjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412338" />
+	</node>
+	<node id="-2612" lat="59.868955555" lon="11.8365083356">
+		<tag k="name" v="Vestre Skjærtjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="836954" />
+	</node>
+	<node id="-2611" lat="59.9632138901" lon="12.016374999">
+		<tag k="name" v="Korpbergmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="836949" />
+	</node>
+	<node id="-561" lat="60.0534805593" lon="12.1851944526">
+		<tag k="name" v="Høgåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897886" />
+	</node>
+	<node id="-2608" lat="60.030697221" lon="11.9178833383">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="836845" />
+	</node>
+	<node id="-2606" lat="60.0314138861" lon="11.8326416739">
+		<tag k="name" v="Raggetjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="836686" />
+	</node>
+	<node id="-2605" lat="59.9138444476" lon="11.8583527864">
+		<tag k="name" v="Nesmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="836682" />
+	</node>
+	<node id="-2603" lat="60.0511944431" lon="12.175355556">
+		<tag k="name" v="Klingemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="836497" />
+	</node>
+	<node id="-551" lat="60.0113055583" lon="11.939400009">
+		<tag k="name" v="Svarttjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897758" />
+	</node>
+	<node id="-2598" lat="60.1071027771" lon="12.2464750066">
+		<tag k="historic" v="shieling" />
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Gammelsæter" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="836418" />
+	</node>
+	<node id="-545" lat="59.9216388901" lon="11.8297583302">
+		<tag k="name" v="Mauråsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897696" />
+	</node>
+	<node id="-541" lat="60.0392277782" lon="11.8223722286">
+		<tag k="name" v="De Røde Multer" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897674" />
+	</node>
+	<node id="-538" lat="59.8933111075" lon="11.8526305583">
+		<tag k="name" v="Kubeinsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897661" />
+	</node>
+	<node id="-534" lat="59.8781888923" lon="11.8636166709">
+		<tag k="name" v="Vestre Almenning" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="897522" />
+	</node>
+	<node id="-528" lat="60.1266416681" lon="12.1243999918">
+		<tag k="name" v="Delmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897494" />
+	</node>
+	<node id="-2574" lat="60.0142250044" lon="12.1829499991">
+		<tag k="name" v="Båsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794839" />
+	</node>
+	<node id="-525" lat="59.8947361129" lon="11.8369583246">
+		<tag k="name" v="Krokstadmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897449" />
+	</node>
+	<node id="-2572" lat="60.0968083375" lon="12.1649749924">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794732" />
+	</node>
+	<node id="-521" lat="60.0894555546" lon="12.0314638801">
+		<tag k="name" v="Holmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897424" />
+	</node>
+	<node id="-520" lat="60.0157166669" lon="12.1024027829">
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897401" />
+	</node>
+	<node id="-2566" lat="60.0167611146" lon="11.9331250017">
+		<tag k="name" v="Mastmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794662" />
+	</node>
+	<node id="-769" lat="60.0193805551" lon="11.9935694506">
+		<tag k="name" v="Brennemyrdalen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48682" />
+	</node>
+	<node id="-2559" lat="60.1154694413" lon="12.1358361087">
+		<tag k="name" v="Fetjarmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794508" />
+	</node>
+	<node id="-2558" lat="59.9832638887" lon="12.0186000063">
+		<tag k="name" v="Djupdalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794477" />
+	</node>
+	<node id="-507" lat="60.0566944405" lon="12.2026861157">
+		<tag k="name" v="Kavelbrumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897199" />
+	</node>
+	<node id="-506" lat="60.053875001" lon="12.2137194482">
+		<tag k="name" v="Sætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897198" />
+	</node>
+	<node id="-505" lat="60.034816668" lon="12.2720027776">
+		<tag k="name" v="Vesleenga" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="897168" />
+	</node>
+	<node id="-2551" lat="59.9339527783" lon="11.8680388834">
+		<tag k="name" v="Kisvikmyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794339" />
+	</node>
+	<node id="-502" lat="60.0130916637" lon="12.2928166677">
+		<tag k="name" v="Engermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897129" />
+	</node>
+	<node id="-2548" lat="59.9363027762" lon="12.1329305502">
+		<tag k="name" v="Deilmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794324" />
+	</node>
+	<node id="-496" lat="60.0378166688" lon="11.9753361143">
+		<tag k="name" v="Bjørndalen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897094" />
+	</node>
+	<node id="-2543" lat="59.9106416648" lon="12.052241663">
+		<tag k="name" v="Momyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794289" />
+	</node>
+	<node id="-494" lat="60.060397226" lon="12.0193027771">
+		<tag k="name" v="Sagåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897070" />
+	</node>
+	<node id="-493" lat="60.0778361141" lon="12.2323583361">
+		<tag k="name" v="Dulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897037" />
+	</node>
+	<node id="-2540" lat="59.9506555573" lon="11.9305777801">
+		<tag k="name" v="Kornmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794267" />
+	</node>
+	<node id="-2535" lat="59.9372333301" lon="11.9208750046">
+		<tag k="name" v="Orremyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794236" />
+	</node>
+	<node id="-2530" lat="59.8871500037" lon="11.8290777832">
+		<tag k="name" v="Orremyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794171" />
+	</node>
+	<node id="-2528" lat="59.8548916706" lon="11.8430472283">
+		<tag k="name" v="Steinsmosan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794140" />
+	</node>
+	<node id="-2525" lat="60.063638886" lon="12.2463972296">
+		<tag k="name" v="Rundemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="794109" />
+	</node>
+	<node id="-476" lat="60.1241527777" lon="12.2073305482">
+		<tag k="name" v="Høgdemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="473506" />
+	</node>
+	<node id="-471" lat="60.0724999997" lon="12.0086777857">
+		<tag k="name" v="Veslemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412917" />
+	</node>
+	<node id="-469" lat="60.0619416625" lon="11.8601166641">
+		<tag k="name" v="Dikemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412847" />
+	</node>
+	<node id="-466" lat="60.0041527818" lon="12.2929777789">
+		<tag k="name" v="Andersberget" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="412818" />
+	</node>
+	<node id="-461" lat="60.0297111113" lon="11.9548388823">
+		<tag k="name" v="Knattmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412615" />
+	</node>
+	<node id="-460" lat="59.9040833309" lon="11.9335944367">
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412600" />
+	</node>
+	<node id="-459" lat="59.8931472232" lon="11.8981444491">
+		<tag k="name" v="Langmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412599" />
+	</node>
+	<node id="-2506" lat="60.0784888911" lon="12.000050006">
+		<tag k="name" v="Samuelsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776933" />
+	</node>
+	<node id="-457" lat="59.9101388858" lon="11.8360444477">
+		<tag k="name" v="Orremyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412575" />
+	</node>
+	<node id="-2504" lat="60.0120000029" lon="12.1547027777">
+		<tag k="name" v="Grønnmyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776900" />
+	</node>
+	<node id="-2503" lat="60.006991669" lon="11.9373916615">
+		<tag k="name" v="Ormehaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776765" />
+	</node>
+	<node id="-417" lat="60.0375361112" lon="12.2719805543">
+		<tag k="name" v="Storenga" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="412172" />
+	</node>
+	<node id="-2500" lat="59.9550888845" lon="11.8397000031">
+		<tag k="name" v="Slåttemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776708" />
+	</node>
+	<node id="-2498" lat="60.0266611078" lon="11.8934138879">
+		<tag k="name" v="Kisalimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776662" />
+	</node>
+	<node id="-2497" lat="59.9548777786" lon="11.8918666657">
+		<tag k="name" v="Stubbhusmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776656" />
+	</node>
+	<node id="-2496" lat="60.0299222217" lon="11.962972228">
+		<tag k="name" v="Havmyrrompa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776628" />
+	</node>
+	<node id="-446" lat="59.9627722216" lon="12.2292638935">
+		<tag k="name" v="Deldalsbekken" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412403" />
+	</node>
+	<node id="-2491" lat="60.0687083329" lon="11.9291027734">
+		<tag k="name" v="Gammelsætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776576" />
+	</node>
+	<node id="-2487" lat="59.8886027775" lon="12.0412361182">
+		<tag k="name" v="Langmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776519" />
+	</node>
+	<node id="-2484" lat="60.136219441" lon="12.1846416667">
+		<tag k="name" v="Smalmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776495" />
+	</node>
+	<node id="-435" lat="60.0653972179" lon="11.9798777729">
+		<tag k="name" v="Størrdalen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412335" />
+	</node>
+	<node id="-434" lat="60.0771222179" lon="12.0048611189">
+		<tag k="name" v="Smalmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412333" />
+	</node>
+	<node id="-755" lat="60.0363749964" lon="11.9389888901">
+		<tag k="name" v="Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="48306" />
+	</node>
+	<node id="-432" lat="60.0307666686" lon="12.0017750025">
+		<tag k="name" v="Himmelsmyrhalsen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412331" />
+	</node>
+	<node id="-2479" lat="60.0551666625" lon="12.0981249977">
+		<tag k="name" v="Fugleleikmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776484" />
+	</node>
+	<node id="-2478" lat="59.929069442" lon="11.8330666696">
+		<tag k="name" v="Ilemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776481" />
+	</node>
+	<node id="-427" lat="59.9179111121" lon="12.0397444364">
+		<tag k="name" v="Sætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412300" />
+	</node>
+	<node id="-2474" lat="59.9693750014" lon="11.8602166695">
+		<tag k="name" v="Gampemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776455" />
+	</node>
+	<node id="-2473" lat="60.0649333325" lon="11.9356277748">
+		<tag k="name" v="Jakobsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776447" />
+	</node>
+	<node id="-2470" lat="59.8457194421" lon="11.8440611195">
+		<tag k="name" v="Borkerudmosene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776299" />
+	</node>
+	<node id="-419" lat="60.0699777795" lon="12.2048277861">
+		<tag k="name" v="Ilmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412179" />
+	</node>
+	<node id="-2465" lat="59.9359361118" lon="11.8707361137">
+		<tag k="name" v="Kisvikmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776271" />
+	</node>
+	<node id="-415" lat="60.1064333316" lon="12.187630552">
+		<tag k="name" v="Kaggemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412150" />
+	</node>
+	<node id="-414" lat="60.0831388858" lon="12.2236833348">
+		<tag k="name" v="Langemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412145" />
+	</node>
+	<node id="-2461" lat="59.9990750043" lon="12.2794444422">
+		<tag k="name" v="Elgmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776225" />
+	</node>
+	<node id="-2459" lat="60.0413888845" lon="12.2899222241">
+		<tag k="name" v="Sandhulliene" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="776169" />
+	</node>
+	<node id="-410" lat="59.9137999965" lon="12.1828138843">
+		<tag k="name" v="Gørrhullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412099" />
+	</node>
+	<node id="-407" lat="60.075408335" lon="12.0354972189">
+		<tag k="name" v="Lømyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412080" />
+	</node>
+	<node id="-2454" lat="59.9943583342" lon="12.2917472215">
+		<tag k="name" v="Gjemseflata" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="776128" />
+	</node>
+	<node id="-2449" lat="60.0149972241" lon="11.9865611197">
+		<tag k="name" v="Brattfallmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776098" />
+	</node>
+	<node id="-2448" lat="60.0824749978" lon="11.986677785">
+		<tag k="name" v="Høgmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776095" />
+	</node>
+	<node id="-2445" lat="59.9570666652" lon="12.0753638959">
+		<tag k="name" v="Langmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776064" />
+	</node>
+	<node id="-391" lat="60.0863472245" lon="11.9804138916">
+		<tag k="name" v="Høgmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="411415" />
+	</node>
+	<node id="-390" lat="59.8849916699" lon="11.8895888869">
+		<tag k="name" v="Kølamilmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="411256" />
+	</node>
+	<node id="-2437" lat="59.8691388921" lon="11.8425277806">
+		<tag k="name" v="Østre Skjærtjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="775958" />
+	</node>
+	<node id="-2435" lat="60.0591972251" lon="11.8356222239">
+		<tag k="name" v="Holtmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="775865" />
+	</node>
+	<node id="-386" lat="59.9477777732" lon="12.2491777854">
+		<tag k="name" v="Veksåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="411085" />
+	</node>
+	<node id="-2432" lat="60.0097527732" lon="12.2803250043">
+		<tag k="name" v="Damtjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776190" />
+	</node>
+	<node id="-64" lat="59.9606250028" lon="11.9655194465">
+		<tag k="name" v="Rike" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="290732" />
+	</node>
+	<node id="-2430" lat="60.0863777735" lon="12.0249777852">
+		<tag k="name" v="Buholtet" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="775487" />
+	</node>
+	<node id="-2429" lat="59.9336722236" lon="11.8419472216">
+		<tag k="name" v="Tørkelsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="775438" />
+	</node>
+	<node id="-2428" lat="59.9313305532" lon="11.8300111088">
+		<tag k="name" v="Øysjømyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="775436" />
+	</node>
+	<node id="-378" lat="59.8869777812" lon="11.8255888953">
+		<tag k="name" v="Kanalskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="412764" />
+	</node>
+	<node id="-2425" lat="60.0516277773" lon="12.2010111077">
+		<tag k="name" v="Slossmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="775187" />
+	</node>
+	<node id="-375" lat="60.0189777771" lon="11.9507611114">
+		<tag k="name" v="Vestfjellsæterteigen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="412729" />
+	</node>
+	<node id="-374" lat="60.010077781" lon="11.9606527865">
+		<tag k="name" v="Borkemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="412723" />
+	</node>
+	<node id="-2420" lat="60.026566668" lon="12.0059499956">
+		<tag k="name" v="Himmelsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776335" />
+	</node>
+	<node id="-2416" lat="60.0284555524" lon="11.9363333325">
+		<tag k="name" v="Brennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="776303" />
+	</node>
+	<node id="-744" lat="60.0061055525" lon="12.263738893">
+		<tag k="name" v="Kariheimet" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="48163" />
+	</node>
+	<node id="-363" lat="59.8980138902" lon="11.9004027857">
+		<tag k="name" v="Sandvikmåsan" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="370209" />
+	</node>
+	<node id="-359" lat="60.0143750028" lon="12.1737333402">
+		<tag k="name" v="Langbrumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369842" />
+	</node>
+	<node id="-2406" lat="60.0225944428" lon="12.2687583246">
+		<tag k="name" v="Røsskjølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="764005" />
+	</node>
+	<node id="-401" lat="59.9015638875" lon="11.9720138943">
+		<tag k="name" v="Rudskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="412018" />
+	</node>
+	<node id="-356" lat="60.0773250043" lon="11.9689416756">
+		<tag k="alt_name" v="Bruråsmyra, s" />
+		<tag k="name" v="Søndre Bruråsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369722" />
+	</node>
+	<node id="-354" lat="60.0582361113" lon="11.9279111027">
+		<tag k="name" v="Hestemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369677" />
+	</node>
+	<node id="-59" lat="59.9098722253" lon="11.8166944374">
+		<tag k="name" v="Snurumyrhullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290689" />
+	</node>
+	<node id="-2396" lat="60.1360277809" lon="12.1585583247">
+		<tag k="name" v="Grønkjølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="734583" />
+	</node>
+	<node id="-2388" lat="59.9559000042" lon="12.1829583382">
+		<tag k="name" v="Gråmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="734330" />
+	</node>
+	<node id="-2387" lat="59.9451500018" lon="11.8772249942">
+		<tag k="name" v="Korpemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="734303" />
+	</node>
+	<node id="-334" lat="59.9893666657" lon="12.0506111079">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Snesbølmyra;Torvstrømyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369348" />
+	</node>
+	<node id="-2377" lat="60.126313885" lon="12.2596944394">
+		<tag k="name" v="Kjølamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="733935" />
+	</node>
+	<node id="-2375" lat="60.0111833351" lon="11.856544442">
+		<tag k="name" v="Aurtjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="733865" />
+	</node>
+	<node id="-321" lat="59.9478111156" lon="11.8864499928">
+		<tag k="name" v="Geitmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369268" />
+	</node>
+	<node id="-308" lat="59.9031583324" lon="11.844983327">
+		<tag k="alt_name" v="Bråtamyrene" />
+		<tag k="loc_name" v="Bråtamyra" />
+		<tag k="name" v="Bråtemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369148" />
+	</node>
+	<node id="-2345" lat="59.9842277773" lon="12.3155694471">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="733197" />
+	</node>
+	<node id="-296" lat="60.1103916681" lon="12.2354111087">
+		<tag k="name" v="Geittjennmyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="369919" />
+	</node>
+	<node id="-2342" lat="60.0494083327" lon="12.226174991">
+		<tag k="name" v="Fjellmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="733134" />
+	</node>
+	<node id="-2337" lat="59.9406888891" lon="12.2454361029">
+		<tag k="name" v="Linåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="733057" />
+	</node>
+	<node id="-282" lat="59.9512416623" lon="12.0199666706">
+		<tag k="name" v="Kattenghullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351996" />
+	</node>
+	<node id="-280" lat="60.057686115" lon="11.979111103">
+		<tag k="name" v="Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351914" />
+	</node>
+	<node id="-279" lat="60.0603416689" lon="11.9793888812">
+		<tag k="name" v="Vintermyrholtet" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="351911" />
+	</node>
+	<node id="-2326" lat="59.8640250015" lon="11.8553666636">
+		<tag k="name" v="Tørmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715996" />
+	</node>
+	<node id="-277" lat="60.0138388864" lon="12.2351305585">
+		<tag k="name" v="Lamyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351810" />
+	</node>
+	<node id="-2324" lat="59.8785111144" lon="11.8472194488">
+		<tag k="name" v="Østre Leamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715984" />
+	</node>
+	<node id="-274" lat="60.0200999969" lon="11.9649000074">
+		<tag k="name" v="Blokktjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351757" />
+	</node>
+	<node id="-273" lat="59.9192916655" lon="11.8679777814">
+		<tag k="name" v="Buvikmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351727" />
+	</node>
+	<node id="-2319" lat="60.0551083327" lon="11.8299555474">
+		<tag k="name" v="Mattisbråtamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715876" />
+	</node>
+	<node id="-270" lat="60.0415527774" lon="11.9025749989">
+		<tag k="name" v="Eriksmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351672" />
+	</node>
+	<node id="-2312" lat="59.9022305536" lon="11.965569437">
+		<tag k="name" v="Stormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715771" />
+	</node>
+	<node id="-2311" lat="60.0129166626" lon="11.9652749945">
+		<tag k="name" v="Havmyrhullet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715766" />
+	</node>
+	<node id="-259" lat="60.0237861092" lon="12.3287805558">
+		<tag k="name" v="Kaldkjellhullmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351506" />
+	</node>
+	<node id="-2305" lat="60.0215805552" lon="11.8635361058">
+		<tag k="name" v="Gråmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715706" />
+	</node>
+	<node id="-251" lat="59.9562694451" lon="11.9083111198">
+		<tag k="name" v="Mortkjølmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351620" />
+	</node>
+	<node id="-2297" lat="60.0233666671" lon="12.0322777716">
+		<tag k="name" v="Merramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715430" />
+	</node>
+	<node id="-248" lat="59.9130694417" lon="12.0667138803">
+		<tag k="name" v="Størhekken" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351334" />
+	</node>
+	<node id="-245" lat="60.0540111144" lon="11.8822500009">
+		<tag k="name" v="Brennehesa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351320" />
+	</node>
+	<node id="-2290" lat="59.9074805591" lon="12.0624611031">
+		<tag k="name" v="Lindmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715365" />
+	</node>
+	<node id="-2288" lat="60.0064388927" lon="11.9172944522">
+		<tag k="name" v="Kirkemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715334" />
+	</node>
+	<node id="-2284" lat="59.9331249965" lon="11.8781499978">
+		<tag k="name" v="Vesle Kisvikmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715300" />
+	</node>
+	<node id="-235" lat="59.8913583379" lon="12.0705972158">
+		<tag k="landuse" v="meadow" />
+		<tag k="name" v="Possevangenga" />
+		<tag k="ssr:stedsnr" v="351226" />
+	</node>
+	<node id="-2278" lat="60.0538333299" lon="12.2700222145">
+		<tag k="name" v="Gravbråtamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715254" />
+	</node>
+	<node id="-2276" lat="60.0785888888" lon="12.1516361131">
+		<tag k="name" v="Momyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715243" />
+	</node>
+	<node id="-2275" lat="59.9611694462" lon="12.2748833282">
+		<tag k="name" v="Kroktjenndulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715235" />
+	</node>
+	<node id="-2273" lat="59.9357388918" lon="12.2488611136">
+		<tag k="name" v="Kristiansenga" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="715234" />
+	</node>
+	<node id="-223" lat="60.0234611152" lon="11.9922222306">
+		<tag k="name" v="Stubbskimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="351105" />
+	</node>
+	<node id="-211" lat="59.8875805558" lon="11.8488638962">
+		<tag k="name" v="Mastemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350974" />
+	</node>
+	<node id="-210" lat="60.0649472196" lon="11.9630666637">
+		<tag k="name" v="Slåttedalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350950" />
+	</node>
+	<node id="-209" lat="59.8639611067" lon="11.8438527842">
+		<tag k="name" v="Nordre Sjelåsætermosen" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350939" />
+	</node>
+	<node id="-206" lat="59.9418138917" lon="12.2193166735">
+		<tag k="name" v="Olsemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350916" />
+	</node>
+	<node id="-205" lat="60.0389333352" lon="11.9162250057">
+		<tag k="name" v="Gørrmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350828" />
+	</node>
+	<node id="-2252" lat="60.0051750026" lon="12.245966674">
+		<tag k="name" v="Sjøberg" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="715076" />
+	</node>
+	<node id="-203" lat="60.0106916674" lon="11.9229972167">
+		<tag k="name" v="Villingmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350813" />
+	</node>
+	<node id="-202" lat="60.0360833301" lon="11.8226611149">
+		<tag k="name" v="Krakamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="350690" />
+	</node>
+	<node id="-2248" lat="59.9717249988" lon="12.339530559">
+		<tag k="name" v="Snipmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715035" />
+	</node>
+	<node id="-2238" lat="59.873380552" lon="11.8715777724">
+		<tag k="name" v="Veslemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715550" />
+	</node>
+	<node id="-2237" lat="59.8849499965" lon="11.9032861192">
+		<tag k="name" v="Geitdalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="715549" />
+	</node>
+	<node id="-182" lat="59.9097611075" lon="11.850333329">
+		<tag k="name" v="Torkildsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="126316" />
+	</node>
+	<node id="-177" lat="60.0612277786" lon="12.1765750084">
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="309679" />
+	</node>
+	<node id="-175" lat="60.051163891" lon="11.88652778">
+		<tag k="name" v="Børlimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="309677" />
+	</node>
+	<node id="-2221" lat="59.958491667" lon="12.2303944458">
+		<tag k="name" v="Magnormyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="688232" />
+	</node>
+	<node id="-163" lat="59.9129388893" lon="11.8481305548">
+		<tag k="name" v="Bolskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="309367" />
+	</node>
+	<node id="-156" lat="60.0016833375" lon="12.3358611164">
+		<tag k="name" v="Dolpemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="309235" />
+	</node>
+	<node id="-2200" lat="59.9912431538" lon="12.072138987">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Bjørnstadmyra;Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="673386" />
+	</node>
+	<node id="-145" lat="60.1094750006" lon="12.1636611074">
+		<tag k="name" v="Fjellsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="309559" />
+	</node>
+	<node id="-144" lat="59.987138888" lon="11.9146888825">
+		<tag k="name" v="Jerpsætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="309519" />
+	</node>
+	<node id="-141" lat="60.096174999" lon="12.2566500078">
+		<tag k="alt_name" v="Korsmyra" />
+		<tag k="name" v="Langemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="308895" />
+	</node>
+	<node id="-139" lat="60.0240249997" lon="12.1893999956">
+		<tag k="alt_name" v="Fuglemyra" />
+		<tag k="name" v="Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="308865" />
+	</node>
+	<node id="-2171" lat="60.0121250019" lon="11.8988305476">
+		<tag k="alt_name" v="Østre Fuglemyra" />
+		<tag k="name" v="Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="672875" />
+	</node>
+	<node id="-492" lat="59.9984833322" lon="12.2488888937">
+		<tag k="name" v="Løvlimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="897036" />
+	</node>
+	<node id="-111" lat="60.0178611137" lon="11.8935888827">
+		<tag k="name" v="Stokkmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="291843" />
+	</node>
+	<node id="-110" lat="60.0120861078" lon="11.8869638947">
+		<tag k="name" v="Vestre Fuglemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="291840" />
+	</node>
+	<node id="-2155" lat="59.8565555586" lon="11.838325001">
+		<tag k="alt_name" v="Grønmyra" />
+		<tag k="loc_name" v="Grønnmyra" />
+		<tag k="name" v="Grønemyr" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="672137" />
+	</node>
+	<node id="-106" lat="60.0281666629" lon="11.8845527776">
+		<tag k="name" v="Gaupholtmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="291668" />
+	</node>
+	<node id="-105" lat="59.8919277737" lon="11.91963056">
+		<tag k="name" v="Størmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="291653" />
+	</node>
+	<node id="-103" lat="60.0678722237" lon="11.8613555516">
+		<tag k="name" v="Djupdalsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="291611" />
+	</node>
+	<node id="-101" lat="60.0411222191" lon="12.0435805556">
+		<tag k="name" v="Stablemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="291516" />
+	</node>
+	<node id="-2141" lat="59.9965888925" lon="11.8545750076">
+		<tag k="name" v="Tømmermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="655261" />
+	</node>
+	<node id="-2139" lat="59.8528111116" lon="11.854433334">
+		<tag k="name" v="Lessemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654996" />
+	</node>
+	<node id="-2138" lat="59.9335055556" lon="11.9907277698">
+		<tag k="name" v="Hagan" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654969" />
+	</node>
+	<node id="-2137" lat="59.9432722218" lon="11.9751944393">
+		<tag k="name" v="Fjørhanamyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654953" />
+	</node>
+	<node id="-2133" lat="59.9570499988" lon="11.8952166727">
+		<tag k="name" v="Dulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654878" />
+	</node>
+	<node id="-2132" lat="59.9661805516" lon="12.317405553">
+		<tag k="name" v="Furumyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654857" />
+	</node>
+	<node id="-2130" lat="60.0608361131" lon="11.9507194411">
+		<tag k="name" v="Hundemyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654834" />
+	</node>
+	<node id="-2129" lat="59.9386638847" lon="11.9163583383">
+		<tag k="name" v="Abbortjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654827" />
+	</node>
+	<node id="-2127" lat="59.9488694416" lon="11.956400002">
+		<tag k="name" v="Harstadskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="654780" />
+	</node>
+	<node id="-2126" lat="59.9597499957" lon="11.8125944502">
+		<tag k="name" v="Englimyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654760" />
+	</node>
+	<node id="-13" lat="59.9101944452" lon="12.1719527716">
+		<tag k="name" v="Kvernmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290087" />
+	</node>
+	<node id="-76" lat="59.9592750009" lon="12.0247861161">
+		<tag k="name" v="Merramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290989" />
+	</node>
+	<node id="-2123" lat="60.0311361129" lon="11.8589138811">
+		<tag k="name" v="Store Ershaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654719" />
+	</node>
+	<node id="-74" lat="59.9823194465" lon="11.9892638923">
+		<tag k="name" v="Spellutmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290901" />
+	</node>
+	<node id="-2121" lat="59.8460472231" lon="11.8381138865">
+		<tag k="name" v="Håkonslund" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="654693" />
+	</node>
+	<node id="-71" lat="60.0873749972" lon="12.2547722184">
+		<tag k="name" v="Korsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290867" />
+	</node>
+	<node id="-2118" lat="60.0233444408" lon="11.9240027708">
+		<tag k="name" v="Stutaugmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654642" />
+	</node>
+	<node id="-2117" lat="59.9835944426" lon="11.9111138934">
+		<tag k="name" v="Grønnmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654626" />
+	</node>
+	<node id="-65" lat="59.9851277814" lon="12.3248305631">
+		<tag k="name" v="Knottåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290754" />
+	</node>
+	<node id="-2112" lat="59.9288833305" lon="11.8197722232">
+		<tag k="name" v="Delemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654600" />
+	</node>
+	<node id="-2111" lat="60.0676305565" lon="11.8656888925">
+		<tag k="name" v="Hundstadmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654596" />
+	</node>
+	<node id="-2107" lat="59.88815278" lon="12.0601861071">
+		<tag k="name" v="Tiurmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654555" />
+	</node>
+	<node id="-56" lat="60.0539861127" lon="11.9283305583">
+		<tag k="name" v="Kalvmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290604" />
+	</node>
+	<node id="-2103" lat="60.0945333325" lon="12.0834111194">
+		<tag k="name" v="Mellemtjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654538" />
+	</node>
+	<node id="-2102" lat="60.1071694483" lon="12.1490416664">
+		<tag k="name" v="Tekstebakkmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654534" />
+	</node>
+	<node id="-51" lat="59.8789527786" lon="11.8892694413">
+		<tag k="name" v="Rettigheta" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="290485" />
+	</node>
+	<node id="-2097" lat="60.0406944427" lon="12.0716861075">
+		<tag k="name" v="Raumyrene" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654512" />
+	</node>
+	<node id="-2094" lat="60.0763055538" lon="11.9260555533">
+		<tag k="name" v="Mastmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654503" />
+	</node>
+	<node id="-2090" lat="59.9241416634" lon="11.8192583413">
+		<tag k="name" v="Nordre Bolskog" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="654468" />
+	</node>
+	<node id="-41" lat="60.0043666623" lon="12.1567805547">
+		<tag k="name" v="Dammyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290391" />
+	</node>
+	<node id="-40" lat="60.0453750021" lon="12.1573944372">
+		<tag k="name" v="Rindermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290389" />
+	</node>
+	<node id="-38" lat="59.9950277762" lon="12.1365194402">
+		<tag k="name" v="Gubbemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290384" />
+	</node>
+	<node id="-2083" lat="60.0833083372" lon="11.968302771">
+		<tag k="name" v="Åbortjennsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654358" />
+	</node>
+	<node id="-33" lat="60.0660611151" lon="12.0302222296">
+		<tag k="name" v="Merramyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290334" />
+	</node>
+	<node id="-32" lat="60.0355916658" lon="11.9974722211">
+		<tag k="name" v="Sylta" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290330" />
+	</node>
+	<node id="-2078" lat="59.9774250017" lon="11.9164111153">
+		<tag k="name" v="Askeruddulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654287" />
+	</node>
+	<node id="-2075" lat="60.0246138918" lon="11.8637305527">
+		<tag k="name" v="Sivmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654262" />
+	</node>
+	<node id="-25" lat="60.1271972183" lon="12.1878222178">
+		<tag k="name" v="Nordgardsvangen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290202" />
+	</node>
+	<node id="-24" lat="60.0408027787" lon="12.2435166675">
+		<tag k="name" v="Brurkleiva" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="290182" />
+	</node>
+	<node id="-2071" lat="60.0751583301" lon="12.1392999986">
+		<tag k="name" v="Grønnfloet" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654226" />
+	</node>
+	<node id="-22" lat="60.0985638899" lon="12.2372194368">
+		<tag k="name" v="Langemyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290178" />
+	</node>
+	<node id="-2069" lat="59.9843277791" lon="12.2761583287">
+		<tag k="name" v="Forkerudsætermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654191" />
+	</node>
+	<node id="-20" lat="59.9736000033" lon="12.2859888952">
+		<tag k="name" v="Stråtjenndulpa" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="290156" />
+	</node>
+	<node id="-19" lat="60.0185611133" lon="12.2583583301">
+		<tag k="name" v="Kjerstadrøysa" />
+		<tag k="natural" v="stone" />
+		<tag k="ssr:stedsnr" v="290147" />
+	</node>
+	<node id="-2066" lat="59.9690611087" lon="12.2625000015">
+		<tag k="name" v="Grasmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654120" />
+	</node>
+	<node id="-2065" lat="60.0098722242" lon="12.2523166697">
+		<tag k="name" v="Kivbråtadalen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="654113" />
+	</node>
+	<node id="-2062" lat="59.8958888883" lon="12.0768249956">
+		<tag k="name" v="Vintermyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654086" />
+	</node>
+	<node id="-2061" lat="60.043291667" lon="12.0289027785">
+		<tag k="name" v="Tjæregravmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654081" />
+	</node>
+	<node id="-2060" lat="60.0383027736" lon="11.9653138918">
+		<tag k="name" v="Nauttjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654078" />
+	</node>
+	<node id="-2059" lat="59.8968777808" lon="12.179413887">
+		<tag k="name" v="Grasmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654073" />
+	</node>
+	<node id="-9" lat="59.9767000024" lon="12.2102361078">
+		<tag k="name" v="Lauvnesskogen" />
+		<tag k="natural" v="wood" />
+		<tag k="ssr:stedsnr" v="290044" />
+	</node>
+	<node id="-2053" lat="59.9591388903" lon="12.2080388898">
+		<tag k="name" v="Fjøsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654034" />
+	</node>
+	<node id="-2052" lat="59.9443333343" lon="12.1246333347">
+		<tag k="name" v="Korsåsmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="654033" />
+	</node>
+	<node id="-1" lat="60.0665666693" lon="11.9997388974">
+		<tag k="name" v="Grimstjennmyra" />
+		<tag k="natural" v="wetland" />
+		<tag k="ssr:stedsnr" v="279154" />
+	</node>
+</osm>

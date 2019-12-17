@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-52" lat="77.7766666646" lon="16.0619444329">
+		<tag k="loc_name" v="Sentralbassenget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="terrengdetaljer" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="708367" />
+		<tag k="ssr:type" v="geologiskStruktur" />
+	</node>
+</osm>

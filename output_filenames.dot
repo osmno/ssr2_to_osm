@@ -1,0 +1,12 @@
+digraph G {
+	"xxxx-geonorge.xml" -> "xxxx-all.osm";
+	"xxxx-all.osm" -> "xxxx-all-tagged.osm";
+	"xxxx-all-tagged.osm" -> "xxxx-tagged.osm";
+	"xxxx-tagged.osm" -> "xxxx-tagged-bebyggelse.osm";
+	"xxxx-tagged.osm" -> "xxxx-tagged-ferskvann.osm";
+	"xxxx-tagged.osm" -> "xxxx-tagged-infrastruktur.osm";
+	"xxxx-tagged.osm" -> "xxxx-tagged-kultur.osm";
+	"xxxx-tagged.osm" -> "xxxx-tagged-markslag.osm";
+	"xxxx-tagged.osm" -> "xxxx-tagged-offentligAdministrasjon.osm";
+	"xxxx-all-tagged.osm" -> "xxxx-NotTagged.osm";
+}

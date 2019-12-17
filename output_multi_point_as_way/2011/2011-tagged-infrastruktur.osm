@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-10112" lat="69.121633334" lon="23.2963054413">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Jorcabálggis" />
+		<tag k="name:se" v="Jorcabálggis" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="714574" />
+	</node>
+	<node id="-10110" lat="69.1318000072" lon="23.2767582353">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Báidnánmáđii" />
+		<tag k="name:se" v="Báidnánmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="714528" />
+	</node>
+	<node id="-4220" lat="69.6550194472" lon="22.9674193677">
+		<tag k="ssr:gml_id" v="GEOMETRY_f433436e-f01c-456b-9cf5-ed2dc26d4b84" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-8443" lat="69.1829111131" lon="23.5846859998">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Láhpoluoppalbálggis" />
+		<tag k="name:se" v="Láhpoluoppalbálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="532714" />
+	</node>
+	<node id="-4218" lat="69.6550166726" lon="22.967416585">
+		<tag k="ssr:gml_id" v="GEOMETRY_6bc378b1-eec5-4ed2-a881-46aa4f00d4e8" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-12277" lat="69.1775027823" lon="23.5827054272">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Láhpoluoppalmáđii" />
+		<tag k="name:se" v="Láhpoluoppalmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="957713" />
+	</node>
+	<node id="-6131" lat="69.0631555552" lon="22.9810888008">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ládjobálggis" />
+		<tag k="name:se" v="Ládjobálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="167193" />
+	</node>
+	<node id="-10607" lat="69.0014444509" lon="23.0118304668">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Buletjármáđii" />
+		<tag k="name:se" v="Buletjármáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="759542" />
+	</node>
+	<node id="-6126" lat="68.9727083363" lon="22.9940137937">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Fanasjármáđii" />
+		<tag k="name:se" v="Fanasjármáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="152981" />
+	</node>
+	<node id="-3819" lat="68.9830611158" lon="23.2243971335">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ásllagašmáđii" />
+		<tag k="name:se" v="Ásllagašmáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="334102" />
+	</node>
+	<node id="-4219" lat="69.65416667" lon="22.9703137997">
+		<tag k="ssr:gml_id" v="GEOMETRY_c6c9f2d6-ff23-4fd6-b903-60784cf50150" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11110" lat="69.1526916701" lon="23.4599276684">
+		<tag k="ssr:gml_id" v="GEOMETRY_3b1d5176-0985-49ff-b18c-bc2d1de137bd" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-11109" lat="69.152844446" lon="23.4289026663">
+		<tag k="ssr:gml_id" v="GEOMETRY_4c4e6dac-6ee1-4927-89f4-e4a54770348e" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-4452" lat="69.0545805612" lon="23.0913443416">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Gála" />
+		<tag k="name:se" v="Gála" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881899" />
+	</node>
+	<node id="-10083" lat="69.0157472222" lon="23.1293221176">
+		<tag k="name" v="Ávžžiluodda" />
+		<tag k="name:se" v="Ávžžiluodda" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="699853" />
+	</node>
+	<node id="-8802" lat="69.645372228" lon="22.9786027132">
+		<tag k="ssr:gml_id" v="GEOMETRY_21fa6306-8d11-4e9c-a8bc-52cfe15f3eb6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-8417" lat="68.8948555565" lon="22.884502701">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Poastamáđii" />
+		<tag k="name:se" v="Poastamáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="532029" />
+	</node>
+	<node id="-10079" lat="68.9890250057" lon="22.9901860312">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Guovttibuletjármáđii" />
+		<tag k="name:se" v="Guovttibuletjármáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="698981" />
+	</node>
+	<node id="-5598" lat="68.7863138882" lon="23.3469387864">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Sihčajávrregeasseluodda" />
+		<tag k="name:se" v="Sihčajávrregeasseluodda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="108458" />
+	</node>
+	<node id="-10597" lat="69.030636119" lon="23.2534415663">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Rissemáđii" />
+		<tag k="name:se" v="Rissemáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="759039" />
+	</node>
+	<node id="-10076" lat="69.0138555596" lon="23.1987499115">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Bredbuktnesmáđii" />
+		<tag k="name:se" v="Bredbuktnesmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="698860" />
+	</node>
+	<node id="-12249" lat="69.1497111121" lon="23.2938165633">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Dorskajohbálggis" />
+		<tag k="name:se" v="Dorskajohbálggis" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="957637" />
+	</node>
+	<node id="-6104" lat="69.0320138923" lon="23.2206137764">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Johtingeaidnu" />
+		<tag k="name:se" v="Johtingeaidnu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="152019" />
+	</node>
+	<node id="-5589" lat="69.0611277856" lon="22.9465638015">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Luomečoagginluodda" />
+		<tag k="name:se" v="Luomečoagginluodda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="108169" />
+	</node>
+	<node id="-5029" lat="69.1027638888" lon="23.1947637949">
+		<tag k="name" v="Buoresbiillaluodda" />
+		<tag k="name:se" v="Buoresbiillaluodda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="46325" />
+	</node>
+	<node id="-4451" lat="69.0201416664" lon="22.9825665671">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Orjješbálggis" />
+		<tag k="name:se" v="Orjješbálggis" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881867" />
+	</node>
+	<node id="-4453" lat="69.0581333347" lon="23.0561304533">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Gála" />
+		<tag k="name:se" v="Gála" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="881909" />
+	</node>
+	<node id="-12197" lat="69.1505416694" lon="23.4293332264">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Gaskabeaimáđii" />
+		<tag k="name:se" v="Gaskabeaimáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="936127" />
+	</node>
+	<node id="-9516" lat="69.0546249996" lon="23.1311193545">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Muorrageasehanmáđii" />
+		<tag k="name:se" v="Muorrageasehanmáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="637576" />
+	</node>
+	<node id="-3874" lat="68.955855556" lon="23.0533554623">
+		<tag k="ssr:gml_id" v="GEOMETRY_5902fbb6-4461-4237-9b44-ac6c9acd34db" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-5449" lat="69.3812638932" lon="22.664305486">
+		<tag k="ssr:gml_id" v="GEOMETRY_39395d94-e208-447e-a2ae-d482222dd451" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-12232" lat="69.0537916662" lon="23.0561221304">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Jorbajármáđii" />
+		<tag k="name:se" v="Jorbajármáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941892" />
+	</node>
+	<node id="-5447" lat="69.3812611103" lon="22.6643027012">
+		<tag k="ssr:gml_id" v="GEOMETRY_071041f5-cfb2-43f8-a5d1-889c0fcffdb1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-7747" lat="69.1620611169" lon="23.4728137682">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Gutnaláttomáđii" />
+		<tag k="name:se" v="Gutnaláttomáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="450124" />
+	</node>
+	<node id="-4418" lat="69.0222638948" lon="22.9178582538">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Luhppobálggis" />
+		<tag k="name:se" v="Luhppobálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411179" />
+	</node>
+	<node id="-4417" lat="69.0659083351" lon="22.9380582491">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ávjášmáđii" />
+		<tag k="name:se" v="Ávjášmáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411175" />
+	</node>
+	<node id="-5024" lat="69.0680527852" lon="23.0091082472">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Luhppu" />
+		<tag k="name:se" v="Luhppu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="46190" />
+	</node>
+	<node id="-4414" lat="68.8945194497" lon="23.116427691">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Dálvemáđii" />
+		<tag k="name:se" v="Dálvemáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411140" />
+	</node>
+	<node id="-6133" lat="68.8262527782" lon="23.1949804462">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Rietnjeávžžebálggis" />
+		<tag k="name:se" v="Rietnjeávžžebálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="167264" />
+	</node>
+	<node id="-3338" lat="69.1426000027" lon="23.2594276901">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Váidejávremáđii" />
+		<tag k="name:se" v="Váidejávremáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="289374" />
+	</node>
+	<node id="-5050" lat="69.1719138938" lon="23.5807582084">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Lullimáđii" />
+		<tag k="name:se" v="Lullimáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="47705" />
+	</node>
+	<node id="-5049" lat="69.1618027773" lon="23.2960193506">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Jalgesvárebálggis" />
+		<tag k="name:se" v="Jalgesvárebálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="47648" />
+	</node>
+	<node id="-5048" lat="69.118422229" lon="23.2929221148">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Hávgajávrremáđii" />
+		<tag k="name:se" v="Hávgajávrremáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="47598" />
+	</node>
+	<node id="-8415" lat="69.0369361143" lon="22.8523388016">
+		<tag k="ssr:gml_id" v="GEOMETRY_499af9ce-f285-4e06-9ac0-9ce16abf83b8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-5557" lat="69.0407972242" lon="23.1259387867">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ávžžimáđii" />
+		<tag k="name:se" v="Ávžžimáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="92605" />
+	</node>
+	<node id="-8414" lat="69.040727784" lon="22.8871665789">
+		<tag k="ssr:gml_id" v="GEOMETRY_abaac587-6e5d-4a8e-bbaf-190422497a3c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4507" lat="69.0488333319" lon="22.9555026944">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Bredbuktnesvegen" />
+		<tag k="name:no" v="Bredbuktnesvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="897177" />
+	</node>
+	<node id="-4400" lat="68.8420416707" lon="23.1680749006">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Dálvemáđii" />
+		<tag k="name:se" v="Dálvemáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="410280" />
+	</node>
+	<node id="-5448" lat="69.3818111171" lon="22.6781971438">
+		<tag k="ssr:gml_id" v="GEOMETRY_1455261b-0bc9-44b6-80d6-ae1a24505e81" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-12233" lat="69.054025001" lon="22.9627304748">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ávjjašmáđii" />
+		<tag k="name:se" v="Ávjjašmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="941915" />
+	</node>
+	<node id="-8413" lat="69.0534305551" lon="22.8250221309">
+		<tag k="ssr:gml_id" v="GEOMETRY_0e253cf3-7a95-419b-a012-6f42a8bad127" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-3884" lat="69.1130055558" lon="23.3398360018">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Hávgajármáđii" />
+		<tag k="name:se" v="Hávgajármáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="350568" />
+	</node>
+	<node id="-10589" lat="69.1504861164" lon="23.3618499003">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Johtinmáđii" />
+		<tag k="name:se" v="Johtinmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="754407" />
+	</node>
+	<node id="-9002" lat="69.180616668" lon="23.5259054439">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Čakčamáđii" />
+		<tag k="name:se" v="Čakčamáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="592765" />
+	</node>
+	<node id="-5033" lat="69.0989416709" lon="23.186866569">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ráidobálggis" />
+		<tag k="name:se" v="Ráidobálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="46384" />
+	</node>
+	<node id="-11176" lat="69.1515305636" lon="23.3105832305">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Boaresmárkanmáđii" />
+		<tag k="name:se" v="Boaresmárkanmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="836637" />
+	</node>
+	<node id="-5031" lat="69.0648027784" lon="23.1411082438">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Buollánmáđii" />
+		<tag k="name:se" v="Buollánmáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="46351" />
+	</node>
+	<node id="-6693" lat="69.0110861166" lon="23.0853943637">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ávžžimáđii" />
+		<tag k="name:se" v="Ávžžimáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="213567" />
+	</node>
+	<node id="-8995" lat="69.1755000066" lon="23.4401110103">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ráidebálggis" />
+		<tag k="name:se" v="Ráidebálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="592724" />
+	</node>
+	<node id="-4386" lat="69.0021694435" lon="23.1546637968">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ávžžiluodda" />
+		<tag k="name:se" v="Ávžžiluodda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395877" />
+	</node>
+	<node id="-3873" lat="68.9521388957" lon="23.1007610066">
+		<tag k="ssr:gml_id" v="GEOMETRY_28c5d766-d2a9-4c22-8c92-ab2b3234b196" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-12064" lat="69.4596500033" lon="23.4876637936">
+		<tag k="junction" v="yes" />
+		<tag k="name" v="Stuoroaivi" />
+		<tag k="name:se" v="Stuoroaivi" />
+		<tag k="old_name:se" v="Stuoroai'vi" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="929392" />
+	</node>
+	<node id="-5021" lat="69.0663944454" lon="22.809819371">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Njavvitmáđii" />
+		<tag k="name:se" v="Njavvitmáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="46072" />
+	</node>
+	<node id="-10652" lat="69.1857305586" lon="23.5296526724">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Johtinmáđii" />
+		<tag k="name:se" v="Johtinmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="775647" />
+	</node>
+	<node id="-10651" lat="69.1270250042" lon="23.3265137784">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Johttábálggis" />
+		<tag k="name:se" v="Johttábálggis" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="775571" />
+	</node>
+	<node id="-3354" lat="69.1873861199" lon="23.5855193186">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Sieđgajeakkemáđii" />
+		<tag k="name:se" v="Sieđgajeakkemáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="289767" />
+	</node>
+	<node id="-3863" lat="68.8929611184" lon="23.1469249125">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Bálggis" />
+		<tag k="name:se" v="Bálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="349408" />
+	</node>
+	<node id="-3350" lat="69.1106666731" lon="23.2783304666">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Skuvlajármáđii" />
+		<tag k="name:se" v="Skuvlajármáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="289683" />
+	</node>
+	<node id="-4373" lat="69.0064861114" lon="23.2450582422">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Nuortamáđii" />
+		<tag k="name:se" v="Nuortamáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="395096" />
+	</node>
+	<node id="-4500" lat="69.1892111155" lon="23.558324875">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Gievdnejávrremáđii" />
+		<tag k="name:se" v="Gievdnejávrremáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="896761" />
+	</node>
+	<node id="-3886" lat="69.1869361156" lon="23.4656693221">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Rássegálvárimáđii" />
+		<tag k="name:se" v="Rássegálvárimáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="350604" />
+	</node>
+	<node id="-3857" lat="69.0740277839" lon="22.8176276999">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Návddášjogabálggis" />
+		<tag k="name:se" v="Návddášjogabálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="349114" />
+	</node>
+	<node id="-8803" lat="69.6453694491" lon="22.9785888039">
+		<tag k="ssr:gml_id" v="GEOMETRY_b3e3e3d0-a55e-4088-9e23-f36e7c593035" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-4440" lat="69.1735250047" lon="23.5798887793">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Heastamáđii" />
+		<tag k="name:se" v="Heastamáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="411686" />
+	</node>
+	<node id="-3885" lat="69.1180555617" lon="23.3492554635">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Gearpmašjeakkebálggis" />
+		<tag k="name:se" v="Gearpmašjeakkebálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="350574" />
+	</node>
+	<node id="-3852" lat="68.898663892" lon="22.8744193592">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Borgaluhppu" />
+		<tag k="name:se" v="Borgaluhppu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="349030" />
+	</node>
+	<node id="-11147" lat="69.0505722279" lon="23.0341832383">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ávjjašmáđii" />
+		<tag k="name:se" v="Ávjjašmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="820930" />
+	</node>
+	<node id="-6154" lat="69.15588334" lon="23.3280026782">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Káreluovttabálggis" />
+		<tag k="name:se" v="Káreluovttabálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="168651" />
+	</node>
+	<node id="-5015" lat="69.0288166736" lon="23.0434304743">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Gáhkkormáđii" />
+		<tag k="name:se" v="Gáhkkormáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="31888" />
+	</node>
+	<node id="-7815" lat="69.1279666699" lon="23.3457387897">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Gearpmašjármáđii" />
+		<tag k="name:se" v="Gearpmašjármáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="471635" />
+	</node>
+	<node id="-6148" lat="69.1349250062" lon="23.2827998945">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Boaresbiilamáđii" />
+		<tag k="name:se" v="Boaresbiilamáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="168563" />
+	</node>
+	<node id="-7812" lat="69.1347444441" lon="23.2984110172">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Dálvemáđii" />
+		<tag k="name:se" v="Dálvemáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="471586" />
+	</node>
+	<node id="-6147" lat="69.1369916731" lon="23.3006637917">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Roavotjogamáđii" />
+		<tag k="name:se" v="Roavotjogamáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="168561" />
+	</node>
+	<node id="-7809" lat="69.1408222288" lon="23.2873443451">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Luhppobálggis" />
+		<tag k="name:se" v="Luhppobálggis" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="471571" />
+	</node>
+	<way id="-2398">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Tráktor-Máhtemáđii" />
+		<tag k="name:se" v="Tráktor-Máhtemáđii" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="532010" />
+		<nd ref="-8413" />
+		<nd ref="-8414" />
+		<nd ref="-8415" />
+	</way>
+	<way id="-1141">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Guollesuohpa" />
+		<tag k="name:se" v="Guollesuohpa" />
+		<tag k="old_name:se" v="Guollesuoppa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="382746" />
+		<nd ref="-4218" />
+		<nd ref="-4219" />
+		<nd ref="-4220" />
+	</way>
+	<way id="-1020">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Johtingeaidnu" />
+		<tag k="name:se" v="Johtingeaidnu" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="350217" />
+		<nd ref="-3873" />
+		<nd ref="-3874" />
+	</way>
+	<way id="-3253">
+		<tag k="highway" v="path" />
+		<tag k="name" v="Ovllášmáđii" />
+		<tag k="name:se" v="Ovllášmáđii" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="814152" />
+		<nd ref="-11109" />
+		<nd ref="-11110" />
+	</way>
+	<way id="-2536">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Vuoldesuohpa" />
+		<tag k="name:se" v="Vuoldesuohpa" />
+		<tag k="old_name:se" v="Vuoldesuoppa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="564727" />
+		<nd ref="-8802" />
+		<nd ref="-8803" />
+	</way>
+	<way id="-1507">
+		<tag k="ford" v="yes" />
+		<tag k="name" v="Málbmagála" />
+		<tag k="name:se" v="Málbmagála" />
+		<tag k="old_name:se" v="Malbmagala" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="79767" />
+		<nd ref="-5447" />
+		<nd ref="-5448" />
+		<nd ref="-5449" />
+	</way>
+</osm>

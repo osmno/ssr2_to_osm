@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-2040" lat="59.9652694459" lon="12.2311277733">
+		<tag k="name" v="Stormyrvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="648375" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2039" lat="59.9354333341" lon="12.2139138892">
+		<tag k="name" v="Spinnerivegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="648372" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2038" lat="59.9107999991" lon="12.1680305542">
+		<tag k="name" v="Leirsjøvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="646629" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2037" lat="60.0079805586" lon="12.2249777731">
+		<tag k="name" v="Nordbysvingen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="646330" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2036" lat="59.9583277771" lon="12.0475333412">
+		<tag k="name" v="Stangnesvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="646146" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1522" lat="59.9654611117" lon="12.1530722192">
+		<tag k="name" v="Sørgardsgutua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="465338" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1521" lat="59.9363666636" lon="11.99183334">
+		<tag k="name" v="Vestmarkavegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="465328" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1520" lat="59.9514416711" lon="12.0673750016">
+		<tag k="name" v="Tollefsbølvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="464623" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1519" lat="59.900791665" lon="12.0899444415">
+		<tag k="name" v="Perkerudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="464162" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-484" lat="59.9547444464" lon="12.0074833254">
+		<tag k="name" v="Vestlivegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="889593" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-992" lat="60.1195194481" lon="12.21938056">
+		<tag k="name" v="Holsætervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="119445" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3039" lat="59.9681097507" lon="12.2234104989">
+		<tag k="name" v="Nevjen" />
+		<tag k="ssr:date" v="2017-09-20" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="978528" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3038" lat="60.0555625029" lon="12.1474898601">
+		<tag k="name" v="Skjørberggrenda" />
+		<tag k="ssr:date" v="2017-09-20" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="978527" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-989" lat="59.929375002" lon="12.2128444527">
+		<tag k="name" v="Vilsbergvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="118645" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-988" lat="59.9460749986" lon="12.1733861098">
+		<tag k="name" v="Leirbekkvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="118640" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3035" lat="59.9900802205" lon="12.1180184689">
+		<tag k="name" v="Kristine Korsmos veg" />
+		<tag k="ssr:date" v="2017-03-22" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="975293" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3034" lat="59.9916946566" lon="12.1208072402">
+		<tag k="name" v="Julie Skotteruds veg" />
+		<tag k="ssr:date" v="2017-03-22" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="975292" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3033" lat="60.5908609473" lon="9.63819281559">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name" />
+		<tag k="name" v="Austlandet;Østlandet" />
+		<tag k="ssr:date" v="2018-01-09" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="974775" />
+		<tag k="ssr:type" v="annenAdministrativInndeling" />
+	</node>
+	<node id="-984" lat="59.9305611153" lon="11.9910222295">
+		<tag k="name" v="Harstadgutua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="116699" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3031" lat="59.9908833289" lon="12.1941111141">
+		<tag k="name" v="Jansrudvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="968418" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3030" lat="59.9325111103" lon="11.9716111181">
+		<tag k="name" v="Gamle Ljønervegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="967637" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2517" lat="59.9680750004" lon="12.1748305637">
+		<tag k="name" v="Vikerstubben" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="786449" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2516" lat="59.9715222237" lon="12.1279777725">
+		<tag k="name" v="Refsette" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="786435" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2515" lat="59.9740774501" lon="12.1567109675">
+		<tag k="name" v="Lysmovegen" />
+		<tag k="ssr:date" v="2018-04-17" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="786433" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2514" lat="60.1005833369" lon="12.1440138919">
+		<tag k="name" v="Pramhusgutua" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="786429" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2513" lat="60.0710694473" lon="12.2281027769">
+		<tag k="name" v="Paradisvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="785730" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2512" lat="59.8931611143" lon="11.860566674">
+		<tag k="name" v="Sootkanalvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="783214" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2511" lat="59.9463111091" lon="11.9923694473">
+		<tag k="name" v="Jerpsetvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="783212" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-441" lat="59.9490527803" lon="12.1885888869">
+		<tag k="name" v="Skolevegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="412359" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1452" lat="60.073427781" lon="12.1617083306">
+		<tag k="name" v="Gusterudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="423462" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1450" lat="59.9034138844" lon="12.1345000013">
+		<tag k="name" v="Lassefallet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="422326" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1449" lat="59.9370805524" lon="12.018397219">
+		<tag k="name" v="Franserudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="420280" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1448" lat="60.0470833293" lon="11.9855916646">
+		<tag k="name" v="Sandtjernlivegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="419745" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1447" lat="59.8881805562" lon="11.9175694433">
+		<tag k="name" v="Kråkfossvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="419707" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-986" lat="60.1446854718" lon="12.0345659099">
+		<tag k="name" v="Austmarkavegen" />
+		<tag k="ssr:date" v="2018-04-12" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="118010" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1956" lat="59.9245305568" lon="11.9769111169">
+		<tag k="name" v="Rambølsgutua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="603662" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1955" lat="60.0883944438" lon="12.1199500082">
+		<tag k="name" v="Malmervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="603658" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1954" lat="59.9527055549" lon="12.2054472187">
+		<tag k="name" v="Jullabakken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="603643" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1953" lat="59.9489777761" lon="12.0173138849">
+		<tag k="name" v="Rasta" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="601700" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1952" lat="59.9314305583" lon="11.9859638898">
+		<tag k="name" v="Judinbakken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="600669" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1951" lat="60.0590638898" lon="12.2649999953">
+		<tag k="name" v="Kampevegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="604426" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-866" lat="59.9752500005" lon="12.3426916674">
+		<tag k="name" v="Klettåsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="101044" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1259" lat="60.0816805552" lon="12.0670111146">
+		<tag k="name" v="Hornkjølvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="222610" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1258" lat="59.9718000039" lon="12.06682222">
+		<tag k="name" v="Bekkeligutua" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="222598" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-797" lat="59.8466777813" lon="11.8566472172">
+		<tag k="name" v="Skjølåsætervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="59584" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1257" lat="59.9832666644" lon="11.9657444399">
+		<tag k="name" v="Mobekkvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="222134" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-371" lat="59.9395250026" lon="12.1524166583">
+		<tag k="name" v="Gjellaren" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="406338" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1171" lat="59.9583472201" lon="12.1174361111">
+		<tag k="name" v="Sagdalsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="180411" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-368" lat="59.9791999994" lon="12.3368333331">
+		<tag k="name" v="Billavegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="404042" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2415" lat="60.0054555531" lon="12.252799996">
+		<tag k="name" v="Vålvassvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="770185" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2414" lat="60.0372805592" lon="12.086780551">
+		<tag k="name" v="Skinnpungrudvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="769336" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2413" lat="60.0377472222" lon="12.1241833417">
+		<tag k="name" v="Matrandvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="768663" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2412" lat="60.0955194468" lon="12.0303333362">
+		<tag k="name" v="Rauhellavegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="768657" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2411" lat="60.0214999992" lon="12.0454888885">
+		<tag k="name" v="Vestfjellvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="768634" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2410" lat="60.0309166634" lon="11.9095583333">
+		<tag k="name" v="Børlivegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="768152" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-871" lat="59.9898777751" lon="12.0926027691">
+		<tag k="name" v="Bakkebygrenda" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="103236" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1382" lat="59.9272305541" lon="11.9893611148">
+		<tag k="name" v="Kjerketråkka" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="239704" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2917" lat="59.9855722201" lon="12.09383334">
+		<tag k="name" v="Sofiendalsvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="952233" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2916" lat="60.0360916633" lon="12.038049992">
+		<tag k="name" v="Fjellvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950640" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2915" lat="59.9848749986" lon="12.150991658">
+		<tag k="name" v="Elgåsen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950622" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2914" lat="59.9373027791" lon="12.2194500065">
+		<tag k="name" v="Vanga" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950339" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2913" lat="59.9424694436" lon="12.1723972237">
+		<tag k="name" v="Bogervegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950337" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2912" lat="60.0635111122" lon="12.0127277833">
+		<tag k="name" v="Åkrokvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950261" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2911" lat="59.9538861105" lon="12.1595138846">
+		<tag k="name" v="Veibyvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950249" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2910" lat="59.9391944487" lon="12.0750722258">
+		<tag k="name" v="Ingelsrudvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="950176" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1167" lat="59.9571694434" lon="11.8180361039">
+		<tag k="name" v="Sandviksvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="177744" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1166" lat="59.9948916663" lon="12.3179777805">
+		<tag k="name" v="Finnsrudhaugvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="176609" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-983" lat="59.9147944479" lon="11.9913388833">
+		<tag k="name" v="Klanderudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="116255" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1170" lat="59.9701083346" lon="12.2111638937">
+		<tag k="name" v="Jøviksvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="179672" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-991" lat="59.9967666672" lon="12.2068972183">
+		<tag k="name" v="Nessjøvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="119431" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-990" lat="59.9816083295" lon="12.1202333244">
+		<tag k="name" v="B. P. Hoels veg" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="118654" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1839" lat="59.9719444403" lon="12.2013916606">
+		<tag k="name" v="Punnerudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="588313" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1838" lat="59.9825722212" lon="12.0695222284">
+		<tag k="name" v="Børrudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="586261" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1837" lat="59.9764638852" lon="12.0637027754">
+		<tag k="name" v="Børrudhagan" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="586231" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1836" lat="59.9486277758" lon="12.2281444461">
+		<tag k="name" v="Svensrudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="585591" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-367" lat="59.9509750019" lon="12.2016083349">
+		<tag k="name" v="Gaustadvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="403596" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-293" lat="59.9161499987" lon="12.046649992">
+		<tag k="name" v="Svartvika" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="360732" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-292" lat="60.0814416625" lon="12.1633750072">
+		<tag k="name" v="Gamle Bråtavegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="360727" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-291" lat="59.9656333302" lon="12.146619449">
+		<tag k="name" v="Sjøfaret" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="360656" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-290" lat="60.0025999959" lon="12.2012694424">
+		<tag k="name" v="Lauvåsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="360385" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-987" lat="59.9588111108" lon="11.9496000054">
+		<tag k="name" v="Harstadsætervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="118534" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1169" lat="60.0694194464" lon="12.1561111071">
+		<tag k="name" v="Langfossvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="179053" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2332" lat="59.9069861127" lon="11.9806166686">
+		<tag k="name" v="Rudsvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="726601" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2331" lat="59.988377782" lon="12.1713611069">
+		<tag k="name" v="Billerudvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="726454" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2330" lat="59.9724611085" lon="12.172580551">
+		<tag k="name" v="Furufjellvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="726453" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2329" lat="59.9121055584" lon="12.0123722218">
+		<tag k="name" v="Djupdalsvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="723280" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2328" lat="59.9267472225" lon="12.0685861089">
+		<tag k="name" v="Slettmovegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="722753" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-985" lat="59.9470222212" lon="12.0112249914">
+		<tag k="name" v="Bakken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="116710" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2830" lat="59.9262416682" lon="11.8523722211">
+		<tag k="name" v="Søndre Mangenvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="908612" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2829" lat="60.0849972263" lon="12.1260861064">
+		<tag k="name" v="Eidsmovegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="907054" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2828" lat="60.1274194449" lon="12.1491861069">
+		<tag k="name" v="Hellerudvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="907011" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2827" lat="59.9367055513" lon="12.0033583374">
+		<tag k="name" v="Lia" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="905725" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2826" lat="59.9808222236" lon="12.1146722261">
+		<tag k="name" v="Arkovegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="905391" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2825" lat="60.0472388892" lon="11.9417333311">
+		<tag k="name" v="Skjølungvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="905266" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2824" lat="59.9985666671" lon="12.0505888947">
+		<tag k="name" v="Nygårdsvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="904715" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1168" lat="60.1139222208" lon="12.1100694516">
+		<tag k="name" v="Nedre Drøserudveg" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="179016" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3029" lat="59.9268694478" lon="12.1947000051">
+		<tag k="name" v="Gaustadsætervegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="967287" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3028" lat="59.8898638859" lon="11.8380944355">
+		<tag k="name" v="Sandbakkvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="965708" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3027" lat="59.9193055515" lon="12.0274861136">
+		<tag k="name" v="Helgesjøvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="965699" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1262" lat="59.9580777816" lon="12.2039944524">
+		<tag k="name" v="Magnoråsen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="224323" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1261" lat="59.9347611102" lon="12.2227138818">
+		<tag k="name" v="Furumoen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="224311" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1260" lat="60.0574805515" lon="12.1207499989">
+		<tag k="name" v="Skrådalsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="223364" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-3026" lat="59.9563500001" lon="12.1959444513">
+		<tag k="name" v="Grensevegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="965645" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1770" lat="60.1075750018" lon="12.1097583396">
+		<tag k="name" v="Åklangbergsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="544413" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1769" lat="59.9673333371" lon="12.1211666683">
+		<tag k="name" v="Vestre Gaustadveg" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="544398" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1768" lat="60.0929527815" lon="12.1671083344">
+		<tag k="name" v="Øyungsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="543679" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1767" lat="60.0309333289" lon="11.8473750045">
+		<tag k="name" v="Havsjømovegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="543678" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1766" lat="60.1156861119" lon="12.1118555641">
+		<tag k="name" v="Sagdjupvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="543010" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1765" lat="59.9195666676" lon="11.8581722152">
+		<tag k="name" v="Bolfossvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="541288" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-792" lat="59.9564972215" lon="11.9722194482">
+		<tag k="name" v="Mobekkvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="55240" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-289" lat="59.931583336" lon="12.1598444483">
+		<tag k="name" v="Gjøslivegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="360292" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2242" lat="59.9728555525" lon="12.2255944484">
+		<tag k="name" v="Lauvnesvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="709354" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-190" lat="60.0817249984" lon="12.0858999931">
+		<tag k="name" v="Matrandvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="343689" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2227" lat="59.9841194414" lon="12.0446138816">
+		<tag k="name" v="Snesbølgutua" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="707161" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2226" lat="60.0324277787" lon="12.2696777713">
+		<tag k="name" v="Røsskjølvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="707052" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2735" lat="59.8998111091" lon="12.0210222253">
+		<tag k="name" v="Kulblikvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="848592" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2734" lat="60.1137166675" lon="12.1062333404">
+		<tag k="name" v="Øvre Drøserudveg" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="847434" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2733" lat="60.1003722268" lon="12.1260138866">
+		<tag k="name" v="Korskjølvegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="847015" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2732" lat="59.9268527775" lon="11.9905805472">
+		<tag k="name" v="Kjerkebakken" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="846681" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-796" lat="59.9679972211" lon="11.9495027797">
+		<tag k="name" v="Grusjøvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="59580" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-795" lat="59.9921750024" lon="12.1778583291">
+		<tag k="name" v="Høgåsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="59438" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-668" lat="60.0253444481" lon="12.1352777799">
+		<tag k="name" v="Lunderbybakken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="41351" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-794" lat="60.0131722212" lon="12.2261305628">
+		<tag k="name" v="Veksarvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="57396" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-666" lat="59.9628138889" lon="12.1200944377">
+		<tag k="name" v="Åslivegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="40404" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-665" lat="59.9081111154" lon="12.1127027797">
+		<tag k="name" v="Braserudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="40264" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-793" lat="59.8921833348" lon="11.9035416639">
+		<tag k="name" v="Karlsengvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="55271" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1172" lat="59.935038892" lon="12.0107111126">
+		<tag k="name" v="Stangnessætervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="180567" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1683" lat="59.9927888885" lon="12.0980583386">
+		<tag k="name" v="Godtlandsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="527213" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1682" lat="59.9404388862" lon="12.1442111051">
+		<tag k="name" v="Mastadvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="525634" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1681" lat="59.9843638869" lon="12.1745805585">
+		<tag k="name" v="Ilagsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="525357" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1680" lat="59.9699055518" lon="12.1332750007">
+		<tag k="name" v="Repsetvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="525264" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1679" lat="60.0008055581" lon="12.1021638929">
+		<tag k="name" v="Sørpebølvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="525257" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1678" lat="60.0008250025" lon="12.3006833292">
+		<tag k="name" v="Vestheimvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="525050" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-116" lat="60.0884277801" lon="12.2304305502">
+		<tag k="name" v="Enderudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="301409" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-115" lat="59.9507749965" lon="11.9928638802">
+		<tag k="name" v="Øgardsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="298691" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-114" lat="59.9990027736" lon="11.8964361156">
+		<tag k="name" v="Fjellskogvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="298684" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-113" lat="59.9572250012" lon="11.8938805537">
+		<tag k="name" v="Ljønervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="298227" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2152" lat="59.9878583366" lon="12.1411972243">
+		<tag k="name" v="Sæteråsen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="665457" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2151" lat="59.9376472215" lon="11.9936499965">
+		<tag k="name" v="Brustadvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="664677" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2150" lat="60.0027944449" lon="12.1207416698">
+		<tag k="name" v="Matrandvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="664668" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2149" lat="59.9519027823" lon="11.9487166622">
+		<tag k="name" v="Hornlivegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="664546" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-870" lat="60.0554555538" lon="12.147461103">
+		<tag k="name" v="Grasmovegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="102412" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2146" lat="59.9868916636" lon="12.0762000056">
+		<tag k="name" v="Bjørnstadmovegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="661708" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1381" lat="60.0027944449" lon="12.1207416698">
+		<tag k="name" v="Nessjøvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="239688" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1380" lat="60.0104416688" lon="12.1321222272">
+		<tag k="name" v="Grønnerud-Hesbølvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="239678" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1379" lat="59.8925472182" lon="12.1579583351">
+		<tag k="name" v="Åtjennet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="239309" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1611" lat="59.9876444454" lon="12.1483500065">
+		<tag k="name" v="Einarsbølvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="483445" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1610" lat="59.9211805515" lon="11.9847555497">
+		<tag k="name" v="Rambølsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="482675" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1609" lat="59.9926111128" lon="12.0941138964">
+		<tag k="name" v="Bergervegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="482663" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1608" lat="60.0423388917" lon="12.2799638802">
+		<tag k="name" v="Billingvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="482051" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1377" lat="60.113994447" lon="12.1115722247">
+		<tag k="name" v="Ulriksfoss" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="239015" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-863" lat="60.0281305517" lon="12.0652805595">
+		<tag k="name" v="Eidskog" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="terrengområder" />
+		<tag k="ssr:hovedgruppe" v="terreng" />
+		<tag k="ssr:stedsnr" v="89788" />
+		<tag k="ssr:type" v="landskapsområde" />
+	</node>
+	<node id="-1378" lat="60.0759305592" lon="12.1400805536">
+		<tag k="name" v="Kolstadvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="239017" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1055" lat="60.0546194457" lon="12.0937916619">
+		<tag k="name" v="Drognesvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="162362" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1054" lat="60.0558222201" lon="12.1527638813">
+		<tag k="name" v="Skjørbergvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="162357" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1053" lat="59.9336388853" lon="12.1677222143">
+		<tag k="name" v="Nordalsvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="161337" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1052" lat="59.9924055523" lon="12.2962388907">
+		<tag k="name" v="Finnsrudvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="161046" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-1051" lat="60.0053777798" lon="12.0792277783">
+		<tag k="name" v="Rødbergvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="161610" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2586" lat="60.0738388895" lon="12.1516777825">
+		<tag k="name" v="Bråtavegen" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="829663" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+	<node id="-2584" lat="59.9855611124" lon="12.1250194507">
+		<tag k="name" v="Eidskog kommune" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:gruppe" v="administrativeIndelinger" />
+		<tag k="ssr:hovedgruppe" v="offentligAdministrasjon" />
+		<tag k="ssr:stedsnr" v="814330" />
+		<tag k="ssr:type" v="kommune" />
+	</node>
+	<node id="-3" lat="59.9600583352" lon="12.197144451">
+		<tag k="name" v="Ånebyvegen" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:gruppe" v="veg" />
+		<tag k="ssr:hovedgruppe" v="infrastruktur" />
+		<tag k="ssr:stedsnr" v="285321" />
+		<tag k="ssr:type" v="adressenavn" />
+	</node>
+</osm>

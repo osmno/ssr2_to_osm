@@ -1,0 +1,81 @@
+SSR2 hovedgruppe;SSR2 gruppe;SSR2 type;SSR2 freq 2011;SSR2 tags
+bebyggelse;bebyggelsesområder;boligfelt;1;landuse=residential place=neighbourhood
+bebyggelse;bebyggelsesområder;bygdelagBygd;6;"fixme=""consider place=hamlet"" place=village"
+bebyggelse;bebyggelsesområder;grend;14;place=hamlet
+bebyggelse;bebyggelsesområder;tettsted;1;place=village
+bebyggelse;bolighus;eneboligMindreBoligbygg;3;"fixme=""consider place=farm"" place=isolated_dwelling"
+bebyggelse;bolighus;fritidsbolig;12;building=cabin place=isolated_dwelling
+bebyggelse;gardsbebyggelse;bruk;14;place=farm
+bebyggelse;gardsbebyggelse;byggForJordbrukFiskeOgFangst;3;building=farm_auxiliary place=locality
+bebyggelse;gardsbebyggelse;eiendom;4;place=locality
+bebyggelse;næring;hotell;1;building=hotel tourism=hotel
+bebyggelse;næring;pensjonat;1;building=hotel tourism=guest_house
+bebyggelse;næring;turisthytte;3;"fixme=""consider tourism=wilderness_hut or tourism=chalet"" tourism=alpine_hut"
+ferskvann;detaljerIFerskvann;annenVanndetalj;2;place=locality
+ferskvann;ferskvannskontur;eid;15;natural=strait place=locality
+ferskvann;ferskvannskontur;holme;55;place=islet
+ferskvann;ferskvannskontur;nes;146;natural=cape place=locality
+ferskvann;ferskvannskontur;strand;8;natural=beach
+ferskvann;ferskvannskontur;sund;9;natural=strait place=locality
+ferskvann;ferskvannskontur;vik;110;natural=bay
+ferskvann;ferskvannskontur;øy;7;place=island
+ferskvann;ferskvannskontur;øygruppe;1;place=island
+ferskvann;grunnerIFerskvann;grunne;1;natural=shoal place=locality
+ferskvann;grunnerIFerskvann;skjær;2;natural=islet
+ferskvann;rennendeVann;bekk;266;waterway=stream
+ferskvann;rennendeVann;elv;212;waterway=river
+ferskvann;rennendeVann;foss;13;natural=waterfall
+ferskvann;rennendeVann;høl;38;place=locality
+ferskvann;rennendeVann;lon;88;natural=water water=lake
+ferskvann;rennendeVann;nesVedElver;44;natural=cape place=locality
+ferskvann;rennendeVann;os;23;natural=bay
+ferskvann;rennendeVann;stryk;41;waterway=rapids
+ferskvann;stilleståendeVann;delAvInnsjø;1;natural=water
+ferskvann;stilleståendeVann;gruppeAvTjern;1;natural=water water=lake
+ferskvann;stilleståendeVann;gruppeAvVann;4;natural=water water=lake
+ferskvann;stilleståendeVann;innsjø;8;natural=water water=lake
+ferskvann;stilleståendeVann;pytt;3;natural=water water=pond
+ferskvann;stilleståendeVann;tjern;567;"fixme=""consider water=pond"" natural=water water=lake"
+ferskvann;stilleståendeVann;vann;455;natural=water water=lake
+infrastruktur;veg;adressenavn;2;
+infrastruktur;veg;sti;67;highway=path
+infrastruktur;veg;vad;5;ford=yes place=locality
+infrastruktur;veg;vegkryss;1;junction=yes place=locality
+kultur;kulturinstitusjoner;kirke;3;amenity=place_of_worship denomination=lutheran religion=christian
+kultur;kulturminner;offersted;1;historic=heritage place=locality
+markslag;dyrkamark;eng;5;landuse=meadow
+markslag;dyrkamark;utmark;14;place=locality
+markslag;løsmasseavsetninger;elvemel;4;place=locality
+markslag;løsmasseavsetninger;sand;1;natural=beach surface=sand
+markslag;løsmasseavsetninger;stein;3;natural=stone
+markslag;løsmasseavsetninger;ur;2;natural=scree
+markslag;løsmasseavsetninger;øyr;1;place=locality
+markslag;uttakOgDeponi;bergverk;1;landuse=quarry
+markslag;vegetasjon;skog;26;natural=wood
+markslag;våtmark;myr;166;natural=wetland
+offentligAdministrasjon;administrativeIndelinger;annenAdministrativInndeling;1;
+offentligAdministrasjon;administrativeIndelinger;kommune;1;
+offentligAdministrasjon;verne-OgBruksområder;verneområde;1;"fixme=""consider boundary=protected_area and relevant protect_class if not nature reserve"" leisure=nature_reserve"
+terreng;flater;mo;11;place=locality
+terreng;flater;slette;16;place=locality
+terreng;høyder;berg;8;natural=hill place=locality
+terreng;høyder;fjell;321;"fixme=""consider natural=peak for the most distinct mountains in the district"" natural=hill place=locality"
+terreng;høyder;fjellkant;12;place=locality
+terreng;høyder;haug;201;natural=hill place=locality
+terreng;høyder;høyde;8;natural=hill place=locality
+terreng;høyder;rygg;5;natural=ridge place=locality
+terreng;høyder;ås;536;"fixme=""consider natural=peak for the most distinct mountains in the district"" natural=hill place=locality"
+terreng;senkninger;botn;11;natural=valley place=locality
+terreng;senkninger;dal;80;natural=valley place=locality
+terreng;senkninger;dalføre;1;natural=valley place=locality
+terreng;senkninger;senkning;3;natural=valley place=locality
+terreng;senkninger;skar;81;natural=valley place=locality
+terreng;senkninger;søkk;24;natural=valley place=locality
+terreng;skråninger;bakke;36;natural=slope place=locality
+terreng;skråninger;fjellside;8;natural=fell
+terreng;skråninger;li;19;natural=slope place=locality
+terreng;terrengdetaljer;annenTerrengdetalj;1;place=locality
+terreng;terrengdetaljer;heller;6;place=locality
+terreng;terrengdetaljer;hylle;2;place=locality
+terreng;terrengområder;fjellområde;2;natural=mountain_range
+terreng;terrengområder;vidde;17;natural=plateau

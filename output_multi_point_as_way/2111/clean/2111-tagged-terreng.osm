@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-31" lat="80.1114638777" lon="27.986744611">
+		<tag k="name" v="Jøkulrabbane" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="483365" />
+	</node>
+	<node id="-60" lat="79.0103222244" lon="17.4907499844">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Newtontoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="781493" />
+	</node>
+	<node id="-57" lat="80.0635721728" lon="31.5488758441">
+		<tag k="name" v="Vindrabbane" />
+		<tag k="natural" v="fell" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="726402" />
+	</node>
+	<node id="-51" lat="80.0487305483" lon="27.1463140072">
+		<tag k="name" v="Nordmarka" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="665403" />
+	</node>
+	<node id="-46" lat="80.0808388439" lon="31.4881285769">
+		<tag k="name" v="Bekkeflya" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="604393" />
+	</node>
+	<node id="-10" lat="79.9616527724" lon="27.0656695282">
+		<tag k="name" v="Sørmarka" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="58371" />
+	</node>
+	<node id="-6" lat="80.1266027733" lon="27.9256390608">
+		<tag k="name" v="Krungletjørnene" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="362360" />
+	</node>
+</osm>

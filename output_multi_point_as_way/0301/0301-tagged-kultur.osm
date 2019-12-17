@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-39422" lat="59.9386472211" lon="10.773327771">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Torshov kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630685" />
+	</node>
+	<node id="-35413" lat="59.8849722254" lon="10.7880444441">
+		<tag k="ssr:gml_id" v="GEOMETRY_820a2ffc-b156-42e0-ab4c-08b205bf78ab" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39932" lat="59.9389361104" lon="10.7477222199">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Nordre gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="714809" />
+	</node>
+	<node id="-37883" lat="59.9170916674" lon="10.7275500028">
+		<tag k="ssr:gml_id" v="GEOMETRY_36e9e339-9958-4d2e-9a47-328ed89b7fd8" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-37882" lat="59.9170944426" lon="10.727550004">
+		<tag k="ssr:gml_id" v="GEOMETRY_f40a0690-be46-49cf-a7f9-1eda191b815d" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-37881" lat="59.9172249961" lon="10.7270722299">
+		<tag k="ssr:gml_id" v="GEOMETRY_22bd9173-6297-4c6c-a815-2b0fb8a6ec78" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-37880" lat="59.9171250025" lon="10.7276250033">
+		<tag k="ssr:gml_id" v="GEOMETRY_d4dd7612-16f1-4a40-a1d4-1c678b09e63c" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-37879" lat="59.9170277808" lon="10.7281833377">
+		<tag k="ssr:gml_id" v="GEOMETRY_6bf1622e-776b-4924-b124-8e4f3524bd96" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37878" lat="59.9171250017" lon="10.7276305485">
+		<tag k="ssr:gml_id" v="GEOMETRY_bb804a72-e6df-4143-a9a8-74e5793b062d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37875" lat="59.9366916691" lon="10.7292972247">
+		<tag k="ssr:gml_id" v="GEOMETRY_38b681bc-7b0b-4669-8d9b-f81ddb950f73" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-41458" lat="59.9238916701" lon="10.861944445">
+		<tag k="name" v="Haugerud" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="935627" />
+	</node>
+	<node id="-37873" lat="59.9366361113" lon="10.728783339">
+		<tag k="ssr:gml_id" v="GEOMETRY_513174aa-8898-4d91-b81a-a82431b3552c" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-37872" lat="59.9366527812" lon="10.7294888938">
+		<tag k="ssr:gml_id" v="GEOMETRY_478325df-7dc7-4959-97b4-f3e219cfed84" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-37871" lat="59.9366388865" lon="10.7287833403">
+		<tag k="ssr:gml_id" v="GEOMETRY_1eaf69a7-d6c1-4642-8de8-7bea014ee4dc" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37870" lat="59.9366361119" lon="10.728780547">
+		<tag k="ssr:gml_id" v="GEOMETRY_e516a123-a76f-452c-a99b-e471edc1dfe9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37357" lat="59.9213833347" lon="10.8179777797">
+		<tag k="name" v="Østre Aker prestegård" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="206816" />
+	</node>
+	<node id="-39916" lat="59.940683335" lon="10.7007555473">
+		<tag k="name" v="Lille Borgen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="707859" />
+	</node>
+	<node id="-37355" lat="59.9194027792" lon="10.7791333383">
+		<tag k="name" v="Tøyen bad" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="206810" />
+	</node>
+	<node id="-37354" lat="59.9076361084" lon="10.7354277829">
+		<tag k="name" v="Norges Hjemmefrontmuseum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="206793" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-37864" lat="59.9653999997" lon="10.6720333284">
+		<tag k="ssr:gml_id" v="GEOMETRY_0460993d-eb6c-4872-84e5-7b1eca4711da" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-38375" lat="59.8462305563" lon="10.7841833413">
+		<tag k="ssr:gml_id" v="GEOMETRY_0e32c7e6-7824-45d2-bfab-e7769c51fb53" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-38374" lat="59.8462361142" lon="10.78418612">
+		<tag k="ssr:gml_id" v="GEOMETRY_67c1699e-a3ba-495f-b5eb-a3aae24f30a6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37861" lat="59.900863889" lon="10.6927277704">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="fixme" v="specify religion=*, denomination=*, building=* etc" />
+		<tag k="name" v="Sjømannskirken" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="423811" />
+	</node>
+	<node id="-37860" lat="59.937905554" lon="10.6414222175">
+		<tag k="name" v="Rønningen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="423802" />
+	</node>
+	<node id="-35298" lat="59.912980559" lon="10.7299055542">
+		<tag k="name" v="Oslo konserthus" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="327786" />
+	</node>
+	<node id="-39905" lat="59.9333527759" lon="10.8580750071">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Alfaset gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="692795" />
+	</node>
+	<node id="-37856" lat="60.0268277759" lon="10.6282249965">
+		<tag k="name" v="Åsløkka" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="423476" />
+	</node>
+	<node id="-36829" lat="59.9553833376" lon="10.7710527781">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Grefsen kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="144704" />
+	</node>
+	<node id="-36602" lat="59.9033805583" lon="10.6995611082">
+		<tag k="name" v="Framhuset" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="119688" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-37846" lat="59.9857166628" lon="10.6935111169">
+		<tag k="name" v="Frønsvollstråkka" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="422843" />
+	</node>
+	<node id="-35282" lat="59.9198138876" lon="10.7710833264">
+		<tag k="name" v="Zoologisk og Geologisk museum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="327677" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-35793" lat="60.1223999978" lon="10.6042722134">
+		<tag k="name" v="Fururød" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="890615" />
+	</node>
+	<node id="-35791" lat="59.9404277768" lon="10.6849000063">
+		<tag k="name" v="Øvre Smestad" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="889866" />
+	</node>
+	<node id="-40396" lat="59.8701194409" lon="10.8135861195">
+		<tag k="ssr:gml_id" v="GEOMETRY_78491b67-2245-428d-96b5-146bcbb2fe0e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39883" lat="59.9362777797" lon="10.8519388943">
+		<tag k="name" v="Grav" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="691952" />
+	</node>
+	<node id="-36997" lat="59.8987583355" lon="10.6762277745">
+		<tag k="name" v="Fredensborg" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="180811" />
+	</node>
+	<node id="-36297" lat="59.9556333334" lon="10.9260472311">
+		<tag k="ssr:gml_id" v="GEOMETRY_a707f2cb-7fd6-4a30-80f0-ab0852084605" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36296" lat="59.9548916637" lon="10.9273444382">
+		<tag k="ssr:gml_id" v="GEOMETRY_c78acf64-0e3f-41b9-a461-5ff50ed165b3" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-36295" lat="59.957813889" lon="10.8846027809">
+		<tag k="ssr:gml_id" v="GEOMETRY_0d0159ce-8e82-4cfc-821c-bd2fbeab0071" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-36294" lat="59.9578111083" lon="10.8846000081">
+		<tag k="ssr:gml_id" v="GEOMETRY_fe006e48-b6fe-43bc-8b0e-b46600d794e2" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36293" lat="59.957563892" lon="10.8846222168">
+		<tag k="ssr:gml_id" v="GEOMETRY_212436c9-61eb-4cfc-89cf-5c6abeaac5f9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-36512" lat="59.9164166651" lon="10.7368555552">
+		<tag k="name" v="Nasjonalgalleriet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="84811" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-35772" lat="59.9603444417" lon="10.6461333346">
+		<tag k="name" v="Grindbakken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="404838" />
+	</node>
+	<node id="-39863" lat="59.9601194475" lon="10.7452611104">
+		<tag k="name" v="Nordberghjemmet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="691813" />
+	</node>
+	<node id="-39859" lat="59.9166555532" lon="10.7354083342">
+		<tag k="name" v="Historisk museum" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="691781" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-37810" lat="59.9306777759" lon="10.8060361039">
+		<tag k="name" v="Økernly" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="267806" />
+	</node>
+	<node id="-39857" lat="59.9040000002" lon="10.7712194473">
+		<tag k="name" v="Gamlebyen gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="691757" />
+	</node>
+	<node id="-39856" lat="59.916799998" lon="10.7463861072">
+		<tag k="name" v="Deichmanske bibliotek" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="691752" />
+	</node>
+	<node id="-41391" lat="59.9625055575" lon="10.924863885">
+		<tag k="ssr:gml_id" v="GEOMETRY_45e6b066-8d39-45ac-b81f-903a979e5af1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39853" lat="59.9511333357" lon="10.8735777836">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Grorud samfunnshus" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="691723" />
+	</node>
+	<node id="-40364" lat="59.9210888885" lon="10.7031694387">
+		<tag k="name" v="Schafteløkken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="787767" />
+	</node>
+	<node id="-37874" lat="59.9366888854" lon="10.7292944487">
+		<tag k="ssr:gml_id" v="GEOMETRY_1749330c-50e0-41ba-ad1b-0b9f3e8d0119" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-41392" lat="59.9625083373" lon="10.9248666616">
+		<tag k="ssr:gml_id" v="GEOMETRY_f2c1131f-129e-4ce5-ad01-08a5941b5173" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-40352" lat="59.9795111122" lon="10.6081416706">
+		<tag k="name" v="Bjørnsgård" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="786815" />
+	</node>
+	<node id="-38303" lat="59.9993027753" lon="10.7704944429">
+		<tag k="ssr:gml_id" v="GEOMETRY_d407fc2c-10df-461b-9431-1775d8502816" />
+		<tag k="ssr:gml_nr" v="5" />
+	</node>
+	<node id="-38302" lat="59.9992972261" lon="10.7704916717">
+		<tag k="ssr:gml_id" v="GEOMETRY_f3b20f94-e4ef-4955-9bda-cec1052ff222" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-38301" lat="59.9995666625" lon="10.7709944425">
+		<tag k="ssr:gml_id" v="GEOMETRY_4c3065e5-c6d1-4cbf-8c2b-cc15ac086fc7" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-38300" lat="59.9992999961" lon="10.7711805604">
+		<tag k="ssr:gml_id" v="GEOMETRY_792efd8d-2b36-4453-adb7-d65d9ce4273f" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-38299" lat="59.9993000024" lon="10.7711861197">
+		<tag k="ssr:gml_id" v="GEOMETRY_7ef1c3d0-66e2-441c-a069-b1f63bba5c22" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-38298" lat="59.9995388879" lon="10.7710027845">
+		<tag k="ssr:gml_id" v="GEOMETRY_cb899339-f436-40d1-98dd-57dc794ab72b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40089" lat="60.0172777762" lon="10.6635083331">
+		<tag k="ssr:gml_id" v="GEOMETRY_2593f7eb-0f10-49b6-98a1-d8d97239291c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41327" lat="59.9493361117" lon="10.6430916636">
+		<tag k="ssr:gml_id" v="GEOMETRY_259a288b-0f02-47bc-9b57-6b374415beff" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40848" lat="59.9249111132" lon="10.6833444404">
+		<tag k="name" v="Solbakken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="848762" />
+	</node>
+	<node id="-40847" lat="59.9276749979" lon="10.6989249918">
+		<tag k="name" v="Monolitten" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="848759" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-37769" lat="59.9289611092" lon="10.7724694452">
+		<tag k="name" v="Rodeløkka kolonihager" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266838" />
+	</node>
+	<node id="-37768" lat="59.9212944488" lon="10.7439888959">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Vår Frelsers gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266834" />
+	</node>
+	<node id="-37356" lat="59.9507333316" lon="10.7851361136">
+		<tag k="name" v="Grefsenhjemmet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="206814" />
+	</node>
+	<node id="-39574" lat="59.922116666" lon="10.8196249937">
+		<tag k="ssr:gml_id" v="GEOMETRY_cf75ed85-f0f2-49ee-88a6-815bd99d195a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40834" lat="60.0351333376" lon="10.7574166693">
+		<tag k="ssr:gml_id" v="GEOMETRY_2a0192b7-079b-409b-8d59-0537af5f55df" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-40833" lat="60.033336111" lon="10.7601583377">
+		<tag k="ssr:gml_id" v="GEOMETRY_74634965-6c04-4cc8-9de0-16a367cc6f6d" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37754" lat="59.9115972238" lon="10.7542694422">
+		<tag k="name" v="Posthuset" />
+		<tag k="old_name" v="Postgiro" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266776" />
+	</node>
+	<node id="-37753" lat="59.9175111119" lon="10.7432944427">
+		<tag k="name" v="Frelsesarmeen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266771" />
+	</node>
+	<node id="-37752" lat="59.9184972221" lon="10.7441472139">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="St. Olavs kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266760" />
+	</node>
+	<node id="-38263" lat="59.9526611137" lon="10.6679916608">
+		<tag k="name" v="Lybekk" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="482955" />
+	</node>
+	<node id="-41333" lat="59.9428666643" lon="10.8050861054">
+		<tag k="ssr:gml_id" v="GEOMETRY_7c6cdd17-7cb3-4fbc-8980-3dd6755317b5" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-35700" lat="59.9249583307" lon="10.7507388967">
+		<tag k="name" v="Oslo Lysverker" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387824" />
+	</node>
+	<node id="-35134" lat="60.0061611075" lon="10.7627333249">
+		<tag k="name" v="Løva" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="327175" />
+	</node>
+	<node id="-36209" lat="60.0314249961" lon="10.5537499989">
+		<tag k="name" v="Engebonn" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="55439" />
+	</node>
+	<node id="-35696" lat="59.9433305593" lon="10.8012888815">
+		<tag k="name" v="Disenstua" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387808" />
+	</node>
+	<node id="-35695" lat="59.9191638884" lon="10.7771388964">
+		<tag k="name" v="Bellevue" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387805" />
+	</node>
+	<node id="-41326" lat="59.9256666667" lon="10.6547027689">
+		<tag k="alt_name" v="Ullern" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ullern kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="914927" />
+	</node>
+	<node id="-36205" lat="59.9174944412" lon="10.7066555549">
+		<tag k="ssr:gml_id" v="GEOMETRY_c36679da-b329-4c5b-a78f-8e3705b5098a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36204" lat="59.9174972254" lon="10.7066555548">
+		<tag k="ssr:gml_id" v="GEOMETRY_0423ee5d-579a-40a2-9b8f-845148566205" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-35690" lat="59.9073805567" lon="10.7462555492">
+		<tag k="name" v="Oslo Havnelager A/S" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387780" />
+	</node>
+	<node id="-35689" lat="59.9373305584" lon="10.7896861186">
+		<tag k="name" v="Nordre Sinsen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387774" />
+	</node>
+	<node id="-35688" lat="59.9110000028" lon="10.7710194383">
+		<tag k="name" v="Politihuset" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387771" />
+	</node>
+	<node id="-37072" lat="59.899672225" lon="10.8430111152">
+		<tag k="ssr:gml_id" v="GEOMETRY_51c41cca-3671-4cb8-8c6f-8a9c085c6354" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-35685" lat="59.9223861126" lon="10.7660666731">
+		<tag k="alt_name" v="Sofienberg" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Sofienberg kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="387764" />
+	</node>
+	<node id="-37862" lat="59.965402775" lon="10.672033325">
+		<tag k="ssr:gml_id" v="GEOMETRY_e3a1c1d5-5f2a-45a5-b02b-07c51e9f4aa1" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40286" lat="59.9101833318" lon="10.7402388876">
+		<tag k="name" v="Rådmannsgården" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="752766" />
+	</node>
+	<node id="-38969" lat="59.9628499995" lon="10.7424861133">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Nordberg kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="569687" />
+	</node>
+	<node id="-36513" lat="59.9177583323" lon="10.7701305539">
+		<tag k="ssr:gml_id" v="GEOMETRY_f2e62eff-a8a1-4e46-9809-dd214651d59c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41292" lat="59.8825972216" lon="10.8400388801">
+		<tag k="ssr:gml_id" v="GEOMETRY_02bff589-0877-439c-be0b-17038ea6957c" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41291" lat="59.8824194433" lon="10.8397111165">
+		<tag k="ssr:gml_id" v="GEOMETRY_23f0caf6-4323-4995-862e-62bad913b026" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41290" lat="59.859249997" lon="10.8026722288">
+		<tag k="ssr:gml_id" v="GEOMETRY_0a13bbcd-2575-4191-b696-f531de612a30" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41289" lat="59.8590138861" lon="10.802650006">
+		<tag k="ssr:gml_id" v="GEOMETRY_d3a4a553-1953-499f-a171-465f9032319c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-36168" lat="59.9323027752" lon="10.7467000084">
+		<tag k="name" v="Diakonissehuset" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24839" />
+	</node>
+	<node id="-36165" lat="59.9340416676" lon="10.8040166715">
+		<tag k="name" v="Torghallen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24821" />
+	</node>
+	<node id="-36162" lat="59.9155305598" lon="10.7215166635">
+		<tag k="name" v="Nobelinstituttet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24794" />
+	</node>
+	<node id="-36161" lat="59.911283336" lon="10.7560888974">
+		<tag k="name" v="Postterminal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24778" />
+	</node>
+	<node id="-36160" lat="59.9084500019" lon="10.7387416611">
+		<tag k="name" v="Oslo Militære Samfund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24773" />
+	</node>
+	<node id="-36832" lat="59.9127499988" lon="10.7691083335">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="St. Halvards kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="144728" />
+	</node>
+	<node id="-40766" lat="59.9065666703" lon="10.91303056">
+		<tag k="name" v="Pillarene" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="813793" />
+	</node>
+	<node id="-41274" lat="59.9115305555" lon="10.7288833405">
+		<tag k="ssr:gml_id" v="GEOMETRY_5a582669-f892-4108-b721-eaa9d975574a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41273" lat="59.9115861073" lon="10.7287750047">
+		<tag k="ssr:gml_id" v="GEOMETRY_4141b6d5-dfdc-41c0-bd1b-c681a13b57d5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37167" lat="59.8933722185" lon="10.8828750038">
+		<tag k="name" v="Nedre Utsikten" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="205355" />
+		<tag k="tourism" v="viewpoint" />
+	</node>
+	<node id="-41261" lat="60.0030499986" lon="10.698469451">
+		<tag k="name" v="Utsikten" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="907778" />
+		<tag k="tourism" v="viewpoint" />
+	</node>
+	<node id="-41257" lat="60.0213138927" lon="10.5688500031">
+		<tag k="name" v="Støypern" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="907027" />
+	</node>
+	<node id="-40229" lat="59.9128527741" lon="10.7547388931">
+		<tag k="name" v="Oslo Spektrum" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751807" />
+	</node>
+	<node id="-40228" lat="59.9238388907" lon="10.7390527736">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Markus kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751795" />
+	</node>
+	<node id="-40226" lat="59.9167861083" lon="10.7452083405">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Trefoldighetskirken" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751792" />
+	</node>
+	<node id="-38176" lat="59.9419416626" lon="10.8283166704">
+		<tag k="name" v="Lunden kloster" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448832" />
+	</node>
+	<node id="-40223" lat="59.9467111084" lon="10.859008327">
+		<tag k="ssr:gml_id" v="GEOMETRY_71032b91-f782-4e4f-9471-3eb17bab0836" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-38174" lat="59.9043916681" lon="10.7407805486">
+		<tag k="name" v="Armémuseum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448824" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-40221" lat="59.9468138883" lon="10.8593388847">
+		<tag k="ssr:gml_id" v="GEOMETRY_b25231b3-2a28-47b4-b4dd-39f232a950e5" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-38172" lat="59.9317833325" lon="10.7513888942">
+		<tag k="name" v="Iladalen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448814" />
+	</node>
+	<node id="-38171" lat="59.9150611072" lon="10.7564361189">
+		<tag k="name" v="Prinds Christian Augusts Minde" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448805" />
+	</node>
+	<node id="-36634" lat="59.9102833346" lon="10.6923999936">
+		<tag k="ssr:gml_id" v="GEOMETRY_c01af281-f6a2-4b05-b250-446dfc07a907" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36633" lat="59.9102861099" lon="10.6923999918">
+		<tag k="ssr:gml_id" v="GEOMETRY_eaf4ef21-814e-4ae5-84cd-aeab7aa29c09" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40216" lat="59.9113583334" lon="10.7424305603">
+		<tag k="name" v="Televerket" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751734" />
+	</node>
+	<node id="-38679" lat="59.9214611084" lon="10.8577861145">
+		<tag k="ssr:gml_id" v="GEOMETRY_b82226d0-8d4b-430d-9f30-77bffa66f623" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-38678" lat="59.9211583305" lon="10.8576500006">
+		<tag k="ssr:gml_id" v="GEOMETRY_2040a5d2-145b-470d-9893-55748f1ed54f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-38677" lat="59.9211583363" lon="10.8576527739">
+		<tag k="ssr:gml_id" v="GEOMETRY_1884e67c-2823-4a54-95a4-6e1535b3007c" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40211" lat="59.9119472251" lon="10.7819861064">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Kampen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751718" />
+	</node>
+	<node id="-35459" lat="59.9081583322" lon="10.7376333351">
+		<tag k="ssr:gml_id" v="GEOMETRY_b16dd41d-aea4-4e5c-b621-cb614f87dd82" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36111" lat="59.874238886" lon="10.8199388817">
+		<tag k="name" v="Grotten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="24503" />
+	</node>
+	<node id="-38670" lat="59.923713887" lon="10.7469916733">
+		<tag k="ssr:gml_id" v="GEOMETRY_a418be38-ffd0-415e-bb8e-adcc7c055461" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-38669" lat="59.9235500031" lon="10.7477499991">
+		<tag k="ssr:gml_id" v="GEOMETRY_372448af-f7b1-498a-b449-56cb539da5df" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-38668" lat="59.9237166704" lon="10.7469944497">
+		<tag k="ssr:gml_id" v="GEOMETRY_7885e24b-169f-4cc6-9cef-9d74e7c5703b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-35458" lat="59.9072833341" lon="10.7379166613">
+		<tag k="ssr:gml_id" v="GEOMETRY_2208a139-5107-46e8-8c7b-4227301c70a9" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-40714" lat="59.9426583299" lon="10.7206027739">
+		<tag k="name" v="Meteorologisk institutt" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="812839" />
+	</node>
+	<node id="-40713" lat="59.9303555555" lon="10.7895416601">
+		<tag k="name" v="Fellesslakteriet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="812832" />
+	</node>
+	<node id="-41734" lat="59.9179750024" lon="10.6656944511">
+		<tag k="name" v="Maritim" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="969786" />
+	</node>
+	<node id="-41733" lat="59.9200805547" lon="10.6754250059">
+		<tag k="name" v="Sjølyst" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="969782" />
+	</node>
+	<node id="-40707" lat="59.9060694457" lon="10.7675916678">
+		<tag k="name" v="Oslo Ladegård" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="812785" />
+	</node>
+	<node id="-40706" lat="59.9328500004" lon="10.7529277696">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ila kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="812781" />
+	</node>
+	<node id="-38657" lat="59.9227638863" lon="10.7000694457">
+		<tag k="name" v="Vigelandsmuseet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="544783" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-36608" lat="59.9055416636" lon="10.6745666714">
+		<tag k="name" v="Strømsborg" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="120802" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-38655" lat="59.9242749985" lon="10.6802888901">
+		<tag k="name" v="Amalienborg" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="544763" />
+	</node>
+	<node id="-36606" lat="59.9388749987" lon="10.6414000069">
+		<tag k="name" v="Sandbakken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="120767" />
+	</node>
+	<node id="-41173" lat="59.9410138934" lon="10.7346277722">
+		<tag k="name" v="Store Ullevål" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="873811" />
+	</node>
+	<node id="-41722" lat="59.9325277802" lon="10.712541659">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Chateau Neuf" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="968972" />
+	</node>
+	<node id="-41716" lat="59.8990388901" lon="10.6780305582">
+		<tag k="name" v="Grande" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="968735" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-41710" lat="60.0218805569" lon="10.6009416654">
+		<tag k="name" v="Bjørnebråten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="967014" />
+	</node>
+	<node id="-41706" lat="60.0627277761" lon="10.817580562">
+		<tag k="name" v="Skjerpet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="965500" />
+	</node>
+	<node id="-37090" lat="59.8509055578" lon="10.8806583315">
+		<tag k="ssr:gml_id" v="GEOMETRY_cae3a1fb-9876-446b-9c0b-b159254d0b2c" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-37089" lat="59.8511222203" lon="10.8808694412">
+		<tag k="ssr:gml_id" v="GEOMETRY_3006f839-6b10-49ab-807e-3ef1daafc050" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-37088" lat="59.8506500031" lon="10.8808861166">
+		<tag k="ssr:gml_id" v="GEOMETRY_27e28b3a-84c0-4b51-bcd0-8924ce72a379" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37087" lat="59.8506472225" lon="10.8808833353">
+		<tag k="ssr:gml_id" v="GEOMETRY_d8987109-bc02-481b-9037-bb38fad08b69" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-36569" lat="60.0515916693" lon="10.5822472253">
+		<tag k="name" v="Ullandhogget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="100340" />
+	</node>
+	<node id="-36833" lat="59.948908333" lon="10.7541027803">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Bakkehaugen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="144733" />
+	</node>
+	<node id="-41685" lat="60.0534361103" lon="10.6358055484">
+		<tag k="name" v="Pålsbråtan" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="950344" />
+	</node>
+	<node id="-41171" lat="59.9062055596" lon="10.7692833315">
+		<tag k="name" v="Bispegården" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="873743" />
+	</node>
+	<node id="-41170" lat="59.91595556" lon="10.748047221">
+		<tag k="alt_name" v="Hovedbrannst." />
+		<tag k="name" v="Hovedbrannstasjon" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="873734" />
+	</node>
+	<node id="-37073" lat="59.8996749974" lon="10.8430138971">
+		<tag k="ssr:gml_id" v="GEOMETRY_95de52b0-445b-4592-8d7e-66f23f31a318" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-41168" lat="59.9692888874" lon="10.8903916596">
+		<tag k="ssr:gml_id" v="GEOMETRY_c469327b-6a0c-455e-ab39-f42e6142085d" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41167" lat="59.9692888925" lon="10.890394437">
+		<tag k="ssr:gml_id" v="GEOMETRY_516d1feb-09d2-4c4a-a24d-0e9dadcb0aa6" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-41166" lat="59.9214194483" lon="10.7842083324">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Hasle kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="873699" />
+	</node>
+	<node id="-35019" lat="59.9126305547" lon="10.7464749918">
+		<tag k="ssr:gml_id" v="GEOMETRY_9688e870-3bab-4d09-9fbe-d5b2b40308d5" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-35018" lat="59.9125138929" lon="10.7469333249">
+		<tag k="ssr:gml_id" v="GEOMETRY_110c3520-275a-4b1f-8405-97760e8927d8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37751" lat="59.9376722202" lon="10.753072228">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Sagene kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="266756" />
+	</node>
+	<node id="-35016" lat="59.9136027808" lon="10.8076944457">
+		<tag k="ssr:gml_id" v="GEOMETRY_7a5d0394-e0dc-4118-841f-b64caa82aee2" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-35015" lat="59.9136000008" lon="10.8076888929">
+		<tag k="ssr:gml_id" v="GEOMETRY_151328b6-4498-4b92-8b5b-55e4f946fc2f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-35014" lat="59.9135972187" lon="10.8076861123">
+		<tag k="ssr:gml_id" v="GEOMETRY_f2a28bf4-1eff-4cdd-82fb-d09a495fa882" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39108" lat="59.9038055525" lon="10.6768222218">
+		<tag k="name" v="Sverresborg" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="605806" />
+	</node>
+	<node id="-37071" lat="59.8997027745" lon="10.843111106">
+		<tag k="ssr:gml_id" v="GEOMETRY_ee50d7d1-31ae-439d-9ca6-52681beb492a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39106" lat="59.9225500045" lon="10.6804166698">
+		<tag k="name" v="Sofienlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="605768" />
+	</node>
+	<node id="-40395" lat="59.869788891" lon="10.8133250061">
+		<tag k="ssr:gml_id" v="GEOMETRY_54b2257f-d99c-4a56-b2fe-6e4442ceb06a" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37568" lat="60.0155138855" lon="10.616538887">
+		<tag k="ssr:gml_id" v="GEOMETRY_464b9060-21b1-4d60-8bf8-736c62e8bbda" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37567" lat="60.0155194485" lon="10.616544451">
+		<tag k="ssr:gml_id" v="GEOMETRY_59f23bd3-66ae-48be-8a77-199ffb67f5ff" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39102" lat="59.9383500005" lon="10.7005833322">
+		<tag k="name" v="Store Borgen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="603966" />
+	</node>
+	<node id="-41332" lat="59.942563888" lon="10.8051444375">
+		<tag k="ssr:gml_id" v="GEOMETRY_2b84c895-8f4d-4e86-88d4-b0d31d326da7" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-35017" lat="59.91263333" lon="10.7464749945">
+		<tag k="ssr:gml_id" v="GEOMETRY_bfef580e-3352-4470-9940-268e8af7beef" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39092" lat="60.0341527775" lon="10.521674994">
+		<tag k="name" v="Hvileberget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="601473" />
+	</node>
+	<node id="-40222" lat="59.9468111129" lon="10.8593388904">
+		<tag k="ssr:gml_id" v="GEOMETRY_57827106-ed33-4be8-a1c8-9c7e79f80ff0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36017" lat="59.903455555" lon="10.7621111153">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Mariakirkens ruiner" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="23790" />
+	</node>
+	<node id="-36016" lat="59.9273027794" lon="10.7297083409">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Fagerborg kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="23787" />
+	</node>
+	<node id="-41672" lat="59.9540805553" lon="10.9079888905">
+		<tag k="name" v="Motorsenter N" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="935797" />
+	</node>
+	<node id="-36014" lat="59.9319972212" lon="10.7874527773">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Sinsen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="23772" />
+	</node>
+	<node id="-39597" lat="59.830674996" lon="10.8489305526">
+		<tag k="ssr:gml_id" v="GEOMETRY_28bb31ba-363e-4068-934c-adb8d24e4a7f" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39596" lat="59.8305555555" lon="10.8491722173">
+		<tag k="ssr:gml_id" v="GEOMETRY_db14bbd4-8952-4e2b-932a-01bdafb3582b" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-35297" lat="59.9091916628" lon="10.7250194382">
+		<tag k="name" v="Koøyet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="327775" />
+	</node>
+	<node id="-40220" lat="59.9067749982" lon="10.788011105">
+		<tag k="alt_name" v="Vålerenga" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Vålerenga kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751765" />
+	</node>
+	<node id="-37070" lat="59.8997000019" lon="10.843108342">
+		<tag k="ssr:gml_id" v="GEOMETRY_995ea131-cf66-4026-9550-1bc5a6f33c69" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-38564" lat="59.9099499999" lon="10.7395750045">
+		<tag k="name" v="Teatermuseum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="509756" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-36515" lat="59.9177500003" lon="10.7701249941">
+		<tag k="ssr:gml_id" v="GEOMETRY_3d645e5d-f98b-49d4-9d1f-351ae6558ea8" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-36514" lat="59.9177527755" lon="10.7701249988">
+		<tag k="ssr:gml_id" v="GEOMETRY_5cde8c01-a171-4dfc-881c-5d3a543d6e8e" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-40219" lat="59.9296750015" lon="10.7264499934">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="De døves kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751761" />
+	</node>
+	<node id="-38560" lat="59.9088027764" lon="10.7477527723">
+		<tag k="name" v="Børsen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="509729" />
+	</node>
+	<node id="-38559" lat="59.9211833367" lon="10.7198555516">
+		<tag k="alt_name" v="Uranienborg" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Uranienborg kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="509718" />
+	</node>
+	<node id="-38558" lat="59.9030527767" lon="10.7677083396">
+		<tag k="alt_name" v="Gamlebyen" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Gamlebyen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="509716" />
+	</node>
+	<node id="-41629" lat="59.9279416635" lon="10.7747972238">
+		<tag k="name" v="Kronprinsesse Märthas institutt" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934806" />
+	</node>
+	<node id="-41628" lat="59.9667055545" lon="10.7357472165">
+		<tag k="name" v="Riksarkivet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934800" />
+	</node>
+	<node id="-36507" lat="59.9263805599" lon="10.7582861092">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Paulus kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="84745" />
+	</node>
+	<node id="-40090" lat="60.0172805523" lon="10.66351111">
+		<tag k="ssr:gml_id" v="GEOMETRY_54484004-d0fc-48ef-a795-efc5c9ec66d8" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39065" lat="59.956880558" lon="10.7142277709">
+		<tag k="name" v="Tuggerud" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="585742" />
+	</node>
+	<node id="-39576" lat="59.9221138906" lon="10.8196250027">
+		<tag k="ssr:gml_id" v="GEOMETRY_b54518a1-03ef-404d-a89d-b6e684d453b1" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-41623" lat="59.952794447" lon="10.7873361155">
+		<tag k="name" v="Vestre Grefsen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934776" />
+	</node>
+	<node id="-41622" lat="59.9169277758" lon="10.7743777708">
+		<tag k="name" v="Munchmuseet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934774" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-39060" lat="60.0874194486" lon="10.6241305552">
+		<tag k="name" v="Askenga" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="585613" />
+	</node>
+	<node id="-35011" lat="59.94429167" lon="10.909369438">
+		<tag k="alt_name" v="Høybråten kapell" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Høybråten kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="308048" />
+	</node>
+	<node id="-38170" lat="59.9104138911" lon="10.745741665">
+		<tag k="name" v="Gamle posthuset" />
+		<tag k="old_name" v="Posthuset" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448804" />
+	</node>
+	<node id="-38680" lat="59.9214638897" lon="10.857788882">
+		<tag k="ssr:gml_id" v="GEOMETRY_1ee923d6-7435-45a1-a4d9-8c3fbbbda853" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-37518" lat="59.947422219" lon="10.7014916692">
+		<tag k="ssr:gml_id" v="GEOMETRY_6ec53fa3-e4ff-4df0-a743-7a44a07794bc" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-37517" lat="59.9474250032" lon="10.7014916687">
+		<tag k="ssr:gml_id" v="GEOMETRY_197c4081-6adb-4298-81fb-6dd1ba6908c0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37516" lat="59.9474250031" lon="10.7014888936">
+		<tag k="ssr:gml_id" v="GEOMETRY_21618d9c-52e6-47fa-ab87-70c8711671c2" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39049" lat="59.9352416644" lon="10.8063777818">
+		<tag k="name" v="Gartnerhall" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="570805" />
+	</node>
+	<node id="-35976" lat="59.8297388871" lon="10.7710111179">
+		<tag k="name" v="Motorsenteret" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="23020" />
+	</node>
+	<node id="-34951" lat="59.9022861069" lon="10.6818583272">
+		<tag k="name" v="Bygdøyhus" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="302788" />
+	</node>
+	<node id="-34950" lat="59.9030000037" lon="10.6872944508">
+		<tag k="name" v="Fredriksborg" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="302787" />
+	</node>
+	<node id="-36485" lat="59.9182249978" lon="10.770502785">
+		<tag k="name" v="Tøyen hovedgård" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="84798" />
+	</node>
+	<node id="-35460" lat="59.9072805595" lon="10.7379138875">
+		<tag k="ssr:gml_id" v="GEOMETRY_3e080960-378a-4ac2-ae5e-74ebca54b0fa" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-36995" lat="59.9389958621" lon="10.7215301939">
+		<tag k="name" v="Universitetsbiblioteket" />
+		<tag k="ssr:date" v="2017-12-07" />
+		<tag k="ssr:stedsnr" v="180790" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-34946" lat="59.9278638877" lon="10.650016658">
+		<tag k="name" v="Øvre Ullern" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="302754" />
+	</node>
+	<node id="-39575" lat="59.9219111126" lon="10.8198111074">
+		<tag k="ssr:gml_id" v="GEOMETRY_22b02855-cf17-4fcb-a04e-cf2c26b3c73a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37863" lat="59.9654055597" lon="10.6720361165">
+		<tag k="ssr:gml_id" v="GEOMETRY_0cb35e22-51e4-41cf-a278-616665ad6d45" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-36991" lat="59.9902027817" lon="10.6348861029">
+		<tag k="name" v="Holen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="179969" />
+	</node>
+	<node id="-39548" lat="59.954233333" lon="10.7792472238">
+		<tag k="ssr:gml_id" v="GEOMETRY_ac5632ae-72bc-4a5d-b40a-d8ba640498df" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-39547" lat="59.9542305578" lon="10.7792472183">
+		<tag k="ssr:gml_id" v="GEOMETRY_508f6aa7-6b99-42d6-9c12-3d1c00ee2927" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-39546" lat="59.9541416692" lon="10.7791638909">
+		<tag k="ssr:gml_id" v="GEOMETRY_6aa8a938-86dc-4055-81b7-082231282670" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39545" lat="59.9541388865" lon="10.7791611092">
+		<tag k="ssr:gml_id" v="GEOMETRY_53dfe2cd-d451-43e2-8a62-763f5ed83acc" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-39542" lat="59.9714027758" lon="10.6258555566">
+		<tag k="ssr:gml_id" v="GEOMETRY_36c8e5d2-fbc1-4233-a3eb-ffcedc4bc8f3" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-39541" lat="59.9714055528" lon="10.6258583264">
+		<tag k="ssr:gml_id" v="GEOMETRY_21f3ab02-cf9a-4ef3-8915-71879bca54a7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39540" lat="59.971575004" lon="10.6274611175">
+		<tag k="ssr:gml_id" v="GEOMETRY_de8d2bf5-dfef-4e8f-8252-d45482f83451" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37994" lat="59.9110666655" lon="10.7676749946">
+		<tag k="alt_name" v="Grønland" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Grønland kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448783" />
+	</node>
+	<node id="-37993" lat="59.9181749961" lon="10.7544305587">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Jacob kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448782" />
+	</node>
+	<node id="-39526" lat="59.9774083333" lon="10.6632333326">
+		<tag k="name" v="Voksentoppen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="664874" />
+	</node>
+	<node id="-40465" lat="59.9314777744" lon="10.6972388893">
+		<tag k="ssr:gml_id" v="GEOMETRY_2269015d-3bb3-4938-814b-efd0a8099edb" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-37990" lat="59.9315666645" lon="10.7656527706">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Lilleborg kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="448762" />
+	</node>
+	<node id="-36961" lat="60.1168472231" lon="10.7231333324">
+		<tag k="name" v="Elgfallet" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="161596" />
+	</node>
+	<node id="-35414" lat="59.8848805539" lon="10.7882916728">
+		<tag k="ssr:gml_id" v="GEOMETRY_8d94d362-6fe0-46a5-b6e0-4a649583a68a" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-37461" lat="59.8767555555" lon="10.7623361068">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ormøy kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="247178" />
+	</node>
+	<node id="-38995" lat="59.9154500046" lon="10.7196249956">
+		<tag k="name" v="Oslo Lysverker" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="569755" />
+	</node>
+	<node id="-38994" lat="59.9143527784" lon="10.7341777697">
+		<tag k="name" v="Nationaltheatret" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="569756" />
+	</node>
+	<node id="-35408" lat="59.9324638899" lon="10.8581083386">
+		<tag k="ssr:gml_id" v="GEOMETRY_70c14ea5-b607-4dfc-ab1d-323ee86082a6" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-35407" lat="59.9324583334" lon="10.858105558">
+		<tag k="ssr:gml_id" v="GEOMETRY_8ff3676d-379e-4a0b-8427-b7bf978eed48" />
+		<tag k="ssr:gml_nr" v="0" />
+	</node>
+	<node id="-36524" lat="59.9491166635" lon="10.7742416609">
+		<tag k="name" v="Renholdsverket" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="84842" />
+	</node>
+	<node id="-41617" lat="59.9313194481" lon="10.7212055497">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Majorstuen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934739" />
+	</node>
+	<node id="-41329" lat="59.949333335" lon="10.6430888942">
+		<tag k="ssr:gml_id" v="GEOMETRY_13f96828-f267-4623-b8fe-c2a847744586" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-39491" lat="59.9150583347" lon="10.8107888961">
+		<tag k="name" v="Timms reperbane" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="631823" />
+	</node>
+	<node id="-39490" lat="59.9535138868" lon="10.8560194458">
+		<tag k="name" v="Rødtvet daghjem" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="631812" />
+	</node>
+	<node id="-37438" lat="59.9443888849" lon="10.8478888821">
+		<tag k="amenity" v="community_centre" />
+		<tag k="name" v="Kulturhuset Veitvet" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="242271" />
+	</node>
+	<node id="-37436" lat="59.9343638911" lon="10.7107750035">
+		<tag k="name" v="Lille Frøen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="241753" />
+	</node>
+	<node id="-37435" lat="59.9288138906" lon="10.672913897">
+		<tag k="name" v="Haugen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="241740" />
+	</node>
+	<node id="-41529" lat="59.9061361141" lon="10.6787277719">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Bygdøy kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="934313" />
+	</node>
+	<node id="-36915" lat="59.947074998" lon="10.7284583398">
+		<tag k="name" v="Sogn hagekoloni" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="145817" />
+	</node>
+	<node id="-35377" lat="59.9066555572" lon="10.6843500004">
+		<tag k="name" v="Norsk folkemuseum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="359377" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-41394" lat="59.9627388858" lon="10.9247944499">
+		<tag k="ssr:gml_id" v="GEOMETRY_a16b3037-29ab-49a8-9912-50570f4dbdc3" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-35461" lat="59.9080777815" lon="10.7368527781">
+		<tag k="ssr:gml_id" v="GEOMETRY_3094eab5-fe67-4eae-9a5b-f7661d6ab84f" />
+		<tag k="ssr:gml_nr" v="3" />
+	</node>
+	<node id="-41328" lat="59.949338888" lon="10.643094451">
+		<tag k="ssr:gml_id" v="GEOMETRY_2f3e7376-5751-445b-84a9-31b5c44426d7" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-41393" lat="59.9627361104" lon="10.9247944501">
+		<tag k="ssr:gml_id" v="GEOMETRY_b36c81d8-96d3-435e-b9d8-672ae027e369" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-37884" lat="59.9170944433" lon="10.7275472136">
+		<tag k="ssr:gml_id" v="GEOMETRY_e52d5a19-052e-43b0-b612-700accd24e0d" />
+		<tag k="ssr:gml_nr" v="6" />
+	</node>
+	<node id="-38431" lat="59.9958555517" lon="10.7650972246">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Margaretakirken" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="509174" />
+	</node>
+	<node id="-40474" lat="59.8964027812" lon="10.810822224">
+		<tag k="alt_name" v="Manglerud" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Manglerud kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="794093" />
+	</node>
+	<node id="-36015" lat="59.9574055596" lon="10.8687277748">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Rødtvet kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="23777" />
+	</node>
+	<node id="-36605" lat="59.9308861086" lon="10.6682944387">
+		<tag k="name" v="Ekebakken" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="120740" />
+	</node>
+	<node id="-39959" lat="59.9184416693" lon="10.6793138916">
+		<tag k="name" v="Smedsbråten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="726819" />
+	</node>
+	<node id="-39446" lat="59.9358083339" lon="10.7202083266">
+		<tag k="name" v="Fjernsynshuset NRK" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630788" />
+	</node>
+	<node id="-39445" lat="59.9369444429" lon="10.7442805485">
+		<tag k="name" v="Geitmyra" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630787" />
+	</node>
+	<node id="-39444" lat="59.9185027775" lon="10.7310444377">
+		<tag k="name" v="Grotten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630786" />
+	</node>
+	<node id="-40467" lat="59.9314805586" lon="10.6972388884">
+		<tag k="ssr:gml_id" v="GEOMETRY_a97463c5-59b0-4104-bd7b-fd61af4b55dd" />
+		<tag k="ssr:gml_nr" v="2" />
+	</node>
+	<node id="-40466" lat="59.931483334" lon="10.6972416608">
+		<tag k="ssr:gml_id" v="GEOMETRY_3b8f0e81-0690-4e4e-8485-30ba7f9555d0" />
+		<tag k="ssr:gml_nr" v="1" />
+	</node>
+	<node id="-39953" lat="59.9135666623" lon="10.6457472186">
+		<tag k="name" v="Franzebråten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="726785" />
+	</node>
+	<node id="-39438" lat="59.9084944486" lon="10.740944443">
+		<tag k="name" v="Museet for samtidskunst" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630754" />
+		<tag k="tourism" v="attraction" />
+	</node>
+	<node id="-40365" lat="59.9128083368" lon="10.7178055494">
+		<tag k="name" v="Observatoriet" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="787776" />
+		<tag k="tourism" v="museum" />
+	</node>
+	<node id="-39947" lat="60.0176666657" lon="10.6398500075">
+		<tag k="name" v="Heggedal" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="725026" />
+	</node>
+	<node id="-39432" lat="59.9070333311" lon="10.7417111067">
+		<tag k="name" v="Gamle Logen" />
+		<tag k="old_name" v="Den gamle losje" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630741" />
+	</node>
+	<node id="-39431" lat="59.9084666636" lon="10.7435222262">
+		<tag k="name" v="Norges Bank" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630740" />
+	</node>
+	<node id="-39430" lat="59.9145000015" lon="10.7441805615">
+		<tag k="name" v="Oslo Tinghus" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630726" />
+	</node>
+	<node id="-41395" lat="59.9627416656" lon="10.9247972265">
+		<tag k="ssr:gml_id" v="GEOMETRY_f72468f0-8250-4c62-8ec8-1ba28abba476" />
+		<tag k="ssr:gml_nr" v="4" />
+	</node>
+	<node id="-39425" lat="59.9102138918" lon="10.736588882">
+		<tag k="name" v="Kontraskjæret" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="630704" />
+	</node>
+	<way id="-8192">
+		<tag k="alt_name" v="Grefsen" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Grefsen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="671524" />
+		<nd ref="-39545" />
+		<nd ref="-39546" />
+		<nd ref="-39547" />
+		<nd ref="-39548" />
+	</way>
+	<way id="-8190">
+		<tag k="name" v="Bogstad" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="671048" />
+		<tag k="tourism" v="attraction" />
+		<nd ref="-39540" />
+		<nd ref="-39541" />
+		<nd ref="-39542" />
+	</way>
+	<way id="-8441">
+		<tag k="name" v="Skarsbråten" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="844124" />
+		<nd ref="-40833" />
+		<nd ref="-40834" />
+	</way>
+	<way id="-8310">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Nordmarkskapellet" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="734885" />
+		<nd ref="-40089" />
+		<nd ref="-40090" />
+	</way>
+	<way id="-8040">
+		<tag k="alt_name" v="Haugerud" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Haugerud kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="550036" />
+		<nd ref="-38677" />
+		<nd ref="-38678" />
+		<nd ref="-38679" />
+		<nd ref="-38680" />
+	</way>
+	<way id="-7656">
+		<tag k="name" v="Oscarshall" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="125890" />
+		<tag k="tourism" v="museum" />
+		<nd ref="-36633" />
+		<nd ref="-36634" />
+	</way>
+	<way id="-8037">
+		<tag k="alt_name" v="Gamle Aker" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Gamle Aker kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="550006" />
+		<nd ref="-38668" />
+		<nd ref="-38669" />
+		<nd ref="-38670" />
+	</way>
+	<way id="-8540">
+		<tag k="alt_name" v="Tonsen" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Tonsen kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="915031" />
+		<nd ref="-41332" />
+		<nd ref="-41333" />
+	</way>
+	<way id="-8538">
+		<tag k="alt_name" v="Røa" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Røa kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="914986" />
+		<nd ref="-41327" />
+		<nd ref="-41328" />
+		<nd ref="-41329" />
+	</way>
+	<way id="-8527">
+		<tag k="alt_name" v="Bøler" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Bøler kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="915155" />
+		<nd ref="-41291" />
+		<nd ref="-41292" />
+	</way>
+	<way id="-8505">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Romsås kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="873707" />
+		<nd ref="-41167" />
+		<nd ref="-41168" />
+	</way>
+	<way id="-8526">
+		<tag k="alt_name" v="Nordstrand" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Nordstrand kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="915148" />
+		<nd ref="-41289" />
+		<nd ref="-41290" />
+	</way>
+	<way id="-7888">
+		<tag k="alt_name" v="Det kgl.slott;Det Kgl. Slott" />
+		<tag k="name" v="Det Kongelige Slott" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="429090" />
+		<tag k="tourism" v="attraction" />
+		<nd ref="-37878" />
+		<nd ref="-37879" />
+		<nd ref="-37880" />
+		<nd ref="-37881" />
+		<nd ref="-37882" />
+		<nd ref="-37883" />
+		<nd ref="-37884" />
+	</way>
+	<way id="-7631">
+		<tag k="name" v="Botanisk hage og museum" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="84813" />
+		<tag k="tourism" v="attraction" />
+		<nd ref="-36513" />
+		<nd ref="-36514" />
+		<nd ref="-36515" />
+	</way>
+	<way id="-7886">
+		<tag k="alt_name" v="Vestre Aker" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Vestre Aker kirke" />
+		<tag k="old_name" v="V.Aker" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="429057" />
+		<nd ref="-37870" />
+		<nd ref="-37871" />
+		<nd ref="-37872" />
+		<nd ref="-37873" />
+		<nd ref="-37874" />
+		<nd ref="-37875" />
+	</way>
+	<way id="-7884">
+		<tag k="alt_name" v="Holmenkollen" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Holmenkollen kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="428044" />
+		<nd ref="-37862" />
+		<nd ref="-37863" />
+		<nd ref="-37864" />
+	</way>
+	<way id="-8520">
+		<tag k="alt_name" v="Oslo V." />
+		<tag k="name" v="Oslo V" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="915103" />
+		<nd ref="-41273" />
+		<nd ref="-41274" />
+	</way>
+	<way id="-7747">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Østmarkkapellet" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="187227" />
+		<nd ref="-37087" />
+		<nd ref="-37088" />
+		<nd ref="-37089" />
+		<nd ref="-37090" />
+	</way>
+	<way id="-7361">
+		<tag k="alt_name" v="Domkirken" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Oslo domkirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="308088" />
+		<nd ref="-35017" />
+		<nd ref="-35018" />
+		<nd ref="-35019" />
+	</way>
+	<way id="-7360">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Østre gravlund" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="308081" />
+		<nd ref="-35014" />
+		<nd ref="-35015" />
+		<nd ref="-35016" />
+	</way>
+	<way id="-7743">
+		<tag k="alt_name" v="Oppsal" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Oppsal kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="187087" />
+		<nd ref="-37070" />
+		<nd ref="-37071" />
+		<nd ref="-37072" />
+		<nd ref="-37073" />
+	</way>
+	<way id="-8379">
+		<tag k="cemetery" v="grave" />
+		<tag k="name" v="Vestre gravlund" />
+		<tag k="old_name" v="Gravlund, vestre" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="793955" />
+		<nd ref="-40465" />
+		<nd ref="-40466" />
+		<nd ref="-40467" />
+	</way>
+	<way id="-7993">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ljan kirke" />
+		<tag k="old_name" v="Ljan kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="490236" />
+		<nd ref="-38374" />
+		<nd ref="-38375" />
+	</way>
+	<way id="-8328">
+		<tag k="alt_name" v="Breidtvet;Bredtvet" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Bredtvet kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="751774" />
+		<nd ref="-40221" />
+		<nd ref="-40222" />
+		<nd ref="-40223" />
+	</way>
+	<way id="-7593">
+		<tag k="alt_name" v="Stovner" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Stovner kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="65495" />
+		<nd ref="-36296" />
+		<nd ref="-36297" />
+	</way>
+	<way id="-7592">
+		<tag k="alt_name" v="Grorud" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Grorud kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="65491" />
+		<nd ref="-36293" />
+		<nd ref="-36294" />
+		<nd ref="-36295" />
+	</way>
+	<way id="-7847">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Sørkedalen kirke" />
+		<tag k="old_name" v="Sørkedal;Sørkedalen kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="248904" />
+		<nd ref="-37567" />
+		<nd ref="-37568" />
+	</way>
+	<way id="-8356">
+		<tag k="alt_name" v="Lambertseter" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Lambertseter kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="793135" />
+		<nd ref="-40395" />
+		<nd ref="-40396" />
+	</way>
+	<way id="-7971">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Maridalen kirke" />
+		<tag k="old_name" v="Maridal;Maridalen kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="489622" />
+		<nd ref="-38298" />
+		<nd ref="-38299" />
+		<nd ref="-38300" />
+		<nd ref="-38301" />
+		<nd ref="-38302" />
+		<nd ref="-38303" />
+	</way>
+	<way id="-8559">
+		<tag k="alt_name" v="Fossum" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Fossum kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-11" />
+		<tag k="ssr:stedsnr" v="915524" />
+		<nd ref="-41391" />
+		<nd ref="-41392" />
+		<nd ref="-41393" />
+		<nd ref="-41394" />
+		<nd ref="-41395" />
+	</way>
+	<way id="-7831">
+		<tag k="alt_name" v="Ris" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Ris kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="247974" />
+		<nd ref="-37516" />
+		<nd ref="-37517" />
+		<nd ref="-37518" />
+	</way>
+	<way id="-7446">
+		<tag k="alt_name" v="Akershus slott og festning" />
+		<tag k="name" v="Akershus slott" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="369113" />
+		<tag k="tourism" v="attraction" />
+		<nd ref="-35458" />
+		<nd ref="-35459" />
+		<nd ref="-35460" />
+		<nd ref="-35461" />
+	</way>
+	<way id="-7573">
+		<tag k="alt_name" v="Frogner" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Frogner kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="51445" />
+		<nd ref="-36204" />
+		<nd ref="-36205" />
+	</way>
+	<way id="-8208">
+		<tag k="alt_name" v="Klemetsrud kapell" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Klemetsrud kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="672192" />
+		<nd ref="-39596" />
+		<nd ref="-39597" />
+	</way>
+	<way id="-8202">
+		<tag k="alt_name" v="Østre Aker" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Østre Aker kirke" />
+		<tag k="old_name" v="Ø.Aker" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="672099" />
+		<nd ref="-39574" />
+		<nd ref="-39575" />
+		<nd ref="-39576" />
+	</way>
+	<way id="-7432">
+		<tag k="alt_name" v="Bekkelaget" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Bekkelaget kirke" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="368185" />
+		<nd ref="-35413" />
+		<nd ref="-35414" />
+	</way>
+	<way id="-7430">
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="denomination" v="lutheran" />
+		<tag k="name" v="Alfaset kapell" />
+		<tag k="religion" v="christian" />
+		<tag k="ssr:date" v="2016-05-10" />
+		<tag k="ssr:stedsnr" v="368059" />
+		<nd ref="-35407" />
+		<nd ref="-35408" />
+	</way>
+</osm>

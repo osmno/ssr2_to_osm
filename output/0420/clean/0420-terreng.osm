@@ -1,0 +1,4352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm generator="osmapis" version="0.6">
+	<node id="-2047" lat="60.0768611085" lon="11.991036115">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Grimtjennshøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="653927" />
+	</node>
+	<node id="-2033" lat="60.0201166686" lon="12.2661083331">
+		<tag k="name" v="Ristjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="642012" />
+	</node>
+	<node id="-2017" lat="60.0582583344" lon="12.0019250008">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Rundåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612660" />
+	</node>
+	<node id="-2010" lat="59.9980305512" lon="11.8569416678">
+		<tag k="name" v="Vesleenga" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612423" />
+	</node>
+	<node id="-2006" lat="59.9166111073" lon="11.9723305562">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Almenningsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612350" />
+	</node>
+	<node id="-2005" lat="59.9116416709" lon="11.9426666621">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Hornåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612345" />
+	</node>
+	<node id="-2000" lat="59.9522000025" lon="11.9124055585">
+		<tag k="name" v="Korpeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612303" />
+	</node>
+	<node id="-674" lat="59.8930638871" lon="12.064266668">
+		<tag k="name" v="Elgdrågene" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47020" />
+	</node>
+	<node id="-1994" lat="59.9432777794" lon="11.9535444439">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vardåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612271" />
+	</node>
+	<node id="-1984" lat="60.0504833364" lon="12.2675333406">
+		<tag k="name" v="Gravbråtaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612145" />
+	</node>
+	<node id="-672" lat="59.9646138878" lon="11.8182305542">
+		<tag k="name" v="Høglidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47460" />
+	</node>
+	<node id="-1979" lat="60.0355555566" lon="12.2252750002">
+		<tag k="name" v="Aursjøbrennene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612017" />
+	</node>
+	<node id="-1978" lat="60.0408249995" lon="12.2464583353">
+		<tag k="name" v="Brurkleiva" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="612003" />
+	</node>
+	<node id="-1965" lat="59.9293222228" lon="11.9552305611">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name; consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Holsteinberget;Lomtjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="611376" />
+	</node>
+	<node id="-1958" lat="59.9754916672" lon="12.2198805514">
+		<tag k="name" v="Sagåsen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="611186" />
+	</node>
+	<node id="-1957" lat="59.8983833331" lon="12.1421388962">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gammelbrennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="611174" />
+	</node>
+	<node id="-1948" lat="60.048350004" lon="11.8870944372">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Hanakamåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="594825" />
+	</node>
+	<node id="-1923" lat="59.9030361076" lon="12.1468388948">
+		<tag k="name" v="Abbortjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593894" />
+	</node>
+	<node id="-1920" lat="59.9962611102" lon="12.1046694371">
+		<tag k="name" v="Gotlandstoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593872" />
+	</node>
+	<node id="-1918" lat="60.0010388868" lon="12.1398527801">
+		<tag k="name" v="Hestehaget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593866" />
+	</node>
+	<node id="-1917" lat="60.1034388905" lon="12.2410666739">
+		<tag k="name" v="Furutoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593848" />
+	</node>
+	<node id="-1915" lat="59.9982222177" lon="12.2093750056">
+		<tag k="name" v="Kvernåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593842" />
+	</node>
+	<node id="-1912" lat="59.9660805593" lon="12.3016722202">
+		<tag k="name" v="Raspen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593826" />
+	</node>
+	<node id="-473" lat="59.8717388923" lon="11.8486138925">
+		<tag k="name" v="Mortensfallet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412988" />
+	</node>
+	<node id="-1907" lat="59.8852777808" lon="11.8324805643">
+		<tag k="name" v="Haralia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593755" />
+	</node>
+	<node id="-1905" lat="60.01843889" lon="12.3042777752">
+		<tag k="name" v="Revlemohøgda" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593741" />
+	</node>
+	<node id="-1904" lat="60.0008111156" lon="11.9495500014">
+		<tag k="name" v="Herkerudhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593723" />
+	</node>
+	<node id="-1893" lat="59.8974611147" lon="11.8708722185">
+		<tag k="name" v="Kremmerbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593585" />
+	</node>
+	<node id="-1892" lat="59.8956000028" lon="11.9421833334">
+		<tag k="name" v="Østre Brudalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593583" />
+	</node>
+	<node id="-1891" lat="59.9667111143" lon="12.0441527848">
+		<tag k="name" v="Tempelberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593507" />
+	</node>
+	<node id="-1890" lat="59.962905556" lon="12.0228333418">
+		<tag k="name" v="Tjæregravlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593505" />
+	</node>
+	<node id="-1888" lat="60.0018916625" lon="12.1825361087">
+		<tag k="name" v="Billerudholtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593475" />
+	</node>
+	<node id="-1886" lat="60.0543861103" lon="12.1775472268">
+		<tag k="name" v="Lauvbråtalia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593470" />
+	</node>
+	<node id="-1885" lat="60.0625333363" lon="12.1689055609">
+		<tag k="name" v="Åsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593459" />
+	</node>
+	<node id="-1883" lat="60.0998194439" lon="12.1233333402">
+		<tag k="name" v="Åklangenga" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593451" />
+	</node>
+	<node id="-1882" lat="59.964197219" lon="12.2182805499">
+		<tag k="name" v="Nevjebakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593443" />
+	</node>
+	<node id="-1881" lat="59.9760111128" lon="11.8088666713">
+		<tag k="name" v="Bayerlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593431" />
+	</node>
+	<node id="-1875" lat="59.9474944475" lon="12.1287666709">
+		<tag k="name" v="Korsåsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593401" />
+	</node>
+	<node id="-1871" lat="60.0170333298" lon="12.1206666723">
+		<tag k="name" v="Grasmosletta" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593352" />
+	</node>
+	<node id="-1865" lat="59.9733472214" lon="11.9668500013">
+		<tag k="name" v="Fløytberget" />
+		<tag k="natural" v="hill" />
+		<tag k="old_name" v="Fløitberget" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593261" />
+	</node>
+	<node id="-1861" lat="59.9518777788" lon="12.2562861069">
+		<tag k="name" v="Strøket" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593216" />
+	</node>
+	<node id="-1860" lat="60.0852166674" lon="12.1665888802">
+		<tag k="name" v="Plasseberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593213" />
+	</node>
+	<node id="-1858" lat="60.0560305523" lon="12.1842166604">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593174" />
+	</node>
+	<node id="-1857" lat="60.0512305515" lon="12.222724997">
+		<tag k="name" v="Fjellia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593170" />
+	</node>
+	<node id="-1852" lat="59.9892833291" lon="12.2637249919">
+		<tag k="name" v="Opptjennslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593122" />
+	</node>
+	<node id="-650" lat="60.1028249963" lon="12.2396750067">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Furutoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5897" />
+	</node>
+	<node id="-1848" lat="59.9091083353" lon="12.168788885">
+		<tag k="name" v="Gauptjenndalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593087" />
+	</node>
+	<node id="-1846" lat="59.9760444487" lon="12.2837000014">
+		<tag k="name" v="Leirbrudalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593057" />
+	</node>
+	<node id="-1844" lat="59.9042333296" lon="12.0611222306">
+		<tag k="name" v="Sæterberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593029" />
+	</node>
+	<node id="-1842" lat="59.9816166676" lon="11.9878750004">
+		<tag k="name" v="Spellut" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593310" />
+	</node>
+	<node id="-1841" lat="59.969549997" lon="12.2846194517">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Ulvemyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="593001" />
+	</node>
+	<node id="-1835" lat="60.0149666649" lon="12.0780194354">
+		<tag k="name" v="Rødbergshøgdene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="582314" />
+	</node>
+	<node id="-1832" lat="59.9927861114" lon="12.2504777784">
+		<tag k="name" v="Klanderudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="566254" />
+	</node>
+	<node id="-1825" lat="60.051400002" lon="12.1827361034">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551689" />
+	</node>
+	<node id="-1817" lat="60.0218333356" lon="11.8832388931">
+		<tag k="name" v="Knatthøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551638" />
+	</node>
+	<node id="-1814" lat="60.0604499972" lon="12.2039749942">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Langåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551606" />
+	</node>
+	<node id="-1804" lat="59.9736916638" lon="12.0244444402">
+		<tag k="name" v="Aurbakkberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551437" />
+	</node>
+	<node id="-1792" lat="59.9548138892" lon="12.0246111098">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Knappen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551306" />
+	</node>
+	<node id="-128" lat="59.9901750037" lon="11.9755250092">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Eikeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="308366" />
+	</node>
+	<node id="-1788" lat="59.9437777739" lon="12.015633339">
+		<tag k="name" v="Rasterdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551290" />
+	</node>
+	<node id="-1775" lat="60.0528666662" lon="12.2297416611">
+		<tag k="name" v="Nyfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551131" />
+	</node>
+	<node id="-1771" lat="59.9162361088" lon="11.8063083303">
+		<tag k="name" v="Dalfoss" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="551019" />
+	</node>
+	<node id="-1762" lat="59.9886722211" lon="12.1907333257">
+		<tag k="name" v="Jansrudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533970" />
+	</node>
+	<node id="-1758" lat="59.966077775" lon="12.2985916684">
+		<tag k="name" v="Vestre Rasen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533867" />
+	</node>
+	<node id="-1754" lat="59.9402166683" lon="12.2360833353">
+		<tag k="name" v="Korsvega" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533808" />
+	</node>
+	<node id="-1751" lat="59.9313833344" lon="12.1917000028">
+		<tag k="name" v="Snikerud" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533773" />
+	</node>
+	<node id="-1749" lat="59.9466222178" lon="11.8777083328">
+		<tag k="name" v="Mortensonbrenna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533692" />
+	</node>
+	<node id="-1743" lat="60.0327888917" lon="12.0404249936">
+		<tag k="name" v="Geitåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533537" />
+	</node>
+	<node id="-1741" lat="59.9207194482" lon="12.1837083419">
+		<tag k="name" v="Linkjølgropa" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533530" />
+	</node>
+	<node id="-1740" lat="59.9281194448" lon="12.1689555611">
+		<tag k="name" v="Romsås" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533528" />
+	</node>
+	<node id="-1738" lat="60.0870333329" lon="12.122838884">
+		<tag k="name" v="Eidsmoen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533501" />
+	</node>
+	<node id="-1734" lat="60.1294583322" lon="12.1645083254">
+		<tag k="name" v="Langrekkhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533446" />
+	</node>
+	<node id="-1731" lat="59.9471722211" lon="12.094716667">
+		<tag k="name" v="Kalengberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533433" />
+	</node>
+	<node id="-1726" lat="59.9987916702" lon="12.216633336">
+		<tag k="name" v="Rinna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533375" />
+	</node>
+	<node id="-1725" lat="60.000686115" lon="12.1855500055">
+		<tag k="name" v="Billerudhøgda" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533373" />
+	</node>
+	<node id="-1724" lat="60.0165472262" lon="12.3078916594">
+		<tag k="name" v="Bubakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533369" />
+	</node>
+	<node id="-1723" lat="59.9051166636" lon="12.0754833253">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bikkjebråten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533366" />
+	</node>
+	<node id="-1722" lat="59.9224999981" lon="12.0976638814">
+		<tag k="name" v="Dorteberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533363" />
+	</node>
+	<node id="-1711" lat="59.8943277775" lon="11.9284000069">
+		<tag k="name" v="Åsmyrbakkene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533281" />
+	</node>
+	<node id="-1710" lat="59.8995722232" lon="11.8708722136">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Monsrudnesa" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533278" />
+	</node>
+	<node id="-1708" lat="60.0847333298" lon="12.1321944495">
+		<tag k="name" v="Korskjølen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533230" />
+	</node>
+	<node id="-1704" lat="59.9837805564" lon="12.2700833399">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Opptjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533187" />
+	</node>
+	<node id="-1703" lat="60.0793027745" lon="12.1965277789">
+		<tag k="name" v="Bukkeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533158" />
+	</node>
+	<node id="-1699" lat="59.9249277746" lon="12.1132277742">
+		<tag k="name" v="Tyrigravdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533079" />
+	</node>
+	<node id="-1698" lat="59.8932277737" lon="12.1560361121">
+		<tag k="name" v="Liaheimet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533070" />
+	</node>
+	<node id="-1694" lat="59.9518305582" lon="12.2769222252">
+		<tag k="name" v="Nuen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="533020" />
+	</node>
+	<node id="-1690" lat="59.9531638908" lon="12.0708722143">
+		<tag k="name" v="Sølvåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="532960" />
+	</node>
+	<node id="-1689" lat="59.9392750007" lon="12.2093166646">
+		<tag k="name" v="Magnormoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="532915" />
+	</node>
+	<node id="-1685" lat="59.9158083328" lon="11.8607638948">
+		<tag k="name" v="Svenskefallet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="532697" />
+	</node>
+	<node id="-621" lat="59.9824666634" lon="11.8519805521">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Marimyrberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5373" />
+	</node>
+	<node id="-1672" lat="59.9799777751" lon="11.9829611077">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Fløytmoberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="491504" />
+	</node>
+	<node id="-1671" lat="59.9771916672" lon="11.9361388882">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Knollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="491500" />
+	</node>
+	<node id="-1665" lat="59.9174805561" lon="12.1542777797">
+		<tag k="alt_name" v="Røyskjølen" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Røskjølen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="491339" />
+	</node>
+	<node id="-1653" lat="59.9046888868" lon="12.0988944479">
+		<tag k="alt_name" v="Engerberget" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Engberberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="491178" />
+	</node>
+	<node id="-1650" lat="60.0230527757" lon="12.311988887">
+		<tag k="name" v="Stintabakkberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="491048" />
+	</node>
+	<node id="-1648" lat="60.0962805569" lon="12.2253750063">
+		<tag k="name" v="Øyungsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="490901" />
+	</node>
+	<node id="-1633" lat="59.9987388895" lon="11.8855750067">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sapperansberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="490389" />
+	</node>
+	<node id="-1620" lat="60.0446222266" lon="12.2646333304">
+		<tag k="name" v="Klemmetsbråtaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="490111" />
+	</node>
+	<node id="-1619" lat="60.0643638926" lon="12.2332333362">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gorrtjennåsene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="490085" />
+	</node>
+	<node id="-1618" lat="59.9214499969" lon="11.8255583269">
+		<tag k="name" v="Lauvhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="490065" />
+	</node>
+	<node id="-1606" lat="60.0077527751" lon="12.1643555482">
+		<tag k="name" v="Lørdagsbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472973" />
+	</node>
+	<node id="-1605" lat="59.9839805535" lon="12.3452999993">
+		<tag k="name" v="Kletten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472949" />
+	</node>
+	<node id="-1603" lat="59.9616722201" lon="12.016474998">
+		<tag k="name" v="Korpberglia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472935" />
+	</node>
+	<node id="-1602" lat="60.0319000034" lon="12.0050527764">
+		<tag k="name" v="Himmelsåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472930" />
+	</node>
+	<node id="-1599" lat="59.9533000002" lon="12.1437472207">
+		<tag k="name" v="Oppgardsdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472879" />
+	</node>
+	<node id="-1596" lat="59.9499527793" lon="11.9088555627">
+		<tag k="name" v="Korpedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472864" />
+	</node>
+	<node id="-1595" lat="59.9661694414" lon="11.917366668">
+		<tag k="name" v="Baråshøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472859" />
+	</node>
+	<node id="-1594" lat="60.0465611091" lon="11.9264277801">
+		<tag k="name" v="Saumyrhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472827" />
+	</node>
+	<node id="-1593" lat="60.0468527801" lon="11.949463895">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Buberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472817" />
+	</node>
+	<node id="-1592" lat="59.979394448" lon="12.2371305614">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Jordbæråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472794" />
+	</node>
+	<node id="-1590" lat="60.0326472209" lon="12.3014499952">
+		<tag k="name" v="Merralia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472777" />
+	</node>
+	<node id="-1585" lat="59.9210666661" lon="11.8240361149">
+		<tag k="name" v="Løvhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472706" />
+	</node>
+	<node id="-1583" lat="60.0330722251" lon="11.8274055598">
+		<tag k="name" v="Raggetjennsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472680" />
+	</node>
+	<node id="-1576" lat="59.8527055518" lon="11.861675002">
+		<tag k="name" v="Lessemyrdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472529" />
+	</node>
+	<node id="-1574" lat="60.0574583335" lon="12.1659638962">
+		<tag k="name" v="Nautbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472481" />
+	</node>
+	<node id="-1573" lat="60.0320944425" lon="12.1700888802">
+		<tag k="name" v="Bjørnholsbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472477" />
+	</node>
+	<node id="-1572" lat="59.9086333338" lon="11.8209444507">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Snurumoen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472465" />
+	</node>
+	<node id="-262" lat="59.9598250034" lon="12.0486777793">
+		<tag k="name" v="Stangnesberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351525" />
+	</node>
+	<node id="-1569" lat="60.0360500024" lon="12.303591674">
+		<tag k="name" v="Korsbakkberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472433" />
+	</node>
+	<node id="-1568" lat="60.0262138905" lon="12.3213250026">
+		<tag k="name" v="Flatjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472427" />
+	</node>
+	<node id="-261" lat="60.0682805576" lon="11.8411916667">
+		<tag k="name" v="Promhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351523" />
+	</node>
+	<node id="-1563" lat="59.9215861153" lon="11.9970583333">
+		<tag k="name" v="Vesleenga" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472380" />
+	</node>
+	<node id="-1561" lat="59.9890499998" lon="12.2407694386">
+		<tag k="name" v="Øverby" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472348" />
+	</node>
+	<node id="-1560" lat="59.9881416694" lon="12.2110833388">
+		<tag k="name" v="Nestangen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472347" />
+	</node>
+	<node id="-1556" lat="59.9901972232" lon="11.8760888965">
+		<tag k="name" v="Kjerringberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472288" />
+	</node>
+	<node id="-1552" lat="59.9977777807" lon="12.2716166585">
+		<tag k="name" v="Korsbjørka" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472239" />
+	</node>
+	<node id="-1550" lat="60.0689861125" lon="12.1766416685">
+		<tag k="name" v="Knerkelia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472223" />
+	</node>
+	<node id="-1547" lat="60.0191472234" lon="12.2759694475">
+		<tag k="name" v="Ormebakka" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472193" />
+	</node>
+	<node id="-1544" lat="60.0509666688" lon="12.2105111032">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Finfallåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472180" />
+	</node>
+	<node id="-1542" lat="60.0577500019" lon="12.2542888918">
+		<tag k="name" v="Grevlingberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472106" />
+	</node>
+	<node id="-256" lat="60.1130055545" lon="12.1214611059">
+		<tag k="name" v="Bakkeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351451" />
+	</node>
+	<node id="-1533" lat="59.9140499969" lon="12.2079944363">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Hakåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472052" />
+	</node>
+	<node id="-938" lat="60.090722223" lon="12.0568833405">
+		<tag k="name" v="Orrehella" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108556" />
+	</node>
+	<node id="-1530" lat="59.9206055535" lon="12.0483777777">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Svartvikåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472039" />
+	</node>
+	<node id="-1526" lat="59.9317027773" lon="12.1270055616">
+		<tag k="name" v="Rubbefallet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="472005" />
+	</node>
+	<node id="-253" lat="59.9522166705" lon="12.2383222172">
+		<tag k="name" v="Sæterbergåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351440" />
+	</node>
+	<node id="-1515" lat="60.0500083314" lon="12.1768444391">
+		<tag k="name" v="Steinerudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="461340" />
+	</node>
+	<node id="-934" lat="59.992969443" lon="12.1248888874">
+		<tag k="name" v="Skotterudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108525" />
+	</node>
+	<node id="-1498" lat="60.1201472209" lon="12.1682027737">
+		<tag k="name" v="Knarten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430483" />
+	</node>
+	<node id="-1489" lat="59.9877083321" lon="11.8850999964">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Korpberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430372" />
+	</node>
+	<node id="-1481" lat="59.9682777768" lon="12.1899250014">
+		<tag k="name" v="Ulvedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430304" />
+	</node>
+	<node id="-1471" lat="60.0018027743" lon="12.3208444514">
+		<tag k="name" v="Strandberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430238" />
+	</node>
+	<node id="-1468" lat="60.0037000006" lon="12.2937500015">
+		<tag k="name" v="Andersberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430186" />
+	</node>
+	<node id="-1466" lat="59.9570638884" lon="11.813919446">
+		<tag k="name" v="Amundbråteberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430102" />
+	</node>
+	<node id="-927" lat="59.9201638848" lon="12.0007472289">
+		<tag k="name" v="Toterudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108438" />
+	</node>
+	<node id="-1460" lat="60.0302500035" lon="12.2421499923">
+		<tag k="name" v="Storsmalen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430020" />
+	</node>
+	<node id="-1459" lat="59.9805888888" lon="11.8249749918">
+		<tag k="name" v="Korpeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430000" />
+	</node>
+	<node id="-1456" lat="60.0290694456" lon="11.8786555612">
+		<tag k="name" v="Erskallsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="430633" />
+	</node>
+	<node id="-1453" lat="59.8725805585" lon="11.8276249946">
+		<tag k="name" v="Lusmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="429175" />
+	</node>
+	<node id="-1446" lat="59.9479555543" lon="12.1269249968">
+		<tag k="name" v="Sagdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="263022" />
+	</node>
+	<node id="-241" lat="59.894202775" lon="11.8995055528">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kjerringåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351281" />
+	</node>
+	<node id="-1442" lat="60.0183583369" lon="12.2047166679">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kattliåsene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248880" />
+	</node>
+	<node id="-239" lat="59.9424777762" lon="12.2620888867">
+		<tag k="name" v="Lindalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351244" />
+	</node>
+	<node id="-237" lat="60.0858083371" lon="12.1811777747">
+		<tag k="name" v="Mertstjennbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351239" />
+	</node>
+	<node id="-1416" lat="59.9754666677" lon="11.9925416592">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Teigberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248471" />
+	</node>
+	<node id="-1412" lat="59.9660777792" lon="11.9095388921">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Mortkjølen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248422" />
+	</node>
+	<node id="-918" lat="59.8871916682" lon="12.1547111159">
+		<tag k="name" v="Skårgården" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108359" />
+	</node>
+	<node id="-1400" lat="59.9106555528" lon="11.9933249939">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Brenna" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248299" />
+	</node>
+	<node id="-233" lat="60.0875555559" lon="12.2089694404">
+		<tag k="name" v="Hofjell" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351210" />
+	</node>
+	<node id="-1393" lat="59.9642694429" lon="12.2878638833">
+		<tag k="name" v="Kroktjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248213" />
+	</node>
+	<node id="-1389" lat="59.984550002" lon="12.3051777833">
+		<tag k="name" v="Grevlinghøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248186" />
+	</node>
+	<node id="-1386" lat="60.0119166701" lon="12.3102083262">
+		<tag k="name" v="Billingsøberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="248181" />
+	</node>
+	<node id="-1370" lat="59.9710166661" lon="11.8953000074">
+		<tag k="name" v="Støbråtalia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230850" />
+	</node>
+	<node id="-1369" lat="60.0392361097" lon="11.9064750055">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Eriksåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230819" />
+	</node>
+	<node id="-1365" lat="60.0066861101" lon="12.3176694454">
+		<tag k="name" v="Inntaket" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230756" />
+	</node>
+	<node id="-1364" lat="60.0005888859" lon="11.9607083257">
+		<tag k="name" v="Vesle Busjøberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230748" />
+	</node>
+	<node id="-1362" lat="59.9059444404" lon="11.8628361181">
+		<tag k="name" v="Nordgårdshøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230720" />
+	</node>
+	<node id="-1359" lat="59.9091166702" lon="11.8757777718">
+		<tag k="name" v="Gørrvikmyra" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230696" />
+	</node>
+	<node id="-1357" lat="60.0824555532" lon="12.0088138833">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Dalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230671" />
+	</node>
+	<node id="-1355" lat="59.8923138846" lon="11.8640666638">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sauåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230617" />
+	</node>
+	<node id="-1349" lat="59.8902972221" lon="11.8822361148">
+		<tag k="name" v="Laumannsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230523" />
+	</node>
+	<node id="-1345" lat="60.026836109" lon="12.0440805625">
+		<tag k="name" v="Halvorshaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230499" />
+	</node>
+	<node id="-1343" lat="60.0791000011" lon="11.9326444503">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Holmåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230469" />
+	</node>
+	<node id="-1339" lat="59.9414305561" lon="11.9113416635">
+		<tag k="name" v="Abbortjennlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230289" />
+	</node>
+	<node id="-1335" lat="60.0180250039" lon="12.2797111076">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Stornesåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="230204" />
+	</node>
+	<node id="-905" lat="59.8760666691" lon="11.8794916595">
+		<tag k="name" v="Langvikdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108258" />
+	</node>
+	<node id="-1323" lat="60.0249166706" lon="12.0186583289">
+		<tag k="name" v="Målberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229998" />
+	</node>
+	<node id="-1321" lat="60.0274250013" lon="12.1307194414">
+		<tag k="name" v="Lunderbyenga" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229970" />
+	</node>
+	<node id="-1320" lat="60.0674750028" lon="12.006974998">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Hulderberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229928" />
+	</node>
+	<node id="-1317" lat="59.893080555" lon="12.1358694395">
+		<tag k="name" v="Kampetangen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229909" />
+	</node>
+	<node id="-1315" lat="59.905561108" lon="12.1384472199">
+		<tag k="name" v="Strutmyrhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229908" />
+	</node>
+	<node id="-1314" lat="60.0521722259" lon="11.9890138878">
+		<tag k="name" v="Lealberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229905" />
+	</node>
+	<node id="-1313" lat="60.0567944417" lon="11.8521305591">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgmyrhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229877" />
+	</node>
+	<node id="-1307" lat="59.9309666665" lon="12.1750222214">
+		<tag k="name" v="Gaustadsæterdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229524" />
+	</node>
+	<node id="-1306" lat="60.0137583316" lon="12.1647833392">
+		<tag k="name" v="Lørdagsbakkdråga" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229506" />
+	</node>
+	<node id="-559" lat="60.034097224" lon="12.1628722241">
+		<tag k="name" v="Vabakka" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897867" />
+	</node>
+	<node id="-1303" lat="59.8961611071" lon="11.8214083364">
+		<tag k="name" v="Vanghaget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229472" />
+	</node>
+	<node id="-1301" lat="59.9021083367" lon="11.8218722193">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Langbrumyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229470" />
+	</node>
+	<node id="-1298" lat="60.0880583294" lon="12.0616888804">
+		<tag k="name" v="Tjuvdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229442" />
+	</node>
+	<node id="-1294" lat="59.9699472207" lon="12.0367194459">
+		<tag k="name" v="Smalongen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229397" />
+	</node>
+	<node id="-1291" lat="59.9170361144" lon="12.0803805582">
+		<tag k="name" v="Sjøendberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229365" />
+	</node>
+	<node id="-1290" lat="60.0635527759" lon="11.9815472171">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Reisbråtahøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229360" />
+	</node>
+	<node id="-1288" lat="59.9734694404" lon="11.936880558">
+		<tag k="name" v="Sæmyrlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229292" />
+	</node>
+	<node id="-1287" lat="59.8872666656" lon="11.9070472168">
+		<tag k="name" v="Suterdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229270" />
+	</node>
+	<node id="-1283" lat="60.0840361126" lon="12.1449027699">
+		<tag k="name" v="Johansmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229239" />
+	</node>
+	<node id="-1282" lat="59.9874277791" lon="12.2779305528">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vintertjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229199" />
+	</node>
+	<node id="-1281" lat="60.0166666663" lon="12.2718972245">
+		<tag k="name" v="Bjørntjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229195" />
+	</node>
+	<node id="-1280" lat="59.9807777762" lon="12.2494972253">
+		<tag k="name" v="Stensrudlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229184" />
+	</node>
+	<node id="-1277" lat="59.9181777792" lon="12.1014916677">
+		<tag k="name" v="Sotbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229119" />
+	</node>
+	<node id="-1276" lat="59.9290361153" lon="12.0915749962">
+		<tag k="name" v="Flintrop" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229118" />
+	</node>
+	<node id="-1274" lat="59.9238361106" lon="12.0967055604">
+		<tag k="name" v="Styggdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229063" />
+	</node>
+	<node id="-1272" lat="59.9160999987" lon="11.9561472247">
+		<tag k="name" v="Langvasslia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229052" />
+	</node>
+	<node id="-1270" lat="59.9779361131" lon="11.8331249991">
+		<tag k="name" v="Hundetjennknatten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229046" />
+	</node>
+	<node id="-1268" lat="59.9102694417" lon="12.0255527768">
+		<tag k="name" v="Trostedalene" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="229033" />
+	</node>
+	<node id="-1255" lat="60.0272972231" lon="12.3211416692">
+		<tag k="name" v="Flatjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="218033" />
+	</node>
+	<node id="-1252" lat="60.1266305598" lon="12.2504638881">
+		<tag k="alt_name" v="Mølleberget" />
+		<tag k="name" v="Møllerberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="188976" />
+	</node>
+	<node id="-1251" lat="60.0864055535" lon="12.0550388847">
+		<tag k="name" v="Hornkjølberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="188751" />
+	</node>
+	<node id="-207" lat="59.9569888926" lon="12.0246666616">
+		<tag k="name" v="Høgåsholtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="350923" />
+	</node>
+	<node id="-1236" lat="60.0801277777" lon="12.0914500035">
+		<tag k="name" v="Tjernsli" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187725" />
+	</node>
+	<node id="-314" lat="59.9790416686" lon="12.35716666">
+		<tag k="alt_name" v="Kletteberget" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Kletta" />
+		<tag k="name" v="Kletten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369187" />
+	</node>
+	<node id="-888" lat="59.9094777792" lon="12.1950500044">
+		<tag k="name" v="Østre Lauvhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108136" />
+	</node>
+	<node id="-1230" lat="60.0854833313" lon="12.2660861192">
+		<tag k="name" v="Vestre Gråtjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187874" />
+	</node>
+	<node id="-1228" lat="60.0060777778" lon="12.0275472304">
+		<tag k="alt_name" v="Raufjellet" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Raudfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187851" />
+	</node>
+	<node id="-1227" lat="60.0094611135" lon="12.1941666742">
+		<tag k="name" v="Tørkerhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187845" />
+	</node>
+	<node id="-1221" lat="60.0568138881" lon="12.1951277734">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Svensteinåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187633" />
+	</node>
+	<node id="-1219" lat="60.0507500034" lon="12.0195861059">
+		<tag k="name" v="Løvskogberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187620" />
+	</node>
+	<node id="-1215" lat="60.066969577" lon="11.9764296402">
+		<tag k="fixme" v="multiple name tags, choose one and add the other to alt_name; consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Maståsen;Reisbråtehøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187673" />
+	</node>
+	<node id="-1212" lat="60.0317694475" lon="12.1481166646">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Torpåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187595" />
+	</node>
+	<node id="-1210" lat="60.0349333307" lon="12.0720555615">
+		<tag k="name" v="Slaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187587" />
+	</node>
+	<node id="-1194" lat="59.9907333325" lon="12.3154027855">
+		<tag k="name" v="Middagsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187235" />
+	</node>
+	<node id="-199" lat="60.0360722204" lon="12.0841916745">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tomteråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="350506" />
+	</node>
+	<node id="-1190" lat="59.8660277783" lon="11.8435249911">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Mortenfallet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187136" />
+	</node>
+	<node id="-1181" lat="59.902277775" lon="11.9546138931">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Åbbortjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187166" />
+	</node>
+	<node id="-1175" lat="60.0325500003" lon="12.2372027771">
+		<tag k="name" v="Djupedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="187021" />
+	</node>
+	<node id="-1174" lat="59.9008361088" lon="11.8406166647">
+		<tag k="name" v="Venlia" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="186256" />
+	</node>
+	<node id="-1173" lat="59.9082527758" lon="11.8225250031">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kalvåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="186226" />
+	</node>
+	<node id="-1161" lat="60.0173833374" lon="12.1643416741">
+		<tag k="name" v="Tekstebakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169985" />
+	</node>
+	<node id="-1159" lat="59.9990305531" lon="12.1916777761">
+		<tag k="name" v="Tørkerhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169968" />
+	</node>
+	<node id="-1158" lat="60.0746388851" lon="11.9781861121">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="loc_name" v="Helledamberget" />
+		<tag k="name" v="Helledammberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169932" />
+	</node>
+	<node id="-1157" lat="59.9678694477" lon="12.3201527744">
+		<tag k="name" v="Hesjedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169838" />
+	</node>
+	<node id="-1156" lat="60.0169833345" lon="11.939230561">
+		<tag k="name" v="Brattberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169780" />
+	</node>
+	<node id="-1154" lat="60.0059611136" lon="11.9621638898">
+		<tag k="name" v="Buberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169771" />
+	</node>
+	<node id="-1153" lat="59.9508138882" lon="12.0988833397">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169766" />
+	</node>
+	<node id="-1148" lat="59.92546667" lon="11.8239499935">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sandvikåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169715" />
+	</node>
+	<node id="-1145" lat="59.9758166664" lon="11.9564888905">
+		<tag k="name" v="Askedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169654" />
+	</node>
+	<node id="-1144" lat="59.9770194439" lon="11.9528250002">
+		<tag k="name" v="Dulpehøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169648" />
+	</node>
+	<node id="-1139" lat="59.9196472196" lon="11.8410999925">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bukketjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169611" />
+	</node>
+	<node id="-1133" lat="59.948908336" lon="11.9759472183">
+		<tag k="name" v="Ragnhildteppa" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169539" />
+	</node>
+	<node id="-1131" lat="60.0124750044" lon="12.1161694399">
+		<tag k="name" v="Grasmoengene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169519" />
+	</node>
+	<node id="-1129" lat="60.0422916654" lon="12.131258326">
+		<tag k="name" v="Jerntjennbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169501" />
+	</node>
+	<node id="-1126" lat="59.9000638855" lon="11.8237166589">
+		<tag k="name" v="Ormelia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169487" />
+	</node>
+	<node id="-1119" lat="60.0426222209" lon="12.1072305526">
+		<tag k="name" v="Sølvåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169417" />
+	</node>
+	<node id="-1118" lat="59.9761027774" lon="12.0887138849">
+		<tag k="name" v="Mortensjøberget" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169403" />
+	</node>
+	<node id="-1116" lat="59.9993555552" lon="12.2400305601">
+		<tag k="name" v="Bakkehaget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169372" />
+	</node>
+	<node id="-1115" lat="59.9107861116" lon="11.9912916622">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Brenna" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169329" />
+	</node>
+	<node id="-1106" lat="59.9605277776" lon="11.9326666581">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Lokkarsteina" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169275" />
+	</node>
+	<node id="-1104" lat="59.9724361069" lon="11.9522250056">
+		<tag k="name" v="Hedumshøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169272" />
+	</node>
+	<node id="-1103" lat="59.9744833379" lon="11.9504027749">
+		<tag k="name" v="Elgebakken" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169271" />
+	</node>
+	<node id="-1098" lat="59.9492083307" lon="12.256899996">
+		<tag k="name" v="Topperberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169219" />
+	</node>
+	<node id="-523" lat="59.9732111145" lon="11.849513882">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897442" />
+	</node>
+	<node id="-1088" lat="60.0380194468" lon="12.2432027788">
+		<tag k="name" v="Storsmalen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169155" />
+	</node>
+	<node id="-1087" lat="60.0863416624" lon="12.1839111183">
+		<tag k="name" v="Ilbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169148" />
+	</node>
+	<node id="-1084" lat="59.9540888869" lon="12.2565444372">
+		<tag k="name" v="Kalbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169120" />
+	</node>
+	<node id="-522" lat="59.8822444458" lon="11.8514861074">
+		<tag k="name" v="Styggedråga" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897439" />
+	</node>
+	<node id="-1080" lat="60.0514416688" lon="12.2175666746">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Langåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169097" />
+	</node>
+	<node id="-1075" lat="59.9103194467" lon="12.1165416746">
+		<tag k="name" v="Sæterberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169075" />
+	</node>
+	<node id="-1074" lat="59.9638499994" lon="12.2462694446">
+		<tag k="name" v="Åbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169072" />
+	</node>
+	<node id="-1072" lat="59.9320388873" lon="12.0389777743">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Nordre Steringsåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169049" />
+	</node>
+	<node id="-1070" lat="59.9783583312" lon="11.8127222228">
+		<tag k="name" v="Høgberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="169032" />
+	</node>
+	<node id="-1063" lat="59.9971777789" lon="12.2047805547">
+		<tag k="name" v="Årneshaget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="168876" />
+	</node>
+	<node id="-515" lat="59.9772722201" lon="11.9978166605">
+		<tag k="name" v="Teigbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897327" />
+	</node>
+	<node id="-1037" lat="60.1102750027" lon="12.1917749925">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bufjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="127572" />
+	</node>
+	<node id="-1020" lat="60.0171388919" lon="11.9401055586">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Buåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126637" />
+	</node>
+	<node id="-1018" lat="59.9645138923" lon="11.9720194467">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Saukollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126445" />
+	</node>
+	<node id="-1017" lat="59.9143694411" lon="12.0157583373">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Storfuruhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126302" />
+	</node>
+	<node id="-1009" lat="59.9913166637" lon="11.9004250082">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bjørnlihøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126393" />
+	</node>
+	<node id="-1001" lat="60.0753055559" lon="12.2309833246">
+		<tag k="name" v="Gusterudlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126070" />
+	</node>
+	<node id="-999" lat="60.0095361087" lon="12.2915555528">
+		<tag k="name" v="Pålakkarn" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126055" />
+	</node>
+	<node id="-998" lat="60.0227555574" lon="12.2708944464">
+		<tag k="name" v="Røsskjølhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126054" />
+	</node>
+	<node id="-995" lat="60.0176499956" lon="12.2182250075">
+		<tag k="name" v="Veksberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126033" />
+	</node>
+	<node id="-994" lat="60.035375001" lon="12.2561000043">
+		<tag k="name" v="Lauvåsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="126027" />
+	</node>
+	<node id="-982" lat="59.9422222264" lon="12.0322916648">
+		<tag k="alt_name" v="Stæringåsen" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Stæringsåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="109964" />
+	</node>
+	<node id="-980" lat="60.0185499991" lon="11.9152027758">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bukkåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="109815" />
+	</node>
+	<node id="-979" lat="60.0483444479" lon="11.9029416728">
+		<tag k="name" v="Bekklia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="109801" />
+	</node>
+	<node id="-978" lat="59.9791111095" lon="11.8074972237">
+		<tag k="name" v="Gørrholtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="109701" />
+	</node>
+	<node id="-971" lat="60.0660222263" lon="11.8637138935">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="109551" />
+	</node>
+	<node id="-3014" lat="60.0079194406" lon="12.3229972209">
+		<tag k="name" v="Helvetesbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958964" />
+	</node>
+	<node id="-3011" lat="60.0538722192" lon="12.3073222232">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Krenkedalshøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958808" />
+	</node>
+	<node id="-959" lat="59.9773916645" lon="12.3173138964">
+		<tag k="name" v="Gauplemmen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="109475" />
+	</node>
+	<node id="-957" lat="60.005544449" lon="12.1461861098">
+		<tag k="name" v="Brudekleiva" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108975" />
+	</node>
+	<node id="-955" lat="59.8754972233" lon="11.8446166718">
+		<tag k="name" v="Bukkemoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108952" />
+	</node>
+	<node id="-954" lat="59.9662222247" lon="12.0172749929">
+		<tag k="name" v="Graslausen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108950" />
+	</node>
+	<node id="-3001" lat="59.9399027736" lon="11.8792083276">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vintertjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958690" />
+	</node>
+	<node id="-952" lat="60.0215000006" lon="12.2131583421">
+		<tag k="name" v="Raufjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108880" />
+	</node>
+	<node id="-951" lat="60.1316805532" lon="12.1895888844">
+		<tag k="name" v="Merreholtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108881" />
+	</node>
+	<node id="-2997" lat="59.8666750007" lon="11.869577775">
+		<tag k="name" v="Sleppene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958656" />
+	</node>
+	<node id="-944" lat="59.8870499994" lon="11.8738277838">
+		<tag k="name" v="Tamburberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108716" />
+	</node>
+	<node id="-2987" lat="59.9421027757" lon="12.0613722255">
+		<tag k="name" v="Rådalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958550" />
+	</node>
+	<node id="-2986" lat="60.0412166629" lon="12.0252361134">
+		<tag k="name" v="Fuglemyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958549" />
+	</node>
+	<node id="-2984" lat="60.0152222244" lon="12.0812527695">
+		<tag k="name" v="Rødbergshøgdene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958534" />
+	</node>
+	<node id="-2982" lat="60.0964388859" lon="12.1178194485">
+		<tag k="name" v="Nilsbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958517" />
+	</node>
+	<node id="-2980" lat="60.079766668" lon="11.9477777695">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bruråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958514" />
+	</node>
+	<node id="-931" lat="60.1063138849" lon="12.146574996">
+		<tag k="name" v="Tekstebakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108507" />
+	</node>
+	<node id="-2978" lat="59.9678972231" lon="12.2291555632">
+		<tag k="name" v="Brennaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958506" />
+	</node>
+	<node id="-2975" lat="60.1314194484" lon="12.1838305536">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Katrineåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958480" />
+	</node>
+	<node id="-924" lat="59.9651416659" lon="12.0950277697">
+		<tag k="name" v="Runningen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108411" />
+	</node>
+	<node id="-923" lat="59.9293694453" lon="11.9879583353">
+		<tag k="name" v="Harstadberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108386" />
+	</node>
+	<node id="-922" lat="59.9522777749" lon="12.2247722235">
+		<tag k="name" v="Skalbyholtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108380" />
+	</node>
+	<node id="-921" lat="60.0206555577" lon="12.2211361199">
+		<tag k="name" v="Sæteren" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108376" />
+	</node>
+	<node id="-2966" lat="60.0527666624" lon="11.9689916692">
+		<tag k="name" v="Sandtjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958354" />
+	</node>
+	<node id="-508" lat="59.8822138867" lon="11.8634888825">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Moåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897249" />
+	</node>
+	<node id="-2958" lat="59.92087222" lon="11.8761666637">
+		<tag k="name" v="Nisseberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958283" />
+	</node>
+	<node id="-2954" lat="59.896811109" lon="12.1323000082">
+		<tag k="name" v="Langedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958262" />
+	</node>
+	<node id="-2953" lat="59.9490583352" lon="12.2684472226">
+		<tag k="name" v="Vestre Varden" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958259" />
+	</node>
+	<node id="-902" lat="59.97483889" lon="12.2720944456">
+		<tag k="name" v="Brenna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108248" />
+	</node>
+	<node id="-900" lat="59.9383222251" lon="12.2582916659">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Ekornåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108233" />
+	</node>
+	<node id="-897" lat="60.1075916662" lon="12.1867305633">
+		<tag k="name" v="Kjerrermdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108202" />
+	</node>
+	<node id="-832" lat="59.9300916638" lon="12.1124138948">
+		<tag k="name" v="Hetfjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66337" />
+	</node>
+	<node id="-2941" lat="59.9800833372" lon="11.980588887">
+		<tag k="name" v="Mellemberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958095" />
+	</node>
+	<node id="-890" lat="60.1248444407" lon="12.2028277758">
+		<tag k="name" v="Høgdemyrberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108154" />
+	</node>
+	<node id="-2937" lat="59.9915499976" lon="12.246083327">
+		<tag k="name" v="Klanderuddalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958070" />
+	</node>
+	<node id="-2936" lat="59.9311361106" lon="12.0302805524">
+		<tag k="name" v="Rosenlundhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="958048" />
+	</node>
+	<node id="-887" lat="59.9775694449" lon="12.2762249947">
+		<tag k="name" v="Koiåsen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108132" />
+	</node>
+	<node id="-882" lat="59.9279138912" lon="12.0425388939">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Søndre Steringsåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108057" />
+	</node>
+	<node id="-2929" lat="59.94803611" lon="12.1505194482">
+		<tag k="name" v="Torestudalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="957875" />
+	</node>
+	<node id="-2928" lat="59.969594447" lon="11.8648972284">
+		<tag k="name" v="Djupedråga" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="957846" />
+	</node>
+	<node id="-2926" lat="59.9588916638" lon="11.9238694511">
+		<tag k="name" v="Huldertjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="957828" />
+	</node>
+	<node id="-2922" lat="60.0351250027" lon="12.0780333419">
+		<tag k="name" v="Tomterteigen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="957518" />
+	</node>
+	<node id="-869" lat="59.9553055578" lon="12.2972638824">
+		<tag k="name" v="Breitjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="108127" />
+	</node>
+	<node id="-861" lat="60.0826333315" lon="12.228424992">
+		<tag k="name" v="Fjølungsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66891" />
+	</node>
+	<node id="-2908" lat="60.0854083341" lon="12.16760555">
+		<tag k="name" v="Plasseberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="945109" />
+	</node>
+	<node id="-859" lat="60.012813889" lon="11.9630888875">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gruåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66851" />
+	</node>
+	<node id="-2901" lat="60.0415250037" lon="11.9879749936">
+		<tag k="name" v="Gjuvberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916713" />
+	</node>
+	<node id="-2899" lat="60.0441805554" lon="12.1084861163">
+		<tag k="name" v="Tukunberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916704" />
+	</node>
+	<node id="-845" lat="59.9821361143" lon="11.9234055483">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tokonnholåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66449" />
+	</node>
+	<node id="-2889" lat="59.9465722246" lon="12.0283027699">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Rasterberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916292" />
+	</node>
+	<node id="-2888" lat="59.9381194428" lon="11.8921166634">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Nordstuåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916275" />
+	</node>
+	<node id="-838" lat="59.9947472228" lon="11.9509222188">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kvernberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66379" />
+	</node>
+	<node id="-2884" lat="59.9635611076" lon="12.3036388854">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Puta" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916231" />
+	</node>
+	<node id="-2880" lat="60.0156000022" lon="12.3045749928">
+		<tag k="name" v="Kollberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916061" />
+	</node>
+	<node id="-2876" lat="59.9461750019" lon="12.2652666592">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Varden" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="916042" />
+	</node>
+	<node id="-823" lat="59.948683336" lon="12.0962138846">
+		<tag k="name" v="Deldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66263" />
+	</node>
+	<node id="-2862" lat="60.0781999976" lon="12.1860777821">
+		<tag k="name" v="Gusterudhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="915683" />
+	</node>
+	<node id="-806" lat="60.0131805566" lon="12.2327055529">
+		<tag k="name" v="Igletjenntoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66028" />
+	</node>
+	<node id="-805" lat="60.0328143649" lon="12.3008364005">
+		<tag k="name" v="Merralia" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="66022" />
+	</node>
+	<node id="-442" lat="60.11036389" lon="12.0876027852">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Eitjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412364" />
+	</node>
+	<node id="-2851" lat="59.9654027753" lon="11.8609944384">
+		<tag k="name" v="Ljønerkollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="915414" />
+	</node>
+	<node id="-798" lat="59.9708999956" lon="11.8391638949">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bestemorhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="65074" />
+	</node>
+	<node id="-2837" lat="59.9894833361" lon="12.2598888967">
+		<tag k="name" v="Støvelholet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="915225" />
+	</node>
+	<node id="-788" lat="59.8758222261" lon="11.8497888943">
+		<tag k="name" v="Revdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48989" />
+	</node>
+	<node id="-787" lat="60.0104888856" lon="12.1710277823">
+		<tag k="name" v="Langbrulia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48976" />
+	</node>
+	<node id="-2834" lat="59.9168750025" lon="11.8397527799">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Steinbekkhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="915017" />
+	</node>
+	<node id="-781" lat="59.9808861131" lon="12.238108334">
+		<tag k="name" v="Gransæterhaget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48787" />
+	</node>
+	<node id="-776" lat="59.9509500001" lon="12.0823083282">
+		<tag k="name" v="Kalengdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48742" />
+	</node>
+	<node id="-772" lat="59.9181722247" lon="11.8677083313">
+		<tag k="name" v="Buvikholtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48709" />
+	</node>
+	<node id="-767" lat="59.9963583287" lon="11.9241722305">
+		<tag k="name" v="Hundekollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48635" />
+	</node>
+	<node id="-766" lat="60.0248222205" lon="11.9370611048">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gruvmyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48605" />
+	</node>
+	<node id="-760" lat="59.9510527793" lon="12.0345388842">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48492" />
+	</node>
+	<node id="-759" lat="60.0427000042" lon="12.1408472229">
+		<tag k="name" v="Sagfalla" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48480" />
+	</node>
+	<node id="-758" lat="59.9028111111" lon="11.8563500069">
+		<tag k="name" v="Abbortjennbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48464" />
+	</node>
+	<node id="-748" lat="60.0698083335" lon="12.1702222189">
+		<tag k="name" v="Knarten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48193" />
+	</node>
+	<node id="-741" lat="60.0502416709" lon="12.2528527855">
+		<tag k="loc_name" v="Fjellsmyrberget" />
+		<tag k="name" v="Fjelsmyrberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48097" />
+	</node>
+	<node id="-2785" lat="59.9862499989" lon="11.8887749965">
+		<tag k="name" v="Brennlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="855467" />
+	</node>
+	<node id="-2784" lat="59.986549997" lon="11.9281472151">
+		<tag k="name" v="Jordbærbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="855466" />
+	</node>
+	<node id="-734" lat="59.8965972239" lon="12.1270055529">
+		<tag k="name" v="Braserudknatten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48062" />
+	</node>
+	<node id="-726" lat="59.8777861116" lon="11.8341222252">
+		<tag k="name" v="Karlsbråtadalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47944" />
+	</node>
+	<node id="-2773" lat="59.9921583349" lon="11.9898527784">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gravliberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="855375" />
+	</node>
+	<node id="-720" lat="60.1062916648" lon="12.0969999985">
+		<tag k="name" v="Gardsberget" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47527" />
+	</node>
+	<node id="-719" lat="59.9341972196" lon="12.1361166699">
+		<tag k="name" v="Deldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47524" />
+	</node>
+	<node id="-718" lat="60.0501888877" lon="12.1681388911">
+		<tag k="name" v="Rundehorn" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47498" />
+	</node>
+	<node id="-716" lat="60.0496138917" lon="12.1641638882">
+		<tag k="name" v="Ås" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47496" />
+	</node>
+	<node id="-713" lat="60.1282027809" lon="12.1768583359">
+		<tag k="name" v="Hanssonlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47480" />
+	</node>
+	<node id="-710" lat="59.9739249974" lon="12.2373833417">
+		<tag k="name" v="Åserhaget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47383" />
+	</node>
+	<node id="-709" lat="60.0026250019" lon="12.2166027723">
+		<tag k="name" v="Rinna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47378" />
+	</node>
+	<node id="-708" lat="59.9908027796" lon="12.2031916631">
+		<tag k="name" v="Årosbråten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47373" />
+	</node>
+	<node id="-705" lat="59.977711115" lon="11.9458305544">
+		<tag k="name" v="Kalvhaughøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47315" />
+	</node>
+	<node id="-704" lat="59.9634111117" lon="11.8996499948">
+		<tag k="name" v="Syltemyrberget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47298" />
+	</node>
+	<node id="-703" lat="59.9622972249" lon="11.9136805481">
+		<tag k="name" v="Stormyrlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47296" />
+	</node>
+	<node id="-2750" lat="59.9741666704" lon="12.2636749961">
+		<tag k="name" v="Høgberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="855188" />
+	</node>
+	<node id="-699" lat="60.1029861111" lon="12.2370888936">
+		<tag k="name" v="Furutoppen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47235" />
+	</node>
+	<node id="-2742" lat="59.8614083337" lon="11.8484611108">
+		<tag k="alt_name" v="Sjelåsæteråsen" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Skjølåsæteråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="855137" />
+	</node>
+	<node id="-692" lat="59.9767277751" lon="12.3504111051">
+		<tag k="name" v="Kvartrullen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47161" />
+	</node>
+	<node id="-2739" lat="59.9788972258" lon="11.8352888839">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Hundetjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="854998" />
+	</node>
+	<node id="-690" lat="59.9653500044" lon="12.3284916634">
+		<tag k="name" v="Helleberget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47157" />
+	</node>
+	<node id="-2737" lat="59.9018305568" lon="11.8168777723">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="854227" />
+	</node>
+	<node id="-688" lat="60.0684222254" lon="12.181294446">
+		<tag k="name" v="Røsløgndulpa" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47146" />
+	</node>
+	<node id="-687" lat="59.9802027823" lon="12.2910694402">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Leirbrumyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47145" />
+	</node>
+	<node id="-686" lat="59.979202775" lon="12.254952783">
+		<tag k="name" v="Slettmolia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47141" />
+	</node>
+	<node id="-685" lat="59.9651722215" lon="12.296111108">
+		<tag k="name" v="Kirkeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47138" />
+	</node>
+	<node id="-682" lat="60.07163056" lon="12.0386861027">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Berithølberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47113" />
+	</node>
+	<node id="-2729" lat="59.9548750035" lon="12.0247805647">
+		<tag k="name" v="Høgåsknappen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837997" />
+	</node>
+	<node id="-2728" lat="59.998255557" lon="12.1518722209">
+		<tag k="name" v="Gubbemyrberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837986" />
+	</node>
+	<node id="-2727" lat="59.9242222256" lon="12.140872229">
+		<tag k="name" v="Kirkeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837972" />
+	</node>
+	<node id="-678" lat="59.9281611085" lon="12.0498638887">
+		<tag k="name" v="Lomtjennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47058" />
+	</node>
+	<node id="-2725" lat="59.965599999" lon="11.9801999922">
+		<tag k="name" v="Vangdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837920" />
+	</node>
+	<node id="-2724" lat="60.1315250033" lon="12.148605551">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Skaubyåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837914" />
+	</node>
+	<node id="-675" lat="59.9458083346" lon="12.1050749986">
+		<tag k="name" v="Rølleknollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47044" />
+	</node>
+	<node id="-2722" lat="59.9778388898" lon="11.8896749992">
+		<tag k="name" v="Melbylia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837870" />
+	</node>
+	<node id="-2720" lat="60.0092277802" lon="12.2911499966">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Pålakkeren" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837860" />
+	</node>
+	<node id="-2719" lat="59.9924333322" lon="12.2873388929">
+		<tag k="name" v="Storlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837859" />
+	</node>
+	<node id="-2717" lat="59.9724805561" lon="12.3209944518">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Damåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837846" />
+	</node>
+	<node id="-2714" lat="59.9255694425" lon="12.1642166591">
+		<tag k="name" v="Holtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837813" />
+	</node>
+	<node id="-2713" lat="60.0099694405" lon="12.2231527704">
+		<tag k="name" v="Sandåker" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837810" />
+	</node>
+	<node id="-664" lat="60.0619583307" lon="12.1418805573">
+		<tag k="name" v="Svenbyberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="36320" />
+	</node>
+	<node id="-2711" lat="59.8780194401" lon="11.8277194436">
+		<tag k="name" v="Sleppa" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837808" />
+	</node>
+	<node id="-2710" lat="60.032766668" lon="12.3056472231">
+		<tag k="name" v="Styggdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837800" />
+	</node>
+	<node id="-2709" lat="59.9221333321" lon="12.1729583306">
+		<tag k="name" v="Grensberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837798" />
+	</node>
+	<node id="-2707" lat="59.9006416704" lon="11.9446194387">
+		<tag k="name" v="Lange Holtet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837773" />
+	</node>
+	<node id="-2705" lat="59.9202499988" lon="12.1957777841">
+		<tag k="name" v="Kjerringbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837763" />
+	</node>
+	<node id="-2704" lat="59.9693305585" lon="11.8393027789">
+		<tag k="name" v="Bestemorlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837742" />
+	</node>
+	<node id="-2701" lat="60.0268166641" lon="11.8990166628">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Liaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837686" />
+	</node>
+	<node id="-2699" lat="60.0210416701" lon="11.8791555628">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Svenskehytta" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837674" />
+	</node>
+	<node id="-2698" lat="59.9747666681" lon="11.9634166626">
+		<tag k="name" v="Askedalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837667" />
+	</node>
+	<node id="-2697" lat="59.9748111101" lon="11.9284222161">
+		<tag k="name" v="Askerudknollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837658" />
+	</node>
+	<node id="-2694" lat="59.9293944415" lon="11.8198611155">
+		<tag k="name" v="Deledalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837607" />
+	</node>
+	<node id="-2689" lat="59.9598694409" lon="12.0280361077">
+		<tag k="name" v="Høgåsbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837536" />
+	</node>
+	<node id="-2688" lat="59.947261107" lon="12.0438638864">
+		<tag k="name" v="Delvikdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837533" />
+	</node>
+	<node id="-2687" lat="59.9286722265" lon="12.187061112">
+		<tag k="name" v="Bjørkåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837526" />
+	</node>
+	<node id="-2686" lat="59.9411499959" lon="12.1063416704">
+		<tag k="name" v="Myssmørkleiva" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837521" />
+	</node>
+	<node id="-637" lat="60.0553722223" lon="12.0846611161">
+		<tag k="name" v="Sæterlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5638" />
+	</node>
+	<node id="-2683" lat="59.9512611125" lon="12.1521777764">
+		<tag k="name" v="Gaustadmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837516" />
+	</node>
+	<node id="-2681" lat="60.0399222244" lon="12.139783333">
+		<tag k="name" v="Torprinna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837493" />
+	</node>
+	<node id="-2680" lat="60.0868111107" lon="12.1174166599">
+		<tag k="name" v="Sleppen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837492" />
+	</node>
+	<node id="-623" lat="59.9930999978" lon="11.9592999929">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5384" />
+	</node>
+	<node id="-2670" lat="59.9311138923" lon="11.9999527799">
+		<tag k="name" v="Plassholmen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837396" />
+	</node>
+	<node id="-2669" lat="59.9758972193" lon="12.2423250078">
+		<tag k="name" v="Fyrarberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837384" />
+	</node>
+	<node id="-2668" lat="60.0083111146" lon="12.2365138811">
+		<tag k="name" v="Råholt" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837383" />
+	</node>
+	<node id="-2667" lat="60.0214805563" lon="12.2292277794">
+		<tag k="name" v="Linnåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837378" />
+	</node>
+	<node id="-2666" lat="59.9935777752" lon="12.2402527833">
+		<tag k="name" v="Kvekerberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837374" />
+	</node>
+	<node id="-2658" lat="59.9158027764" lon="12.056636115">
+		<tag k="name" v="Moberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837335" />
+	</node>
+	<node id="-609" lat="59.9932750015" lon="12.2768000068">
+		<tag k="name" v="Storliberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5246" />
+	</node>
+	<node id="-2654" lat="60.0054833303" lon="11.9344499989">
+		<tag k="name" v="Ormehaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837303" />
+	</node>
+	<node id="-605" lat="59.9817416666" lon="12.3159916741">
+		<tag k="name" v="Stormyrberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5202" />
+	</node>
+	<node id="-2652" lat="59.9686861069" lon="11.9663750006">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sæteråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837295" />
+	</node>
+	<node id="-2651" lat="59.8958972185" lon="11.9450722274">
+		<tag k="name" v="Abbortjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837284" />
+	</node>
+	<node id="-2648" lat="59.9714166631" lon="12.2668916577">
+		<tag k="name" v="Grasmyrdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837243" />
+	</node>
+	<node id="-2647" lat="60.0787999973" lon="12.0222972208">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kvernberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837240" />
+	</node>
+	<node id="-2646" lat="59.9430999981" lon="12.2598333405">
+		<tag k="name" v="Linåsteppa" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837235" />
+	</node>
+	<node id="-702" lat="59.8489833316" lon="11.8599944357">
+		<tag k="name" v="Aurslakullen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47283" />
+	</node>
+	<node id="-594" lat="60.0489527749" lon="12.2787166594">
+		<tag k="name" v="Sundberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5114" />
+	</node>
+	<node id="-2640" lat="60.1067361142" lon="12.1918083361">
+		<tag k="name" v="Øyungen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837149" />
+	</node>
+	<node id="-440" lat="59.9438833299" lon="12.1990638902">
+		<tag k="name" v="Furulund" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412354" />
+	</node>
+	<node id="-588" lat="60.04321667" lon="12.2990472155">
+		<tag k="name" v="Liberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="5002" />
+	</node>
+	<node id="-2635" lat="60.0832555513" lon="12.1761555573">
+		<tag k="name" v="Tjennsdråga" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837126" />
+	</node>
+	<node id="-583" lat="60.0622833366" lon="12.0919527749">
+		<tag k="name" v="Drognesberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="898610" />
+	</node>
+	<node id="-2628" lat="60.0821666668" lon="12.0106027859">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Dalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837085" />
+	</node>
+	<node id="-438" lat="60.005852775" lon="12.3229416703">
+		<tag k="name" v="Strandengene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412346" />
+	</node>
+	<node id="-2625" lat="59.9207277793" lon="12.1142611115">
+		<tag k="name" v="Vindfalldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837079" />
+	</node>
+	<node id="-2622" lat="60.0582583338" lon="12.0140222155">
+		<tag k="name" v="Rundåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837069" />
+	</node>
+	<node id="-437" lat="60.0681944435" lon="11.9710388916">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Reisbråtan" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412339" />
+	</node>
+	<node id="-2618" lat="59.976963888" lon="12.2519916695">
+		<tag k="name" v="Kattbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837052" />
+	</node>
+	<node id="-2614" lat="59.9318611117" lon="11.9223388881">
+		<tag k="name" v="Jussihøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837008" />
+	</node>
+	<node id="-564" lat="59.8800555524" lon="11.8501638807">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tiuråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897990" />
+	</node>
+	<node id="-563" lat="59.9551861143" lon="11.9777555535">
+		<tag k="name" v="Saukullern" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897923" />
+	</node>
+	<node id="-2610" lat="60.0153749974" lon="12.212863882">
+		<tag k="name" v="Falldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="836895" />
+	</node>
+	<node id="-2609" lat="60.0090500001" lon="12.2060888866">
+		<tag k="name" v="Snaråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="836892" />
+	</node>
+	<node id="-560" lat="60.0386999968" lon="11.9863027749">
+		<tag k="name" v="Juvberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897885" />
+	</node>
+	<node id="-2607" lat="59.9639027811" lon="11.9356166719">
+		<tag k="name" v="Brattfallet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="836834" />
+	</node>
+	<node id="-558" lat="59.9685333299" lon="12.1884277859">
+		<tag k="loc_name" v="Jøvikskogen" />
+		<tag k="name" v="Gjøvikenskog" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897865" />
+	</node>
+	<node id="-557" lat="60.0473472205" lon="11.8368555486">
+		<tag k="name" v="Kristilia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897842" />
+	</node>
+	<node id="-554" lat="59.948905554" lon="11.9897750074">
+		<tag k="name" v="Mastberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897779" />
+	</node>
+	<node id="-553" lat="59.9892333304" lon="12.2345888847">
+		<tag k="name" v="Tallbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897776" />
+	</node>
+	<node id="-552" lat="60.0268555553" lon="12.314275007">
+		<tag k="name" v="Store-Steina" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897767" />
+	</node>
+	<node id="-550" lat="59.9603055544" lon="11.948786114">
+		<tag k="name" v="Tamburn" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897753" />
+	</node>
+	<node id="-548" lat="59.9811111152" lon="11.8515916702">
+		<tag k="name" v="Damkleiva" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897725" />
+	</node>
+	<node id="-546" lat="59.9615833309" lon="11.8476527757">
+		<tag k="name" v="Akrilbråtan" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897700" />
+	</node>
+	<node id="-544" lat="59.9587194404" lon="11.8562527739">
+		<tag k="name" v="Lunderbylia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897693" />
+	</node>
+	<node id="-542" lat="60.0249444457" lon="11.852316659">
+		<tag k="name" v="Fløytvola" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897685" />
+	</node>
+	<node id="-536" lat="59.9778111084" lon="11.9525861065">
+		<tag k="name" v="Dulpehøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897635" />
+	</node>
+	<node id="-533" lat="59.8885333293" lon="11.9060222228">
+		<tag k="name" v="Sæterhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897512" />
+	</node>
+	<node id="-531" lat="59.9509444458" lon="11.9694111182">
+		<tag k="name" v="Seljedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897506" />
+	</node>
+	<node id="-529" lat="59.932102779" lon="12.1658388914">
+		<tag k="name" v="Modalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897497" />
+	</node>
+	<node id="-2576" lat="60.1131000038" lon="12.2629027779">
+		<tag k="name" v="Berget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794932" />
+	</node>
+	<node id="-527" lat="59.9495000013" lon="12.1459472202">
+		<tag k="name" v="Masterdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897485" />
+	</node>
+	<node id="-526" lat="60.1120916675" lon="12.1232277862">
+		<tag k="name" v="Bakkeberget" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897454" />
+	</node>
+	<node id="-2573" lat="60.0773111094" lon="11.9976111116">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Samuelsåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794745" />
+	</node>
+	<node id="-2571" lat="60.0441805544" lon="12.0313111148">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tjæregravåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794688" />
+	</node>
+	<node id="-2570" lat="60.0472999978" lon="11.9499750058">
+		<tag k="name" v="Buberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794678" />
+	</node>
+	<node id="-2568" lat="60.0584138855" lon="12.0257750001">
+		<tag k="name" v="Åskiftberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794671" />
+	</node>
+	<node id="-519" lat="59.9711194446" lon="12.020780558">
+		<tag k="name" v="Kvernberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897393" />
+	</node>
+	<node id="-516" lat="60.0619083292" lon="12.048713881">
+		<tag k="name" v="Korpeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897334" />
+	</node>
+	<node id="-2563" lat="60.0290500044" lon="11.9569805506">
+		<tag k="name" v="Buknatten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794646" />
+	</node>
+	<node id="-514" lat="60.0342694442" lon="11.9306444432">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Trettbråten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897315" />
+	</node>
+	<node id="-2560" lat="60.0247361134" lon="11.9939888856">
+		<tag k="name" v="Stubbskiberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794638" />
+	</node>
+	<node id="-2556" lat="59.9816527772" lon="12.1945972223">
+		<tag k="name" v="Furufjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794450" />
+	</node>
+	<node id="-2555" lat="59.9736638885" lon="12.1768305628">
+		<tag k="name" v="Gorrsjøberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794448" />
+	</node>
+	<node id="-503" lat="60.07411667" lon="12.1530722156">
+		<tag k="name" v="Langfossmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897144" />
+	</node>
+	<node id="-501" lat="59.9886138921" lon="12.2532277693">
+		<tag k="name" v="Klanderudbakkene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897124" />
+	</node>
+	<node id="-500" lat="60.0480444464" lon="12.2253361161">
+		<tag k="name" v="Svartbekkdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897116" />
+	</node>
+	<node id="-497" lat="60.0677138862" lon="12.0894555566">
+		<tag k="name" v="Brattlihøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897098" />
+	</node>
+	<node id="-424" lat="59.9577055594" lon="12.2578000031">
+		<tag k="name" v="Sibirien" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412218" />
+	</node>
+	<node id="-2539" lat="59.9482583352" lon="11.9519138931">
+		<tag k="name" v="Aurhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794263" />
+	</node>
+	<node id="-2536" lat="59.9353666656" lon="11.9489416705">
+		<tag k="name" v="Merastlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794238" />
+	</node>
+	<node id="-2527" lat="59.8623277801" lon="11.8620916673">
+		<tag k="name" v="Geitdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794128" />
+	</node>
+	<node id="-2526" lat="60.0533083331" lon="12.3085999979">
+		<tag k="name" v="Bjørkebråtaberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794114" />
+	</node>
+	<node id="-477" lat="60.075313893" lon="11.9419361159">
+		<tag k="name" v="Hestelia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="473510" />
+	</node>
+	<node id="-2521" lat="59.972655553" lon="11.8609555503">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Svartkollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="794038" />
+	</node>
+	<node id="-472" lat="59.9466277785" lon="12.0342444482">
+		<tag k="name" v="Djupdalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412943" />
+	</node>
+	<node id="-470" lat="60.0416722266" lon="12.0007055476">
+		<tag k="name" v="Mikkelsliberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412910" />
+	</node>
+	<node id="-468" lat="59.9754999996" lon="11.9177749926">
+		<tag k="name" v="Raserudknollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412837" />
+	</node>
+	<node id="-467" lat="60.0167944452" lon="12.2948638875">
+		<tag k="name" v="Vesleneset" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412822" />
+	</node>
+	<node id="-2509" lat="59.9318194442" lon="12.1397305562">
+		<tag k="name" v="Gammel-Hansberget" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776996" />
+	</node>
+	<node id="-2505" lat="60.0571555524" lon="12.0044111127">
+		<tag k="name" v="Storbråtalia" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776930" />
+	</node>
+	<node id="-2502" lat="59.9394694471" lon="11.9529555553">
+		<tag k="name" v="Liberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776755" />
+	</node>
+	<node id="-453" lat="59.9684361092" lon="12.0348027828">
+		<tag k="name" v="Knepperudtoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412502" />
+	</node>
+	<node id="-452" lat="60.0389944438" lon="12.0452444385">
+		<tag k="name" v="Sluffelia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412486" />
+	</node>
+	<node id="-451" lat="59.9238555513" lon="12.1672027833">
+		<tag k="name" v="Linkjøldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412480" />
+	</node>
+	<node id="-450" lat="60.048219441" lon="12.1722972293">
+		<tag k="name" v="Damliene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412465" />
+	</node>
+	<node id="-447" lat="59.8750750042" lon="11.8279611136">
+		<tag k="name" v="Mortsjølunglia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412439" />
+	</node>
+	<node id="-445" lat="59.9526166706" lon="12.0388666673">
+		<tag k="name" v="Tingsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412379" />
+	</node>
+	<node id="-2490" lat="59.9257777777" lon="11.8188805491">
+		<tag k="name" v="Golendalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776567" />
+	</node>
+	<node id="-2488" lat="59.8885333314" lon="12.0707666736">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bjørkåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776522" />
+	</node>
+	<node id="-439" lat="60.0159638847" lon="12.2014916676">
+		<tag k="name" v="Kattlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412351" />
+	</node>
+	<node id="-2486" lat="59.9711333355" lon="12.029405561">
+		<tag k="name" v="Bråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776516" />
+	</node>
+	<node id="-2485" lat="59.9450166639" lon="12.0064833277">
+		<tag k="name" v="Rasterhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776510" />
+	</node>
+	<node id="-2483" lat="59.964447218" lon="12.3305583277">
+		<tag k="name" v="Gammersbrenna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776492" />
+	</node>
+	<node id="-2482" lat="59.9374194403" lon="12.127097224">
+		<tag k="name" v="Kabbeteigen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776491" />
+	</node>
+	<node id="-72" lat="60.1245416705" lon="12.1570416735">
+		<tag k="name" v="Vesle-Knarten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290880" />
+	</node>
+	<node id="-2477" lat="60.0933499991" lon="12.0895749997">
+		<tag k="name" v="Vangen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776472" />
+	</node>
+	<node id="-426" lat="59.9684416634" lon="12.257738891">
+		<tag k="name" v="Høgbergstein" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412222" />
+	</node>
+	<node id="-2472" lat="60.0291500011" lon="12.303163882">
+		<tag k="name" v="Matsvingen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776433" />
+	</node>
+	<node id="-2471" lat="60.0351916623" lon="12.1082638939">
+		<tag k="name" v="Utsikten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776401" />
+	</node>
+	<node id="-421" lat="60.0773444423" lon="12.156366672">
+		<tag k="name" v="Olasmoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412205" />
+	</node>
+	<node id="-2468" lat="60.0437611141" lon="11.9104055549">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Eriksåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776288" />
+	</node>
+	<node id="-2467" lat="60.0187750004" lon="11.9425944361">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Buåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776285" />
+	</node>
+	<node id="-2466" lat="59.9570555591" lon="11.9660111108">
+		<tag k="name" v="Raudalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776274" />
+	</node>
+	<node id="-2464" lat="59.9752388886" lon="11.9217944416">
+		<tag k="name" v="Raserudknollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776269" />
+	</node>
+	<node id="-413" lat="59.9652194426" lon="12.2467666649">
+		<tag k="name" v="Steinbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412124" />
+	</node>
+	<node id="-409" lat="59.9101416671" lon="12.1607666726">
+		<tag k="name" v="Ormedråga" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412096" />
+	</node>
+	<node id="-68" lat="59.9943277822" lon="12.2987166705">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Larsåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290830" />
+	</node>
+	<node id="-406" lat="59.8936888859" lon="12.0189750078">
+		<tag k="name" v="Nybakkberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412067" />
+	</node>
+	<node id="-491" lat="59.9672222247" lon="12.2182194497">
+		<tag k="name" v="Mølleråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="897033" />
+	</node>
+	<node id="-2451" lat="60.0558000019" lon="12.0252861079">
+		<tag k="name" v="Åskiftberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776121" />
+	</node>
+	<node id="-67" lat="59.935463887" lon="11.9218055635">
+		<tag k="name" v="Grauthallet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290786" />
+	</node>
+	<node id="-400" lat="59.9913083346" lon="12.0304416635">
+		<tag k="name" v="Østre Brenninga" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411965" />
+	</node>
+	<node id="-2447" lat="59.9075444464" lon="12.1605444465">
+		<tag k="name" v="Mæbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776087" />
+	</node>
+	<node id="-398" lat="59.9171000001" lon="11.9757083419">
+		<tag k="name" v="Høgberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411937" />
+	</node>
+	<node id="-397" lat="59.8970388898" lon="12.1348305536">
+		<tag k="name" v="Nybrennberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411908" />
+	</node>
+	<node id="-2444" lat="59.9740944448" lon="11.9803638957">
+		<tag k="name" v="Tobølbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776049" />
+	</node>
+	<node id="-2443" lat="59.9269861091" lon="12.1982638967">
+		<tag k="name" v="Gotlandsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776047" />
+	</node>
+	<node id="-2441" lat="59.8916944422" lon="12.026655551">
+		<tag k="name" v="Larsbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776036" />
+	</node>
+	<node id="-2440" lat="59.8956361089" lon="12.0602333302">
+		<tag k="name" v="Brennekulen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776033" />
+	</node>
+	<node id="-388" lat="59.9594083324" lon="12.310394451">
+		<tag k="name" v="Svartdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411150" />
+	</node>
+	<node id="-2434" lat="59.9640416683" lon="11.9409388929">
+		<tag k="name" v="Brenna" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="775824" />
+	</node>
+	<node id="-2433" lat="59.9251444421" lon="11.8430555531">
+		<tag k="name" v="Godnesliene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="775681" />
+	</node>
+	<node id="-2427" lat="59.8806666627" lon="11.8982944357">
+		<tag k="name" v="Steindalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="775239" />
+	</node>
+	<node id="-2426" lat="60.1215305531" lon="12.2529388825">
+		<tag k="name" v="Løvlidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="775189" />
+	</node>
+	<node id="-377" lat="60.0316416641" lon="12.315777784">
+		<tag k="name" v="Stubben" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412749" />
+	</node>
+	<node id="-2421" lat="59.9298055515" lon="12.0849666657">
+		<tag k="name" v="Sjølia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776347" />
+	</node>
+	<node id="-2419" lat="59.9561944468" lon="11.9727111086">
+		<tag k="name" v="Finlandsmoen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776323" />
+	</node>
+	<node id="-2417" lat="59.8997805521" lon="12.061622224">
+		<tag k="name" v="Tømmeråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="776314" />
+	</node>
+	<node id="-357" lat="60.0888388909" lon="12.0979722143">
+		<tag k="name" v="Malmerberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369724" />
+	</node>
+	<node id="-351" lat="60.0851805561" lon="12.2108250013">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Hofjellet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369644" />
+	</node>
+	<node id="-349" lat="60.0851111065" lon="12.1333277858">
+		<tag k="name" v="Korskjølen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369636" />
+	</node>
+	<node id="-399" lat="59.932308336" lon="11.9694472181">
+		<tag k="name" v="Smørkleiva" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411936" />
+	</node>
+	<node id="-337" lat="59.9644999992" lon="12.0250277701">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tobølhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369399" />
+	</node>
+	<node id="-2671" lat="59.9968083367" lon="12.3327361181">
+		<tag k="name" v="Ospedråga" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="837404" />
+	</node>
+	<node id="-396" lat="60.0054777765" lon="11.9251666681">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Karibrenna" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411818" />
+	</node>
+	<node id="-2370" lat="60.0817861093" lon="12.0108722281">
+		<tag k="name" v="Dalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="733731" />
+	</node>
+	<node id="-395" lat="59.9723138874" lon="12.1770083249">
+		<tag k="name" v="Ilagsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="411672" />
+	</node>
+	<node id="-320" lat="59.9455361069" lon="11.8853138894">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Jerpåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369249" />
+	</node>
+	<node id="-736" lat="60.0443500029" lon="12.0556888825">
+		<tag k="name" v="Hornsjøåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="48067" />
+	</node>
+	<node id="-2365" lat="60.0597550232" lon="12.1053484328">
+		<tag k="name" v="Dalsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="733627" />
+	</node>
+	<node id="-316" lat="59.9577416624" lon="12.3032166731">
+		<tag k="name" v="Breitjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369201" />
+	</node>
+	<node id="-2362" lat="60.0352500034" lon="12.1928749927">
+		<tag k="name" v="Sleppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="733603" />
+	</node>
+	<node id="-307" lat="60.057850004" lon="12.2557000008">
+		<tag k="name" v="Kampeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369091" />
+	</node>
+	<node id="-301" lat="59.9135111141" lon="12.0114749932">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369020" />
+	</node>
+	<node id="-50" lat="60.0458277776" lon="12.1797166681">
+		<tag k="name" v="Skavollbrennene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290477" />
+	</node>
+	<node id="-297" lat="60.0463000022" lon="12.3014555586">
+		<tag k="name" v="Krenkedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="369001" />
+	</node>
+	<node id="-725" lat="59.9958749969" lon="11.8869499939">
+		<tag k="name" v="Gudmundsbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47822" />
+	</node>
+	<node id="-48" lat="59.9205166628" lon="12.1487666599">
+		<tag k="name" v="Kumyrdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290464" />
+	</node>
+	<node id="-47" lat="59.9602833305" lon="12.090533334">
+		<tag k="name" v="Kroksjødalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290460" />
+	</node>
+	<node id="-2325" lat="59.9606249996" lon="12.03026667">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vålbråtaåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715986" />
+	</node>
+	<node id="-275" lat="60.0090888871" lon="11.9655972228">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Tørkåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351766" />
+	</node>
+	<node id="-2322" lat="60.0133527808" lon="12.3050222138">
+		<tag k="name" v="Skjørbergflaten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715947" />
+	</node>
+	<node id="-2321" lat="59.9081277794" lon="12.093555564">
+		<tag k="name" v="Edberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715911" />
+	</node>
+	<node id="-2320" lat="60.0331249976" lon="12.1617861063">
+		<tag k="name" v="Kvernbekkdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715904" />
+	</node>
+	<node id="-271" lat="59.9429722208" lon="11.8503500063">
+		<tag k="name" v="Saulia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351700" />
+	</node>
+	<node id="-2318" lat="60.02368889" lon="12.1083611202">
+		<tag k="name" v="Skulstadsletta" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715862" />
+	</node>
+	<node id="-2317" lat="59.963627781" lon="12.3209472312">
+		<tag k="name" v="Gørrdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715857" />
+	</node>
+	<node id="-2316" lat="59.975888886" lon="12.2909027812">
+		<tag k="name" v="Stråtjennlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715844" />
+	</node>
+	<node id="-2315" lat="59.9377444436" lon="11.9346611072">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715822" />
+	</node>
+	<node id="-2313" lat="59.9483666687" lon="11.9517277692">
+		<tag k="name" v="Aurhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715774" />
+	</node>
+	<node id="-2310" lat="59.9223722237" lon="12.1993444455">
+		<tag k="name" v="Bjørnstadbråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715761" />
+	</node>
+	<node id="-2309" lat="59.9920416644" lon="11.8199611029">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Terjeåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715753" />
+	</node>
+	<node id="-260" lat="59.9425777769" lon="11.9679194477">
+		<tag k="name" v="Liberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351522" />
+	</node>
+	<node id="-2307" lat="59.9217361118" lon="11.8674916749">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bæråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715716" />
+	</node>
+	<node id="-258" lat="60.0038527752" lon="12.1404861023">
+		<tag k="name" v="Styggerud" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351502" />
+	</node>
+	<node id="-43" lat="59.9609138863" lon="12.2357944374">
+		<tag k="name" v="Deldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290428" />
+	</node>
+	<node id="-2304" lat="59.9480472246" lon="11.8695777814">
+		<tag k="name" v="Korpevåla" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715667" />
+	</node>
+	<node id="-255" lat="60.0834805572" lon="11.9635138979">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Slååsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351448" />
+	</node>
+	<node id="-2302" lat="59.9669416628" lon="11.9629972189">
+		<tag k="name" v="Grusjølidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715659" />
+	</node>
+	<node id="-2301" lat="59.8985722194" lon="11.8078277853">
+		<tag k="name" v="Nimilberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715617" />
+	</node>
+	<node id="-252" lat="59.9917916664" lon="11.8988666663">
+		<tag k="name" v="Bjørnliberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351631" />
+	</node>
+	<node id="-2296" lat="59.92145833" lon="12.1818222278">
+		<tag k="name" v="Gaustadsæterhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715428" />
+	</node>
+	<node id="-2295" lat="59.9336666678" lon="11.9974972237">
+		<tag k="name" v="Kildalsholmen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715420" />
+	</node>
+	<node id="-2293" lat="59.9830555524" lon="12.2377250086">
+		<tag k="name" v="Øversæterhaget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715398" />
+	</node>
+	<node id="-2289" lat="60.028605552" lon="11.9569861092">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Buknatten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715354" />
+	</node>
+	<node id="-2287" lat="60.0043388908" lon="11.8981833389">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Revåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715333" />
+	</node>
+	<node id="-2286" lat="60.0058249979" lon="11.9567805528">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vesle Sandåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715332" />
+	</node>
+	<node id="-2285" lat="59.9735722226" lon="11.9470027749">
+		<tag k="name" v="Høybydalen" />
+		<tag k="natural" v="valley" />
+		<tag k="old_name" v="Høibydalen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715321" />
+	</node>
+	<node id="-2283" lat="59.8883888876" lon="11.8990499993">
+		<tag k="name" v="Sæterhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715287" />
+	</node>
+	<node id="-2281" lat="60.0404833324" lon="11.8587500016">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Fjellbuåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715274" />
+	</node>
+	<node id="-231" lat="60.0468305544" lon="12.2900916644">
+		<tag k="name" v="Bjørndalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351192" />
+	</node>
+	<node id="-229" lat="59.8925249985" lon="12.1038222187">
+		<tag k="name" v="Knartberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351161" />
+	</node>
+	<node id="-227" lat="60.0668916623" lon="12.1728305536">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Buåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351151" />
+	</node>
+	<node id="-225" lat="59.994105559" lon="12.2506111045">
+		<tag k="name" v="Klanderudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351131" />
+	</node>
+	<node id="-37" lat="59.9426083298" lon="12.0039972213">
+		<tag k="name" v="Mastberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290374" />
+	</node>
+	<node id="-2267" lat="60.0150694483" lon="12.2633000017">
+		<tag k="name" v="Trettåshøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715194" />
+	</node>
+	<node id="-218" lat="59.9936111093" lon="12.2564499941">
+		<tag k="name" v="Heimadalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351047" />
+	</node>
+	<node id="-2265" lat="60.0508583333" lon="12.2923638919">
+		<tag k="name" v="Vasletta" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715184" />
+	</node>
+	<node id="-2264" lat="60.04058333" lon="12.2403805472">
+		<tag k="name" v="Brukleiva" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715179" />
+	</node>
+	<node id="-2262" lat="59.9689555558" lon="12.2481972218">
+		<tag k="name" v="Liahaget" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715137" />
+	</node>
+	<node id="-213" lat="59.9995805517" lon="12.2852194384">
+		<tag k="name" v="Hellene" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="351013" />
+	</node>
+	<node id="-2259" lat="59.9853055548" lon="12.2958972298">
+		<tag k="name" v="Grevlinghøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715121" />
+	</node>
+	<node id="-2258" lat="59.9971888851" lon="12.2585333293">
+		<tag k="name" v="Kubråten" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715119" />
+	</node>
+	<node id="-2257" lat="59.9979250009" lon="12.2495749951">
+		<tag k="name" v="Brattstupet" />
+		<tag k="natural" v="cliff" />
+		<tag k="ssr:stedsnr" v="715117" />
+	</node>
+	<node id="-208" lat="59.9456027743" lon="11.9817638905">
+		<tag k="name" v="Engene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="350930" />
+	</node>
+	<node id="-2255" lat="60.0364194462" lon="12.2502833363">
+		<tag k="name" v="Gravlidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715100" />
+	</node>
+	<node id="-689" lat="59.906402777" lon="12.1437999926">
+		<tag k="name" v="Sleppen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47156" />
+	</node>
+	<node id="-2253" lat="60.0005305527" lon="12.2466777757">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bekkelitoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715079" />
+	</node>
+	<node id="-204" lat="60.0159916712" lon="11.9278416588">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Manarsteinen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="350816" />
+	</node>
+	<node id="-2250" lat="59.9129555577" lon="12.1918749933">
+		<tag k="name" v="Mastdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715059" />
+	</node>
+	<node id="-201" lat="59.8977472248" lon="11.8504055579">
+		<tag k="name" v="Bukkeramshullet" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="350682" />
+	</node>
+	<node id="-2247" lat="59.9111222202" lon="12.0460138914">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Knapperneset" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715018" />
+	</node>
+	<node id="-191" lat="60.0276777802" lon="11.8211138809">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="old_name" v="Raudmyrkollen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="344619" />
+	</node>
+	<node id="-373" lat="60.0133166649" lon="11.9618305618">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gruvemyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="412722" />
+	</node>
+	<node id="-2236" lat="60.0558777811" lon="12.1072249934">
+		<tag k="name" v="Svenskeknappen" />
+		<tag k="natural" v="ridge" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715544" />
+	</node>
+	<node id="-2235" lat="59.9752361134" lon="12.3289777834">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Nottjennåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715538" />
+	</node>
+	<node id="-2234" lat="60.0104944431" lon="12.1255611155">
+		<tag k="name" v="Ekeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715530" />
+	</node>
+	<node id="-2233" lat="60.0004055558" lon="12.1504944441">
+		<tag k="name" v="Styggerudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715527" />
+	</node>
+	<node id="-2231" lat="60.0501888887" lon="12.1799222243">
+		<tag k="name" v="Jonsoklia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715521" />
+	</node>
+	<node id="-2230" lat="60.0247555586" lon="12.1115472296">
+		<tag k="name" v="Elvelia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715519" />
+	</node>
+	<node id="-2229" lat="60.0381249988" lon="12.1147249942">
+		<tag k="name" v="Kjellebekklia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="715517" />
+	</node>
+	<node id="-2225" lat="60.0281333372" lon="11.970413897">
+		<tag k="name" v="Havmyrlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="703401" />
+	</node>
+	<node id="-173" lat="60.0390499998" lon="12.0162333355">
+		<tag k="name" v="Merraberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="309649" />
+	</node>
+	<node id="-28" lat="59.9593722236" lon="11.9215777707">
+		<tag k="name" v="Huldertjenndalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290281" />
+	</node>
+	<node id="-158" lat="59.962194444" lon="12.2612499928">
+		<tag k="name" v="Djupdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="309246" />
+	</node>
+	<node id="-153" lat="59.907180558" lon="12.191388894">
+		<tag k="name" v="Styggedalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="309203" />
+	</node>
+	<node id="-152" lat="59.9197888867" lon="12.1888027698">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Sæterhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="309195" />
+	</node>
+	<node id="-148" lat="59.9650638912" lon="12.0101055595">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Korpberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="309037" />
+	</node>
+	<node id="-147" lat="59.8882777744" lon="11.8995472145">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Knollen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="309034" />
+	</node>
+	<node id="-140" lat="60.0111749992" lon="11.8802083253">
+		<tag k="name" v="Gravliberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="308871" />
+	</node>
+	<node id="-2182" lat="59.9058444477" lon="12.082613881">
+		<tag k="alt_name" v="Omsberget" />
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Omnsberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="673186" />
+	</node>
+	<node id="-133" lat="60.0238138854" lon="11.9274277724">
+		<tag k="name" v="Stutaugberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="308625" />
+	</node>
+	<node id="-2176" lat="59.9337111074" lon="12.2221472293">
+		<tag k="name" v="Magnormoen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="673045" />
+	</node>
+	<node id="-2174" lat="59.9594638915" lon="11.8228361103">
+		<tag k="name" v="Høglia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="672988" />
+	</node>
+	<node id="-124" lat="59.9261500022" lon="12.1207777775">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Knutsbråtehøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="308300" />
+	</node>
+	<node id="-2166" lat="60.0790611089" lon="12.2061805616">
+		<tag k="name" v="Storfalldalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="672685" />
+	</node>
+	<node id="-2164" lat="60.0184000039" lon="12.034958328">
+		<tag k="name" v="Rinderberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="672625" />
+	</node>
+	<node id="-2163" lat="60.0276972234" lon="12.1853111086">
+		<tag k="name" v="Langlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="672614" />
+	</node>
+	<node id="-104" lat="59.9631138885" lon="11.8773138961">
+		<tag k="name" v="Gravliknatten" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="291649" />
+	</node>
+	<node id="-2140" lat="59.9787555516" lon="11.8135583259">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="655259" />
+	</node>
+	<node id="-2136" lat="60.0329694401" lon="12.1524694484">
+		<tag k="name" v="Jordbærdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654906" />
+	</node>
+	<node id="-2135" lat="60.014502781" lon="12.1588583357">
+		<tag k="name" v="Gjømterdråga" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654902" />
+	</node>
+	<node id="-2134" lat="60.0366694422" lon="12.2899111073">
+		<tag k="name" v="Kuberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654888" />
+	</node>
+	<node id="-2131" lat="59.9693833323" lon="11.9351194447">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høymyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="old_name" v="Høimyråsen" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654840" />
+	</node>
+	<node id="-2128" lat="59.9981277742" lon="12.2342583248">
+		<tag k="name" v="Damenga" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654810" />
+	</node>
+	<node id="-2125" lat="59.9686388854" lon="11.8080138876">
+		<tag k="name" v="Sandviklia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654754" />
+	</node>
+	<node id="-2124" lat="59.928122222" lon="11.8754722285">
+		<tag k="name" v="Langeholen" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654739" />
+	</node>
+	<node id="-2122" lat="59.9637527739" lon="11.8502305629">
+		<tag k="name" v="Øvre Akrilberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654715" />
+	</node>
+	<node id="-73" lat="60.0221277749" lon="11.969738883">
+		<tag k="name" v="Grytholtet" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290894" />
+	</node>
+	<node id="-2120" lat="60.0360388916" lon="11.8967083353">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Bukketangen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654685" />
+	</node>
+	<node id="-2119" lat="60.0350444469" lon="11.9439666599">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Buåbakken" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654654" />
+	</node>
+	<node id="-70" lat="59.9712999963" lon="12.2029305533">
+		<tag k="name" v="Tørrkoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290868" />
+	</node>
+	<node id="-2116" lat="59.9170611103" lon="11.8401194396">
+		<tag k="name" v="Varden" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654620" />
+	</node>
+	<node id="-694" lat="60.103827774" lon="12.2294777701">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Kafallåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47173" />
+	</node>
+	<node id="-63" lat="59.96305556" lon="12.0193472142">
+		<tag k="name" v="Kattlidalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290715" />
+	</node>
+	<node id="-62" lat="59.9061777807" lon="11.8708499976">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Ugleviknesa" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290713" />
+	</node>
+	<node id="-61" lat="59.9878861119" lon="11.8210777854">
+		<tag k="name" v="Damlia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290701" />
+	</node>
+	<node id="-2108" lat="60.0261055562" lon="12.1062777801">
+		<tag k="name" v="Ulvebakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654576" />
+	</node>
+	<node id="-2105" lat="59.9578527767" lon="12.0202250005">
+		<tag k="name" v="Pukksteinberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654544" />
+	</node>
+	<node id="-55" lat="60.0222111131" lon="11.9474388885">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Gruveåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290578" />
+	</node>
+	<node id="-54" lat="59.865691664" lon="11.8670805544">
+		<tag k="name" v="Mohøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290561" />
+	</node>
+	<node id="-2101" lat="59.9662944405" lon="12.3329777781">
+		<tag k="name" v="Gutulandet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654525" />
+	</node>
+	<node id="-2099" lat="59.9457666697" lon="12.157863883">
+		<tag k="name" v="Rønningsdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654521" />
+	</node>
+	<node id="-2098" lat="59.9536777785" lon="12.1448555642">
+		<tag k="loc_name" v="Bjørknesdalen" />
+		<tag k="name" v="Bjerkenesdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654520" />
+	</node>
+	<node id="-691" lat="59.9715638851" lon="12.315736118">
+		<tag k="name" v="Fallbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="47158" />
+	</node>
+	<node id="-2096" lat="60.0499944422" lon="12.1769250074">
+		<tag k="name" v="Stenerudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654509" />
+	</node>
+	<node id="-2095" lat="60.0619361155" lon="12.1419138911">
+		<tag k="name" v="Svenbyberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654505" />
+	</node>
+	<node id="-46" lat="60.099733332" lon="12.1664805619">
+		<tag k="name" v="Stormyråsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290450" />
+	</node>
+	<node id="-44" lat="59.9704722209" lon="12.2174722253">
+		<tag k="name" v="Brekkeberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290427" />
+	</node>
+	<node id="-2091" lat="59.9014638916" lon="11.8162749945">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654485" />
+	</node>
+	<node id="-42" lat="59.9616111095" lon="11.8521388874">
+		<tag k="name" v="Nedre Akrilberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290422" />
+	</node>
+	<node id="-2087" lat="59.9340999989" lon="12.0115722166">
+		<tag k="name" v="Nabben" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654404" />
+	</node>
+	<node id="-2086" lat="60.0120805558" lon="12.322519444">
+		<tag k="name" v="Merrasprengbakken" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654372" />
+	</node>
+	<node id="-2085" lat="59.9240611095" lon="12.1199611026">
+		<tag k="name" v="Knutbråtahøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654365" />
+	</node>
+	<node id="-36" lat="59.9737055534" lon="12.21735">
+		<tag k="name" v="Stampåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290356" />
+	</node>
+	<node id="-35" lat="59.913783329" lon="12.1250333308">
+		<tag k="name" v="Strutmyrhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290341" />
+	</node>
+	<node id="-2082" lat="59.8777611145" lon="11.8725861172">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Vaktåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654548" />
+	</node>
+	<node id="-2080" lat="59.9420749968" lon="11.9077138937">
+		<tag k="name" v="Karterudberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654308" />
+	</node>
+	<node id="-31" lat="59.9859083366" lon="11.9755333304">
+		<tag k="name" v="Nordbyslippa" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290326" />
+	</node>
+	<node id="-30" lat="59.9039388892" lon="11.9752666615">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Elgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290319" />
+	</node>
+	<node id="-29" lat="59.9589444426" lon="11.9062027857">
+		<tag k="name" v="Molikkdalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290284" />
+	</node>
+	<node id="-2076" lat="59.9147500041" lon="11.8781722234">
+		<tag k="name" v="Engene" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654270" />
+	</node>
+	<node id="-27" lat="59.8927222179" lon="11.9359694466">
+		<tag k="name" v="Brudalen" />
+		<tag k="natural" v="valley" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290272" />
+	</node>
+	<node id="-2072" lat="60.0791416645" lon="12.1621111169">
+		<tag k="name" v="Møllerteppa" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654236" />
+	</node>
+	<node id="-21" lat="60.0776833336" lon="12.1462222255">
+		<tag k="name" v="Moberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290158" />
+	</node>
+	<node id="-2067" lat="60.0835000027" lon="12.1573527694">
+		<tag k="name" v="Høgmoen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654139" />
+	</node>
+	<node id="-18" lat="60.0335972189" lon="11.9925749915">
+		<tag k="name" v="Høgåsen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290112" />
+	</node>
+	<node id="-17" lat="60.0826111138" lon="11.9801861171">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Merraholmen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290106" />
+	</node>
+	<node id="-16" lat="60.0754305537" lon="12.079724991">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Svartkjølen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290101" />
+	</node>
+	<node id="-15" lat="60.0513333368" lon="12.0176750007">
+		<tag k="name" v="Løvskogberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290096" />
+	</node>
+	<node id="-14" lat="59.9037444403" lon="12.1142194432">
+		<tag k="name" v="Vangberget" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290089" />
+	</node>
+	<node id="-12" lat="59.8988638897" lon="12.0244499993">
+		<tag k="name" v="Kutjennhøgda" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290081" />
+	</node>
+	<node id="-2058" lat="59.903949998" lon="12.1905222187">
+		<tag k="name" v="Vestre Lauvhaugen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654072" />
+	</node>
+	<node id="-8" lat="59.9701555553" lon="11.9766805472">
+		<tag k="name" v="Vanglia" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290014" />
+	</node>
+	<node id="-7" lat="59.8882777802" lon="12.1603027726">
+		<tag k="name" v="Fantefallet" />
+		<tag k="natural" v="slope" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="290007" />
+	</node>
+	<node id="-2051" lat="60.001063888" lon="12.2550972156">
+		<tag k="fixme" v="consider natural=peak for the most distinct mountains in the district" />
+		<tag k="name" v="Løvlitoppen" />
+		<tag k="natural" v="hill" />
+		<tag k="place" v="locality" />
+		<tag k="ssr:stedsnr" v="654028" />
+	</node>
+</osm>
