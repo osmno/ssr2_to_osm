@@ -21,9 +21,10 @@ debug_way:
 	rsync -rt --delete output_multi_point_as_way/ /Users/ob/Google\ Drive/ssr2_to_osm_data/output_multi_point_as_way/
 
 sync:
-	-$(git) add -A
-	-$(git) com -am "Data update"
-	-$(git) push
+	-cd ssr2_to_osm_data;$(git) add -A;
+	-cd ssr2_to_osm_data;$(git) com -am "Data update";
+	-cd ssr2_to_osm_data;$(git) push;
+
 #sync:
 #	s3cmd sync -H --delete-removed --acl-public --storage-class=REDUCED_REDUNDANCY --exclude=*DS_Store ssr2_to_osm/ s3://ssr2-to-osm/
 #	s3cmd setacl s3://ssr2-to-osm/ --acl-public --recursive

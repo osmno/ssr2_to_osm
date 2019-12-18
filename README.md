@@ -16,4 +16,4 @@ will start downloading and processing every kommune in Norway, which takes a whi
 ## Output
 The script output is currently here:
 
-https://github.com/osmno/ssr2_to_osm
+https://obtitus.github.io/ssr2_to_osm_data/

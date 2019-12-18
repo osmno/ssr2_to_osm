@@ -300,7 +300,7 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
                     if N_ssr != 0:
                         per = (100.*N_overpass)/N_ssr
 
-                    href = filename.replace('html/', '')
+                    href = filename.replace('ssr2_to_osm_data/', '') # FIXME: HACK
                     url = link_template.format(href=href,
                                                title=filename,
                                                text=text)

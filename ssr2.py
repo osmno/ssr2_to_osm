@@ -826,6 +826,7 @@ if __name__ == '__main__':
         p = Pool(args.parallel)
     
     p_results = list()
+    fatal_errors = list()
     for n in kommunenummer:
         folder = os.path.join(root, n)
         if args.parallel != 0:
@@ -836,7 +837,8 @@ if __name__ == '__main__':
             try:
                 main(args, folder, n, conversion)
             except Exception as e:
-                print('ERROR: Komune %s failed with: %s' % (n, e))
+                logger.error('Fatal error:%s %s', n, e)
+                fatal_errors.append('ERROR: Komune %s failed with: %s' % (n, e))
         
         end_time = datetime.datetime.now()
         print('Elapsed time: {}'.format(end_time - start_time))
@@ -844,7 +846,10 @@ if __name__ == '__main__':
     # Wait for all pool results:
     for res in p_results:
         res.get()
-    
+
+    for error in fatal_errors:
+        print(error)
+        
     # table = list()
     # for key in sorted(group_overview.keys()):
     #     row = list()
