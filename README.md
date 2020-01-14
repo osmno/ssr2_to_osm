@@ -11,9 +11,8 @@ Use `install.sh`, requires `git` and `pip`.
 
 ## Usage
 See `ssr2.py --help`. Note that calling `ssr2.py` without any arguments
-will start downloading and processing every kommune in Norway, which takes a while…
+downloads and processes every Norwegian municipality, which takes a while…
 
 ## Output
-The script output is currently here:
-
+The script output is currently to be found here:
 https://obtitus.github.io/ssr2_to_osm_data/
