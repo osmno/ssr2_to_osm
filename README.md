@@ -1,9 +1,7 @@
 # SSR2 import to OpenStreetMap.org
 This project fetches and translates data from the Norwegian Mapping Authorities (Kartverket)
 using the SSR2 API at wfs.geonorge.no. See:
-
 https://wiki.openstreetmap.org/wiki/No:Import_av_stedsnavn_fra_SSR2
-
 for details on the import.
 
 ## Installation
