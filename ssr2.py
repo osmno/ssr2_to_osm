@@ -35,6 +35,10 @@ import pyproj
 import ssr2_split
 import ssr2_tags
 
+def init_pool_worker():
+    # https://stackoverflow.com/a/11312948
+    signal.signal(signal.SIGINT, signal.SIG_IGN)
+
 def add_file_handler(filename='warnings.log'):
     fh = logging.FileHandler(filename, mode='w')
     #fh.setLevel(logging.WARNING)
@@ -647,6 +651,9 @@ def parse_geonorge(soup, create_multipoint_way=False):
 
     return osm, osm_noName
 
+class EmptyResultException(Exception):
+    pass
+
 def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_filename_noName,
                               character_limit=-1, create_multipoint_way=False, url=None):
     if not(isinstance(kommunenummer, str)):
@@ -677,7 +684,7 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
         osm.save(osm_filename)
     else:
         #print(soup.prettify())
-        raise Exception('Empty osm result')
+        raise EmptyResultException('Empty osm result for %s' % kommunenummer)
 
     if len(osm_noName) != 0:
         osm_noName.save(osm_filename_noName)
@@ -708,11 +715,15 @@ def main(args, folder, n, conversion, url=None):
     # csv_names_filename = os.path.join(folder, '%s-multi-names.csv' % n)
 
     # Go from %s-geonorge.xml to %s-all.osm
-    fetch_and_process_kommune(n, xml_filename=xml_filename, url=url,
-                              osm_filename=osm_filename,
-                              osm_filename_noName=osm_filename_noName,
-                              character_limit=args.character_limit,
-                              create_multipoint_way=args.create_multipoint_way)
+    try:
+        fetch_and_process_kommune(n, xml_filename=xml_filename, url=url,
+                                  osm_filename=osm_filename,
+                                  osm_filename_noName=osm_filename_noName,
+                                  character_limit=args.character_limit,
+                                  create_multipoint_way=args.create_multipoint_way)
+    except EmptyResultException as e:
+        print('Empty result', e)
+        return
 
     filenames_to_clean = list()
     # Go from %s-all.osm to %s-all-tagged.osm, removing %s-all.osm when done
@@ -753,7 +764,8 @@ def main(args, folder, n, conversion, url=None):
         #shutil.move(filename, output_clean_folder)
 
     end_time = datetime.datetime.now()
-    logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
+    #logger.info('Done: Kommune = %s, Duration: %s', n, end_time - start_time_kommune)
+    print('Done: Kommune = %s, Duration: %s' % (n, end_time - start_time_kommune)) # reduce diff size of logs
         
     logger.removeHandler(logging_fh)
 
@@ -823,7 +835,7 @@ if __name__ == '__main__':
         main(args, folder, n, conversion, url=url)
 
     if args.parallel != 0:
-        p = Pool(args.parallel)
+        p = Pool(args.parallel, init_pool_worker)
     
     p_results = list()
     fatal_errors = list()

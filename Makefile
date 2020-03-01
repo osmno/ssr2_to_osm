@@ -1,4 +1,4 @@
-python=/opt/local/bin/python2.7
+python=. venv/bin/activate; python
 git=/usr/bin/git
 
 kommuner = 0101 0941 1850 2011 5043 0213 0529 0904 1253 5001 0301 2020 1002 0710 1902 2030 2012 1201 1103 0106 0501 0806
