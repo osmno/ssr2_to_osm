@@ -5,7 +5,9 @@ import re
 import csv
 import json
 import glob
+import traceback
 from multiprocessing import Pool
+import signal
 import time
 import shutil
 import codecs
@@ -41,8 +43,8 @@ def init_pool_worker():
 
 def add_file_handler(filename='warnings.log'):
     fh = logging.FileHandler(filename, mode='w')
-    #fh.setLevel(logging.WARNING)
-    fh.setLevel(logging.INFO)
+    fh.setLevel(logging.WARNING)
+    #fh.setLevel(logging.INFO)
     fh.setFormatter(formatter)
     logger.addHandler(fh)
     return fh
@@ -503,7 +505,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
                 
             #     del alt_names_pri[0]                
             else:
-                logger.error('ssr:stedsnr = %s: No name found',
+                logger.info('ssr:stedsnr = %s: No name found',
                              tags['ssr:stedsnr'])
                 #continue
 
@@ -676,6 +678,12 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     # get xml:
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
+    
+    if d is None:
+        msg = 'Unable to fetch %s, cached to %s' % (url, xml_filename)
+        logger.error(msg)
+        raise EmptyResultException(msg)
+    
     # parse xml:
     soup = BeautifulSoup(d[:character_limit], 'lxml-xml')
     osm, osm_noName = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
@@ -849,8 +857,9 @@ if __name__ == '__main__':
             try:
                 main(args, folder, n, conversion)
             except Exception as e:
+                trace = traceback.format_exc()
                 logger.error('Fatal error:%s %s', n, e)
-                fatal_errors.append('ERROR: Komune %s failed with: %s' % (n, e))
+                fatal_errors.append('ERROR: Komune %s failed with: %s.\n%s' % (n, e, trace))
         
         end_time = datetime.datetime.now()
         print('Elapsed time: {}'.format(end_time - start_time))

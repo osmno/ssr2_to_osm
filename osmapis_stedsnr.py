@@ -2,7 +2,7 @@ import logging
 logger = logging.getLogger('utility_to_osm.ssr2.OSMstedsnr')
 
 from utility_to_osm.osmapis import osmapis
-from osmapis import *
+#from osmapis import *
 
 class OSMstedsnr(osmapis.OSM):
     """Adds the container stedsnr to osmpais.OSM, 

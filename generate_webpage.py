@@ -300,7 +300,12 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
                     if N_ssr != 0:
                         per = (100.*N_overpass)/N_ssr
 
-                    href = filename.replace('ssr2_to_osm_data/', '') # FIXME: HACK
+                    # FIXME: Hack
+                    href = filename.replace('ssr2_to_osm_data/', '')
+                    if filename.endswith('.log'): # these are in lfs storage
+                        href = 'https://media.githubusercontent.com/media/obtitus/ssr2_to_osm_data/master/%s' % href
+                        #print('LFS URL', href)
+                    
                     url = link_template.format(href=href,
                                                title=filename,
                                                text=text)
