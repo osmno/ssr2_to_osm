@@ -855,12 +855,12 @@ if __name__ == '__main__':
             p_results.append(res)
             time.sleep(10) # to to be sligtly gentle to geonorge.no
         else:
-            #try:
-            main(args, folder, n, conversion)
-            # except Exception as e:
-            #     trace = traceback.format_exc()
-            #     logger.error('Fatal error:%s %s', n, e)
-            #     fatal_errors.append('ERROR: Komune %s failed with: %s.\n%s' % (n, e, trace))
+            try:
+                main(args, folder, n, conversion)
+            except Exception as e:
+                trace = traceback.format_exc()
+                logger.error('Fatal error:%s %s', n, e)
+                fatal_errors.append('ERROR: Komune %s failed with: %s.\n%s' % (n, e, trace))
         
         end_time = datetime.datetime.now()
         print('Elapsed time: {}'.format(end_time - start_time))
