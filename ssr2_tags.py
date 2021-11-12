@@ -21,7 +21,7 @@ def read_tags(filename):
     ws = wb.worksheets[0]
     rows = ws.rows
 
-    header = rows.next()
+    header = next(rows)
     header = [item.value for item in header]
     #print header
     ix_hovedgruppe = header.index('SSR2 kategori')

@@ -5,7 +5,9 @@ import re
 import csv
 import json
 import glob
+import traceback
 from multiprocessing import Pool
+import signal
 import time
 import shutil
 import codecs
@@ -41,14 +43,15 @@ def init_pool_worker():
 
 def add_file_handler(filename='warnings.log'):
     fh = logging.FileHandler(filename, mode='w')
-    #fh.setLevel(logging.WARNING)
-    fh.setLevel(logging.INFO)
+    fh.setLevel(logging.WARNING)
+    #fh.setLevel(logging.INFO)
     fh.setFormatter(formatter)
     logger.addHandler(fh)
     return fh
 
 def parse_gml_point(point):
     epsg = point['srsName']
+    #print('epsg', epsg)
     projection = pyproj.Proj(init=epsg)#'epsg:%s' % srid)
     #print 'POINT', point
     utm33 = point.find('pos').text.split()
@@ -188,7 +191,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
                     logger.info('ignoring non approved status = "%s" name = "%s"',
                                 status, tags['name'])
             
-    parsed_names_sort = sorted(parsed_names)
+    parsed_names_sort = sorted(parsed_names, key = lambda x: [x[0], x[1]])
     # if len(parsed_names_sort) >= 3:
     #     print parsed_names_sort
     #     exit(1)
@@ -415,7 +418,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
         if len(languages) != 1:
             logger.debug('ssr:stedsnr = %s, languages = %s', tags['ssr:stedsnr'], languages)
         # Convert to osm keys:
-        lang_keys = map(ssr_language_to_osm_key, languages)
+        lang_keys = list(map(ssr_language_to_osm_key, languages))
 
         # Step 1) generate a dictionary, where keys are:
         # name:lang1 = [list, of, names]
@@ -503,7 +506,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
                 
             #     del alt_names_pri[0]                
             else:
-                logger.error('ssr:stedsnr = %s: No name found',
+                logger.info('ssr:stedsnr = %s: No name found',
                              tags['ssr:stedsnr'])
                 #continue
 
@@ -580,7 +583,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
                     break
 
         if language_priority.startswith('nor') and not(multi_language):
-            for key in tags.keys():
+            for key in list(tags.keys()):
                 if key.endswith(':no'):
                     key_without_lang = key[:-len(':no')]
                     if key_without_lang in tags: # do not overwrite
@@ -592,7 +595,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
                     del tags[key]
 
         # 5) Ensure we do not have alt_name:<lang> without a name:<lang>
-        for key in tags.keys():
+        for key in list(tags.keys()):
             reg = re.match('alt_name:(\w+)', key)
             if reg:
                 lang = reg.group(1)
@@ -676,6 +679,12 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     # get xml:
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
+    
+    if d is None:
+        msg = 'Unable to fetch %s, cached to %s' % (url, xml_filename)
+        logger.error(msg)
+        raise EmptyResultException(msg)
+    
     # parse xml:
     soup = BeautifulSoup(d[:character_limit], 'lxml-xml')
     osm, osm_noName = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
@@ -813,10 +822,10 @@ if __name__ == '__main__':
 
     if args.kommune == ['ALL']:
         nr2name, _ = kommunenummer()
-        kommunenummer = map(to_kommunenr, nr2name.keys())
+        kommunenummer = list(map(to_kommunenr, nr2name.keys()))
         kommunenummer.sort()
     else:
-        kommunenummer = map(to_kommunenr, args.kommune)
+        kommunenummer = list(map(to_kommunenr, args.kommune))
 
     conversion = dict()
     if not(args.not_convert_tags):
@@ -846,11 +855,12 @@ if __name__ == '__main__':
             p_results.append(res)
             time.sleep(10) # to to be sligtly gentle to geonorge.no
         else:
-            try:
-                main(args, folder, n, conversion)
-            except Exception as e:
-                logger.error('Fatal error:%s %s', n, e)
-                fatal_errors.append('ERROR: Komune %s failed with: %s' % (n, e))
+            #try:
+            main(args, folder, n, conversion)
+            # except Exception as e:
+            #     trace = traceback.format_exc()
+            #     logger.error('Fatal error:%s %s', n, e)
+            #     fatal_errors.append('ERROR: Komune %s failed with: %s.\n%s' % (n, e, trace))
         
         end_time = datetime.datetime.now()
         print('Elapsed time: {}'.format(end_time - start_time))
