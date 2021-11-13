@@ -26,7 +26,7 @@ def overpass_stedsnr_in_kommunenr(n, cache_filename, cache_dir, **kwargs):
     """Calls overpass_stedsnr_in_relation after converting from kommune-nr to osm-relation-id"""
     global kommuneNr_2_relationId
     if len(kommuneNr_2_relationId) == 0:
-        print 'getting cache'
+        print('getting cache')
         kommuneNr_2_relationId = kommunenummer.get_osm_kommune_ids(cache_dir=cache_dir)
     
     relation_id = kommuneNr_2_relationId[int(n)]
@@ -54,7 +54,7 @@ if __name__ == '__main__':
             logger.error('Error key=%s', key)
         
     # for key, value in kommuneNr_2_relationId.items():
-    #     print key, value
+    #     print(key, value)
 
     for key in sorted(kommuneNr_2_relationId.keys()):
         # relation_id = kommuneNr_2_relationId[key]

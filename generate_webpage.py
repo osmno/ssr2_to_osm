@@ -291,7 +291,7 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
     if kommune_nr_int is not None:
         for root, dirs, files in os.walk(folder):
             for f in files:
-                f = f.decode('utf8')
+                #f = f.decode('utf8')
                 if f.endswith(('.osm', '.xml', '.log', '.gml')):
                     filename = os.path.join(root, f)
                     text, N_ssr, N_overpass = create_text(filename, f, overpass=overpass,
@@ -379,7 +379,7 @@ def create_main_table(data_dir='output', cache_dir='data'):
             # if mod_time != -1:
             #     ??time.ctime(mod_time)
                 
-            #print time.ctime(mod_time)
+            #print(time.ctime(mod_time))
             # fixme: class instead of this mess
             row, N_overpass_total, N_ssr_total = create_row(kommune_nr, folder, cache_dir=cache_dir,
                                                             kommune_nr2name=kommune_nr2name,
@@ -455,7 +455,7 @@ def main(data_dir='ssr2_to_osm_data/data/', root_output='ssr2_to_osm_data', temp
         for tag, count in ssr_type_tags[key].items():
             max_count = max(max_count, count)
         # remove tags with only 1 value and remove those with significant less than max count
-        for tag, count in ssr_type_tags[key].items():
+        for tag, count in list(ssr_type_tags[key].items()):
             if count == 1 or count < max_count//25:
                 del ssr_type_tags[key][tag]
 
