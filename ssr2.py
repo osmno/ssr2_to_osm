@@ -5,6 +5,7 @@ import re
 import csv
 import json
 import glob
+import warnings
 import traceback
 from multiprocessing import Pool
 import signal
@@ -50,14 +51,16 @@ def add_file_handler(filename='warnings.log'):
     return fh
 
 def parse_gml_point(point):
-    epsg = point['srsName']
-    #print('epsg', epsg)
-    projection = pyproj.Proj(init=epsg)#'epsg:%s' % srid)
-    #print 'POINT', point
-    utm33 = point.find('pos').text.split()
-    lon, lat = projection(utm33[0], utm33[1], inverse=True)
+    with warnings.catch_warnings():
+        warnings.simplefilter(action='ignore', category=FutureWarning)
+        epsg = point['srsName']
+        #print('epsg', epsg)
+        projection = pyproj.Proj(init=epsg)#'epsg:%s' % srid)
+        #print 'POINT', point
+        utm33 = point.find('pos').text.split()
+        lon, lat = projection(utm33[0], utm33[1], inverse=True)
 
-    gml_id = point['gml:id']
+        gml_id = point['gml:id']
     
     return lon, lat, gml_id
 
@@ -679,6 +682,11 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     # get xml:
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
+    ensure_contains = '</wfs:FeatureCollection>'
+    if ensure_contains not in d[-len(ensure_contains)-100:]:
+        logger.error('ERROR, no ending in %s? Trying to re-download "%s"',
+                     xml_filename, d[-len(ensure_contains)-100:-1])
+        d = req.get_cached(url, xml_filename, old_age_days=0.1)
     
     if d is None:
         msg = 'Unable to fetch %s, cached to %s' % (url, xml_filename)
@@ -853,7 +861,7 @@ if __name__ == '__main__':
         if args.parallel != 0:
             res = p.apply_async(main, (args, folder, n, conversion))
             p_results.append(res)
-            time.sleep(10) # to to be sligtly gentle to geonorge.no
+            time.sleep(1) # to to be sligtly gentle to geonorge.no
         else:
             try:
                 main(args, folder, n, conversion)

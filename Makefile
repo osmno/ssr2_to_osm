@@ -4,7 +4,7 @@ git=/usr/bin/git
 kommuner = 0101 0941 1850 2011 5043 0213 0529 0904 1253 5001 0301 2020 1002 0710 1902 2030 2012 1201 1103 0106 0501 0806
 
 all:
-	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 8
+	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 16
 	$(MAKE) webpage
 	$(MAKE) sync
 	$(MAKE) rotate_logs
@@ -31,4 +31,4 @@ sync:
 #	rsync -rt --delete html/data/ /Users/ob/Google\ Drive/ssr2_to_osm_data/output/
 
 rotate_logs:
-	/opt/local/sbin/logrotate logrotate.conf --state=logrotate.state
+	logrotate logrotate.conf --state=logrotate.state

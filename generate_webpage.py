@@ -292,7 +292,7 @@ def create_row(kommune_nr, folder, cache_dir, stedsnr_duplicates,
         for root, dirs, files in os.walk(folder):
             for f in files:
                 #f = f.decode('utf8')
-                if f.endswith(('.osm', '.xml', '.log', '.gml')):
+                if f.endswith(('.osm', '.xml', '.gml')): # ignore logs, too large '.log'
                     filename = os.path.join(root, f)
                     text, N_ssr, N_overpass = create_text(filename, f, overpass=overpass,
                                                           stedsnr_duplicates=stedsnr_duplicates)
@@ -368,7 +368,7 @@ def create_main_table(data_dir='output', cache_dir='data'):
     kommuneNr_2_fylke = kommune_fylke(cache_dir=cache_dir)
     fylker = list()
     
-    for kommune_nr in os.listdir(data_dir):
+    for kommune_nr in sorted(os.listdir(data_dir)):
         # if kommune_nr == '0213':
         #     break
         
