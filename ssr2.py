@@ -676,12 +676,17 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     # soup = BeautifulSoup(d.text, 'lxml')
 
     if url is None:
-        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml"'
+        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E"'
+        #  --header "Content-Type:text/xml"'
         url = url.format(kommunenummer=kommunenummer)
     
     # get xml:
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
+    try:
+        d = d.decode('utf-8')
+    except: pass
+    
     ensure_contains = '</wfs:FeatureCollection>'
     if ensure_contains not in d[-len(ensure_contains)-100:]:
         logger.error('ERROR, no ending in %s? Trying to re-download "%s"',
@@ -860,9 +865,10 @@ if __name__ == '__main__':
         folder = os.path.join(root, n)
         if args.parallel != 0:
             res = p.apply_async(main, (args, folder, n, conversion))
-            p_results.append(res)
-            time.sleep(1) # to to be sligtly gentle to geonorge.no
+            p_results.append((n, res))
+            #time.sleep(1) # to to be sligtly gentle to geonorge.no
         else:
+            #main(args, folder, n, conversion)
             try:
                 main(args, folder, n, conversion)
             except Exception as e:
@@ -874,8 +880,14 @@ if __name__ == '__main__':
         print('Elapsed time: {}'.format(end_time - start_time))
 
     # Wait for all pool results:
-    for res in p_results:
-        res.get()
+    for n, res in p_results:
+        try:
+            res.get()
+        except Exception as e:
+            trace = traceback.format_exc()
+            logger.error('Fatal error:%s %s', n, e)
+            fatal_errors.append('ERROR: Komune %s failed with: %s.\n%s' % (n, e, trace))
+        
 
     for error in fatal_errors:
         print(error)
