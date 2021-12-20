@@ -692,7 +692,10 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
         logger.error('ERROR, no ending in %s? Trying to re-download "%s"',
                      xml_filename, d[-len(ensure_contains)-100:-1])
         d = req.get_cached(url, xml_filename, old_age_days=0.1)
-    
+
+    if ensure_contains not in d[-len(ensure_contains)-100:]:
+        raise Exception("Still no file ending for %s" % (xml_filename))
+        
     if d is None:
         msg = 'Unable to fetch %s, cached to %s' % (url, xml_filename)
         logger.error(msg)
