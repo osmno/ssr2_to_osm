@@ -7,7 +7,7 @@ kommuner = 3020
 #
 all:
 	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 10 -q
-	$(MAKE) webpage
+#	$(MAKE) webpage
 #	$(MAKE) sync
 #	$(MAKE) rotate_logs
 

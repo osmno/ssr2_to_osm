@@ -847,8 +847,8 @@ def main(args, folder, n, conversion, geonorge_urls, url=None):
     # Go from %s-geonorge.xml to %s-all.osm
     try:
         fetch_and_process_kommune(n, xml_filename=xml_filename,
-                                  #geonorge_urls=geonorge_urls,
-                                  geonorge_urls=dict(), # to debug with old API
+                                  geonorge_urls=geonorge_urls,
+                                  #geonorge_urls=dict(), # to debug with old API
                                   url=url,
                                   osm_filename=osm_filename,
                                   osm_filename_noName=osm_filename_noName,
