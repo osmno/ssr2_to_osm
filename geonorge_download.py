@@ -80,10 +80,8 @@ def legacy_download_geonorge(kommunenummer, xml_filename, url=None):
     # get xml:
     req = gentle_requests.GentleRequests()
     d = req.get_cached(url, xml_filename)
-    try:
-        d = d.decode('utf-8')
-    except:
-        pass
+    try: d = d.decode('utf-8')
+    except:pass
     
     ensure_contains = '</wfs:FeatureCollection>'
     if ensure_contains not in d[-len(ensure_contains)-100:]:
@@ -91,6 +89,8 @@ def legacy_download_geonorge(kommunenummer, xml_filename, url=None):
                      xml_filename, d[-len(ensure_contains)-100:-1])
         time.sleep(random.randrange(0, 15))
         d = req.get_cached(url, xml_filename, old_age_days=0.1)
+        try: d = d.decode('utf-8')
+        except:pass
 
     if ensure_contains not in d[-len(ensure_contains)-100:]:
         raise Exception("Still no file ending for %s" % (xml_filename))

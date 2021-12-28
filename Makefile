@@ -1,7 +1,7 @@
 python=. venv/bin/activate; python
 git=/usr/bin/git
 
-kommuner = 5444
+kommuner = 3020
 #1101 3020 
 
 #

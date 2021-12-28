@@ -707,6 +707,12 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
             for lineString in pos.find_all('LineString'):
                 epsg = lineString['srsName']
                 positions.extend(parse_posList(lineString))
+            for lineString in pos.find_all('Polygon'):
+                epsg = lineString['srsName']
+                positions.extend(parse_posList(lineString))
+            
+            if len(positions) == 0:
+                raise ValueError("no positions %s" % pos.prettify())
                 
         elif lineString is not None:
             epsg = lineString['srsName']
