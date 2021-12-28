@@ -1,17 +1,20 @@
 python=. venv/bin/activate; python
 git=/usr/bin/git
 
-kommuner = 0101 0941 1850 2011 5043 0213 0529 0904 1253 5001 0301 2020 1002 0710 1902 2030 2012 1201 1103 0106 0501 0806
+kommuner = 5444
+#1101 3020 
 
+#
 all:
-	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 16
+	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 10 -q
 	$(MAKE) webpage
-	$(MAKE) sync
-	$(MAKE) rotate_logs
+#	$(MAKE) sync
+#	$(MAKE) rotate_logs
 
+#--include_zz
 debug:
-	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune $(kommuner) --include_zz
-	$(MAKE) webpage
+	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune $(kommuner) 
+#$(MAKE) webpage
 
 webpage:
 	$(python) generate_webpage.py

@@ -37,6 +37,7 @@ import pyproj
 # This project
 import ssr2_split
 import ssr2_tags
+import geonorge_download
 
 def init_pool_worker():
     # https://stackoverflow.com/a/11312948
@@ -44,25 +45,44 @@ def init_pool_worker():
 
 def add_file_handler(filename='warnings.log'):
     fh = logging.FileHandler(filename, mode='w')
-    fh.setLevel(logging.WARNING)
-    #fh.setLevel(logging.INFO)
+    #fh.setLevel(logging.WARNING)
+    fh.setLevel(logging.INFO)
     fh.setFormatter(formatter)
     logger.addHandler(fh)
     return fh
 
-def parse_gml_point(point):
+def parse_gml_point(point, epsg = 'EPSG:25832'):
+    # hack, translate urn:ogc:def:crs:EPSG::25832 into EPSG:25832
+    epsg = epsg.replace('::', ':')
+    sg_split = epsg.split(':')
+    if len(sg_split) != 2:
+        epsg = ':'.join(sg_split[-2:])
+        
     with warnings.catch_warnings():
         warnings.simplefilter(action='ignore', category=FutureWarning)
-        epsg = point['srsName']
+        
+        #epsg = point['srsName']
         #print('epsg', epsg)
         projection = pyproj.Proj(init=epsg)#'epsg:%s' % srid)
         #print 'POINT', point
-        utm33 = point.find('pos').text.split()
+        utm33 = point # (lat, lon)
         lon, lat = projection(utm33[0], utm33[1], inverse=True)
 
-        gml_id = point['gml:id']
+        #gml_id = point['gml:id']
     
-    return lon, lat, gml_id
+    return lon, lat#, gml_id
+
+def parse_posList(soup):
+    posList = soup.find('posList').text.split() # 505308.28 6989000.89 505310.79 6988994.01 505296.69 6988916.41
+    
+    even, odd = posList[::2], posList[1::2] # (['505308.28', '505310.79', '505296.69'], ['6989000.89', '6988994.01', '6988916.41'])
+    assert len(even) == len(odd), 'expected pair of lat/lon, got %s/%s' % (even, odd)
+    
+    positions = list()
+    for ix in range(len(even)):
+        positions.append((even[ix], odd[ix]))
+
+    return positions
 
 def parse_sortering(entry):
     """Extract sorterings-kode from xml tags app:sortering1kode and app:sortering2kode"""
@@ -123,9 +143,10 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
     else:
         language_priority = language_priority.text
 
-    additional_tags['name:language_priority'] = language_priority        
+    additional_tags['name:language_priority'] = language_priority
 
     parsed_names = list()
+    #print(entry.prettify())
     for names in entry.find_all('stedsnavn', recursive=False):
         names_nested = names.find_all('Stedsnavn', recursive=False)
         assert len(names_nested) == 1, 'Vops: expected this to only be 1 element %s' % names
@@ -135,7 +156,11 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
         name_status = names.find('navnestatus').text
         name_status_num = name_status_to_num(name_status)
         #name_case_status = names.find('app:navnesakstatus') # seems to only be 'ubehandlet'
-        eksonym = names.find('eksonym').text
+        try:
+            eksonym = names.find('eksonym').text
+        except AttributeError:
+            eksonym = ''
+        
         stedsnavnnummer = names.find('stedsnavnnummer').text
         if name_status_num in (4, 6):
             logger.error('Skipping name_status = "%s"', name_status)
@@ -153,16 +178,31 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
                 tags = dict(additional_tags) # start with the additional tags
 
             # Date
-            # Note: this date is potensially older than ssr:date, which covers the 'sted', this only covers the 'name'
-            date = skrivem.find('oppdateringsdato').text
-            try:
-                date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S.%f') # to python object
-            except ValueError:
-                date_python = datetime.datetime.strptime(date, '%Y-%m-%dT%H:%M:%S') # to python object
+            date = skrivem.find('oppdateringsdato')
+            if date is None:
+                date = skrivem.find('statusdato')
+                #date = entry.find('oppdateringsdato')
+
+            date = date.text
+
+            date_python = None
+            for fmt in ('%Y-%m-%dT%H:%M:%S.%f', '%Y-%m-%dT%H:%M:%S', '%Y-%m-%d'):
+                try:
+                    date_python = datetime.datetime.strptime(date, fmt) # to python object
+                    break
+                except ValueError as e:
+                    pass
+
+            if date_python is None:
+                raise e # raise latest date failure
 
             date_str = date_python.strftime('%Y-%m-%d') # to string
-                
-            tags['name'] = skrivem.find('langnavn').text
+
+            name = skrivem.find('langnavn')
+            if name is None:
+                name = skrivem.find('komplettskrivemåte')
+            
+            tags['name'] = name.text
             #print skrivem.prettify()
             tags['name:date'] = date_str
             tags['name:language'] = language
@@ -171,14 +211,17 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             tags['name:eksonym'] = eksonym
             tags['name:stedsnavnnummer'] = stedsnavnnummer
             #tags['name:order'] = skrivem.find('app:rekkef').text
-            priority_spelling = skrivem.find(u'prioritertSkrivemåte').text # app:prioritertSkrivemåte
-            if priority_spelling == u'true':
-                priority_spelling = True
-            elif priority_spelling == u'false':
-                priority_spelling = False
-            else:
-                raise ValueError('Expected priority_spelling to to "true" or "false" not "%s"', priority_spelling)
-            
+
+            priority_spelling = skrivem.find(u'prioritertSkrivemåte')
+            if priority_spelling is not None:
+                priority_spelling = priority_spelling.text
+                if priority_spelling == u'true':
+                    priority_spelling = True
+                elif priority_spelling == u'false':
+                    priority_spelling = False
+                else:
+                    raise ValueError('Expected priority_spelling to to "true" or "false" not "%s"', priority_spelling)
+                
             tags['name:priority_spelling'] = priority_spelling
 
             order_spelling = int(skrivem.find(u'skrivemåtenummer').text)
@@ -186,7 +229,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
 
             status = skrivem.find(u'skrivemåtestatus').text
             tags['name:spelling_status'] = status
-            
+
             if status in return_only:
                 parsed_names.append((name_status_num, order_spelling, tags))
             else:
@@ -212,24 +255,40 @@ def find_all_languages(*args):
     return languages
 
 ssr_language_to_osm = {'nor': 'no',
+                       'norsk': 'no',
                        'smj': 'smj',
+                       'lulesamisk': 'smj',
                        'sme': 'se',
+                       'nordsamisk': 'se',
                        'sma': 'sma',
-                       'fkv': 'fkv',
+                       'sørsamisk': 'sma',
+                       'fkv': 'fkv',    # not a ISO code
+                       'kvensk': 'fkv', # not a ISO code
                        'sms': 'sms',
+                       'skoltesamisk': 'sms',
                        'eng': 'en',
+                       'engelsk': 'en',
                        'rus': 'ru',
+                       'russisk': 'ru',
                        'swe': 'sv',
+                       'svensk': 'sv',
                        'dan': 'da',
+                       'dansk': 'da',
                        'isl': 'is',
+                       'islandsk': 'is',
                        'kal': 'kl',
+                       'grønlandsk': 'kl',
                        'fin': 'fi',
-                       'deu': 'de'}
+                       'finsk': 'fi',
+                       'deu': 'de',
+                       'tysk': 'de'}
+
 def ssr_language_to_osm_key(ssr_lang):
     try:
         return ssr_language_to_osm[ssr_lang]
     except KeyError:
         raise KeyError('lang key "%s" not found in conversion dict, add appropriate iso code: http://www.loc.gov/standards/iso639-2/php/code_list.php to conversion dictionary' % ssr_lang)
+    
 
 def update_lang_name_dct(dct, parsed_names, tag_key, language, lang_key):
     """Updates the given dictionary dct with names in parsed_names that correspond to language, where
@@ -279,6 +338,8 @@ def sorted_priority_spelling(dct, language_priority, tag_key='name'):
     return name_pri_spelling
 
 def sort_by_priority_spelling(names, language_priority):
+    #logger.debug('sort_by_priority_spelling(%s, %s)...', names, language_priority)
+    
     names = list(names)
     new_lst = list()
     for lang in language_priority.split('-'):
@@ -301,12 +362,14 @@ def sort_by_priority_spelling(names, language_priority):
     # assert len(names) == len(new_lst), 'names = %s != new_lst = %s' % (names, new_lst)
     # for item in names:
     #     assert item in new_lst
+    #logger.debug('sort_by_priority_spelling -> %s', new_lst)
     return new_lst
 
 def sorted_remaining_spelling(dct, language_priority, tag_key='name'):
     ''' Return, sorted by language_priority, a list of names without a True "added_to_name"'''
     # fixme: shares a lot of code with above function
     # make the nested if statement a callback
+    #logger.info('sorted_remaining_spelling(%s, %s, %s)...', dct, language_priority, tag_key)
     name_pri_spelling = list()
     for lang in language_priority.split('-'):
         lang_key = ssr_language_to_osm_key(lang)
@@ -315,7 +378,8 @@ def sorted_remaining_spelling(dct, language_priority, tag_key='name'):
         for item in parsed_names:
             if not('added_to_name' in item and item['added_to_name']):
                 name_pri_spelling.append(item)#['name'])
-    
+
+    #logger.info('sorted_remaining_spelling -> %s', name_pri_spelling)
     return name_pri_spelling
 
 def handle_multiple_priority_spellings(names_pri, languages=None, names=None):
@@ -347,7 +411,7 @@ def handle_multiple_priority_spellings(names_pri, languages=None, names=None):
 
     return names
 
-def parse_geonorge(soup, create_multipoint_way=False):
+def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
     # create OSM object:
     osm = osmapis.OSM()
     osm_noName = osmapis.OSM()
@@ -361,10 +425,12 @@ def parse_geonorge(soup, create_multipoint_way=False):
         tags['ssr:stedsnr'] = stedsnr
 
         # Active?
-        active = entry.find('stedstatus').text
-        if active != 'aktiv':
-            logger.info('ssr:stedsnr = %s not active = "%s". Skipping...', stedsnr, active)
-            continue
+        active = entry.find('stedstatus')
+        if active is not None:
+            active = active.text
+            if active != 'aktiv':
+                logger.info('ssr:stedsnr = %s not active = "%s". Skipping...', stedsnr, active)
+                continue
 
         # Date
         date = entry.find('oppdateringsdato').text
@@ -459,10 +525,18 @@ def parse_geonorge(soup, create_multipoint_way=False):
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
 
-        # if tags['ssr:stedsnr'] == '321599':
-        #     print 'languages', lang_keys
-        #     print 'names', names
-        #     print 'alt_names', alt_names_pri
+        # if tags['ssr:stedsnr'] == '1081217':
+        #     print('languages', languages)
+        #     print('lang_keys', lang_keys)
+        #     print('language_priority', language_priority)
+        #     print('parsed_names_locale', parsed_names_locale)
+            
+        #     print('names_dct', names_dct)
+        #     print('old_names_dct', old_names_dct)
+        #     print('loc_names_dct', loc_names_dct)            
+            
+        #     print('names', names)
+        #     print('alt_names', alt_names_pri)
         #     exit(1)
 
         for lang in languages:
@@ -487,7 +561,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
                     for item in lst:
                         names_str.append((lang, item['name']))
 
-                logger.warning('ssr:stedsnr = %s: No priority spelling found for lang = %s, using alt_name to get "%s"',
+                logger.info('ssr:stedsnr = %s: No priority spelling found for lang = %s, using alt_name to get "%s"',
                                tags['ssr:stedsnr'], lang, names_str)
                     # end DEBUG
 
@@ -543,7 +617,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
                 tags['name:%s' % lang] = s
 
                 if len(names_str_lang) >= 2:
-                    logger.error('ssr:stedsnr = %s: Adding multiple names to name tag, this is not OK! name = "%s"',
+                    logger.info('ssr:stedsnr = %s: Adding multiple names to name tag, this is not OK! name = "%s"',
                                  tags['ssr:stedsnr'], s)
                     fixme = 'multiple name tags, choose one and add the other to alt_name'
 
@@ -573,19 +647,18 @@ def parse_geonorge(soup, create_multipoint_way=False):
         # 4) Remove redundant :lang keys for 'no' if priority language is 'no'
         # and no other :lang key is used for this place
         lang_suffix = ssr_language_to_osm.values()
-        lang_suffic_without_no = list(lang_suffix)
-        ix = lang_suffic_without_no.index('no')
-        del lang_suffic_without_no[ix]
-        lang_suffic_without_no = tuple(lang_suffic_without_no)
+        lang_suffic_without_no = tuple(filter(lambda x: x != 'no', lang_suffix))
 
         multi_language = False
-        if language_priority.startswith('nor'):
+        first_pri_language = language_priority.split('-')[0]
+        first_pri_language = ssr_language_to_osm_key(first_pri_language)
+        if first_pri_language == 'no':
             for key in tags.keys():
                 if key.endswith(lang_suffic_without_no):
                     multi_language = True
                     break
 
-        if language_priority.startswith('nor') and not(multi_language):
+        if first_pri_language == 'no' and not(multi_language):
             for key in list(tags.keys()):
                 if key.endswith(':no'):
                     key_without_lang = key[:-len(':no')]
@@ -617,11 +690,42 @@ def parse_geonorge(soup, create_multipoint_way=False):
                         tags['fixme'] = fixme
 
 
+                        
         pos = entry.find('posisjon')
-        positions = pos.find_all('Point')
-        # print pos.prettify()
-        # print positions
-        # exit(1)
+        lineString = entry.find('LineString')
+        multiPoint = entry.find('MultiPoint')
+        surface    = entry.find('Surface')
+        epsg = None
+        if pos is not None:
+            positions = list()
+            for point in pos.find_all('Point'):
+                epsg = point['srsName'] #'EPSG:25832'
+                
+                p = point.find('pos').text.split()
+                assert len(p) == 2, 'expected pair of lat/lon, got %s' % p
+                positions.append(p)
+            for lineString in pos.find_all('LineString'):
+                epsg = lineString['srsName']
+                positions.extend(parse_posList(lineString))
+                
+        elif lineString is not None:
+            epsg = lineString['srsName']
+            positions = parse_posList(lineString)
+
+        elif surface is not None:
+            epsg = surface['srsName']
+            positions = parse_posList(surface)
+            
+        elif multiPoint is not None: # fixme: copy paste of if pos is not None
+            epsg = multiPoint['srsName']
+            positions = list()
+            for point in multiPoint.find_all('Point'):
+                p = point.find('pos').text.split()
+                assert len(p) == 2, 'expected pair of lat/lon, got %s' % p
+                positions.append(p)
+        else:
+            raise ValueError('No valid position indicator for %s' % (entry.prettify()))
+
         create_node = False
         if len(positions) == 0:
             logger.error('ssr:stedsnr = %s. No positions found, skipping',
@@ -633,20 +737,20 @@ def parse_geonorge(soup, create_multipoint_way=False):
             if create_multipoint_way:
                 nds = list()
                 for ix, pos in enumerate(positions):
-                    lon, lat, gml_id = parse_gml_point(pos)
+                    lon, lat = parse_gml_point(pos, epsg=epsg)
                     attribs['lat'], attribs['lon'] = lat, lon
                     node = osmapis.Node(attribs=attribs,
-                                    tags={'ssr:gml_id': gml_id, 'ssr:gml_nr': str(ix)})
+                                        tags={'ssr:gml_nr': str(ix)})
                     osm.add(node)
                     nds.append(node.id)
                 osm_element = osmapis.Way(tags=tags, nds=nds)
             else:
-                logger.warning('ssr:stedsnr = %s has multiple (%s) positions, using the first one!',
+                logger.info('ssr:stedsnr = %s has multiple (%s) positions, using the first one!',
                                tags['ssr:stedsnr'], len(positions))
                 create_node = True
 
         if create_node:
-            lon, lat, _ = parse_gml_point(positions[0])
+            lon, lat = parse_gml_point(positions[0], epsg=epsg)
             attribs['lat'], attribs['lon'] = lat, lon
             osm_element = osmapis.Node(attribs=attribs, tags=tags)
 
@@ -660,7 +764,7 @@ def parse_geonorge(soup, create_multipoint_way=False):
 class EmptyResultException(Exception):
     pass
 
-def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_filename_noName,
+def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_filename_noName, geonorge_urls,
                               character_limit=-1, create_multipoint_way=False, url=None):
     if not(isinstance(kommunenummer, str)):
         raise ValueError('expected kommunenummer to be a string e.g. "0529"')
@@ -675,26 +779,19 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     # print d.text
     # soup = BeautifulSoup(d.text, 'lxml')
 
+    format = 'xml' # legacy xml format?
     if url is None:
-        url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:kommune/app:Kommune/app:kommunenummer%3C/ValueReference%3E%20%3CLiteral%3E{kommunenummer}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E"'
-        #  --header "Content-Type:text/xml"'
-        url = url.format(kommunenummer=kommunenummer)
-    
-    # get xml:
-    req = gentle_requests.GentleRequests()
-    d = req.get_cached(url, xml_filename)
-    try:
-        d = d.decode('utf-8')
-    except: pass
-    
-    ensure_contains = '</wfs:FeatureCollection>'
-    if ensure_contains not in d[-len(ensure_contains)-100:]:
-        logger.error('ERROR, no ending in %s? Trying to re-download "%s"',
-                     xml_filename, d[-len(ensure_contains)-100:-1])
-        d = req.get_cached(url, xml_filename, old_age_days=0.1)
+        try:
+            url = geonorge_urls[kommunenummer]
+            d = geonorge_download.download_unzip_geonorge(url, xml_filename.replace('.xml', '.zip'))
+            format = 'gml'
+        except KeyError as e:
+            logger.error('Did not find %s in %s', kommunenummer, geonorge_urls.keys())
 
-    if ensure_contains not in d[-len(ensure_contains)-100:]:
-        raise Exception("Still no file ending for %s" % (xml_filename))
+            d = geonorge_download.legacy_download_geonorge(kommunenummer, xml_filename)
+
+    else:
+        d = geonorge_download.legacy_download_geonorge(kommunenummer, xml_filename, url=url)
         
     if d is None:
         msg = 'Unable to fetch %s, cached to %s' % (url, xml_filename)
@@ -703,7 +800,9 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     
     # parse xml:
     soup = BeautifulSoup(d[:character_limit], 'lxml-xml')
-    osm, osm_noName = parse_geonorge(soup, create_multipoint_way=create_multipoint_way)
+    osm, osm_noName = parse_geonorge(soup, create_multipoint_way=create_multipoint_way,
+                                     soup_format=format)
+    
     # Save result:
     if len(osm) != 0:
         osm.save(osm_filename)
@@ -716,7 +815,7 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
     
     return osm
 
-def main(args, folder, n, conversion, url=None):
+def main(args, folder, n, conversion, geonorge_urls, url=None):
     print(n)
     start_time_kommune = datetime.datetime.now()
     
@@ -741,7 +840,10 @@ def main(args, folder, n, conversion, url=None):
 
     # Go from %s-geonorge.xml to %s-all.osm
     try:
-        fetch_and_process_kommune(n, xml_filename=xml_filename, url=url,
+        fetch_and_process_kommune(n, xml_filename=xml_filename,
+                                  #geonorge_urls=geonorge_urls,
+                                  geonorge_urls=dict(), # to debug with old API
+                                  url=url,
                                   osm_filename=osm_filename,
                                   osm_filename_noName=osm_filename_noName,
                                   character_limit=args.character_limit,
@@ -850,6 +952,7 @@ if __name__ == '__main__':
     #group_overview = defaultdict(list)
     root = args.output
 
+    geonorge_urls = geonorge_download.get_geonorge_url_dct()
 
     if args.include_zz:
         url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3E{land}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml"'
@@ -857,7 +960,7 @@ if __name__ == '__main__':
 
         n = 'ZZ'
         folder = os.path.join(root, n)
-        main(args, folder, n, conversion, url=url)
+        main(args, folder, n, conversion, geonorge_urls, url=url)
 
     if args.parallel != 0:
         p = Pool(args.parallel, init_pool_worker)
@@ -867,13 +970,13 @@ if __name__ == '__main__':
     for n in kommunenummer:
         folder = os.path.join(root, n)
         if args.parallel != 0:
-            res = p.apply_async(main, (args, folder, n, conversion))
+            res = p.apply_async(main, (args, folder, n, conversion, geonorge_urls))
             p_results.append((n, res))
             #time.sleep(1) # to to be sligtly gentle to geonorge.no
         else:
             #main(args, folder, n, conversion)
             try:
-                main(args, folder, n, conversion)
+                main(args, folder, n, conversion, geonorge_urls)
             except Exception as e:
                 trace = traceback.format_exc()
                 logger.error('Fatal error:%s %s', n, e)
