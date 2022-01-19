@@ -98,7 +98,8 @@ name_status_conv = {'hovednavn': 1,
                     'undernavn': 3,
                     'feilført' : 4,
                     'historisk': 5,
-                    'avslåttnavnevalg': 6}
+                    'avslåttnavnevalg': 6,
+                    'avslått navnevalg': 6}
 
 def name_status_to_num(name_status):
     key = name_status.lower()
@@ -163,7 +164,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
         
         stedsnavnnummer = names.find('stedsnavnnummer').text
         if name_status_num in (4, 6):
-            logger.error('Skipping name_status = "%s"', name_status)
+            logger.info('Skipping name_status = "%s"', name_status)
             continue
 
         for skrivem in names.find_all(u'skrivemåte', recursive=False):
@@ -212,6 +213,9 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             tags['name:stedsnavnnummer'] = stedsnavnnummer
             #tags['name:order'] = skrivem.find('app:rekkef').text
 
+            order_spelling = int(skrivem.find(u'skrivemåtenummer').text)
+            tags['name:order_spelling'] = order_spelling
+
             priority_spelling = skrivem.find(u'prioritertSkrivemåte')
             if priority_spelling is not None:
                 priority_spelling = priority_spelling.text
@@ -221,11 +225,11 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
                     priority_spelling = False
                 else:
                     raise ValueError('Expected priority_spelling to to "true" or "false" not "%s"', priority_spelling)
-                
+            else:
+                # gml format does not have this, divide based on parent skrivemåte or annenSkrivemåte 
+                priority_spelling = skrivem.parent.name == u'skrivemåte'
+            
             tags['name:priority_spelling'] = priority_spelling
-
-            order_spelling = int(skrivem.find(u'skrivemåtenummer').text)
-            tags['name:order_spelling'] = order_spelling
 
             status = skrivem.find(u'skrivemåtestatus').text
             tags['name:spelling_status'] = status
@@ -525,19 +529,20 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
 
-        # if tags['ssr:stedsnr'] == '1081217':
-        #     print('languages', languages)
-        #     print('lang_keys', lang_keys)
-        #     print('language_priority', language_priority)
-        #     print('parsed_names_locale', parsed_names_locale)
+#         if tags['ssr:stedsnr'] == '323139':
+#             print('languages', languages)
+#             print('lang_keys', lang_keys)
+#             print('language_priority', language_priority)
+#             print('parsed_names_locale', parsed_names_locale)
             
-        #     print('names_dct', names_dct)
-        #     print('old_names_dct', old_names_dct)
-        #     print('loc_names_dct', loc_names_dct)            
+#             print('names_dct', names_dct)
+#             print('old_names_dct', old_names_dct)
+#             print('loc_names_dct', loc_names_dct)            
             
-        #     print('names', names)
-        #     print('alt_names', alt_names_pri)
-        #     exit(1)
+#             print('names', names)
+#             print('alt_names', alt_names_pri)
+#             print('tags', tags)
+# #            exit(1)
 
         for lang in languages:
             lang_key = ssr_language_to_osm_key(lang)
@@ -689,7 +694,9 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
                         
                         tags['fixme'] = fixme
 
-
+        # if tags['ssr:stedsnr'] == '323139':
+        #     print('tags2', tags)
+        #     exit(1)
                         
         pos = entry.find('posisjon')
         lineString = entry.find('LineString')
@@ -792,7 +799,8 @@ def fetch_and_process_kommune(kommunenummer, xml_filename, osm_filename, osm_fil
             d = geonorge_download.download_unzip_geonorge(url, xml_filename.replace('.xml', '.zip'))
             format = 'gml'
         except KeyError as e:
-            logger.error('Did not find %s in %s', kommunenummer, geonorge_urls.keys())
+            if len(geonorge_urls) != 0:
+                logger.error('Did not find %s in %s', kommunenummer, geonorge_urls.keys())
 
             d = geonorge_download.legacy_download_geonorge(kommunenummer, xml_filename)
 
@@ -848,7 +856,6 @@ def main(args, folder, n, conversion, geonorge_urls, url=None):
     try:
         fetch_and_process_kommune(n, xml_filename=xml_filename,
                                   geonorge_urls=geonorge_urls,
-                                  #geonorge_urls=dict(), # to debug with old API
                                   url=url,
                                   osm_filename=osm_filename,
                                   osm_filename_noName=osm_filename_noName,
@@ -958,7 +965,9 @@ if __name__ == '__main__':
     #group_overview = defaultdict(list)
     root = args.output
 
-    geonorge_urls = geonorge_download.get_geonorge_url_dct()
+    # Lets not use this, use legacy API
+    #geonorge_urls = geonorge_download.get_geonorge_url_dct()
+    geonorge_urls = dict() 
 
     if args.include_zz:
         url = 'http://wfs.geonorge.no/skwms1/wfs.stedsnavn50?VERSION=2.0.0&SERVICE=WFS&srsName=EPSG:25832&REQUEST=GetFeature&TYPENAME=Sted&resultType=results&Filter=%3CFilter%3E%20%3CPropertyIsEqualTo%3E%20%3CValueReference%20xmlns:app=%22http://skjema.geonorge.no/SOSI/produktspesifikasjon/Stedsnavn/5.0%22%3Eapp:land/app:Land/app:landnummer%3C/ValueReference%3E%20%3CLiteral%3E{land}%3C/Literal%3E%20%3C/PropertyIsEqualTo%3E%20%3C/Filter%3E" --header "Content-Type:text/xml"'

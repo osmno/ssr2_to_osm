@@ -1,14 +1,15 @@
 python=. venv/bin/activate; python
 git=/usr/bin/git
 
-kommuner = 3020
+kommuner = 5444
+#3020
 #1101 3020 
 
 #
 all:
 	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 10 -q
-#	$(MAKE) webpage
-#	$(MAKE) sync
+	$(MAKE) webpage
+	$(MAKE) sync
 #	$(MAKE) rotate_logs
 
 #--include_zz
