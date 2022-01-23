@@ -536,7 +536,7 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
 
-        # if tags['ssr:stedsnr'] == '237775':
+        # if tags['ssr:stedsnr'] == '980822':
         #     print('languages', languages)
         #     print('lang_keys', lang_keys)
         #     print('language_priority', language_priority)
@@ -560,7 +560,7 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
                     break
 
             #if len(names) == 0:        # use alt_name instead if available
-            upgrade_alt_names_to_names = False # https://github.com/osmno/ssr2_to_osm/issues/2 disable for now
+            upgrade_alt_names_to_names = True # https://github.com/osmno/ssr2_to_osm/issues/2 disable for now
             if lang_missing and len(alt_names_pri) != 0 and upgrade_alt_names_to_names:
                 lang_names = handle_multiple_priority_spellings(alt_names_pri,
                                                                 languages=[lang]) # only for lang
