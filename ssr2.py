@@ -15,6 +15,7 @@ import codecs
 open = codecs.open
 import datetime
 from collections import defaultdict
+from pprint import pprint
 import logging
 logger = logging.getLogger('utility_to_osm.ssr2')
 
@@ -328,17 +329,18 @@ def sorted_priority_spelling(dct, language_priority, tag_key='name'):
     ''' Return, sorted by language_priority, a list of names where "name:priority_spelling" is True,
     where all elements have the same name_status
     '''
-    # 1) Get the lowest name_status_num
-    name_status_num_min = 6
-    for key in dct:
-        for item in dct[key]:
-            name_status_num_min = min(name_status_num_min, item['name:name_status_num'])
     
     name_pri_spelling = list()
     for lang in language_priority.split('-'):
         lang_key = ssr_language_to_osm_key(lang)
         tag_key_lang = '%s:%s' % (tag_key, lang_key)
         parsed_names = dct[tag_key_lang]
+
+        # 1) Get the lowest name_status_num for this language
+        name_status_num_min = 6
+        for item in parsed_names:
+            name_status_num_min = min(name_status_num_min, item['name:name_status_num'])
+
         for item in parsed_names:
             if item['name:priority_spelling'] and name_status_num_min == item['name:name_status_num']:
                 name_pri_spelling.append(item)#['name'])
@@ -536,15 +538,15 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
 
-        # if tags['ssr:stedsnr'] == '980822':
+        # if tags['ssr:stedsnr'] == '505247':
         #     print('languages', languages)
         #     print('lang_keys', lang_keys)
         #     print('language_priority', language_priority)
         #     print('parsed_names_locale', parsed_names_locale)
             
-        #     print('names_dct', names_dct)
-        #     print('old_names_dct', old_names_dct)
-        #     print('loc_names_dct', loc_names_dct)            
+        #     print('names_dct', pprint(names_dct))
+        #     print('old_names_dct', pprint(old_names_dct))
+        #     print('loc_names_dct', pprint(loc_names_dct))
             
         #     print('names', names)
         #     print('alt_names', alt_names_pri)
@@ -566,7 +568,17 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
                                                                 languages=[lang]) # only for lang
                 assert len(lang_names) == 1
                 names.append(lang_names[0])
+                # if tags['ssr:stedsnr'] == '505247':
+                #     print('alt_names_pri = ', pprint(alt_names_pri))
+                #     print('lang = ', lang)
+                #     print('names = ', pprint(names))
+                #     print('language_priority = ', language_priority)
+                    
                 names = sort_by_priority_spelling(names, language_priority)
+
+                # if tags['ssr:stedsnr'] == '505247':
+                #     print('names = ', pprint(names))
+                #     exit(1)
 
                 # DEBUG:
                 names_str = list()

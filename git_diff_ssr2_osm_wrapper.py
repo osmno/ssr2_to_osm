@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # diff is called by git with 7 parameters:
     # path old-file old-hex old-mode new-file new-hex new-mode
 
-    old_file, new_file = sys.argv[1], sys.argv[2]
+    new_file, old_file = sys.argv[1], sys.argv[2]
 
     logger.info('Reading %s', old_file)
     content = file_util.read_file(old_file)
@@ -23,17 +23,17 @@ if __name__ == '__main__':
     new_osm = OSMstedsnr.from_xml(content)
     
     print('\n=== Missing stedsnr ===\n')
-    old_stedsnr = old_osm.stedsnr.keys()
-    new_stedsnr = new_osm.stedsnr.keys()
+    old_stedsnr = sorted(old_osm.stedsnr.keys())
+    new_stedsnr = sorted(new_osm.stedsnr.keys())
     
     for key in old_stedsnr:
         if key not in new_stedsnr:
-            print('Diff, %s missing in new' % key)
+            print('Diff, %s missing in old' % key)
             print(old_osm.stedsnr[key][0])
 
     for key in new_stedsnr:
         if key not in old_stedsnr:
-            print('Diff, %s missing in old' % key)
+            print('Diff, %s missing in new' % key)
             print(new_osm.stedsnr[key][0])
 
     print('\n=== Tagging differences ===\n')
@@ -51,12 +51,12 @@ if __name__ == '__main__':
             
         for tag_key in old.tags:
             if tag_key not in new.tags:
-                print('Diff %s, %s missing in new' % (key, tag_key))
-                print('old[%s] = %s' % (tag_key, old.tags[tag_key]))
+                print('Diff %s, %s missing in new:' % (key, tag_key))
+                print(' old[%s] = %s\n' % (tag_key, old.tags[tag_key]))
         for tag_key in new.tags:
             if tag_key not in old.tags:
-                print('Diff %s, %s missing in old' % (key, tag_key))
-                print('new[%s] = %s' % (tag_key, new.tags[tag_key]))
+                print('Diff %s, %s missing in old:' % (key, tag_key))
+                print(' new[%s] = %s\n' % (tag_key, new.tags[tag_key]))
 
         common_tags = set(old.tags.keys()).intersection(new.tags.keys())
         for tag_key in common_tags:
@@ -65,5 +65,5 @@ if __name__ == '__main__':
             
             o, n = new.tags[tag_key], old.tags[tag_key]
             if o != n:
-                print('Diff %s, old[%s] != new[%s], %s != %s' % (key, tag_key, tag_key, o, n))
+                print('Diff %s:\n old[%s] = %s\n new[%s] = %s\n' % (key, tag_key, o, tag_key, n))
                 
