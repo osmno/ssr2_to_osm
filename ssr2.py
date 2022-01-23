@@ -234,6 +234,10 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             status = skrivem.find(u'skrivemåtestatus').text
             tags['name:spelling_status'] = status
 
+            # Hack, difference between skrivemåtestatus and navnesakstatus
+            if name_status == u'historisk':
+                status = u'historisk'
+            
             if status in return_only:
                 parsed_names.append((name_status_num, order_spelling, tags))
             else:
@@ -460,7 +464,10 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
         return_only = (u'godkjent', u'internasjonal', u'vedtatt', u'vedtattNavneledd', u'privat') # , u'uvurdert'
         parsed_names = parse_stedsnavn(entry, return_only=return_only,
                                        silently_ignore=[u'historisk', u'foreslått', 'uvurdert'])
-
+        # if tags['ssr:stedsnr'] == '237775':
+        #     print(parsed_names)
+        #     exit(1)
+        
         silently_ignore = list(return_only)
         silently_ignore.append(u'foreslått')
         silently_ignore.append(u'uvurdert')
@@ -529,20 +536,20 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
         # 2.2) Figure out alt_name
         alt_names_pri = sorted_remaining_spelling(names_dct, language_priority, tag_key='name')
 
-#         if tags['ssr:stedsnr'] == '323139':
-#             print('languages', languages)
-#             print('lang_keys', lang_keys)
-#             print('language_priority', language_priority)
-#             print('parsed_names_locale', parsed_names_locale)
+        # if tags['ssr:stedsnr'] == '237775':
+        #     print('languages', languages)
+        #     print('lang_keys', lang_keys)
+        #     print('language_priority', language_priority)
+        #     print('parsed_names_locale', parsed_names_locale)
             
-#             print('names_dct', names_dct)
-#             print('old_names_dct', old_names_dct)
-#             print('loc_names_dct', loc_names_dct)            
+        #     print('names_dct', names_dct)
+        #     print('old_names_dct', old_names_dct)
+        #     print('loc_names_dct', loc_names_dct)            
             
-#             print('names', names)
-#             print('alt_names', alt_names_pri)
-#             print('tags', tags)
-# #            exit(1)
+        #     print('names', names)
+        #     print('alt_names', alt_names_pri)
+        #     print('tags', tags)
+        #     exit(1)
 
         for lang in languages:
             lang_key = ssr_language_to_osm_key(lang)
@@ -553,7 +560,8 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
                     break
 
             #if len(names) == 0:        # use alt_name instead if available
-            if lang_missing and len(alt_names_pri) != 0:
+            upgrade_alt_names_to_names = False # https://github.com/osmno/ssr2_to_osm/issues/2 disable for now
+            if lang_missing and len(alt_names_pri) != 0 and upgrade_alt_names_to_names:
                 lang_names = handle_multiple_priority_spellings(alt_names_pri,
                                                                 languages=[lang]) # only for lang
                 assert len(lang_names) == 1
@@ -649,21 +657,21 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
         add_name_lang_tags(loc_names_dct, tags)
         add_name_lang_tags(alt_names_dct, tags)
         
-        # 4) Remove redundant :lang keys for 'no' if priority language is 'no'
-        # and no other :lang key is used for this place
+        # 4) Remove redundant :lang keys 
+        # if no other :lang key is used for this place
         lang_suffix = ssr_language_to_osm.values()
         lang_suffic_without_no = tuple(filter(lambda x: x != 'no', lang_suffix))
 
         multi_language = False
         first_pri_language = language_priority.split('-')[0]
         first_pri_language = ssr_language_to_osm_key(first_pri_language)
-        if first_pri_language == 'no':
-            for key in tags.keys():
-                if key.endswith(lang_suffic_without_no):
-                    multi_language = True
-                    break
+        #if first_pri_language == 'no':, disable, https://github.com/osmno/ssr2_to_osm/issues/2
+        for key in tags.keys():
+            if key.endswith(lang_suffic_without_no):
+                multi_language = True
+                break
 
-        if first_pri_language == 'no' and not(multi_language):
+        if not(multi_language): # first_pri_language == 'no' and 
             for key in list(tags.keys()):
                 if key.endswith(':no'):
                     key_without_lang = key[:-len(':no')]

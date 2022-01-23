@@ -1,7 +1,7 @@
 python=. venv/bin/activate; python
 git=/usr/bin/git
 
-kommuner = 5444
+kommuner = 5406
 #3020
 #1101 3020 
 
@@ -15,7 +15,7 @@ all:
 #--include_zz
 debug:
 	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune $(kommuner) 
-#$(MAKE) webpage
+	#$(MAKE) webpage
 
 webpage:
 	$(python) generate_webpage.py
