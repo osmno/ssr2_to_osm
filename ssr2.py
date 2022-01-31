@@ -216,6 +216,7 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
 
             order_spelling = int(skrivem.find(u'skrivemåtenummer').text)
             tags['name:order_spelling'] = order_spelling
+            status = skrivem.find(u'skrivemåtestatus').text            
 
             priority_spelling = skrivem.find(u'prioritertSkrivemåte')
             if priority_spelling is not None:
@@ -229,16 +230,18 @@ def parse_stedsnavn(entry, return_only=('godkjent', 'internasjonal', 'vedtatt', 
             else:
                 # gml format does not have this, divide based on parent skrivemåte or annenSkrivemåte 
                 priority_spelling = skrivem.parent.name == u'skrivemåte'
-            
-            tags['name:priority_spelling'] = priority_spelling
 
-            status = skrivem.find(u'skrivemåtestatus').text
-            tags['name:spelling_status'] = status
-
+            # https://github.com/osmno/ssr2_to_osm/issues/2, Her er det vedtatt skrivemåte, det er aldri prioritert mellom vedtatte
+            if status == u'vedtatt':
+                priority_spelling = True
+                 
             # Hack, difference between skrivemåtestatus and navnesakstatus
             if name_status == u'historisk':
                 status = u'historisk'
-            
+ 
+            tags['name:priority_spelling'] = priority_spelling
+            tags['name:spelling_status'] = status
+                
             if status in return_only:
                 parsed_names.append((name_status_num, order_spelling, tags))
             else:
@@ -562,7 +565,7 @@ def parse_geonorge(soup, create_multipoint_way=False, soup_format='xml'):
                     break
 
             #if len(names) == 0:        # use alt_name instead if available
-            upgrade_alt_names_to_names = True # https://github.com/osmno/ssr2_to_osm/issues/2 disable for now
+            upgrade_alt_names_to_names = False # https://github.com/osmno/ssr2_to_osm/issues/2 disable for now
             if lang_missing and len(alt_names_pri) != 0 and upgrade_alt_names_to_names:
                 lang_names = handle_multiple_priority_spellings(alt_names_pri,
                                                                 languages=[lang]) # only for lang
