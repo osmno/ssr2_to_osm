@@ -15,7 +15,7 @@ import openpyxl
 # this project
 from ssr2_split import copy_osm_element
 
-def read_tags(filename):
+def read_tags_excel(filename):
     wb = openpyxl.load_workbook(filename=filename, data_only=True,
                                 read_only=True)
     ws = wb.worksheets[0]
@@ -39,7 +39,7 @@ def read_tags(filename):
         #if row[ix_fixme].value != '':
         # if row[ix_fixme].value is not None:
         #     tags['tags'] += ';' + row[ix_fixme].value
-        
+
         output.append(tags)
         #for item in row:
         #    print item.column
@@ -47,6 +47,32 @@ def read_tags(filename):
         #pass
         #print row
 
+    return output
+
+def read_tags_json(filename):
+    output = list()
+    with open(filename, 'r') as f:
+        input_dct = json.load(f)
+
+    
+    for hovedgruppe in input_dct['navnetypeHovedgrupper']:
+        hovedgruppe_name = hovedgruppe['navn']
+        for gruppe in hovedgruppe['navnetypeGrupper']:
+            gruppe_name = gruppe['navn'] # ignored
+            for navnetyper in gruppe['navnetyper']:
+                navnetyper_name = navnetyper['navn']
+                
+                tags = list() # for backward compatibility, convert to key1=value1;key2=value2 string
+                for key, value in navnetyper['tags'].items():
+                    tags.append('{}={}'.format(key, value))
+                tags_str = ';'.join(tags)
+
+                output_row = dict()
+                output_row['ssr:hovedgruppe'] = hovedgruppe_name
+                output_row['ssr:type'] = navnetyper_name
+                output_row['tags'] = tags_str
+                output.append(output_row)
+            
     return output
 
 def tags_to_dict(table):
@@ -166,22 +192,30 @@ def replace_tags(filename_in,
 
     return filename_out
 
-def get_conversion(excel_filename= 'data/Tagging tabell SSR2.xlsx'):
-    table = read_tags(excel_filename)
+def get_conversion(excel_filename= None,
+                   json_filename = '../ssr2osm/navnetyper_tagged.json'):
+    table = None
+    if excel_filename is not None:
+        table = read_tags_excel(excel_filename)
+    if json_filename is not None:
+        table = read_tags_json(json_filename)
+
+    if table is None:
+        raise ValueError('Expected either excel_filename or json_filename arguments')
 
     # for row in table:
-    #     print row
+    #     print(row)
 
     d = tags_to_dict(table)
 
-    # for key in d:
-    #     print key, d[key]
+    # for key in sorted(d.keys()):
+    #     print(key, d[key])
     return d
     
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description='')
-    argparse_util.add_verbosity(parser, default=logging.DEBUG)
+    argparse_util.add_verbosity(parser, default=logging.INFO)
 
     parser.add_argument('filename', help='specify filename to replace osm tags')
     
@@ -189,8 +223,10 @@ if __name__ == '__main__':
     logging.basicConfig(level=args.loglevel)
 
     # 1) Get conversion:
-    d = get_conversion(excel_filename = 'data/Tagging tabell SSR2.xlsx')
+    #d = get_conversion(excel_filename = 'data/Tagging tabell SSR2.xlsx')
+    d = get_conversion(json_filename = '../ssr2osm/navnetyper_tagged.json')
     with open('data/ssr2_tags.json', 'w') as f:
+        print('writing', 'data/ssr2_tags.json')
         json.dump(d, f)
 
     # 2) Apply to filename

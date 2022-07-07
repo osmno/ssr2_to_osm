@@ -941,8 +941,10 @@ if __name__ == '__main__':
                         help='Output root (working) directory. This tool will store files under <root>/<kommunenummer>/')
     parser.add_argument('--kommune', nargs='+', default=['ALL'], 
                         help='Specify one or more kommune (by kommune-number or kommune-name), or use the default "ALL" (slow!)')
-    parser.add_argument('--excel_tagging', default='data/Tagging tabell SSR2.xlsx',
+    parser.add_argument('--excel_tagging', default=None,
                         help='Specify excel conversion file, used to convert from ssr category to osm tags.')
+    parser.add_argument('--json_tagging', default='../ssr2osm/navnetyper_tagged.json',
+                        help='Specify json conversion file, used to convert from ssr category to osm tags, assumed this format: https://github.com/NKAmapper/ssr2osm/blob/main/navnetyper_tagged.json.')
     parser.add_argument('--character_limit', default=-1, type=int,
                         help='For quicker debugging, reduce the number of characters sent to the xml-parser, recommended --character_limit 100000 when playing around')
     parser.add_argument('--create_multipoint_way', default=False, action='store_true',
@@ -983,7 +985,10 @@ if __name__ == '__main__':
 
     conversion = dict()
     if not(args.not_convert_tags):
-        conversion = ssr2_tags.get_conversion(excel_filename = args.excel_tagging)
+        if args.excel_tagging is not None:
+            conversion = ssr2_tags.get_conversion(excel_filename = args.excel_tagging)
+        if args.json_tagging is not None:
+            conversion = ssr2_tags.get_conversion(json_filename = args.json_tagging)
 
     #group_overview = defaultdict(list)
     root = args.output

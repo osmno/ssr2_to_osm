@@ -6,7 +6,7 @@ kommuner = 5406
 #1101 3020 
 
 #
-all:
+all: update_tagging_table
 	$(python) ssr2.py --output ssr2_to_osm_data/data/ --kommune ALL --include_zz --parallel 10 -q
 	$(MAKE) webpage
 	$(MAKE) sync
@@ -28,6 +28,9 @@ sync:
 	-cd ssr2_to_osm_data;$(git) add -A;
 	-cd ssr2_to_osm_data;$(git) com -am "Data update";
 	-cd ssr2_to_osm_data;$(git) push;
+
+update_tagging_table:
+	(cd ../ssr2osm;git pull)
 
 #sync:
 #	s3cmd sync -H --delete-removed --acl-public --storage-class=REDUCED_REDUNDANCY --exclude=*DS_Store ssr2_to_osm/ s3://ssr2-to-osm/
